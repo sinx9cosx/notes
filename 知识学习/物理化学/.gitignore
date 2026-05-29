@@ -1,0 +1,11 @@
+# Obsidian 临时文件
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Excalidraw 自动保存
+Excalidraw/*.excalidraw.autosave
