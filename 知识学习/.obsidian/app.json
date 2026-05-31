@@ -1,0 +1,15 @@
+{
+  "trashOption": "local",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "\"F:\\obsidian_notes\\附件\"",
+  "promptDelete": false,
+  "spellcheck": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true
+}
