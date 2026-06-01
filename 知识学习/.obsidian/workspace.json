@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "有机/第24章_糖类.md",
+                "file": "有机/糖类.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第24章_糖类 的大纲"
+              "title": "糖类 的大纲"
             }
           },
           {
@@ -200,10 +200,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "有机/第24章_糖类.md"
+                "file": "有机/糖类.md"
               },
               "icon": "lucide-info",
-              "title": "第24章_糖类的笔记属性"
+              "title": "糖类的笔记属性"
             }
           },
           {
@@ -235,10 +235,10 @@
       "bases:新建数据库": false
     }
   },
-  "active": "5f1741f5a08021c4",
+  "active": "c00aad711681c8a7",
   "lastOpenFiles": [
-    "有机/糖类.md",
     "有机/第24章_糖类.md",
+    "有机/糖类.md",
     "有机/第27章_合成聚合物.md",
     "物理化学/统计热力学纸质笔记转录.md",
     "有机/合成聚合物.md",
