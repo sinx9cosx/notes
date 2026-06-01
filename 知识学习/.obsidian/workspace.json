@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "物理化学/统计力学.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -206,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5,
-    "collapsed": true
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,9 +224,9 @@
   },
   "active": "a438542428b9092e",
   "lastOpenFiles": [
-    "物理化学/关于熵增加原理.md",
-    "物理化学/统计力学.md",
     "物理化学/统计热力学纸质笔记转录.md",
+    "物理化学/统计力学.md",
+    "物理化学/关于熵增加原理.md",
     "物理化学/广度性质和强度性质.md",
     "未命名.md",
     "物理化学/熵产生普适表述热力学第二定律.md",
