@@ -216,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5
+    "width": 475.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,7 +232,7 @@
       "easy-tikz:Easy TikZ": false
     }
   },
-  "active": "70f0588fa4efa4e8",
+  "active": "a438542428b9092e",
   "lastOpenFiles": [
     "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/统计力学.md",
