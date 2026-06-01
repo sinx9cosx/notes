@@ -1,6 +1,20 @@
 {
 	"nodes":[
-		{"id":"476e7f8ab75569df","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":""}
+		{"id":"55eb0333d8777b42","type":"group","x":138,"y":-440,"width":290,"height":363},
+		{"id":"476e7f8ab75569df","type":"text","text":"量子力学","x":-520,"y":-426,"width":140,"height":60,"color":"1"},
+		{"id":"96b031603c0ef28b","type":"text","text":"量子力学基本假设","x":-260,"y":-629,"width":250,"height":60},
+		{"id":"757875d4f58dbd4f","type":"text","text":"1. 波函数\n2. 厄米算符\n3. 本征值\n4. 期望值","x":140,"y":-703,"width":263,"height":208,"color":"4"},
+		{"id":"2c00acfa8d6ead49","type":"text","text":"势阱","x":158,"y":-420,"width":250,"height":60,"color":"4"},
+		{"id":"032ce765459dabc9","type":"text","text":"谐振子","x":158,"y":-157,"width":250,"height":60,"color":"4"},
+		{"id":"907bf3f7dd0a0ada","type":"text","text":"球上粒子","x":158,"y":-244,"width":250,"height":60,"color":"4"},
+		{"id":"0d1d1bbf05b04a16","type":"text","text":"环上粒子","x":158,"y":-332,"width":250,"height":60,"color":"4"},
+		{"id":"a00b56f8b2567832","type":"text","text":"在原子/分子中的应用","x":-260,"y":60,"width":250,"height":60},
+		{"id":"ede8c9b072e5fad7","type":"text","text":"基本粒子模型","x":-260,"y":-302,"width":250,"height":60},
+		{"id":"8c90e1c6e2751403","x":70,"y":-22,"width":250,"height":60,"type":"text","text":"氢原子"},
+		{"id":"11801c04e2d6900c","x":117,"y":89,"width":250,"height":60,"type":"text","text":"氦原子"},
+		{"id":"cf6c7ae6935260ee","x":34,"y":206,"width":250,"height":60,"type":"text","text":"$H_{2}$"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"bc18754e13f65767","fromNode":"96b031603c0ef28b","fromSide":"right","toNode":"757875d4f58dbd4f","toSide":"left","color":"5"}
+	]
 }
