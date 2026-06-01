@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "物理化学/统计力学.md",
+                "file": "物理化学/孤立体系的平衡判据.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计力学"
+              "title": "孤立体系的平衡判据"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:熵",
+                "query": "tag:#物理化学  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/统计力学.md",
+                "file": "物理化学/孤立体系的平衡判据.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计力学 的大纲"
+              "title": "孤立体系的平衡判据 的大纲"
             }
           },
           {
@@ -222,10 +223,11 @@
       "easy-tikz:Easy TikZ": false
     }
   },
-  "active": "a438542428b9092e",
+  "active": "bd1b435e45338c75",
   "lastOpenFiles": [
-    "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/统计力学.md",
+    "物理化学/热力学第二定律.md",
+    "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/关于熵增加原理.md",
     "物理化学/广度性质和强度性质.md",
     "未命名.md",
@@ -251,7 +253,6 @@
     "物理化学/理想气体内能与压力无关的证明.md",
     "附件",
     "物理化学/焓…….md",
-    "物理化学/物质体系的微观运动的基本规律.md",
     "有机",
     "仪器分析/跳转目录",
     "仪器分析",
