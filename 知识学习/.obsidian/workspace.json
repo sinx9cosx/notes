@@ -50,7 +50,8 @@
               "title": "统计热力学纸质笔记转录"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas",
+                "file": "物理化学/Excalidraw/量子力学导图.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "量子力学导图 的大纲"
             }
           },
           {
@@ -200,10 +201,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "未命名.canvas"
+                "file": "物理化学/Excalidraw/量子力学导图.md"
               },
               "icon": "lucide-info",
-              "title": "未命名的笔记属性"
+              "title": "量子力学导图的笔记属性"
             }
           },
           {
@@ -238,10 +239,11 @@
       "easy-tikz:Easy TikZ": false
     }
   },
-  "active": "a438542428b9092e",
+  "active": "557b93b18f11babc",
   "lastOpenFiles": [
-    "物理化学/Excalidraw/量子力学导图.md",
     "未命名.canvas",
+    "物理化学/Excalidraw/量子力学导图.md",
+    "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/量子力学.md",
     "物理化学/孤立体系的平衡判据.md",
     "有机/氨基酸、肽和蛋白质.md",
@@ -249,7 +251,6 @@
     "物理化学/信息熵作业.md",
     "物理化学/物质体系的微观运动的基本规律.md",
     "物理化学/物化实验报告要求.md",
-    "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/统计力学.md",
     "物理化学/熵产生普适表述热力学第二定律.md",
     "物理化学/熵（习题5.31）.md",
