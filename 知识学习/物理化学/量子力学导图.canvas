@@ -21,7 +21,8 @@
 		{"id":"6365dffa1fba5d8d","type":"text","text":"PES分子势能曲线","x":540,"y":200,"width":250,"height":60},
 		{"id":"14af30622c7a617e","type":"text","text":"LCAO原子轨道线性组合","x":540,"y":288,"width":285,"height":60},
 		{"id":"d9438aedf11e6727","type":"text","text":"分子轨道理论简介","x":540,"y":376,"width":250,"height":60},
-		{"id":"c58c8bd0b12efedb","type":"text","text":"泡利不相容原理","x":540,"y":94,"width":250,"height":60}
+		{"id":"c58c8bd0b12efedb","type":"text","text":"泡利不相容原理","x":540,"y":94,"width":250,"height":60},
+		{"id":"36ced2ace45b4c3d","x":-676,"y":-474,"width":250,"height":60,"color":"6","type":"text","text":"[[量子力学]]"}
 	],
 	"edges":[
 		{"id":"bc18754e13f65767","fromNode":"96b031603c0ef28b","fromSide":"right","toNode":"757875d4f58dbd4f","toSide":"left","color":"5"},
@@ -36,6 +37,7 @@
 		{"id":"3f7fc6cdd6999be0","fromNode":"0d1d1bbf05b04a16","fromSide":"right","toNode":"317ef6b411fa4652","toSide":"left","toEnd":"none"},
 		{"id":"e85c0e17489f90ff","fromNode":"11801c04e2d6900c","fromSide":"right","toNode":"c58c8bd0b12efedb","toSide":"left","toEnd":"none"},
 		{"id":"2cda13ea03aecc15","fromNode":"cf6c7ae6935260ee","fromSide":"right","toNode":"b194babac2829dbe","toSide":"left","toEnd":"none"},
-		{"id":"8d3927271a870e99","fromNode":"476e7f8ab75569df","fromSide":"right","toNode":"96016bf33ed74c5d","toSide":"left","color":"1"}
+		{"id":"8d3927271a870e99","fromNode":"476e7f8ab75569df","fromSide":"right","toNode":"96016bf33ed74c5d","toSide":"left","color":"1"},
+		{"id":"e34a67a37da85d48","fromNode":"476e7f8ab75569df","fromSide":"top","toNode":"36ced2ace45b4c3d","toSide":"bottom"}
 	]
 }

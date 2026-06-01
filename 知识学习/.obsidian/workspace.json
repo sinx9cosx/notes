@@ -11,17 +11,14 @@
             "id": "a438542428b9092e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "物理化学/量子力学导图.canvas",
-                "viewState": {
-                  "x": 112.5,
-                  "y": -123.5,
-                  "zoom": -0.6244248555851322
-                }
+                "file": "物理化学/统计力学.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "量子力学导图"
+              "icon": "lucide-file",
+              "title": "统计力学"
             }
           },
           {
@@ -173,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/量子力学导图.canvas",
+                "file": "物理化学/统计力学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "量子力学导图 的大纲"
+              "title": "统计力学 的大纲"
             }
           },
           {
@@ -188,10 +185,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "物理化学/量子力学导图.canvas"
+                "file": "物理化学/统计力学.md"
               },
               "icon": "lucide-info",
-              "title": "量子力学导图的笔记属性"
+              "title": "统计力学的笔记属性"
             }
           },
           {
@@ -202,6 +199,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "5a6b6dfc84ca0083",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -215,7 +222,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -228,12 +234,13 @@
   },
   "active": "a438542428b9092e",
   "lastOpenFiles": [
+    "物理化学/关于权重W.md",
+    "物理化学/量子力学导图.canvas",
+    "物理化学/量子力学.md",
     "物理化学/统计力学.md",
     "物理化学/广度性质和强度性质.md",
     "物理化学/焓…….md",
     "物理化学/理想气体内能与压力无关的证明.md",
-    "物理化学/量子力学.md",
-    "物理化学/量子力学导图.canvas",
     "物理化学/Excalidraw/量子力学导图.md",
     "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/孤立体系的平衡判据.md",
@@ -246,7 +253,6 @@
     "物理化学/熵（习题5.31）.md",
     "物理化学/热力学第一课时.md",
     "物理化学/关于熵增加原理.md",
-    "物理化学/关于权重W.md",
     "物理化学/热力学第二定律.md",
     "未命名.md",
     "有机/有机化合物命名.md",

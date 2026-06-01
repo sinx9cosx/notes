@@ -794,7 +794,7 @@
     }
   ],
   "customCategories": [],
-  "selectedCategoryId": "flowchart",
+  "selectedCategoryId": "packet",
   "defaultCategorySortOrders": {
     "sequenceDiagram": 0,
     "flowchart": 1
