@@ -5,5 +5,6 @@
   "highlightr-plugin",
   "obsidian-plugin-toc",
   "better-export-pdf",
-  "obsidian-git"
+  "obsidian-git",
+  "mermaid-tools"
 ]
