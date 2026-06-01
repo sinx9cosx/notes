@@ -7,5 +7,6 @@
   "better-export-pdf",
   "obsidian-git",
   "mermaid-tools",
-  "easy-tikz"
+  "easy-tikz",
+  "obsidian-tikzjax"
 ]
