@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "物理化学/Thermochemistry_in_Gaussian_中文翻译.md",
+                "file": "物理化学/统计热力学纸质笔记转录.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thermochemistry_in_Gaussian_中文翻译"
+              "title": "统计热力学纸质笔记转录"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/Thermochemistry_in_Gaussian_中文翻译.md",
+                "file": "物理化学/统计力学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Thermochemistry_in_Gaussian_中文翻译 的大纲"
+              "title": "统计力学 的大纲"
             }
           },
           {
@@ -232,35 +231,35 @@
       "easy-tikz:Easy TikZ": false
     }
   },
-  "active": "f4898e46c510c305",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
-    "物理化学/Thermochemistry_in_Gaussian.md",
-    "物理化学/Thermochemistry_in_Gaussian_中文翻译.md",
-    "物理化学/等概率公设.md",
-    "Thermochemistry_in_Gaussian_中文翻译.md",
-    "物理化学/统计力学.md",
-    "等概率公设.md",
-    "有机/有机化合物命名.md",
-    "有机/脂类.md",
-    "有机/糖类.md",
-    "有机/合成聚合物.md",
-    "有机/氨基酸、肽和蛋白质.md",
-    "有机/第27章_合成聚合物.md",
     "物理化学/统计热力学纸质笔记转录.md",
-    "有机/第26章_脂类.md",
-    "有机/第25章_氨基酸肽和蛋白质.md",
-    "有机/第24章_糖类.md",
-    "物理化学/玻尔兹曼分布成立条件.md",
-    "物理化学/关于权重W.md",
-    "物理化学/量子力学导图.canvas",
-    "物理化学/量子力学.md",
+    "物理化学/统计力学.md",
+    "仪器分析/紫外可见吸收光谱法.md",
+    "仪器分析/原子发射光谱仪器.md",
+    "仪器分析/原子发射光谱基本原理.md",
+    "仪器分析/有效数字.md",
+    "仪器分析/信噪比.md",
+    "物理化学/熵产生普适表述热力学第二定律.md",
+    "物理化学/熵（习题5.31）.md",
+    "仪器分析/朗伯-比尔定律.md",
+    "仪器分析/精密度.md",
+    "仪器分析/检出限和定量限.md",
     "物理化学/广度性质和强度性质.md",
-    "物理化学/焓…….md",
-    "物理化学/理想气体内能与压力无关的证明.md",
-    "物理化学/Excalidraw/量子力学导图.md",
+    "仪器分析/光吸收曲线.md",
+    "仪器分析/光谱分析仪器基本结构.md",
+    "仪器分析/光谱分析方法.md",
+    "物理化学/关于熵增加原理.md",
+    "物理化学/关于权重W.md",
     "物理化学/孤立体系的平衡判据.md",
-    "物理化学/雨课堂讨论题汇总.md",
-    "物理化学/信息熵作业.md",
+    "仪器分析/分析仪器校正方法.md",
+    "仪器分析/分析方法分类.md",
+    "仪器分析/电磁辐射与物质的相互作用.md",
+    "仪器分析/电磁辐射的性质.md",
+    "物理化学/量子力学.md",
+    "物理化学/高斯中的热化学-翻译.md",
+    "物理化学/Thermochemistry_in_Gaussian.md",
+    "物理化学/量子力学导图.canvas",
     "附件/熵与内能习题.png",
     "附件",
     "有机",
