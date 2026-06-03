@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "物理化学/统计力学.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "物理化学/统计热力学纸质笔记转录.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -231,7 +231,7 @@
       "easy-tikz:Easy TikZ": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "255936db24c220b3",
   "lastOpenFiles": [
     "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/统计力学.md",
