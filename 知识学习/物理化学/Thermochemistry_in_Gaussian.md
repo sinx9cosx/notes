@@ -1,4 +1,13 @@
-# Thermochemistry in *Gaussian*
+---
+tags:
+  - 统计力学
+  - 物理化学
+  - 物理化学/熵
+  - 热力学
+Category:
+  - 课内/讲义
+---
+
 
 <div align="center">
 
