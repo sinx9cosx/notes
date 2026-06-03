@@ -1,0 +1,768 @@
+---
+tags:
+  - 热力学
+  - 物理化学
+  - 统计力学
+  - 高斯
+Category:
+  - 课内/讲义
+---
+
+<div align="center">
+
+# *Gaussian* 中的热化学
+
+Joseph W. Ochterski, Ph.D.  
+`help@gaussian.com`  
+©2000, Gaussian, Inc.
+
+2000年6月2日
+
+</div>
+
+<div align="center">
+
+**摘要**
+
+本文旨在解释如何在 *Gaussian* 中计算各种热化学数值。文中记录了用于计算这些量的方程，但并未对它们进行极为详细的解释，因此假定读者对统计力学概念（如配分函数）有基本的理解。本文解释了 *Gaussian* 的热化学输出，并给出了几个示例，包括计算反应的焓变与吉布斯自由能、分子的生成热以及反应的绝对速率。
+
+</div>
+
+## 目录
+
+1 引言 .................................................................................... 2  
+2 热力学量的各组成部分来源 .................................................... 2  
+　2.1 平动贡献 .................................................................. 3  
+　2.2 电子运动贡献 .............................................................. 4  
+　2.3 转动运动贡献 .............................................................. 4  
+　2.4 振动运动贡献 .............................................................. 6  
+3 *Gaussian* 的热化学输出 ........................................................ 8  
+　3.1 频率计算的输出 .............................................................. 8  
+　3.2 复合模型化学方法的输出 .................................................... 11  
+4 计算实例 ............................................................................... 11  
+　4.1 反应的焓与自由能 ............................................................ 12  
+　4.2 反应速率 ..................................................................... 12  
+　4.3 生成焓与生成自由能 ........................................................ 14  
+5 总结 ...................................................................................... 17  
+
+---
+*页码 1*
+
+---
+
+## 1　引言
+
+*Gaussian* 中用于计算热化学数据的方程与标准热力学教材中给出的方程是等价的。下文讨论的许多内容在 McQuarrie 与 Simon（1999）所著的《分子热力学》中有详细论述。我在本文中对若干方程与该书相应方程进行了交叉引用，以便更容易确定每个方程推导过程中所作出的假设。这些交叉引用的形式为 [McQuarrie, §7-6, Eq. 7.27]，表示该书第 7-6 节的方程 7.27。
+
+在整个分析过程中，需要意识到的一个最重要的近似是：所有方程均假设粒子间无相互作用，因此*仅*适用于理想气体。由于所研究的实际体系都是非理想的，这一限制会引入一定的误差。此外，对于电子贡献，假设第一激发态及所有更高激发态均完全不可达。这一近似通常不会带来问题，但对于具有低激发电子态的体系，可能会引入一些误差。
+
+本文中的示例通常在 HF/STO-3G 理论水平下进行。其目的是提供说明性示例，而非研究级别的结果。
+
+本文的第一节即本引言。在下一节中，我将给出用于计算平动、电子运动、转动和振动贡献的方程。然后在第三节中描述一份示例输出，以展示每一部分如何与上述方程对应。第四节包含若干计算实例，其中我计算了一个简单双分子反应的反应热与反应吉布斯自由能，以及另一个反应的绝对反应速率。最后，附录列出了我所使用的全部符号、它们的含义以及常数的取值。
+
+## 2　热力学量的各组成部分来源
+
+在接下来的四个小节中，我将给出用于计算平动、电子运动、转动和振动运动对熵、能量和热容的贡献的方程。每种情况下的出发点都是总配分函数的相应组分所对应的配分函数 $q(V,T)$。在本节中，我将概述如何从配分函数计算熵、能量和热容。
+
+任何组分的配分函数均可用于确定该组分对熵的贡献 $S$，所使用的关系式为 [McQuarrie, §7-6, Eq. 7.27]：
+
+$$S = Nk_B + Nk_B \ln\left(\frac{q(V,T)}{N}\right) + Nk_BT\left(\frac{\partial \ln q}{\partial T}\right)_V$$
+
+*Gaussian* 中所使用的形式是一个特例。首先，给出的是摩尔量，因此我们可以除以 $n = N/N_A$，并代入 $N_Ak_B = R$。我们还可以将第一项移入对数中（作为 $e$），在 $N=1$ 时得到：
+
+$$
+\begin{aligned}
+S &= R + R\ln\left(q(V,T)\right) + RT\left(\frac{\partial \ln q}{\partial T}\right)_V \\
+  &= R\ln\left(q(V,T)e\right) + RT\left(\frac{\partial \ln q}{\partial T}\right)_V \\
+  &= R\left(\ln(q_t q_e q_r q_v e) + T\left(\frac{\partial \ln q}{\partial T}\right)_V\right)
+\end{aligned}
+\tag{1}
+$$
+
+内热能 $E$ 也可以从配分函数得到 [McQuarrie, §3-8, Eq. 3.41]：
+
+$$E = Nk_BT^2\left(\frac{\partial \ln q}{\partial T}\right)_V, \tag{2}$$
+
+最终，能量可用于求得热容 [McQuarrie, §3.4, Eq. 3.25]：
+
+$$C_V = \left(\frac{\partial E}{\partial T}\right)_{N,V} \tag{3}$$
+
+这三个方程将用于推导计算 *Gaussian* 打印出的热力学量各组分的最终表达式。
+
+---
+*页码 2*
+
+---
+
+### 2.1　平动贡献
+
+McQuarrie 及其他教材中给出的平动配分函数方程为 [McQuarrie, §4-1, Eq. 4.6]：
+
+$$q_t = \left(\frac{2\pi mk_BT}{h^2}\right)^{3/2}V.$$
+
+$q_t$ 对 $T$ 的偏导数为：
+
+$$\left(\frac{\partial \ln q_t}{\partial T}\right)_V = \frac{3}{2T}$$
+
+该式将用于计算内能 $E_t$ 以及式 (1) 中的第三项。
+
+式 (1) 中的第二项稍微棘手一些，因为我们不知道 $V$。然而，对于理想气体，$PV = NRT = \left(\frac{n}{N_A}\right)N_Ak_BT$，且 $V = \frac{k_BT}{P}$。因此，
+
+$$q_t = \left(\frac{2\pi mk_BT}{h^2}\right)^{3/2}\frac{k_BT}{P}.$$
+
+这正是 *Gaussian* 中用于计算 $q_t$ 的表达式。注意，我们在推导第三项时无需进行这一替换，因为偏导数是在 $V$ 恒定的条件下求的。
+
+平动配分函数用于计算平动熵（其中包含了来自 Stirling 近似的因子 $e$）：
+
+$$
+\begin{aligned}
+S_t &= R\left(\ln(q_t e) + T\left(\frac{3}{2T}\right)\right) \\
+    &= R(\ln q_t + 1 + 3/2).
+\end{aligned}
+$$
+
+---
+*页码 3*
+
+---
+
+### 2.2　电子运动贡献
+
+电子配分函数为：
+
+$$q_e = g_e e^{-\epsilon_e/k_BT}$$
+
+其中 $g_e$ 为电子态的简并度（对自由基几乎总是 2，对闭壳层为 1）。其对 $T$ 的导数为：
+
+$$\left(\frac{\partial \ln q_e}{\partial T}\right)_V = \frac{\epsilon_e}{k_BT^2}$$
+
+对熵的贡献为：
+
+$$S_e = R\left(\ln q_e + T\left(\frac{\epsilon_e}{k_BT^2}\right)\right) = R(\ln q_e + \epsilon_e/k_BT)$$
+
+对内热能的贡献为：
+
+$$E_e = RT^2\left(\frac{\epsilon_e}{k_BT^2}\right) = \frac{\epsilon_e}{k_B}R = N_A\epsilon_e$$
+
+因此，对热容的贡献为零：
+
+$$C_e = 0$$
+
+对于单重态分子，$g_e = 1$，且能量通常取为零，故 $q_e = 1$，$S_e = E_e = C_e = 0$。
+
+### 2.3　转动运动贡献
+
+对于线性分子，转动配分函数为 [McQuarrie, §4-6, Eq. 4.38]：
+
+$$q_r = \frac{1}{\sigma_r}\left(\frac{T}{\Theta_r}\right)$$
+
+其中 $\Theta_r = h^2/8\pi^2Ik_B$，$I$ 为转动惯量。转动对熵的贡献为
+
+$$
+\begin{aligned}
+S_r &= R\left(\ln q_r + T\left(\frac{\partial \ln q_r}{\partial T}\right)_V\right) \\
+    &= R(\ln q_r + 1).
+\end{aligned}
+$$
+
+转动对内热能的贡献为
+
+$$
+\begin{aligned}
+E_r &= RT^2\left(\frac{\partial \ln q_r}{\partial T}\right)_V \\
+    &= RT^2\left(\frac{1}{T}\right) \\
+    &= RT
+\end{aligned}
+$$
+
+对热容的贡献为
+
+$$
+\begin{aligned}
+C_r &= \left(\frac{\partial E_r}{\partial T}\right)_V \\
+    &= R.
+\end{aligned}
+$$
+
+对于非线性多原子分子的一般情况，转动配分函数为 [McQuarrie, §4-8, Eq. 4.56]：
+
+$$q_r = \frac{\pi^{1/2}}{\sigma_r}\left(\frac{T^{3/2}}{(\Theta_{r,x}\Theta_{r,y}\Theta_{r,z})^{1/2}}\right)$$
+
+此时 $\left(\frac{\partial \ln q}{\partial T}\right)_V = \frac{3}{2T}$，因此该配分函数对应的熵为
+
+$$
+\begin{aligned}
+S_r &= R\left(\ln q_r + T\left(\frac{\partial \ln q_r}{\partial T}\right)_V\right) \\
+    &= R(\ln q_r + \frac{3}{2}).
+\end{aligned}
+$$
+
+最后，对内热能的贡献为
+
+$$
+\begin{aligned}
+E_r &= RT^2\left(\frac{\partial \ln q_r}{\partial T}\right)_V \\
+    &= RT^2\left(\frac{3}{2T}\right) \\
+    &= \frac{3}{2}RT
+\end{aligned}
+$$
+
+---
+*页码 4/5*
+
+---
+
+对热容的贡献为
+
+$$
+\begin{aligned}
+C_r &= \left(\frac{\partial E_r}{\partial T}\right)_V \\
+    &= \frac{3}{2}R.
+\end{aligned}
+$$
+
+每个转动自由度对内热能的平均贡献为 $RT/2$，而对 $C_r$ 的贡献为 $R/2$。
+
+### 2.4　振动运动贡献
+
+振动运动对配分函数、熵、内能和定容热容的贡献由各振动模式 $K$ 的贡献之和（或积）构成。仅考虑实频模式；具有虚频的模式（即在输出中以负号标记的那些）被忽略。$3n_{\text{原子}}-6$（线性分子为 $3n_{\text{原子}}-5$）个模式中的每一个都具有一个特征振动温度 $\Theta_{v,K} = h\nu_K/k_B$。
+
+计算配分函数有两种方式，取决于你选择将能量零点置于何处： either 核间势能阱的底部，或第一振动能级。选择哪种方式取决于零点能的贡献是否将单独计算。如果单独计算，则应使用势阱底部作为参考点；否则，第一振动能级是合适的选择。
+
+如果你选择势阱底部作为能量零点参考点（`BOT`），则给定振动模式对配分函数的贡献为 [McQuarrie, §4-4, Eq. 4.24]：
+
+$$q_{v,K} = \frac{e^{-\Theta_{v,K}/2T}}{1-e^{-\Theta_{v,K}/T}}$$
+
+总的振动配分函数为 [McQuarrie, §4-7, Eq. 4.46]：
+
+$$q_v = \prod_K \frac{e^{-\Theta_{v,K}/2T}}{1-e^{-\Theta_{v,K}/T}}$$
+
+另一方面，如果你选择第一振动能级作为能量零点（`V=0`），则每个振动能级的配分函数为
+
+$$q_{v,K} = \frac{1}{1-e^{-\Theta_{v,K}/T}}$$
+
+总的振动配分函数为：
+
+$$q_v = \prod_K \frac{1}{1-e^{-\Theta_{v,K}/T}}$$
+
+*Gaussian* 使用势阱底部作为能量零点（`BOT`）来确定其他热力学量，但也打印出 `V=0` 的配分函数。归根结底，两种参考点之间的唯一区别是在内能 $E_v$ 的方程中额外多出的因子 $\Theta_{v,K}/2$（即零点振动能）。在热容和熵的表达式中，这一因子会消失，因为要对温度 ($T$) 求导。
+
+振动配分函数对总熵的贡献为：
+
+$$
+\begin{aligned}
+S_v &= R\left(\ln(q_v) + T\left(\frac{\partial \ln q}{\partial T}\right)_V\right) \\
+    &= R\left(\ln(q_v) + T\left(\sum_K \frac{\Theta_{v,K}}{2T^2} + \sum_K \frac{(\Theta_{v,K}/T^2)e^{-\Theta_{v,K}/T}}{1-e^{-\Theta_{v,K}/T}}\right)\right) \\
+    &= R\left(\sum_K\left(\frac{\Theta_{v,K}}{2T} + \ln(1-e^{-\Theta_{v,K}/T})\right) + T\left(\sum_K \frac{\Theta_{v,K}}{2T^2} + \sum_K \frac{(\Theta_{v,K}/T^2)e^{-\Theta_{v,K}/T}}{1-e^{-\Theta_{v,K}/T}}\right)\right) \\
+    &= R\left(\sum_K \ln(1-e^{-\Theta_{v,K}/T}) + \left(\sum_K \frac{(\Theta_{v,K}/T)e^{-\Theta_{v,K}/T}}{1-e^{-\Theta_{v,K}/T}}\right)\right) \\
+    &= R\sum_K\left(\frac{\Theta_{v,K}/T}{e^{\Theta_{v,K}/T}-1} - \ln(1-e^{-\Theta_{v,K}/T})\right)
+\end{aligned}
+$$
+
+要从上式的第四行得到第五行，你需要乘以 $\frac{e^{\Theta_{v,K}/T}}{e^{\Theta_{v,K}/T}}$。
+
+分子振动对内热能的贡献为
+
+$$E_v = R\sum_K \Theta_{v,K}\left(\frac{1}{2} + \frac{1}{e^{\Theta_{v,K}/T}-1}\right)$$
+
+最后，对定容热容的贡献为
+
+$$C_v = R\sum_K e^{\Theta_{v,K}/T}\left(\frac{\Theta_{v,K}/T}{e^{-\Theta_{v,K}/T}-1}\right)^2$$
+
+低频模式（定义见下文）被*包含*在上述计算中。其中某些模式可能是内转动，因此可能需要根据温度和能垒单独处理。为了便于对这些模式进行校正，它们被单独打印出来，以便你可以将其减去。*Gaussian* 中的低频模式定义为：在室温下，超过百分之五的分子聚集体可能处于振动激发态的模式。换算成其他单位，这大约对应于 625 cm$^{-1}$、$1.9\times10^{13}$ Hz，或振动温度 900 K。
+
+可以通过 `Freq=HindRot` 关键词让 *Gaussian* 自动为你执行部分此类分析。这部分代码仍在改进中，因此我不打算详细讨论。关于 *Gaussian* 中的受阻转子分析以及校正这些效应导致的配分函数的方法，详见 P. Y. Ayala 和 H. B. Schlegel, J. Chem. Phys. **108** 2314 (1998) 及其参考文献。
+
+---
+*页码 5/6/7*
+
+---
+
+## 3　*Gaussian* 的热化学输出
+
+本节介绍 *Gaussian* 热化学输出的大部分内容，以及它们如何与我上面给出的方程相对应。
+
+### 3.1　频率计算的输出
+
+在本节中，我故意使用了一个未优化的结构，以展示更多的输出。对于生产运行，使用一阶导数为零的结构是*非常*重要的——也就是说，对于极小值、过渡态和高阶鞍点。偶尔也可以使用某个模式具有非零一阶导数的结构，例如沿 IRC 的情况。关于为什么在势能面上必须处于驻点，详见我的白皮书《*Gaussian* 中的振动分析》。
+
+大部分输出是自明的。我只对其中一些可能不太直观的部分加以说明。部分输出在 James B. Foresman 和 Æleen Frisch 所著的《Exploring Chemistry with Electronic Structure Methods, Second Edition》中也有描述。
+
+```
+-------------------
+- Thermochemistry -
+-------------------
+
+Temperature   298.150 Kelvin.  Pressure   1.00000 Atm.
+Atom  1 has atomic number  6 and mass   12.00000
+Atom  2 has atomic number  6 and mass   12.00000
+Atom  3 has atomic number  1 and mass    1.00783
+Atom  4 has atomic number  1 and mass    1.00783
+Atom  5 has atomic number  1 and mass    1.00783
+Atom  6 has atomic number  1 and mass    1.00783
+Atom  7 has atomic number  1 and mass    1.00783
+Atom  8 has atomic number  1 and mass    1.00783
+Molecular mass:    30.04695 amu.
+```
+
+下一节根据转动惯量给出了分子的一些特征，包括转动温度和转动常数。零点能仅使用非虚频计算。
+
+```
+Principal axes and moments of inertia in atomic units:
+                 1         2         3
+EIGENVALUES --  23.57594  88.34097  88.34208
+          X      1.00000   0.00000   0.00000
+          Y      0.00000   1.00000   0.00001
+          Z      0.00000  -0.00001   1.00000
+THIS MOLECULE IS AN ASYMMETRIC TOP.
+ROTATIONAL SYMMETRY NUMBER  1.
+ROTATIONAL TEMPERATURES (KELVIN)     3.67381    0.98044    0.98043
+```
+
+---
+*页码 7/8*
+
+---
+
+```
+ROTATIONAL CONSTANTS (GHZ)        76.55013   20.42926   20.42901
+Zero-point vibrational energy   204885.0 (Joules/Mol)
+                                 48.96870 (Kcal/Mol)
+```
+
+如果你看到以下警告，它可能预示着两种情况之一。首先，如果你的结构对所有非虚频模式来说并非极小值，则经常会出现此警告。你应该返回并重新优化你的结构，因为基于该结构的所有热化学计算很可能是错误的。其次，它可能表明你的体系中存在内转动。你应该校正由这种情况导致的误差。
+
+```
+WARNING-- EXPLICIT CONSIDERATION OF   1 DEGREES OF FREEDOM AS
+          VIBRATIONS MAY CAUSE SIGNIFICANT ERROR
+```
+
+然后是振动温度和零点能 (ZPE)：
+
+```
+VIBRATIONAL TEMPERATURES:    602.31  1607.07  1607.45  1683.83  1978.85
+     (KELVIN)                1978.87  2303.03  2389.95  2389.96  2404.55
+                             2417.29  2417.30  4202.52  4227.44  4244.32
+                             4244.93  4291.74  4292.31
+```
+
+Zero-point correction=                          0.078037 (Hartree/Particle)
+
+接下来的几行都包含零点能。第一行给出了对内热能的修正，$E_{\text{tot}} = E_t + E_r + E_v + E_e$。
+
+Thermal correction to Energy=                   0.081258
+
+接下来两行分别是
+
+$$H_{\text{corr}} = E_{\text{tot}} + k_BT$$
+
+和
+
+$$G_{\text{corr}} = H_{\text{corr}} - TS_{\text{tot}},$$
+
+其中 $S_{\text{tot}} = S_t + S_r + S_v + S_e$。
+
+Thermal correction to Enthalpy=                 0.082202
+Thermal correction to Gibbs Free Energy=        0.055064
+
+吉布斯自由能已包含 $\Delta PV = \Delta NRT$，因此当用它来计算反应的 $\Delta G$ 时，$\Delta NRT \approx \Delta PV$ 已经包含在内。这意味着当反应过程中气体的摩尔数发生变化时，$\Delta G$ 仍将被正确计算。
+
+再往下四行是在施加各种修正后分子总能量的估计值。由于我已经用 $E$ 表示内热能，我将用 $\mathcal{E}_0$ 表示总电子能量。
+
+Sum of electronic and zero-point energies = $\mathcal{E}_0 + \mathcal{E}_{\text{ZPE}}$
+
+---
+*页码 8/9*
+
+---
+
+Sum of electronic and thermal energies = $\mathcal{E}_0 + E_{\text{tot}}$
+
+Sum of electronic and thermal enthalpies = $\mathcal{E}_0 + H_{\text{corr}}$
+
+Sum of electronic and thermal free energies = $\mathcal{E}_0 + G_{\text{corr}}$
+
+```
+Sum of electronic and zero-point Energies=         -79.140431
+Sum of electronic and thermal Energies=            -79.137210
+Sum of electronic and thermal Enthalpies=          -79.136266
+Sum of electronic and thermal Free Energies=       -79.163404
+```
+
+下一节是一个表格，列出了内热能 ($E_{\text{tot}}$)、定容热容 ($C_{\text{tot}}$) 和熵 ($S_{\text{tot}}$) 的各分项贡献。对于每一个低频模式，都会有一行类似该表最后一行（标记为 VIBRATION 1）的内容。该行给出了该特定模式对 $E_{\text{tot}}$、$C_{\text{tot}}$ 和 $S_{\text{tot}}$ 的贡献。如果你觉得这些值是误差的来源，可以将它们减去。
+
+```
+                         E (Thermal)       CV                S
+                         KCAL/MOL          CAL/MOL-KELVIN    CAL/MOL-KELVIN
+TOTAL                    50.990            8.636             57.118
+ELECTRONIC               0.000             0.000             0.000
+TRANSLATIONAL            0.889             2.981             36.134
+ROTATIONAL               0.889             2.981             19.848
+VIBRATIONAL              49.213            2.674             1.136
+VIBRATION  1             0.781             1.430             0.897
+```
+
+最后是一个表格，列出了对配分函数的各分项贡献。标记为 `BOT` 的行对应以势阱底部为零点计算的振动配分函数，而标记为 `(V=0)` 的行对应以第一振动能级为零点计算的配分函数。同样，低频模式也被单独列出。
+
+```
+                         Q                 LOG10(Q)          LN(Q)
+TOTAL BOT                0.470577D-25      -25.327369        -58.318422
+TOTAL V=0                0.368746D+11      10.566728         24.330790
+VIB (BOT)                0.149700D-35      -35.824779        -82.489602
+VIB (BOT)  1             0.419879D+00      -0.376876         -0.867789
+VIB (V=0)                0.117305D+01      0.069318          0.159610
+VIB (V=0)  1             0.115292D+01      0.061797          0.142294
+ELECTRONIC               0.100000D+01      0.000000          0.000000
+TRANSLATIONAL            0.647383D+07      6.811161          15.683278
+ROTATIONAL               0.485567D+04      3.686249          8.487901
+```
+
+---
+*页码 9/10*
+
+---
+
+### 3.2　复合模型化学方法的输出
+
+本节解释复合模型化学（如 CBS-QB3 或 G2）摘要输出中各种热化学量的含义。
+
+我以水的 CBS-QB3 计算为例，但讨论直接适用于 *Gaussian* 中所有其他复合模型。输出中感兴趣的两行如下：
+
+```
+CBS-QB3 (0 K)=           -76.337451 CBS-QB3 Energy=          -76.334615
+CBS-QB3 Enthalpy=        -76.333671 CBS-QB3 Free Energy=     -76.355097
+```
+
+以下是这些量的含义。
+
+- **CBS-QB3 (0 K)**：这是由复合模型定义的总电子能量，包含按模型定义的比例因子缩放后的零点能。
+- **CBS-QB3 Energy**：这是总电子能量加上内热能，直接来自输出中频率部分的热化学输出。已包含缩放后的零点能。
+- **CBS-QB3 Enthalpy**：这是总电子能量加上 $H_{\text{corr}}$，如上所述，但未缩放（unscaled）的零点能已被移除。该总和适用于计算反应焓，如下所述。
+- **CBS-QB3 Free Energy**：这是总电子能量加上 $G_{\text{corr}}$，同样已移除未缩放的零点能。该总和适用于计算反应的吉布斯自由能，如下所述。
+
+## 4　计算实例
+
+在本节中，我将展示如何利用这些结果生成各种热化学信息。
+
+我针对乙基自由基从分子氢中夺取氢原子的反应进行了反应物和产物的计算：
+
+$$C_2H_5 + H_2 \rightarrow C_2H_6 + H$$
+
+以及过渡态（均在 1.0 大气压和 298.15 K 下）。*Gaussian* 的热化学输出汇总于表 1。
+
+一旦你获得了所有相关物种的数据，就可以计算你感兴趣的物理量。除非另有说明，所有焓值均在 298.15 K 下。我将使用 $298K \approx 298.15K$ 以简化方程。
+
+---
+*页码 10/11*
+
+---
+
+|  | C$_2$H$_5$ | H$_2$ | C$_2$H$_6$ | H | C |
+|:---|:---|:---|:---|:---|:---|
+| $\mathcal{E}_0$ | $-$77.662998 | $-$1.117506 | $-$78.306179 | $-$0.466582 | $-$37.198393 |
+| $\mathcal{E}_{\text{ZPE}}$ | 0.070833 | 0.012487 | 0.089704 | 0.000000 | 0.000000 |
+| $E_{\text{tot}}$ | 0.074497 | 0.014847 | 0.093060 | 0.001416 | 0.001416 |
+| $H_{corr}$ | 0.075441 | 0.015792 | 0.094005 | 0.002360 | 0.002360 |
+| $G_{corr}$ | 0.046513 | 0.001079 | 0.068316 | $-$0.010654 | $-$0.014545 |
+| $\mathcal{E}_0+\mathcal{E}_{\text{ZPE}}$ | $-$77.592165 | $-$1.105019 | $-$78.216475 | $-$0.466582 | $-$37.198393 |
+| $\mathcal{E}_0+E_{\text{tot}}$ | $-$77.588501 | $-$1.102658 | $-$78.213119 | $-$0.465166 | $-$37.196976 |
+| $\mathcal{E}_0+H_{corr}$ | $-$77.587557 | $-$1.101714 | $-$78.212174 | $-$0.464221 | $-$37.196032 |
+| $\mathcal{E}_0+G_{corr}$ | $-$77.616485 | $-$1.116427 | $-$78.237863 | $-$0.477236 | $-$37.212938 |
+
+**表 1**：*Gaussian* 对反应 $C_2H_5 + H_2 \rightarrow C_2H_6 + H$ 计算的热化学值。所有数值单位为 Hartree。
+
+### 4.1　反应的焓与自由能
+
+通常计算反应焓的方法是计算生成热，然后取适当的和与差。
+
+$$\Delta_r H^\circ(298K) = \sum_{\text{产物}} \Delta_f H^\circ_{\text{prod}}(298K) - \sum_{\text{反应物}} \Delta_f H^\circ_{\text{react}}(298K).$$
+
+然而，由于 *Gaussian* 直接提供了电子能量与热焓之和，因此有一种捷径：即直接取反应物与产物的这些值的总和之差。这样做是可行的，因为反应两边每种元素的原子数相同，因此所有原子信息相互抵消，你只需要分子数据即可。
+
+例如，利用表 1 中的信息，反应焓可以简单地通过下式计算：
+
+$$
+\begin{aligned}
+\Delta_r H^\circ(298K) &= \sum(\mathcal{E}_0+H_{corr})_{\text{产物}} - \sum(\mathcal{E}_0+H_{corr})_{\text{反应物}} \\
+&= ((-78.212174 + -0.464221) - (-77.587557 + -1.101714)) * 627.5095 \\
+&= 0.012876 * 627.5095 \\
+&= 8.08 \text{ kcal/mol}
+\end{aligned}
+$$
+
+同样的捷径可用于计算反应的吉布斯自由能：
+
+$$
+\begin{aligned}
+\Delta_r G^\circ(298K) &= \sum(\mathcal{E}_0+G_{corr})_{\text{产物}} - \sum(\mathcal{E}_0+G_{corr})_{\text{反应物}} \\
+&= ((-78.237863 + -0.477236) - (-77.616485 + -1.116427)) * 627.5095 \\
+&= 0.017813 * 627.5095 \\
+&= 11.18 \text{ kcal/mol}
+\end{aligned}
+$$
+
+---
+*页码 11/12*
+
+---
+
+### 4.2　反应速率
+
+在本节中，我将展示如何利用 *Gaussian* 的输出计算反应速率。我将使用 D. A. McQuarrie 和 J. D. Simon 所著《物理化学：分子进路》（"Physical Chemistry: A Molecular Approach"）第 28-8 节中过渡态理论导出的结果。该教材中的关键方程（编号 28.72）用于计算反应速率：
+
+$$k(T) = \frac{k_BT}{hc^\circ}e^{-\Delta^\ddagger G^\circ/RT}$$
+
+我将浓度 $c^\circ = 1$。对于简单反应，其余工作就是代入数值。首先，当然，我们需要得到这些数值。我针对反应 FH + Cl → F + HCl 及其氘代类似物（氢被氘取代）进行了 HF/STO-3G 频率计算。结果汇总于表 2。我在表中也列出了每种化合物的总电子能量，以说明最终的几何结构和电子能量与原子质量无关。事实上，笛卡尔力常数本身也与质量无关。只有振动分析及其导出量才依赖于质量。
+
+| Compound | $\mathcal{E}_0$ | $\mathcal{E}_0+G_{corr}$ |
+|:---|:---|:---|
+| HF | $-$98.572847 | $-$98.579127 |
+| HD | $-$98.572847 | $-$98.582608 |
+| Cl | $-$454.542193 | $-$454.557870 |
+| HCl | $-$455.136012 | $-$455.146251 |
+| DCl | $-$455.136012 | $-$455.149092 |
+| F | $-$97.986505 | $-$98.001318 |
+| FHCl | $-$553.090218 | $-$553.109488 |
+| FDCl | $-$553.090218 | $-$553.110424 |
+
+**表 2**：反应 FH + Cl → F + HCl 及其氘代类似物的原子、分子和过渡态络合物的 HF/STO-3G 总电子能量以及电子能量与热自由能之和。所有数值单位为 Hartree。
+
+计算这些反应速率的第一步是计算活化自由能 $\Delta^\ddagger G^\circ$（(H) 对应氢反应，(D) 对应氘反应）：
+
+$$
+\begin{aligned}
+\Delta^\ddagger G^\circ(H) &= -553.109488 - (-98.579127 + -454.557870) \\
+&= 0.027509 \text{ Hartrees} \\
+&= 0.027509 * 627.5095 = 17.26 \text{ kcal/mol}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\Delta^\ddagger G^\circ(D) &= -553.110424 - (-98.582608 + -454.557870) \\
+&= 0.030054 \text{ Hartrees} \\
+&= 0.030054 * 627.5095 = 18.86 \text{ kcal/mol}
+\end{aligned}
+$$
+
+---
+*页码 12/13*
+
+---
+
+然后我们可以计算反应速率。各常数的取值列于附录。我取 $c^\circ = 1$。
+
+$$
+\begin{aligned}
+k(298, H) &= \frac{k_BT}{hc^\circ}e^{-\Delta^\ddagger G^\circ/RT} \\
+&= \frac{1.380662\times10^{-23}(298.15)}{6.626176\times10^{-34}(1)} \exp\left(\frac{-17.26*1000}{1.987*298.15}\right) \\
+&= 6.2125\times10^{12}e^{-29.13} \\
+&= 1.38 \text{ s}^{-1}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+k(298, D) &= 6.2125\times10^{12} \exp\left(\frac{-18.86*1000}{1.987*298.15}\right) \\
+&= 6.2125\times10^{12}e^{-31.835} \\
+&= 0.0928 \text{ s}^{-1}
+\end{aligned}
+$$
+
+因此我们看到氘代反应确实更慢，正如我们所预期的那样。同样，这些计算是在 HF/STO-3G 水平下进行的，仅供说明之用，而非研究级别的结果。更复杂的反应需要更复杂的分析，可能包括对过渡态上低频模式效应的仔细测定以及隧穿效应。
+
+### 4.3　生成焓与生成自由能
+
+计算生成焓是一项直接但略显繁琐的工作，可以分解为几个步骤。第一步是计算各反应物种在 0 K 时的生成焓 ($\Delta_f H^\circ(0K)$)。第二步是计算各物种在 298 K 时的生成焓。
+
+计算反应的吉布斯自由能与此类似，只是需要额外加入熵项：
+
+$$\Delta_f G^\circ(298) = \Delta_f H^\circ(298K) - T(S^\circ(M,298K) - \sum S^\circ(X,298K))$$
+
+为了计算这些量，我们首先需要几个组成部分。在下文的描述中，我将用 $M$ 代表分子，用 $X$ 代表构成 $M$ 的每种元素，$x$ 代表 $M$ 中 $X$ 的原子个数。
+
+- **分子的原子化能**，$\sum D_0(M)$：
+  这可由分子的总能量 ($\mathcal{E}_0(M)$)、分子的零点能 ($\mathcal{E}_{\text{ZPE}}(M)$) 以及组成原子的能量方便地计算：
+  $$\sum D_0(M) = \sum_{\text{原子}} x\mathcal{E}_0(X) - \mathcal{E}_0(M) - \mathcal{E}_{\text{ZPE}}(M)$$
+
+- **原子在 0 K 时的生成热**，$\Delta_f H^\circ(X,0K)$：
+  我在表 3 中列出了第一、二周期元素原子的生成热的推荐值。关于哪种原子生成热数据最合适，（至少）存在两种学派。一些作者倾向于对生成热使用纯实验数据（Curtiss 等, J. Chem. Phys. **106**, 1063 (1997)）。另一些（Ochterski 等, J. Am. Chem. Soc. **117**, 11299 (1995)）则倾向于使用实验与计算相结合的方法来获得更精确的值。涉及的元素是硼、铍和硅。我在表 3 中的安排使得两种数据都可以使用；实验结果在上部，而下方列出了三种实验不确定性较大的元素的计算结果。
+
+---
+*页码 13/14*
+
+---
+
+- **原子元素的焓修正**，$H^\circ_X(298K) - H^\circ_X(0K)$：
+  第一、二周期原子元素的焓修正也包含在表 3 中。它们用于将 0 K 时的原子生成热转换到 298.15 K 时的值，并且是在元素标准态下给出的。由于它们不依赖于原子生成热的精度，因此无论是计算数据还是实验数据，这些值都是相同的。
+
+  这通常与 *Gaussian* 对孤立气相原子计算的输出*不同*。这些值是参考元素的标准态。例如，氢原子的值是 1.01 kcal/mol。这是 $(H^\circ_{H_2}(298K) - H^\circ_{H_2}(0K))/2$，而不是 $H^\circ_H(298K) - H^\circ_H(0K)$，而后者才是 *Gaussian* 计算的值。
+
+- **分子的焓修正**，$H^\circ_M(298K) - H^\circ_M(0K)$：
+  对于分子，这就是 $H_{\text{corr}} - \mathcal{E}_{\text{ZPE}}(M)$，其中 $H_{\text{corr}}$ 是 *Gaussian* 输出中标有 "Thermal correction to Enthalpy" 一行的值。不过要记住，该输出单位是 Hartree/粒子，需要换算成 kcal/mol。换算因子为 1 Hartree = 627.5095 kcal/mol。
+
+- **原子的熵**，$S^\circ_X(298K)$：
+  这些值汇总在表 3 中。数值来自 JANAF 表（M. W. Chase, Jr., C. A. Davies, J. R. Downey, Jr., D. J. Frurip, R. A. McDonald, and A. N. Syverud, J. Phys. Ref. Data **14** Suppl. No. 1 (1985)）。同样，这些值也是参考元素的标准态，并且会与 *Gaussian* 对气相孤立原子计算的值不同。
+
+- **分子的熵**，$S^\circ_M(298K)$：
+  *Gaussian* 计算 $G = H - TS$，并在标有 "Thermal correction to Gibbs Free Energy" 的一行中打印出来。熵可以通过 $S = (H-G)/T$ 得到。
+
+将以上各部分组合在一起，我们最终可以采取以下步骤来计算 $\Delta_f H^\circ(298K)$ 和 $\Delta_f G^\circ(298K)$：
+
+1. 计算每个分子的 $\Delta_f H^\circ(M,0K)$：
+   $$
+   \begin{aligned}
+   \Delta_f H^\circ(M,0K) &= \sum_{\text{原子}} x\Delta_f H^\circ(X,0K) - \sum D_0(M) \\
+   &= \sum_{\text{原子}} x\Delta_f H^\circ(X,0K) - \left(\sum_{\text{原子}} x\mathcal{E}_0(X) - \mathcal{E}_0(M)\right)
+   \end{aligned}
+   $$
+
+---
+*页码 14/15*
+
+---
+
+| Element | $\Delta_f H^\circ(0K)$ | $H^\circ(298K)-H^\circ(0K)$ | $S^\circ(298K)$ |
+|:---|:---|:---|:---|
+| H | 51.63±0.001 | 1.01 | 27.418±0.004 |
+| Li | 37.69±0.2 | 1.10 | 33.169±0.006 |
+| Be | 76.48±1.2 | 0.46 | 32.570±0.005 |
+| B | 136.2 ±0.2 | 0.29 | 36.672±0.008 |
+| C | 169.98±0.1 | 0.25 | 37.787±0.21 |
+| N | 112.53±0.02 | 1.04 | 36.640±0.01 |
+| O | 58.99±0.02 | 1.04 | 38.494±0.005 |
+| F | 18.47±0.07 | 1.05 | 37.942±0.001 |
+| Na | 25.69±0.17 | 1.54 | 36.727±0.006 |
+| Mg | 34.87±0.2 | 1.19 | 8.237±$^d$ |
+| Al | 78.23±1.0 | 1.08 | 39.329±0.01 |
+| Si | 106.6 ±1.9 | 0.76 | 40.148±0.008 |
+| P | 75.42±0.2 | 1.28 | 39.005±0.01 |
+| S | 65.66±0.06 | 1.05 | 40.112±0.008 |
+| Cl | 28.59±0.001 | 1.10 | 39.481±0.001 |
+| **Calculated** | | | |
+| Be | 75.8 ±0.8 | 0.46 | 32.570±0.005 |
+| B | 136.2 ±0.2 | 0.29 | 36.672±0.008 |
+| Si | 108.1 ±0.5 | 0.76 | 40.148±0.008 |
+
+**表 3**：元素的实验与计算生成焓（kcal mol$^{-1}$）以及原子的熵（cal mol$^{-1}$ K$^{-1}$）。$^a$ 实验焓值取自 J. Chem. Phys. **106**, 1063 (1997)。$^b$ 计算焓值取自 J. Am. Chem. Soc. **117**, 11299 (1995)。$H^\circ(298K)-H^\circ(0K)$ 对计算值和实验值相同，均取自元素标准态。$^c$ 熵值取自 JANAF 热化学表：M. W. Chase, Jr., C. A. Davies, J. R. Downey, Jr., D. J. Frurip, R. A. McDonald, and A. N. Syverud, J. Phys. Ref. Data **14** Suppl. No. 1 (1985)。$^d$ JANAF 中未给出 Mg 的误差棒。
+
+2. 计算每个分子的 $\Delta_f H^\circ(M,298K)$：
+   $$
+   \begin{aligned}
+   \Delta_f H^\circ(M,298K) =& \ \Delta_f H^\circ(M,0K) + (H^\circ_M(298K) - H^\circ_M(0K)) \\
+   &- \sum_{\text{原子}} x(H^\circ_X(298K) - H^\circ_X(0K))
+   \end{aligned}
+   $$
+
+3. 计算每个分子的 $\Delta_f G^\circ(M,298K)$：
+   $$\Delta_f G^\circ(M,298K) = \Delta_r H^\circ(298K) - 298.15(S^\circ(M,298K) - \sum S^\circ(X,298K))$$
+
+下面是一个计算实例，我已经计算了上述反应中反应物和产物的 $\Delta_f H^\circ(298K)$。
+
+---
+*页码 15/16*
+
+---
+
+首先，我计算某一物种的 $\Delta_f H^\circ(0K)$：
+
+$$
+\begin{aligned}
+\Delta_f H^\circ(C_2H_6,0K) &= 2*169.98 + 6*51.63 \\
+&\quad -627.5095*(2*(-37.198393) + 6*(-0.466582) - (-78.216475)) \\
+&= 649.74 - 627.5095*1.020197 \\
+&= 9.56
+\end{aligned}
+$$
+
+下一步是计算 $\Delta_f H^\circ(298K)$：
+
+$$
+\begin{aligned}
+\Delta_f H^\circ(C_2H_6,298K) &= 9.56 + 627.5095*(0.094005 - 0.089704) - (2*0.25 + 6*1.01) \\
+&= 9.56 + 2.70 - 6.56 \\
+&= 5.70
+\end{aligned}
+$$
+
+要计算生成吉布斯自由能，我们有（因子 1000 用于 kcal 与 cal 之间的换算）：
+
+$$
+\begin{aligned}
+\Delta_f G^\circ(C_2H_6,298K) =& \ 5.70 + 298.15(627.5095*(0.094005 - 0.068316)/298.15 - \\
+&\quad (2*37.787 + 6*27.418)/1000 \\
+&= 5.70 + 298.15*(0.054067 - 0.240082) \\
+&= -49.76
+\end{aligned}
+$$
+
+## 5　总结
+
+核心信息是：*Gaussian* 中用于计算热化学量的基本方程与标准教材中所使用的方程是一致的。由于振动配分函数依赖于频率，因此你必须使用极小值或鞍点的结构。对于电子配分函数的贡献，假设在计算温度下第一及所有更高电子态均不可达。*Gaussian* 生成的数据可用于计算反应热、反应自由能以及绝对速率信息。
+
+---
+*页码 17*
+
+---
+
+# 附录
+
+## 符号表
+
+$C_\text{e}$ = 电子运动对热容的贡献  
+$C_\text{r}$ = 转动运动对热容的贡献  
+$C_\text{tot}$ = 总热容 ($C_\text{t} + C_\text{r} + C_\text{v} + C_\text{e}$)  
+$C_\text{t}$ = 平动对热容的贡献  
+$C_\text{v}$ = 振动运动对热容的贡献  
+$E_\text{e}$ = 电子运动引起的内能  
+$E_\text{r}$ = 转动运动引起的内能  
+$E_\text{tot}$ = 总内能 ($E_\text{t} + E_\text{r} + E_\text{v} + E_\text{e}$)  
+$E_\text{t}$ = 平动引起的内能  
+$E_\text{v}$ = 振动运动引起的内能  
+$G_\text{corr}$ = 由内能引起的吉布斯自由能修正  
+$H_\text{corr}$ = 由内能引起的焓修正  
+$I$ = 转动惯量  
+$K$ = 振动模式指标  
+$N$ = 摩尔数  
+$N_A$ = 阿伏伽德罗常数  
+$P$ = 压强（默认值为 1 大气压）  
+$R$ = 气体常数 = 8.31441 J/(mol K) = 1.987 kcal/(mol K)  
+$S_\text{e}$ = 电子运动引起的熵  
+$S_\text{r}$ = 转动运动引起的熵  
+$S_\text{tot}$ = 总熵 ($S_\text{t} + S_\text{r} + S_\text{v} + S_\text{e}$)  
+$S_\text{t}$ = 平动引起的熵  
+$S_\text{v}$ = 振动运动引起的熵  
+$T$ = 温度（默认值为 298.15）  
+$V$ = 体积  
+$\Theta_\text{r}, \Theta_{\text{r},(xyz)}$ = 转动特征温度（在 $x$、$y$ 或 $z$ 平面内）  
+$\Theta_{\text{v},K}$ = 振动模式 $K$ 的特征温度  
+$k_B$ = 玻尔兹曼常数 = $1.380662 \times 10^{-23}$ J/K  
+$\epsilon_n$ = 第 $n$ 个能级的能量  
+$\omega_n$ = 第 $n$ 个能级的简并度  
+
+---
+*页码 18*
+
+---
+
+$\sigma_r$ = 转动对称数  
+$h$ = 普朗克常数 = $6.626176 \times 10^{-34}$ J s  
+$m$ = 分子质量  
+$n$ = 粒子数（恒为 1）  
+$q_\text{e}$ = 电子配分函数  
+$q_\text{r}$ = 转动配分函数  
+$q_\text{t}$ = 平动配分函数  
+$q_\text{v}$ = 振动配分函数  
+$\mathcal{E}_\text{ZPE}$ = 分子的零点能  
+$\mathcal{E}_0$ = 总电子能量，例如 MP2 能量  
+$H^\circ, S^\circ, G^\circ$ = 标准焓、熵和吉布斯自由能——各化合物在给定温度下处于其标准态  
+$\Delta^\ddagger G^\circ$ = 活化吉布斯自由能  
+$c^\circ$ = 浓度（取为 1）  
+$k(T)$ = 温度 T 时的反应速率  
+
+---
+*页码 19*
+
+---
+
+*（全文完）*
