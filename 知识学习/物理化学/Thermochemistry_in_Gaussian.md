@@ -4,7 +4,7 @@ tags:
   - 物理化学
   - 物理化学/熵
   - 热力学
-  - 高斯
+  - Gaussian
 Category:
   - 课内/讲义
 ---
