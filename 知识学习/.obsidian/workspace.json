@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "物理化学/关于熵增加原理.md",
+                "file": "物理化学/热力学纸质笔记转录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "关于熵增加原理"
+              "title": "热力学纸质笔记转录"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/关于熵增加原理.md",
+                "file": "物理化学/热力学纸质笔记转录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "关于熵增加原理 的大纲"
+              "title": "热力学纸质笔记转录 的大纲"
             }
           },
           {
@@ -213,11 +213,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,16 +232,17 @@
       "easy-tikz:Easy TikZ": false
     }
   },
-  "active": "85054cc244b67445",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
+    "物理化学/热力学第一课时.md",
+    "物理化学/热力学第二定律.md",
+    "物理化学/关于熵增加原理.md",
     "物理化学/Thermochemistry_in_Gaussian.md",
     "物理化学/计算实验.md",
     "物理化学/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "物理化学/统计力学.md",
     "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/热力学纸质笔记转录.md",
-    "物理化学/热力学第二定律.md",
-    "物理化学/热力学第一课时.md",
     "物理化学/高斯中的热化学计算-翻译.md",
     "物理化学/物质体系的微观运动的基本规律.md",
     "物理化学/量子力学.md",
@@ -259,7 +260,6 @@
     "仪器分析/光吸收曲线.md",
     "仪器分析/光谱分析仪器基本结构.md",
     "仪器分析/光谱分析方法.md",
-    "物理化学/关于熵增加原理.md",
     "物理化学/量子力学导图.canvas",
     "附件/熵与内能习题.png",
     "附件",
