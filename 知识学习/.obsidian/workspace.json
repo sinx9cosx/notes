@@ -35,7 +35,8 @@
               "title": "统计热力学纸质笔记转录"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/高斯中的热化学计算-翻译.md",
+                "file": "物理化学/统计热力学纸质笔记转录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "高斯中的热化学计算-翻译 的大纲"
+              "title": "统计热力学纸质笔记转录 的大纲"
             }
           },
           {
@@ -231,11 +232,11 @@
       "easy-tikz:Easy TikZ": false
     }
   },
-  "active": "18b4df9b57ce07c7",
+  "active": "8d7730a79b978f6b",
   "lastOpenFiles": [
+    "物理化学/高斯中的热化学计算-翻译.md",
     "物理化学/Thermochemistry_in_Gaussian.md",
     "物理化学/计算实验.md",
-    "物理化学/高斯中的热化学计算-翻译.md",
     "物理化学/关于熵增加原理.md",
     "物理化学/广度性质和强度性质.md",
     "物理化学/统计力学.md",
