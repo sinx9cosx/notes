@@ -129,7 +129,7 @@
               "state": {
                 "file": "物理化学/统计力学.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "统计力学 的出链列表"
@@ -231,7 +231,7 @@
       "easy-tikz:Easy TikZ": false
     }
   },
-  "active": "18b4df9b57ce07c7",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/统计力学.md",
