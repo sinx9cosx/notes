@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -243,7 +243,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "7f4578dda3b25738",
   "lastOpenFiles": [
     "1.Python基础教程/计算机软件技术基础1必知必会.md",
     "1.Python基础教程/知识点讲义对照_03_函数与面向对象与文件.md",
