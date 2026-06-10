@@ -4,8 +4,8 @@
   "title": "解释参数概念",
   "titleGenerationStatus": "success",
   "createdAt": 1781096843217,
-  "updatedAt": 1781097879063,
-  "lastResponseAt": 1781097879063,
+  "updatedAt": 1781098963825,
+  "lastResponseAt": 1781098963825,
   "sessionId": "cc4de6ca-991d-4b29-9026-9fa3f5158ef3",
   "providerState": {
     "providerSessionId": "cc4de6ca-991d-4b29-9026-9fa3f5158ef3"
@@ -13,12 +13,12 @@
   "currentNote": "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 490,
+    "inputTokens": 1022,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 33664,
+    "cacheReadInputTokens": 34048,
     "contextWindow": 1000000,
-    "contextTokens": 34154,
-    "percentage": 3,
+    "contextTokens": 35070,
+    "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "物理化学/统计力学.md",
+                "file": "1.Python基础教程/计算机软件技术基础1必知必会.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计力学"
+              "title": "计算机软件技术基础1必知必会"
             }
           },
           {
@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -223,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -243,12 +243,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "7f4578dda3b25738",
   "lastOpenFiles": [
     "1.Python基础教程/计算机软件技术基础1必知必会.md",
+    "物理化学/统计力学.md",
+    "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
     "1.Python基础教程/知识点讲义对照_03_函数与面向对象与文件.md",
     "1.Python基础教程/知识点讲义对照_02_数据类型与序列.md",
-    "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
     "1.Python基础教程/01_导论.md",
     "1.Python基础教程/知识点讲义对照_03_函数与面向对象与文件.md.tmp.31352.b9c1c2addb51",
     "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md.tmp.31352.b76d33dea473",
@@ -275,7 +276,6 @@
     "1.Python基础教程/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
     "1.Python基础教程/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
     "1.Python基础教程/计算机软件技术基础1复习题/编程题5/e5.校门外的树.md",
-    "1.Python基础教程/计算机软件技术基础1复习题/编程题5/e4.找出一组整数中的最大值的位置.md",
     "1.Python基础教程/计算机软件技术基础1复习题/编程题8",
     "1.Python基础教程/计算机软件技术基础1复习题/编程题7",
     "1.Python基础教程/计算机软件技术基础1复习题/编程题6",
