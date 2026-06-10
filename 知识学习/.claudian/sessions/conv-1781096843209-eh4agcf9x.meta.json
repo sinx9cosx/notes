@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781096843209-eh4agcf9x",
+  "providerId": "claude",
+  "title": "解释参数概念",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781096843217,
+  "updatedAt": 1781096876216,
+  "lastResponseAt": 1781096876216,
+  "sessionId": "cc4de6ca-991d-4b29-9026-9fa3f5158ef3",
+  "providerState": {
+    "providerSessionId": "cc4de6ca-991d-4b29-9026-9fa3f5158ef3"
+  },
+  "currentNote": "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 10197,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22272,
+    "contextWindow": 1000000,
+    "contextTokens": 32469,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
