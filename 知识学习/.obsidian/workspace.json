@@ -35,7 +35,8 @@
               "title": "统计热力学纸质笔记转录"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/统计力学.md",
+                "file": "物理化学/统计热力学纸质笔记转录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计力学 的大纲"
+              "title": "统计热力学纸质笔记转录 的大纲"
             }
           },
           {
@@ -242,10 +243,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7f4578dda3b25738",
+  "active": "18b4df9b57ce07c7",
   "lastOpenFiles": [
-    "物理化学/统计热力学纸质笔记转录.md",
+    "# 统计力学与热力学关系——完整教学建议.md",
     "物理化学/统计力学.md",
+    "物理化学/统计热力学纸质笔记转录.md",
     "Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
     "Python基础教程/计算机软件技术基础1必知必会.md",
     "Python基础教程/知识点讲义对照_03_函数与面向对象与文件.md",
@@ -274,7 +276,6 @@
     "Python基础教程/计算机软件技术基础1复习题/编程题6/f4.平衡序列.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题6/f3.找兔子.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
-    "Python基础教程/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题8",
     "Python基础教程/计算机软件技术基础1复习题/编程题7",
     "Python基础教程/计算机软件技术基础1复习题/编程题6",
