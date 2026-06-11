@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "物理化学/统计力学.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -222,7 +222,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
