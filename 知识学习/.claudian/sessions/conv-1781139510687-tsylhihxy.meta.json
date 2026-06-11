@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781139510687-tsylhihxy",
+  "providerId": "claude",
+  "title": "解释振动配分函数基态归零的算法与意义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781139510688,
+  "updatedAt": 1781139839066,
+  "lastResponseAt": 1781139839066,
+  "sessionId": "1d2188ac-b4f7-4489-9e63-ee62cb6bf612",
+  "providerState": {
+    "providerSessionId": "1d2188ac-b4f7-4489-9e63-ee62cb6bf612"
+  },
+  "currentNote": "物理化学/统计力学.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 86,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33152,
+    "contextWindow": 1000000,
+    "contextTokens": 33238,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
