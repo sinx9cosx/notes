@@ -35,7 +35,8 @@
               "title": "统计力学"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/统计热力学纸质笔记转录.md",
+                "file": "物理化学/统计力学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计热力学纸质笔记转录 的大纲"
+              "title": "统计力学 的大纲"
             }
           },
           {
@@ -242,10 +243,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7f4578dda3b25738",
+  "active": "e3bff1449f2ab7e4",
   "lastOpenFiles": [
-    "物理化学/统计力学.md",
     "物理化学/统计热力学纸质笔记转录.md",
+    "物理化学/统计力学.md",
     "物理化学/能量均分原理证明.md",
     "物理化学/量子力学.md",
     "物理化学/量子力学导图.canvas",
