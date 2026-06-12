@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "物理化学/统计力学.md",
-                "mode": "source",
+                "file": "物理化学/能量均分原理证明.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "统计力学"
+              "title": "能量均分原理证明"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/统计力学.md",
+                "file": "物理化学/能量均分原理证明.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计力学 的大纲"
+              "title": "能量均分原理证明 的大纲"
             }
           },
           {
@@ -245,8 +245,8 @@
   },
   "active": "e3bff1449f2ab7e4",
   "lastOpenFiles": [
-    "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/统计力学.md",
+    "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/能量均分原理证明.md",
     "物理化学/量子力学.md",
     "物理化学/量子力学导图.canvas",
