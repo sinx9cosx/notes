@@ -4,8 +4,8 @@
   "title": "解释能量均分原理的统计力学推导",
   "titleGenerationStatus": "success",
   "createdAt": 1781164469891,
-  "updatedAt": 1781253219692,
-  "lastResponseAt": 1781253219692,
+  "updatedAt": 1781254886117,
+  "lastResponseAt": 1781254886117,
   "sessionId": "0f3df80f-2864-4872-93d9-1baaeffbccce",
   "providerState": {
     "providerSessionId": "0f3df80f-2864-4872-93d9-1baaeffbccce",
@@ -48,11 +48,11 @@
   "currentNote": "物理化学/统计热力学纸质笔记转录.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 678,
+    "inputTokens": 1253,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 42880,
+    "cacheReadInputTokens": 43520,
     "contextWindow": 1000000,
-    "contextTokens": 43558,
+    "contextTokens": 44773,
     "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
