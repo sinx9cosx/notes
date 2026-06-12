@@ -35,7 +35,8 @@
               "title": "知识点讲义对照_01_基础语法与流程控制"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
+                "file": "Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势 的大纲"
+              "title": "知识点讲义对照_01_基础语法与流程控制 的大纲"
             }
           },
           {
@@ -242,11 +243,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7f4578dda3b25738",
+  "active": "e3bff1449f2ab7e4",
   "lastOpenFiles": [
+    "物理化学/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "物理化学/统计热力学纸质笔记转录.md",
     "Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
-    "物理化学/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "物理化学/计算实验.md",
     "物理化学/统计力学.md",
     "物理化学/能量均分原理证明.md",
