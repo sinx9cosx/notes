@@ -4,8 +4,8 @@
   "title": "解释能量均分原理的统计力学推导",
   "titleGenerationStatus": "success",
   "createdAt": 1781164469891,
-  "updatedAt": 1781164760083,
-  "lastResponseAt": 1781164760083,
+  "updatedAt": 1781253219692,
+  "lastResponseAt": 1781253219692,
   "sessionId": "0f3df80f-2864-4872-93d9-1baaeffbccce",
   "providerState": {
     "providerSessionId": "0f3df80f-2864-4872-93d9-1baaeffbccce",
@@ -41,18 +41,19 @@
           }
         ],
         "isExpanded": false,
-        "result": "替换已完成，主人喵。在 `F:\\obsidian_notes\\知识学习\\物理化学\\统计热力学纸质笔记转录.md` 文件的「能量均分原理」章节后成功插入了完整的推导过程，包含 8 个小节：\n\n1. 问题设定 -- 说明推导使用的正则系综框架\n2. 正则系综的概率分布 -- 玻尔兹曼因子与配分函数\n3. 平方项的平均值 -- 从哈密顿量分离出单个平方项并构造期望值\n4. 高斯积分求值 -- 用积分号下求导技巧算出 \\(\\langle p_x^2/2m \\rangle = \\frac{1}{2}kT\\)\n5. 推广到任意平方项 -- 任意形式的 \\(A\\xi^2\\) 均得 \\(\\frac{1}{2}kT\\)\n6. 与配分函数计算结果的验证 -- 用表格对照平动/转动/振动的均分原理预测值与配分函数实际结果\n7. 适用条件与局限 -- 经典极限和平方项形式两个前提\n8. 推导的本质直觉 -- \"每个平方项是独立的能量容器\"的物理图象"
+        "result": "替换已完成，主人喵。在 `F:\\obsidian_notes\\知识学习\\物理化学\\统计热力学纸质笔记转录.md` 文件的「能量均分原理」章节后成功插入了完整的推导过程，包含 8 个小节：\n\n1. 问题设定 -- 说明推导使用的正则系综框架\n2. 正则系综的概率分布 -- 玻尔兹曼因子与配分函数\n3. 平方项的平均值 -- 从哈密顿量分离出单个平方项并构造期望值\n4. 高斯积分求值 -- 用积分号下求导技巧算出 \\(\\langle p_x^2/2m \\rangle = \\frac{1}{2}kT\\)\n5. 推广到任意平方项 -- 任意形式的 \\(A\\xi^2\\) 均得 \\(\\frac{1}{2}kT\\)\n6. 与配分函数计算结果的验证 -- 用表格对照平动/转动/振动的均分原理预测值与配分函数实际结果\n7. 适用条件与局限 -- 经典极限和平方项形式两个前提\n8. 推导的本质直觉 -- \"每个平方项是独立的能量容器\"的物理图象\nagentId: a87ff917d59aafeae (use SendMessage with to: 'a87ff917d59aafeae' to continue this agent)\n<usage>total_tokens: 33505\ntool_uses: 2\nduration_ms: 41433</usage>"
       }
     }
   },
   "currentNote": "物理化学/统计热力学纸质笔记转录.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 26,
+    "inputTokens": 678,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 37376,
-    "contextWindow": 200000,
-    "contextTokens": 37402,
-    "percentage": 19
+    "cacheReadInputTokens": 42880,
+    "contextWindow": 1000000,
+    "contextTokens": 43558,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
   }
 }
