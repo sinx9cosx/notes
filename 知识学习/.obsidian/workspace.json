@@ -28,14 +28,15 @@
               "type": "markdown",
               "state": {
                 "file": "Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "知识点讲义对照_01_基础语法与流程控制"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python基础教程/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+                "file": "Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python基础练习选择题A 的大纲"
+              "title": "知识点讲义对照_01_基础语法与流程控制 的大纲"
             }
           },
           {
@@ -242,8 +243,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7f4578dda3b25738",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
+    "Python基础教程/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "物理化学/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
     "物理化学/实验报告.md",
@@ -266,7 +268,6 @@
     "1.Python基础教程/01_导论.pdf",
     "Python基础教程/计算机软件技术基础1复习题/编程题8/h2.成双配对.md",
     "计算机软件技术基础1复习题/99_计算机软件技术基础1必知必会.pdf",
-    "Python基础教程/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python必知必会.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题1/a4.求三角形的周长和面积.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",

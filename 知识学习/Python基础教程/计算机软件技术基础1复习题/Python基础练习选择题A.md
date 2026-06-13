@@ -67,7 +67,7 @@ x *= 3+5**2
 print(x)
 ```
 
-- [ ] A. 28
+- [x] A. 28
 - [ ] B. 14
 - [ ] C. 13
 - [ ] D. 29
@@ -76,7 +76,7 @@ print(x)
 - 拟在屏幕上打印输出“Hello World”,以下选项中正确的是（　　）
 
 - [ ] A.  `print(Hello World)`
-- [ ] B.  `print('Hello World')`
+- [x] B.  `print('Hello World')`
 - [ ] C.  `printf("Hello World")`  
 - [ ] D.  `printf('Hello World')`
 
