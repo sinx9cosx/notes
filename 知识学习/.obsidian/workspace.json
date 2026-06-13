@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"Category\"]",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -223,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -243,7 +244,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "Python基础教程/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "物理化学/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
