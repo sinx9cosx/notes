@@ -53,7 +53,7 @@ $$\Delta H = \Delta EE + \Delta ZPE + \Delta E_{\text{thermal}}$$
 - **ΔEE**：电子能变化（electronic energy），含电子注入 LUMO 及分子轨道弛豫
 - **ΔZPE**：零点能校正变化（zero-point energy correction）
 - **ΔE<sub>thermal</sub>**：热振动/转动/平动能量校正，$\Delta E_{\text{thermal}} = \Delta U - \Delta(EE+ZPE)$
-- **TΔS**：熵贡献，$T = 298.15\ \text{K}$，换算关系：1 kcal·mol<sup>−1</sup>= 1/627.509 Hartree
+- **TΔS**：熵贡献，$T = 298.15\ \text{K}$，换算关系：1 cal·mol<sup>−1</sup>= 1/627509 Hartree
 
 # 四、实验数据（Gaussian 计算结果）
 
@@ -248,6 +248,7 @@ $$
 | **合计** | **100.0%** | **99.9%** | **100.0%** |
 
 > 注：−TΔS 为**负值**时表示熵效应有利于还原，为**正值**时表示不利于还原。
+> NQ 合计 99.9% 为四舍五入取位所致。
 
 ## 5.3 分子轨道能级分析
 
