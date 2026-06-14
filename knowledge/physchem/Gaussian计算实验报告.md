@@ -53,7 +53,7 @@ $$\Delta H = \Delta EE + \Delta ZPE + \Delta E_{\text{thermal}}$$
 - **ΔEE**：电子能变化（electronic energy），含电子注入 LUMO 及分子轨道弛豫
 - **ΔZPE**：零点能校正变化（zero-point energy correction）
 - **ΔE<sub>thermal</sub>**：热振动/转动/平动能量校正，$\Delta E_{\text{thermal}} = \Delta U - \Delta(EE+ZPE)$
-- **TΔS**：熵贡献，$T = 298.15\ \text{K}$，换算关系：1 kcal·mol<sup>−1</sup>·K<sup>−1</sup> = 1/627.509 Hartree/K
+- **TΔS**：熵贡献，$T = 298.15\ \text{K}$，换算关系：1 kcal·mol<sup>−1</sup>= 1/627.509 Hartree
 
 # 四、实验数据（Gaussian 计算结果）
 
@@ -72,6 +72,8 @@ $$\Delta H = \Delta EE + \Delta ZPE + \Delta E_{\text{thermal}}$$
 > BQ = 1,4-苯醌（benzoquinone）
 > NQ = 1,4-萘醌（naphthoquinone）
 > DQ = 四甲基-1,4-苯醌（duroquinone，杜醌）。
+
+> 所有结构频率计算均无虚频，确认为势能面上的局部极小值。
 
 # 五、数据处理
 
@@ -232,7 +234,7 @@ $$
 
 ## 5.3 分子轨道能级分析
 
-从 Gaussian 16 最终 opt+freq 计算的 LOG 文件中提取三种醌分子及其还原态的 HOMO 和 LUMO 轨道能量。
+从 Gaussian 16 最终 opt+freq 计算的 LOG 文件中提取三种醌分子及其还原态的 HOMO 和 LUMO 轨道能量。还原态采用的是$\alpha$轨道能级。
 
 **轨道能量表：**
 
