@@ -11,32 +11,23 @@
             "id": "10a6887f8fdfaf19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "物理化学/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势"
+              "title": "新标签页"
             }
           },
           {
             "id": "992f818a06009e42",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "物理化学/Gaussian计算实验报告.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Gaussian计算实验报告"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,8 +190,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -209,8 +200,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           },
           {
@@ -219,8 +210,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -233,19 +224,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "easy-tikz:Easy TikZ": false,
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "992f818a06009e42",
+  "active": "10a6887f8fdfaf19",
   "lastOpenFiles": [
     "物理化学/images/dukunlumo.jpg",
     "物理化学/images/dukunhomo.jpg",
