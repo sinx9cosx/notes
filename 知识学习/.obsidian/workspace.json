@@ -35,7 +35,8 @@
               "title": "统计热力学纸质笔记转录"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/统计力学.md",
+                "file": "物理化学/统计热力学纸质笔记转录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计力学 的大纲"
+              "title": "统计热力学纸质笔记转录 的大纲"
             }
           },
           {
@@ -242,10 +243,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "245b6fa2ff3a9f68",
+  "active": "7203ff13a6295ad0",
   "lastOpenFiles": [
-    "物理化学/统计热力学纸质笔记转录.md",
     "物理化学/统计力学.md",
+    "物理化学/统计热力学纸质笔记转录.md",
     "Python基础教程/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python基础教程/知识点讲义对照_01_基础语法与流程控制.md",
     "Python基础教程/知识点讲义对照_02_数据类型与序列.md",
