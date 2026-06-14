@@ -264,6 +264,16 @@ $$\text{BQ}\ (-0.12772) < \text{NQ}\ (-0.11785) < \text{DQ}\ (-0.11353)$$
   <td align="center"><img src="benkunlumo.jpg" width="380"><br>苯醌 LUMO</td>
   </tr></table>
 
+  <table><tr>
+  <td align="center"><img src="naikunhomo.jpg" width="380"><br>萘醌 HOMO</td>
+  <td align="center"><img src="naikunlomo.jpg" width="380"><br>萘醌LUMO</td>
+  </tr></table>
+
+  <table><tr>
+  <td align="center"><img src="dukunhomo.jpg" width="380"><br>杜醌 HOMO</td>
+  <td align="center"><img src="dukunlumo.jpg" width="380"><br>杜醌LUMO</td>
+  </tr></table>
+  
 # 六、实验结论
 
 1. **氧化还原电势排序**：三种醌的计算标准电极电势（vs. SHE）依次为：苯醌 −0.766 V，萘醌 −0.980 V，杜醌 −1.092 V。E(SHE) 越正，氧化态越容易得电子被还原，故还原能力排序为：**苯醌 > 萘醌 > 杜醌**。

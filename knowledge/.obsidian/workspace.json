@@ -11,10 +11,14 @@
             "id": "10a6887f8fdfaf19",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "physchem/Gaussian计算实验报告.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Gaussian计算实验报告"
             }
           },
           {
@@ -163,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "物理化学/Gaussian计算实验报告.md",
+                "file": "physchem/Gaussian计算实验报告.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
