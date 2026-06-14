@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781417136592-w8f809my0",
+  "providerId": "claude",
+  "title": "解释分子轨道分析中HOMO/LUMO的选择",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781417136593,
+  "updatedAt": 1781417164215,
+  "lastResponseAt": 1781417164215,
+  "sessionId": "26eb8d53-acba-4f87-b666-2ae4a703d151",
+  "providerState": {
+    "providerSessionId": "26eb8d53-acba-4f87-b666-2ae4a703d151"
+  },
+  "currentNote": "物理化学/Gaussian计算实验报告.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 5644,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 28428,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
