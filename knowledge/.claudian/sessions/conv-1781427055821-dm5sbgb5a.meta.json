@@ -4,8 +4,8 @@
   "title": "Python: does len() count \\n as one char",
   "titleGenerationStatus": "success",
   "createdAt": 1781427055821,
-  "updatedAt": 1781427070992,
-  "lastResponseAt": 1781427070992,
+  "updatedAt": 1781429411583,
+  "lastResponseAt": 1781429411583,
   "sessionId": "94fd5a5f-ddab-4946-bd04-e54042ab7e54",
   "providerState": {
     "providerSessionId": "94fd5a5f-ddab-4946-bd04-e54042ab7e54"
@@ -13,11 +13,11 @@
   "currentNote": "Python/知识点讲义对照_02_数据类型与序列.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 10785,
+    "inputTokens": 140,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 22784,
+    "cacheReadInputTokens": 34048,
     "contextWindow": 1000000,
-    "contextTokens": 33569,
+    "contextTokens": 34188,
     "percentage": 3,
     "contextWindowIsAuthoritative": true
   }
