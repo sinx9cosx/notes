@@ -25,13 +25,18 @@
             "id": "992f818a06009e42",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "physchem/Gaussian计算实验报告.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Gaussian计算实验报告"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "换算关系",
+                "query": "6-31",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
+                "file": "physchem/Gaussian计算实验报告.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势 的大纲"
+              "title": "Gaussian计算实验报告 的大纲"
             }
           },
           {
@@ -238,8 +244,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "10a6887f8fdfaf19",
+  "active": "bd1b435e45338c75",
   "lastOpenFiles": [
+    "physchem/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "physchem/Gaussian计算实验报告.md",
     "物理化学/images/dukunlumo.jpg",
     "物理化学/images/dukunhomo.jpg",
@@ -279,7 +286,6 @@
     "Python基础教程/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题8/h4.二分搜索.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
-    "Python基础教程/计算机软件技术基础1复习题/编程题8/h1.几斤几两.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题8",
     "Python基础教程/计算机软件技术基础1复习题/编程题7",
     "Python基础教程/计算机软件技术基础1复习题/编程题6",
