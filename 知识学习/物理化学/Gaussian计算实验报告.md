@@ -259,7 +259,10 @@ $$\text{BQ}\ (-0.12772) < \text{NQ}\ (-0.11785) < \text{DQ}\ (-0.11353)$$
 
 4. **还原态轨道变化**：还原后（得一个电子），原 LUMO 变为 singly occupied，同时整个轨道能级体系上移。三个分子的还原态 HOMO（即 SOMO）能量分别为 −0.13891（BQ<sup>−</sup>）、−0.13252（NQ<sup>−</sup>）、−0.12737（DQ<sup>−</sup>）Hartree，均为负值，表明阴离子自由基的 HOMO 仍处于束缚态，半醌负离子自由基具有一定的稳定性。
 
-> **等值面图**：需用 GaussView 5.0 分别打开 `hw2.chk`、`neikun2.chk`、`dukun2.chk` 三个中性分子的检查点文件，在 Molecular Orbital Editor 中勾选 HOMO 和 LUMO，点击 Update 显示等值面图，截图后插入本小节。等值面图建议放置在轨道能量表之后、分析文字之前，每个分子并排展示 HOMO 和 LUMO（isovalue 建议取默认值 0.02）。
+  <table><tr>
+  <td align="center"><img src="benkunhomo.jpg" width="380"><br>苯醌 HOMO</td>
+  <td align="center"><img src="benkunlumo.jpg" width="380"><br>苯醌 LUMO</td>
+  </tr></table>
 
 # 六、实验结论
 

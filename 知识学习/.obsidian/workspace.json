@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -227,7 +228,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 387.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,8 +245,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "992f818a06009e42",
   "lastOpenFiles": [
+    "物理化学/images/dukunlumo.jpg",
+    "物理化学/images/dukunhomo.jpg",
+    "物理化学/images/benkunlumo.jpg",
+    "物理化学/images/benkunhomo.jpg",
+    "物理化学/images/naikunlomo.jpg",
+    "物理化学/images/naikunhomo.jpg",
+    "物理化学/images",
     "物理化学/Gaussian计算实验报告.md",
     "物理化学/Gaussian计算实验报告.md",
     "物理化学/计算实验结果.md",
@@ -277,20 +286,13 @@
     "Python基础教程/计算机软件技术基础1复习题/编程题8/h4.二分搜索.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题8/h1.几斤几两.md",
-    "Python基础教程/计算机软件技术基础1复习题/编程题7/g5.矩阵找最值及位置.md",
     "Python基础教程/计算机软件技术基础1复习题/编程题8",
     "Python基础教程/计算机软件技术基础1复习题/编程题7",
     "Python基础教程/计算机软件技术基础1复习题/编程题6",
     "Python基础教程/计算机软件技术基础1复习题/编程题5",
-    "Python基础教程/计算机软件技术基础1复习题/编程题4",
     "Python基础教程/assets/image-20251103110533794.png",
     "Python基础教程/assets/Screenshots_11.png",
     "Python基础教程/assets/Screenshots_10.png",
-    "Python基础教程/assets/image-20251104201050838.png",
-    "Python基础教程/assets/image-20251104200710932.png",
-    "Python基础教程/assets/image-20251104195159756.png",
-    "Python基础教程/assets/image-20251104193926784.png",
-    "Python基础教程/assets/image-20251104174832908.png",
-    "Python基础教程/assets/image-20251104114630336.png"
+    "Python基础教程/assets/image-20251104201050838.png"
   ]
 }
