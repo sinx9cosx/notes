@@ -17,7 +17,7 @@ Category:
 # 二、实验目的
 
 1. 学习量子化学计算的基本原理及量子化学计算软件 Gaussian 的使用方法；利用 Gaussian 计算苯醌及其衍生物的电子结构和热力学性质。
-2. 通过 Gaussian 计算得到的热力学数据，计算苯醌及其衍生物的氧化还原电势；与循环伏安方法相对照，验证理论与实验的符合程度，考察苯醌及其衍生物氧化还原电势差别的来源。
+2. 通过 Gaussian 计算得到的热力学数据，计算苯醌及其衍生物的氧化还原电势；考察苯醌及其衍生物氧化还原电势差别的来源。
 3. 通过 Gaussian 计算得到的结果，研究其分子轨道能量与氧化还原电势的关系，考察氧化还原电势变化的分子结构基础。
 
 # 三、实验原理和方法
@@ -45,21 +45,15 @@ $$E(\text{vs. SHE}) = E_{\text{abs}} - 4.44\ \text{V}$$
 ## 3.3 能量分解原理
 
 为分析氧化还原电势的能量来源，将反应的 $\Delta G$ 按热力学关系分解：
-
 $$\Delta G = \Delta H - T\Delta S$$
-
 其中 $T = 298.15\ \text{K}$。焓变进一步分解为：
-
 $$\Delta H = \Delta EE + \Delta ZPE + \Delta E_{\text{thermal}}$$
-
 各符号含义：
 
 - **ΔEE**：电子能变化（electronic energy），含电子注入 LUMO 及分子轨道弛豫
 - **ΔZPE**：零点能校正变化（zero-point energy correction）
 - **ΔE<sub>thermal</sub>**：热振动/转动/平动能量校正，$\Delta E_{\text{thermal}} = \Delta U - \Delta(EE+ZPE)$
 - **TΔS**：熵贡献，$T = 298.15\ \text{K}$，换算关系：1 kcal·mol<sup>−1</sup>·K<sup>−1</sup> = 1/627.509 Hartree/K
-
----
 
 # 四、实验数据（Gaussian 计算结果）
 
