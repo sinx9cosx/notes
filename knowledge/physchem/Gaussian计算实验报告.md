@@ -57,6 +57,8 @@ $$\Delta H = \Delta EE + \Delta ZPE + \Delta E_{\text{thermal}}$$
 
 # 四、实验数据（Gaussian 计算结果）
 
+## 4.1 原始数据
+
 下表列出三个分子中性态和还原态的全部热力学数据，均来自 Gaussian 16 B3LYP/6-31G(d) 最终计算（opt+freq，CPCM 乙腈溶剂模型）。
 
 | 物理量                                     | BQ          | BQ<sup>−</sup> | NQ          | NQ<sup>−</sup> | DQ          | DQ<sup>−</sup> |
@@ -74,6 +76,9 @@ $$\Delta H = \Delta EE + \Delta ZPE + \Delta E_{\text{thermal}}$$
 > DQ = 四甲基-1,4-苯醌（duroquinone，杜醌）。
 
 > 所有结构频率计算均无虚频，确认为势能面上的局部极小值。
+
+## 4.2 自旋污染检验
+
 
 # 五、数据处理
 
