@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/统计力学.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "与熵",
+                "query": "离域子系统",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -243,11 +243,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "bd1b435e45338c75",
+  "active": "2cb8cd6fc8b87cba",
   "lastOpenFiles": [
     "physchem/理想气体内能与压力无关的证明.md",
-    "instrument analysis/化学发光内容总结.md",
     "physchem/统计力学.md",
+    "instrument analysis/化学发光内容总结.md",
     "physchem/统计热力学纸质笔记转录.md",
     "physchem/Gibbs Paradox.canvas",
     "physchem/images/Gibbs Paradox.png",
