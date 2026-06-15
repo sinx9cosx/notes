@@ -35,7 +35,8 @@
               "title": "统计热力学纸质笔记转录"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/统计力学.md",
+                "file": "physchem/统计热力学纸质笔记转录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计力学 的大纲"
+              "title": "统计热力学纸质笔记转录 的大纲"
             }
           },
           {
@@ -242,10 +243,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2cb8cd6fc8b87cba",
+  "active": "6c66c9e46032facd",
   "lastOpenFiles": [
-    "physchem/统计热力学纸质笔记转录.md",
     "physchem/统计力学.md",
+    "physchem/统计热力学纸质笔记转录.md",
     "physchem/计算实验结果.md",
     "physchem/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "physchem/Gaussian计算实验报告.md",
