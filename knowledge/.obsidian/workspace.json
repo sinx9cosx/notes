@@ -25,17 +25,14 @@
             "id": "6c66c9e46032facd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Gibbs Paradox.canvas",
-                "viewState": {
-                  "x": 6,
-                  "y": 73.66668701171875,
-                  "zoom": 0
-                }
+                "file": "physchem/统计热力学纸质笔记转录.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Gibbs Paradox"
+              "icon": "lucide-file",
+              "title": "统计热力学纸质笔记转录"
             }
           }
         ]
@@ -247,10 +244,10 @@
   },
   "active": "2cb8cd6fc8b87cba",
   "lastOpenFiles": [
-    "Gibbs Paradox.canvas",
-    "physchem/images/Gibbs Paradox.png",
-    "physchem/统计力学.md",
     "physchem/统计热力学纸质笔记转录.md",
+    "physchem/Gibbs Paradox.canvas",
+    "physchem/统计力学.md",
+    "physchem/images/Gibbs Paradox.png",
     "physchem/计算实验结果.md",
     "physchem/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "physchem/Gaussian计算实验报告.md",
