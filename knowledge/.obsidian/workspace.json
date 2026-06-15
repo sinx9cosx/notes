@@ -25,18 +25,20 @@
             "id": "6c66c9e46032facd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "physchem/统计热力学纸质笔记转录.md",
-                "mode": "source",
-                "source": false
+                "file": "Gibbs Paradox.canvas",
+                "viewState": {
+                  "x": 6,
+                  "y": 73.66668701171875,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "统计热力学纸质笔记转录"
+              "icon": "lucide-layout-dashboard",
+              "title": "Gibbs Paradox"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/统计热力学纸质笔记转录.md",
+                "file": "physchem/统计力学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计热力学纸质笔记转录 的大纲"
+              "title": "统计力学 的大纲"
             }
           },
           {
@@ -243,8 +245,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6c66c9e46032facd",
+  "active": "2cb8cd6fc8b87cba",
   "lastOpenFiles": [
+    "Gibbs Paradox.canvas",
+    "physchem/images/Gibbs Paradox.png",
     "physchem/统计力学.md",
     "physchem/统计热力学纸质笔记转录.md",
     "physchem/计算实验结果.md",
@@ -282,7 +286,6 @@
     "1.Python基础教程/知识点讲义对照_03_函数与面向对象与文件.md.tmp.31352.b9c1c2addb51",
     "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md.tmp.31352.b76d33dea473",
     "Python基础教程/assets/image-20230416002859771.png",
-    "Python基础教程/11_数据结构与算法初步.md",
     "1.Python基础教程/01_导论.pdf",
     "计算机软件技术基础1复习题/99_计算机软件技术基础1必知必会.pdf",
     "Python基础教程/计算机软件技术基础1复习题/编程题8",
@@ -290,7 +293,6 @@
     "Python基础教程/计算机软件技术基础1复习题/编程题6",
     "Python基础教程/计算机软件技术基础1复习题/编程题5",
     "Python基础教程/assets/image-20251103110533794.png",
-    "Python基础教程/assets/Screenshots_11.png",
-    "Python基础教程/assets/Screenshots_10.png"
+    "Python基础教程/assets/Screenshots_11.png"
   ]
 }
