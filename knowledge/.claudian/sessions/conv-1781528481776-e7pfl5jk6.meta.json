@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781528481776-e7pfl5jk6",
+  "providerId": "claude",
+  "title": "检查笔记中的错误",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781528481776,
+  "updatedAt": 1781528705523,
+  "lastResponseAt": 1781528705523,
+  "sessionId": "7954318a-28ff-46b1-91fe-e2d8bfb0617f",
+  "providerState": {
+    "providerSessionId": "7954318a-28ff-46b1-91fe-e2d8bfb0617f"
+  },
+  "currentNote": "physchem/统计力学.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 13978,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 36762,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
