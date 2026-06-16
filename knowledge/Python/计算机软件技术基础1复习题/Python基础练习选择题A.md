@@ -501,7 +501,7 @@ c = a + b
 print(c)
 ```
 
-- [ ] A. acbd
+- [x] A. acbd
 - [ ] B. dbac  
 - [ ] C. bdac
 - [ ] D. abcd
@@ -521,7 +521,7 @@ print(sum)
 
 - [ ] A. -49  
 - [ ] B. -50  
-- [ ] C. 49
+- [x] C. 49
 - [ ] D. 50  
 
 #### [单项选择题041]
@@ -539,7 +539,7 @@ for n in range(100,200):
 - [ ] A. 152  
 - [ ] B. 159  
 - [ ] C. 157 
-- [ ] D. 153
+- [x] D. 153
 
 #### [单项选择题042]
 - 以下选项中,输出结果为 False 的是（　　）。
@@ -547,7 +547,7 @@ for n in range(100,200):
 - [ ] A. 'python123' > 'python'  
 - [ ] B. 'ABCD' == 'abcd'.upper()   
 - [ ] C. ''<'a'   
-- [ ] D. 'python' < 'pypi'
+- [x] D. 'python' < 'pypi'
 
 #### [单项选择题043]
 -  下列代码段执行后, j 的值是（　　）
@@ -559,7 +559,7 @@ for i in range(0,10):
 ```
 
 - [ ] A. 36  
-- [ ] B. 46
+- [x] B. 46
 - [ ] C. 11  
 - [ ] D. 10
 
@@ -569,15 +569,16 @@ for i in range(0,10):
 - [ ] A. while  
 - [ ] B. 0  
 - [ ] C. -1
-- [ ] D. False
+- [x] D. False
 
 #### [单项选择题045]
-- 下列说法中正确的是（ ）。
+> [!warning]
+> - 下列说法中正确的是（ ）。
 
 - [ ] A. break用在for语句中,而continue用在while语句中
 - [ ] B. break用在while语句中,而continue用在for语句中
 - [ ] C. continue能结束循环,而break只能结束本次循环
-- [ ] D. break能结束循环,而continue只能结束本次循环
+- [x] D. break能结束循环,而continue只能结束本次循环
 
 #### [单项选择题046]
 - 下列哪个关键字用于定义函数？（ ）
@@ -585,20 +586,21 @@ for i in range(0,10):
 - [ ] A. define
 - [ ] B. function
 - [ ] C. func
-- [ ] D. def
+- [x] D. def
 
 #### [单项选择题047]
-- 以下关于Python语句的叙述中,正确的是（ ）
+> [!warning]
+> - 以下关于Python语句的叙述中,正确的是（ ）
 
-- [ ] A. 同一层次的Python语句必须对齐
+- [x] A. 同一层次的Python语句必须对齐
 - [ ] B. Python语句可以从一行的任意一列开始
 - [ ] C. 在执行Python语句时,可发现注释中的拼写错误
-- [ ] D. Python程序的每行只能写一条语句
+- [ ] D. Python程序的每行只能写一条语句(可以用分号xie)
 
 #### [单项选择题048]
 - 在Python中，如何获取列表list的长度？（   ）
 
-- [ ] A. len(list)
+- [x] A. len(list)
 - [ ] B. length(list)
 - [ ] C. list.size()
 - [ ] D. sizeOf(list)
