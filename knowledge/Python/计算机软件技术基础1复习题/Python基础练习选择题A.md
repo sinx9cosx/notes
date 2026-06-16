@@ -240,7 +240,8 @@ for x in range(start, age + 2, 2):
 - [ ] D. 10
 
 #### [单项选择题020]
-- 执行代码,其运行结果是（　　）
+> [!warning]
+> - 执行代码,其运行结果是（　　）
 
 ```python
 x = "foo"
@@ -264,12 +265,12 @@ print(x * 3)
 - [ ] A. 系统报错   
 - [ ] B. Happy!*3  
 - [ ] C. HHHaaappppppyyy!!! 
-- [ ] D. Happy!Happy!Happy!
+- [x] D. Happy!Happy!Happy!
 
 #### [单项选择题022]
 - 下面if语句统计“成绩(mark)优秀(>=90)的男生以及不及格(<60)的男生”的人数,正确的语句为（　　）
 
-- [ ] A. if gender=="男" and mark<60 or mark>=90:
+- [x] A. if gender=="男" and mark<60 or mark>=90:
 - [ ] B. if gender=="男" and mark<60 and mark>=90:
 - [ ] C. if gender=="男" and (mark<60 or mark>=90):
 - [ ] D. if gender=="男" or mark<60 or mark>=90:
@@ -282,7 +283,7 @@ s = 'Python is Open Source!'
 print(s[0:].upper())
 ```
 
-- [ ] A. PYTHON IS OPEN SOURCE!
+- [x] A. PYTHON IS OPEN SOURCE!
 - [ ] B. PYTHON IS OPEN SOURCE
 - [ ] C. Python is Open Source!
 - [ ] D. PYTHON
@@ -295,7 +296,7 @@ s = "abcdefghijklmn"
 print(s[1:10:3])
 ```
 
-- [ ] A. beh
+- [x] A. beh
 - [ ] B. behk  
 - [ ] C. adg  
 - [ ] D. adgj
@@ -304,7 +305,7 @@ print(s[1:10:3])
 - 对于列表 `L=[1,2,'Python',[1,2,3,4,5]]` , `L[-3]` 是（　　）。
 
 - [ ] A. 1
-- [ ] B. 2
+- [x] B. 2
 - [ ] C. 'Python'  
 - [ ] D. [1,2,3,4,5]
 
@@ -313,7 +314,7 @@ print(s[1:10:3])
 
 - [ ] A. get()  
 - [ ] B. print()  
-- [ ] C. input()
+- [x] C. input()
 - [ ] D. eval()
 
 #### [单项选择题027]
@@ -328,12 +329,13 @@ for i in range(1,6):
 ```
 
 - [ ] A. 1,2,  
-- [ ] B. 1,2,3,4,5,
+- [x] B. 1,2,3,4,5,
 - [ ] C. 1,2,3,4,  
 - [ ] D. 1,2,3,
 
 #### [单项选择题028]
-- 下面代码的输出结果是（　　）。
+> [!warning]
+> - 下面代码的输出结果是（　　）。
 
 ```python
 str1 = "mysqlsqlserverPostgresQL"
@@ -343,7 +345,7 @@ print(ncount)
 ```
 
 - [ ] A. 3
-- [ ] B. 0
+- [x] B. 0
 - [ ] C. 4  
 - [ ] D. 2
 
@@ -356,7 +358,7 @@ y = 3
 print(x%y,x**y)
 ```
 
-- [ ] A. 1 1000
+- [x] A. 1 1000
 - [ ] B. 3 30  
 - [ ] C. 1 30  
 - [ ] D. 3 1000
@@ -372,7 +374,7 @@ for i in range(1,3):
 
 - [ ] A. 2 
 - [ ] B. 6
-- [ ] C. 8
+- [x] C. 8
 - [ ] D. 15
 
 #### [单项选择题031]
