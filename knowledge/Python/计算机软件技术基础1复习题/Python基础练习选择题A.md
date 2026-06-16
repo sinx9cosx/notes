@@ -385,33 +385,39 @@ for i in range(1,10,2):
 	print(i,end=',')
 ```
 
-- [ ] A. 1,3,5,7,9,
+- [x] A. 1,3,5,7,9,
 - [ ] B. 1,4,7,  
 - [ ] C. 1,4,  
 - [ ] D. 1,3,
 
 #### [单项选择题032]
-- 下面代码的输出结果是（　　）。
+> [!warning]
+> - 下面代码的输出结果是（　　）。
 
 ```python
 z = 12.12 + 34j
 print(z.real)
 ```
 
-- [ ] A. 12.12
+- [x] A. 12.12
 - [ ] B. 34.0  
 - [ ] C. 12  
 - [ ] D. 34
 
 #### [单项选择题033]
 
-- 在Python中，如何复制一个列表？
+>[!warning]
+>- 在Python中，如何复制一个列表？
 
 - [ ] A. new_list = old_list
 - [ ] B. new_list = old_list.clone()
 - [ ] C. new_list = copy(old_list)
-- [ ] D. new_list = old_list.copy()
+- [x] D. new_list = old_list.copy()
 
+> 除了 `.copy()`，还有两种常用复制方式喵：
+> - `new_list = old_list[:]` —— 切片法
+> - `new_list = list(old_list)` —— 工厂函数法
+> - 这三者都是**浅拷贝**（只复制最外层元素，内嵌的可变对象仍然共享引用）喵。如果列表里还嵌套了列表，需要深拷贝的话要用 `import copy; copy.deepcopy(old_list)` 喵。
 #### [单项选择题034]
 - 下面代码的输出结果是（　　）
 
@@ -422,7 +428,7 @@ print(ls)
 
 - [ ] A. [0,1,2,3]  
 - [ ] B. {0,1,2,3}   
-- [ ] C. [1,2,3]
+- [x] C. [1,2,3]
 - [ ] D. {1,2,3}
 
 #### [单项选择题035]
@@ -435,7 +441,7 @@ if x == 1:
 print(x)
 ```
 
-- [ ] A. 0
+- [x] A. 0
 - [ ] B. 1  
 - [ ] C. 2  
 - [ ] D. 出错
@@ -450,7 +456,7 @@ for x in (1,10):
 	print(x,'',end='')
 ```
 
-- [ ] A. 2 4 6 8  
+- [x] A. 2 4 6 8  
 - [ ] B. 什么也不会输出  
 - [ ] C. 1
 - [ ] D. 2
@@ -468,7 +474,7 @@ for i in range(2,101):
 print(sum)
 ```
 
-- [ ] A. 51
+- [x] A. 51
 - [ ] B. -50  
 - [ ] C. 49  
 - [ ] D. 50
@@ -480,7 +486,7 @@ print(sum)
 print(pow(3,0.5)*pow(3,0.5)==3)
 ```
 
-- [ ] A. True   
+- [x] A. True   
 - [ ] B. pow(3,0.5)*pow(3,0.5)==3   
 - [ ] C. 3   
 - [ ] D. False

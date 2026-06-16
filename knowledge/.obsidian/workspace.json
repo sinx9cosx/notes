@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "count",
+                "query": "pow",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -233,7 +234,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "bd1b435e45338c75",
   "lastOpenFiles": [
     "Python/知识点讲义对照_02_数据类型与序列.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",

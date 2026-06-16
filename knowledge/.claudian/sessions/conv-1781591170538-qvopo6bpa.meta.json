@@ -4,8 +4,8 @@
   "title": "解答单项选择题第20题",
   "titleGenerationStatus": "success",
   "createdAt": 1781591170539,
-  "updatedAt": 1781592142944,
-  "lastResponseAt": 1781592142944,
+  "updatedAt": 1781592632307,
+  "lastResponseAt": 1781592632307,
   "sessionId": "6b6188a4-6b92-40b8-9d3d-9234189d87d5",
   "providerState": {
     "providerSessionId": "6b6188a4-6b92-40b8-9d3d-9234189d87d5"
@@ -13,12 +13,12 @@
   "currentNote": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 93,
+    "inputTokens": 339,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 34304,
+    "cacheReadInputTokens": 35072,
     "contextWindow": 1000000,
-    "contextTokens": 34397,
-    "percentage": 3,
+    "contextTokens": 35411,
+    "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
 }
