@@ -23,7 +23,7 @@ for x in range(1,10):
 - [ ] A. print(TempStr[-5:])
 - [ ] B. print(TempStr[-4:-1])
 - [ ] C. print(TempStr[-5:0])
-- [ ] D. print(TempStr[-5:-1])
+- [x] D. print(TempStr[-5:-1])
 
 #### [单项选择题003]
 - 在Python中,正确的赋值语句为（　　）
@@ -91,7 +91,7 @@ print(s)
 
 - [ ] A.  ` _alex_eric_rain`
 - [ ] B.   `_alex_eric_rain_`
-- [ ] C.  `alex_eric_rain`
+- [x] C.  `alex_eric_rain`
 - [ ] D.   `alex_eric_rain_`
 
 #### [单项选择题009]
