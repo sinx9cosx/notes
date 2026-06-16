@@ -593,9 +593,9 @@ for i in range(0,10):
 > - 以下关于Python语句的叙述中,正确的是（ ）
 
 - [x] A. 同一层次的Python语句必须对齐
-- [ ] B. Python语句可以从一行的任意一列开始
+- [ ] B. Python语句可以从一行的任意一列开始（<mark style="background: #ABF7F7A6;">正确缩进</mark>）
 - [ ] C. 在执行Python语句时,可发现注释中的拼写错误
-- [ ] D. Python程序的每行只能写一条语句(可以用分号xie)
+- [ ] D. Python程序的每行只能写一条语句(<mark style="background: #ABF7F7A6;">可以用分号写多条</mark>)
 
 #### [单项选择题048]
 - 在Python中，如何获取列表list的长度？（   ）
@@ -610,13 +610,13 @@ for i in range(0,10):
 
 - [ ] A. continue语句的作用是结束整个循环的执行
 - [ ] B. 在循环体内使用break语句或continue语句的作用相同
-- [ ] C. 只能在循环体内使用break语句
+- [x] C. 只能在循环体内使用break语句
 - [ ] D. 从多层循环嵌套中退出时，只能使用goto语句
 
 #### [单项选择题050]
 - Python程序通过（ ）来区分代码块的级别
 
-- [ ] A. 缩进
+- [x] A. 缩进
 - [ ] B. begin 和 end
 - [ ] C. 大括号 { }
 - [ ] D. 中括号 [ ]
