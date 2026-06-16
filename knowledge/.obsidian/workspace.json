@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/知识点讲义对照_02_数据类型与序列.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -208,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -228,7 +228,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "2eca53f3461c0b75",
   "lastOpenFiles": [
     "physchem/统计力学.md",
     "physchem/理想气体内能与压力无关的证明.md",
