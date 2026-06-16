@@ -188,16 +188,6 @@
             }
           },
           {
-            "id": "5a6b6dfc84ca0083",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
-            }
-          },
-          {
             "id": "26b9f7764f3750de",
             "type": "leaf",
             "state": {
@@ -208,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -228,7 +218,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2eca53f3461c0b75",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "physchem/统计力学.md",
     "physchem/理想气体内能与压力无关的证明.md",
