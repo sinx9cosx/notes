@@ -84,7 +84,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/定理成立的条件.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/统计力学的研究系统.md",
+                "file": "physchem/定理成立的条件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计力学的研究系统 的大纲"
+              "title": "定理成立的条件 的大纲"
             }
           },
           {
@@ -287,10 +287,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2f1d227b59bd90ca",
+  "active": "a10eaa37af1dffb5",
   "lastOpenFiles": [
-    "physchem/定理成立的条件.md",
     "physchem/统计力学的研究系统.md",
+    "physchem/定理成立的条件.md",
     "physchem/统计力学.md",
     "physchem/热力学纸质笔记转录.md",
     "physchem/images/nagetive temperature.jpg",
