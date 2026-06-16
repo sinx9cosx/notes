@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/量子力学.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -246,7 +246,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "a6a86dfa2c3d00cf",
   "lastOpenFiles": [
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/知识点讲义对照_02_数据类型与序列.md",
