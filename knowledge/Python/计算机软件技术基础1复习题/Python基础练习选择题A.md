@@ -99,7 +99,7 @@ print(s)
 
 - [ ] A. print(lt[0:3])
 - [ ] B. print(lt[0:3],'-')
-- [ ] C. print('-'.join(lt))
+- [x] C. print('-'.join(lt))
 - [ ] D. print('-'.split(lt))
 
 #### [单项选择题010]
@@ -236,7 +236,7 @@ for x in range(start, age + 2, 2):
 
 - [ ] A. 16  
 - [ ] B. 14 
-- [ ] C. 12
+- [x] C. 12
 - [ ] D. 10
 
 #### [单项选择题020]
@@ -251,7 +251,7 @@ print(x+y)
 - [ ] A. foo   
 - [ ] B. foofoo  
 - [ ] C. foo2  
-- [ ] D. TypeError
+- [x] D. TypeError
 
 #### [单项选择题021]
 - 下面代码的执行结果是（　　）。
