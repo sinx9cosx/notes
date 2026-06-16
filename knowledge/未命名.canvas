@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"689c70a196a727e2","type":"text","text":"吉布斯熵","x":-160,"y":680,"width":250,"height":60},
+		{"id":"8d5d19d8ce07498a","type":"text","text":"香农熵","x":140,"y":680,"width":250,"height":60},
+		{"id":"82ec13a9034899e0","type":"text","text":"等概率假定","x":-400,"y":-500,"width":250,"height":60,"color":"1"},
+		{"id":"9762e75a6f4d03d3","type":"text","text":"遍历态假定","x":20,"y":-500,"width":250,"height":60,"color":"1"},
+		{"id":"fb2aaa189e599f2e","type":"text","text":"定义微观状态数$\\omega$","x":-180,"y":-360,"width":250,"height":50,"color":"2"},
+		{"id":"277e31b26d6aa41a","type":"text","text":"玻尔兹曼熵公式","x":-180,"y":-240,"width":250,"height":60,"color":"3"},
+		{"id":"baa767137e3a5cec","type":"text","text":"熵增加原理（孤立系统$\\Delta S\\geq_{0}$）","x":-225,"y":-120,"width":340,"height":60,"color":"4"},
+		{"id":"1558c0f56e44c1b9","type":"text","text":"最可几分布","x":-180,"y":0,"width":250,"height":60,"color":"5"},
+		{"id":"8b330114a0696b9a","type":"text","text":"玻尔兹曼分布","x":-180,"y":160,"width":250,"height":60,"color":"6"},
+		{"id":"745bbaa973f6923b","type":"text","text":"配分函数","x":-180,"y":300,"width":250,"height":60},
+		{"id":"197c3005f8bf7753","type":"text","text":"能量均分原理","x":140,"y":500,"width":250,"height":50},
+		{"id":"d5885710c13d15fc","type":"text","text":"解析不同运动形式对$U,C_{v},S$的贡献","x":140,"y":288,"width":265,"height":84}
+	],
+	"edges":[
+		{"id":"f7af33e2ecdb5573","fromNode":"82ec13a9034899e0","fromSide":"right","toNode":"9762e75a6f4d03d3","toSide":"left","toEnd":"none","color":"1"},
+		{"id":"6a2bc425f3ecd09d","fromNode":"82ec13a9034899e0","fromSide":"bottom","toNode":"fb2aaa189e599f2e","toSide":"top","color":"1"},
+		{"id":"a1ccbb11bd502b72","fromNode":"9762e75a6f4d03d3","fromSide":"bottom","toNode":"fb2aaa189e599f2e","toSide":"top","color":"1"},
+		{"id":"29f799a041656317","fromNode":"fb2aaa189e599f2e","fromSide":"bottom","toNode":"277e31b26d6aa41a","toSide":"top","color":"2"},
+		{"id":"9489f8e90f295ead","fromNode":"277e31b26d6aa41a","fromSide":"bottom","toNode":"baa767137e3a5cec","toSide":"top","color":"3"},
+		{"id":"ba6b54324de84e82","fromNode":"baa767137e3a5cec","fromSide":"bottom","toNode":"1558c0f56e44c1b9","toSide":"top","color":"4"},
+		{"id":"0f3f74013bb153cd","fromNode":"1558c0f56e44c1b9","fromSide":"bottom","toNode":"8b330114a0696b9a","toSide":"top","color":"5","label":"对恒温热库接触系统导出"},
+		{"id":"d0e358a81bbbb94c","fromNode":"8b330114a0696b9a","fromSide":"bottom","toNode":"745bbaa973f6923b","toSide":"top","color":"6","label":"定义"},
+		{"id":"2fcf2079a2c7f836","fromNode":"745bbaa973f6923b","fromSide":"right","toNode":"d5885710c13d15fc","toSide":"left"}
+	]
+}
