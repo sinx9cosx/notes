@@ -1,7 +1,5 @@
 {
 	"nodes":[
-		{"id":"689c70a196a727e2","type":"text","text":"吉布斯熵","x":-160,"y":680,"width":250,"height":60},
-		{"id":"8d5d19d8ce07498a","type":"text","text":"香农熵","x":140,"y":680,"width":250,"height":60},
 		{"id":"82ec13a9034899e0","type":"text","text":"等概率假定","x":-400,"y":-500,"width":250,"height":60,"color":"1"},
 		{"id":"9762e75a6f4d03d3","type":"text","text":"遍历态假定","x":20,"y":-500,"width":250,"height":60,"color":"1"},
 		{"id":"fb2aaa189e599f2e","type":"text","text":"定义微观状态数$\\omega$","x":-180,"y":-360,"width":250,"height":50,"color":"2"},
@@ -10,8 +8,10 @@
 		{"id":"1558c0f56e44c1b9","type":"text","text":"最可几分布","x":-180,"y":0,"width":250,"height":60,"color":"5"},
 		{"id":"8b330114a0696b9a","type":"text","text":"玻尔兹曼分布","x":-180,"y":160,"width":250,"height":60,"color":"6"},
 		{"id":"745bbaa973f6923b","type":"text","text":"配分函数","x":-180,"y":300,"width":250,"height":60},
-		{"id":"197c3005f8bf7753","type":"text","text":"能量均分原理","x":140,"y":500,"width":250,"height":50},
-		{"id":"d5885710c13d15fc","type":"text","text":"解析不同运动形式对$U,C_{v},S$的贡献","x":140,"y":288,"width":265,"height":84}
+		{"id":"d5885710c13d15fc","type":"text","text":"解析不同运动形式对$U,C_{v},S$的贡献","x":140,"y":288,"width":265,"height":84},
+		{"id":"197c3005f8bf7753","type":"text","text":"能量均分原理","x":-10,"y":440,"width":250,"height":50,"color":"1"},
+		{"id":"689c70a196a727e2","type":"text","text":"吉布斯熵","x":-180,"y":580,"width":250,"height":60,"color":"2"},
+		{"id":"8d5d19d8ce07498a","type":"text","text":"香农熵","x":148,"y":580,"width":250,"height":60,"color":"2"}
 	],
 	"edges":[
 		{"id":"f7af33e2ecdb5573","fromNode":"82ec13a9034899e0","fromSide":"right","toNode":"9762e75a6f4d03d3","toSide":"left","toEnd":"none","color":"1"},
@@ -22,6 +22,10 @@
 		{"id":"ba6b54324de84e82","fromNode":"baa767137e3a5cec","fromSide":"bottom","toNode":"1558c0f56e44c1b9","toSide":"top","color":"4"},
 		{"id":"0f3f74013bb153cd","fromNode":"1558c0f56e44c1b9","fromSide":"bottom","toNode":"8b330114a0696b9a","toSide":"top","color":"5","label":"对恒温热库接触系统导出"},
 		{"id":"d0e358a81bbbb94c","fromNode":"8b330114a0696b9a","fromSide":"bottom","toNode":"745bbaa973f6923b","toSide":"top","color":"6","label":"定义"},
-		{"id":"2fcf2079a2c7f836","fromNode":"745bbaa973f6923b","fromSide":"right","toNode":"d5885710c13d15fc","toSide":"left"}
+		{"id":"2fcf2079a2c7f836","fromNode":"745bbaa973f6923b","fromSide":"right","toNode":"d5885710c13d15fc","toSide":"left"},
+		{"id":"511f2d119e15244d","fromNode":"d5885710c13d15fc","fromSide":"bottom","toNode":"197c3005f8bf7753","toSide":"top","label":"引出"},
+		{"id":"d9f1d08730a025fd","fromNode":"197c3005f8bf7753","fromSide":"bottom","toNode":"689c70a196a727e2","toSide":"top","label":"推广"},
+		{"id":"9a3beff9516640cd","fromNode":"197c3005f8bf7753","fromSide":"bottom","toNode":"8d5d19d8ce07498a","toSide":"top"},
+		{"id":"caf513c399714755","fromNode":"8d5d19d8ce07498a","fromSide":"left","toNode":"689c70a196a727e2","toSide":"right","toEnd":"none","label":"类比"}
 	]
 }
