@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/知识点讲义对照_03_函数与面向对象与文件.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -226,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -244,7 +244,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2eca53f3461c0b75",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "Python/知识点讲义对照_02_数据类型与序列.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
