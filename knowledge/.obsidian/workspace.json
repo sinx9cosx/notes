@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/知识点讲义对照_03_函数与面向对象与文件.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -244,7 +244,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2eca53f3461c0b75",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "Python/04_函数.md",
     "Python/知识点讲义对照_02_数据类型与序列.md",
