@@ -4,8 +4,8 @@
   "title": "解释def main()的含义与作用",
   "titleGenerationStatus": "success",
   "createdAt": 1781696727642,
-  "updatedAt": 1781698602355,
-  "lastResponseAt": 1781698602355,
+  "updatedAt": 1781698756266,
+  "lastResponseAt": 1781698756266,
   "sessionId": "20c0495c-ff9b-4058-81b9-2f4ebb5280c0",
   "providerState": {
     "providerSessionId": "20c0495c-ff9b-4058-81b9-2f4ebb5280c0"
@@ -13,11 +13,11 @@
   "currentNote": "Python/知识点讲义对照_03_函数与面向对象与文件.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 529,
+    "inputTokens": 588,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 35328,
+    "cacheReadInputTokens": 35840,
     "contextWindow": 1000000,
-    "contextTokens": 35857,
+    "contextTokens": 36428,
     "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
