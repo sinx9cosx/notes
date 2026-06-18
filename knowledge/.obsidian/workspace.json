@@ -49,7 +49,8 @@
               "title": "热力学"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/知识点讲义对照_03_函数与面向对象与文件.md",
+                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "知识点讲义对照_03_函数与面向对象与文件 的大纲"
+              "title": "Python基础练习选择题A 的大纲"
             }
           },
           {
@@ -246,9 +247,9 @@
   },
   "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "Python/知识点讲义对照_03_函数与面向对象与文件.md",
     "Python/04_函数.md",
     "Python/知识点讲义对照_02_数据类型与序列.md",
-    "Python/知识点讲义对照_03_函数与面向对象与文件.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "physchem/热力学.md",
     "conflict-files-obsidian-git.md",
