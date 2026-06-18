@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781780648319-fcyq8s6oi",
+  "providerId": "claude",
+  "title": "解答第57题",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781780648320,
+  "updatedAt": 1781780660944,
+  "lastResponseAt": 1781780660944,
+  "sessionId": "aa5d1a36-4c97-4d91-8e9a-ea1f7e2909b8",
+  "providerState": {
+    "providerSessionId": "aa5d1a36-4c97-4d91-8e9a-ea1f7e2909b8"
+  },
+  "currentNote": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 11473,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 34257,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
