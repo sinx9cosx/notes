@@ -200,10 +200,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "物理化学/高斯中的热化学计算-翻译.md"
+                "file": "physchem/热力学.md"
               },
               "icon": "lucide-info",
-              "title": "高斯中的热化学计算-翻译的笔记属性"
+              "title": "热力学的笔记属性"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -245,8 +245,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "70f0588fa4efa4e8",
+  "active": "a6a86dfa2c3d00cf",
   "lastOpenFiles": [
+    "physchem/images/Carnot Cycle.jpg",
     "physchem/images/isothermal_vs_adiabatic_PV.png",
     "physchem/热力学.md",
     "physchem/images/gen_pv_diagram.py.tmp.32948.9fa37ed18632",
