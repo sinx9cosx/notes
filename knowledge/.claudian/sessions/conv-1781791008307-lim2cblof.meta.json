@@ -4,8 +4,8 @@
   "title": "Plot isothermal and adiabatic PV diagram",
   "titleGenerationStatus": "success",
   "createdAt": 1781791008307,
-  "updatedAt": 1781791218417,
-  "lastResponseAt": 1781791218417,
+  "updatedAt": 1781791317834,
+  "lastResponseAt": 1781791317834,
   "sessionId": "b97ae29f-b50b-4cf6-902f-e5bb4288281c",
   "providerState": {
     "providerSessionId": "b97ae29f-b50b-4cf6-902f-e5bb4288281c"
@@ -13,12 +13,12 @@
   "currentNote": "physchem/热力学.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 63,
+    "inputTokens": 43,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 44288,
+    "cacheReadInputTokens": 46592,
     "contextWindow": 1000000,
-    "contextTokens": 44351,
-    "percentage": 4,
+    "contextTokens": 46635,
+    "percentage": 5,
     "contextWindowIsAuthoritative": true
   }
 }

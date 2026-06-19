@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -245,12 +245,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "70f0588fa4efa4e8",
   "lastOpenFiles": [
-    "physchem/images/gen_pv_diagram.py.tmp.32948.904561f33e9d",
-    "physchem/images/gen_pv_diagram.py.tmp.32948.c28ae64ca7fc",
     "physchem/images/isothermal_vs_adiabatic_PV.png",
     "physchem/热力学.md",
+    "physchem/images/gen_pv_diagram.py.tmp.32948.9fa37ed18632",
+    "physchem/images/gen_pv_diagram.py.tmp.32948.904561f33e9d",
+    "physchem/images/gen_pv_diagram.py.tmp.32948.c28ae64ca7fc",
     "physchem/images/gen_pv_diagram.py",
     "physchem/images/gen_pv_diagram.py.tmp.32948.c0defae33da3",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
@@ -293,8 +294,6 @@
     "物理化学/统计热力学纸质笔记转录.md.tmp.23252.351cf737218f",
     "1.Python基础教程/知识点讲义对照_03_函数与面向对象与文件.md.tmp.31352.b9c1c2addb51",
     "1.Python基础教程/知识点讲义对照_01_基础语法与流程控制.md.tmp.31352.b76d33dea473",
-    "1.Python基础教程/01_导论.pdf",
-    "计算机软件技术基础1复习题/99_计算机软件技术基础1必知必会.pdf",
-    "Python基础教程/计算机软件技术基础1复习题/编程题8"
+    "1.Python基础教程/01_导论.pdf"
   ]
 }
