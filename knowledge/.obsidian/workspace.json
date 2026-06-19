@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -245,8 +245,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "a6a86dfa2c3d00cf",
   "lastOpenFiles": [
+    "physchem/images/verify Carnot Cycle.jpg",
     "physchem/images/Carnot Cycle.jpg",
     "physchem/images/isothermal_vs_adiabatic_PV.png",
     "physchem/热力学.md",
@@ -282,7 +283,6 @@
     "物理化学/images/dukunhomo.jpg",
     "物理化学/images/benkunlumo.jpg",
     "物理化学/images/benkunhomo.jpg",
-    "物理化学/images/naikunlomo.jpg",
     "物理化学/images",
     "物理化学/Gaussian计算实验报告.md",
     "物理化学/Gaussian计算实验报告.md",
