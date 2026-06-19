@@ -226,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -244,7 +244,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2eca53f3461c0b75",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "physchem/热力学.md",
     "physchem/违背 Clausius 表述的证明.md",
