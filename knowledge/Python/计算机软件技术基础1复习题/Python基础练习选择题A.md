@@ -1101,7 +1101,7 @@ for i,v in enumerate(poet):
 #### [单项选择题088]
 
 - 以下代码执行后的输出是（   ）
-
+<mark style="background: #FF5582A6;">？？</mark>
 ```python
 lstA = [1,2,7,4,5]
 lstA.sort(key = lambda x: x%2==0)
@@ -1110,13 +1110,13 @@ print(lstA)
 
 - [ ] A．None
 - [ ] B．[2, 4, 1, 7, 5]
-- [ ] C．[1, 7, 5, 2, 4]
+- [x] C．[1, 7, 5, 2, 4]
 - [ ] D．[1, 2, 7, 4, 5]
 
 #### [单项选择题089]
 
 - 以下代码执行后的输出是（    ）
-
+<mark style="background: #FF5582A6;">？？</mark>
 ```python
 lstA = [1,2,7,4,5]
 sorted(lstA, key = lambda x: x%2==0)
@@ -1126,7 +1126,7 @@ print(lstA)
 - [ ] A．None
 - [ ] B．[2, 4, 1, 7, 5]
 - [ ] C．[1, 7, 5, 2, 4]
-- [ ] D．[1, 2, 7, 4, 5]
+- [x] D．[1, 2, 7, 4, 5]
 
 #### [单项选择题090]
 
@@ -1134,13 +1134,13 @@ print(lstA)
 
 - [ ] A．[1,2,5,7]
 - [ ] B．[7,5,2,1]
-- [ ] C．[2,7,5,1]
+- [x] C．[2,7,5,1]
 - [ ] D．以上说法都不正确
 
 #### [单项选择题091]
 
 - 以下程序片段中 dictScore 是学生成绩，含有姓名及其对应的两科成绩，要实现按总计成绩升序，在横线处应填入代码是（    ）
-
+<mark style="background: #FF5582A6;">??</mark>
 ```python
 dictScore={"张三": (99, 88), "李思": (60, 99), "王武": (70, 70)}
 sortedData = sorted(________)

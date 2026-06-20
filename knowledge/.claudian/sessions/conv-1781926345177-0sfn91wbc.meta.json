@@ -4,8 +4,8 @@
   "title": "Explain identifiers and answer question 60",
   "titleGenerationStatus": "success",
   "createdAt": 1781926345177,
-  "updatedAt": 1781934527155,
-  "lastResponseAt": 1781934527155,
+  "updatedAt": 1781936001706,
+  "lastResponseAt": 1781936001706,
   "sessionId": "8ddab6a0-b0e5-44c1-8fa2-6bf228069981",
   "providerState": {
     "providerSessionId": "8ddab6a0-b0e5-44c1-8fa2-6bf228069981"
@@ -13,11 +13,11 @@
   "currentNote": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 526,
+    "inputTokens": 448,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 36352,
+    "cacheReadInputTokens": 36864,
     "contextWindow": 1000000,
-    "contextTokens": 36878,
+    "contextTokens": 37312,
     "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
