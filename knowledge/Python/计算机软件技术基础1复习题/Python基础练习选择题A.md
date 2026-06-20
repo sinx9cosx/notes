@@ -823,7 +823,7 @@ print( len(c) )
 
 - [ ] A. 0
 - [ ] B. 1
-- [ ] C. 24
+- [x] C. 24
 - [ ] D. 120
 
 #### [单项选择题069]
@@ -831,7 +831,7 @@ print( len(c) )
 - 假设某程序代码中有 print = 10，下列有关说法中正确的是（ ）。
 
 - [ ] A. 该行代码错误，因为 print 是关键字，不能作为变量名称；
-- [ ] B. 该行代码错误，因为 print 是内置函数名，不能作为变量名称；
+- [x] B. 该行代码错误，因为 print 是内置函数名，不能作为变量名称；
 - [ ] C. 该行代码没有错误，print 可以作为变量名称，虽然非常不可取；
 - [ ] D. 该行代码没有错误，虽然 print 是关键字，但也可以作为变量名称，虽然非常不可取；
 
@@ -839,13 +839,13 @@ print( len(c) )
 
 - Python 表达式 10 % 2 or 2 + 1 的值为（ ）。
 
-- [ ] A. 0
+- [ ] A. 0（False）
 
 - [ ] B. 1
 
 - [ ] C. 2
 
-- [ ] D. 3
+- [x] D. 3
 
 
 #### [单项选择题071]
@@ -857,7 +857,7 @@ from math import sqrt
 print(________)
 ```
 
-- [ ] A. round(math.sqrt(3),2)
+- [x] A. round(math.sqrt(3),2)
 - [ ] B. round(2,math.sqrt(3))
 - [ ] C. round(sqrt(3),2)
 - [ ] D. round(2,sqrt(3))
@@ -887,7 +887,7 @@ print("ABC")
   ABC
   ```
   
-- [ ] C. 
+- [x] C. 
 
   ```
   123XYZ
@@ -902,16 +902,16 @@ print("ABC")
   ```
 
 #### [单项选择题073]
-
+<mark style="background: #FF5582A6;">？？</mark>
 - 下面有关 Python 中 if 语句的说法，错误的是。
 
 - [ ] A. 一个 if 语句可以有 0 个或多个 elif 子句；
 - [ ] B. 一个 if 语句最多只能有一个 else 子句；
 - [ ] C. elif 是 Python 关键字，不可用作变量名；
-- [ ] D. 在一个 if 语句中，满足条件的被控制语句都会被执行；
+- [x] D. 在一个 if 语句中，满足条件的被控制语句都会被执行；
 
 #### [单项选择题074]
-
+<mark style="background: #FF5582A6;">？？</mark>
 - 下述代码用于随机输出 1 个小写英文字母，横线处应填写代码是（ ）。
 
 ```python
@@ -920,7 +920,7 @@ print(________)
 ```
 
 - [ ] A. chr(ord("a") + int(random.random() * 1000) % 26)
-- [ ] B. chr('a' + int(random.random() * 1000) % 26)
+- [x] B. chr('a' + int(random.random() * 1000) % 26)
 - [ ] C. ord('a' + int(random.random() * 1000) % 26)
 - [ ] D. chr(65 + int(random.random() * 1000) % 26)
 

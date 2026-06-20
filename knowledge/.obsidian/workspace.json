@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -232,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 387.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
