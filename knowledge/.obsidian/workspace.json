@@ -49,7 +49,8 @@
               "title": "热力学"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 387.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,11 +246,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "b09b82ef5eb3859a",
   "lastOpenFiles": [
+    "Python/知识点讲义对照_03_函数与面向对象与文件.md",
     "physchem/热力学.md",
     "physchem/违背 Clausius 表述的证明.md",
-    "Python/知识点讲义对照_03_函数与面向对象与文件.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "physchem/images/verify Carnot Cycle.jpg",
     "physchem/images/Carnot Cycle.jpg",
