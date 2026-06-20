@@ -1224,7 +1224,7 @@ print(a,b)
 
 - 如何删除列表list中的第一个元素？（    ）。
 
-- [ ] A. list.remove(0)
+- [x] A. list.remove(0)
 - [ ] B. list.pop(0)
 - [ ] C. list.delete(0)
 - [ ] D. list.del(0)
@@ -1236,7 +1236,7 @@ print(a,b)
 
 - [ ] A. new set()
 - [ ] B. {}
-- [ ] C. set()
+- [x] C. set()
 - [ ] D. emptySet()
 
 #### [单项选择题099]
@@ -1245,14 +1245,14 @@ print(a,b)
 
 - [ ] A. list.add(x)
 - [ ] B. list.append(x)
-- [ ] C. list.insert(0,x)
+- [x] C. list.insert(0,x)
 - [ ] D. list.extend(x)
 
 #### [单项选择题100]
 
 - Python是哪一类语言？（　　）
-
+<mark style="background: #FF5582A6;">？？</mark>
 - [ ] A. 编译型语言
-- [ ] B. 解释型语言
+- [x] B. 解释型语言
 - [ ] C. 汇编语言
 - [ ] D. 机器语言
