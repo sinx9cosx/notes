@@ -700,7 +700,7 @@ for i in range(0,10):
 > 标识符：名字（不能数字开头，不能是保留字/关键字）
 
 - [ ] A. int32
-- [ ] B. 40X
+- [x] B. 40X
 - [ ] C. `__name__`
 - [ ] D. tt
 #### [单项选择题061]
@@ -708,7 +708,7 @@ for i in range(0,10):
 - 以下选项中，不符合 Python 语言变量命名规则的是(    )。
 - [ ] A. scoreList
 - [ ] B. score_list
-- [ ] C. -scoreList
+- [x] C. -scoreList
 - [ ] D. _scoreList
 
 #### [单项选择题062]
