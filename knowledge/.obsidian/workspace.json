@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "range",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,8 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,9 +248,11 @@
   },
   "active": "b09b82ef5eb3859a",
   "lastOpenFiles": [
+    "Python/11_数据结构与算法初步.md",
+    "Python/知识点讲义对照_02_数据类型与序列.md",
+    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/计算机软件技术基础1必知必会.md",
     "Python/知识点讲义对照_01_基础语法与流程控制.md",
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/知识点讲义对照_03_函数与面向对象与文件.md",
     "physchem/热力学.md",
     "physchem/违背 Clausius 表述的证明.md",
@@ -264,7 +265,6 @@
     "physchem/images/gen_pv_diagram.py",
     "physchem/images/gen_pv_diagram.py.tmp.32948.c0defae33da3",
     "Python/04_函数.md",
-    "Python/知识点讲义对照_02_数据类型与序列.md",
     "conflict-files-obsidian-git.md",
     "physchem/images/reversible(PV).jpg",
     "physchem/images/irreversible(PV).jpg",
@@ -292,7 +292,6 @@
     "物理化学/Gaussian计算实验报告.md",
     "物理化学/计算实验结果.md",
     "物理化学/热力学第一课时.md",
-    "物理化学/热力学纸质笔记转录.md",
     "物理化学/量子力学导图.canvas",
     "物理化学/统计热力学纸质笔记转录.md.tmp.23252.351cf737218f",
     "1.Python基础教程/知识点讲义对照_03_函数与面向对象与文件.md.tmp.31352.b9c1c2addb51",
