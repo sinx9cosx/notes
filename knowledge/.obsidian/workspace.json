@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "热力学",
+                "query": "熵增原理",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -246,7 +246,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a6a86dfa2c3d00cf",
+  "active": "bd1b435e45338c75",
   "lastOpenFiles": [
     "physchem/讨论_固体栓为什么不可逆.md",
     "physchem/热力学.md",
