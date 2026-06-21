@@ -228,7 +228,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -246,16 +246,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
+    "physchem/熵产生普适表述热力学第二定律.md",
+    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+    "physchem/热力学.md",
     "physchem/统计力学.md",
     "physchem/熵_热力学和统计力学的计算方法.md",
     "physchem/理想气体内能与压力无关的证明.md",
     "instrument analysis/电磁辐射与物质的相互作用.md",
-    "physchem/热力学.md",
-    "physchem/熵产生普适表述热力学第二定律.md",
     "physchem/images/clausius inequality.jpg",
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/05_内置组合数据类型.md",
     "Python/知识点讲义对照_02_数据类型与序列.md",
     "Python/11_数据结构与算法初步.md",
