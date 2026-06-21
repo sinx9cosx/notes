@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782006787101-li8sldg67",
+  "providerId": "claude",
+  "title": "解释克劳修斯不等式",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782006787101,
+  "updatedAt": 1782006809801,
+  "lastResponseAt": 1782006809801,
+  "sessionId": "64a8fce2-b7d9-4368-b255-84b212d09656",
+  "providerState": {
+    "providerSessionId": "64a8fce2-b7d9-4368-b255-84b212d09656"
+  },
+  "currentNote": "physchem/热力学.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 12933,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 35717,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
