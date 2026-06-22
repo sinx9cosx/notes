@@ -1,7 +1,7 @@
 > 做答页面：https://ks.wjx.com/vm/wEbs7Mk.aspx# 提交后将自动显示成绩和答案。
 
 #### [单项选择题001]
-
+<mark style="background: #FF5582A6;">！！</mark>
 - 下列程序的输出是（　　）
 
 ```python
@@ -11,19 +11,19 @@ for x in range(1,10):
 	print(x, end=' ')
 ```
 
-- [x] A. 1 3 5 7 9
+- [ ] A. 1 3 5 7 9
 - [ ] B. 2 4 6 8 10
-- [ ] C. 2 4 6 8
+- [x] C. 2 4 6 8
 - [ ] D. 1 3 5 7
 
 #### [单项选择题002]
-
+<mark style="background: #FF5582A6;">！！</mark>
 - 给出如下代码 `TempStr ="Hello World"` ,可以输出World子串的是（　　）。
 
-- [ ] A. print(TempStr[-5:])
+- [x] A. print(TempStr[-5:])
 - [ ] B. print(TempStr[-4:-1])
 - [ ] C. print(TempStr[-5:0])
-- [x] D. print(TempStr[-5:-1])
+- [ ] D. print(TempStr[-5:-1])
 
 #### [单项选择题003]
 - 在Python中,正确的赋值语句为（　　）
@@ -134,7 +134,7 @@ while k > 2:
 
 #### [单项选择题012]
 - 下面代码的输出结果是（　　）。
-
+<mark style="background: #FF5582A6;">！！</mark>
 ```python
 sum = 1
 for i in range(1,101):
@@ -144,8 +144,8 @@ print(sum)
 
 - [ ] A. 5049
 - [ ] B. 5052
-- [ ] C. 5051
-- [x] D. 5050
+- [x] C. 5051
+- [ ] D. 5050
 
 #### [单项选择题013]
 - 下列程序输出的最后一个值是（　　）
@@ -174,7 +174,7 @@ for x in range(start, age + 2, 2):
 
 #### [单项选择题015]
 - 下面代码的输出结果是（　　）。
-
+<mark style="background: #FF5582A6;">！！</mark>
 ```python
 for a in 'mirror':
 	print(a,end="")  
@@ -182,9 +182,9 @@ for a in 'mirror':
 		break
 ```
 
-- [ ] A. mir
+- [x] A. mir
 - [ ] B. mirror 
-- [x] C. mi 
+- [ ] C. mi 
 - [ ] D. mirr
 
 #### [单项选择题016]
@@ -268,11 +268,12 @@ print(x * 3)
 - [x] D. Happy!Happy!Happy!
 
 #### [单项选择题022]
+<mark style="background: #FF5582A6;">！！</mark>
 - 下面if语句统计“成绩(mark)优秀(>=90)的男生以及不及格(<60)的男生”的人数,正确的语句为（　　）
 
-- [x] A. if gender=="男" and mark<60 or mark>=90:
+- [ ] A. if gender=="男" and mark<60 or mark>=90:
 - [ ] B. if gender=="男" and mark<60 and mark>=90:
-- [ ] C. if gender=="男" and (mark<60 or mark>=90):
+- [x] C. if gender=="男" and (mark<60 or mark>=90):
 - [ ] D. if gender=="男" or mark<60 or mark>=90:
 
 #### [单项选择题023]
@@ -448,7 +449,7 @@ print(x)
 
 #### [单项选择题036]
 - 下列程序的输出是（　　）
-
+<mark style="background: #FF5582A6;">！！</mark>
 ```python
 for x in (1,10):
 	if x%2 == 0:
@@ -456,9 +457,9 @@ for x in (1,10):
 	print(x,'',end='')
 ```
 
-- [x] A. 2 4 6 8  
+- [ ] A. 2 4 6 8  
 - [ ] B. 什么也不会输出  
-- [ ] C. 1
+- [x] C. 1
 - [ ] D. 2
 
 #### [单项选择题037]
