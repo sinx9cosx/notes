@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题5/e2.恺撒密码.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题5/e3.春游报数.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "e2.恺撒密码"
+              "title": "e3.春游报数"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题5/e2.恺撒密码.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题5/e3.春游报数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "e2.恺撒密码 的大纲"
+              "title": "e3.春游报数 的大纲"
             }
           },
           {
@@ -217,7 +217,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,6 +234,7 @@
   },
   "active": "9b084c3535326c36",
   "lastOpenFiles": [
+    "Python/计算机软件技术基础1复习题/编程题5/e2.恺撒密码.md",
     "Python/计算机软件技术基础1复习题/编程题5/e1.最长公共前缀.md",
     "Python/一些总结/知识点讲义对照_02_数据类型与序列.md",
     "Python/一些总结/知识点讲义对照_03_函数与面向对象与文件.md",
@@ -272,7 +274,6 @@
     "physchem/images/nagetive temperature.jpg",
     "physchem/玻尔兹曼分布成立条件.md",
     "physchem/量子力学.md",
-    "instrument analysis/化学发光内容总结.md",
     "physchem/Gibbs Paradox.canvas",
     "physchem/images/Gibbs Paradox.png",
     "物理化学/images/dukunlumo.jpg",
