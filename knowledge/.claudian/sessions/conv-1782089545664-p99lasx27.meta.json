@@ -4,8 +4,8 @@
   "title": "解析第2题选项",
   "titleGenerationStatus": "success",
   "createdAt": 1782089545664,
-  "updatedAt": 1782091772228,
-  "lastResponseAt": 1782091772228,
+  "updatedAt": 1782092362523,
+  "lastResponseAt": 1782092362523,
   "sessionId": "c6bfee97-e3ab-40e3-acc7-dc31f6078a15",
   "providerState": {
     "providerSessionId": "c6bfee97-e3ab-40e3-acc7-dc31f6078a15"
@@ -13,12 +13,12 @@
   "currentNote": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 753,
+    "inputTokens": 1235,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 42496,
+    "cacheReadInputTokens": 44416,
     "contextWindow": 1000000,
-    "contextTokens": 43249,
-    "percentage": 4,
+    "contextTokens": 45651,
+    "percentage": 5,
     "contextWindowIsAuthoritative": true
   }
 }
