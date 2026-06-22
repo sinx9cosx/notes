@@ -829,14 +829,14 @@ print( len(c) )
 - [ ] D. 120
 
 #### [单项选择题069]
-
+<mark style="background: #FF5582A6;">！！</mark>
 - 假设某程序代码中有 print = 10，下列有关说法中正确的是（ ）。
 
 - [ ] A. 该行代码错误，因为 print 是关键字，不能作为变量名称；
-- [x] B. 该行代码错误，因为 print 是内置函数名，不能作为变量名称；
-- [ ] C. 该行代码没有错误，print 可以作为变量名称，虽然非常不可取；
+- [ ] B. 该行代码错误，因为 print 是内置函数名，不能作为变量名称；
+- [x] C. 该行代码没有错误，print 可以作为变量名称，虽然非常不可取；
 - [ ] D. 该行代码没有错误，虽然 print 是关键字，但也可以作为变量名称，虽然非常不可取；
-
+[[区分关键字、函数名等]]
 #### [单项选择题070]
 
 - Python 表达式 10 % 2 or 2 + 1 的值为（ ）。
@@ -851,7 +851,7 @@ print( len(c) )
 
 
 #### [单项选择题071]
-
+<mark style="background: #FF5582A6;">！！</mark>
 - 以下 Python 用于输出 3 的平方根并四舍五入到两位小数，应在横线处填写代码是（ ）。
 
 ```python
@@ -859,9 +859,9 @@ from math import sqrt
 print(________)
 ```
 
-- [x] A. round(math.sqrt(3),2)
+- [ ] A. round(math.sqrt(3),2)
 - [ ] B. round(2,math.sqrt(3))
-- [ ] C. round(sqrt(3),2)
+- [x] C. round(sqrt(3),2)
 - [ ] D. round(2,sqrt(3))
 
 #### [单项选择题072]

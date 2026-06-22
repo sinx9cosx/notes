@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "b09b82ef5eb3859a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python基础练习选择题A"
-            }
-          },
-          {
             "id": "a6a86dfa2c3d00cf",
             "type": "leaf",
             "state": {
@@ -62,9 +48,37 @@
               "icon": "lucide-file",
               "title": "构造状态函数"
             }
+          },
+          {
+            "id": "b09b82ef5eb3859a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python基础练习选择题A"
+            }
+          },
+          {
+            "id": "8ecdbf78d3bc6973",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "区分关键字、函数名等.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "区分关键字、函数名等"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,7 +259,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 536.5
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,13 +273,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "b09b82ef5eb3859a",
   "lastOpenFiles": [
+    "区分关键字、函数名等.md",
+    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "physchem/热力学.md",
     "构造状态函数.md",
     "physchem/讨论_固体栓为什么不可逆.md",
     "physchem/熵产生普适表述热力学第二定律.md",
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "physchem/统计力学.md",
     "physchem/熵_热力学和统计力学的计算方法.md",
     "physchem/理想气体内能与压力无关的证明.md",
@@ -301,7 +316,6 @@
     "physchem/Gibbs Paradox.canvas",
     "physchem/images/Gibbs Paradox.png",
     "physchem/计算实验结果.md",
-    "physchem/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "物理化学/images/dukunlumo.jpg",
     "物理化学/images/dukunhomo.jpg",
     "物理化学/images",
