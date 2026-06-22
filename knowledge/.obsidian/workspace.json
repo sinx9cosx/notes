@@ -241,11 +241,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 536.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,7 +259,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "physchem/热力学.md",
     "构造状态函数.md",
