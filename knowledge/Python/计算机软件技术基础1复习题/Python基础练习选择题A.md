@@ -865,8 +865,10 @@ print(________)
 - [ ] D. round(2,sqrt(3))
 
 #### [单项选择题072]
-
+<mark style="background: #FF5582A6;">！！</mark>
 - 执行如下代码，其输出是(   )。选择项中的□表示空格
+
+> 多个参数之间有默认空格
 
 ```python
 print(123,"XYZ",end="")
@@ -882,14 +884,14 @@ print("ABC")
   ABC
   ```
   
-- [ ] B. 
+- [x] B. 
 
   ```
   123□XYZ
   ABC
   ```
   
-- [x] C. 
+- [ ] C. 
 
   ```
   123XYZ
@@ -921,8 +923,8 @@ import random
 print(________)
 ```
 
-- [ ] A. chr(ord("a") + int(random.random() * 1000) % 26)
-- [x] B. chr('a' + int(random.random() * 1000) % 26)
+- [x] A. chr(ord("a") + int(random.random() * 1000) % 26)
+- [ ] B. chr('a' + int(random.random() * 1000) % 26)
 - [ ] C. ord('a' + int(random.random() * 1000) % 26)
 - [ ] D. chr(65 + int(random.random() * 1000) % 26)
 
@@ -942,7 +944,7 @@ for i in range(8,2,-2):
 - [ ] D. 20
 
 #### [单项选择题076]
-
+<mark style="background: #FF5582A6;">！！</mark>
 - 有关下面 Python 代码执行后的描述，正确的是（ ）。
 
 ```python
@@ -954,9 +956,9 @@ else:
 ```
 
 - [ ] A. 程序执行结束后，将输出 1-100 之和
-- [x] B. 程序执行结束后，将输出 0-99 之和
+- [ ] B. 程序执行结束后，将输出 0-99 之和
 - [ ] C. 程序执行结束后，将输出 99
-- [ ] D. 代码执行过程中将报错
+- [x] D. 代码执行过程中将报错
 
 #### [单项选择题077]
 
