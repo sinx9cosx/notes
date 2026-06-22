@@ -1217,7 +1217,7 @@ print(a)
 - [ ] D．1, 2, 3, 4
 
 #### [单项选择题096]
-
+<mark style="background: #FF5582A6;">！！</mark>
 - 运行如下 Python 代码，其输出是（    ）。
 
 ```python
@@ -1229,15 +1229,15 @@ print(a,b)
 
 - [ ] A. [1, 2] [1, 2]
 - [ ] B. [1, 2] [1, 2, 3]
-- [x] C. [1, 2, 3] [1, 2]
-- [ ] D. [1, 2, 3] [1, 2, 3]
+- [ ] C. [1, 2, 3] [1, 2]
+- [x] D. `[1, 2, 3] [1, 2, 3]
 
 #### [单项选择题097]
-
+<mark style="background: #FF5582A6;">！！</mark>
 - 如何删除列表list中的第一个元素？（    ）。
 
-- [x] A. list.remove(0)
-- [ ] B. list.pop(0)
+- [ ] A. list.remove(0)
+- [x] B. list.pop(0)
 - [ ] C. list.delete(0)
 - [ ] D. list.del(0)
 
