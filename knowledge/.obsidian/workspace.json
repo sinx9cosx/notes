@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,8 +117,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/热力学.md",
+                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "热力学 的大纲"
+              "title": "Python基础练习选择题A 的大纲"
             }
           },
           {
@@ -260,10 +259,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a6a86dfa2c3d00cf",
+  "active": "b09b82ef5eb3859a",
   "lastOpenFiles": [
-    "构造状态函数.md",
     "physchem/热力学.md",
+    "构造状态函数.md",
     "physchem/讨论_固体栓为什么不可逆.md",
     "physchem/熵产生普适表述热力学第二定律.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
