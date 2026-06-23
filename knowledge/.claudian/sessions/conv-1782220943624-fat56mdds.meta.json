@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782220943624-fat56mdds",
+  "providerId": "claude",
+  "title": "Clarify Gibbs and Helmholtz free energy",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782220943624,
+  "updatedAt": 1782220977283,
+  "lastResponseAt": 1782220977283,
+  "sessionId": "8ab90ca6-65c2-4997-a9b0-755745915fa6",
+  "providerState": {
+    "providerSessionId": "8ab90ca6-65c2-4997-a9b0-755745915fa6"
+  },
+  "currentNote": "physchem/热力学.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 12896,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 35680,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
