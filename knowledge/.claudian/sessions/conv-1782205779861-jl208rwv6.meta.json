@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782205779861-jl208rwv6",
+  "providerId": "claude",
+  "title": "Analyze problem-solving approach",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782205779861,
+  "updatedAt": 1782205833966,
+  "lastResponseAt": 1782205833966,
+  "sessionId": "0267b8c6-872e-4947-a337-f76addb599f0",
+  "providerState": {
+    "providerSessionId": "0267b8c6-872e-4947-a337-f76addb599f0"
+  },
+  "currentNote": "Python/计算机软件技术基础1复习题/编程题6/f3.找兔子.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 386,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 23170,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

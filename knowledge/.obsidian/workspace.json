@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
-                "mode": "source",
+                "file": "Python/计算机软件技术基础1复习题/编程题6/f3.找兔子.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "f2.约瑟夫环问题"
+              "title": "f3.找兔子"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题6/f3.找兔子.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "f2.约瑟夫环问题 的大纲"
+              "title": "f3.找兔子 的大纲"
             }
           },
           {
@@ -261,6 +261,7 @@
   },
   "active": "7300959c0d9e86b6",
   "lastOpenFiles": [
+    "Python/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
     "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
     "Python/一些总结/选择题知识点总结.md",
     "Python/计算机软件技术基础1复习题/选择题知识点总结.md.tmp.19044.86328291f1a1",
@@ -297,7 +298,6 @@
     "physchem/images/gen_pv_diagram.py.tmp.32948.c28ae64ca7fc",
     "physchem/images/gen_pv_diagram.py",
     "physchem/images/gen_pv_diagram.py.tmp.32948.c0defae33da3",
-    "Python/04_函数.md",
     "physchem/images/reversible(PV).jpg",
     "physchem/images/irreversible(PV).jpg",
     "physchem/统计力学导图.canvas",
