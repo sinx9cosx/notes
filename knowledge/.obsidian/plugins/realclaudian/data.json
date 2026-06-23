@@ -7,8 +7,9 @@
         "conversationId": null
       },
       {
+        "draftModel": "opus",
         "tabId": "tab-1781139472480-slhhuo6",
-        "conversationId": "conv-1782197746515-9l2dvqrk2"
+        "conversationId": null
       },
       {
         "draftModel": "opus",

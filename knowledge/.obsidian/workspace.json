@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "f1.判断一个密码是否为合法的密码"
+              "title": "f2.约瑟夫环问题"
             }
           },
           {
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -200,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "f1.判断一个密码是否为合法的密码 的大纲"
+              "title": "f2.约瑟夫环问题 的大纲"
             }
           },
           {
@@ -260,10 +259,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "7300959c0d9e86b6",
   "lastOpenFiles": [
-    "Python/一些总结/选择题知识点总结.md",
     "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
+    "Python/一些总结/选择题知识点总结.md",
     "Python/计算机软件技术基础1复习题/选择题知识点总结.md.tmp.19044.86328291f1a1",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/计算机软件技术基础1复习题/编程题5/e5.校门外的树.md",
