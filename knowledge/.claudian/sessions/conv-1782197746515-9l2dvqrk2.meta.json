@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782197746515-9l2dvqrk2",
+  "providerId": "claude",
+  "title": "Debug Python password validator",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782197746515,
+  "updatedAt": 1782197897467,
+  "lastResponseAt": 1782197897467,
+  "sessionId": "2633ebc2-f367-4697-b0ad-797dcca795da",
+  "providerState": {
+    "providerSessionId": "2633ebc2-f367-4697-b0ad-797dcca795da"
+  },
+  "currentNote": "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 75,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 26240,
+    "contextWindow": 1000000,
+    "contextTokens": 26315,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
