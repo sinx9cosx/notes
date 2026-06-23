@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782196206572-qjquvt1cv",
+  "providerId": "claude",
+  "title": "Split password into individual characters",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782196206573,
+  "updatedAt": 1782196232200,
+  "lastResponseAt": 1782196232200,
+  "sessionId": "6630a091-d58d-476e-9d7f-bbec4fa207c4",
+  "providerState": {
+    "providerSessionId": "6630a091-d58d-476e-9d7f-bbec4fa207c4"
+  },
+  "currentNote": "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 446,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22912,
+    "contextWindow": 1000000,
+    "contextTokens": 23358,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}
