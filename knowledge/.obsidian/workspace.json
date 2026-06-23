@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "热力学"
             }
+          },
+          {
+            "id": "ae16258ccb22adba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physchem/构造状态函数.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "构造状态函数"
+            }
           }
         ]
       }
@@ -218,6 +232,7 @@
   },
   "active": "9b011b753b5437c9",
   "lastOpenFiles": [
+    "physchem/构造状态函数.md",
     "physchem/热力学.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/一些总结/知识点讲义对照_02_数据类型与序列.md",
@@ -237,7 +252,6 @@
     "Python/一些总结/知识点讲义对照_03_函数与面向对象与文件.md",
     "Python/一些总结",
     "Python/一些总结/区分关键字、函数名等.md",
-    "physchem/构造状态函数.md",
     "physchem/讨论_固体栓为什么不可逆.md",
     "physchem/熵产生普适表述热力学第二定律.md",
     "physchem/统计力学.md",
