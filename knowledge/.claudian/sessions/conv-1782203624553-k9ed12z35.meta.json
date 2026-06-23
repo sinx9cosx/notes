@@ -4,8 +4,8 @@
   "title": "解答一道题目",
   "titleGenerationStatus": "success",
   "createdAt": 1782203624553,
-  "updatedAt": 1782203872519,
-  "lastResponseAt": 1782203872519,
+  "updatedAt": 1782204244639,
+  "lastResponseAt": 1782204244639,
   "sessionId": "965cdff6-d227-43ec-b27f-9161b6d6d2a5",
   "providerState": {
     "providerSessionId": "965cdff6-d227-43ec-b27f-9161b6d6d2a5"
@@ -13,12 +13,12 @@
   "currentNote": "Python/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 394,
+    "inputTokens": 41,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 23168,
+    "cacheReadInputTokens": 25728,
     "contextWindow": 1000000,
-    "contextTokens": 23562,
-    "percentage": 2,
+    "contextTokens": 25769,
+    "percentage": 3,
     "contextWindowIsAuthoritative": true
   }
 }
