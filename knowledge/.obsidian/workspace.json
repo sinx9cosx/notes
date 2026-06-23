@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -259,7 +260,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7300959c0d9e86b6",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "Python/一些总结/选择题知识点总结.md",
     "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
