@@ -4,8 +4,8 @@
   "title": "说明单行样本数据的输入方法",
   "titleGenerationStatus": "success",
   "createdAt": 1782099367687,
-  "updatedAt": 1782099385507,
-  "lastResponseAt": 1782099385507,
+  "updatedAt": 1782099817262,
+  "lastResponseAt": 1782099817262,
   "sessionId": "38ca4334-8faf-4866-a44d-530f19720614",
   "providerState": {
     "providerSessionId": "38ca4334-8faf-4866-a44d-530f19720614"
@@ -13,11 +13,11 @@
   "currentNote": "Python/计算机软件技术基础1复习题/编程题5/e4.找出一组整数中的最大值的位置.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 202,
+    "inputTokens": 772,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 23296,
+    "cacheReadInputTokens": 23424,
     "contextWindow": 1000000,
-    "contextTokens": 23498,
+    "contextTokens": 24196,
     "percentage": 2,
     "contextWindowIsAuthoritative": true
   }
