@@ -63,8 +63,7 @@
               "title": "常用物理常数总结"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/量子力学.md",
+                "file": "physchem/热力学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "量子力学 的大纲"
+              "title": "热力学 的大纲"
             }
           },
           {
@@ -259,13 +258,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "ae16258ccb22adba",
+  "active": "9b011b753b5437c9",
   "lastOpenFiles": [
+    "常用物理常数总结.md",
+    "physchem/统计力学.md",
+    "physchem/量子力学.md",
     "physchem/构造状态函数.md",
     "physchem/热力学.md",
-    "physchem/统计力学.md",
-    "常用物理常数总结.md",
-    "physchem/量子力学.md",
     "标准摩尔自由能与焓函数.md",
     "physchem/images/ideal gas chem potential.jpg",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
