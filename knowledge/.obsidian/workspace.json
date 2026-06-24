@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/热力学.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -172,7 +172,7 @@
               "type": "outline",
               "state": {
                 "file": "physchem/热力学.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
