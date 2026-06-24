@@ -2,7 +2,6 @@
 tags:
   - 量子力学
   - 统计力学
-  - 物理化学
   - 热力学
   - Gaussian
   - 物理化学/实验
@@ -381,7 +380,7 @@ HOMO-LUMO gap 反映分子的化学硬度（chemical hardness）。萘醌因共�
 
 <table><tr>
 <td align="center"><img src="naikunhomo.jpg" width="380"><br>萘醌 HOMO</td>
-<td align="center"><img src="naikunlumo.jpg" width="380"><br>萘醌 LUMO</td>
+<td align="center"><img src="naikunlomo.jpg" width="380"><br>萘醌 LUMO</td>
 </tr></table>
 
 <table><tr>
