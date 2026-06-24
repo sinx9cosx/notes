@@ -4,6 +4,21 @@
   "title": "审查笔记中的错误",
   "titleGenerationStatus": "success",
   "createdAt": 1782290080565,
-  "updatedAt": 1782290084881,
-  "sessionId": null
+  "updatedAt": 1782290589181,
+  "lastResponseAt": 1782290589181,
+  "sessionId": "fe562a5c-4725-4de8-be01-5ba7c5b039e2",
+  "providerState": {
+    "providerSessionId": "fe562a5c-4725-4de8-be01-5ba7c5b039e2"
+  },
+  "currentNote": "physchem/热力学.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 14834,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22912,
+    "contextWindow": 1000000,
+    "contextTokens": 37746,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
 }
