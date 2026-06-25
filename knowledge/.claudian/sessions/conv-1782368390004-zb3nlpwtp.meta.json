@@ -4,8 +4,8 @@
   "title": "解释Python模板代码中main()函数",
   "titleGenerationStatus": "success",
   "createdAt": 1782368390004,
-  "updatedAt": 1782368446686,
-  "lastResponseAt": 1782368446686,
+  "updatedAt": 1782369485847,
+  "lastResponseAt": 1782369485847,
   "sessionId": "cd0f8708-0bc4-4637-a248-ff995c4436fc",
   "providerState": {
     "providerSessionId": "cd0f8708-0bc4-4637-a248-ff995c4436fc"
@@ -13,12 +13,12 @@
   "currentNote": "Python/计算机软件技术基础1复习题/编程题7/g3.将整数插入列表.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 13,
+    "inputTokens": 380,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 23552,
+    "cacheReadInputTokens": 25216,
     "contextWindow": 1000000,
-    "contextTokens": 23565,
-    "percentage": 2,
+    "contextTokens": 25596,
+    "percentage": 3,
     "contextWindowIsAuthoritative": true
   }
 }
