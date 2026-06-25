@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782400858807-3bnf81dqb",
+  "providerId": "claude",
+  "title": "Provide code solution for problem",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782400858808,
+  "updatedAt": 1782400935181,
+  "lastResponseAt": 1782400885202,
+  "sessionId": "b5356aa9-947d-407a-ad8c-6c73e6b15d56",
+  "providerState": {
+    "providerSessionId": "b5356aa9-947d-407a-ad8c-6c73e6b15d56"
+  },
+  "currentNote": "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 479,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 23263,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782401030854-me5bg26q9",
+  "providerId": "claude",
+  "title": "提供问题的完整代码",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782401030854,
+  "updatedAt": 1782401071292,
+  "lastResponseAt": 1782401071292,
+  "sessionId": "346744e6-c883-4b86-9789-58566003fad3",
+  "providerState": {
+    "providerSessionId": "346744e6-c883-4b86-9789-58566003fad3"
+  },
+  "currentNote": "Python/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 29,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23296,
+    "contextWindow": 1000000,
+    "contextTokens": 23325,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}
