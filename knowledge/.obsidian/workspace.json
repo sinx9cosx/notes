@@ -25,14 +25,17 @@
             "id": "57f63bb41a405221",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "physchem/玻尔兹曼分布成立条件.md",
-                "mode": "preview",
-                "source": false
+                "file": "physchem/统计力学三大系综与温度角色.canvas",
+                "viewState": {
+                  "x": -35,
+                  "y": -40,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "玻尔兹曼分布成立条件"
+              "icon": "lucide-layout-dashboard",
+              "title": "统计力学三大系综与温度角色"
             }
           }
         ],
@@ -109,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physchem/玻尔兹曼分布成立条件.md",
+                "file": "physchem/统计力学三大系综与温度角色.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +122,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "玻尔兹曼分布成立条件 的反向链接列表"
+              "title": "统计力学三大系综与温度角色 的反向链接列表"
             }
           },
           {
@@ -128,12 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physchem/玻尔兹曼分布成立条件.md",
+                "file": "physchem/统计力学三大系综与温度角色.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "玻尔兹曼分布成立条件 的出链列表"
+              "title": "统计力学三大系综与温度角色 的出链列表"
             }
           },
           {
@@ -171,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/玻尔兹曼分布成立条件.md",
+                "file": "physchem/统计力学三大系综与温度角色.canvas",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "玻尔兹曼分布成立条件 的大纲"
+              "title": "统计力学三大系综与温度角色 的大纲"
             }
           },
           {
@@ -231,10 +234,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "57f63bb41a405221",
   "lastOpenFiles": [
-    "physchem/统计力学定理成立的条件.md",
     "physchem/玻尔兹曼分布成立条件.md",
+    "physchem/统计力学定理成立的条件.md",
+    "physchem/统计力学.md",
+    "physchem/统计力学三大系综与温度角色.canvas",
     "physchem/等概率公设.md",
     "Python/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",
     "physchem/物化实验与知识对照.md",
@@ -253,12 +258,10 @@
     "Python/计算机软件技术基础1复习题/编程题7/g2.整数列表去重.md",
     "Python/计算机软件技术基础1复习题/编程题7/g1.判断相似词.md",
     "physchem/量子力学.md",
-    "physchem/统计力学.md",
     "physchem/zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md",
     "physchem/热力学.md",
     "常用物理常数总结.md",
     "physchem/构造状态函数.md",
-    "标准摩尔自由能与焓函数.md",
     "physchem/images/ideal gas chem potential.jpg",
     "Python/计算机软件技术基础1复习题/选择题知识点总结.md.tmp.19044.86328291f1a1",
     "Python/一些总结",

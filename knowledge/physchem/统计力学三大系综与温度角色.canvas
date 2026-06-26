@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"651b9d238459309f","type":"text","text":"微正则系综","x":-400,"y":-420,"width":250,"height":60},
+		{"id":"83083fd3af0b0f1d","x":20,"y":-420,"width":250,"height":60,"type":"text","text":"U,V,N固定"},
+		{"id":"439f4b01e827d0b7","x":-400,"y":-340,"width":420,"height":70,"type":"text","text":"等概率公设：所有可及微观态概率相等"},
+		{"id":"1ce6add6fd314b8d","x":-395,"y":-240,"width":360,"height":70,"type":"text","text":"温度$T=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N}$，由熵函数导出"},
+		{"id":"32e8e4bf06139e38","type":"text","text":"正则系综","x":-395,"y":-20,"width":250,"height":60},
+		{"id":"f34901201e680cdd","x":-360,"y":-140,"width":250,"height":60,"type":"text","text":"子系统"},
+		{"id":"aafb792de81be419","x":0,"y":-140,"width":250,"height":60,"type":"text","text":"自然呈现玻尔兹曼分布"},
+		{"id":"e5b857ebd4fb6c91","type":"text","text":"巨正则系综","x":-400,"y":280,"width":250,"height":60},
+		{"id":"450ddf45025c993d","x":80,"y":280,"width":250,"height":60,"type":"text","text":"T,V,$\\mu$固定"},
+		{"id":"945592d7beaf5a09","x":-35,"y":-20,"width":250,"height":60,"type":"text","text":"T,V,N固定"},
+		{"id":"8133d67c7bd27e7b","x":-415,"y":60,"width":380,"height":60,"type":"text","text":"玻尔兹曼分布：$P_{i}\\propto e^{-E_{i}/k_{B}T}$"},
+		{"id":"7ab33a5797f7ded3","x":-160,"y":-70,"width":250,"height":60,"type":"text","text":"配分函数$q=\\sum e^{-E_{i}/k_{}}$"}
+	],
+	"edges":[]
+}
