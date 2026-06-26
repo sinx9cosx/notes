@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782475038012-z9ntwoosn",
+  "providerId": "claude",
+  "title": "Answer file self-test questions",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782475038013,
+  "updatedAt": 1782475105576,
+  "lastResponseAt": 1782475105576,
+  "sessionId": "a4dc967e-e1e7-49b9-a7c4-c8260174ef23",
+  "providerState": {
+    "providerSessionId": "a4dc967e-e1e7-49b9-a7c4-c8260174ef23"
+  },
+  "currentNote": "physchem/玻尔兹曼分布成立条件.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2453,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 25237,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
