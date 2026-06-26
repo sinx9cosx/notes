@@ -29,9 +29,9 @@
               "state": {
                 "file": "physchem/统计力学三大系综与温度角色.canvas",
                 "viewState": {
-                  "x": -35,
-                  "y": -40,
-                  "zoom": 0
+                  "x": -412.79724751888205,
+                  "y": 98.10576239777123,
+                  "zoom": -0.3926327314983825
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",

@@ -1,17 +1,33 @@
 {
 	"nodes":[
-		{"id":"651b9d238459309f","type":"text","text":"微正则系综","x":-400,"y":-420,"width":250,"height":60},
-		{"id":"83083fd3af0b0f1d","x":20,"y":-420,"width":250,"height":60,"type":"text","text":"U,V,N固定"},
-		{"id":"439f4b01e827d0b7","x":-400,"y":-340,"width":420,"height":70,"type":"text","text":"等概率公设：所有可及微观态概率相等"},
-		{"id":"1ce6add6fd314b8d","x":-395,"y":-240,"width":360,"height":70,"type":"text","text":"温度$T=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N}$，由熵函数导出"},
-		{"id":"32e8e4bf06139e38","type":"text","text":"正则系综","x":-395,"y":-20,"width":250,"height":60},
-		{"id":"f34901201e680cdd","x":-360,"y":-140,"width":250,"height":60,"type":"text","text":"子系统"},
-		{"id":"aafb792de81be419","x":0,"y":-140,"width":250,"height":60,"type":"text","text":"自然呈现玻尔兹曼分布"},
-		{"id":"e5b857ebd4fb6c91","type":"text","text":"巨正则系综","x":-400,"y":280,"width":250,"height":60},
-		{"id":"450ddf45025c993d","x":80,"y":280,"width":250,"height":60,"type":"text","text":"T,V,$\\mu$固定"},
-		{"id":"945592d7beaf5a09","x":-35,"y":-20,"width":250,"height":60,"type":"text","text":"T,V,N固定"},
-		{"id":"8133d67c7bd27e7b","x":-415,"y":60,"width":380,"height":60,"type":"text","text":"玻尔兹曼分布：$P_{i}\\propto e^{-E_{i}/k_{B}T}$"},
-		{"id":"7ab33a5797f7ded3","x":-160,"y":-70,"width":250,"height":60,"type":"text","text":"配分函数$q=\\sum e^{-E_{i}/k_{}}$"}
+		{"id":"c9c4015ecc528085","type":"group","x":-440,"y":-440,"width":710,"height":345},
+		{"id":"0a34b8fa33d00c17","type":"group","x":-440,"y":-50,"width":450,"height":300},
+		{"id":"a44045b9c9f0f9ad","type":"group","x":-1180,"y":-317,"width":680,"height":100},
+		{"id":"ec43f633c1af63a4","type":"group","x":-1180,"y":50,"width":680,"height":100},
+		{"id":"a760e05d76e05d53","type":"group","x":-1180,"y":400,"width":680,"height":100},
+		{"id":"439f4b01e827d0b7","type":"text","text":"等概率公设：所有可及微观态概率相等","x":-420,"y":-420,"width":420,"height":70},
+		{"id":"1ce6add6fd314b8d","type":"text","text":"温度$T=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N}$，由熵函数导出","x":-420,"y":-300,"width":360,"height":70},
+		{"id":"f34901201e680cdd","type":"text","text":"子系统","x":-420,"y":-175,"width":250,"height":60},
+		{"id":"aafb792de81be419","type":"text","text":"自然呈现玻尔兹曼分布","x":0,"y":-170,"width":250,"height":50},
+		{"id":"651b9d238459309f","type":"text","text":"微正则系综","x":-1160,"y":-297,"width":250,"height":60,"color":"1"},
+		{"id":"83083fd3af0b0f1d","type":"text","text":"U,V,N固定","x":-770,"y":-297,"width":250,"height":60,"color":"1"},
+		{"id":"32e8e4bf06139e38","type":"text","text":"正则系综","x":-1160,"y":70,"width":250,"height":60,"color":"1"},
+		{"id":"945592d7beaf5a09","type":"text","text":"T,V,N固定","x":-770,"y":70,"width":250,"height":60,"color":"1"},
+		{"id":"8133d67c7bd27e7b","type":"text","text":"玻尔兹曼分布：$P_{i}\\propto e^{-E_{i}/k_{B}T}$","x":-420,"y":-30,"width":380,"height":60},
+		{"id":"7ab33a5797f7ded3","type":"text","text":"配分函数$q=\\sum e^{-E_{i}/k_{B}T}$联系微观和宏观","x":-420,"y":80,"width":410,"height":50},
+		{"id":"dd1b0bbb94c847e9","type":"text","text":"内能$U=Nk_{B}T\\left(\\frac{\\partial \\ln q}{\\partial T}\\right)$","x":-420,"y":170,"width":365,"height":60},
+		{"id":"e5b857ebd4fb6c91","type":"text","text":"巨正则系综","x":-1160,"y":420,"width":250,"height":60,"color":"1"},
+		{"id":"450ddf45025c993d","type":"text","text":"T,V,$\\mu$固定","x":-770,"y":420,"width":250,"height":60,"color":"1"},
+		{"id":"753c0e74bdf87c7b","type":"text","text":"粒子数也涨落，需引入化学势","x":-420,"y":420,"width":320,"height":52}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"3089b51a4c4ced80","fromNode":"651b9d238459309f","fromSide":"right","toNode":"83083fd3af0b0f1d","toSide":"left","toEnd":"none","color":"1"},
+		{"id":"579a8c81ca97cf24","fromNode":"f34901201e680cdd","fromSide":"right","toNode":"aafb792de81be419","toSide":"left","toEnd":"none"},
+		{"id":"dad6e323600a55f6","fromNode":"32e8e4bf06139e38","fromSide":"right","toNode":"945592d7beaf5a09","toSide":"left","toEnd":"none","color":"1"},
+		{"id":"2265cbf1385cab50","fromNode":"e5b857ebd4fb6c91","fromSide":"right","toNode":"450ddf45025c993d","toSide":"left","toEnd":"none","color":"1"},
+		{"id":"f69ae0e89dcd3882","fromNode":"a44045b9c9f0f9ad","fromSide":"right","toNode":"c9c4015ecc528085","toSide":"left","color":"4"},
+		{"id":"9db36229d97b6993","fromNode":"ec43f633c1af63a4","fromSide":"right","toNode":"0a34b8fa33d00c17","toSide":"left","color":"4"},
+		{"id":"7b79860861bebde9","fromNode":"a760e05d76e05d53","fromSide":"right","toNode":"753c0e74bdf87c7b","toSide":"left","color":"4"},
+		{"id":"a926b92e609c9bb8","fromNode":"a44045b9c9f0f9ad","fromSide":"bottom","toNode":"ec43f633c1af63a4","toSide":"top"}
+	]
 }
