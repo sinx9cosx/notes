@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physchem/玻尔兹曼分布成立条件.md",
+                "file": "physchem/高斯中的热化学计算-翻译.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "玻尔兹曼分布成立条件 的反向链接列表"
+              "title": "高斯中的热化学计算-翻译 的反向链接列表"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physchem/玻尔兹曼分布成立条件.md",
+                "file": "physchem/高斯中的热化学计算-翻译.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "玻尔兹曼分布成立条件 的出链列表"
+              "title": "高斯中的热化学计算-翻译 的出链列表"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/玻尔兹曼分布成立条件.md",
+                "file": "physchem/高斯中的热化学计算-翻译.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "玻尔兹曼分布成立条件 的大纲"
+              "title": "高斯中的热化学计算-翻译 的大纲"
             }
           },
           {
@@ -245,14 +245,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "b77981c6bc04f070",
   "lastOpenFiles": [
+    "physchem/玻尔兹曼分布成立条件.md",
     "physchem/高斯中的热化学计算-翻译.md",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.bf17f60b3925",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.85951bbe0f41",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.60b298617866",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.1ce14ab15da7",
-    "physchem/玻尔兹曼分布成立条件.md",
     "Python/一些总结/知识点讲义对照_02_数据类型与序列.md",
     "physchem/热力学第一课时.md",
     "physchem/焓…….md",
