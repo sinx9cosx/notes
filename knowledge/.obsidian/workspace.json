@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",
-                "mode": "source",
+                "file": "physchem/玻尔兹曼分布成立条件.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "h5.计数法检测异序词"
+              "title": "玻尔兹曼分布成立条件"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "物理化学/统计力学.md",
+                "file": "physchem/玻尔兹曼分布成立条件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "统计力学 的反向链接列表"
+              "title": "玻尔兹曼分布成立条件 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "物理化学/统计力学.md",
+                "file": "physchem/玻尔兹曼分布成立条件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "统计力学 的出链列表"
+              "title": "玻尔兹曼分布成立条件 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/05_内置组合数据类型.md",
+                "file": "physchem/玻尔兹曼分布成立条件.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "05_内置组合数据类型 的大纲"
+              "title": "玻尔兹曼分布成立条件 的大纲"
             }
           },
           {
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -231,10 +231,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "57f63bb41a405221",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
-    "physchem/物化实验与知识对照.md",
+    "physchem/统计力学定理成立的条件.md",
+    "physchem/玻尔兹曼分布成立条件.md",
+    "physchem/等概率公设.md",
     "Python/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",
+    "physchem/物化实验与知识对照.md",
     "Python/计算机软件技术基础1复习题/编程题8/h4.二分搜索.md",
     "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
     "Python/计算机软件技术基础1复习题/编程题8/h2.成双配对.md",
@@ -257,9 +260,6 @@
     "physchem/构造状态函数.md",
     "标准摩尔自由能与焓函数.md",
     "physchem/images/ideal gas chem potential.jpg",
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
-    "Python/一些总结/选择题知识点总结.md",
-    "Python/计算机软件技术基础1复习题/编程题6/f5.神奇的幻方.md",
     "Python/计算机软件技术基础1复习题/选择题知识点总结.md.tmp.19044.86328291f1a1",
     "Python/一些总结",
     "physchem/images/clausius inequality.jpg",
