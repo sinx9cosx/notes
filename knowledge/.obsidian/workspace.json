@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem/热力学第一课时.md",
-                "mode": "source",
+                "file": "physchem/玻尔兹曼分布成立条件.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "热力学第一课时"
+              "title": "玻尔兹曼分布成立条件"
+            }
+          },
+          {
+            "id": "b77981c6bc04f070",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physchem/高斯中的热化学计算-翻译.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "高斯中的热化学计算-翻译"
             }
           }
         ],
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physchem/热力学第一课时.md",
+                "file": "physchem/玻尔兹曼分布成立条件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "热力学第一课时 的反向链接列表"
+              "title": "玻尔兹曼分布成立条件 的反向链接列表"
             }
           },
           {
@@ -128,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physchem/热力学第一课时.md",
+                "file": "physchem/玻尔兹曼分布成立条件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "热力学第一课时 的出链列表"
+              "title": "玻尔兹曼分布成立条件 的出链列表"
             }
           },
           {
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/热力学第一课时.md",
+                "file": "physchem/玻尔兹曼分布成立条件.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "热力学第一课时 的大纲"
+              "title": "玻尔兹曼分布成立条件 的大纲"
             }
           },
           {
@@ -213,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -231,10 +245,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "28857e31f8ad0dff",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
-    "physchem/焓…….md",
+    "physchem/高斯中的热化学计算-翻译.md",
+    "physchem/玻尔兹曼分布成立条件.md.tmp.21812.bf17f60b3925",
+    "physchem/玻尔兹曼分布成立条件.md.tmp.21812.85951bbe0f41",
+    "physchem/玻尔兹曼分布成立条件.md.tmp.21812.60b298617866",
+    "physchem/玻尔兹曼分布成立条件.md.tmp.21812.1ce14ab15da7",
     "physchem/玻尔兹曼分布成立条件.md",
+    "Python/一些总结/知识点讲义对照_02_数据类型与序列.md",
+    "physchem/热力学第一课时.md",
+    "physchem/焓…….md",
     "physchem/统计力学三大系综与温度角色.canvas",
     "physchem/统计力学定理成立的条件.md",
     "physchem/统计力学.md",
@@ -248,7 +269,6 @@
     "Python/计算机软件技术基础1复习题/编程题7/g5.矩阵找最值及位置.md",
     "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
     "Python/计算机软件技术基础1复习题/编程题7/g3.将整数插入列表.md",
-    "Python/一些总结/知识点讲义对照_02_数据类型与序列.md",
     "Python/一些总结/知识点讲义对照_03_函数与面向对象与文件.md",
     "Python/11_数据结构与算法初步.md",
     "Python/05_内置组合数据类型.md",
@@ -258,8 +278,6 @@
     "physchem/量子力学.md",
     "physchem/zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md",
     "physchem/热力学.md",
-    "常用物理常数总结.md",
-    "physchem/构造状态函数.md",
     "physchem/images/ideal gas chem potential.jpg",
     "Python/计算机软件技术基础1复习题/选择题知识点总结.md.tmp.19044.86328291f1a1",
     "Python/一些总结",
@@ -271,7 +289,6 @@
     "physchem/images/gen_pv_diagram.py.tmp.32948.904561f33e9d",
     "physchem/images/gen_pv_diagram.py.tmp.32948.c28ae64ca7fc",
     "physchem/images/gen_pv_diagram.py",
-    "physchem/images/gen_pv_diagram.py.tmp.32948.c0defae33da3",
     "physchem/images/reversible(PV).jpg",
     "physchem/images/irreversible(PV).jpg",
     "physchem/统计力学导图.canvas",
@@ -279,9 +296,6 @@
     "physchem/Gibbs Paradox.canvas",
     "physchem/images/Gibbs Paradox.png",
     "物理化学/images/dukunlumo.jpg",
-    "物理化学/images",
-    "物理化学/量子力学导图.canvas",
-    "物理化学/统计热力学纸质笔记转录.md.tmp.23252.351cf737218f",
-    "1.Python基础教程/知识点讲义对照_03_函数与面向对象与文件.md.tmp.31352.b9c1c2addb51"
+    "物理化学/量子力学导图.canvas"
   ]
 }
