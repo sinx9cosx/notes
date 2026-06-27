@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem/雨课堂讨论题汇总.md",
-                "mode": "preview",
+                "file": "physchem/26春_雨课堂作业题整理.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "雨课堂讨论题汇总"
+              "title": "26春_雨课堂作业题整理"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/雨课堂讨论题汇总.md",
+                "file": "physchem/26春_雨课堂作业题整理.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "雨课堂讨论题汇总 的大纲"
+              "title": "26春_雨课堂作业题整理 的大纲"
             }
           },
           {
@@ -202,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,15 +218,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "ac1dccdc93477025",
   "lastOpenFiles": [
+    "physchem/未命名.md",
+    "physchem/雨课堂讨论题汇总.md",
     "orgchem/氨基酸、肽和蛋白质.md",
     "orgchem/合成聚合物.md",
     "orgchem/糖类.md",
     "orgchem/脂类.md",
     "orgchem/有机化合物命名.md",
     "physchem/26春_雨课堂作业题整理.md",
-    "physchem/雨课堂讨论题汇总.md",
     "physchem/热力学.md",
     "physchem/熵产生普适表述热力学第二定律.md",
     "physchem/高斯中的热化学计算-翻译.md",
@@ -243,7 +246,6 @@
     "physchem/违背 Clausius 表述的证明.md",
     "physchem/讨论_固体栓为什么不可逆.md",
     "physchem/熵_热力学和统计力学的计算方法.md",
-    "physchem/熵（习题5.31）.md",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.bf17f60b3925",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.85951bbe0f41",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.60b298617866",
