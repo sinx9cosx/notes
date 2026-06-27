@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem/26春_雨课堂作业题整理.md",
+                "file": "physchem/量子力学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26春_雨课堂作业题整理"
+              "title": "量子力学"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/26春_雨课堂作业题整理.md",
+                "file": "physchem/量子力学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "26春_雨课堂作业题整理 的大纲"
+              "title": "量子力学 的大纲"
             }
           },
           {
@@ -219,6 +218,7 @@
   },
   "active": "ac1dccdc93477025",
   "lastOpenFiles": [
+    "physchem/26春_雨课堂作业题整理.md",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
     "physchem/images/hw entropy calculate 1.png",
@@ -232,7 +232,6 @@
     "orgchem/糖类.md",
     "orgchem/脂类.md",
     "orgchem/有机化合物命名.md",
-    "physchem/26春_雨课堂作业题整理.md",
     "physchem/热力学.md",
     "physchem/熵产生普适表述热力学第二定律.md",
     "physchem/高斯中的热化学计算-翻译.md",
@@ -265,7 +264,6 @@
     "physchem/images/gen_pv_diagram.py.tmp.32948.9fa37ed18632",
     "physchem/images/gen_pv_diagram.py.tmp.32948.904561f33e9d",
     "physchem/images/gen_pv_diagram.py.tmp.32948.c28ae64ca7fc",
-    "physchem/images/reversible(PV).jpg",
     "physchem/统计力学导图.canvas",
     "physchem/Gibbs Paradox.canvas",
     "物理化学/量子力学导图.canvas"
