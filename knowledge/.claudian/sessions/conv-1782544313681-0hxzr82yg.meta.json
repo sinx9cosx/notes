@@ -4,8 +4,8 @@
   "title": "Explain imaginary unit in quantum wave function",
   "titleGenerationStatus": "success",
   "createdAt": 1782544313682,
-  "updatedAt": 1782546039084,
-  "lastResponseAt": 1782546039084,
+  "updatedAt": 1782566204562,
+  "lastResponseAt": 1782566204562,
   "sessionId": "3385258c-0cbc-4347-82d0-5df95488ab20",
   "providerState": {
     "providerSessionId": "3385258c-0cbc-4347-82d0-5df95488ab20"
@@ -13,11 +13,11 @@
   "currentNote": "physchem/26春_雨课堂作业题整理.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 337,
+    "inputTokens": 167,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 30464,
+    "cacheReadInputTokens": 31872,
     "contextWindow": 1000000,
-    "contextTokens": 30801,
+    "contextTokens": 32039,
     "percentage": 3,
     "contextWindowIsAuthoritative": true
   }
