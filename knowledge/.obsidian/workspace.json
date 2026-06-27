@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem/量子力学.md",
+                "file": "physchem/26春_雨课堂作业题整理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "量子力学"
+              "title": "26春_雨课堂作业题整理"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/量子力学.md",
+                "file": "physchem/26春_雨课堂作业题整理.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "量子力学 的大纲"
+              "title": "26春_雨课堂作业题整理 的大纲"
             }
           },
           {
@@ -198,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -216,8 +216,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "ac1dccdc93477025",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "physchem/量子力学.md",
     "physchem/26春_雨课堂作业题整理.md",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
