@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem/热力学.md",
+                "file": "physchem/量子力学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "热力学"
+              "title": "量子力学"
             }
           },
           {
@@ -70,7 +70,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/物化考试技巧_量纲分析.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -255,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -275,14 +275,14 @@
   },
   "active": "f87203d4466e9313",
   "lastOpenFiles": [
-    "physchem/物化考试技巧_量纲分析.md",
+    "physchem/量子力学.md",
     "physchem/热力学.md",
+    "physchem/物化考试技巧_量纲分析.md",
     "physchem/拉格朗日乘数法.md",
     "physchem/26春_雨课堂作业题整理.md",
     "physchem/简并的情况总览.md",
     "physchem/统计力学.md",
     "physchem/雨课堂讨论题汇总.md",
-    "physchem/量子力学.md",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
     "physchem/images/hw entropy calculate 1.png",
