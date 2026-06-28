@@ -35,7 +35,8 @@
               "title": "统计力学"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:物理化学/熵",
+                "query": "修正",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -127,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "orgchem/氨基酸、肽和蛋白质.md",
+                "file": "physchem/统计力学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "氨基酸、肽和蛋白质 的出链列表"
+              "title": "统计力学 的出链列表"
             }
           },
           {
@@ -170,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/26春_雨课堂作业题整理.md",
+                "file": "physchem/统计力学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "26春_雨课堂作业题整理 的大纲"
+              "title": "统计力学 的大纲"
             }
           },
           {
@@ -212,7 +214,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -230,11 +232,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "ac1dccdc93477025",
+  "active": "ab5b09544ed77149",
   "lastOpenFiles": [
+    "physchem/雨课堂讨论题汇总.md",
+    "physchem/量子力学.md",
     "physchem/统计力学.md",
     "physchem/26春_雨课堂作业题整理.md",
-    "physchem/量子力学.md",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
     "physchem/images/hw entropy calculate 1.png",
@@ -242,7 +245,6 @@
     "physchem/images/hwPIW6.png",
     "physchem/images/hwPIW6.png.crdownload",
     "physchem/未命名.md",
-    "physchem/雨课堂讨论题汇总.md",
     "orgchem/氨基酸、肽和蛋白质.md",
     "orgchem/合成聚合物.md",
     "orgchem/糖类.md",
