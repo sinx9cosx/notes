@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/期末考试预测.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -255,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
