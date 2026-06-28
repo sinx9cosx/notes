@@ -4,8 +4,8 @@
   "title": "Explain indistinguishable particle microstates",
   "titleGenerationStatus": "success",
   "createdAt": 1782607731378,
-  "updatedAt": 1782607975239,
-  "lastResponseAt": 1782607975239,
+  "updatedAt": 1782608335259,
+  "lastResponseAt": 1782608335259,
   "sessionId": "7c6ca7df-ed5c-4965-9649-655b321dbc09",
   "providerState": {
     "providerSessionId": "7c6ca7df-ed5c-4965-9649-655b321dbc09"
@@ -13,11 +13,11 @@
   "currentNote": "physchem/统计力学.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 67,
+    "inputTokens": 952,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 39936,
     "contextWindow": 1000000,
-    "contextTokens": 40003,
+    "contextTokens": 40888,
     "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
