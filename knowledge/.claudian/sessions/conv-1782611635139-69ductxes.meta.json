@@ -4,8 +4,8 @@
   "title": "解释玻尔兹曼分布能量代入错误",
   "titleGenerationStatus": "success",
   "createdAt": 1782611635140,
-  "updatedAt": 1782612575279,
-  "lastResponseAt": 1782612575279,
+  "updatedAt": 1782612644877,
+  "lastResponseAt": 1782612644877,
   "sessionId": "95d2a08b-bfbd-41d3-9cfa-1104aa86859f",
   "providerState": {
     "providerSessionId": "95d2a08b-bfbd-41d3-9cfa-1104aa86859f"
@@ -13,11 +13,11 @@
   "currentNote": "physchem/26春_雨课堂作业题整理.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 128,
+    "inputTokens": 682,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 31104,
     "contextWindow": 1000000,
-    "contextTokens": 31232,
+    "contextTokens": 31786,
     "percentage": 3,
     "contextWindowIsAuthoritative": true
   }
