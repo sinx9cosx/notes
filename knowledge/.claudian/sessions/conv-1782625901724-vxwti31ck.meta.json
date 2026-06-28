@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782625901724-vxwti31ck",
+  "providerId": "claude",
+  "title": "Clarify delocalized vs localized for entropy calc",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782625901724,
+  "updatedAt": 1782625950149,
+  "lastResponseAt": 1782625950149,
+  "sessionId": "f5d897de-8226-47e5-921c-df82ff5c7adf",
+  "providerState": {
+    "providerSessionId": "f5d897de-8226-47e5-921c-df82ff5c7adf"
+  },
+  "currentNote": "physchem/26春_雨课堂作业题整理.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 15361,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 26880,
+    "contextWindow": 1000000,
+    "contextTokens": 42241,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
