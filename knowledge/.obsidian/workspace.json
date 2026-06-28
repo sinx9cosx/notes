@@ -63,8 +63,7 @@
               "title": "拉格朗日乘数法"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physchem/统计力学.md",
+                "file": "physchem/26春_雨课堂作业题整理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "统计力学 的出链列表"
+              "title": "26春_雨课堂作业题整理 的出链列表"
             }
           },
           {
@@ -199,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/统计力学.md",
+                "file": "physchem/26春_雨课堂作业题整理.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "统计力学 的大纲"
+              "title": "26春_雨课堂作业题整理 的大纲"
             }
           },
           {
@@ -241,7 +240,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -259,11 +258,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "ab5b09544ed77149",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "physchem/简并的情况总览.md",
-    "physchem/拉格朗日乘数法.md",
     "physchem/统计力学.md",
+    "physchem/拉格朗日乘数法.md",
     "physchem/雨课堂讨论题汇总.md",
     "physchem/量子力学.md",
     "physchem/26春_雨课堂作业题整理.md",
