@@ -4,8 +4,8 @@
   "title": "Derive $C_p - C_V$ identity",
   "titleGenerationStatus": "success",
   "createdAt": 1782654095379,
-  "updatedAt": 1782656921448,
-  "lastResponseAt": 1782656921448,
+  "updatedAt": 1782658173010,
+  "lastResponseAt": 1782658173010,
   "sessionId": "79540482-b000-4059-a815-e6761a56bb6c",
   "providerState": {
     "providerSessionId": "79540482-b000-4059-a815-e6761a56bb6c"
@@ -13,11 +13,11 @@
   "currentNote": "physchem/期末考试预测.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 3926,
+    "inputTokens": 124,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 53248,
+    "cacheReadInputTokens": 59136,
     "contextWindow": 1000000,
-    "contextTokens": 57174,
+    "contextTokens": 59260,
     "percentage": 6,
     "contextWindowIsAuthoritative": true
   }
