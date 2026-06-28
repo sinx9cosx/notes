@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/量子力学.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physchem/期末考试预测.md",
+                "file": "physchem/统计力学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "期末考试预测 的出链列表"
+              "title": "统计力学 的出链列表"
             }
           },
           {
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/期末考试预测.md",
+                "file": "physchem/统计力学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "期末考试预测 的大纲"
+              "title": "统计力学 的大纲"
             }
           },
           {
@@ -255,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -273,11 +273,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6e1af6d0b6fc2097",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
-    "physchem/二维正方形势阱简并分析.md",
-    "physchem/期末考试预测.md",
     "physchem/量子力学.md",
+    "physchem/期末考试预测.md",
+    "physchem/统计力学.md",
+    "physchem/二维正方形势阱简并分析.md",
     "physchem/热力学.md",
     "physchem/简并的情况总览.md",
     "physchem/熵产生普适表述热力学第二定律.md",
@@ -286,7 +287,6 @@
     "physchem/玻尔兹曼分布成立条件.md",
     "physchem/物化考试技巧_量纲分析与证明.md",
     "physchem/拉格朗日乘数法.md",
-    "physchem/统计力学.md",
     "physchem/雨课堂讨论题汇总.md",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
