@@ -39,14 +39,17 @@
             "id": "6e1af6d0b6fc2097",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "physchem/期末考试预测.md",
-                "mode": "preview",
-                "source": false
+                "file": "physchem/统计力学导图.canvas",
+                "viewState": {
+                  "x": 2.5,
+                  "y": 70,
+                  "zoom": -0.45469369963063416
+                }
               },
-              "icon": "lucide-file",
-              "title": "期末考试预测"
+              "icon": "lucide-layout-dashboard",
+              "title": "统计力学导图"
             }
           },
           {
@@ -273,7 +276,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "6e1af6d0b6fc2097",
   "lastOpenFiles": [
     "physchem/期末考试预测.md",
     "physchem/热力学.md",
