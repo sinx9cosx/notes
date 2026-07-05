@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783238231564-j6gtc5i23",
+  "providerId": "claude",
+  "title": "解答第74题",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783238231564,
+  "updatedAt": 1783238252766,
+  "lastResponseAt": 1783238252766,
+  "sessionId": "b174f268-05c4-4018-8294-857587b770dc",
+  "providerState": {
+    "providerSessionId": "b174f268-05c4-4018-8294-857587b770dc"
+  },
+  "currentNote": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 12276,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31488,
+    "contextWindow": 1000000,
+    "contextTokens": 43764,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
