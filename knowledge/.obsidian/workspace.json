@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/一些总结/选择题知识点总结.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,7 +35,8 @@
               "title": "Python基础练习选择题A带答案"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/一些总结/选择题知识点总结.md",
+                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "选择题知识点总结 的大纲"
+              "title": "Python基础练习选择题A带答案 的大纲"
             }
           },
           {
@@ -230,10 +231,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b0baa25d875c1e2d",
+  "active": "d16bd7bab5d39676",
   "lastOpenFiles": [
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
     "Python/一些总结/选择题知识点总结.md",
+    "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
     "Python/一些总结/区分列表、元组等.md",
     "Python/一些总结/区分关键字、函数名等.md",
     "orgchem/有机化合物命名.md",
