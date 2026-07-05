@@ -35,8 +35,7 @@
               "title": "Python基础练习选择题A"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+                "file": "Python/一些总结/选择题知识点总结.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python基础练习选择题A 的大纲"
+              "title": "选择题知识点总结 的大纲"
             }
           },
           {
@@ -213,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -231,10 +230,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "b0baa25d875c1e2d",
   "lastOpenFiles": [
-    "Python/一些总结/选择题知识点总结.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+    "Python/一些总结/选择题知识点总结.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
     "Python/一些总结/区分列表、元组等.md",
     "Python/一些总结/区分关键字、函数名等.md",
