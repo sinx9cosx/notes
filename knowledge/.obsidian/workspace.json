@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "d16bd7bab5d39676",
+            "id": "d70f83cb79c52523",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题7/g1.判断相似词.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题5/e1.最长公共前缀.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "g1.判断相似词"
+              "title": "e1.最长公共前缀"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题7/g1.判断相似词.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题5/e1.最长公共前缀.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "g1.判断相似词 的大纲"
+              "title": "e1.最长公共前缀 的大纲"
             }
           },
           {
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -231,8 +231,22 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d16bd7bab5d39676",
+  "active": "d70f83cb79c52523",
   "lastOpenFiles": [
+    "Python/计算机软件技术基础1复习题/编程题1/a1.计算时刻转换.md",
+    "Python/一些总结/选择题知识点总结.md",
+    "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
+    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+    "Python/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",
+    "Python/计算机软件技术基础1复习题/编程题8/h4.二分搜索.md",
+    "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
+    "Python/计算机软件技术基础1复习题/编程题8/h2.成双配对.md",
+    "Python/计算机软件技术基础1复习题/编程题8/h1.几斤几两.md",
+    "Python/计算机软件技术基础1复习题/编程题7/g5.矩阵找最值及位置.md",
+    "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
+    "Python/计算机软件技术基础1复习题/编程题7/g3.将整数插入列表.md",
+    "Python/计算机软件技术基础1复习题/编程题7/g2.整数列表去重.md",
+    "Python/计算机软件技术基础1复习题/编程题7/g1.判断相似词.md",
     "Python/计算机软件技术基础1复习题/编程题6/f5.神奇的幻方.md",
     "Python/计算机软件技术基础1复习题/编程题6/f4.平衡序列.md",
     "Python/计算机软件技术基础1复习题/编程题6/f3.找兔子.md",
@@ -245,20 +259,6 @@
     "Python/计算机软件技术基础1复习题/编程题5/e1.最长公共前缀.md",
     "Python/计算机软件技术基础1复习题/编程题4/d5.字母阵列.md",
     "Python/计算机软件技术基础1复习题/编程题4/d4.打印金字塔.md",
-    "Python/计算机软件技术基础1复习题/编程题4/d3.逢七必过.md",
-    "Python/计算机软件技术基础1复习题/编程题4/d2.计算斐波那契数列.md",
-    "Python/计算机软件技术基础1复习题/编程题4/d1.求反素数.md",
-    "Python/计算机软件技术基础1复习题/编程题3/c5.求一组数据之和.md",
-    "Python/计算机软件技术基础1复习题/编程题3/c4.找出任意一天是一年中的第几天.md",
-    "Python/计算机软件技术基础1复习题/编程题3/c3.分数的四则运算.md",
-    "Python/计算机软件技术基础1复习题/编程题3/c2.找到一个正整数的所有素因子.md",
-    "Python/计算机软件技术基础1复习题/编程题3/c1.找出一组整数中的最大值.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b5.计算1到N之间的结果.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b4.找最高分和最低分.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b3.找出离当月月底还有几天.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b2.判断一个点是否在圆内.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b1.三个整数排序.md",
-    "Python/计算机软件技术基础1复习题/编程题1/a5.判断二个直角三角形是否相似.md",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
