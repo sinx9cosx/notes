@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Python基础练习选择题A"
             }
+          },
+          {
+            "id": "468827fb52e92dbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "g4.矩阵按列排序"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+                "file": "Python/一些总结/知识点讲义对照_03_函数与面向对象与文件.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python基础练习选择题A 的大纲"
+              "title": "知识点讲义对照_03_函数与面向对象与文件 的大纲"
             }
           },
           {
@@ -227,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -245,8 +259,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "1dae6aa883703a57",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
+    "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
+    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/一些总结/选择题知识点总结.md",
     "Python/一些总结/知识点讲义对照_03_函数与面向对象与文件.md",
     "Python/一些总结/知识点讲义对照_02_数据类型与序列.md",
@@ -261,12 +277,10 @@
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "Python/计算机软件技术基础1复习题/编程题1/a1.计算时刻转换.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",
     "Python/计算机软件技术基础1复习题/编程题8/h2.成双配对.md",
     "Python/计算机软件技术基础1复习题/编程题8/h1.几斤几两.md",
     "Python/计算机软件技术基础1复习题/编程题7/g5.矩阵找最值及位置.md",
-    "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
     "Python/计算机软件技术基础1复习题/编程题7/g3.将整数插入列表.md",
     "Python/计算机软件技术基础1复习题/编程题7/g2.整数列表去重.md",
     "Python/计算机软件技术基础1复习题/编程题7/g1.判断相似词.md",
