@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
-                "mode": "preview",
+                "file": "Python/计算机软件技术基础1复习题/编程题1/a2.判断一个三位整数是否为水仙花数.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python基础练习选择题A"
+              "title": "a2.判断一个三位整数是否为水仙花数"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "orgchem/有机化合物命名.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题1/a2.判断一个三位整数是否为水仙花数.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "有机化合物命名 的大纲"
+              "title": "a2.判断一个三位整数是否为水仙花数 的大纲"
             }
           },
           {
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -233,8 +233,9 @@
   },
   "active": "d16bd7bab5d39676",
   "lastOpenFiles": [
-    "orgchem/有机化合物命名.md",
+    "Python/计算机软件技术基础1复习题/编程题1/a1.计算时刻转换.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
+    "orgchem/有机化合物命名.md",
     "Python/一些总结/选择题知识点总结.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
     "Python/一些总结/区分列表、元组等.md",
@@ -265,7 +266,6 @@
     "orgchem/合成聚合物.md",
     "orgchem/糖类.md",
     "orgchem/脂类.md",
-    "physchem/高斯中的热化学计算-翻译.md",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.bf17f60b3925",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.85951bbe0f41",
     "physchem/玻尔兹曼分布成立条件.md.tmp.21812.60b298617866",
