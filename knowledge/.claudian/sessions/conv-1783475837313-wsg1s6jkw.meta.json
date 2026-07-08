@@ -4,8 +4,8 @@
   "title": "Check programming exercise folders 1-8",
   "titleGenerationStatus": "success",
   "createdAt": 1783475837336,
-  "updatedAt": 1783475858566,
-  "lastResponseAt": 1783475858566,
+  "updatedAt": 1783476404198,
+  "lastResponseAt": 1783476404198,
   "sessionId": "6b768207-f4a1-47ea-98c0-614a37edf39e",
   "providerState": {
     "providerSessionId": "6b768207-f4a1-47ea-98c0-614a37edf39e"
@@ -13,12 +13,12 @@
   "currentNote": "Python/计算机软件技术基础1复习题/编程题1/a1.计算时刻转换.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 1971,
+    "inputTokens": 243,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 31488,
+    "cacheReadInputTokens": 74368,
     "contextWindow": 1000000,
-    "contextTokens": 33459,
-    "percentage": 3,
+    "contextTokens": 74611,
+    "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
 }
