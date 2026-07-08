@@ -4,8 +4,8 @@
   "title": "解释数字反转代码功能喵",
   "titleGenerationStatus": "success",
   "createdAt": 1783496731180,
-  "updatedAt": 1783523769646,
-  "lastResponseAt": 1783523769646,
+  "updatedAt": 1783526516446,
+  "lastResponseAt": 1783526516446,
   "sessionId": "7d16fb4a-1f2f-4de9-a6be-1750c59a53b9",
   "providerState": {
     "providerSessionId": "7d16fb4a-1f2f-4de9-a6be-1750c59a53b9"
@@ -13,11 +13,11 @@
   "currentNote": "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 534,
+    "inputTokens": 765,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 47232,
+    "cacheReadInputTokens": 47744,
     "contextWindow": 1000000,
-    "contextTokens": 47766,
+    "contextTokens": 48509,
     "percentage": 5,
     "contextWindowIsAuthoritative": true
   }

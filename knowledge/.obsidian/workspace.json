@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "知识点讲义对照_01_基础语法与流程控制"
             }
+          },
+          {
+            "id": "49a44ed63433ad94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/03_流程控制.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_流程控制"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/一些总结/知识点讲义对照_01_基础语法与流程控制.md",
+                "file": "Python/03_流程控制.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "知识点讲义对照_01_基础语法与流程控制 的大纲"
+              "title": "03_流程控制 的大纲"
             }
           },
           {
@@ -213,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -231,8 +245,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "Python/一些总结/知识点讲义对照_01_基础语法与流程控制.md",
     "Python/计算机软件技术基础1复习题/编程题5/e2.恺撒密码.md",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md",
     "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
@@ -259,7 +274,6 @@
     "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
     "Python/计算机软件技术基础1复习题/编程题5/e5.校门外的树.md",
     "Python/计算机软件技术基础1复习题/编程题5/e4.找出一组整数中的最大值的位置.md",
-    "Python/计算机软件技术基础1复习题/编程题5/e3.春游报数.md",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
