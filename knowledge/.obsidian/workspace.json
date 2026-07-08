@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题5/e2.恺撒密码.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题7/g1.判断相似词.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "e2.恺撒密码"
+              "title": "g1.判断相似词"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题5/e2.恺撒密码.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题7/g1.判断相似词.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "e2.恺撒密码 的大纲"
+              "title": "g1.判断相似词 的大纲"
             }
           },
           {
@@ -233,6 +233,15 @@
   },
   "active": "d16bd7bab5d39676",
   "lastOpenFiles": [
+    "Python/计算机软件技术基础1复习题/编程题6/f5.神奇的幻方.md",
+    "Python/计算机软件技术基础1复习题/编程题6/f4.平衡序列.md",
+    "Python/计算机软件技术基础1复习题/编程题6/f3.找兔子.md",
+    "Python/计算机软件技术基础1复习题/编程题6/f2.约瑟夫环问题.md",
+    "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
+    "Python/计算机软件技术基础1复习题/编程题5/e5.校门外的树.md",
+    "Python/计算机软件技术基础1复习题/编程题5/e4.找出一组整数中的最大值的位置.md",
+    "Python/计算机软件技术基础1复习题/编程题5/e3.春游报数.md",
+    "Python/计算机软件技术基础1复习题/编程题5/e2.恺撒密码.md",
     "Python/计算机软件技术基础1复习题/编程题5/e1.最长公共前缀.md",
     "Python/计算机软件技术基础1复习题/编程题4/d5.字母阵列.md",
     "Python/计算机软件技术基础1复习题/编程题4/d4.打印金字塔.md",
@@ -250,15 +259,6 @@
     "Python/计算机软件技术基础1复习题/编程题2/b2.判断一个点是否在圆内.md",
     "Python/计算机软件技术基础1复习题/编程题2/b1.三个整数排序.md",
     "Python/计算机软件技术基础1复习题/编程题1/a5.判断二个直角三角形是否相似.md",
-    "Python/计算机软件技术基础1复习题/编程题1/a4.求三角形的周长和面积.md",
-    "Python/计算机软件技术基础1复习题/编程题1/a3.判断一个四位整数是否为回文数.md",
-    "Python/计算机软件技术基础1复习题/编程题1/a2.判断一个三位整数是否为水仙花数.md",
-    "Python/计算机软件技术基础1复习题/编程题1/a1.计算时刻转换.md",
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
-    "orgchem/有机化合物命名.md",
-    "Python/一些总结/选择题知识点总结.md",
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
-    "Python/一些总结/区分列表、元组等.md",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
