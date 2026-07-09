@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题4/d2.计算斐波那契数列.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题4/d3.逢七必过.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "d2.计算斐波那契数列"
+              "title": "d3.逢七必过"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题4/d2.计算斐波那契数列.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题4/d3.逢七必过.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "d2.计算斐波那契数列 的大纲"
+              "title": "d3.逢七必过 的大纲"
             }
           },
           {
@@ -247,6 +247,7 @@
   },
   "active": "5354cf9c803d2cd4",
   "lastOpenFiles": [
+    "Python/计算机软件技术基础1复习题/编程题4/d2.计算斐波那契数列.md",
     "Python/计算机软件技术基础1复习题/编程题4/d1.求反素数.md",
     "Python/计算机软件技术基础1复习题/编程题3/c3.分数的四则运算.md",
     "Python/计算机软件技术基础1复习题/编程题3/c4.找出任意一天是一年中的第几天.md",
@@ -272,7 +273,6 @@
     "Python/03_流程控制.md",
     "Python/计算机软件技术基础1复习题/编程题5/e2.恺撒密码.md",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md",
-    "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
