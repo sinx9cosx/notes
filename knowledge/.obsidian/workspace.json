@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题3/c1.找出一组整数中的最大值.md",
+                "file": "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "c1.找出一组整数中的最大值 的大纲"
+              "title": "Python基础练习选择题A 的大纲"
             }
           },
           {
@@ -259,8 +259,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5354cf9c803d2cd4",
+  "active": "1dae6aa883703a57",
   "lastOpenFiles": [
+    "Python/计算机软件技术基础1复习题/编程题3/c1.找出一组整数中的最大值.md",
     "Python/计算机软件技术基础1复习题/编程题2/b5.计算1到N之间的结果.md",
     "Python/计算机软件技术基础1复习题/编程题2/b4.找最高分和最低分.md",
     "Python/计算机软件技术基础1复习题/编程题2/b3.找出离当月月底还有几天.md",
@@ -287,7 +288,6 @@
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A带答案.md",
     "Python/计算机软件技术基础1复习题/编程题8/h5.计数法检测异序词.md",
-    "Python/计算机软件技术基础1复习题/编程题8/h2.成双配对.md",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",

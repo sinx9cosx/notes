@@ -451,7 +451,7 @@ print(x)
 - 下列程序的输出是（　　）
 <mark style="background: #FF5582A6;">！！</mark>
 ```python
-for x in (1,10):
+for x in (1,10): # 元组！
 	if x%2 == 0:
 		break
 	print(x,'',end='')
