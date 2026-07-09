@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783574051238-g6e8s8u08",
+  "providerId": "claude",
+  "title": "解释逢7必过规则",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783574051238,
+  "updatedAt": 1783574483464,
+  "lastResponseAt": 1783574483464,
+  "sessionId": "49daa125-a4e9-43f5-829e-1760ad9edebc",
+  "providerState": {
+    "providerSessionId": "49daa125-a4e9-43f5-829e-1760ad9edebc"
+  },
+  "currentNote": "Python/计算机软件技术基础1复习题/编程题4/d3.逢七必过.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 780,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33024,
+    "contextWindow": 1000000,
+    "contextTokens": 33804,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
