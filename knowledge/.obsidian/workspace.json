@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/一些总结/知识点讲义对照_03_函数与面向对象与文件.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "知识点讲义对照_03_函数与面向对象与文件 的大纲"
+              "title": "g4.矩阵按列排序 的大纲"
             }
           },
           {
@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -259,12 +259,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
-    "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
-    "Python/一些总结/选择题知识点总结.md",
     "Python/一些总结/知识点讲义对照_03_函数与面向对象与文件.md",
+    "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
+    "Python/一些总结/选择题知识点总结.md",
     "Python/一些总结/知识点讲义对照_02_数据类型与序列.md",
     "Python/一些总结/知识点讲义对照_01_基础语法与流程控制.md",
     "Python/03_流程控制.md",
