@@ -231,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,8 +246,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5354cf9c803d2cd4",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "paper",
+    "编程题1.md",
+    "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
     "Python/计算机软件技术基础1复习题/编程题8/h2.成双配对.md",
     "Python/计算机软件技术基础1复习题/编程题8/h4.二分搜索.md",
     "Python/计算机软件技术基础1复习题/编程题8/h1.几斤几两.md",
@@ -270,9 +274,6 @@
     "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/计算机软件技术基础1复习题/编程题2/b5.计算1到N之间的结果.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b4.找最高分和最低分.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b3.找出离当月月底还有几天.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b2.判断一个点是否在圆内.md",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
