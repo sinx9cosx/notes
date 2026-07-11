@@ -7,6 +7,12 @@
   "citeFormats": [],
   "exportFormats": [
     {
+      "name": "Import #2",
+      "outputPathTemplate": "paper/{{title}}/{{title}}.md",
+      "imageOutputPathTemplate": "paper/{{title}}/image/",
+      "imageBaseNameTemplate": "image"
+    },
+    {
       "name": "Import #1",
       "outputPathTemplate": "{{citekey}}.md",
       "imageOutputPathTemplate": "{{citekey}}/",
@@ -15,5 +21,6 @@
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": false,
-  "whichNotesToOpenAfterImport": "first-imported-note"
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "shouldConcat": true
 }

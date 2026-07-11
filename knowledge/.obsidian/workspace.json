@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "3036979f4dcbe9a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/计算机软件技术基础1复习题/编程题8/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
             "id": "468827fb52e92dbd",
             "type": "leaf",
             "state": {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -246,10 +260,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5354cf9c803d2cd4",
+  "active": "3036979f4dcbe9a6",
   "lastOpenFiles": [
-    "paper/zhangLargeLanguageModelBasedAIAgent2024.md",
     "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
+    "Python/计算机软件技术基础1复习题/编程题8/未命名.md",
+    "paper/image",
+    "paper/zhangLargeLanguageModelBasedAIAgent2024.md",
     "paper",
     "编程题1.md",
     "Python/计算机软件技术基础1复习题/编程题8/h2.成双配对.md",
@@ -274,7 +290,6 @@
     "Python/计算机软件技术基础1复习题/编程题3/c1.找出一组整数中的最大值.md",
     "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
     "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
-    "Python/计算机软件技术基础1复习题/编程题2/b5.计算1到N之间的结果.md",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
@@ -295,7 +310,6 @@
     "physchem/images/verify Carnot Cycle.jpg",
     "physchem/images/Carnot Cycle.jpg",
     "physchem/images/isothermal_vs_adiabatic_PV.png",
-    "physchem/images/gen_pv_diagram.py.tmp.32948.9fa37ed18632",
     "physchem/Gibbs Paradox.canvas",
     "物理化学/量子力学导图.canvas"
   ]
