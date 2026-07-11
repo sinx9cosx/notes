@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题8/未命名.md",
+                "file": "Python/计算机软件技术基础1复习题/编程题8/zotero integration template.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "zotero integration template"
             }
           },
           {
@@ -263,7 +263,7 @@
   "active": "3036979f4dcbe9a6",
   "lastOpenFiles": [
     "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
-    "Python/计算机软件技术基础1复习题/编程题8/未命名.md",
+    "Python/计算机软件技术基础1复习题/编程题8/zotero integration template.md",
     "paper/image",
     "paper/zhangLargeLanguageModelBasedAIAgent2024.md",
     "paper",
