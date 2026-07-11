@@ -41,8 +41,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/计算机软件技术基础1复习题/编程题8/zotero integration template.md",
-                "mode": "source",
+                "file": "paper/zotero integration template.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -245,8 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,8 +261,9 @@
   },
   "active": "3036979f4dcbe9a6",
   "lastOpenFiles": [
+    "paper/zotero integration template.md.tmp.30256.2358f2c72310",
     "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
-    "Python/计算机软件技术基础1复习题/编程题8/zotero integration template.md",
+    "paper/zotero integration template.md",
     "paper/image",
     "paper/zhangLargeLanguageModelBasedAIAgent2024.md",
     "paper",
@@ -289,7 +289,6 @@
     "Python/计算机软件技术基础1复习题/编程题3/c2.找到一个正整数的所有素因子.md",
     "Python/计算机软件技术基础1复习题/编程题3/c1.找出一组整数中的最大值.md",
     "Python/计算机软件技术基础1复习题/编程题7/g4.矩阵按列排序.md",
-    "Python/计算机软件技术基础1复习题/Python基础练习选择题A.md",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",

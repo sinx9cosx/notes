@@ -1,0 +1,215 @@
+{
+  "id": "conv-1783761784163-o2rav9z2e",
+  "providerId": "claude",
+  "title": "Fix invalid code in template",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783761784163,
+  "updatedAt": 1783762133022,
+  "lastResponseAt": 1783762133019,
+  "sessionId": "fefa733a-bc98-4633-ac0a-d372df1a66fa",
+  "providerState": {
+    "providerSessionId": "fefa733a-bc98-4633-ac0a-d372df1a66fa",
+    "subagentData": {
+      "call_00_aVpGG3TqlkeNVGoYyT4v6040": {
+        "id": "call_00_aVpGG3TqlkeNVGoYyT4v6040",
+        "description": "修复 Zotero 模板无效代码",
+        "prompt": "你是负责代码修改的子 agent。请修复一个 Obsidian 中的 Zotero Integration 模板文件（使用 Nunjucks 模板语法）的语法错误。\n\n文件路径（相对于当前工作目录/vault 根目录）：`paper/zotero integration template.md`\n\n请先用 Read 工具读取该文件，然后用 Edit 工具做**最小改动**修正以下 6 类问题（不要改动其它任何文字、结构或注释）：\n\n**一、YAML frontmatter 冒号后缺空格：**\n- 第2行 `Title:\"{{title}}\"` → `Title: \"{{title}}\"`\n- 第3行 `ShortTitle:\"{{shortTitle}}\"` → `ShortTitle: \"{{shortTitle}}\"`\n- 第6行 `Publication:\"{{publicationTitle}}\"` → `Publication: \"{{publicationTitle}}\"`\n- 第8行 `Rate:'...'` → `Rate: '...'`\n\n**二、中文标点改英文：**\n- 第8行 `replace(\"🐱\"，\"\")` 的中文逗号 `，` 改成英文 `,`\n- 第12行 结尾的中文书名号 `》` 改成 `}}`\n\n**三、第8行 Rate 表达式括号位置修正（连同上面的逗号一起处理）：**\n- 原：`Rate:'{{allTags | length - (allTags | replace(\"🐱\"，\"\")) | length}}'`\n- 改为：`Rate: '{{allTags | length - (allTags | replace(\"🐱\", \"\") | length)}}'`\n\n**四、变量名拼写（大写 I 被误写成小写 l）：**\n- 第14行 `{% if isFirstlmport %}` → `{% if isFirstImport %}`\n- 第26行 `lastlmportDate` → `lastImportDate`（该行为 `{% set newAnnotations = annotations | filterby(\"date\",\"dateafter\", lastlmportDate) %}`）\n\n**五、第29行修正（原行内容）：**\n`{% if a.annotatedText %}> {{la.annotatedText}} [Page{{a, page}}].({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}}).`\n改为：\n`{% if a.annotatedText %}> {{a.annotatedText}} [Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}}).`\n即：`{{la.annotatedText}}`→`{{a.annotatedText}}`，`{{a, page}}`→`{{a.page}}`，`].(`→`](`\n\n**六、第31行修正（原行内容）：**\n`{% if a.type == \"image\" %}> [Page{{a.page}}].({{a.attachment.select | replace(\"select\", \"open-pdf')}}?page=fa,page}})!`\n改为：\n`{% if a.type == \"image\" %}> ![Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}})`\n即：引号 `'`→`\"`，`?page=fa,page}}`→`?page={{a.page}}`，`].(`→`](`，图片嵌入用 `![...](...)` 且去掉句尾多余的 `!`\n\n完成后，请重新读取文件确认所有修改已正确应用，并向我报告每一处改动的最终结果。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_bVt5zbyhBwsXRytTpGIZ0912",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tTitle:\"{{title}}\"\n3\tShortTitle:\"{{shortTitle}}\"\n4\tAuthor: \"{{authors}}\"\n5\tDate:'{% if date %}{{date | format(\"YYYY-MM\")}}{% endif %}'\n6\tPublication:\"{{publicationTitle}}\"\n7\tCitekey: \"{{citekey}}\"\n8\tRate:'{{allTags | length - (allTags | replace(\"🐱\"，\"\")) | length}}'\n9\t---\n10\t\n11\tPDF:{{pdfZoteroLink | replace(\"select\", \"open-pdf\")}}\n12\t#research/papers , {{hashTags  | replace(\"##\", '#') | replace(\"#\",\"#research/\")》\n13\t{% persist \"annotations\" %}\n14\t{% if isFirstlmport %}\n15\t## Abstract\n16\t{{abstractNote}}\n17\t## Motivation\n18\tWhat's the motivation, key method and contribution?\n19\t## Result\n20\tHow's the experiment done? How's the result?\n21\t## Method\n22\tWhat's the detailed method?\n23\t## Thinking\n24\tWhat did you learn? What doubts do you have?\n25\t## Annotations\n26\t{% endif %}{% set newAnnotations = annotations | filterby(\"date\",\"dateafter\", lastlmportDate) %}{% if newAnnotations. length > 0 %}\n27\t#### Imported: {{importDate | format(\"YYYY-MM-DD h:mm a\")}}\n28\t{% for a in newAnnotations %}\n29\t{% if a.annotatedText %}> {{la.annotatedText}} [Page{{a, page}}].({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}}).\n30\t{% endif %}{% if a.comment %}> {{a.comment}}\n31\t{% endif %}{% if a.type == \"image\" %}> [Page{{a.page}}].({{a.attachment.select | replace(\"select\", \"open-pdf')}}?page=fa,page}})!\n32\t[[{{a.imageBaseName}}]]\n33\t{% endif %}{% endfor %}\n34\t{% endif %}{% endpersist %}\n35\t"
+          },
+          {
+            "id": "call_00_PgOswd3m0g9OknJCpIlT4083",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "Title:\"{{title}}\"\nShortTitle:\"{{shortTitle}}\"",
+              "new_string": "Title: \"{{title}}\"\nShortTitle: \"{{shortTitle}}\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ET_ww6z1xIpiMSVCcWrzWVK5528",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "Publication:\"{{publicationTitle}}\"",
+              "new_string": "Publication: \"{{publicationTitle}}\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ET_GMdJEEEnRCsRWtkqp9KF2249",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "Rate:'{{allTags | length - (allTags | replace(\"🐱\"，\"\")) | length}}'",
+              "new_string": "Rate: '{{allTags | length - (allTags | replace(\"🐱\", \"\") | length)}}'"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ET_5vggNFPETafkTic6rPzt3074",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "#research/papers , {{hashTags  | replace(\"##\", '#') | replace(\"#\",\"#research/\")》",
+              "new_string": "#research/papers , {{hashTags  | replace(\"##\", '#') | replace(\"#\",\"#research/\")}}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ET_ATfP775maInCPhw2oM8F8456",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "{% if isFirstlmport %}",
+              "new_string": "{% if isFirstImport %}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ET_FFJqWBzoORwrmUO5yokx3751",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "{% endif %}{% set newAnnotations = annotations | filterby(\"date\",\"dateafter\", lastlmportDate) %}{% if newAnnotations. length > 0 %}",
+              "new_string": "{% endif %}{% set newAnnotations = annotations | filterby(\"date\",\"dateafter\", lastImportDate) %}{% if newAnnotations. length > 0 %}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ET_vFASQGBbROhqdMm2i0Uv2871",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "{% if a.annotatedText %}> {{la.annotatedText}} [Page{{a, page}}].({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}}).",
+              "new_string": "{% if a.annotatedText %}> {{a.annotatedText}} [Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}})."
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ET_iN6VaCQ99GhtRfR8sz5w2890",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "{% endif %}{% if a.type == \"image\" %}> [Page{{a.page}}].({{a.attachment.select | replace(\"select\", \"open-pdf')}}?page=fa,page}})!",
+              "new_string": "{% endif %}{% if a.type == \"image\" %}> ![Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}})"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ET_IUkSFALl3WVfLr50KYkI6483",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tTitle: \"{{title}}\"\n3\tShortTitle: \"{{shortTitle}}\"\n4\tAuthor: \"{{authors}}\"\n5\tDate:'{% if date %}{{date | format(\"YYYY-MM\")}}{% endif %}'\n6\tPublication: \"{{publicationTitle}}\"\n7\tCitekey: \"{{citekey}}\"\n8\tRate: '{{allTags | length - (allTags | replace(\"🐱\", \"\") | length)}}'\n9\t---\n10\t\n11\tPDF:{{pdfZoteroLink | replace(\"select\", \"open-pdf\")}}\n12\t#research/papers , {{hashTags  | replace(\"##\", '#') | replace(\"#\",\"#research/\")}}\n13\t{% persist \"annotations\" %}\n14\t{% if isFirstImport %}\n15\t## Abstract\n16\t{{abstractNote}}\n17\t## Motivation\n18\tWhat's the motivation, key method and contribution?\n19\t## Result\n20\tHow's the experiment done? How's the result?\n21\t## Method\n22\tWhat's the detailed method?\n23\t## Thinking\n24\tWhat did you learn? What doubts do you have?\n25\t## Annotations\n26\t{% endif %}{% set newAnnotations = annotations | filterby(\"date\",\"dateafter\", lastImportDate) %}{% if newAnnotations. length > 0 %}\n27\t#### Imported: {{importDate | format(\"YYYY-MM-DD h:mm a\")}}\n28\t{% for a in newAnnotations %}\n29\t{% if a.annotatedText %}> {{a.annotatedText}} [Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}}).\n30\t{% endif %}{% if a.comment %}> {{a.comment}}\n31\t{% endif %}{% if a.type == \"image\" %}> ![Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}})\n32\t[[{{a.imageBaseName}}]]\n33\t{% endif %}{% endfor %}\n34\t{% endif %}{% endpersist %}\n35\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "已完成全部修复喵。以下是每一处改动的最终结果喵：\n\n一、YAML 冒号后补空格\n- 第2行 `Title: \"{{title}}\"`\n- 第3行 `ShortTitle: \"{{shortTitle}}\"`\n- 第6行 `Publication: \"{{publicationTitle}}\"`\n- 第8行 `Rate: '...'`（连同下面的括号/逗号一并处理）\n\n二、中文标点改英文\n- 第8行中文逗号 `，` → 英文 `,`\n- 第12行结尾 `》` → `}}`\n\n三、第8行 Rate 表达式括号位置修正\n- 最终为 `Rate: '{{allTags | length - (allTags | replace(\"🐱\", \"\") | length)}}'`\n\n四、变量名拼写（小写 l → 大写 I）\n- 第14行 `{% if isFirstImport %}`\n- 第26行 `lastImportDate`\n\n五、第29行\n- 最终为 `{% if a.annotatedText %}> {{a.annotatedText}} [Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}}).`\n- `{{la.annotatedText}}`→`{{a.annotatedText}}`、`{{a, page}}`→`{{a.page}}`、`].(`→`](` 均已修正\n\n六、第31行\n- 最终为 `{% endif %}{% if a.type == \"image\" %}> ![Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}})`\n- 引号 `'`→`\"`、`?page=fa,page}}`→`?page={{a.page}}`、`].(`→`](`、改为图片嵌入 `![...](...)` 并去掉句尾多余的 `!` 均已完成\n\n其余文字、结构与注释（含未在任务范围内的第5行 `Date:'...'` 和第11行 `PDF:...`）均保持原样，未作改动喵。"
+      },
+      "call_00_ET_yUfk9WFiTdNPuH0qDAL77562": {
+        "id": "call_00_ET_yUfk9WFiTdNPuH0qDAL77562",
+        "description": "补修 Zotero 模板遗漏问题",
+        "prompt": "你是负责代码修改的子 agent。请修复一个 Obsidian 中的 Zotero Integration 模板文件（Nunjucks 语法）遗漏的两处语法问题。\n\n文件路径（相对于当前工作目录/vault 根目录）：`paper/zotero integration template.md`\n\n请先用 Read 工具读取该文件，然后用 Edit 工具做**最小改动**修正以下 2 处问题（不要改动其它任何内容）：\n\n**一、第5行 YAML 冒号后缺空格：**\n- 原：`Date:'{% if date %}{{date | format(\"YYYY-MM\")}}{% endif %}'`\n- 改为：`Date: '{% if date %}{{date | format(\"YYYY-MM\")}}{% endif %}'`\n（即 `Date:` 改成 `Date: `，只加一个空格，其余不动）\n\n**二、第26行点号后多余空格：**\n- 该行中含有 `{% if newAnnotations. length > 0 %}`\n- 把 `newAnnotations. length` 改成 `newAnnotations.length`（去掉点号后的空格）\n- 该行其余部分（`{% endif %}{% set newAnnotations = annotations | filterby(\"date\",\"dateafter\", lastImportDate) %}` 等）保持不动\n\n完成后，请重新读取文件确认这两处修改已正确应用，并向我报告最终结果。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_9h5yN7n5uoIci35xTv9j0667",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tTitle: \"{{title}}\"\n3\tShortTitle: \"{{shortTitle}}\"\n4\tAuthor: \"{{authors}}\"\n5\tDate:'{% if date %}{{date | format(\"YYYY-MM\")}}{% endif %}'\n6\tPublication: \"{{publicationTitle}}\"\n7\tCitekey: \"{{citekey}}\"\n8\tRate: '{{allTags | length - (allTags | replace(\"🐱\", \"\") | length)}}'\n9\t---\n10\t\n11\tPDF:{{pdfZoteroLink | replace(\"select\", \"open-pdf\")}}\n12\t#research/papers , {{hashTags  | replace(\"##\", '#') | replace(\"#\",\"#research/\")}}\n13\t{% persist \"annotations\" %}\n14\t{% if isFirstImport %}\n15\t## Abstract\n16\t{{abstractNote}}\n17\t## Motivation\n18\tWhat's the motivation, key method and contribution?\n19\t## Result\n20\tHow's the experiment done? How's the result?\n21\t## Method\n22\tWhat's the detailed method?\n23\t## Thinking\n24\tWhat did you learn? What doubts do you have?\n25\t## Annotations\n26\t{% endif %}{% set newAnnotations = annotations | filterby(\"date\",\"dateafter\", lastImportDate) %}{% if newAnnotations. length > 0 %}\n27\t#### Imported: {{importDate | format(\"YYYY-MM-DD h:mm a\")}}\n28\t{% for a in newAnnotations %}\n29\t{% if a.annotatedText %}> {{a.annotatedText}} [Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}}).\n30\t{% endif %}{% if a.comment %}> {{a.comment}}\n31\t{% endif %}{% if a.type == \"image\" %}> ![Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}})\n32\t[[{{a.imageBaseName}}]]\n33\t{% endif %}{% endfor %}\n34\t{% endif %}{% endpersist %}\n35\t"
+          },
+          {
+            "id": "call_00_1yLlhiDInwjXP3KceXWK1116",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "Date:'{% if date %}{{date | format(\"YYYY-MM\")}}{% endif %}'",
+              "new_string": "Date: '{% if date %}{{date | format(\"YYYY-MM\")}}{% endif %}'"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ZdwUaRyhAMMGAZe8AxqU9052",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md",
+              "old_string": "newAnnotations. length",
+              "new_string": "newAnnotations.length"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_QDcXQkAruTyZDPVSxOQ19893",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\paper\\zotero integration template.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tTitle: \"{{title}}\"\n3\tShortTitle: \"{{shortTitle}}\"\n4\tAuthor: \"{{authors}}\"\n5\tDate: '{% if date %}{{date | format(\"YYYY-MM\")}}{% endif %}'\n6\tPublication: \"{{publicationTitle}}\"\n7\tCitekey: \"{{citekey}}\"\n8\tRate: '{{allTags | length - (allTags | replace(\"🐱\", \"\") | length)}}'\n9\t---\n10\t\n11\tPDF:{{pdfZoteroLink | replace(\"select\", \"open-pdf\")}}\n12\t#research/papers , {{hashTags  | replace(\"##\", '#') | replace(\"#\",\"#research/\")}}\n13\t{% persist \"annotations\" %}\n14\t{% if isFirstImport %}\n15\t## Abstract\n16\t{{abstractNote}}\n17\t## Motivation\n18\tWhat's the motivation, key method and contribution?\n19\t## Result\n20\tHow's the experiment done? How's the result?\n21\t## Method\n22\tWhat's the detailed method?\n23\t## Thinking\n24\tWhat did you learn? What doubts do you have?\n25\t## Annotations\n26\t{% endif %}{% set newAnnotations = annotations | filterby(\"date\",\"dateafter\", lastImportDate) %}{% if newAnnotations.length > 0 %}\n27\t#### Imported: {{importDate | format(\"YYYY-MM-DD h:mm a\")}}\n28\t{% for a in newAnnotations %}\n29\t{% if a.annotatedText %}> {{a.annotatedText}} [Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}}).\n30\t{% endif %}{% if a.comment %}> {{a.comment}}\n31\t{% endif %}{% if a.type == \"image\" %}> ![Page{{a.page}}]({{a.attachment.select | replace(\"select\", \"open-pdf\")}}?page={{a.page}})\n32\t[[{{a.imageBaseName}}]]\n33\t{% endif %}{% endfor %}\n34\t{% endif %}{% endpersist %}\n35\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "两处修改均已正确应用，确认无误：\n\n| 行号 | 问题 | 修改前 | 修改后 | 状态 |\n|------|------|--------|--------|------|\n| 第5行 | YAML 冒号后缺空格 | `Date:'{% if date %}` | `Date: '{% if date %}` | 已修复 |\n| 第26行 | 点号后多余空格 | `newAnnotations. length` | `newAnnotations.length` | 已修复 |\n\n文件其余内容未做任何改动，Nunjucks 模板语法现已正确。"
+      }
+    }
+  },
+  "currentNote": "paper/zotero integration template.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 8,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35648,
+    "contextWindow": 200000,
+    "contextTokens": 35656,
+    "percentage": 18
+  }
+}
