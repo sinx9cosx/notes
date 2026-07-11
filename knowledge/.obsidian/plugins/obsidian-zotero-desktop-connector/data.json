@@ -10,7 +10,8 @@
       "name": "Import #2",
       "outputPathTemplate": "paper/{{title}}/{{title}}.md",
       "imageOutputPathTemplate": "paper/{{title}}/image/",
-      "imageBaseNameTemplate": "image"
+      "imageBaseNameTemplate": "image",
+      "templatePath": "paper/zotero integration template.md"
     },
     {
       "name": "Import #1",
