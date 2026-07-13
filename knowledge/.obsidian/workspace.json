@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/zotero integration template.md",
+                "file": "paper note/zotero integration template.md",
                 "mode": "preview",
                 "source": true
               },
@@ -259,14 +259,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3036979f4dcbe9a6",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "math",
     "paper/zotero integration template.md.tmp.30256.2358f2c72310",
     "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
-    "paper/zotero integration template.md",
-    "paper/image",
+    "paper note/zotero integration template.md",
+    "paper note/image",
     "paper/zhangLargeLanguageModelBasedAIAgent2024.md",
-    "paper",
+    "paper note",
     "编程题1.md",
     "Python/计算机软件技术基础1复习题/编程题8/h2.成双配对.md",
     "Python/计算机软件技术基础1复习题/编程题8/h4.二分搜索.md",
@@ -304,7 +305,6 @@
     "physchem/统计力学三大系综与温度角色.canvas",
     "physchem/images/ideal gas chem potential.jpg",
     "Python/计算机软件技术基础1复习题/选择题知识点总结.md.tmp.19044.86328291f1a1",
-    "Python/一些总结",
     "physchem/images/clausius inequality.jpg",
     "physchem/images/verify Carnot Cycle.jpg",
     "physchem/images/Carnot Cycle.jpg",
