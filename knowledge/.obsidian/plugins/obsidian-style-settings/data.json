@@ -39,7 +39,12 @@
   "primary-theme@@zero-popup-popdown": true,
   "primary-theme@@zero-popup-blur": true,
   "primary-theme@@ribbon_styles": "ribbon-default",
-  "primary-theme@@ribbon-border-width": "1px",
-  "primary-theme@@ribbon-background@@light": "#FFE0D6",
-  "primary-theme@@interface_editor-bg": "editor-bg-default"
+  "primary-theme@@ribbon-border-width": "3px",
+  "primary-theme@@ribbon-background@@light": "#EEE7DD",
+  "primary-theme@@interface_editor-bg": "editor-bg-default",
+  "primary-theme@@editor-bg-color@@light": "#FFFBF8",
+  "primary-theme@@interface_status-bar-style": "sb-default",
+  "primary-theme@@blockquote-background-color@@light": "#F5F0E8",
+  "primary-theme@@blockquote-border-color@@light": "#B8C9AE",
+  "primary-theme@@graph-node-tag@@light": "#8AB8D9"
 }
