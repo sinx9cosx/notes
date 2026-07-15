@@ -34,5 +34,12 @@
   "baseline-style@@color-scheme-dark": "notion-dark",
   "baseline-style@@background-contrast-dark": "contrast-dark-tonal",
   "baseline-style@@color-scheme-light": "catppuccin-light",
-  "baseline-style@@background-contrast-light": "contrast-light-tonal"
+  "baseline-style@@background-contrast-light": "contrast-light-tonal",
+  "primary-theme@@zero-tab-anim": true,
+  "primary-theme@@zero-popup-popdown": true,
+  "primary-theme@@zero-popup-blur": true,
+  "primary-theme@@ribbon_styles": "ribbon-default",
+  "primary-theme@@ribbon-border-width": "1px",
+  "primary-theme@@ribbon-background@@light": "#FFE0D6",
+  "primary-theme@@interface_editor-bg": "editor-bg-default"
 }

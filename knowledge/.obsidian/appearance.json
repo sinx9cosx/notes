@@ -1,5 +1,8 @@
 {
   "interfaceFontFamily": "思源黑体",
-  "cssTheme": "Baseline",
-  "baseFontSize": 20
+  "cssTheme": "Primary",
+  "baseFontSize": 20,
+  "nativeMenus": false,
+  "accentColor": "#d9b396",
+  "theme": "moonstone"
 }
