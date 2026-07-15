@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "math/线代应该这样学.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -230,7 +230,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "495a2e04f4575017",
   "lastOpenFiles": [
     "paper note/zotero integration template.md",
     "math/线代应该这样学.md",
