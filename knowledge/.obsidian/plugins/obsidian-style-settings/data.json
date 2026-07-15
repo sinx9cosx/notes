@@ -40,7 +40,7 @@
   "primary-theme@@zero-popup-blur": true,
   "primary-theme@@ribbon_styles": "ribbon-default",
   "primary-theme@@ribbon-border-width": "3px",
-  "primary-theme@@ribbon-background@@light": "#EEE7DD",
+  "primary-theme@@ribbon-background@@light": "#DDE6D9",
   "primary-theme@@interface_editor-bg": "editor-bg-default",
   "primary-theme@@editor-bg-color@@light": "#DDE6D9",
   "primary-theme@@interface_status-bar-style": "sb-default",
