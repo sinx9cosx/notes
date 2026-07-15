@@ -6,8 +6,6 @@
   "minimal-style@@h1-color@@light": "#789E6B",
   "minimal-style@@h2-color@@light": "#96CE53",
   "minimal-style@@h3-color@@light": "#8BC113",
-  "baseline-style@@color-scheme-light": "flexoki-light",
-  "baseline-style@@background-contrast-light": "contrast-light",
   "baseline-style@@accented-interface": true,
   "baseline-style@@color-scheme-accent": true,
   "baseline-style@@layout-style": "layout-cards",
@@ -32,5 +30,9 @@
   "baseline-style@@embed-background@@light": "#D1E6EF",
   "baseline-style@@embed-border-color@@light": "#D2E1BA",
   "baseline-style@@active-line-color": "active-line-color-default",
-  "baseline-style@@active-line-style": "active-line-off"
+  "baseline-style@@active-line-style": "active-line-off",
+  "baseline-style@@color-scheme-dark": "notion-dark",
+  "baseline-style@@background-contrast-dark": "contrast-dark-tonal",
+  "baseline-style@@color-scheme-light": "catppuccin-light",
+  "baseline-style@@background-contrast-light": "contrast-light-tonal"
 }
