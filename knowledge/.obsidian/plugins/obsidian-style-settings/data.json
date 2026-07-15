@@ -42,9 +42,12 @@
   "primary-theme@@ribbon-border-width": "3px",
   "primary-theme@@ribbon-background@@light": "#EEE7DD",
   "primary-theme@@interface_editor-bg": "editor-bg-default",
-  "primary-theme@@editor-bg-color@@light": "#FFFBF8",
+  "primary-theme@@editor-bg-color@@light": "#DDE6D9",
   "primary-theme@@interface_status-bar-style": "sb-default",
   "primary-theme@@blockquote-background-color@@light": "#F5F0E8",
   "primary-theme@@blockquote-border-color@@light": "#B8C9AE",
-  "primary-theme@@graph-node-tag@@light": "#8AB8D9"
+  "primary-theme@@graph-node-tag@@light": "#8AB8D9",
+  "primary-theme@@editor-border-color@@light": "#B8C9AE",
+  "primary-theme@@editor-bgpattern-color@@light": "#96A88A",
+  "primary-theme@@status-bar-background@@light": "#F5F0E8"
 }
