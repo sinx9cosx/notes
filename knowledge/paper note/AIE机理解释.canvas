@@ -2,11 +2,11 @@
 	"nodes":[
 		{"id":"e41d1dc348d2dce5","type":"text","text":"HPS的AIE现象","x":-180,"y":-240,"width":250,"height":60,"color":"4"},
 		{"id":"a1c4a3c43e551ccf","type":"text","text":"和HPS有相同的AIBSE现象的分子","x":160,"y":-260,"width":250,"height":100,"color":"4"},
-		{"id":"0856cdac75acbbb4","type":"text","text":"DRE","x":-180,"y":-440,"width":250,"height":60,"color":"5"},
-		{"id":"90408ad2d61fa61f","type":"text","text":"分子内运动受限RIM","x":160,"y":-440,"width":250,"height":60,"color":"5"},
+		{"id":"0856cdac75acbbb4","type":"text","text":"DRE机理","x":-180,"y":-440,"width":250,"height":60,"color":"5"},
 		{"id":"0d1aa40aa18213de","type":"text","text":"同位素取代","x":160,"y":-619,"width":250,"height":60,"color":"1"},
 		{"id":"4f5e7da91d8b114d","type":"text","text":"无辐射弛豫受限的AIE机理","x":-197,"y":-559,"width":284,"height":69,"color":"5"},
-		{"id":"2d53930bddaa67bc","type":"text","text":"共振拉曼光谱","x":-180,"y":-720,"width":250,"height":60,"color":"1"}
+		{"id":"2d53930bddaa67bc","type":"text","text":"共振拉曼光谱","x":-180,"y":-720,"width":250,"height":60,"color":"1"},
+		{"id":"90408ad2d61fa61f","type":"text","text":"分子内运动受限（RIM机理）","x":160,"y":-450,"width":250,"height":80,"color":"5"}
 	],
 	"edges":[
 		{"id":"9db9dc407a37af80","fromNode":"0856cdac75acbbb4","fromSide":"right","toNode":"90408ad2d61fa61f","toSide":"left","toEnd":"none"},
@@ -14,8 +14,8 @@
 		{"id":"204809b7629b14b2","fromNode":"2d53930bddaa67bc","fromSide":"bottom","toNode":"4f5e7da91d8b114d","toSide":"top","label":"验证"},
 		{"id":"a0e8b637f540f246","fromNode":"0d1aa40aa18213de","fromSide":"bottom","toNode":"90408ad2d61fa61f","toSide":"top","label":"验证"},
 		{"id":"b0610464feb5c451","fromNode":"4f5e7da91d8b114d","fromSide":"bottom","toNode":"0856cdac75acbbb4","toSide":"top","toEnd":"none"},
-		{"id":"e930e2b4712b72ca","fromNode":"90408ad2d61fa61f","fromSide":"top","toNode":"4f5e7da91d8b114d","toSide":"right","toEnd":"none"},
-		{"id":"a7f7d2042449aa71","fromNode":"e41d1dc348d2dce5","fromSide":"top","toNode":"0856cdac75acbbb4","toSide":"bottom","label":"机理解释"},
-		{"id":"2feaae1b31f7d617","fromNode":"e41d1dc348d2dce5","fromSide":"right","toNode":"a1c4a3c43e551ccf","toSide":"left"}
+		{"id":"2feaae1b31f7d617","fromNode":"e41d1dc348d2dce5","fromSide":"right","toNode":"a1c4a3c43e551ccf","toSide":"left"},
+		{"id":"4d1aa6f91044b128","fromNode":"0856cdac75acbbb4","fromSide":"bottom","toNode":"e41d1dc348d2dce5","toSide":"top","label":"解释"},
+		{"id":"bb326f4c3e186a55","fromNode":"90408ad2d61fa61f","fromSide":"left","toNode":"4f5e7da91d8b114d","toSide":"right","toEnd":"none"}
 	]
 }
