@@ -38,8 +38,7 @@
               "title": "HPS的AIE机理解释"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper note/HPS的AIE机理解释.canvas",
+                "file": "math/线代应该这样学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HPS的AIE机理解释 的大纲"
+              "title": "线代应该这样学 的大纲"
             }
           },
           {
@@ -234,10 +233,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "bfea21fd5c75690b",
+  "active": "495a2e04f4575017",
   "lastOpenFiles": [
-    "paper note/zotero integration template.md",
     "paper note/HPS的AIE机理解释.canvas",
+    "paper note/zotero integration template.md",
     "math/线代应该这样学.md",
     "physchem/Gaussian计算实验报告.md",
     "paper note/vocabulary.md",
