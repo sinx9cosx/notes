@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "paper note/AIE机理解释.canvas",
+                "file": "paper note/HPS的AIE机理解释.canvas",
                 "viewState": {
                   "x": 162.5,
-                  "y": -520,
+                  "y": -399.22916666666663,
                   "zoom": -0.37696945844532437
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "AIE机理解释"
+              "title": "HPS的AIE机理解释"
             }
           }
         ],
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -175,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper note/AIE机理解释.canvas",
+                "file": "paper note/HPS的AIE机理解释.canvas",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AIE机理解释 的大纲"
+              "title": "HPS的AIE机理解释 的大纲"
             }
           },
           {
@@ -221,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,7 +237,7 @@
   "active": "bfea21fd5c75690b",
   "lastOpenFiles": [
     "paper note/zotero integration template.md",
-    "paper note/AIE机理解释.canvas",
+    "paper note/HPS的AIE机理解释.canvas",
     "math/线代应该这样学.md",
     "physchem/Gaussian计算实验报告.md",
     "paper note/vocabulary.md",
