@@ -25,17 +25,21 @@
             "id": "bfea21fd5c75690b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "paper note/zotero integration template.md",
-                "mode": "source",
-                "source": false
+                "file": "paper note/AIE机理解释.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -186,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "zotero integration template"
+              "icon": "lucide-layout-dashboard",
+              "title": "AIE机理解释"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/线代应该这样学.md",
+                "file": "paper note/AIE机理解释.canvas",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "线代应该这样学 的大纲"
+              "title": "AIE机理解释 的大纲"
             }
           },
           {
@@ -230,9 +234,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "495a2e04f4575017",
+  "active": "bfea21fd5c75690b",
   "lastOpenFiles": [
     "paper note/zotero integration template.md",
+    "paper note/AIE机理解释.canvas",
     "math/线代应该这样学.md",
     "physchem/Gaussian计算实验报告.md",
     "paper note/vocabulary.md",
@@ -261,7 +266,6 @@
     "Python/计算机软件技术基础1复习题/编程题4/d1.求反素数.md",
     "Python/计算机软件技术基础1复习题/编程题3/c3.分数的四则运算.md",
     "Python/计算机软件技术基础1复习题/编程题3/c4.找出任意一天是一年中的第几天.md",
-    "Python/计算机软件技术基础1复习题/编程题3/c5.求一组数据之和.md",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
