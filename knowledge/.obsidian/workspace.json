@@ -38,7 +38,8 @@
               "title": "HPS的AIE机理解释"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/线代应该这样学.md",
+                "file": "paper note/HPS的AIE机理解释.canvas",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "线代应该这样学 的大纲"
+              "title": "HPS的AIE机理解释 的大纲"
             }
           },
           {
@@ -219,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,11 +235,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "495a2e04f4575017",
+  "active": "bfea21fd5c75690b",
   "lastOpenFiles": [
+    "physchem/量子力学导图.canvas",
     "paper note/HPS的AIE机理解释.canvas",
-    "paper note/zotero integration template.md",
     "math/线代应该这样学.md",
+    "paper note/zotero integration template.md",
     "physchem/Gaussian计算实验报告.md",
     "paper note/vocabulary.md",
     "physchem/Thermochemistry_in_Gaussian.md",
