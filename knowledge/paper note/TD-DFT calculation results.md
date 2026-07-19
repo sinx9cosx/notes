@@ -54,8 +54,10 @@ Category:
 
 **4.2.1 优化是否收敛**
 
->  Optimization completed.
+``` text
+ Optimization completed.
     -- Stationary point found.
+```
 
 **4.2.2 S1能量**
 
@@ -129,5 +131,4 @@ Excited State   1:      Singlet-A      3.9025 eV  317.70 nm  f=0.0748  <S**2>=0.
 
 > 补充：
 > 苯的S1的振子强度怎么是0？解释暂时还看不懂，只知道和对称性有关。
-> 目前得到的是垂直发射能。
-> 没有做振动分辨光谱的计算。
+> 目前得到的是垂直发射能，没有做振动分辨光谱的计算。
