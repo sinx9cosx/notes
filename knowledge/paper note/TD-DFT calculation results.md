@@ -75,11 +75,11 @@ Category:
 萘：
 
 ``` text
-Excited State   1:      Singlet-A      4.4604 eV  277.97 nm  f=0.0600  <S**2> =0.000
-      33 -> 36         0.15732
-      34 -> 35         0.68510
+Excited State   1:      Singlet-A      3.9025 eV  317.70 nm  f=0.0748  <S**2>=0.000
+      33 -> 36        -0.11133
+      34 -> 35        -0.69597
  This state for optimization and/or second-order correction.
- Total Energy, E(TD-HF/TD-DFT) =  -385.728790123    
+ Total Energy, E(TD-HF/TD-DFT) =  -385.739037941    
  Copying the excited state density for this state as the 1-particle RhoCI density.
 
 ```
@@ -87,7 +87,7 @@ Excited State   1:      Singlet-A      4.4604 eV  277.97 nm  f=0.0600  <S**2> =0
 | molecule    | state | energy    | $\lambda$ | f      |
 | ----------- | ----- | --------- | --------- | ------ |
 | benzene     | S1    | 5.2715 eV | 235.20 nm | 0.0000 |
-| naphthalene | S1    | 4.4604 eV | 277.97 nm | 0.0600 |
+| naphthalene | S1    | 3.9025 eV | 317.70 nm | 0.0748 |
 
 ## 4.3 S1优化后重新计算
 
@@ -108,15 +108,16 @@ Excited State   1:      Singlet-A      5.5446 eV  223.61 nm  f=0.0000  <S**2> =0
 萘：
 
 ``` text
-Excited State   1:      Singlet-A      4.4604 eV  277.97 nm  f=0.0600  <S**2> =0.000
-      33 -> 36         0.15732
-      34 -> 35         0.68510
+Excited State   1:      Singlet-A      3.9025 eV  317.70 nm  f=0.0748  <S**2>=0.000
+      33 -> 36         0.11133
+      34 -> 35         0.69596
  This state for optimization and/or second-order correction.
- Total Energy, E(TD-HF/TD-DFT) =  -385.728790114    
+ Total Energy, E(TD-HF/TD-DFT) =  -385.739037942    
  Copying the excited state density for this state as the 1-particle RhoCI density.
+
 ```
 
 | molecule    | vertical emission energy | $\lambda$ | f      |
 | ----------- | ------------------------ | --------- | ------ |
 | benzene     | 5.5446 eV                | 223.61 nm | 0.0000 |
-| naphthalene | 4.4604 eV                | 277.97 nm | 0.0600 |
+| naphthalene | 3.9025 eV                | 277.97 nm | 0.0600 |
