@@ -115,3 +115,8 @@ Excited State   1:      Singlet-A      4.4604 eV  277.97 nm  f=0.0600  <S**2> =0
  Total Energy, E(TD-HF/TD-DFT) =  -385.728790114    
  Copying the excited state density for this state as the 1-particle RhoCI density.
 ```
+
+| molecule    | vertical emission energy | $\lambda$ | f      |
+| ----------- | ------------------------ | --------- | ------ |
+| benzene     | 5.5446 eV                | 223.61 nm | 0.0000 |
+| naphthalene | 4.4604 eV                | 277.97 nm | 0.0600 |
