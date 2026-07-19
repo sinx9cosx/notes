@@ -17,6 +17,13 @@ Category:
 
 # 计算设置
 
+- 基态几何构型优化：
+
+> # opt freq b3lyp/6-31g(d) geom=connectivity
+
+- 激发态几何构型优化：
+
+> # opt freq td=(nstates=10,root=1) b3lyp/6-31g(d) geom=connectivity
 
 
 # 计算结果

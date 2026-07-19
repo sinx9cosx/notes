@@ -1,6 +1,6 @@
 {
   "database": "Zotero",
-  "noteImportFolder": "paper",
+  "noteImportFolder": "paper note",
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 90,
@@ -8,7 +8,7 @@
     {
       "name": "Nature",
       "format": "formatted-citation",
-      "cslStyle": "nature"
+      "cslStyle": "apa"
     }
   ],
   "exportFormats": [
