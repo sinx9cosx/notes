@@ -35,8 +35,7 @@
               "title": "未命名"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper note/未命名.md",
+                "file": "paper note/report.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "report 的大纲"
             }
           },
           {
@@ -231,10 +230,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2af2699b186c266b",
+  "active": "757d43dfd8e5b9c1",
   "lastOpenFiles": [
-    "paper note/report.md",
     "paper note/未命名.md",
+    "paper note/report.md",
     "math/线代应该这样学.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",

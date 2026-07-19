@@ -33,25 +33,41 @@ Category:
 
 ## 4.1 基态优化结构（苯&萘）
 
-**优化是否成功**
+**4.1.1 优化是否成功**
 
  > 苯：Normal termination of Gaussian 16 at Sat Jul 18 17:08:21 2026.
  > 萘： Normal termination of Gaussian 16 at Sat Jul 18 19:04:03 2026.
 
-**虚频检查**
+**4.1.2 虚频检查**
 
 | molecule    | imaginary frequency |
 | ----------- | ------------------- |
 | benzene     | none                |
 | naphthalene | none                |
 
-**基态能量**
+**4.1.3 基态能量**
 
 苯： SCF Done:  E(RB3LYP) =  -232.248650991     A.U. after    1 cycles
 萘： SCF Done:  E(RB3LYP) =  -385.892706628     A.U. after    1 cycles
 
-## 激发态优化结构
+## 4.2 激发态优化结构（苯&萘）
 
-**优化是否成功**
+**4.2.1 优化是否收敛**
 
-> 苯：
+>  Optimization completed.
+    -- Stationary point found.
+
+**4.2.2 S1能量**
+苯：
+
+```
+ Excited State   1:      Singlet-A      5.2715 eV  235.20 nm  f=0.0000  <S**2> =0.000
+      20 -> 22        -0.47803
+      20 -> 23         0.14601
+      21 -> 22         0.14601
+      21 -> 23         0.47803
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -232.049919231    
+ Copying the excited state density for this state as the 1-particle RhoCI density.
+```
+
