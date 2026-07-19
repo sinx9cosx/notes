@@ -11,7 +11,7 @@
       "outputPathTemplate": "paper/{{title}}/{{title}}.md",
       "imageOutputPathTemplate": "paper/{{title}}/image/",
       "imageBaseNameTemplate": "image",
-      "templatePath": "paper/zotero integration template.md"
+      "templatePath": "paper note/zotero integration template.md"
     },
     {
       "name": "Import #1",
@@ -23,5 +23,6 @@
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": false,
   "whichNotesToOpenAfterImport": "first-imported-note",
-  "shouldConcat": true
+  "shouldConcat": true,
+  "exeOverridePath": "D:\\download\\origin new folder\\pdfannots2json.Windows.x64\\pdfannots2json.exe"
 }
