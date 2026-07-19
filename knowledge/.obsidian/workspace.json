@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper note/report.md",
-                "mode": "source",
+                "file": "paper note/TD-DFT calculation results.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "report"
+              "title": "TD-DFT calculation results"
             }
           },
           {
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper note/report.md",
+                "file": "paper note/TD-DFT calculation results.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "report 的大纲"
+              "title": "TD-DFT calculation results 的大纲"
             }
           },
           {
@@ -247,7 +247,7 @@
   "active": "757d43dfd8e5b9c1",
   "lastOpenFiles": [
     "未命名.md",
-    "paper note/report.md",
+    "paper note/TD-DFT calculation results.md",
     "paper note/未命名.md",
     "math/线代应该这样学.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章）.md",

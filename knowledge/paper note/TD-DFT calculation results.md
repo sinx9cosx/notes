@@ -29,9 +29,9 @@ Category:
 
 `# td=(nstates=10,root=1) b3lyp/6-31g(d) geom=connectivity`
 
-# 四、计算结果
+# 四、计算结果（苯&萘）
 
-## 4.1 基态优化结构（苯&萘）
+## 4.1 基态优化结构
 
 **4.1.1 优化是否成功**
 
@@ -50,7 +50,7 @@ Category:
 苯： SCF Done:  E(RB3LYP) =  -232.248650991     A.U. after    1 cycles
 萘： SCF Done:  E(RB3LYP) =  -385.892706628     A.U. after    1 cycles
 
-## 4.2 激发态优化结构（苯&萘）
+## 4.2 激发态优化结构
 
 **4.2.1 优化是否收敛**
 
@@ -61,7 +61,7 @@ Category:
 
 苯：
 
-```
+``` text
  Excited State   1:      Singlet-A      5.2715 eV  235.20 nm  f=0.0000  <S**2> =0.000
       20 -> 22        -0.47803
       20 -> 23         0.14601
@@ -74,7 +74,7 @@ Category:
 
 萘：
 
-```
+``` text
 Excited State   1:      Singlet-A      4.4604 eV  277.97 nm  f=0.0600  <S**2> =0.000
       33 -> 36         0.15732
       34 -> 35         0.68510
@@ -89,4 +89,29 @@ Excited State   1:      Singlet-A      4.4604 eV  277.97 nm  f=0.0600  <S**2> =0
 | benzene     | S1    | 5.2715 eV | 235.20 nm | 0.0000 |
 | naphthalene | S1    | 4.4604 eV | 277.97 nm | 0.0600 |
 
-##
+## 4.3 S1优化后重新计算
+
+**4.3.1 emission calculation**
+
+苯：
+
+``` text
+Excited State   1:      Singlet-A      5.5446 eV  223.61 nm  f=0.0000  <S**2> =0.000
+      20 -> 22         0.49411
+      21 -> 23        -0.49407
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -232.044892243    
+ Copying the excited state density for this state as the 1-particle RhoCI density.
+
+```
+
+萘：
+
+``` text
+Excited State   1:      Singlet-A      4.4604 eV  277.97 nm  f=0.0600  <S**2> =0.000
+      33 -> 36         0.15732
+      34 -> 35         0.68510
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -385.728790114    
+ Copying the excited state density for this state as the 1-particle RhoCI density.
+```
