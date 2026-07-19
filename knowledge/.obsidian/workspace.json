@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "645f267b4879d716",
+        "id": "541a0f84f44538ac",
         "type": "tabs",
         "children": [
           {
-            "id": "757d43dfd8e5b9c1",
+            "id": "3f4a3b05c5d71f73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paper note/TD-DFT calculation results.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TD-DFT calculation results"
+              "title": "新标签页"
             }
           }
         ]
@@ -156,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper note/TD-DFT calculation results.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "TD-DFT calculation results 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -216,11 +211,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "757d43dfd8e5b9c1",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "paper note/TD-DFT calculation results.md",
     "未命名.md",
     "paper note/未命名.md",
-    "paper note/TD-DFT calculation results.md",
     "math/线代应该这样学.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
