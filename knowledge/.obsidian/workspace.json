@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/量子力学.md",
+                "file": "paper note/report.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "量子力学 的大纲"
+              "title": "report 的大纲"
             }
           },
           {
@@ -198,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -216,7 +216,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "757d43dfd8e5b9c1",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "math/线代应该这样学.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章）.md",
