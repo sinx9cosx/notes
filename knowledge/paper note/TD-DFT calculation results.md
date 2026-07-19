@@ -27,7 +27,7 @@ Category:
 
 - 计算S1发射能量：
 
-`# td=(nstates=10,root=1) b3lyp/6-31g(d) geom=connectivity`
+`# td=(nstates=10,root=1) b3lyp/6-31g(d)`
 
 # 四、计算结果（苯&萘）
 
@@ -96,12 +96,15 @@ Excited State   1:      Singlet-A      3.9025 eV  317.70 nm  f=0.0748  <S**2>=0.
 苯：
 
 ``` text
-Excited State   1:      Singlet-A      5.5446 eV  223.61 nm  f=0.0000  <S**2> =0.000
-      20 -> 22         0.49411
-      21 -> 23        -0.49407
+ Excited State   1:      Singlet-A      5.2715 eV  235.20 nm  f=0.0000  <S**2>=0.000
+      20 -> 22         0.47481
+      20 -> 23        -0.15618
+      21 -> 22        -0.15618
+      21 -> 23        -0.47481
  This state for optimization and/or second-order correction.
- Total Energy, E(TD-HF/TD-DFT) =  -232.044892243    
+ Total Energy, E(TD-HF/TD-DFT) =  -232.049919547    
  Copying the excited state density for this state as the 1-particle RhoCI density.
+
 
 ```
 
@@ -119,5 +122,9 @@ Excited State   1:      Singlet-A      3.9025 eV  317.70 nm  f=0.0748  <S**2>=0.
 
 | molecule    | vertical emission energy | $\lambda$ | f      |
 | ----------- | ------------------------ | --------- | ------ |
-| benzene     | 5.5446 eV                | 223.61 nm | 0.0000 |
-| naphthalene | 3.9025 eV                | 277.97 nm | 0.0600 |
+| benzene     | 5.2715 eV                | 235.20 nm | 0.0000 |
+| naphthalene | 3.9025 eV                | 317.70 nm | 0.0748 |
+
+> 最后的shuo
+> 苯的S1的振子强度怎么是0？看不懂解释TT
+> 没有做振动的计算
