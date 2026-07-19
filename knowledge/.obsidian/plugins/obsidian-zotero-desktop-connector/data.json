@@ -8,8 +8,8 @@
   "exportFormats": [
     {
       "name": "Import #2",
-      "outputPathTemplate": "paper/{{title}}/{{title}}.md",
-      "imageOutputPathTemplate": "paper/{{title}}/image/",
+      "outputPathTemplate": "paper/{{title}}.md",
+      "imageOutputPathTemplate": "paper/image",
       "imageBaseNameTemplate": "image",
       "templatePath": "paper note/zotero integration template.md"
     },
