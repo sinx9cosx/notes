@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -231,8 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,9 +246,9 @@
   },
   "active": "757d43dfd8e5b9c1",
   "lastOpenFiles": [
+    "paper note/未命名.md",
     "未命名.md",
     "paper note/TD-DFT calculation results.md",
-    "paper note/未命名.md",
     "math/线代应该这样学.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
