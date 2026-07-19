@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "2fa92de4e54ef407",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
             "id": "2af2699b186c266b",
             "type": "leaf",
             "state": {
@@ -232,8 +246,9 @@
   },
   "active": "757d43dfd8e5b9c1",
   "lastOpenFiles": [
-    "paper note/未命名.md",
+    "未命名.md",
     "paper note/report.md",
+    "paper note/未命名.md",
     "math/线代应该这样学.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
@@ -244,7 +259,6 @@
     "paper note/聚集诱导发光（AIE）；QM",
     "paper/分子聚集体发光过程的理论研究.md",
     "paper/聚集诱导发光（AIE）；QM/MM；聚集诱导发射蓝移；共振拉曼 光谱；同位素效应.md",
-    "未命名.md",
     "paper note/zotero integration template.md",
     "paper/聚集诱导发光（AIE）；QM",
     "paper",

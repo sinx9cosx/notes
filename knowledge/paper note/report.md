@@ -58,6 +58,7 @@ Category:
     -- Stationary point found.
 
 **4.2.2 S1能量**
+
 苯：
 
 ```
@@ -71,3 +72,21 @@ Category:
  Copying the excited state density for this state as the 1-particle RhoCI density.
 ```
 
+萘：
+
+```
+Excited State   1:      Singlet-A      4.4604 eV  277.97 nm  f=0.0600  <S**2> =0.000
+      33 -> 36         0.15732
+      34 -> 35         0.68510
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -385.728790123    
+ Copying the excited state density for this state as the 1-particle RhoCI density.
+
+```
+
+| molecule    | state | energy    | $\lambda$ | f      |
+| ----------- | ----- | --------- | --------- | ------ |
+| benzene     | S1    | 5.2715 eV | 235.20 nm | 0.0000 |
+| naphthalene | S1    | 4.4604 eV | 277.97 nm | 0.0600 |
+
+##
