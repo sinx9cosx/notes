@@ -7,7 +7,7 @@ Category:
 ---
 # 计算目标
 
-获得苯和萘的第一激发态跃迁回基态（$S_{1}\to S_{0}$）的荧光光谱数据
+通过TD-DFT研究苯和萘的电子激发性质，计算其基态结构、激发态结构以及第一激发态到基态（$S_{1}\to S_{0}$）的跃迁性质。
 
 # 计算步骤
 
@@ -19,11 +19,14 @@ Category:
 
 - 基态几何构型优化：
 
-> # opt freq b3lyp/6-31g(d) geom=connectivity
+`# opt freq b3lyp/6-31g(d) geom=connectivity`
 
 - 激发态几何构型优化：
 
-> # opt freq td=(nstates=10,root=1) b3lyp/6-31g(d) geom=connectivity
+`# opt freq td=(nstates=10,root=1) b3lyp/6-31g(d) geom=connectivity`
 
+- 计算S1发射能量：
+
+`# td=(nstates=10,root=1) b3lyp/6-31g(d) geom=connectivity`
 
 # 计算结果

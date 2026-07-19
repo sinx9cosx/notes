@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e40c229a98e43b5d",
+        "id": "645f267b4879d716",
         "type": "tabs",
         "children": [
           {
-            "id": "495a2e04f4575017",
+            "id": "757d43dfd8e5b9c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/线代应该这样学.md",
+                "file": "paper note/report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "线代应该这样学"
-            }
-          },
-          {
-            "id": "bfea21fd5c75690b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paper note/聚集诱导发光（AIE）；QM/MM；聚集诱导发射蓝移；共振拉曼 光谱；同位素效应.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MM；聚集诱导发射蓝移；共振拉曼 光谱；同位素效应"
+              "title": "report"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,10 +216,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "bfea21fd5c75690b",
+  "active": "757d43dfd8e5b9c1",
   "lastOpenFiles": [
-    "paper note/HPS的AIE机理解释.canvas",
-    "paper note/聚集诱导发光（AIE）；QM/MM；聚集诱导发射蓝移；共振拉曼 光谱；同位素效应.md",
+    "math/线代应该这样学.md",
+    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章）.md",
+    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
+    "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
+    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
+    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
+    "paper note/聚集诱导发光（AIE）；QM/未命名.md",
     "paper note/聚集诱导发光（AIE）；QM",
     "paper/分子聚集体发光过程的理论研究.md",
     "paper/聚集诱导发光（AIE）；QM/MM；聚集诱导发射蓝移；共振拉曼 光谱；同位素效应.md",
@@ -247,7 +237,6 @@
     "physchem/热力学第一课时.md",
     "physchem/量子力学.md",
     "physchem/量子力学导图.canvas",
-    "math/线代应该这样学.md",
     "physchem/Gaussian计算实验报告.md",
     "paper note/vocabulary.md",
     "physchem/Thermochemistry_in_Gaussian.md",
@@ -263,10 +252,6 @@
     "Python/计算机软件技术基础1复习题/编程题8/h1.几斤几两.md",
     "Python/计算机软件技术基础1复习题/编程题7/g3.将整数插入列表.md",
     "Python/计算机软件技术基础1复习题/编程题7/g2.整数列表去重.md",
-    "Python/计算机软件技术基础1复习题/编程题6/f3.找兔子.md",
-    "Python/计算机软件技术基础1复习题/编程题6/f1.判断一个密码是否为合法的密码.md",
-    "Python/计算机软件技术基础1复习题/编程题5/e5.校门外的树.md",
-    "Python/计算机软件技术基础1复习题/编程题5/e4.找出一组整数中的最大值的位置.md",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "physchem/统计力学导图.canvas",
     "physchem/images/hw thermo 1.png",
