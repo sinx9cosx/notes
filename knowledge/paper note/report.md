@@ -50,7 +50,7 @@ Category:
 苯： SCF Done:  E(RB3LYP) =  -232.248650991     A.U. after    1 cycles
 萘： SCF Done:  E(RB3LYP) =  -385.892706628     A.U. after    1 cycles
 
-## 激发态结构优化
+## 激发态优化结构
 
 **优化是否成功**
 
