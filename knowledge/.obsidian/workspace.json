@@ -11,10 +11,14 @@
             "id": "0db93c4af62b8508",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "第二轮阅读（第二章-分子光谱）"
             }
           }
         ]
@@ -152,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "第二轮阅读（第二章-分子光谱） 的大纲"
             }
           },
           {
