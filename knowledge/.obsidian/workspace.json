@@ -11,10 +11,17 @@
             "id": "3f4a3b05c5d71f73",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "canvas",
+              "state": {
+                "file": "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
+                "viewState": {
+                  "x": 220.5,
+                  "y": -424,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "HPS的AIE机理解释"
             }
           }
         ]
@@ -152,12 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "HPS的AIE机理解释 的大纲"
             }
           },
           {
@@ -197,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,7 +220,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "3f4a3b05c5d71f73",
   "lastOpenFiles": [
     "paper note/TD-DFT calculation results.md",
     "未命名.md",
