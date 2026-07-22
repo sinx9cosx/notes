@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "项目操作全流程"
             }
+          },
+          {
+            "id": "a600783236e66679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physchem/量子力学.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "量子力学"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper note/项目操作全流程.md",
+                "file": "physchem/量子力学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "项目操作全流程 的大纲"
+              "title": "量子力学 的大纲"
             }
           },
           {
@@ -231,8 +245,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "a600783236e66679",
   "lastOpenFiles": [
+    "paper note/项目操作全流程.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "汇总目录/AIE论文阅读进展.md",
     "汇总目录/26春-物化考试准备.md",
@@ -267,7 +282,6 @@
     "paper/zotero integration template.md.tmp.30256.2358f2c72310",
     "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
     "paper note/image",
-    "paper/zhangLargeLanguageModelBasedAIAgent2024.md",
     "paper note",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "physchem/统计力学导图.canvas",
