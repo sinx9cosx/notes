@@ -49,8 +49,7 @@
               "title": "热力学"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/热力学.md",
+                "file": "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "热力学 的大纲"
+              "title": "第二轮阅读（第二章-分子光谱） 的大纲"
             }
           },
           {
@@ -245,8 +244,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "0db93c4af62b8508",
   "lastOpenFiles": [
+    "physchem/热力学.md",
     "physchem/期末考试预测.md",
     "physchem/量子力学.md",
     "paper note/项目操作全流程.md",
@@ -278,7 +278,6 @@
     "physchem/量子力学导图.canvas",
     "physchem/Gaussian计算实验报告.md",
     "paper note/vocabulary.md",
-    "physchem/Thermochemistry_in_Gaussian.md",
     "math",
     "paper/zotero integration template.md.tmp.30256.2358f2c72310",
     "paper note/image",
