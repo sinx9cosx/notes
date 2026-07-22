@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem/量子力学.md",
+                "file": "physchem/热力学.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "量子力学"
+              "title": "热力学"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/量子力学.md",
+                "file": "physchem/热力学.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "量子力学 的大纲"
+              "title": "热力学 的大纲"
             }
           },
           {
@@ -245,8 +245,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a600783236e66679",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "physchem/期末考试预测.md",
+    "physchem/量子力学.md",
     "paper note/项目操作全流程.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "汇总目录/AIE论文阅读进展.md",
@@ -273,14 +275,12 @@
     "paper/聚集诱导发光（AIE）；QM",
     "paper",
     "physchem/热力学第一课时.md",
-    "physchem/量子力学.md",
     "physchem/量子力学导图.canvas",
     "physchem/Gaussian计算实验报告.md",
     "paper note/vocabulary.md",
     "physchem/Thermochemistry_in_Gaussian.md",
     "math",
     "paper/zotero integration template.md.tmp.30256.2358f2c72310",
-    "Python/计算机软件技术基础1复习题/编程题8/h3.冒泡排序.md",
     "paper note/image",
     "paper note",
     "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
