@@ -3,7 +3,7 @@ tags:
   - Gaussian
   - research
 Category:
-  - 课内/作业
+  - 作业
 ---
 # 一、计算目标
 

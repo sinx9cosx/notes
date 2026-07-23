@@ -2,7 +2,8 @@
 tags:
   - research/papers
 Category:
-  - 文献阅读笔记
+  - 文献阅读
+  - 笔记
 ---
 
 ## 关于理论的问题

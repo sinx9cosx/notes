@@ -2,7 +2,6 @@
 tags:
   - 统计力学
   - 物理化学
-  - 物理化学/熵
   - 热力学
   - Gaussian
 Category:

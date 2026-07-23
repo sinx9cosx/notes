@@ -2,8 +2,8 @@
 tags:
   - research/papers
 Category:
-  - 文献阅读笔记
   - 总结
+  - 文献阅读
 ---
 [[HPS的AIE机理解释.canvas]]
 
