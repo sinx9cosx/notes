@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/变分法.md",
+                "file": "quantum chemistry/第五章 变分法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "变分法"
+              "title": "第五章 变分法"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/变分法.md",
+                "file": "quantum chemistry/第五章 变分法.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "变分法 的大纲"
+              "title": "第五章 变分法 的大纲"
             }
           },
           {
@@ -200,10 +200,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "quantum chemistry/变分法.md"
+                "file": "quantum chemistry/第五章 变分法.md"
               },
               "icon": "lucide-info",
-              "title": "变分法的笔记属性"
+              "title": "第五章 变分法的笔记属性"
             }
           },
           {
@@ -248,7 +248,7 @@
   "active": "41588961744324bc",
   "lastOpenFiles": [
     "physchem/量子力学.md",
-    "quantum chemistry/变分法.md",
+    "quantum chemistry/第五章 变分法.md",
     "汇总目录/26春-物化考试准备.md",
     "paper note/项目操作全流程.md",
     "quantum chemistry/原子单位制.md",
