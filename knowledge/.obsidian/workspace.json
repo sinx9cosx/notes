@@ -199,10 +199,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "math/线代应该这样学.md"
+                "file": "quantum chemistry/变分法.md"
               },
               "icon": "lucide-info",
-              "title": "线代应该这样学的笔记属性"
+              "title": "变分法的笔记属性"
             }
           },
           {
@@ -244,7 +244,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "0db93c4af62b8508",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "paper note/项目操作全流程.md",
     "quantum chemistry/原子单位制.md",
