@@ -5,7 +5,7 @@ tags:
   - 热力学
   - Gaussian
 Category:
-  - 课内/讲义
+  - 讲义
 ---
 
 
