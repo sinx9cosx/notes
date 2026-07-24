@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784863248794-dgevcuvrd",
+  "providerId": "claude",
+  "title": "Check textbook notes and proofs",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784863248794,
+  "updatedAt": 1784863726270,
+  "lastResponseAt": 1784863726270,
+  "sessionId": "9ba0cdfe-2507-4092-a880-84961024ba18",
+  "providerState": {
+    "providerSessionId": "9ba0cdfe-2507-4092-a880-84961024ba18"
+  },
+  "currentNote": "quantum chemistry/变分法.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 778,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43904,
+    "contextWindow": 1000000,
+    "contextTokens": 44682,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

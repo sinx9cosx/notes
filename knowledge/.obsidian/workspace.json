@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/变分法.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -245,8 +245,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "41588961744324bc",
   "lastOpenFiles": [
+    "quantum chemistry/变分法.md.tmp.29768.8cabd73e966f",
+    "quantum chemistry/变分法.md.tmp.29768.242ef7e143b9",
+    "quantum chemistry/变分法.md.tmp.29768.c4ed330521ac",
+    "quantum chemistry/变分法.md.tmp.29768.126cb7195a46",
     "physchem/量子力学.md",
     "quantum chemistry/变分法.md",
     "汇总目录/26春-物化考试准备.md",
@@ -274,7 +278,6 @@
     "physchem/拉格朗日乘数法.md",
     "physchem/简并的情况总览.md",
     "physchem/关于熵增加原理.md",
-    "physchem/关于权重W.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "quantum chemistry",
     "汇总目录",
@@ -283,9 +286,6 @@
     "paper",
     "math",
     "paper/zotero integration template.md.tmp.30256.2358f2c72310",
-    "paper note/image",
-    "paper note",
-    "Python/计算机软件技术基础1复习题/知识点总结与考试预测.md.tmp.31424.46f376a55605",
     "physchem/images/hw thermo 1.png",
     "physchem/images/hw entropy calculate 2.jpg",
     "physchem/images/hw entropy calculate 1.png",
