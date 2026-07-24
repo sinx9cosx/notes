@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "变分法计算流程总结.md",
+                "file": "quantum chemistry/变分法.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "变分法计算流程总结 的大纲"
+              "title": "变分法 的大纲"
             }
           },
           {
@@ -228,10 +228,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "变分法计算流程总结.md"
+                "file": "quantum chemistry/变分法.md"
               },
               "icon": "lucide-info",
-              "title": "变分法计算流程总结的笔记属性"
+              "title": "变分法的笔记属性"
             }
           },
           {
@@ -273,7 +273,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7734f46e2f4a6b8e",
+  "active": "41588961744324bc",
   "lastOpenFiles": [
     "变分法计算流程总结.md",
     "quantum chemistry/变分法.md",
