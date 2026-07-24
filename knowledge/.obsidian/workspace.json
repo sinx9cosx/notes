@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/变分法.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "线性变分法的基函数.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "线性变分法的基函数.md",
+                "file": "quantum chemistry/变分法.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "线性变分法的基函数 的大纲"
+              "title": "变分法 的大纲"
             }
           },
           {
@@ -214,10 +214,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "线性变分法的基函数.md"
+                "file": "quantum chemistry/变分法.md"
               },
               "icon": "lucide-info",
-              "title": "线性变分法的基函数的笔记属性"
+              "title": "变分法的笔记属性"
             }
           },
           {
@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -259,10 +259,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "295390040609f51b",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
-    "quantum chemistry/变分法.md",
     "线性变分法的基函数.md",
+    "quantum chemistry/变分法.md",
     "quantum chemistry/变分法.md.tmp.29768.8cabd73e966f",
     "quantum chemistry/变分法.md.tmp.29768.242ef7e143b9",
     "quantum chemistry/变分法.md.tmp.29768.c4ed330521ac",
