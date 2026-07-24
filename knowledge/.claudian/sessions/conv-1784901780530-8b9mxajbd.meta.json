@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784901780530-8b9mxajbd",
+  "providerId": "claude",
+  "title": "解释变分法推广中能量上下限的用途与软件",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784901780531,
+  "updatedAt": 1784902087656,
+  "lastResponseAt": 1784902087656,
+  "sessionId": "c57588c6-ce9e-461a-b9ca-c6cdd7201863",
+  "providerState": {
+    "providerSessionId": "c57588c6-ce9e-461a-b9ca-c6cdd7201863"
+  },
+  "currentNote": "quantum chemistry/变分法.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 3028,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36224,
+    "contextWindow": 1000000,
+    "contextTokens": 39252,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
