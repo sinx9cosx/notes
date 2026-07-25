@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784963099378-t02n8f5pv",
+  "providerId": "claude",
+  "title": "解释高斯展宽的目的",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784963099378,
+  "updatedAt": 1784963123243,
+  "lastResponseAt": 1784963123243,
+  "sessionId": "6f40c5c7-c5b7-4d4f-9ad1-e75921c0ecf9",
+  "providerState": {
+    "providerSessionId": "6f40c5c7-c5b7-4d4f-9ad1-e75921c0ecf9"
+  },
+  "currentNote": "paper note/TD-DFT项目操作全流程.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 18795,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31488,
+    "contextWindow": 1000000,
+    "contextTokens": 50283,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

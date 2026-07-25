@@ -250,7 +250,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -268,7 +268,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "93987566ae083407",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "physchem/量子力学.md",
     "quantum chemistry/变分法.md",
