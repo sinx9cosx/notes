@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/量子力学.md",
+                "file": "quantum chemistry/氢原子的简并态.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "量子力学 的大纲"
+              "title": "氢原子的简并态 的大纲"
             }
           },
           {
@@ -245,9 +245,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5ff941003be11a2d",
+  "active": "bf5bdf15867094ee",
   "lastOpenFiles": [
     "quantum chemistry/氢原子的简并态.md",
+    "physchem/量子力学.md",
     "math/线代应该这样学.md",
     "quantum chemistry/填电子三原则.md",
     "quantum chemistry/先组轨道，再填电子的化学语言本质.md",
@@ -256,7 +257,6 @@
     "quantum chemistry/变分法.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/光谱项.md",
-    "physchem/量子力学.md",
     "paper note/TD-DFT calculation results.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
