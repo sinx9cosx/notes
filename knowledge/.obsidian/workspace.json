@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/量子力学.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -247,9 +247,10 @@
   },
   "active": "bf5bdf15867094ee",
   "lastOpenFiles": [
+    "physchem/量子力学.md",
+    "quantum chemistry/微扰理论.md",
     "quantum chemistry/变分法.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
-    "quantum chemistry/微扰理论.md",
     "quantum chemistry/关于简并态的讨论.md",
     "paper note/zotero integration template.md",
     "paper note/TD-DFT项目操作全流程.md",
@@ -261,7 +262,6 @@
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/线性变分法的基函数.md",
-    "physchem/量子力学.md",
     "math/线代应该这样学.md",
     "quantum chemistry/填电子三原则.md",
     "quantum chemistry/先组轨道，再填电子的化学语言本质.md",
