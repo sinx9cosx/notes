@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/简并态.md",
-                "mode": "source",
+                "file": "quantum chemistry/关于简并态的讨论.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "简并态"
+              "title": "关于简并态的讨论"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/简并态.md",
+                "file": "quantum chemistry/关于简并态的讨论.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "简并态 的大纲"
+              "title": "关于简并态的讨论 的大纲"
             }
           },
           {
@@ -247,7 +247,7 @@
   },
   "active": "bf5bdf15867094ee",
   "lastOpenFiles": [
-    "quantum chemistry/简并态.md",
+    "quantum chemistry/关于简并态的讨论.md",
     "physchem/量子力学.md",
     "math/线代应该这样学.md",
     "quantum chemistry/填电子三原则.md",
