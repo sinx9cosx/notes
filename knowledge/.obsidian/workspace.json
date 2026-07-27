@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
+                "file": "quantum chemistry/变分法.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一轮阅读（第2-6章小结+结论）"
+              "title": "变分法"
             }
           },
           {
@@ -41,30 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/关于简并态的讨论.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "关于简并态的讨论"
-            }
-          },
-          {
-            "id": "711cd2e7f3de4cf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
+                "file": "quantum chemistry/微扰理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "微扰理论"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md",
+                "file": "quantum chemistry/微扰理论.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "微扰理论 的大纲"
             }
           },
           {
@@ -259,11 +245,20 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "711cd2e7f3de4cf4",
+  "active": "bf5bdf15867094ee",
   "lastOpenFiles": [
-    "未命名.md",
-    "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/变分法.md",
+    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
+    "quantum chemistry/微扰理论.md",
+    "quantum chemistry/关于简并态的讨论.md",
+    "paper note/zotero integration template.md",
+    "paper note/TD-DFT项目操作全流程.md",
+    "paper note/TD-DFT calculation results.md",
+    "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
+    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
+    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
+    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
+    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/线性变分法的基函数.md",
     "physchem/量子力学.md",
@@ -272,11 +267,6 @@
     "quantum chemistry/先组轨道，再填电子的化学语言本质.md",
     "quantum chemistry/Slater行列式.md",
     "quantum chemistry/光谱项.md",
-    "paper note/TD-DFT calculation results.md",
-    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
-    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
-    "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
-    "paper note/TD-DFT项目操作全流程.md",
     "quantum chemistry/变分法.md.tmp.29768.8cabd73e966f",
     "quantum chemistry/变分法.md.tmp.29768.242ef7e143b9",
     "quantum chemistry/变分法.md.tmp.29768.c4ed330521ac",
@@ -288,10 +278,6 @@
     "physchem/Gaussian计算实验报告.md",
     "physchem/雨课堂讨论题汇总.md",
     "physchem/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
-    "physchem/信息熵作业.md",
-    "physchem/物化实验报告要求.md",
-    "physchem/物化考试技巧_量纲分析与证明.md",
-    "physchem/统计力学定理成立的条件.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "quantum chemistry",

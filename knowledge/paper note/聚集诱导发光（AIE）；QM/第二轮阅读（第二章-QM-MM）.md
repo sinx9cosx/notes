@@ -1,6 +1,6 @@
 ---
 tags:
-  - research/papers
+  - research
 Category:
   - 文献阅读
   - 笔记
