@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "bf5bdf15867094ee",
+            "id": "bc29e19e76f2435c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/DFT为什么只关注E_xc.md",
+                "file": "quantum chemistry/计算化学方法与需求.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DFT为什么只关注E_xc"
+              "title": "计算化学方法与需求"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/DFT为什么只关注E_xc.md",
+                "file": "quantum chemistry/计算化学方法与需求.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DFT为什么只关注E_xc 的大纲"
+              "title": "计算化学方法与需求 的大纲"
             }
           },
           {
@@ -245,39 +245,39 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "bf5bdf15867094ee",
+  "active": "bc29e19e76f2435c",
   "lastOpenFiles": [
-    "quantum chemistry/微扰理论.md",
     "quantum chemistry/DFT为什么只关注E_xc.md",
-    "quantum chemistry/计算化学方法与需求.md",
-    "physchem/量子力学.md",
-    "quantum chemistry/变分法.md",
-    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
-    "quantum chemistry/关于简并态的讨论.md",
     "paper note/zotero integration template.md",
     "paper note/TD-DFT项目操作全流程.md",
     "paper note/TD-DFT calculation results.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
+    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
-    "quantum chemistry/变分法计算流程总结.md",
+    "physchem/量子力学.md",
+    "physchem/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
+    "physchem/zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md",
+    "physchem/Gaussian计算实验报告.md",
+    "physchem/26春_雨课堂作业题整理.md",
+    "physchem/二维正方形势阱简并分析.md",
+    "physchem/雨课堂讨论题汇总.md",
+    "quantum chemistry/原子单位制.md",
     "quantum chemistry/线性变分法的基函数.md",
-    "math/线代应该这样学.md",
-    "quantum chemistry/填电子三原则.md",
-    "quantum chemistry/先组轨道，再填电子的化学语言本质.md",
+    "quantum chemistry/变分法计算流程总结.md",
+    "quantum chemistry/关于简并态的讨论.md",
+    "quantum chemistry/变分法.md",
     "quantum chemistry/Slater行列式.md",
-    "quantum chemistry/光谱项.md",
+    "quantum chemistry/先组轨道，再填电子的化学语言本质.md",
+    "quantum chemistry/填电子三原则.md",
+    "quantum chemistry/微扰理论.md",
+    "quantum chemistry/计算化学方法与需求.md",
     "quantum chemistry/变分法.md.tmp.29768.8cabd73e966f",
     "quantum chemistry/变分法.md.tmp.29768.242ef7e143b9",
     "quantum chemistry/变分法.md.tmp.29768.c4ed330521ac",
     "quantum chemistry/变分法.md.tmp.29768.126cb7195a46",
-    "index/26春-物化考试准备.md",
-    "quantum chemistry/原子单位制.md",
-    "physchem/zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md",
-    "physchem/Thermochemistry_in_Gaussian.md",
-    "physchem/Gaussian计算实验报告.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "quantum chemistry",
