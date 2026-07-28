@@ -9,7 +9,7 @@ Rate: '{{allTags | length - (allTags | replace("🐱", "") | length)}}'
 ---
 
 PDF:{{pdfZoteroLink | replace("select", "open-pdf")}}
-#research/papers , {{hashTags  | replace("##", '#') | replace("#","#research/")}}
+#research  , {{hashTags  | replace("##", '#') | replace("#","#research/")}}
 {% persist "annotations" %}
 {% if isFirstImport %}
 ## Abstract
