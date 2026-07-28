@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785224407061-7wxa6fndn",
+  "providerId": "claude",
+  "title": "解释氦原子简并与微扰理论适用性",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785224407062,
+  "updatedAt": 1785224438377,
+  "lastResponseAt": 1785224438377,
+  "sessionId": "52d85b53-a3f2-4128-b77d-7138ce377c0e",
+  "providerState": {
+    "providerSessionId": "52d85b53-a3f2-4128-b77d-7138ce377c0e"
+  },
+  "currentNote": "quantum chemistry/微扰理论.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2824,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31488,
+    "contextWindow": 1000000,
+    "contextTokens": 34312,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
