@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -259,12 +259,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "quantum chemistry/变分法.md",
+    "quantum chemistry/微扰理论.md",
+    "physchem/量子力学.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/计算化学方法与需求.md",
-    "quantum chemistry/微扰理论.md",
     "quantum chemistry/关于简并态的讨论.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
@@ -282,7 +283,6 @@
     "quantum chemistry/填电子三原则.md",
     "paper note/zotero integration template.md",
     "index/AIE论文阅读进展.md",
-    "physchem/量子力学.md",
     "physchem/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "physchem/zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md",
     "physchem/Gaussian计算实验报告.md",
