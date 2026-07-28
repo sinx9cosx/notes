@@ -4,8 +4,8 @@
   "title": "解释系数比值的求解原理",
   "titleGenerationStatus": "success",
   "createdAt": 1785239976585,
-  "updatedAt": 1785240003096,
-  "lastResponseAt": 1785240003096,
+  "updatedAt": 1785240661458,
+  "lastResponseAt": 1785240661458,
   "sessionId": "98f30546-2e1b-4c42-b4df-5f9482c08206",
   "providerState": {
     "providerSessionId": "98f30546-2e1b-4c42-b4df-5f9482c08206"
@@ -13,11 +13,11 @@
   "currentNote": "quantum chemistry/微扰理论.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 4264,
+    "inputTokens": 26,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 31616,
+    "cacheReadInputTokens": 37632,
     "contextWindow": 1000000,
-    "contextTokens": 35880,
+    "contextTokens": 37658,
     "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
