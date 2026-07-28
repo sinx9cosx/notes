@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/微扰理论.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -259,7 +259,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "923a5ca49dcaf09c",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "quantum chemistry/变分法.md",
     "quantum chemistry/微扰理论.md.tmp.20736.aa8816fad135",
