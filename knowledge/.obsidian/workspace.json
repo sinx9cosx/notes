@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/微扰理论.md",
+                "file": "关于微扰理论的疑问.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "微扰理论 的大纲"
+              "title": "关于微扰理论的疑问 的大纲"
             }
           },
           {
@@ -259,10 +259,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "923a5ca49dcaf09c",
+  "active": "81e5553ea5542ec2",
   "lastOpenFiles": [
-    "关于微扰理论的疑问.md",
     "quantum chemistry/微扰理论.md",
+    "关于微扰理论的疑问.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/微扰理论.md.tmp.30608.4fe1ab942664",
     "quantum chemistry/关于简并态的讨论.md",
