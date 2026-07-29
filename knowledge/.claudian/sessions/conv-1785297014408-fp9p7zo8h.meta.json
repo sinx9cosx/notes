@@ -4,8 +4,8 @@
   "title": "Review user notes",
   "titleGenerationStatus": "success",
   "createdAt": 1785297014409,
-  "updatedAt": 1785308586650,
-  "lastResponseAt": 1785308586650,
+  "updatedAt": 1785309200904,
+  "lastResponseAt": 1785309200904,
   "sessionId": "e82fdbd1-3e40-4f6b-a557-db17fb1b9f15",
   "providerState": {
     "providerSessionId": "e82fdbd1-3e40-4f6b-a557-db17fb1b9f15",
@@ -350,11 +350,11 @@
   "currentNote": "quantum chemistry/微扰理论.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 160,
+    "inputTokens": 938,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 68224,
+    "cacheReadInputTokens": 68352,
     "contextWindow": 1000000,
-    "contextTokens": 68384,
+    "contextTokens": 69290,
     "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
