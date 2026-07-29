@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "physchem/量子力学.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/微扰理论.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -63,8 +63,7 @@
               "title": "变分法"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/微扰理论.md",
+                "file": "quantum chemistry/变分法.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "微扰理论 的大纲"
+              "title": "变分法 的大纲"
             }
           },
           {
@@ -259,11 +258,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "93987566ae083407",
   "lastOpenFiles": [
+    "physchem/量子力学.md",
+    "quantum chemistry/微扰理论.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/微扰理论.md.tmp.20736.aa8816fad135",
-    "quantum chemistry/微扰理论.md",
     "quantum chemistry/微扰理论.md.tmp.20736.f4770ac3be5a",
     "quantum chemistry/微扰理论.md.tmp.20736.11a6e336b7f0",
     "quantum chemistry/微扰理论.md.tmp.20736.7810fb6904a0",
@@ -273,7 +273,6 @@
     "quantum chemistry/微扰理论.md.tmp.20736.588aef2708d5",
     "quantum chemistry/微扰理论.md.tmp.20736.a522f7b0abff",
     "quantum chemistry/微扰理论.md.tmp.20736.c3952b4a6171",
-    "physchem/量子力学.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/计算化学方法与需求.md",
     "quantum chemistry/关于简并态的讨论.md",
