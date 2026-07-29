@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/微扰理论.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -261,6 +261,7 @@
   },
   "active": "923a5ca49dcaf09c",
   "lastOpenFiles": [
+    "quantum chemistry/微扰理论.md.tmp.30608.0520521feedf",
     "quantum chemistry/变分法.md",
     "quantum chemistry/线性变分法的基函数.md",
     "quantum chemistry/微扰理论.md",
