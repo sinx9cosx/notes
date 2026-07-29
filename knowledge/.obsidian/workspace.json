@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physchem/期末考试预测.md",
+                "file": "quantum chemistry/微扰理论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "期末考试预测 的出链列表"
+              "title": "微扰理论 的出链列表"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "关于微扰理论的疑问.md",
+                "file": "quantum chemistry/微扰理论.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "关于微扰理论的疑问 的大纲"
+              "title": "微扰理论 的大纲"
             }
           },
           {
@@ -259,13 +259,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "81e5553ea5542ec2",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/微扰理论.md",
+    "熵_热力学和统计力学的计算方法.md",
     "关于微扰理论的疑问.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/微扰理论.md.tmp.30608.4fe1ab942664",
-    "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/微扰理论.md.tmp.30608.f79d3b6ca46f",
     "quantum chemistry/微扰理论.md.tmp.30608.0520521feedf",
