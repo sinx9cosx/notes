@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/微扰理论.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -259,8 +259,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "923a5ca49dcaf09c",
   "lastOpenFiles": [
+    "quantum chemistry/变分法.md",
+    "quantum chemistry/线性变分法的基函数.md",
+    "quantum chemistry/微扰理论.md",
     "quantum chemistry/微扰理论.md.tmp.30608.59ddfd98d58f",
     "quantum chemistry/微扰理论.md.tmp.30608.48b59a3be16d",
     "quantum chemistry/微扰理论.md.tmp.30608.15dcb2094f37",
@@ -268,15 +271,12 @@
     "quantum chemistry/微扰理论.md.tmp.30608.6b9330d4f10a",
     "quantum chemistry/微扰理论.md.tmp.30608.9cf664a25394",
     "quantum chemistry/关于简并态的讨论.md",
-    "quantum chemistry/微扰理论.md",
     "physchem/量子力学.md",
     "quantum chemistry/原子单位制.md",
-    "quantum chemistry/变分法.md",
     "quantum chemistry/微扰理论.md.tmp.20736.aa8816fad135",
     "quantum chemistry/微扰理论.md.tmp.20736.f4770ac3be5a",
     "quantum chemistry/微扰理论.md.tmp.20736.11a6e336b7f0",
     "quantum chemistry/微扰理论.md.tmp.20736.7810fb6904a0",
-    "quantum chemistry/微扰理论.md.tmp.20736.ac3a698f6c99",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/计算化学方法与需求.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
@@ -289,7 +289,6 @@
     "paper note/TD-DFT calculation results.md",
     "quantum chemistry/Slater行列式.md",
     "quantum chemistry/DFT为什么只关注E_xc.md",
-    "quantum chemistry/线性变分法的基函数.md",
     "quantum chemistry/先组轨道，再填电子的化学语言本质.md",
     "quantum chemistry/填电子三原则.md",
     "paper note/zotero integration template.md",
