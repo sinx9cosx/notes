@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/定态微扰理论.md",
+                "file": "quantum chemistry/关于简并态的讨论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "定态微扰理论"
+              "title": "关于简并态的讨论"
             }
           },
           {
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/定态微扰理论.md",
+                "file": "quantum chemistry/关于简并态的讨论.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "定态微扰理论 的大纲"
+              "title": "关于简并态的讨论 的大纲"
             }
           },
           {
@@ -240,7 +240,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -260,6 +260,7 @@
   },
   "active": "93987566ae083407",
   "lastOpenFiles": [
+    "quantum chemistry/定态微扰理论.md",
     "math/第一章 向量空间.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/关于简并态的讨论.md",
@@ -271,7 +272,6 @@
     "quantum chemistry/先组轨道，再填电子的化学语言本质.md",
     "paper note/zotero integration template.md",
     "paper note/{{a.imageBaseName}}.md",
-    "quantum chemistry/定态微扰理论.md",
     "熵_热力学和统计力学的计算方法.md",
     "quantum chemistry/关于微扰理论的疑问.md",
     "quantum chemistry/微扰理论.md.tmp.30608.4fe1ab942664",
