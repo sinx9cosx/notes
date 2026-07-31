@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/第一章 向量空间.md",
+                "file": "quantum chemistry/定态微扰理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一章 向量空间"
+              "title": "定态微扰理论"
             }
           },
           {
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/第一章 向量空间.md",
+                "file": "quantum chemistry/定态微扰理论.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第一章 向量空间 的大纲"
+              "title": "定态微扰理论 的大纲"
             }
           },
           {
@@ -260,6 +260,7 @@
   },
   "active": "93987566ae083407",
   "lastOpenFiles": [
+    "math/第一章 向量空间.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/关于简并态的讨论.md",
     "physchem/理想气体内能与压力无关的证明.md",
@@ -296,7 +297,6 @@
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "paper note/TD-DFT项目操作全流程.md",
     "paper note/TD-DFT calculation results.md",
-    "quantum chemistry/DFT为什么只关注E_xc.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",
