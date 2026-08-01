@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "paper note/TD-DFT项目操作全流程.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -260,7 +260,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "93987566ae083407",
   "lastOpenFiles": [
     "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/定态微扰理论.md",
