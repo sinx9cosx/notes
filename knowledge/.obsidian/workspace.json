@@ -63,7 +63,8 @@
               "title": "关于微扰理论的疑问"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper note/TD-DFT项目操作全流程.md",
+                "file": "quantum chemistry/关于微扰理论的疑问.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -260,9 +261,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "93987566ae083407",
+  "active": "81e5553ea5542ec2",
   "lastOpenFiles": [
     "quantum chemistry/关于简并态的讨论.md",
+    "physchem/量子力学.md",
+    "paper note/TD-DFT项目操作全流程.md",
     "quantum chemistry/定态微扰理论.md",
     "math/第一章 向量空间.md",
     "quantum chemistry/变分法.md",
@@ -287,7 +290,6 @@
     "quantum chemistry/微扰理论.md.tmp.30608.525bb76742b4",
     "quantum chemistry/微扰理论.md.tmp.30608.6b9330d4f10a",
     "quantum chemistry/微扰理论.md.tmp.30608.9cf664a25394",
-    "physchem/量子力学.md",
     "quantum chemistry/原子单位制.md",
     "quantum chemistry/微扰理论.md.tmp.20736.aa8816fad135",
     "quantum chemistry/计算化学方法与需求.md",
@@ -297,7 +299,6 @@
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
-    "paper note/TD-DFT项目操作全流程.md",
     "paper note/TD-DFT calculation results.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
