@@ -174,7 +174,7 @@
               "type": "outline",
               "state": {
                 "file": "quantum chemistry/含时微扰理论.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
@@ -233,7 +233,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "a8330c316a1827aa",
   "lastOpenFiles": [
     "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/含时微扰理论.md",
