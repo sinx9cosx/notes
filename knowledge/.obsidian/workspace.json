@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "定态微扰理论"
             }
+          },
+          {
+            "id": "a8330c316a1827aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quantum chemistry/含时微扰理论.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "含时微扰理论"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -201,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/定态微扰理论.md",
+                "file": "quantum chemistry/含时微扰理论.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -261,13 +275,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "ecb15834e0ec4aa1",
+  "active": "a8330c316a1827aa",
   "lastOpenFiles": [
+    "quantum chemistry/定态微扰理论.md",
+    "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/关于微扰理论的疑问.md",
     "physchem/量子力学.md",
     "paper note/TD-DFT项目操作全流程.md",
-    "quantum chemistry/定态微扰理论.md",
     "math/第一章 向量空间.md",
     "quantum chemistry/变分法.md",
     "physchem/理想气体内能与压力无关的证明.md",
@@ -299,7 +314,6 @@
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
-    "paper note/TD-DFT calculation results.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",
