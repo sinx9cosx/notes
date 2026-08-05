@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785902004815-nunkr09tt",
+  "providerId": "claude",
+  "title": "Explain lambda usage in lines 112-117",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785902004815,
+  "updatedAt": 1785902047592,
+  "lastResponseAt": 1785902047592,
+  "sessionId": "44effdb8-e0c4-40b7-8847-53da01a0883b",
+  "providerState": {
+    "providerSessionId": "44effdb8-e0c4-40b7-8847-53da01a0883b"
+  },
+  "currentNote": "quantum chemistry/含时微扰理论.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1819,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31360,
+    "contextWindow": 1000000,
+    "contextTokens": 33179,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
