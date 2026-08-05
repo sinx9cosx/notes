@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785945605724-vhj33e93p",
+  "providerId": "claude",
+  "title": "Explain why perturbation energy is defined so",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785945605724,
+  "updatedAt": 1785945639798,
+  "lastResponseAt": 1785945639798,
+  "sessionId": "9f8d28f2-15c2-4b8d-896d-47c0ca61c14e",
+  "providerState": {
+    "providerSessionId": "9f8d28f2-15c2-4b8d-896d-47c0ca61c14e"
+  },
+  "currentNote": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1571,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31616,
+    "contextWindow": 1000000,
+    "contextTokens": 33187,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
