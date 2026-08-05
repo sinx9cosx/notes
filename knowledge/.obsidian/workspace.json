@@ -233,13 +233,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "a8330c316a1827aa",
   "lastOpenFiles": [
+    "quantum chemistry/关于简并态的讨论.md",
+    "quantum chemistry/变分法计算流程总结.md",
+    "quantum chemistry/关于微扰理论的疑问.md",
     "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/亲爱的",
-    "quantum chemistry/关于简并态的讨论.md",
-    "quantum chemistry/关于微扰理论的疑问.md",
     "physchem/量子力学.md",
     "paper note/TD-DFT项目操作全流程.md",
     "math/第一章 向量空间.md",
@@ -254,7 +255,6 @@
     "paper note/{{a.imageBaseName}}.md",
     "熵_热力学和统计力学的计算方法.md",
     "quantum chemistry/微扰理论.md.tmp.30608.4fe1ab942664",
-    "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/微扰理论.md.tmp.30608.f79d3b6ca46f",
     "quantum chemistry/微扰理论.md.tmp.30608.0520521feedf",
     "quantum chemistry/线性变分法的基函数.md",
