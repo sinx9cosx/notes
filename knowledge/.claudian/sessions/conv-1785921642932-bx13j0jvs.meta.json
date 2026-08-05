@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785921642932-bx13j0jvs",
+  "providerId": "claude",
+  "title": "Explain quantum light theory and derivation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785921642933,
+  "updatedAt": 1785921723491,
+  "lastResponseAt": 1785921723491,
+  "sessionId": "46e3c7b4-cfb6-4e60-a9c1-3f255af43bd7",
+  "providerState": {
+    "providerSessionId": "46e3c7b4-cfb6-4e60-a9c1-3f255af43bd7"
+  },
+  "currentNote": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 211,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31616,
+    "contextWindow": 1000000,
+    "contextTokens": 31827,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
