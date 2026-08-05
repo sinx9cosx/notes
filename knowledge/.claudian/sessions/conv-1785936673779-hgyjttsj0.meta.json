@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785936673779-hgyjttsj0",
+  "providerId": "claude",
+  "title": "检查笔记内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785936673779,
+  "updatedAt": 1785936923119,
+  "lastResponseAt": 1785936923119,
+  "sessionId": "8a3d4e3d-604d-4a98-a589-b2ceabd93afa",
+  "providerState": {
+    "providerSessionId": "8a3d4e3d-604d-4a98-a589-b2ceabd93afa"
+  },
+  "currentNote": "quantum chemistry/含时微扰理论.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 71,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 38144,
+    "contextWindow": 1000000,
+    "contextTokens": 38215,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

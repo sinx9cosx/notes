@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/含时微扰理论.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+                "file": "quantum chemistry/含时微扰理论.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
