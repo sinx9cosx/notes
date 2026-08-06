@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/激发态的平均寿命.md",
+                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,13 +261,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3f3e9df2326f9fe5",
+  "active": "4bf7495544b13da2",
   "lastOpenFiles": [
+    "quantum chemistry/激发态的平均寿命.md",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.0b6f46b15b46",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.cfc949bc8f16",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.c8a6a40c0c16",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
-    "quantum chemistry/激发态的平均寿命.md",
     "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.9c7487e9c661",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.ca130888bf94",
@@ -280,7 +280,6 @@
     "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/关于微扰理论的疑问.md",
-    "darling",
     "physchem/量子力学.md",
     "paper note/TD-DFT项目操作全流程.md",
     "math/第一章 向量空间.md",
