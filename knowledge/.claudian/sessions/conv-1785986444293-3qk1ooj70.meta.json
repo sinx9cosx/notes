@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785986444293-3qk1ooj70",
+  "providerId": "claude",
+  "title": "Review this note",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785986444294,
+  "updatedAt": 1785986532309,
+  "lastResponseAt": 1785986532308,
+  "sessionId": "6dc7f39d-2d35-4ede-887e-cc1ede1ccead",
+  "providerState": {
+    "providerSessionId": "6dc7f39d-2d35-4ede-887e-cc1ede1ccead"
+  },
+  "currentNote": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4177,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31488,
+    "contextWindow": 1000000,
+    "contextTokens": 35665,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
