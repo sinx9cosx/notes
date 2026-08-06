@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "光谱选律.md",
+                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -247,7 +247,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "43f87be83866ced1",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "光谱选律.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
