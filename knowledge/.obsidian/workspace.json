@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "光谱选律.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "光谱选律.md",
+                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,10 +247,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "43f87be83866ced1",
+  "active": "4bf7495544b13da2",
   "lastOpenFiles": [
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "光谱选律.md",
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/激发态的平均寿命.md",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.0b6f46b15b46",
