@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/激发态的平均寿命.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -261,8 +261,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "3f3e9df2326f9fe5",
   "lastOpenFiles": [
+    "quantum chemistry/激发态的平均寿命.md.tmp.15924.0b6f46b15b46",
+    "quantum chemistry/激发态的平均寿命.md.tmp.15924.cfc949bc8f16",
+    "quantum chemistry/激发态的平均寿命.md.tmp.15924.c8a6a40c0c16",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "quantum chemistry/激发态的平均寿命.md",
     "quantum chemistry/含时微扰理论.md",
@@ -291,15 +294,12 @@
     "paper note/zotero integration template.md",
     "paper note/{{a.imageBaseName}}.md",
     "熵_热力学和统计力学的计算方法.md",
-    "quantum chemistry/微扰理论.md.tmp.30608.4fe1ab942664",
-    "quantum chemistry/微扰理论.md.tmp.30608.f79d3b6ca46f",
     "quantum chemistry/线性变分法的基函数.md",
     "quantum chemistry/原子单位制.md",
     "darling/计算化学方法与需求.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
-    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",
