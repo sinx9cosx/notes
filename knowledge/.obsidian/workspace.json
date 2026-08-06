@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "激发态平均寿命.md",
+                "file": "激发态的平均寿命.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "激发态平均寿命"
+              "title": "激发态的平均寿命"
             }
           }
         ],
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "激发态平均寿命.md",
+                "file": "激发态的平均寿命.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -264,7 +264,7 @@
   "active": "3f3e9df2326f9fe5",
   "lastOpenFiles": [
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
-    "激发态平均寿命.md",
+    "激发态的平均寿命.md",
     "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.9c7487e9c661",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.ca130888bf94",
