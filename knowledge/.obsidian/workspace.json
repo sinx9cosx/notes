@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "激发态的平均寿命.md",
+                "file": "quantum chemistry/激发态的平均寿命.md",
                 "mode": "source",
                 "source": false
               },
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "激发态的平均寿命.md",
+                "file": "quantum chemistry/激发态的平均寿命.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,10 +261,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3f3e9df2326f9fe5",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
-    "激发态的平均寿命.md",
+    "quantum chemistry/激发态的平均寿命.md",
     "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.9c7487e9c661",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.ca130888bf94",
@@ -277,17 +277,17 @@
     "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/关于微扰理论的疑问.md",
-    "quantum chemistry/亲爱的",
+    "darling",
     "physchem/量子力学.md",
     "paper note/TD-DFT项目操作全流程.md",
     "math/第一章 向量空间.md",
     "quantum chemistry/变分法.md",
     "physchem/理想气体内能与压力无关的证明.md",
-    "quantum chemistry/亲爱的/填电子三原则.md",
-    "quantum chemistry/亲爱的/Slater行列式.md",
+    "darling/填电子三原则.md",
+    "darling/Slater行列式.md",
     "physchem/热力学第一课时.md",
     "physchem/热力学.md",
-    "quantum chemistry/亲爱的/先组轨道，再填电子的化学语言本质.md",
+    "darling/先组轨道，再填电子的化学语言本质.md",
     "paper note/zotero integration template.md",
     "paper note/{{a.imageBaseName}}.md",
     "熵_热力学和统计力学的计算方法.md",
@@ -295,7 +295,7 @@
     "quantum chemistry/微扰理论.md.tmp.30608.f79d3b6ca46f",
     "quantum chemistry/线性变分法的基函数.md",
     "quantum chemistry/原子单位制.md",
-    "quantum chemistry/亲爱的/计算化学方法与需求.md",
+    "darling/计算化学方法与需求.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
