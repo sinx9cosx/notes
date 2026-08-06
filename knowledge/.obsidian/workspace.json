@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+                "file": "光谱选律.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,10 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "43f87be83866ced1",
   "lastOpenFiles": [
-    "光谱选律.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+    "光谱选律.md",
+    "quantum chemistry/变分法.md",
     "quantum chemistry/激发态的平均寿命.md",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.0b6f46b15b46",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.cfc949bc8f16",
@@ -270,7 +271,6 @@
     "physchem/量子力学.md",
     "paper note/TD-DFT项目操作全流程.md",
     "math/第一章 向量空间.md",
-    "quantum chemistry/变分法.md",
     "physchem/理想气体内能与压力无关的证明.md",
     "darling/填电子三原则.md",
     "darling/Slater行列式.md",
