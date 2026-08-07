@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/光谱选律.md",
+                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -230,7 +230,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -248,10 +248,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "43f87be83866ced1",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.20764.6ca3b4c4eacc",
     "quantum chemistry/光谱选律.md",
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/激发态的平均寿命.md",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.0b6f46b15b46",
@@ -286,7 +287,6 @@
     "darling/计算化学方法与需求.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
-    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",

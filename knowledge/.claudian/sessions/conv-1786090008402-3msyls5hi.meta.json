@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786090008402-3msyls5hi",
+  "providerId": "claude",
+  "title": "Explain why ν has tilde in formula",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786090008402,
+  "updatedAt": 1786090143108,
+  "lastResponseAt": 1786090143108,
+  "sessionId": "3bb69d86-1661-4457-8027-95d5e583465d",
+  "providerState": {
+    "providerSessionId": "3bb69d86-1661-4457-8027-95d5e583465d"
+  },
+  "currentNote": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 273,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36352,
+    "contextWindow": 1000000,
+    "contextTokens": 36625,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
