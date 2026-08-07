@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786090784068-lszvg5qs0",
+  "providerId": "claude",
+  "title": "解释电偶极禁戒跃迁的修正项",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786090784068,
+  "updatedAt": 1786090809072,
+  "lastResponseAt": 1786090809072,
+  "sessionId": "fd5a1a2e-c18e-41eb-889d-fa5ef8cde22e",
+  "providerState": {
+    "providerSessionId": "fd5a1a2e-c18e-41eb-889d-fa5ef8cde22e"
+  },
+  "currentNote": "quantum chemistry/光谱选律.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1252,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31488,
+    "contextWindow": 1000000,
+    "contextTokens": 32740,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
