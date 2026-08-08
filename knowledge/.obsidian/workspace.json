@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/激发态的平均寿命.md",
+                "file": "quantum chemistry/光谱选律.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,8 +261,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "914abbb98419d343",
+  "active": "43f87be83866ced1",
   "lastOpenFiles": [
+    "quantum chemistry/激发态的平均寿命.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/光谱选律.md",
@@ -277,7 +278,6 @@
     "physchem/量子力学.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.20764.6ca3b4c4eacc",
     "quantum chemistry/变分法.md",
-    "quantum chemistry/激发态的平均寿命.md",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.0b6f46b15b46",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.cfc949bc8f16",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.c8a6a40c0c16",
