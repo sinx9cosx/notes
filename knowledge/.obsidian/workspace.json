@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
+                "file": "quantum chemistry/激发态的平均寿命.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第二轮阅读（第二章-分子光谱）"
+              "title": "激发态的平均寿命"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/光谱选律.md",
+                "file": "quantum chemistry/激发态的平均寿命.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,15 +261,19 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "43f87be83866ced1",
+  "active": "914abbb98419d343",
   "lastOpenFiles": [
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
+    "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/光谱选律.md",
+    "quantum chemistry/光谱选律.md.tmp.12336.414362950065",
+    "quantum chemistry/光谱选律.md.tmp.12336.23524d97782f",
+    "quantum chemistry/光谱选律.md.tmp.12336.46d0a73b31d2",
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "physchem/量子力学.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.20764.6ca3b4c4eacc",
     "quantum chemistry/变分法.md",
@@ -277,13 +281,9 @@
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.0b6f46b15b46",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.cfc949bc8f16",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.c8a6a40c0c16",
-    "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.9c7487e9c661",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.ca130888bf94",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.1cb141f849f4",
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.0b48268881e8",
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.3e78c5f885aa",
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.11816.5e8cbc38b8a8",
     "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/变分法计算流程总结.md",
@@ -298,7 +298,6 @@
     "darling/先组轨道，再填电子的化学语言本质.md",
     "paper note/zotero integration template.md",
     "paper note/{{a.imageBaseName}}.md",
-    "熵_热力学和统计力学的计算方法.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",

@@ -4,21 +4,113 @@
   "title": "检查笔记内容",
   "titleGenerationStatus": "success",
   "createdAt": 1786161340258,
-  "updatedAt": 1786161381228,
-  "lastResponseAt": 1786161381228,
+  "updatedAt": 1786161597794,
+  "lastResponseAt": 1786161597794,
   "sessionId": "a151d6c5-f4fd-48e9-9211-b8bcaf04cf65",
   "providerState": {
-    "providerSessionId": "a151d6c5-f4fd-48e9-9211-b8bcaf04cf65"
+    "providerSessionId": "a151d6c5-f4fd-48e9-9211-b8bcaf04cf65",
+    "subagentData": {
+      "call_00_DhExGSQD5h4qkNWfR0oD0153": {
+        "id": "call_00_DhExGSQD5h4qkNWfR0oD0153",
+        "description": "执行3处笔误修改",
+        "prompt": "你需要在文件 `F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md` 中修改 3 处笔误，改动必须最小化：\n\n1. 第 26 行：`电厂$\\vec{E}(\\vec{r})$` → `电场$\\vec{E}(\\vec{r})$`（厂→场）\n2. 第 76 行：`当今当量子数的改变值为奇数时` → `只有当量子数的改变值为奇数时`（今→只）\n3. 第 199 行：`$\\neq_{0}$` → `$\\neq 0$`（去掉 0 的错误下标）\n\n先用 Read 读取文件确认内容，然后用 Edit 逐处修改。修改完成后汇报结果。",
+        "mode": "async",
+        "isExpanded": false,
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_J2TrxQkbzr5XTXwQ5Y252849",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 实验现象\n8\t\n9\t根据[[电磁波照射下的跃迁概率公式]]的讨论，跃迁概率系数$A_{m\\to n},B_{m\\to n},B_{n\\to m}$都和$||R_{mn}||^2$成正比。只要跃迁电偶极矩$R_{mn}$等于0，状态$\\psi_{m}^0$与$\\psi_{n}^0$之间的跃迁概率就要等于0。\n10\t但在实验上，对于跃迁偶极矩等于0的体系，在状态$\\psi_{m}^0$与$\\psi_{n}^0$之间有时也能观察到较弱的光谱线，即跃迁概率不等于0.\n11\t\n12\t# 修正项\n13\t\n14\t## 磁场与原子或分子的相互作用\n15\t\n16\t如果考虑这个相互作用，则在$\\hat{H'}$里面应该增添包含$(-B \\hat{\\mu})$的项。$\\hat{\\mu}$是磁偶极矩算符。\n17\t$$\n18\t\\hat{\\mu}=\\frac{e}{2m_{e}c}\\hat{r}\\times \\hat{p}\n19\t$$\n20\t## 电场强度在原子或分子范围内的变化\n21\t\n22\t如果考虑这种变化，则在$c_{m(t_{1})}$的表达式中将增添与跃迁电四极矩$\\left\\langle{m}|e \\hat{r}\\hat{r}{n}\\right\\rangle$有关的项。\n23\t\n24\t物理图像：电场在原子尺度上有梯度，由于电场的不均匀，它会对原子中正负电荷的分布产生拉扯和扭曲。这种扭曲的几何形态叫电四极矩。\n25\t\n26\t数学推导：电厂$\\vec{E}(\\vec{r})$是空间坐标$\\vec{r}$的函数，我们在原子核位置$\\vec{r}=0$附近泰勒展开：\n27\t$$\n28\t\\vec{E}(\\vec{r})=\\vec{E}(0)+(\\vec{r}\\cdot \\nabla )\\vec{E}+\\dots\n29\t$$\n30\t把展开式带回$\\hat{H'}$：\n31\t$$\n32\t\\hat{H'}\\propto \\vec{E}\\cdot \\vec{r}\n33\t$$\n34\t- 第一项：$\\vec{E}(0)\\cdot \\vec{r}$，这是标准的电偶极\n35\t- 第二项：$\\vec{r}(\\vec{r}\\cdot \\nabla )\\vec{E}$，第一个$\\vec{r}$来自电荷的位置，第二个来自电场本身在空间的变化\n36\t\n37\t# 修正后的系数\n38\t\n39\t$$\n40\t\\begin{aligned}\n41\tB_{n \\to m}&=\\frac{8\\pi^3}{3h^2} g_{m}\\left(\\left|\\left\\langle{m}\\left|e \\hat{r}\\right|{n}\\right\\rangle\\right|^2+\\left|\\left\\langle{m}\\left| \\frac{e}{2m_{e}c}\\hat{r}\\times \\hat{p}\\right |{n}\\right\\rangle\\right|^2 +\\frac{3}{10}\\pi^3\\tilde{\\nu}_{mn}^3 \\left|\\left\\langle{m}\\left|e \\hat{r}\\hat{r}\\right|{n}\\right\\rangle\\right|^2\\right)\\\\ \\\\\n42\tA_{m\\to n}&=8\\pi h \\tilde{\\nu}_{mn}^3B_{m\\to n}\\\\ \\\\\n43\t&=\\frac{64\\pi^4 \\tilde{\\nu}^3_{mn}}{3h}g_{n}\\left(\\left|\\left\\langle{m}\\left|e \\hat{r}\\right|{n}\\right\\rangle\\right|^2+\\left|\\left\\langle{m}\\left| \\frac{e}{2m_{e}c}\\hat{r}\\times \\hat{p}\\right |{n}\\right\\rangle\\right|^2 +\\frac{3}{10}\\pi^3\\tilde{\\nu}_{mn}^3 \\left|\\left\\langle{m}\\left|e \\hat{r}\\hat{r}\\right|{n}\\right\\rangle\\right|^2\\right)\n44\t\\end{aligned}\n45\t$$\n46\t括号内第一项即跃迁电偶矩矩阵元，第二项即跃迁磁偶极矩矩阵元，第三项即跃迁电四极矩矩阵元。\n47\t\n48\t这三项的相对数量级大小估计：\n49\t$$\n50\t\\begin{aligned}\n51\t&\\left|\\left\\langle{m}\\left|e \\hat{r}\\right|{n}\\right\\rangle\\right|^2 \\sim(ea_{0})^2 \\sim 6.5\\times{10}^{-36}c.g.s\\\\ \\\\\n52\t&\\left|\\left\\langle{m}\\left| \\frac{e}{2m_{e}c}\\hat{r}\\times \\hat{p}\\right |{n}\\right\\rangle\\right|^2  \\sim \\left( \\frac{e\\hbar}{2m_{e}c} \\right)^2 \\sim 8.7\\times 10^{-41}c.g.s\\\\ \\\\\n53\t&\\frac{3}{10}\\pi^3\\tilde{\\nu}_{mn}^3 \\left|\\left\\langle{m}\\left|e \\hat{r}\\hat{r}\\right|{n}\\right\\rangle\\right|^2\\sim {6}.8\\times 10^{-43} c.g.s\n54\t\\end{aligned}\n55\t$$\n56\t\n57\t凡是$R_{mn}=\\left\\langle{m}\\left|e \\hat{r}\\right|{n}\\right\\rangle \\neq{0}$的跃迁称为电偶极跃迁，在原子或分子光谱的跃迁中，使$R_{mn}\\neq 0$的条件称为电偶极跃迁的光谱选律(selection rules)。\n58\t\n59\t# 例子\n60\t\n61\t## 一维势阱\n62\t\n63\t对于[[量子力学#一维势阱|一维势阱]]中的荷电粒子，我们有\n64\t$$\n65\t\\begin{aligned}\n66\tX_{mn}&=\\left\\langle{\\psi_{m}^0}|qx|{\\psi_{n}^0}\\right\\rangle=q\\int_{0}^L\\left( \\frac{2}{L} \\right)x\\sin\\left( \\frac{m\\pi x}{L} \\right)\\sin\\left( \\frac{n\\pi x}{L} \\right)dx\n67\t\\end{aligned}\n68\t$$\n69\t可以证明\n70\t$$\n71\t\\begin{aligned}\n72\tX_{mn}=0,\\qquad m-n=\\text{偶数}\\\\ \\\\\n73\tX_{mn}\\neq{0},\\qquad m-n=\\text{{奇数}}\n74\t\\end{aligned}\n75\t$$\n76\t> 所以一维势阱中荷电粒子的选律是：当今当量子数的改变值为奇数时，电偶极跃迁才是允许的。\n77\t\n78\t## 线性谐振子\n79\t\n80\t线性谐振子的归一化波函数$\\psi_{n}$\n81\t$$\n82\t\\psi_{n}(x)=\\left( \\sqrt{ \\frac{\\beta}{\\pi} } \\frac{1}{2^nn!} \\right)^{\\frac{1}{2}}e^{-\\frac{1}{2}z^2}H_{n}(z)\\qquad (z=\\sqrt{ \\beta }x)\n83\t$$\n84\t讨论谐振子从$\\psi_{n}$到$\\psi_{m}$的跃迁概率时我们要计算积分：\n85\t$$\n86\tX_{nm}\\equiv \\left\\langle{\\psi_{m}^0}|qx|{\\psi_{n}^0}\\right\\rangle=q\\int_{-\\infty}^{\\infty}\\psi_{n}x\\psi_{m}dx\n87\t$$\n88\t$$\n89\tx\\psi_{m}=\\frac{z}{\\sqrt{ \\beta}}\\psi_{m}=\\left( \\sqrt{ \\frac{1}{\\beta\\pi} } \\frac{1}{2^mm!} \\right)^{\\frac{1}{2}}e^{-\\frac{1}{2}z^2}zH_{m}(z)\\qquad (z=\\sqrt{ \\beta }x)\n90\t$$\n91\t利用递推公式：（？）\n92\t$$\n93\tzH_{m}(z)=\\frac{1}{2}H_{m+1}(z)+mH_{m-1}(z) \\qquad (2.5.54)\n94\t$$\n95\t所以\n96\t$$\n97\tx\\psi_{m}=\\frac{z}{\\sqrt{ \\beta}}\\psi_{m}=\\left( \\sqrt{ \\frac{1}{\\beta\\pi} } \\frac{1}{2^mm!} \\right)^{\\frac{1}{2}}(\\frac{1}{2}H_{m+1}(z)+mH_{m-1}(z))e^{-\\frac{1}{2}z^2}\\qquad (z=\\sqrt{ \\beta }x)\n98\t$$\n99\t又由于\n100\t$$\n101\t\\begin{aligned}\n102\t\\psi_{m-1}=\\left[\\sqrt{ \\frac{\\beta}{\\pi} } \\frac{1}{2^{m-1}(m-1)!} \\right]^{\\frac{1}{2}}e^{-\\frac{1}{2}z^2}H_{m-1}\\\\ \\\\\n103\t\\psi_{m+1}=\\left[\\sqrt{ \\frac{\\beta}{\\pi} } \\frac{1}{2^{m+1}(m+1)!} \\right]^{\\frac{1}{2}}e^{-\\frac{1}{2}z^2}H_{m+1}\n104\t\\end{aligned}\n105\t$$\n106\t代入(2.5.54)，得到$\\psi_{m}$的递推公式为\n107\t$$\n108\tx\\psi_{m}=\\sqrt{ \\frac{m+1}{2\\beta} }\\psi_{m+1}+\\sqrt{ \\frac{m}{2\\beta} }\\psi_{m-1}\n109\t$$\n110\t代入积分\n111\t$$\n112\tX_{nm}=q(\\sqrt{ \\frac{m+1}{2\\beta} }S_{n,m+1}+\\sqrt{ \\frac{m}{2\\beta} }S_{n,m-1})\n113\t$$\n114\t所以只有当\n115\t$$\n116\t\\begin{aligned}\n117\t&n=m+1\\text{时},X_{nm}=X_{m+1,m}=\\sqrt{ \\frac{m+1}{2\\beta} }\\\\ \\\\\n118\t&n=m-1\\text{时},X_{nm}=X_{m-1,m}=\\sqrt{ \\frac{m}{2\\beta} }\\\\ \\\\\n119\t&n \\neq m\\pm{1}\\text{时},X_{nm}=0\n120\t\\end{aligned}\n121\t$$\n122\t> 所以线性谐振子的选律是：只有当振动量子数的改变等于$\\pm1$时，电偶极跃迁才是允许的。\n123\t\n124\t## 氢原子光谱\n125\t\n126\t氢原子的包括自旋的波函数由4个量子数规定，令始态为\n127\t$$\n128\t\\ket{k} \\equiv \\ket{nlmm_{s}} \\equiv R_{nl}(r)\\Theta_{lm}(\\theta)\\Phi_{m}(\\phi)\\sigma(m_{s})\n129\t$$\n130\t终态为\n131\t$$\n132\t\\ket{k'} \\equiv \\ket{n'l'm'm'_{s}} \\equiv R_{n'l'}(r)\\Theta_{l'm'}(\\theta)\\Phi_{m'}(\\phi)\\sigma(m'_{s})\n133\t$$\n134\t在$\\ket{k}$与$\\ket{k'}$状态见的跃迁电偶极矩的三个分量等于\n135\t$$\n136\t\\begin{aligned}\n137\tX_{kk'}=-e\\bra{k}x \\ket{k'} \\\\ \\\\\n138\tY_{kk'}=-e\\bra{k}y \\ket{k'} \\\\ \\\\\n139\tZ_{kk'}=-e\\bra{k}z \\ket{k'} \n140\t\\end{aligned}\n141\t$$\n142\t\n143\t**首先考虑$m_{s}$的选律**\n144\t$$\n145\t\\braket{\\sigma(m_{s})|\\sigma(m'_{s})}=\\delta_{m_{s},m'_{s}}\n146\t$$\n147\t所以只有当$m_{s}=m'_{s}$时跃迁电偶极矩才有可能不等于0.\n148\t\n149\t**其次考虑m的选律**，因为\n150\t$$\n151\tz=r\\cos \\theta\n152\t$$\n153\t不包含$\\phi$，所以在$Z_{kk'}$积分中包含\n154\t$$\n155\t\\braket{\\Phi_{m}(\\phi)|\\Phi_{m'}(\\phi)}=\\int_{0}^{2\\pi}e^{i(m-m')\\phi}d\\phi=2\\pi \\delta_{mm'}\n156\t$$\n157\t只有当$m=m'$时$Z_{kk'}$才有可能不等于0.\n158\t\n159\t为求出$X_{kk'}$和$Y_{kk'}$不同时为0的条件，引进两个新的变量\n160\t$$\n161\t\\begin{aligned}\n162\t&W\\equiv x+iy=r\\sin \\theta e^{i\\phi}\\\\ \\\\\n163\t&W'\\equiv x-iy=r\\sin \\theta e^{-i\\phi}\n164\t\\end{aligned}\n165\t$$\n166\t矩阵元$X_{kk'}$与$Y_{kk'}$不同时为零的条件和矩阵元\n167\t$$\n168\tW_{kk'}=\\braket{k|W|k'}\\text{和}W'_{kk'}=\\braket{k|W'|k'}\n169\t$$\n170\t不同时为0的条件相同（变换基底，算符空间完全等价）。在$W'_{kk'}$积分中含有\n171\t$$\n172\t\\braket{\\Phi_{m}(\\phi)|e^{i\\phi}|\\Phi_{m'}(\\phi)}=\\int_{0}^{{2\\pi }}e^{[i(m-m'+1)\\phi]}d\\phi=2\\pi \\delta_{m+1,m'}\n173\t$$\n174\t只有当$m'=m+1$时$W_{kk'}$才可能不等于0.同理只有当$m'=m-1$时$W'_{kk'}$才可能不等于0.\n175\t综上所述m的选律是\n176\t$$\n177\t\\Delta m=0,\\pm 1\n178\t$$\n179\t$\\Delta m$只有满足0，1，-1中任何一个数值时，跃迁电偶极矩才有可能不等于0.\n180\t\n181\t**讨论l的选律**，$\\Theta_{lm}(\\theta)\\propto P_{l}^{|m|}(\\cos \\theta)$是缔合勒让德多项式。对体积积分$r^2dr\\cdot\\sin \\theta d\\theta \\cdot d\\phi$分离$\\theta$部分。\n182\t\n183\t在$Z_{kk'}$积分中含有\n184\t$$\n185\t\\int_{0}^{\\pi}P_{l}^{|m|}P_{l'}^{|m'|}\\cos \\theta \\sin \\theta d\\theta\n186\t$$\n187\t在$X_{kk'}$和$Y_{kk'}$积分中含有\n188\t$$\n189\t\\int_{0}^{\\pi}P_{l}^{|m|}P_{l'}^{|m'|}\\sin^2\\theta d\\theta\n190\t$$\n191\t利用缔合勒让德多项式的递推关系，可以得到l的选律是\n192\t$$\n193\t\\Delta l=\\pm 1\n194\t$$\n195\t\n196\t**最后讨论n的选律**，因为z,x,y的球坐标表达式中都含有r，所以在矩阵元$Z_{kk'},X_{kk'},Y_{kk'}$中都含有下列积分：\n197\t$$\n198\t\\braket{R_{nl}(r)|r|R_{n'l'}(r)}=\\int_{0}^{\\infty}R_{nl}(r)R_{n'l'}(r)r^3dr\\neq_{0}\n199\t$$\n200\t不论$\\Delta n$取何值都不会为0，因此$\\Delta n$的改变不受任何限制。\n201\t\n202\t综上所述，氢原子的选律（适用于各向同性的电磁辐射）\n203\t$$\n204\t\\begin{cases}\n205\t\\begin{aligned}\n206\t&\\Delta n=0,\\pm 1,\\pm 2,\\dots\\\\  \\\\\n207\t&\\Delta l=\\pm 1\\\\ \\\\\n208\t&\\Delta m=0,\\pm 1\\\\ \\\\\n209\t&\\Delta m_{s}=0\n210\t\\end{aligned}\n211\t\\end{cases}\n212\t$$\n213\t只有同时满足以上条件，氢原子的电偶极跃迁才是可能的。\n214\t以上选律的推导并未设置及径向波函数$R_{nl}(r)$的具体形式，所以它们不仅适用于氢原子核类氢离子，也适用于其他中心势场的单电子波函数，如对钠原子的价电子也适用。\n215\t\n216\t多电子原子的状态可由量子数$S,L,J,M_{J}$表示，原子光谱的电偶极跃迁选律为\n217\t$$\n218\t\\begin{cases}\n219\t\\begin{aligned}\n220\t&\\Delta S=0\\\\  \\\\\n221\t&\\Delta L=0,\\pm 1;0\\nleftrightarrow 0\\\\ \\\\\n222\t&\\Delta J=0,\\pm 1\\\\ \\\\\n223\t&\\Delta M_{J} =0,\\pm 1;0\\nleftrightarrow 0(\\Delta J\\neq 0\\text{时})\n224\t\\end{aligned}\n225\t\\end{cases}\n226\t$$\n227\t\n228\t# 一些补充\n229\t\n230\t## 荧光和磷光\n231\t\n232\t由于光谱选择的限制，原子的较高能级中可能有亚稳态存在。\n233\t例如氦原子的1s2s，${}^3S_{1}$态是最低的三重态，比它能量低的只有单重基态$1s^2$，${}^1S_{0}$.从三重态（S=1）跃迁到单重态（S=0）是禁阻的，因为选律要求$\\Delta S=0$。但如果考虑自旋和轨道运动的相互作用，那么$\\Delta S\\neq 0$的跃迁也可发生，但跃迁概率要小很多个量级，所以氦原子的三重态${}^3S_{1}$的平均寿命长达8000s.\n234\t\n235\t凡是从平均寿命为$10^{-3}s$以上的三重态亚稳态跃迁到单重基态而放出光子的过程称为`磷光`\n236\t而$\\Delta S=0$的较快的跃迁（高能级的平均寿命为$10^{-10}s$量级）称为`荧光`\n237\t\n238\t## 非辐射跃迁\n239\t\n240\t处于高能态的原子或分子也可通过非辐射跃迁回到低能级，例如转化为平动动能，或使化学键断裂，或通过碰撞使别的原子或分子激发等。非辐射跃迁使不受光谱选律的约束的。\n241\t[[第二轮阅读（第二章-分子光谱）]]\n242\t\n243\t---\n244\t\n245\t# 笔记小记\n246\t\n247\t看不懂/没仔细学的：\n248\t\n249\t-  修正项的公式来源\n250\t- 电四极跃迁修正项的系数\n251\t- 线性谐振子推导中的递推公式\n252\t- 氢原子光谱，讨论l的选律，缔合勒让德多项式的部分\n253\t- 多电子原子的电偶极跃迁选律"
+          },
+          {
+            "id": "call_00_CTAdiXF8M53Bfu12cdwW6933",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md",
+              "old_string": "数学推导：电厂$\\vec{E}(\\vec{r})$是空间坐标$\\vec{r}$的函数",
+              "new_string": "数学推导：电场$\\vec{E}(\\vec{r})$是空间坐标$\\vec{r}$的函数"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_qk684IjBGIqUjH1koZlx3271",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md",
+              "old_string": "> 所以一维势阱中荷电粒子的选律是：当今当量子数的改变值为奇数时，电偶极跃迁才是允许的。",
+              "new_string": "> 所以一维势阱中荷电粒子的选律是：只有当量子数的改变值为奇数时，电偶极跃迁才是允许的。"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_0rqCCkDio77V5pG6jKA41359",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md",
+              "old_string": "\\neq_{0}",
+              "new_string": "\\neq 0"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          }
+        ],
+        "asyncStatus": "completed",
+        "agentId": "a1e77d3999531601f",
+        "startedAt": 1786161559270,
+        "outputToolId": "call_00_8P2FW8vSKAFNqOrBsgMV5458",
+        "result": "三处笔误全部修改完成，汇报如下喵：\n\n| 行号 | 原文 | 修改后 | 说明 |\n|------|------|--------|------|\n| 26 | `电厂` | `电场` | 厂 → 场（错别字） |\n| 76 | `当今当` | `只有当` | 今 → 只（错别字） |\n| 199 | `\\neq_{0}` | `\\neq 0` | 去掉 0 的错误下标，改为普通空格分隔 |\n\n文件路径：`F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md`，三处改动均已完成，改动最小化喵。",
+        "completedAt": 1786161573760
+      },
+      "call_01_otDsAY191iyx1cjzP3fN4296": {
+        "id": "call_01_otDsAY191iyx1cjzP3fN4296",
+        "description": "审查笔误修改是否正确",
+        "prompt": "你的任务是审查文件 `F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md` 中的修改是否正确。\n\n需要验证的 3 处修改：\n1. 第 26 行：`电厂` 应改为 `电场`\n2. 第 76 行：`当今当` 应改为 `只有当`\n3. 第 199 行：`$\\neq_{0}$` 应改为 `$\\neq 0$`\n\n请：\n- 用 Read 读取文件，检查这 3 处是否已正确修改\n- 确认没有引入其他意外改动\n- 用一句话汇报审查结果",
+        "mode": "async",
+        "isExpanded": false,
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_PJf1wSeBrKulG6QWwZJj9280",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\quantum chemistry\\光谱选律.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 实验现象\n8\t\n9\t根据[[电磁波照射下的跃迁概率公式]]的讨论，跃迁概率系数$A_{m\\to n},B_{m\\to n},B_{n\\to m}$都和$||R_{mn}||^2$成正比。只要跃迁电偶极矩$R_{mn}$等于0，状态$\\psi_{m}^0$与$\\psi_{n}^0$之间的跃迁概率就要等于0。\n10\t但在实验上，对于跃迁偶极矩等于0的体系，在状态$\\psi_{m}^0$与$\\psi_{n}^0$之间有时也能观察到较弱的光谱线，即跃迁概率不等于0.\n11\t\n12\t# 修正项\n13\t\n14\t## 磁场与原子或分子的相互作用\n15\t\n16\t如果考虑这个相互作用，则在$\\hat{H'}$里面应该增添包含$(-B \\hat{\\mu})$的项。$\\hat{\\mu}$是磁偶极矩算符。\n17\t$$\n18\t\\hat{\\mu}=\\frac{e}{2m_{e}c}\\hat{r}\\times \\hat{p}\n19\t$$\n20\t## 电场强度在原子或分子范围内的变化\n21\t\n22\t如果考虑这种变化，则在$c_{m(t_{1})}$的表达式中将增添与跃迁电四极矩$\\left\\langle{m}|e \\hat{r}\\hat{r}{n}\\right\\rangle$有关的项。\n23\t\n24\t物理图像：电场在原子尺度上有梯度，由于电场的不均匀，它会对原子中正负电荷的分布产生拉扯和扭曲。这种扭曲的几何形态叫电四极矩。\n25\t\n26\t数学推导：电厂$\\vec{E}(\\vec{r})$是空间坐标$\\vec{r}$的函数，我们在原子核位置$\\vec{r}=0$附近泰勒展开：\n27\t$$\n28\t\\vec{E}(\\vec{r})=\\vec{E}(0)+(\\vec{r}\\cdot \\nabla )\\vec{E}+\\dots\n29\t$$\n30\t把展开式带回$\\hat{H'}$：\n31\t$$\n32\t\\hat{H'}\\propto \\vec{E}\\cdot \\vec{r}\n33\t$$\n34\t- 第一项：$\\vec{E}(0)\\cdot \\vec{r}$，这是标准的电偶极\n35\t- 第二项：$\\vec{r}(\\vec{r}\\cdot \\nabla )\\vec{E}$，第一个$\\vec{r}$来自电荷的位置，第二个来自电场本身在空间的变化\n36\t\n37\t# 修正后的系数\n38\t\n39\t$$\n40\t\\begin{aligned}\n41\tB_{n \\to m}&=\\frac{8\\pi^3}{3h^2} g_{m}\\left(\\left|\\left\\langle{m}\\left|e \\hat{r}\\right|{n}\\right\\rangle\\right|^2+\\left|\\left\\langle{m}\\left| \\frac{e}{2m_{e}c}\\hat{r}\\times \\hat{p}\\right |{n}\\right\\rangle\\right|^2 +\\frac{3}{10}\\pi^3\\tilde{\\nu}_{mn}^3 \\left|\\left\\langle{m}\\left|e \\hat{r}\\hat{r}\\right|{n}\\right\\rangle\\right|^2\\right)\\\\ \\\\\n42\tA_{m\\to n}&=8\\pi h \\tilde{\\nu}_{mn}^3B_{m\\to n}\\\\ \\\\\n43\t&=\\frac{64\\pi^4 \\tilde{\\nu}^3_{mn}}{3h}g_{n}\\left(\\left|\\left\\langle{m}\\left|e \\hat{r}\\right|{n}\\right\\rangle\\right|^2+\\left|\\left\\langle{m}\\left| \\frac{e}{2m_{e}c}\\hat{r}\\times \\hat{p}\\right |{n}\\right\\rangle\\right|^2 +\\frac{3}{10}\\pi^3\\tilde{\\nu}_{mn}^3 \\left|\\left\\langle{m}\\left|e \\hat{r}\\hat{r}\\right|{n}\\right\\rangle\\right|^2\\right)\n44\t\\end{aligned}\n45\t$$\n46\t括号内第一项即跃迁电偶矩矩阵元，第二项即跃迁磁偶极矩矩阵元，第三项即跃迁电四极矩矩阵元。\n47\t\n48\t这三项的相对数量级大小估计：\n49\t$$\n50\t\\begin{aligned}\n51\t&\\left|\\left\\langle{m}\\left|e \\hat{r}\\right|{n}\\right\\rangle\\right|^2 \\sim(ea_{0})^2 \\sim 6.5\\times{10}^{-36}c.g.s\\\\ \\\\\n52\t&\\left|\\left\\langle{m}\\left| \\frac{e}{2m_{e}c}\\hat{r}\\times \\hat{p}\\right |{n}\\right\\rangle\\right|^2  \\sim \\left( \\frac{e\\hbar}{2m_{e}c} \\right)^2 \\sim 8.7\\times 10^{-41}c.g.s\\\\ \\\\\n53\t&\\frac{3}{10}\\pi^3\\tilde{\\nu}_{mn}^3 \\left|\\left\\langle{m}\\left|e \\hat{r}\\hat{r}\\right|{n}\\right\\rangle\\right|^2\\sim {6}.8\\times 10^{-43} c.g.s\n54\t\\end{aligned}\n55\t$$\n56\t\n57\t凡是$R_{mn}=\\left\\langle{m}\\left|e \\hat{r}\\right|{n}\\right\\rangle \\neq{0}$的跃迁称为电偶极跃迁，在原子或分子光谱的跃迁中，使$R_{mn}\\neq 0$的条件称为电偶极跃迁的光谱选律(selection rules)。\n58\t\n59\t# 例子\n60\t\n61\t## 一维势阱\n62\t\n63\t对于[[量子力学#一维势阱|一维势阱]]中的荷电粒子，我们有\n64\t$$\n65\t\\begin{aligned}\n66\tX_{mn}&=\\left\\langle{\\psi_{m}^0}|qx|{\\psi_{n}^0}\\right\\rangle=q\\int_{0}^L\\left( \\frac{2}{L} \\right)x\\sin\\left( \\frac{m\\pi x}{L} \\right)\\sin\\left( \\frac{n\\pi x}{L} \\right)dx\n67\t\\end{aligned}\n68\t$$\n69\t可以证明\n70\t$$\n71\t\\begin{aligned}\n72\tX_{mn}=0,\\qquad m-n=\\text{偶数}\\\\ \\\\\n73\tX_{mn}\\neq{0},\\qquad m-n=\\text{{奇数}}\n74\t\\end{aligned}\n75\t$$\n76\t> 所以一维势阱中荷电粒子的选律是：当今当量子数的改变值为奇数时，电偶极跃迁才是允许的。\n77\t\n78\t## 线性谐振子\n79\t\n80\t线性谐振子的归一化波函数$\\psi_{n}$\n81\t$$\n82\t\\psi_{n}(x)=\\left( \\sqrt{ \\frac{\\beta}{\\pi} } \\frac{1}{2^nn!} \\right)^{\\frac{1}{2}}e^{-\\frac{1}{2}z^2}H_{n}(z)\\qquad (z=\\sqrt{ \\beta }x)\n83\t$$\n84\t讨论谐振子从$\\psi_{n}$到$\\psi_{m}$的跃迁概率时我们要计算积分：\n85\t$$\n86\tX_{nm}\\equiv \\left\\langle{\\psi_{m}^0}|qx|{\\psi_{n}^0}\\right\\rangle=q\\int_{-\\infty}^{\\infty}\\psi_{n}x\\psi_{m}dx\n87\t$$\n88\t$$\n89\tx\\psi_{m}=\\frac{z}{\\sqrt{ \\beta}}\\psi_{m}=\\left( \\sqrt{ \\frac{1}{\\beta\\pi} } \\frac{1}{2^mm!} \\right)^{\\frac{1}{2}}e^{-\\frac{1}{2}z^2}zH_{m}(z)\\qquad (z=\\sqrt{ \\beta }x)\n90\t$$\n91\t利用递推公式：（？）\n92\t$$\n93\tzH_{m}(z)=\\frac{1}{2}H_{m+1}(z)+mH_{m-1}(z) \\qquad (2.5.54)\n94\t$$\n95\t所以\n96\t$$\n97\tx\\psi_{m}=\\frac{z}{\\sqrt{ \\beta}}\\psi_{m}=\\left( \\sqrt{ \\frac{1}{\\beta\\pi} } \\frac{1}{2^mm!} \\right)^{\\frac{1}{2}}(\\frac{1}{2}H_{m+1}(z)+mH_{m-1}(z))e^{-\\frac{1}{2}z^2}\\qquad (z=\\sqrt{ \\beta }x)\n98\t$$\n99\t又由于\n100\t$$\n101\t\\begin{aligned}\n102\t\\psi_{m-1}=\\left[\\sqrt{ \\frac{\\beta}{\\pi} } \\frac{1}{2^{m-1}(m-1)!} \\right]^{\\frac{1}{2}}e^{-\\frac{1}{2}z^2}H_{m-1}\\\\ \\\\\n103\t\\psi_{m+1}=\\left[\\sqrt{ \\frac{\\beta}{\\pi} } \\frac{1}{2^{m+1}(m+1)!} \\right]^{\\frac{1}{2}}e^{-\\frac{1}{2}z^2}H_{m+1}\n104\t\\end{aligned}\n105\t$$\n106\t代入(2.5.54)，得到$\\psi_{m}$的递推公式为\n107\t$$\n108\tx\\psi_{m}=\\sqrt{ \\frac{m+1}{2\\beta} }\\psi_{m+1}+\\sqrt{ \\frac{m}{2\\beta} }\\psi_{m-1}\n109\t$$\n110\t代入积分\n111\t$$\n112\tX_{nm}=q(\\sqrt{ \\frac{m+1}{2\\beta} }S_{n,m+1}+\\sqrt{ \\frac{m}{2\\beta} }S_{n,m-1})\n113\t$$\n114\t所以只有当\n115\t$$\n116\t\\begin{aligned}\n117\t&n=m+1\\text{时},X_{nm}=X_{m+1,m}=\\sqrt{ \\frac{m+1}{2\\beta} }\\\\ \\\\\n118\t&n=m-1\\text{时},X_{nm}=X_{m-1,m}=\\sqrt{ \\frac{m}{2\\beta} }\\\\ \\\\\n119\t&n \\neq m\\pm{1}\\text{时},X_{nm}=0\n120\t\\end{aligned}\n121\t$$\n122\t> 所以线性谐振子的选律是：只有当振动量子数的改变等于$\\pm1$时，电偶极跃迁才是允许的。\n123\t\n124\t## 氢原子光谱\n125\t\n126\t氢原子的包括自旋的波函数由4个量子数规定，令始态为\n127\t$$\n128\t\\ket{k} \\equiv \\ket{nlmm_{s}} \\equiv R_{nl}(r)\\Theta_{lm}(\\theta)\\Phi_{m}(\\phi)\\sigma(m_{s})\n129\t$$\n130\t终态为\n131\t$$\n132\t\\ket{k'} \\equiv \\ket{n'l'm'm'_{s}} \\equiv R_{n'l'}(r)\\Theta_{l'm'}(\\theta)\\Phi_{m'}(\\phi)\\sigma(m'_{s})\n133\t$$\n134\t在$\\ket{k}$与$\\ket{k'}$状态见的跃迁电偶极矩的三个分量等于\n135\t$$\n136\t\\begin{aligned}\n137\tX_{kk'}=-e\\bra{k}x \\ket{k'} \\\\ \\\\\n138\tY_{kk'}=-e\\bra{k}y \\ket{k'} \\\\ \\\\\n139\tZ_{kk'}=-e\\bra{k}z \\ket{k'} \n140\t\\end{aligned}\n141\t$$\n142\t\n143\t**首先考虑$m_{s}$的选律**\n144\t$$\n145\t\\braket{\\sigma(m_{s})|\\sigma(m'_{s})}=\\delta_{m_{s},m'_{s}}\n146\t$$\n147\t所以只有当$m_{s}=m'_{s}$时跃迁电偶极矩才有可能不等于0.\n148\t\n149\t**其次考虑m的选律**，因为\n150\t$$\n151\tz=r\\cos \\theta\n152\t$$\n153\t不包含$\\phi$，所以在$Z_{kk'}$积分中包含\n154\t$$\n155\t\\braket{\\Phi_{m}(\\phi)|\\Phi_{m'}(\\phi)}=\\int_{0}^{2\\pi}e^{i(m-m')\\phi}d\\phi=2\\pi \\delta_{mm'}\n156\t$$\n157\t只有当$m=m'$时$Z_{kk'}$才有可能不等于0.\n158\t\n159\t为求出$X_{kk'}$和$Y_{kk'}$不同时为0的条件，引进两个新的变量\n160\t$$\n161\t\\begin{aligned}\n162\t&W\\equiv x+iy=r\\sin \\theta e^{i\\phi}\\\\ \\\\\n163\t&W'\\equiv x-iy=r\\sin \\theta e^{-i\\phi}\n164\t\\end{aligned}\n165\t$$\n166\t矩阵元$X_{kk'}$与$Y_{kk'}$不同时为零的条件和矩阵元\n167\t$$\n168\tW_{kk'}=\\braket{k|W|k'}\\text{和}W'_{kk'}=\\braket{k|W'|k'}\n169\t$$\n170\t不同时为0的条件相同（变换基底，算符空间完全等价）。在$W'_{kk'}$积分中含有\n171\t$$\n172\t\\braket{\\Phi_{m}(\\phi)|e^{i\\phi}|\\Phi_{m'}(\\phi)}=\\int_{0}^{{2\\pi }}e^{[i(m-m'+1)\\phi]}d\\phi=2\\pi \\delta_{m+1,m'}\n173\t$$\n174\t只有当$m'=m+1$时$W_{kk'}$才可能不等于0.同理只有当$m'=m-1$时$W'_{kk'}$才可能不等于0.\n175\t综上所述m的选律是\n176\t$$\n177\t\\Delta m=0,\\pm 1\n178\t$$\n179\t$\\Delta m$只有满足0，1，-1中任何一个数值时，跃迁电偶极矩才有可能不等于0.\n180\t\n181\t**讨论l的选律**，$\\Theta_{lm}(\\theta)\\propto P_{l}^{|m|}(\\cos \\theta)$是缔合勒让德多项式。对体积积分$r^2dr\\cdot\\sin \\theta d\\theta \\cdot d\\phi$分离$\\theta$部分。\n182\t\n183\t在$Z_{kk'}$积分中含有\n184\t$$\n185\t\\int_{0}^{\\pi}P_{l}^{|m|}P_{l'}^{|m'|}\\cos \\theta \\sin \\theta d\\theta\n186\t$$\n187\t在$X_{kk'}$和$Y_{kk'}$积分中含有\n188\t$$\n189\t\\int_{0}^{\\pi}P_{l}^{|m|}P_{l'}^{|m'|}\\sin^2\\theta d\\theta\n190\t$$\n191\t利用缔合勒让德多项式的递推关系，可以得到l的选律是\n192\t$$\n193\t\\Delta l=\\pm 1\n194\t$$\n195\t\n196\t**最后讨论n的选律**，因为z,x,y的球坐标表达式中都含有r，所以在矩阵元$Z_{kk'},X_{kk'},Y_{kk'}$中都含有下列积分：\n197\t$$\n198\t\\braket{R_{nl}(r)|r|R_{n'l'}(r)}=\\int_{0}^{\\infty}R_{nl}(r)R_{n'l'}(r)r^3dr\\neq_{0}\n199\t$$\n200\t不论$\\Delta n$取何值都不会为0，因此$\\Delta n$的改变不受任何限制。\n201\t\n202\t综上所述，氢原子的选律（适用于各向同性的电磁辐射）\n203\t$$\n204\t\\begin{cases}\n205\t\\begin{aligned}\n206\t&\\Delta n=0,\\pm 1,\\pm 2,\\dots\\\\  \\\\\n207\t&\\Delta l=\\pm 1\\\\ \\\\\n208\t&\\Delta m=0,\\pm 1\\\\ \\\\\n209\t&\\Delta m_{s}=0\n210\t\\end{aligned}\n211\t\\end{cases}\n212\t$$\n213\t只有同时满足以上条件，氢原子的电偶极跃迁才是可能的。\n214\t以上选律的推导并未设置及径向波函数$R_{nl}(r)$的具体形式，所以它们不仅适用于氢原子核类氢离子，也适用于其他中心势场的单电子波函数，如对钠原子的价电子也适用。\n215\t\n216\t多电子原子的状态可由量子数$S,L,J,M_{J}$表示，原子光谱的电偶极跃迁选律为\n217\t$$\n218\t\\begin{cases}\n219\t\\begin{aligned}\n220\t&\\Delta S=0\\\\  \\\\\n221\t&\\Delta L=0,\\pm 1;0\\nleftrightarrow 0\\\\ \\\\\n222\t&\\Delta J=0,\\pm 1\\\\ \\\\\n223\t&\\Delta M_{J} =0,\\pm 1;0\\nleftrightarrow 0(\\Delta J\\neq 0\\text{时})\n224\t\\end{aligned}\n225\t\\end{cases}\n226\t$$\n227\t\n228\t# 一些补充\n229\t\n230\t## 荧光和磷光\n231\t\n232\t由于光谱选择的限制，原子的较高能级中可能有亚稳态存在。\n233\t例如氦原子的1s2s，${}^3S_{1}$态是最低的三重态，比它能量低的只有单重基态$1s^2$，${}^1S_{0}$.从三重态（S=1）跃迁到单重态（S=0）是禁阻的，因为选律要求$\\Delta S=0$。但如果考虑自旋和轨道运动的相互作用，那么$\\Delta S\\neq 0$的跃迁也可发生，但跃迁概率要小很多个量级，所以氦原子的三重态${}^3S_{1}$的平均寿命长达8000s.\n234\t\n235\t凡是从平均寿命为$10^{-3}s$以上的三重态亚稳态跃迁到单重基态而放出光子的过程称为`磷光`\n236\t而$\\Delta S=0$的较快的跃迁（高能级的平均寿命为$10^{-10}s$量级）称为`荧光`\n237\t\n238\t## 非辐射跃迁\n239\t\n240\t处于高能态的原子或分子也可通过非辐射跃迁回到低能级，例如转化为平动动能，或使化学键断裂，或通过碰撞使别的原子或分子激发等。非辐射跃迁使不受光谱选律的约束的。\n241\t[[第二轮阅读（第二章-分子光谱）]]\n242\t\n243\t---\n244\t\n245\t# 笔记小记\n246\t\n247\t看不懂/没仔细学的：\n248\t\n249\t-  修正项的公式来源\n250\t- 电四极跃迁修正项的系数\n251\t- 线性谐振子推导中的递推公式\n252\t- 氢原子光谱，讨论l的选律，缔合勒让德多项式的部分\n253\t- 多电子原子的电偶极跃迁选律"
+          }
+        ],
+        "asyncStatus": "completed",
+        "agentId": "a2daef9f3dc12a615",
+        "startedAt": 1786161561353,
+        "outputToolId": "call_01_q2MEoAecMzZUI5wZgCBC4496",
+        "result": "主人，猫猫审查完毕喵。\n\n**审查结果：3 处修改均未生效，文件仍然保留了原始错误喵。**\n\n具体检查如下：\n\n| 行号 | 应改为 | 当前内容（未改） |\n|------|--------|------------------|\n| 第 26 行 | `电场` | `电厂` |\n| 第 76 行 | `只有当` | `当今当` |\n| 第 199 行 | `\\neq 0` | `\\neq_{0}` |\n\n这三处文字错误和 LaTeX 语法错误原封不动地保留在文件中，没有发现其他意外改动喵。",
+        "completedAt": 1786161594734
+      }
+    }
   },
   "currentNote": "quantum chemistry/光谱选律.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 125,
+    "inputTokens": 173,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 36608,
-    "contextWindow": 1000000,
-    "contextTokens": 36733,
-    "percentage": 4,
-    "contextWindowIsAuthoritative": true
+    "cacheReadInputTokens": 37888,
+    "contextWindow": 200000,
+    "contextTokens": 38061,
+    "percentage": 19
   }
 }
