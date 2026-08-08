@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/光谱选律.md",
+                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -243,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -261,12 +261,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "43f87be83866ced1",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
+    "quantum chemistry/光谱选律.md",
     "quantum chemistry/激发态的平均寿命.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "quantum chemistry/含时微扰理论.md",
-    "quantum chemistry/光谱选律.md",
     "quantum chemistry/光谱选律.md.tmp.12336.414362950065",
     "quantum chemistry/光谱选律.md.tmp.12336.23524d97782f",
     "quantum chemistry/光谱选律.md.tmp.12336.46d0a73b31d2",
