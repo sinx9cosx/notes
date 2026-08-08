@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786157993079-h89gssyd3",
+  "providerId": "claude",
+  "title": "解释第155行积分的计算过程",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786157993080,
+  "updatedAt": 1786158357681,
+  "lastResponseAt": 1786158357681,
+  "sessionId": "96fa49a7-768b-4c2d-948e-5b2370a63dc2",
+  "providerState": {
+    "providerSessionId": "96fa49a7-768b-4c2d-948e-5b2370a63dc2"
+  },
+  "currentNote": "quantum chemistry/光谱选律.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1044,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 37504,
+    "contextWindow": 1000000,
+    "contextTokens": 38548,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
