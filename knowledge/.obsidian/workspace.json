@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/光谱选律.md",
+                "file": "physchem/量子力学.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,10 +261,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "43f87be83866ced1",
+  "active": "914abbb98419d343",
   "lastOpenFiles": [
-    "physchem/量子力学.md",
     "quantum chemistry/光谱选律.md",
+    "physchem/量子力学.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.20764.6ca3b4c4eacc",
     "quantum chemistry/变分法.md",
