@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "quantum chemistry/光谱选律.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem/量子力学.md",
+                "file": "quantum chemistry/光谱选律.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -243,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -261,10 +261,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "914abbb98419d343",
+  "active": "43f87be83866ced1",
   "lastOpenFiles": [
-    "quantum chemistry/光谱选律.md",
     "physchem/量子力学.md",
+    "quantum chemistry/光谱选律.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.20764.6ca3b4c4eacc",
     "quantum chemistry/变分法.md",
