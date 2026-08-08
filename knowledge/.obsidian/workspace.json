@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -247,11 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "quantum chemistry/光谱选律.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
-    "quantum chemistry/光谱选律.md",
     "quantum chemistry/激发态的平均寿命.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "quantum chemistry/含时微扰理论.md",
