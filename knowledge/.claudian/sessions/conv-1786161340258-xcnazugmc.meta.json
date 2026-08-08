@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786161340258-xcnazugmc",
+  "providerId": "claude",
+  "title": "检查笔记内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786161340258,
+  "updatedAt": 1786161381228,
+  "lastResponseAt": 1786161381228,
+  "sessionId": "a151d6c5-f4fd-48e9-9211-b8bcaf04cf65",
+  "providerState": {
+    "providerSessionId": "a151d6c5-f4fd-48e9-9211-b8bcaf04cf65"
+  },
+  "currentNote": "quantum chemistry/光谱选律.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 125,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36608,
+    "contextWindow": 1000000,
+    "contextTokens": 36733,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
