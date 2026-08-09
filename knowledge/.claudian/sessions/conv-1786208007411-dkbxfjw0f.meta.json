@@ -4,8 +4,8 @@
   "title": "解释跃迁概率的由来",
   "titleGenerationStatus": "success",
   "createdAt": 1786208007411,
-  "updatedAt": 1786208045499,
-  "lastResponseAt": 1786208045499,
+  "updatedAt": 1786245619855,
+  "lastResponseAt": 1786245619855,
   "sessionId": "16588f28-3d1a-4ade-b291-8bb3331acee3",
   "providerState": {
     "providerSessionId": "16588f28-3d1a-4ade-b291-8bb3331acee3"
@@ -13,12 +13,12 @@
   "currentNote": "quantum chemistry/偶极强度与吸收系数的关系.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 669,
+    "inputTokens": 62,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 31488,
+    "cacheReadInputTokens": 40832,
     "contextWindow": 1000000,
-    "contextTokens": 32157,
-    "percentage": 3,
+    "contextTokens": 40894,
+    "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
 }
