@@ -53,17 +53,14 @@
             "id": "a1b36d8ead7ae67b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "quantum chemistry/第五章思维导图.canvas",
-                "viewState": {
-                  "x": 280,
-                  "y": 345.00000000000006,
-                  "zoom": -0.9506586810925841
-                }
+                "file": "quantum chemistry/定态微扰理论.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "第五章思维导图"
+              "icon": "lucide-file",
+              "title": "定态微扰理论"
             }
           }
         ],
@@ -204,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/第五章思维导图.canvas",
+                "file": "quantum chemistry/定态微扰理论.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -250,8 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,8 +263,8 @@
   },
   "active": "a1b36d8ead7ae67b",
   "lastOpenFiles": [
-    "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "quantum chemistry/第五章思维导图.canvas",
+    "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "quantum chemistry/光谱选律.md",
     "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
