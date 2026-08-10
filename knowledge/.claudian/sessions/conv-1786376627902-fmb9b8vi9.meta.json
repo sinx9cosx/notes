@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786376627902-fmb9b8vi9",
+  "providerId": "claude",
+  "title": "Review user's notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786376627903,
+  "updatedAt": 1786376917511,
+  "lastResponseAt": 1786376917511,
+  "sessionId": "0a31079d-274a-4bdb-916f-b89f8d1fc645",
+  "providerState": {
+    "providerSessionId": "0a31079d-274a-4bdb-916f-b89f8d1fc645"
+  },
+  "currentNote": "振子强度.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 410,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35840,
+    "contextWindow": 1000000,
+    "contextTokens": 36250,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

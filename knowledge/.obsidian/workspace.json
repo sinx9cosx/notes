@@ -243,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -261,11 +261,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a1b36d8ead7ae67b",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
-    "quantum chemistry/偶极强度与吸收系数的关系.md",
-    "振子强度.md",
+    "振子强度.md.tmp.17516.ba98568d7dcd",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+    "振子强度.md",
+    "quantum chemistry/偶极强度与吸收系数的关系.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.29872.3ef4256ac279",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.29872.6bd8afcddcf8",
     "quantum chemistry/光谱选律.md",
@@ -298,7 +299,6 @@
     "physchem/热力学第一课时.md",
     "physchem/热力学.md",
     "darling/先组轨道，再填电子的化学语言本质.md",
-    "paper note/zotero integration template.md",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
