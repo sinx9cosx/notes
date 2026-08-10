@@ -53,17 +53,14 @@
             "id": "a1b36d8ead7ae67b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "第五章思维导图.canvas",
-                "viewState": {
-                  "x": 141.37005612114078,
-                  "y": -45,
-                  "zoom": -0.5176992738164778
-                }
+                "file": "quantum chemistry/光谱选律.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "第五章思维导图"
+              "icon": "lucide-file",
+              "title": "光谱选律"
             }
           }
         ],
@@ -204,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第五章思维导图.canvas",
+                "file": "quantum chemistry/光谱选律.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -266,8 +263,8 @@
   },
   "active": "a1b36d8ead7ae67b",
   "lastOpenFiles": [
-    "quantum chemistry/定态微扰理论.md",
     "第五章思维导图.canvas",
+    "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/激发态的平均寿命.md",
