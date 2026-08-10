@@ -10,7 +10,7 @@
 		{"id":"6fbbcfa0544198f8","type":"text","text":"[[线性变分法的基函数]]","x":260,"y":-110,"width":250,"height":60},
 		{"id":"448e064a40e6cfd9","type":"text","text":"[[变分法计算流程总结]]","x":-400,"y":-380,"width":160,"height":80},
 		{"id":"5081ec94802dfa81","type":"text","text":"标准变分法","x":-60,"y":-220,"width":250,"height":60},
-		{"id":"be49266bac123809","type":"text","text":"微扰理论","x":-400,"y":270,"width":160,"height":60,"color":"6"},
+		{"id":"be49266bac123809","type":"text","text":"微扰理论","x":-400,"y":270,"width":160,"height":60,"color":"2"},
 		{"id":"0e631fafcfec5bc0","type":"text","text":"[[关于微扰理论的疑问]]","x":-140,"y":50,"width":330,"height":60},
 		{"id":"e8fae0fcadd6545c","type":"text","text":"[[电磁波照射下的跃迁概率公式]]","x":-125,"y":520,"width":300,"height":80},
 		{"id":"a3613031a83d003d","type":"text","text":"[[定态微扰理论]]","x":-100,"y":220,"width":250,"height":60},
