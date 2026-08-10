@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"06589eccd5d68c95","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"[[变分法]]"},
+		{"id":"448e064a40e6cfd9","x":-125,"y":80,"width":250,"height":60,"type":"text","text":"[[]]"}
+	],
+	"edges":[]
+}
