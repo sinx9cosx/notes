@@ -53,14 +53,17 @@
             "id": "a1b36d8ead7ae67b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "quantum chemistry/光谱选律.md",
-                "mode": "source",
-                "source": false
+                "file": "quantum chemistry/第五章思维导图.canvas",
+                "viewState": {
+                  "x": 280,
+                  "y": 345.00000000000006,
+                  "zoom": -0.9506586810925841
+                }
               },
-              "icon": "lucide-file",
-              "title": "光谱选律"
+              "icon": "lucide-layout-dashboard",
+              "title": "第五章思维导图"
             }
           }
         ],
@@ -201,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/光谱选律.md",
+                "file": "quantum chemistry/第五章思维导图.canvas",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -263,7 +266,9 @@
   },
   "active": "a1b36d8ead7ae67b",
   "lastOpenFiles": [
-    "第五章思维导图.canvas",
+    "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
+    "quantum chemistry/第五章思维导图.canvas",
+    "quantum chemistry/光谱选律.md",
     "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
     "quantum chemistry/变分法.md",
@@ -274,7 +279,6 @@
     "振子强度.md.tmp.17516.ba98568d7dcd",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.29872.3ef4256ac279",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.29872.6bd8afcddcf8",
-    "quantum chemistry/光谱选律.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.12848.1fb761964e10",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.12848.ac2c8e6db055",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
@@ -299,7 +303,6 @@
     "physchem/热力学第一课时.md",
     "physchem/热力学.md",
     "darling/先组轨道，再填电子的化学语言本质.md",
-    "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",
