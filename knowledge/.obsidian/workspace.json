@@ -261,11 +261,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "a1b36d8ead7ae67b",
   "lastOpenFiles": [
+    "quantum chemistry/变分法.md",
+    "振子强度.md",
     "振子强度.md.tmp.17516.ba98568d7dcd",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
-    "振子强度.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.29872.3ef4256ac279",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.29872.6bd8afcddcf8",
@@ -284,9 +285,7 @@
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
     "physchem/量子力学.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md.tmp.20764.6ca3b4c4eacc",
-    "quantum chemistry/变分法.md",
     "quantum chemistry/激发态的平均寿命.md.tmp.15924.0b6f46b15b46",
-    "quantum chemistry/激发态的平均寿命.md.tmp.15924.cfc949bc8f16",
     "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/变分法计算流程总结.md",
