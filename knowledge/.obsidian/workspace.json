@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/定态微扰理论.md",
+                "file": "quantum chemistry/含时微扰理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "定态微扰理论"
+              "title": "含时微扰理论"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/定态微扰理论.md",
+                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -243,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -261,12 +260,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a1b36d8ead7ae67b",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "quantum chemistry/含时微扰理论.md",
+    "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/第五章思维导图.canvas",
     "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "quantum chemistry/光谱选律.md",
-    "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
     "quantum chemistry/变分法.md",
     "quantum chemistry/激发态的平均寿命.md",
@@ -279,7 +279,6 @@
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.12848.1fb761964e10",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.12848.ac2c8e6db055",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
-    "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/光谱选律.md.tmp.12336.414362950065",
     "quantum chemistry/光谱选律.md.tmp.12336.23524d97782f",
     "quantum chemistry/光谱选律.md.tmp.12336.46d0a73b31d2",
