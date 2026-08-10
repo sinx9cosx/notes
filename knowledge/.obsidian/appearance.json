@@ -4,5 +4,6 @@
   "baseFontSize": 20,
   "nativeMenus": false,
   "accentColor": "#b8c9ae",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "enabledCssSnippets": ["canvas-colors"]
 }
