@@ -49,5 +49,12 @@
   "primary-theme@@graph-node-tag@@light": "#8AB8D9",
   "primary-theme@@editor-border-color@@light": "#B8C9AE",
   "primary-theme@@editor-bgpattern-color@@light": "#96A88A",
-  "primary-theme@@status-bar-background@@light": "#F5F0E8"
+  "primary-theme@@status-bar-background@@light": "#F5F0E8",
+  "primary-theme@@canvas-color@@light": "#FFF176",
+  "primary-theme@@canvas-color-1@@light": "#FFE2E4",
+  "primary-theme@@canvas-color-2@@light": "#A4C6B4",
+  "primary-theme@@canvas-color-3@@light": "#76C7C0",
+  "primary-theme@@canvas-color-4@@light": "#F5E6CC",
+  "primary-theme@@canvas-color-5@@light": "#B794D8",
+  "primary-theme@@canvas-color-6@@light": "#2078A8"
 }
