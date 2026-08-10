@@ -5,5 +5,8 @@
   "nativeMenus": false,
   "accentColor": "#b8c9ae",
   "theme": "moonstone",
-  "enabledCssSnippets": ["canvas-colors"]
+  "enabledCssSnippets": [
+    "canvas-colors",
+    "canvas-force"
+  ]
 }

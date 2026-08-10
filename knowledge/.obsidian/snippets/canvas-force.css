@@ -1,0 +1,8 @@
+/* Direct Canvas color picker fix — bypass CSS variables entirely */
+.canvas-color-picker-item.mod-canvas-color-0 { background-color: #B6AFA6 !important; }
+.canvas-color-picker-item.mod-canvas-color-1 { background-color: #DF5A5A !important; }
+.canvas-color-picker-item.mod-canvas-color-2 { background-color: #E7823F !important; }
+.canvas-color-picker-item.mod-canvas-color-3 { background-color: #F8C52E !important; }
+.canvas-color-picker-item.mod-canvas-color-4 { background-color: #57B984 !important; }
+.canvas-color-picker-item.mod-canvas-color-5 { background-color: #63A4C6 !important; }
+.canvas-color-picker-item.mod-canvas-color-6 { background-color: #876AC1 !important; }
