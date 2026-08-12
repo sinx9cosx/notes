@@ -4,8 +4,8 @@
   "title": "Summarize the conversation content",
   "titleGenerationStatus": "success",
   "createdAt": 1786518474458,
-  "updatedAt": 1786518516837,
-  "lastResponseAt": 1786518516837,
+  "updatedAt": 1786521380195,
+  "lastResponseAt": 1786521380195,
   "sessionId": "8ff008c1-0887-4167-8503-ae48881c72aa",
   "providerState": {
     "providerSessionId": "8ff008c1-0887-4167-8503-ae48881c72aa"
@@ -13,11 +13,11 @@
   "currentNote": "关于我的一些事实.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 4913,
+    "inputTokens": 1611,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 31360,
+    "cacheReadInputTokens": 36224,
     "contextWindow": 1000000,
-    "contextTokens": 36273,
+    "contextTokens": 37835,
     "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
