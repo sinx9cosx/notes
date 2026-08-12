@@ -11,17 +11,14 @@
             "id": "4bf7495544b13da2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": -7.5,
-                  "y": -195,
-                  "zoom": -0.04543690584468415
-                }
+                "file": "linux/vim使用教程.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "vim使用教程"
             }
           }
         ]
@@ -161,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas",
+                "file": "linux/vim使用教程.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -223,10 +220,11 @@
   },
   "active": "4bf7495544b13da2",
   "lastOpenFiles": [
+    "linux/vim示意图.canvas",
+    "linux/image/vim.png",
     "linux/image",
     "linux/新建文件夹",
     "linux/vim使用教程.md",
-    "未命名.canvas",
     "linux",
     "关于我的一些事实.md",
     "quantum chemistry/第五章思维导图.canvas",
@@ -247,7 +245,6 @@
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.12848.ac2c8e6db055",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "quantum chemistry/光谱选律.md.tmp.12336.414362950065",
-    "quantum chemistry/光谱选律.md.tmp.12336.23524d97782f",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
     "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
@@ -274,7 +271,6 @@
     "physchem/images/clausius inequality.jpg",
     "physchem/images/verify Carnot Cycle.jpg",
     "physchem/images/Carnot Cycle.jpg",
-    "physchem/images/isothermal_vs_adiabatic_PV.png",
     "physchem/Gibbs Paradox.canvas",
     "物理化学/量子力学导图.canvas"
   ]
