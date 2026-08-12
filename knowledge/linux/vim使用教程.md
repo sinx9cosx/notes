@@ -16,3 +16,5 @@ Category:
 vi hello.txt
 ```
 
+默认进入命令模式
+`:wq`保存并退出
