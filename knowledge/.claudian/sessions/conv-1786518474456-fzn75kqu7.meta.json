@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786518474456-fzn75kqu7",
+  "providerId": "claude",
+  "title": "Summarize the conversation content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786518474458,
+  "updatedAt": 1786518516837,
+  "lastResponseAt": 1786518516837,
+  "sessionId": "8ff008c1-0887-4167-8503-ae48881c72aa",
+  "providerState": {
+    "providerSessionId": "8ff008c1-0887-4167-8503-ae48881c72aa"
+  },
+  "currentNote": "关于我的一些事实.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4913,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31360,
+    "contextWindow": 1000000,
+    "contextTokens": 36273,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
