@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"3540fb2d7001b535","type":"text","text":"插入模式\ninsert mode","x":-440,"y":-60,"width":265,"height":90,"color":"3"},
+		{"id":"bfeb85b0d2f33021","type":"text","text":"尾行模式\nlast line mode","x":160,"y":-60,"width":265,"height":90,"color":"5"},
+		{"id":"3087f2cbe9506642","type":"text","text":"命令模式\ncommad mode","x":-140,"y":-420,"width":265,"height":70,"color":"4"}
+	],
+	"edges":[
+		{"id":"3ab69276d0e37e02","fromNode":"3087f2cbe9506642","fromSide":"left","toNode":"3540fb2d7001b535","toSide":"top","label":"输入i,a,o,I,A,O"},
+		{"id":"e5cb6209a218bacf","fromNode":"3540fb2d7001b535","fromSide":"top","toNode":"3087f2cbe9506642","toSide":"bottom","label":"Esc"},
+		{"id":"386bed75ed6ecd24","fromNode":"3087f2cbe9506642","fromSide":"right","toNode":"bfeb85b0d2f33021","toSide":"top","label":"："},
+		{"id":"d7937bde9fff3412","fromNode":"bfeb85b0d2f33021","fromSide":"left","toNode":"3087f2cbe9506642","toSide":"right","label":"回车/Esc"}
+	]
+}
