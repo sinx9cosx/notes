@@ -61,3 +61,7 @@ Category:
 `mkdir 目录名`创建目录 `mkdir -p folder1/folder2/folder3`创建多级目录
 
 `du`查看当前目录下的文件大小，看到目录结构
+
+`tree`查看当前目录的树状结构
+
+`rmdir 目录名`删除空目录 `rm -r 目录名`删除目录和其中的文件
