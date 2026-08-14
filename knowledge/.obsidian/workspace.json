@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/linux运行软件.md",
+                "file": "sci_research/TD-DFT项目操作全流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux运行软件"
+              "title": "TD-DFT项目操作全流程"
             }
           }
         ],
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/linux运行软件.md",
+                "file": "sci_research/TD-DFT项目操作全流程.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -249,8 +249,10 @@
   },
   "active": "2d9c66b44b141b6f",
   "lastOpenFiles": [
-    "linux/linux常用命令.md",
+    "sci_research/TD-DFT calculation results.md",
+    "sci_research/TD-DFT项目操作全流程.md",
     "linux/linux运行软件.md",
+    "linux/linux常用命令.md",
     "linux/image/file.jpg",
     "linux/vim使用教程.md",
     "linux/vim示意图.canvas",
@@ -263,7 +265,7 @@
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/定态微扰理论.md",
-    "paper note/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
+    "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "quantum chemistry/光谱选律.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
     "quantum chemistry/变分法.md",
@@ -275,21 +277,19 @@
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.29872.6bd8afcddcf8",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.12848.1fb761964e10",
     "quantum chemistry/偶极强度与吸收系数的关系.md.tmp.12848.ac2c8e6db055",
-    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
+    "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "quantum chemistry/光谱选律.md.tmp.12336.414362950065",
-    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
-    "paper note/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
-    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
-    "paper note/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
+    "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
+    "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
+    "sci_research/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
+    "sci_research/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
     "physchem/量子力学.md",
     "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/关于微扰理论的疑问.md",
-    "paper note/TD-DFT项目操作全流程.md",
     "math/第一章 向量空间.md",
     "physchem/理想气体内能与压力无关的证明.md",
     "darling/填电子三原则.md",
-    "darling/Slater行列式.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",
