@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TD-DFT项目操作全流程.md",
+                "file": "linux/linux常用命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TD-DFT项目操作全流程"
+              "title": "linux常用命令"
             }
           }
         ],
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TD-DFT项目操作全流程.md",
+                "file": "linux/linux常用命令.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -249,8 +249,8 @@
   },
   "active": "2d9c66b44b141b6f",
   "lastOpenFiles": [
-    "sci_research/TD-DFT calculation results.md",
     "sci_research/TD-DFT项目操作全流程.md",
+    "sci_research/TD-DFT calculation results.md",
     "linux/linux运行软件.md",
     "linux/linux常用命令.md",
     "linux/image/file.jpg",
