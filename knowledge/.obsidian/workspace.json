@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "半",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +119,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -265,9 +266,9 @@
   },
   "active": "b48eefdc58c599e9",
   "lastOpenFiles": [
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
-    "sci_research/激发态和光谱计算.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
+    "sci_research/激发态和光谱计算.md",
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "linux/linux常用命令.md",
     "linux/vim使用教程.md",
     "sci_research/TD-DFT项目操作全流程.md",
