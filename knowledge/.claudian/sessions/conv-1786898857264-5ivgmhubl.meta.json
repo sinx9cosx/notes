@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786898857264-5ivgmhubl",
+  "providerId": "claude",
+  "title": "检查笔记内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786898857265,
+  "updatedAt": 1786898969790,
+  "lastResponseAt": 1786898969790,
+  "sessionId": "cb531e84-885c-4c08-bc38-a9cc3a8386e6",
+  "providerState": {
+    "providerSessionId": "cb531e84-885c-4c08-bc38-a9cc3a8386e6"
+  },
+  "currentNote": "sci_research/激发态和光谱计算.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 150,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36992,
+    "contextWindow": 1000000,
+    "contextTokens": 37142,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

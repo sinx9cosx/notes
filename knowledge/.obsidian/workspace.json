@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -230,12 +229,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,7 +247,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b48eefdc58c599e9",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "sci_research/TD-DFT calculation results.md",
     "sci_research/激发态和光谱计算.md",
