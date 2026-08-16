@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -251,6 +250,7 @@
   },
   "active": "b48eefdc58c599e9",
   "lastOpenFiles": [
+    "sci_research/image/excitation.jpg",
     "sci_research/TD-DFT calculation results.md",
     "sci_research/激发态和光谱计算.md",
     "sci_research/TD-DFT项目操作全流程.md",
@@ -291,7 +291,6 @@
     "quantum chemistry/变分法计算流程总结.md",
     "quantum chemistry/关于微扰理论的疑问.md",
     "math/第一章 向量空间.md",
-    "physchem/理想气体内能与压力无关的证明.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",
