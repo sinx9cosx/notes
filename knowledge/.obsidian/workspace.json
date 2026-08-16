@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+                "file": "sci_research/激发态和光谱计算.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,13 +261,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2d9c66b44b141b6f",
+  "active": "b48eefdc58c599e9",
   "lastOpenFiles": [
-    "quantum chemistry/偶极强度与吸收系数的关系.md",
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/激发态和光谱计算.md",
+    "quantum chemistry/偶极强度与吸收系数的关系.md",
     "linux/linux常用命令.md",
     "linux/vim使用教程.md",
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/TD-DFT项目操作全流程.md",
     "sci_research/TD-DFT calculation results.md",
     "linux/linux运行软件.md",
