@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -250,9 +249,11 @@
   },
   "active": "969b5f8374d88c15",
   "lastOpenFiles": [
-    "linux/vim使用教程.md",
     "sci_research/激发态和光谱计算.md",
     "sci_research/TBR/TBR test.md",
+    "sci_research/Multiwfn命令行操作完整教程.md",
+    "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.ca3030404b81",
+    "linux/vim使用教程.md",
     "index/Multiwfn手册.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/TBR",
@@ -279,7 +280,6 @@
     "linux/image/file.jpg",
     "linux/vim示意图.canvas",
     "linux/image/vim.png",
-    "linux/image",
     "关于我的一些事实.md",
     "quantum chemistry/第五章思维导图.canvas",
     "quantum chemistry/含时微扰理论.md",
