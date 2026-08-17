@@ -11,7 +11,7 @@
 
 先说一下命令行窗口下Multiwfn的启动。在Linux环境下，如果你严格按照Multiwfn手册2.1.2节的说明进行了安装，就可以在任何地方直接输入Multiwfn命令启动。如果你是在Windows的cmd命令行窗口下，且当前所在目录就是含有Multiwfn.exe和配置文件settings.ini的目录，也是直接输入Multiwfn命令就可以启动；如果当前是在其它目录下，需要进入Windows的“高级系统设置”- “高级”- “环境变量”，将Multiwfn.exe所在目录加入到Path变量里，并且新建一个Multiwfnpath变量，将变量值设为settings.ini的所在目录。之后在cmd里，无论当前处在哪个目录，也都可以通过输入Multiwfn命令启动了。
 
-Multiwfn以命令行方式启动时可以结合输入文件名以及选项/参数，这在Multiwfn手册2.2节里说了。格式是：Multiwfn [输入文件路径] [选项/参数]。选项/参数没写的话就会用默认值，可以指定的有：  
+Multiwfn以命令行方式启动时可以结合输入文件名以及选项/参数，这在Multiwfn手册2.2节里说了。格式是：Multiwfn` [输入文件路径] [选项/参数]`。选项/参数没写的话就会用默认值，可以指定的有：  
 -nt [线程数]：并行运算的线程数。也可以通过settings.ini里nthreads参数设默认值  
 -uf [序号]：用户自定义函数（user-defined function）的序号。也可以通过settings.ini里iuserfunc参数设默认值  
 -silent：开启silent模式，此时所有原本会自动蹦出图形窗口的场合就不会自动蹦出了，这样在批量运行Multiwfn时就不用手动一次次关闭图形窗口了。也可以通过settings.ini里isilent参数设默认值  
