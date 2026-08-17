@@ -14,7 +14,7 @@ Category:
 > 本教程是 [[Multiwfn手册5.2-5.5]] 的实操展开版，把手册 5.2–5.5 节的每个技巧写成可直接照抄运行的完整命令，并参考卢天博文（见文末参考来源）补充了批量运行的完整示例。所有例子都不跳步骤、不简写，复制即可运行。
 
 > [!warning] 版本警告
-> 本教程中的菜单序号交叉核实自 Multiwfn 3.8 dev 时代的官方材料（卢天博文），并已在主人本机 Multiwfn 2026.7.15 上实测验证：主功能编号（0/5/7/9/12/13/18/100）与教程涉及的关键子菜单序号（格点函数 1/5/9/12、后处理菜单 0/2/5、13→11→5→0、9→1、9→8、7→5→1、18→1、100→2 及其 2/10）当前仍然有效。**但实测也发现若干处旧版材料与 2026.7.15 的差异**（输出行格式、新增提问等），各涉及小节内有单独提醒，运行前仍建议以屏幕菜单为准。
+> 本教程中的菜单序号交叉核实自 Multiwfn 3.8 dev 时代的官方材料（卢天博文），并已在主人本机 Multiwfn 2026.7.15 上实测验证：主功能编号（0/5/6/7/9/12/13/18/100）与教程涉及的关键子菜单序号（格点函数 1/5/9/12、后处理菜单 0/2/5、13→11→5→0、9→1、9→8、7→5→1、6→3、18→1、100→2 及其 2/10）当前仍然有效。**但实测也发现若干处旧版材料与 2026.7.15 的差异**（输出行格式、新增提问等），各涉及小节内有单独提醒，运行前仍建议以屏幕菜单为准。
 
 ## 第 1 节：运行环境准备
 
@@ -366,23 +366,45 @@ echo "$t1 $t2" | awk '{ print "Predicted density: " a*$1+b*$2+g " g/cm^3"}' a=0.
 awk '{ print "Predicted density: " 0.9183*$1+0.0028*$2+0.0443 " g/cm^3"}'
 ```
 
-### 5.3 HOMO-LUMO gap 提取
+### 5.3 HOMO-LUMO gap 提取（主功能 6 → 3）
 
 单个体系完整版：
 
 ```bash
 Multiwfn water.fch -silent << EOF > out.txt
-0
+6
+3
+-1
 q
 EOF
-grep "HOMO-LUMO gap" out.txt | awk '{print $5}'
+awk '/^ Orb:/ {if ($7>0) {HOMO=$4} else if (LUMO=="") {LUMO=$4}} END {printf "%.4f eV\n", (LUMO-HOMO)*27.2114}' out.txt
+```
+
+逐行讲解：
+- `6`：主功能 6，查看/修改波函数；
+- `3`：列出全部轨道（2026.7.15 主功能 6 的子项 3 = List all orbitals）；
+- `-1`：返回主菜单；
+- `q`：退出。
+
+> [!warning] 主功能 6 里返回主菜单要按 -1，不是 0
+> 2026.7.15 主功能 6 的菜单里 `-1` 才是 Return；`0` 是 "Save the present wavefunction to new.wfn file in current folder"（把当前波函数存成 new.wfn）。按旧版习惯按 0 会生成 new.wfn 且回不到主菜单。
+
+被提取的原行形如（2026.7.15 实测，H2O.fch）：
+
+```txt
+ Orb:     5 Ene(au/eV):    -0.291961      -7.9447 Occ: 2.000000 Type:A+B
+ Orb:     6 Ene(au/eV):     0.065347       1.7782 Occ: 0.000000 Type:A+B
 ```
 
 讲解：
-- 主功能 `0` 输出体系信息，**必须加 `-silent`**，否则会弹出图形窗口；
-- 被提取的原行是 `HOMO-LUMO gap:    0.357320 a.u.    9.723178 eV    938.144245 kJ/mol`，按空格切分后第 5 个字段 `9.723178` 就是 eV 值。
+- 每行按空格切分：`$2`=轨道序号，`$4`=能量(a.u.)，`$5`=能量(eV)，`$7`=占据数；
+- 列表按能量从低到高排列，最后一个占据数 > 0 的轨道是 HOMO，第一个占据数 = 0 的是 LUMO；
+- awk 取两个能量的 a.u. 值相减再乘 27.2114 换成 eV，输出 `9.7229 eV`。
 
-批量版完整脚本（把当前目录下所有 .fch 的 gap 写进 gap.txt）：
+> [!note] 为什么不用主功能 0 的 gap 行
+> 3.8 时代主功能 0 会打印 `HOMO-LUMO gap: ... a.u. ... eV ... kJ/mol` 一行。2026.7.15 实测该行仍然存在，但只在输入文件含轨道信息时打印：.fch/.molden 有；.wfn 没有轨道、不打印；开壳层体系会打印 alpha/beta 两行，旧版 `awk '{print $5}'` 的提取会取错列。改用 6 → 3 轨道列表法可以同时拿到 HOMO/LUMO 能量与占据数，闭壳层体系的提取不再依赖主功能 0 的打印行为。
+
+批量版完整脚本（把当前目录下所有闭壳层 .fch 的 gap 写进 gap.txt）：
 
 ```bash
 #!/bin/bash
@@ -391,10 +413,12 @@ for inf in *.fch
 do
 echo Processing $inf ...
 Multiwfn $inf -silent << EOF > out.txt
-0
+6
+3
+-1
 q
 EOF
-gapthis=$(grep "HOMO-LUMO gap" out.txt | awk '{print $5}')
+gapthis=$(awk '/^ Orb:/ {if ($7>0) {HOMO=$4} else if (LUMO=="") {LUMO=$4}} END {printf "%.4f", (LUMO-HOMO)*27.2114}' out.txt)
 echo "$inf: $gapthis eV" >> gap.txt
 done
 rm -f out.txt
@@ -404,17 +428,24 @@ echo "Done! See gap.txt"
 讲解：
 - `$(...)` 把提取值捕获进变量；
 - 写入 gap.txt 用 `>>` 追加，所以每轮循环不会互相覆盖；
-- 循环结束后删掉临时文件 out.txt。
+- 循环结束后删掉临时文件 out.txt；
+- awk 里 `/^ Orb:/` 的行首锚定不能省：输出里还有 `GTF: ... Orb: ...` 这类信息行，不加锚定会把它们误当成轨道行。
+
+> [!warning] 开壳层体系不适用
+> 开壳层（unrestricted）体系的轨道列表格式不同：行首没有 `Orb:` 前缀，且 Alpha 轨道全部排在 Beta 轨道之前（实测乙醇三重态输出形如 `    14          E(au/eV):    -0.01014      -0.2759 Occ: 1.000000 Typ: A`）。本脚本对开壳层文件会输出空值或错误值，提取前先 `cat out.txt` 看真实格式再改 awk。
 
 > [!note] 关于卢天原版 getgap.sh
 > 卢天原版脚本还用 bc 统计平均值/最小值，但 cmder 里没有 bc，本教程给出的是纯 awk 版。原脚本见博文 http://sobereva.com/612。
 
-### 5.4 原子自旋布居提取（主功能 7）
+### 5.4 Mulliken 布居 / 原子自旋布居提取（主功能 7）
 
-完整版：
+> [!warning] 输入文件要含基函数信息
+> Mulliken 分析需要基函数，输入必须是 .fch/.molden/.molden.input 这类带基函数信息的文件；.wfn 不含基函数，跑 7 → 5 会直接崩溃（本机 2026.7.15 实测 forrtl severe (157) access violation）。
+
+闭壳层完整版（H2O.fch，提取 O 的 Population）：
 
 ```bash
-Multiwfn xxx.molden << EOF > out.txt
+Multiwfn H2O.fch << EOF > out.txt
 7
 5
 1
@@ -423,35 +454,65 @@ n
 0
 q
 EOF
-grep "Population of atoms:" -A 100 out.txt | grep "4(H )" | cut -c 41-51
+grep "Population of atoms:" -A 100 out.txt | grep "1(O )" | awk '{print $5}'
 ```
 
 逐行讲解：
 - `7`：主功能 7，布居分析；
 - `5`：选择 Mulliken 方法；
 - `1`：输出布居结果；
-- `n`：不导出 chg 文件；
+- `n`：不导出 chg 文件（回答 "If outputting atom coordinates with charges to H2O.chg in current folder? (y/n)"）；
 - `0`、`0`：逐级返回主菜单；
 - `q`：退出。
 
-输出原表形如：
+2026.7.15 闭壳层输出原表形如：
 
 ```txt
-Atom  Alpha pop.  Beta pop.  Spin pop.  Atomic charge
-4(H )  1.00000  0.00000  1.00000  0.00000
+Atom     1(O )    Population:  8.60985977    Net charge: -0.60985977
+Atom     2(H )    Population:  0.69507012    Net charge:  0.30492988
 ```
 
 讲解：
-- `-A 100` 锚定 "Population of atoms:" 之后的 100 行区域，防止文件别处也出现 `4(H )` 造成误抓；
-- `cut -c 41-51` 恰好切出 Spin pop. 列；
-- 若提取出空值，先 `cat out.txt` 查看原始输出行再调整列号（列区间依赖版本输出格式）。
+- 新版闭壳层输出只有 Population 和 Net charge 两列，3.8 时代的 Alpha pop./Beta pop./Spin pop./Atomic charge 四列表不再打印；
+- 按空格切分：`$2`、`$3` 合起来是原子标签（元素名占两个字符宽，O 后面带一个空格，标签被切成了 `1(O` 和 `)` 两段），`$5`=Population、`$8`=Net charge；
+- 提取 Net charge 把 `awk '{print $5}'` 改成 `awk '{print $8}'` 即可。
 
-批量版完整脚本（循环当前目录所有输入文件，如 *.molden.input，把每个体系第 4 个氢原子的自旋布居追加写入 4.txt）：
+开壳层完整版（乙醇三重态，提取 4 号氢的自旋布居）：
+
+```bash
+Multiwfn ethanol_triplet.fch << EOF > out.txt
+7
+5
+1
+n
+0
+0
+q
+EOF
+grep "Population of atoms:" -A 100 out.txt | grep "4(H )" | awk '{print $5}'
+```
+
+2026.7.15 开壳层输出原表形如：
+
+```txt
+     Atom      Alpha pop.   Beta pop.    Spin pop.     Atomic charge
+     4(H )      0.46846      0.43410      0.03437         0.09744
+```
+
+讲解：
+- 开壳层保留四列格式：`$3`=Alpha pop.、`$4`=Beta pop.、`$5`=Spin pop.、`$6`=Atomic charge，提取自旋布居用 `awk '{print $5}'`（实测 4(H ) 得 0.03437）；
+- 闭壳层不打印 Spin pop. 列，对闭壳层体系提取自旋布居会得到空值。
+
+两条命令共用的讲解：
+- `-A 100` 锚定 "Population of atoms:" 之后的 100 行区域，防止文件别处也出现 `4(H )` 造成误抓；
+- 列位置随版本变化，若提取出空值，先 `cat out.txt` 查看原始输出行再调整列号。
+
+批量版完整脚本（循环当前目录所有 .fch，把每个体系 4 号氢原子的自旋布居追加写入 4.txt）：
 
 ```bash
 #!/bin/bash
 rm -f 4.txt
-for inf in *.molden.input
+for inf in *.fch
 do
 echo Processing $inf ...
 Multiwfn $inf << EOF > out.txt
@@ -463,45 +524,52 @@ n
 0
 q
 EOF
-spinthis=$(grep "Population of atoms:" -A 100 out.txt | grep "4(H )" | cut -c 41-51)
+spinthis=$(grep "Population of atoms:" -A 100 out.txt | grep "4(H )" | awk '{print $5}')
 echo "$inf: $spinthis" >> 4.txt
 done
 rm -f out.txt
 echo "Done! See 4.txt"
 ```
 
+讲解：
+- 批量提取自旋布居只对开壳层体系有意义：闭壳层输出没有 Spin pop. 列（提取到空值），且体系里必须真的有 4 号氢原子；
+- 实测：ethanol_triplet.fch 得 0.03437，闭壳层的 H2O.fch 得空值。
+
 ### 5.5 Mayer 键级提取（主功能 9）
 
-完整版：
+完整版（H2O.fch，提取 O1-H2 键级）：
 
 ```bash
-Multiwfn xxx.molden << EOF > out.txt
+Multiwfn H2O.fch << EOF > out.txt
 9
 1
 n
 0
 q
 EOF
-grep "1(C )    3(C )" out.txt | cut -c 69-78
+grep "1(O )    2(H )" out.txt | awk '{print $NF}'
 ```
 
 逐行讲解：
 - `9`：主功能 9，键级分析；
 - `1`：Mayer 键级；
-- `n`：不导出键级矩阵；
+- `n`：不导出键级矩阵（回答 "If outputting bond order matrix to bndmat.txt in current folder? (y/n)"）；
 - `0`：返回主菜单；
 - `q`：退出。
 
-输出原行示例：
+2026.7.15 输出原行示例：
 
 ```txt
-#    1:    1(C )    2(H ) Alpha:   0.406768 Beta:  0.396838 Total:  0.803606
+ #    1:         1(O )    2(H )    0.89827717
 ```
 
-讲解：69–78 列正是 Total 后面的数值。
+讲解：
+- 新版只有一列 Total 数值，3.8 时代的 Alpha/Beta/Total 三列不再打印；
+- `awk '{print $NF}'` 直接取行尾最后一个字段，就是键级值（实测 0.89827717）；
+- 键级绝对值小于 0.05 的原子对不会打印（表头上写着 "Bond orders with absolute value >= 0.050000"）。
 
 > [!warning] 两个坑
-> 一是 grep 串 `"1(C )    3(C )"` 里的**空格个数必须和输出行完全一致**，不放心可用 `grep -E "1\(C \) +3\(C \)"` 更稳；二是 `cut -c` 的列区间依赖版本输出格式，**提取出空值时先 `cat out.txt` 看原始行，再调整列号**。
+> 一是 grep 串 `"1(O )    2(H )"` 里的**空格个数必须和输出行完全一致**（元素名占两个字符宽，`(O` 和 `)` 之间有一个空格），不放心可用 `grep -E "1\(O \) +2\(H \)"` 更稳；二是输出列格式随版本变化，**提取出空值时先 `cat out.txt` 看原始行**（用 `$NF` 取行尾值本身就比固定列号更抗版本变化）。
 
 ### 5.6（选学）拉普拉斯键级（主功能 9 的子项 8，导出 bndmat.txt）
 
@@ -512,6 +580,7 @@ Multiwfn xxx.molden << EOF > out.txt
 9
 8
 y
+0
 q
 EOF
 ```
@@ -520,9 +589,13 @@ EOF
 - `9`：主功能 9，键级分析；
 - `8`：拉普拉斯键级（Laplacian bond order）；
 - `y`：确认导出 bndmat.txt；
+- `0`：返回主菜单；
 - `q`：退出。
 
 运行结束后当前目录会多出 bndmat.txt。注意 8 是 3.8 dev 时代的序号，主人版本请以屏幕菜单为准。
+
+> [!warning] 为什么 y 之后要多按一次 0
+> 2026.7.15 实测：主功能 9 的菜单里没有 `q` 选项，`y` 确认导出后直接 `q` 会被当成菜单序号读入，触发 forrtl severe (59)（bndmat.txt 已正常生成，但报错吓人）。正确做法就是这里演示的"先 0 回菜单再 q"——即第 4 节的原则：指令结束时停在二级菜单，要先逐级 0 回主菜单再 q。
 
 ## 第 6 节：批量循环（ELF 计算，两种 shell 完整版）
 
@@ -716,54 +789,56 @@ move /Y totesp.cub %%~ni_totesp.cub
 - `move /Y` 强制覆盖不询问；
 - 用 `%%~ni` 前缀保证每个分子的产物独立命名（否则 density.cub 和 totesp.cub 每次同名生成，批量跑互相覆盖）。
 
-### 8.2 totesp.cub 乘 27.2114 转 eV（主功能 13→11→5）
+### 8.2 totesp.cub 乘 27.2114 转 eV（主功能 13→11→5，分两次运行）
 
-接在 ESPiso.txt 之后的完整追加指令：
+先按 8.1 生成 a.u. 版的 totesp.cub，再**另起一次** Multiwfn 对 totesp.cub 做乘法。第二次的指令文件 totesp_eV.txt 完整内容：
 
 ```txt
-r
-totesp.cub
 13
 11
 5
 27.2114
 0
 totesp.cub
+-1
+q
+```
+
+运行：
+
+```bash
+Multiwfn totesp.cub < totesp_eV.txt
 ```
 
 逐行含义：
-- `r`：重新载入文件；
-- `totesp.cub`：载入刚生成的 ESP 格点数据；
 - `13`：主功能 13，格点数据处理；
-- `11`：对格点数据做数学运算；
-- `5`：乘以一个数；
-- `27.2114`：Hartree→eV 换算系数；
-- `0`：把内存中的新数据导出为 cub——乘完常数必须走这一步才真正保存；
-- `totesp.cub`：导出文件名（写同名覆盖原文件，写新名字则另存）。
+- `11`：Grid data calculation（格点数据计算）；
+- `5`：乘以一个数（Multiplied by a constant）；
+- `27.2114`：Hartree→eV 换算系数（回答 "Input the value for the calculation"）；
+- `0`：把内存中的新数据导出为 cub——乘完常数必须走这一步才真正保存（回答 "Input path of the new cube file"）；
+- `totesp.cub`：导出文件名（写同名覆盖原文件，写新名字则另存）；
+- `-1`：返回主菜单（格点数据菜单里没有 q 选项）；
+- `q`：退出。
+
+> [!warning] 为什么要分两次运行
+> `r`（重新载入文件）只在**主菜单**有效，而 8.1 的 ESPiso.txt 结束时停在格点数据的后处理菜单（该菜单没有 r 选项）。把 `r` 和乘法指令直接拼到 ESPiso.txt 后面，`r` 会被当成菜单序号读入，触发 forrtl severe (59) 崩溃、乘法根本不执行（2026.7.15 实测）。所以必须分两次：第一次按 8.1 生成 totesp.cub，第二次重新启动 Multiwfn 载入 totesp.cub 做乘法。同理，第二次的收尾要先 `-1` 回主菜单再 `q`（第 4 节原则，格点数据菜单没有 q 选项）。
 
 > [!warning] 两个提醒
 > 一是不走"0 导出"这一步，乘法只在内存里、关掉程序就没了；二是想同时保留 a.u. 版和 eV 版，导出时换个文件名（如 totesp_eV.cub）。
 
-完整一键版：把 8.1 的 8 行和 8.2 的 8 行拼成一个 16 行指令文件，一次跑完直接得到 eV 版 totesp.cub：
+第二次运行也可以写成 bash heredoc：
 
-```txt
-5
-1
-2
-2
-0
-5
-12
-1
-2
-r
-totesp.cub
+```bash
+Multiwfn totesp.cub << EOF > out.txt
 13
 11
 5
 27.2114
 0
 totesp.cub
+-1
+q
+EOF
 ```
 
 ### 8.3（选学）自旋密度 cub 批量生成（主功能 5 的子项 5）
@@ -841,6 +916,7 @@ Multiwfn $inf << EOF > /dev/null
 2
 10
 ${inf//out/gjf}
+n
 0
 q
 EOF
@@ -853,7 +929,10 @@ done
 - `for inf in *.out`：循环当前目录下所有 out 文件；
 - `((icc++))`：icc 加 1，表示正在处理第几个文件；
 - `echo Converting $inf to ${inf//out/gjf} ... \($icc of $nfile\)`：打印进度（`\(`、`\)` 是原作者脚本的习惯写法，bash 的 echo 不加 `-e` 时反斜杠会原样显示为 `\(5 of 151\)`，不影响功能；若想去掉反斜杠，把 `\(`、`\)` 改成 `(`、`)` 即可）；`${inf//out/gjf}` 把文件名的扩展名从 out 改成 gjf；
-- heredoc 内各行：`100`=主功能 100；`2`=导出文件和产生输入文件；`10`=产生 Gaussian 输入文件；`${inf//out/gjf}`=新产生的 gjf 文件名（heredoc 未加引号，变量会被 bash 展开）；`0`=返回主菜单；`q`=优雅退出。
+- heredoc 内各行：`100`=主功能 100；`2`=导出文件和产生输入文件；`10`=产生 Gaussian 输入文件；`${inf//out/gjf}`=新产生的 gjf 文件名（heredoc 未加引号，变量会被 bash 展开）；`n`=回答 2026.7.15 新增的提问 "Do you also want to write current wavefunction as initial guess into the .gjf file? (y/n)"，选 n 表示不把当前波函数写入 gjf 初猜（想生成带初猜的 gjf 可改 y）；`0`=返回主菜单；`q`=优雅退出。
+
+> [!warning] 新增提问只在输入文件含波函数时出现
+> 实测：含波函数的 .fch 转 gjf 会问上面这句话，不答 n 就会 severe (59)；但只含几何的 Gaussian .out（如官方 examples 里的 DMNAO/NAOMO/极化率任务输出，载入时只有 "Geometry ... has been loaded from this file"、没有 "Loading orbitals..."）**不会**问这句话，此时脚本里的 `n` 行是多余输入，会导致 forrtl severe (59) 报错（gjf 文件本身已正常生成）。这类文件把 heredoc 里的 `n` 行删掉即可（100/2/10/文件名/0/q，本机实测 exit=0）。判断方法：看启动输出的载入信息里有没有 "Loading orbitals..."。
 
 运行示例提示：
 
@@ -937,15 +1016,15 @@ Linux/Mac：终端里鼠标选中即可。
 
 | 用途 | 菜单路径 | 版本状态 |
 |---|---|---|
-| 查看结构 / HOMO-LUMO gap | 0 | 已核实 |
+| 查看结构 / HOMO-LUMO gap | 0；6 → 3（列全部轨道能量自算 gap，见 5.3 节） | 2026.7.15 实测（0 的 gap 行只在输入含轨道信息时打印，.wfn 无） |
 | 计算格点数据（密度 1 / ELF 9 / 自旋密度 5 / 静电势 12） | 5 → 序号 → 格点质量 → 2 | ELF 的 9、自旋密度的 5 需以屏幕为准 |
-| Mulliken 布居分析（自旋布居） | 7 → 5 → 1 | 已核实（3.8 dev 时代） |
-| Mayer 键级 | 9 → 1 | 已核实（3.8 dev 时代） |
-| 拉普拉斯键级 | 9 → 8 → y | 已核实（3.8 dev 时代） |
+| Mulliken 布居分析（自旋布居） | 7 → 5 → 1 | 2026.7.15 实测（输入须含基函数信息；闭壳层无 Spin pop. 列，开壳层才有） |
+| Mayer 键级 | 9 → 1 | 2026.7.15 实测（输出单列 Total） |
+| 拉普拉斯键级 | 9 → 8 → y（收尾 0 → q） | 2026.7.15 实测 |
 | 定量分子表面分析（Estimated density） | 12 → 0 | 已核实（3.8 dev 时代） |
-| 格点数据乘常数 | 13 → 11 → 5 | 已核实（3.8 dev 时代） |
+| 格点数据乘常数 | 13 → 11 → 5 → 0 导出 | 2026.7.15 实测 |
 | 空穴-电子分析 | 18 → 1 | 已核实（3.8 dev 时代） |
-| 导出文件 / 格式转换 | 100 → 2 | 子格式序号以屏幕为准 |
+| 导出文件 / 格式转换 | 100 → 2 | 子格式序号以屏幕为准；10=gjf 视输入是否含波函数多一问（见 9.1 节） |
 
 ## 附录 B：三种 shell 语法速查表
 
