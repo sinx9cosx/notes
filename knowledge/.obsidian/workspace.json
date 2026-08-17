@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
+                "file": "instrument/linux/linux常用命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiwfn命令行操作完整教程"
+              "title": "linux常用命令"
             }
           }
         ],
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
+                "file": "instrument/linux/linux常用命令.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -263,8 +263,10 @@
   },
   "active": "2f52fc3a497526c7",
   "lastOpenFiles": [
-    "instrument/Multiwfn/Multiwfn手册第一章.md",
+    "sci_research/spectrum/TD-DFT项目操作全流程.md",
     "sci_research/TBR/TBR test.md",
+    "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
+    "instrument/Multiwfn/Multiwfn手册第一章.md",
     "instrument/linux/linux常用命令.md",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.be17e703971f",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.f0d6417274b8",
@@ -278,7 +280,6 @@
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.ee5aacd00688",
     "instrument/linux/vim使用教程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
-    "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "index/Multiwfn手册.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/spectrum/光谱分类总览.md",
@@ -288,7 +289,6 @@
     "index/26春-物化作业汇总.md",
     "sci_research/spectrum/TD-DFT calculation results.md",
     "sci_research/image/excitation.jpg",
-    "sci_research/spectrum/TD-DFT项目操作全流程.md",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
     "instrument/linux/linux运行软件.md",
     "instrument/linux/image/file.jpg",
