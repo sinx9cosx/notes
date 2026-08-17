@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/Multiwfn手册2.1-2.5.md",
+                "file": "Multiwfn手册5.2-5.5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiwfn手册2.1-2.5"
+              "title": "Multiwfn手册5.2-5.5"
             }
           },
           {
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/Multiwfn手册2.1-2.5.md",
+                "file": "Multiwfn手册5.2-5.5.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -263,8 +263,9 @@
   },
   "active": "b48eefdc58c599e9",
   "lastOpenFiles": [
-    "index/Multiwfn手册.md",
     "sci_research/Multiwfn手册2.1-2.5.md",
+    "Multiwfn手册5.2-5.5.md",
+    "index/Multiwfn手册.md",
     "sci_research/Multiwfn手册第一章.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/image/file_format.jpg",
