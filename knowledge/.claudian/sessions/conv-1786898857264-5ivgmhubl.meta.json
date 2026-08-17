@@ -4,8 +4,8 @@
   "title": "检查笔记内容",
   "titleGenerationStatus": "success",
   "createdAt": 1786898857265,
-  "updatedAt": 1786931789659,
-  "lastResponseAt": 1786931789659,
+  "updatedAt": 1786933589830,
+  "lastResponseAt": 1786933589830,
   "sessionId": "cb531e84-885c-4c08-bc38-a9cc3a8386e6",
   "providerState": {
     "providerSessionId": "cb531e84-885c-4c08-bc38-a9cc3a8386e6",
@@ -300,12 +300,11 @@
   "currentNote": "sci_research/激发态和光谱计算.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 94,
+    "inputTokens": 1545,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 52096,
-    "contextWindow": 1000000,
-    "contextTokens": 52190,
-    "percentage": 5,
-    "contextWindowIsAuthoritative": true
+    "cacheReadInputTokens": 58496,
+    "contextWindow": 200000,
+    "contextTokens": 60041,
+    "percentage": 30
   }
 }
