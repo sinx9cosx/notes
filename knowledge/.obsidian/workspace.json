@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "sci_research/TBR/TBR test.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/linux/linux常用命令.md",
+                "file": "sci_research/TBR/TBR test.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,13 +261,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2f52fc3a497526c7",
+  "active": "969b5f8374d88c15",
   "lastOpenFiles": [
+    "instrument/linux/linux常用命令.md",
     "sci_research/spectrum/TD-DFT项目操作全流程.md",
     "sci_research/TBR/TBR test.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
-    "instrument/linux/linux常用命令.md",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.be17e703971f",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.f0d6417274b8",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.e3c800594502",
