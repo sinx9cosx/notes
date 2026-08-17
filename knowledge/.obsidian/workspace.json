@@ -243,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -263,11 +263,13 @@
   },
   "active": "b48eefdc58c599e9",
   "lastOpenFiles": [
+    "index/Multiwfn手册.md",
+    "sci_research/Multiwfn手册2.1-2.5.md",
+    "sci_research/Multiwfn手册第一章.md",
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+    "sci_research/image/file_format.jpg",
     "sci_research/光谱分类总览.md",
     "sci_research/光谱分类总览.md.tmp.17848.34807713066a",
-    "sci_research/Multiwfn手册第一章.md",
-    "sci_research/Multiwfn手册2.1-2.5.md",
-    "index/Multiwfn手册.md",
     "index/26春-物化作业汇总.md",
     "sci_research/激发态和光谱计算.md",
     "sci_research/激发态和光谱计算.md.tmp.17848.dfca687a946a",
@@ -278,7 +280,6 @@
     "sci_research/激发态和光谱计算.md.tmp.17848.8c43a8ac18ec",
     "sci_research/激发态和光谱计算.md.tmp.17848.d703e58ebce3",
     "sci_research/TD-DFT calculation results.md",
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/image/excitation.jpg",
     "sci_research/TD-DFT项目操作全流程.md",
     "linux/vim使用教程.md",
@@ -304,7 +305,6 @@
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第一轮阅读（第2-6章小结+结论）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第一轮阅读（摘要+第一章）.md",
-    "physchem/量子力学.md",
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",
@@ -314,7 +314,6 @@
     "physchem/images/hwPIW6.png",
     "physchem/统计力学三大系综与温度角色.canvas",
     "physchem/images/ideal gas chem potential.jpg",
-    "physchem/images/clausius inequality.jpg",
     "physchem/Gibbs Paradox.canvas",
     "物理化学/量子力学导图.canvas"
   ]

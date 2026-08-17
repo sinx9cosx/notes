@@ -21,7 +21,7 @@ Multiwfn中的少数功能依赖于Gaussian，如果您需要进行这些分析�
 
 如果您希望Multiwfn能够直接打开Gaussian生成的.chk文件，请在settings.ini中将“formchkpath”设置为Gaussian软件包中formchk可执行文件的实际路径。
 
-**2.1.2 Linux版本**
+### 2.1.2 Linux版本
 
 注意：本节的中文版本是我的博文“Linux下安装Multiwfn的中文说明”（http://sobereva.com/688）。
 
@@ -48,7 +48,7 @@ Multiwfn的Linux版本在CentOS 6/7/8、Rocky Linux 9以及Ubuntu 12/14/16/22上
 
 如果您因缺少某些图形相关库文件或不兼容而无法运行/编译Multiwfn，并且同时您不需要Multiwfn的任何可视化功能，您可以运行/编译不支持GUI的Multiwfn，所有与GUI和地图绘制无关的功能仍将正常工作。请查看源代码包中的“COMPLIATION_METHOD.txt”文件，了解如何编译这个特殊版本，该版本的预编译可执行文件也可以从Multiwfn网站下载（称为“noGUI”版本）。
 
-**2.1.3 Mac OS版本**
+### 2.1.3 Mac OS版本
 
 由于我不是MacOS用户，因此没有MacOS版本的Multiwfn发布。如果您想在MacOS上编译Multiwfn，请查看 https://github.com/digital-chemistry-laboratory/multiwfn-mac-build。如果您能阅读中文，请参见 http://bbs.keinsci.com/thread-46059-1-1.html。
 
@@ -67,7 +67,7 @@ OMP_STACKSIZE定义了并行实现中每个线程的堆栈大小（以字节为�
 一位Multiwfn用户Maciej Spiegel提供了在MacOS上运行Multiwfn的替代方法：
 首先，用户应下载最新版本的Unofficial Wineskin (https://github.com/Gcenx/WineskinServer/releases/tag/V1.8.4)。之后，运行它，更新wrapper版本并下载一个最新的引擎。这些引擎是 WS11WineCX64Bit19.0.1-1（用于64位系统）或 WS11WineCX19.0.1-1（用于32位系统）。最后，创建一个新的wrapper并使用Windows GUI安装程序。
 
-**2.2 使用Multiwfn**
+## 2.2 使用Multiwfn
 
 使用Multiwfn非常简单，只需阅读屏幕上显示的提示，您就会知道下一步应该输入什么。如果您遇到困难，请仔细阅读第3章中的相应部分或第4章中的相应教程。
 
@@ -81,7 +81,7 @@ OMP_STACKSIZE定义了并行实现中每个线程的堆栈大小（以字节为�
 
 Multiwfn也可以以静默模式而非交互模式运行，这样用户在运行过程中无需按任何键盘按钮。这对于批处理很有用，请参考第5.2和5.3节。
 
-**支持的参数**
+### 支持的参数
 
 为了方便，通过命令行运行Multiwfn时可以添加一些参数：
 
@@ -95,7 +95,7 @@ Multiwfn COCl2.fch -nt 36 -set /sob/tmp/settings.ini -silent
 
 这些参数的优先级高于settings.ini中的参数。如果在Multiwfn启动时找不到settings.ini，这些参数将不会生效，只会使用默认参数。
 
-**2.3 Multiwfn的文件**
+## 2.3 Multiwfn的文件
 
 解压Multiwfn包后，您会看到以下文件，只有加粗的文件是运行Multiwfn所必需的：
 
@@ -108,30 +108,19 @@ Multiwfn COCl2.fch -nt 36 -set /sob/tmp/settings.ini -silent
 * Multiwfn快速入门.pdf：一份简短文档，让新用户立即了解如何使用Multiwfn完成非常常见的任务。
 * How to cite Multiwfn.pdf：请根据此文档正确引用Multiwfn。
 
-**2.4 并行实现**
+## 2.4 并行实现
 
 Multiwfn的大部分耗时代码已通过OpenMP技术并行化。如果您的CPU有多个核心，您可以极大地受益于并行化。要启用并行化，只需将settings.ini中的“nthreads”参数修改为合适的数字。例如，您的计算机有一个12核物理核心的CPU，那么通常您应该将“nthreads”改为12。
 
 如果在处理非常大的体系时并行计算导致Multiwfn崩溃，请尝试增大settings.ini中的“ompstacksize”（对于Windows版本）或增大环境变量OMP_STACKSIZE的值（对于Linux或Mac OS版本）。
 
-**2.5 输入文件和波函数类型**
+## 2.5 输入文件和波函数类型
 
 Multiwfn支持的波函数类型包括限制性/非限制性单行列式波函数、限制性开壳层波函数和后HF波函数（以自然轨道形式）。
 
 支持角动量最高到h的Cartesian或球谐Gaussian函数。Multiwfn对原子/基函数/GTF/轨道的数量没有上限，实际上限仅由您计算机的可用内存决定。Multiwfn通过文件扩展名来确定输入文件类型。请注意，不同的功能需要不同类型的信息，您应该选择合适的输入文件类型，见下表。例如，Hirshfeld布居分析只需要由GTF表示的波函数，因此您可以使用.mwfn/.fch/.molden/.gms/.31~.40/.wfn/.wfx文件作为输入，但不能使用.pdb、.xyz、.mol等文件，因为它们不携带任何波函数信息；相反，在分子态近似下生成RDG函数的网格数据仅需要原子坐标，因此所有支持的文件格式都可以使用（纯文本文件除外）。每个功能对信息类型的要求通常在第3章相应部分的末尾用红色文本说明。
 
-**文件格式** | **提供的信息类型**
-:--- | :---
-| **基函数** | **GTFs** | **原子坐标** | **格点数据** | **原子电荷**
-.fch/.fchk/.chk | ✓ | ✓ | ✓ | ✗ | ✗
-.mwfn, .molden, .gbw, .gms | ✓ | ✓ | ✓ | ✗ | ✗
-NBOplot文件 (.31 to .40) | ✗ | ✓ | ✓ | ✗ | ✗
-.wfn and .wfx | ✗ | ✓ | ✓ | ✗ | ✗
-.pdb, .xyz, .mol/sdf, .mol2, .gro, .cif, .mop, Gaussian/ORCA输入/输出文件, CP2K输入/重启文件, POSCAR, Quantum ESPRESSO输入文件, Turbomole坐标文件 | ✗ | ✗ | ✓ | ✗ | ✗
-.chg and .pqr | ✗ | ✗ | ✓ | ✗ | ✓
-.cub/.cube, CHGCAR/CHG/ELFCAR/LOCPOT | ✗ | ✗ | ✓ | ✓ | ✗
-.vti, .grd, .dx | ✗ | ✗ | ✗ | ✓ | ✗
-其他（纯文本文件） | ✗ | ✗ | ✗ | ✗ | ✗
+![[file_format.jpg]]
 
 关于幽灵原子：在下面描述的任何波函数格式中，都允许出现幽灵原子（有基函数但没有核电荷的点）。它们的元素索引应为0，如果文件格式记录了元素名称，幽灵原子的元素名称应为Bq。Multiwfn以常规方式从文件中加载它们的核电荷，但原则上，由于它们是幽灵原子，核电荷应为零。
 
@@ -167,12 +156,12 @@ Q-Chem和PSI4生成的.fchk文件也可以用作Multiwfn的输入文件。（如
 
 虽然Molden输入文件也支持Slater型轨道(STO)，Multiwfn只能利用记录Gaussian型基函数的Molden输入文件。
 
-Molden格式的一个严重缺点是它不像wfn和fch等其他格式那样明确记录核电荷，因此当使用ECP时，依赖核电荷的结果（如静电势和原子电荷）将出现问题。为了解决这个问题，Multiwfn会加载文件中的原子索引（即[Atoms]字段中的第三列）作为核电荷，因此，如果您手动将原子索引更改为量子化学计算中明确表示的原子价电子数（等效于有效核电荷），则结果将是正确的。如果您对此感到困惑，请查看此帖：http://sobereva.com/wfnbbs/viewtopic.php?pid=721。或者，您可以在此文件开头手动插入[Nval]字段，以明确指定特定元素的价电子数；例如，以下几行要求Multiwfn将Na和Cl的价电子数分别设置为9和7，而其他元素的保持不变。
-[Nval]
+Molden格式的一个严重缺点是它不像wfn和fch等其他格式那样明确记录核电荷，因此当使用ECP时，依赖核电荷的结果（如静电势和原子电荷）将出现问题。为了解决这个问题，Multiwfn会加载文件中的原子索引（即$[Atoms]$字段中的第三列）作为核电荷，因此，如果您手动将原子索引更改为量子化学计算中明确表示的原子价电子数（等效于有效核电荷），则结果将是正确的。如果您对此感到困惑，请查看此帖：http://sobereva.com/wfnbbs/viewtopic.php?pid=721。或者，您可以在此文件开头手动插入$[Nval]$字段，以明确指定特定元素的价电子数；例如，以下几行要求Multiwfn将Na和Cl的价电子数分别设置为9和7，而其他元素的保持不变。
+$[Nval]$
 Na 9
 Cl 7
 
-值得注意的是，如果您使用ORCA >=6.0，则无需对molden文件执行上述修改，因为ORCA导出的molden文件包含[Pseudo]字段，该字段为使用ECP的原子提供了正确的核电荷，Multiwfn会自动加载它（在这种情况下，molden文件的标题行必须包含orca字样，以便Multiwfn识别它是由ORCA生成的）。
+值得注意的是，如果您使用ORCA >=6.0，则无需对molden文件执行上述修改，因为ORCA导出的molden文件包含$[Pseudo]$字段，该字段为使用ECP的原子提供了正确的核电荷，Multiwfn会自动加载它（在这种情况下，molden文件的标题行必须包含orca字样，以便Multiwfn识别它是由ORCA生成的）。
 
 使用Molden输入文件作为波函数载体的另一个明显缺点是此格式不如.mwfn和.fch紧凑。因此，对于相同的波函数，加载.molden文件的速度比.mwfn和.fch慢得多。因此，如果您需要频繁分析.molden文件，我建议您使用主功能100的子功能2将其转换为.mwfn格式。
 
@@ -243,8 +232,3 @@ Gaussian和ORCA输出文件可以为Multiwfn提供原子信息。
 
 **纯文本文件**：此文件类型仅用于特殊功能，例如绘制DOS图、绘制光谱、生成具有初始猜测的Gaussian输入文件。请参阅相应部分的说明。
 
----
-
-第二章的第2.1至2.5节翻译完毕。这部分详细介绍了Multiwfn在不同操作系统下的安装方法、基本使用方式、程序文件构成、并行计算设置，以及最重要的部分——各种支持的输入文件格式及其用途。
-
-接下来是否继续翻译第2.6节“Real space functions”（实空间函数）？
