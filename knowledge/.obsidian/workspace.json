@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index/Multiwfn手册.md",
+                "file": "sci_research/光谱分类总览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiwfn手册"
+              "title": "光谱分类总览"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index/Multiwfn手册.md",
+                "file": "sci_research/光谱分类总览.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -243,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -261,11 +261,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b48eefdc58c599e9",
+  "active": "364011b5c178a37c",
   "lastOpenFiles": [
     "sci_research/Multiwfn手册5.2-5.5.md",
-    "sci_research/Multiwfn手册2.1-2.5.md",
     "index/Multiwfn手册.md",
+    "sci_research/Multiwfn手册2.1-2.5.md",
     "sci_research/Multiwfn手册第一章.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/image/file_format.jpg",

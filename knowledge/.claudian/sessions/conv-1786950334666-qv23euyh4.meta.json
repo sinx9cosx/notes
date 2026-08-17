@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786950334666-qv23euyh4",
+  "providerId": "claude",
+  "title": "Explain command writing with complete examples",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786950334667,
+  "updatedAt": 1786950489538,
+  "lastResponseAt": 1786950489538,
+  "sessionId": "fb75dfb2-577e-4e5a-9c36-93522c078182",
+  "providerState": {
+    "providerSessionId": "fb75dfb2-577e-4e5a-9c36-93522c078182"
+  },
+  "currentNote": "sci_research/Multiwfn手册5.2-5.5.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1501,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32896,
+    "contextWindow": 1000000,
+    "contextTokens": 34397,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
