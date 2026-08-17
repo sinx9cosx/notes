@@ -366,12 +366,60 @@ echo "$t1 $t2" | awk '{ print "Predicted density: " a*$1+b*$2+g " g/cm^3"}' a=0.
 awk '{ print "Predicted density: " 0.9183*$1+0.0028*$2+0.0443 " g/cm^3"}'
 ```
 
-### 5.3 HOMO-LUMO gap 提取（主功能 6 → 3）
+### 5.3 HOMO-LUMO gap 提取（方案 A：主功能 0 直接打印 / 方案 B：主功能 6 → 3 自算）
+
+#### 方案 A（推荐）：主功能 0 直接打印 gap 行（适用 .fch/.molden 等含轨道信息的文件）
 
 单个体系完整版：
 
 ```bash
-Multiwfn water.fch -silent << EOF > out.txt
+Multiwfn H2O.fch -silent << EOF > out.txt
+0
+q
+EOF
+grep "HOMO-LUMO gap" out.txt | awk '{print $5}'
+```
+
+逐行讲解：
+- `0`：主功能 0，显示分子结构和轨道信息；
+- `q`：退出程序。
+
+被提取的原行形如（2026.7.15 实测，H2O.fch）：
+
+```txt
+       HOMO-LUMO gap:    0.357308 a.u.    9.722836 eV    938.111318 kJ/mol
+```
+
+讲解：
+- 按空格切分：`$3`=gap 的 a.u. 值，`$5`=eV 值，`$7`=kJ/mol 值，`awk '{print $5}'` 提取 eV（实测 9.722836）；
+- 该行只在输入文件**含轨道信息**时打印：.fch/.molden 有，.wfn 不打印（.wfn 请用方案 B）；
+- 开壳层体系会打印 alpha/beta 两行（实测乙醇三重态输出形如 `HOMO-LUMO gap of alpha orbitals:    0.097328 a.u.    2.648436 eV` 和 `HOMO-LUMO gap of beta orbitals: ...`），两行都会被 grep 抓到且 `$5` 不再是数值；只算闭壳层体系时把 grep 串改成 `"HOMO-LUMO gap: "`（冒号后带空格，开壳层行是 `gap of ...` 不会被匹配，实测可过滤）。
+
+批量版完整脚本（把当前目录下所有闭壳层 .fch 的 gap 写进 gap.txt；变量捕获、`>>` 追加、删除临时文件等讲解要点与下方方案 B 批量版相同）：
+
+```bash
+#!/bin/bash
+rm -f gap.txt
+for inf in *.fch
+do
+echo Processing $inf ...
+Multiwfn $inf -silent << EOF > out.txt
+0
+q
+EOF
+gapthis=$(grep "HOMO-LUMO gap" out.txt | awk '{print $5}')
+echo "$inf: $gapthis eV" >> gap.txt
+done
+rm -f out.txt
+echo "Done! See gap.txt"
+```
+
+#### 方案 B（.wfn 等不打印 gap 行的文件）：主功能 6 → 3 列轨道能量自算
+
+单个体系完整版：
+
+```bash
+Multiwfn H2O.fch -silent << EOF > out.txt
 6
 3
 -1
@@ -401,8 +449,8 @@ awk '/^ Orb:/ {if ($7>0) {HOMO=$4} else if (LUMO=="") {LUMO=$4}} END {printf "%.
 - 列表按能量从低到高排列，最后一个占据数 > 0 的轨道是 HOMO，第一个占据数 = 0 的是 LUMO；
 - awk 取两个能量的 a.u. 值相减再乘 27.2114 换成 eV，输出 `9.7229 eV`。
 
-> [!note] 为什么不用主功能 0 的 gap 行
-> 3.8 时代主功能 0 会打印 `HOMO-LUMO gap: ... a.u. ... eV ... kJ/mol` 一行。2026.7.15 实测该行仍然存在，但只在输入文件含轨道信息时打印：.fch/.molden 有；.wfn 没有轨道、不打印；开壳层体系会打印 alpha/beta 两行，旧版 `awk '{print $5}'` 的提取会取错列。改用 6 → 3 轨道列表法可以同时拿到 HOMO/LUMO 能量与占据数，闭壳层体系的提取不再依赖主功能 0 的打印行为。
+> [!note] 为什么还提供方案 B
+> 方案 A 依赖主功能 0 的打印行为：.wfn 不打印 gap 行；开壳层体系打印 alpha/beta 两行（`awk '{print $5}'` 会取错列）。方案 B 的 6 → 3 轨道列表法不依赖该打印行为，还能同时拿到 HOMO/LUMO 能量与占据数，通用性更强。
 
 批量版完整脚本（把当前目录下所有闭壳层 .fch 的 gap 写进 gap.txt）：
 
@@ -1016,7 +1064,7 @@ Linux/Mac：终端里鼠标选中即可。
 
 | 用途 | 菜单路径 | 版本状态 |
 |---|---|---|
-| 查看结构 / HOMO-LUMO gap | 0；6 → 3（列全部轨道能量自算 gap，见 5.3 节） | 2026.7.15 实测（0 的 gap 行只在输入含轨道信息时打印，.wfn 无） |
+| 查看结构 / HOMO-LUMO gap | 0（含轨道信息文件，grep gap 行取第 5 列）；6 → 3（.wfn 等，自算 gap） | 2026.7.15 实测（见 5.3 节：0 的 gap 行 .wfn 不打印、开壳层打印 α/β 两行） |
 | 计算格点数据（密度 1 / ELF 9 / 自旋密度 5 / 静电势 12） | 5 → 序号 → 格点质量 → 2 | ELF 的 9、自旋密度的 5 需以屏幕为准 |
 | Mulliken 布居分析（自旋布居） | 7 → 5 → 1 | 2026.7.15 实测（输入须含基函数信息；闭壳层无 Spin pop. 列，开壳层才有） |
 | Mayer 键级 | 9 → 1 | 2026.7.15 实测（输出单列 Total） |
