@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/linux/linux常用命令.md",
+                "file": "sci_research/spectrum/TD-DFT calculation results.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux常用命令"
+              "title": "TD-DFT calculation results"
             }
           },
           {
@@ -263,8 +263,9 @@
   },
   "active": "969b5f8374d88c15",
   "lastOpenFiles": [
-    "instrument/linux/linux常用命令.md",
+    "sci_research/spectrum/TD-DFT calculation results.md",
     "sci_research/spectrum/TD-DFT项目操作全流程.md",
+    "instrument/linux/linux常用命令.md",
     "sci_research/TBR/TBR test.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
@@ -287,7 +288,6 @@
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
     "sci_research/image/file_format.jpg",
     "index/26春-物化作业汇总.md",
-    "sci_research/spectrum/TD-DFT calculation results.md",
     "sci_research/image/excitation.jpg",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
     "instrument/linux/linux运行软件.md",
