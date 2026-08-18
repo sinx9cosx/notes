@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/spectrum/TD-DFT calculation results.md",
+                "file": "instrument/linux/linux常用命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TD-DFT calculation results"
+              "title": "linux常用命令"
             }
           },
           {
@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "sci_research/TBR/TBR test.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -105,8 +105,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -250,15 +249,16 @@
   },
   "active": "969b5f8374d88c15",
   "lastOpenFiles": [
-    "sci_research/spectrum/激发态和光谱计算.md",
-    "sci_research/TBR/TBR test.md",
-    "instrument/linux/vim使用教程.md",
     "instrument/linux/linux常用命令.md",
+    "instrument/linux/linux运行软件.md",
+    "instrument/linux/vim使用教程.md",
+    "sci_research/spectrum/TD-DFT calculation results.md",
+    "sci_research/TBR/TBR test.md",
+    "sci_research/spectrum/激发态和光谱计算.md",
     "TOFEL/错误类型.canvas",
     "TOFEL/填词/TOFEL 填词_Article 1.md",
     "TOFEL/填词",
     "TOFEL",
-    "sci_research/spectrum/TD-DFT calculation results.md",
     "sci_research/spectrum/TD-DFT项目操作全流程.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
@@ -279,7 +279,6 @@
     "index/26春-物化作业汇总.md",
     "sci_research/image/excitation.jpg",
     "quantum chemistry/偶极强度与吸收系数的关系.md",
-    "instrument/linux/linux运行软件.md",
     "instrument/linux/image/file.jpg",
     "instrument/linux/vim示意图.canvas",
     "instrument/linux/image/vim.png",
