@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "sci_research/TBR/TBR test.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:computer",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -262,12 +262,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2f52fc3a497526c7",
+  "active": "969b5f8374d88c15",
   "lastOpenFiles": [
+    "sci_research/spectrum/激发态和光谱计算.md",
+    "sci_research/TBR/TBR test.md",
+    "instrument/linux/vim使用教程.md",
     "instrument/linux/linux常用命令.md",
     "TOFEL/错误类型.canvas",
     "TOFEL/填词/TOFEL 填词_Article 1.md",
-    "sci_research/TBR/TBR test.md",
     "TOFEL/填词",
     "TOFEL",
     "sci_research/spectrum/TD-DFT calculation results.md",
@@ -282,8 +284,6 @@
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.bd1a41c5fb2b",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.538462730ed8",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.62ffb3ff215d",
-    "instrument/linux/vim使用教程.md",
-    "sci_research/spectrum/激发态和光谱计算.md",
     "index/Multiwfn手册.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/spectrum/光谱分类总览.md",
