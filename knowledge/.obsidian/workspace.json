@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/linux/linux常用命令.md",
+                "file": "instrument/linux/vim使用教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux常用命令"
+              "title": "vim使用教程"
             }
           }
         ],
@@ -262,8 +262,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "bd1b435e45338c75",
+  "active": "2f52fc3a497526c7",
   "lastOpenFiles": [
+    "instrument/linux/linux常用命令.md",
     "TOFEL/错误类型.canvas",
     "TOFEL/填词/TOFEL 填词_Article 1.md",
     "sci_research/TBR/TBR test.md",
@@ -271,7 +272,6 @@
     "TOFEL",
     "sci_research/spectrum/TD-DFT calculation results.md",
     "sci_research/spectrum/TD-DFT项目操作全流程.md",
-    "instrument/linux/linux常用命令.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.be17e703971f",
