@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "半",
+                "query": "tag:computer",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +119,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -261,10 +262,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "bd1b435e45338c75",
   "lastOpenFiles": [
-    "TOFEL/填词/TOFEL 填词_Article 1.md",
     "TOFEL/错误类型.canvas",
+    "TOFEL/填词/TOFEL 填词_Article 1.md",
     "sci_research/TBR/TBR test.md",
     "TOFEL/填词",
     "TOFEL",
