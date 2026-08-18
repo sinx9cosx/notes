@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"0b29e25200e530b2","x":-560,"y":-80,"width":250,"height":60,"color":"1","type":"text","text":"填词题错误类型"},
+		{"id":"9606a0d3c4ac9bd7","x":-100,"y":-355,"width":325,"height":110,"color":"4","type":"text","text":"A 主动回忆失败：看见词语马上知道意思，但自己想不出来"},
+		{"id":"654491b2568e49c4","x":-100,"y":-180,"width":285,"height":130,"color":"5","type":"text","text":"B 词义知道，但语境没想到：词义、搭配、语境掌握问题"},
+		{"id":"69c552ce5be12db4","x":-100,"y":25,"width":265,"height":90,"color":"4","type":"text","text":"C 没想到这个方向：解题思路问题"},
+		{"id":"8eb271bad3b168f8","x":-100,"y":205,"width":250,"height":60,"color":"5","type":"text","text":"D 不认识单词"}
+	],
+	"edges":[
+		{"id":"292eed42ccfb2a1c","fromNode":"0b29e25200e530b2","fromSide":"right","toNode":"9606a0d3c4ac9bd7","toSide":"left"},
+		{"id":"fd0e682fc68cf083","fromNode":"0b29e25200e530b2","fromSide":"right","toNode":"654491b2568e49c4","toSide":"left"},
+		{"id":"e527aa3ad6367d09","fromNode":"0b29e25200e530b2","fromSide":"right","toNode":"69c552ce5be12db4","toSide":"left"},
+		{"id":"21eec4a0a3f1c44a","fromNode":"0b29e25200e530b2","fromSide":"right","toNode":"8eb271bad3b168f8","toSide":"left"}
+	]
+}

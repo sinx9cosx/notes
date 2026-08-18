@@ -37,4 +37,10 @@ Many animals use specific behaviors to communicate with others in their group. F
 ## wh_ -> whistles
 
 类型：D 不认识单词
-处理：背单词 whistle 
+处理：背单词 whistle n. 口哨 v. 吹口哨
+
+# 生词
+
+<mark style="background: #FFB8EBA6;">hive</mark> n. 忙碌的场所，蜂巢 v. 入蜂箱
+
+<mark style="background: #FFB8EBA6;">predator</mark> n. 捕食者
