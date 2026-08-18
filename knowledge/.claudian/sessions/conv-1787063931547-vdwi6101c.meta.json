@@ -4,6 +4,21 @@
   "title": "Organize and check excited states in notes table",
   "titleGenerationStatus": "success",
   "createdAt": 1787063931548,
-  "updatedAt": 1787063952035,
-  "sessionId": null
+  "updatedAt": 1787064375459,
+  "lastResponseAt": 1787064375459,
+  "sessionId": "3c409ab5-eb6c-465e-a3f5-9f4165681661",
+  "providerState": {
+    "providerSessionId": "3c409ab5-eb6c-465e-a3f5-9f4165681661"
+  },
+  "currentNote": "sci_research/TBR/TBR test.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 149,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49536,
+    "contextWindow": 1000000,
+    "contextTokens": 49685,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
 }
