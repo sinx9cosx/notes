@@ -11,4 +11,30 @@ Many animals use specific behaviors to communicate with others in their group. F
 # 错题
 
 ## so_ -> sources
-类型：
+
+类型：C 没想到这个方向
+原因：food已经表意完整了，没有想到后面还能填什么词
+处理：短语搭配 food sources
+
+## so_ -> songs
+
+类型：C 没想到这个方向
+原因：没有注意到complex的形容词词性，如果注意到的话很容易知道后面需要接上名词，进而推断出来
+处理：仔细阅读上下文
+
+## ma_ -> mates
+
+类型：B 词义知道，语境没想到
+原因：知道是要填伴侣之类意思的词，但是想不起来。查手机只看见了match这个词，但是这里应该注意复数形式
+处理：提高单词熟练度
+
+## vo_ -> vocal
+
+类型：B 词义知道，语境没想到
+原因：我填的voice，应该注意短语搭配vocal clicks
+处理：短语搭配vocal clicks
+
+## wh_ -> whistles
+
+类型：D 不认识单词
+处理：背单词 whistle 
