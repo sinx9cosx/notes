@@ -74,3 +74,5 @@ Category:
 输入文件：`TBR-s3opt.gjf`
 
 关键词：`#p opt freq B3LYP/def2svp scrf em=gd3bj td=(singlets,nstates=20,root=3) geom=allcheck`
+
+结果：
