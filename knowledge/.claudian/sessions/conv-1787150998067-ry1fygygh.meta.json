@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787150998067-ry1fygygh",
+  "providerId": "claude",
+  "title": "解释文本中关键词的含义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787150998067,
+  "updatedAt": 1787151067737,
+  "lastResponseAt": 1787151067737,
+  "sessionId": "ee5e95b0-dcbd-442e-93f4-ff50c3ca13d0",
+  "providerState": {
+    "providerSessionId": "ee5e95b0-dcbd-442e-93f4-ff50c3ca13d0"
+  },
+  "currentNote": "sci_research/TBR/TBR 1.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1613,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32768,
+    "contextWindow": 1000000,
+    "contextTokens": 34381,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

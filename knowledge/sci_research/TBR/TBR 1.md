@@ -63,4 +63,14 @@ Category:
 
 输入文件：`TBR-s1opt.gjf`
 
-关键词：`#`
+关键词：`#p opt freq B3LYP/def2svp scrf em=gd3bj td=(singlets,nstates=20) geom=allcheck`
+
+结果：
+
+## s3 opt freq
+
+目标：优化s3结构
+
+输入文件：`TBR-s3opt.gjf`
+
+关键词：`#p opt freq B3LYP/def2svp scrf em=gd3bj td=(singlets,nstates=20,root=3) geom=allcheck`

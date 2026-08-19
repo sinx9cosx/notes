@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -234,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,10 +247,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "0d0210d00974eac0",
+  "active": "cbc288b21e58d383",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR 1.md",
     "sci_research/TBR/TBR 2.md",
+    "sci_research/TBR/TBR 1.md",
     "instrument/linux/linux常用命令.md",
     "math/第一章 向量空间.md",
     "TOFEL/填词/TOFEL 填词_Article 1.md",
