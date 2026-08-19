@@ -20,51 +20,8 @@
               "icon": "lucide-file",
               "title": "linux常用命令"
             }
-          },
-          {
-            "id": "b48eefdc58c599e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOFEL/填词/TOFEL 填词_Article 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TOFEL 填词_Article 1"
-            }
-          },
-          {
-            "id": "a31a7b712f39a125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOFEL口语.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TOFEL口语"
-            }
-          },
-          {
-            "id": "42eca9a8a1493a4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOFEL写作.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TOFEL写作"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -263,15 +219,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "42eca9a8a1493a4e",
+  "active": "2d9c66b44b141b6f",
   "lastOpenFiles": [
-    "TOFEL口语.md",
-    "TOFEL/错误类型.canvas",
-    "TOFEL写作.md",
+    "math/第一章 向量空间.md",
+    "instrument/linux/linux常用命令.md",
     "TOFEL/填词/TOFEL 填词_Article 1.md",
+    "TOFEL口语.md",
+    "TOFEL写作.md",
+    "TOFEL/错误类型.canvas",
     "sci_research/spectrum/激发态和光谱计算.md",
     "sci_research/TBR/TBR test.md",
-    "instrument/linux/linux常用命令.md",
     "instrument/linux/linux运行软件.md",
     "instrument/linux/vim使用教程.md",
     "sci_research/spectrum/TD-DFT calculation results.md",
