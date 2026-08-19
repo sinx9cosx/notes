@@ -2,6 +2,7 @@
 tags:
   - 计算化学
   - research
+  - Gaussian
 Category:
   - 笔记
 ---
@@ -55,3 +56,11 @@ Category:
 - s1 td
 - s3 opt freq 提交
 - s3 td
+
+## s1 opt freq
+
+目标：优化s1结构
+
+输入文件：`TBR-s1opt.gjf`
+
+关键词：`#`
