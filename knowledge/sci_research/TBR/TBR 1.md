@@ -65,7 +65,7 @@ Category:
 
 关键词：`#p opt freq B3LYP/def2svp scrf em=gd3bj td=(singlets,nstates=20) geom=allcheck`
 
-结果：优化成功，
+结果：优化成功，频率计算失败
 
 ## s3 opt freq
 
@@ -75,4 +75,4 @@ Category:
 
 关键词：`#p opt freq B3LYP/def2svp scrf em=gd3bj td=(singlets,nstates=20,root=3) geom=allcheck`
 
-结果：
+结果：优化成功，频率计算失败
