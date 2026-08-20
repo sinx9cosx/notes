@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "文献主要内容.md",
+                "file": "26-8-19文献主要内容.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文献主要内容"
+              "title": "26-8-19文献主要内容"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "vim使用教程"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -260,13 +261,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "cbc288b21e58d383",
+  "active": "7dc77d176939e94c",
   "lastOpenFiles": [
-    "instrument/linux/vim使用教程.md",
     "sci_research/TBR/TBR 1.md",
+    "instrument/linux/vim使用教程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
     "sci_research/TBR/TBR 2.md",
-    "文献主要内容.md",
+    "26-8-19文献主要内容.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",

@@ -65,7 +65,9 @@ Category:
 
 关键词：`#p opt freq B3LYP/def2svp scrf em=gd3bj td=(singlets,nstates=20) geom=allcheck`
 
-结果：优化成功，频率计算失败
+结果：优化成功，频率计算失败，重新提交频率计算`TBR-s1freq.gjf`
+
+可能的错误原因：内存不足。实际只有60GB，但文件中`%mem=90GB`
 
 ## s3 opt freq
 
@@ -75,4 +77,6 @@ Category:
 
 关键词：`#p opt freq B3LYP/def2svp scrf em=gd3bj td=(singlets,nstates=20,root=3) geom=allcheck`
 
-结果：优化成功，频率计算失败
+结果：优化成功，频率计算失败，重新提交频率计算`TBR-s3freq.gjf`
+
+可能的错误原因：内存不足。实际只有60GB，但文件中`%mem=90GB`
