@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "26-8-19文献主要内容.md",
+                "file": "sci_research/anti-kasha/DHR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26-8-19文献主要内容"
+              "title": "DHR"
             }
           },
           {
@@ -261,21 +261,25 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7dc77d176939e94c",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "sci_research/anti-kasha/26-8-19文献主要内容.md",
+    "sci_research/anti-kasha",
+    "sci_research/anti-kasha/反Kasha体的设计.md",
+    "sci_research/anti-kasha/DHA计算细节.md",
+    "sci_research/anti-kasha/DHR.md",
     "sci_research/TBR/TBR 1.md",
     "instrument/linux/vim使用教程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
     "sci_research/TBR/TBR 2.md",
-    "26-8-19文献主要内容.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
     "instrument/linux/linux常用命令.md",
     "math/第一章 向量空间.md",
     "TOFEL/填词/TOFEL 填词_Article 1.md",
-    "TOFEL口语.md",
-    "TOFEL写作.md",
+    "TOFEL/TOFEL口语.md",
+    "TOFEL/TOFEL写作.md",
     "TOFEL/错误类型.canvas",
     "instrument/linux/linux运行软件.md",
     "sci_research/spectrum/TD-DFT calculation results.md",
@@ -291,20 +295,15 @@
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.c5d6762885eb",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.bd1a41c5fb2b",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.538462730ed8",
-    "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.62ffb3ff215d",
     "index/Multiwfn手册.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/spectrum/光谱分类总览.md",
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
-    "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
     "sci_research/image/file_format.jpg",
-    "index/26春-物化作业汇总.md",
     "sci_research/image/excitation.jpg",
-    "quantum chemistry/偶极强度与吸收系数的关系.md",
     "instrument/linux/image/file.jpg",
     "instrument/linux/vim示意图.canvas",
     "instrument/linux/image/vim.png",
-    "关于我的一些事实.md",
     "quantum chemistry/第五章思维导图.canvas",
     "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
     "physchem/统计力学导图.canvas",
