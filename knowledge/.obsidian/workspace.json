@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR 1.md",
+                "file": "sci_research/TBR/TBR-0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR 1"
+              "title": "TBR-0"
             }
           },
           {
@@ -55,15 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/linux/vim使用教程.md",
+                "file": "sci_research/TBR/TBR-test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vim使用教程"
+              "title": "TBR-test"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -246,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,17 +263,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "cbc288b21e58d383",
+  "active": "031030c0c0ffeceb",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-0.md",
+    "sci_research/TBR/TBR-test.md",
+    "instrument/linux/vim使用教程.md",
     "sci_research/anti-kasha/DHR.md",
-    "sci_research/TBR/TBR 1.md",
     "sci_research/anti-kasha/26-8-19文献主要内容.md",
     "sci_research/anti-kasha",
     "sci_research/anti-kasha/反Kasha体的设计.md",
     "sci_research/anti-kasha/DHA计算细节.md",
-    "instrument/linux/vim使用教程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
-    "sci_research/TBR/TBR 2.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
