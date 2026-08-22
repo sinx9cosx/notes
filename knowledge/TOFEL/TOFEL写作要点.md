@@ -24,7 +24,7 @@ Category:
 6. 感谢 Thank you very much for your time and assistance.
 7. 落款 Best regards, your name
 
-# 学术讨论（10min）
+# 学术讨论（10min，135 words+）
 
 ## 论述提纲：直给型或者让步型
 
@@ -36,10 +36,20 @@ Category:
 5. 总结观点 Therefore, ...
 
 让步型（7句）
-1. 让步认可一位同学的观点
-2. 让步认可的理由
-3. 转折提出自己的观点
-4. 给予新的支持理由
-5. 解释陈述
-6. 例证细节
-7. 总结观点
+1. 让步认可一位同学的观点 Admittedly, Paul is right when ...
+2. 让步认可的理由 After all, some people ...
+3. 转折提出自己的新观点 Nevertheless, I think ...
+4. 给予新的支持理由 In my opinion, ...
+5. 解释陈述 In other words, ...
+6. 例证细节 For example, ...
+7. 总结观点 Therefore, ...
+
+## 理由例证
+
+[[TOFEL口语要点#通用理由]]
+
+例证细节：
+1. 记叙文法：时间、地点、人物，事件起因、发展、结果（选4个因素即可）
+2. 引用数据：比如：According to the statistics provided by ...
+3. 对比分析：用对比信号引导，或虚拟语气假设，再论述一遍
+4. 名人名言：不考虑，不会
