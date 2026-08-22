@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -248,7 +249,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "7dc77d176939e94c",
   "lastOpenFiles": [
     "sci_research/anti-kasha/DHR.md",
     "sci_research/TBR/TBR-test.md",
