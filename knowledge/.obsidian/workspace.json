@@ -49,8 +49,7 @@
               "title": "激发态和光谱计算"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,8 +248,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7dc77d176939e94c",
+  "active": "cbc288b21e58d383",
   "lastOpenFiles": [
+    "TOFEL/TOFEL写作要点.md",
     "sci_research/anti-kasha/DHR.md",
     "sci_research/TBR/TBR-test.md",
     "sci_research/TBR/TBR-0.md",
@@ -267,7 +267,6 @@
     "math/第一章 向量空间.md",
     "TOFEL/填词/TOFEL 填词_Article 1.md",
     "TOFEL/TOFEL口语要点.md",
-    "TOFEL/TOFEL写作要点.md",
     "TOFEL/错误类型.canvas",
     "instrument/linux/linux运行软件.md",
     "sci_research/spectrum/TD-DFT calculation results.md",
