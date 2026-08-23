@@ -247,8 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,10 +263,11 @@
   },
   "active": "2b3f01056552ad76",
   "lastOpenFiles": [
+    "TOFEL/TOFEL写作要点.md",
     "sci_research/TBR/TBR-0.md",
     "sci_research/TBR/TBR-test.md",
+    "sci_research/TBR/TBR-test.md.tmp.27956.c211fad40a43",
     "sci_research/spectrum/激发态和光谱计算.md",
-    "TOFEL/TOFEL写作要点.md",
     "sci_research/TBR/DHR文献复现.md",
     "sci_research/anti-kasha/DHR.md",
     "instrument/linux/vim使用教程.md",
@@ -296,11 +296,9 @@
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.44ed79474ff2",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.c5d6762885eb",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.bd1a41c5fb2b",
-    "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.538462730ed8",
     "index/Multiwfn手册.md",
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/spectrum/光谱分类总览.md",
-    "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "sci_research/image/file_format.jpg",
     "sci_research/image/excitation.jpg",
     "instrument/linux/image/file.jpg",
