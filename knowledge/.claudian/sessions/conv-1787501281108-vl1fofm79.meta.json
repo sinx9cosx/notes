@@ -4,6 +4,20 @@
   "title": "检查流程与关键词并解释 s1 nacme 关键词含义",
   "titleGenerationStatus": "success",
   "createdAt": 1787501281108,
-  "updatedAt": 1787501290479,
-  "sessionId": null
+  "updatedAt": 1787501511830,
+  "lastResponseAt": 1787501511830,
+  "sessionId": "b1b8f5d5-6671-40d3-b19f-b9b3013b0640",
+  "providerState": {
+    "providerSessionId": "b1b8f5d5-6671-40d3-b19f-b9b3013b0640"
+  },
+  "currentNote": "sci_research/TBR/TBR-test-s1.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1505,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43904,
+    "contextWindow": 200000,
+    "contextTokens": 45409,
+    "percentage": 23
+  }
 }
