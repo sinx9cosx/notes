@@ -24,7 +24,10 @@ Category:
 
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
-结果：
+结果：Excited State   1:      Singlet-A      2.0554 eV  603.22 nm  f=0.2105  
+     135 ->136 （HOMO->LUMO）        0.68425
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1610.54373777
 
 ## s1 nacme
 
