@@ -16,6 +16,10 @@ Category:
 
 结果：优化成功，没有虚频
 
+几何结构特点：
+
+<mark style="background: #FFB8EBA6;">轨道结构（NTO？）</mark>
+
 ## s1 td
 
 目标：看s1的发射情况
@@ -28,6 +32,8 @@ Category:
      135 ->136 （HOMO->LUMO）        0.68425
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1610.54373777
+
+<mark style="background: #FFB8EBA6;">发射速率？</mark>
 
 ## s1 nacme
 
