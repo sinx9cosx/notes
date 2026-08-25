@@ -22,6 +22,34 @@
             }
           },
           {
+            "id": "ba85e325ed9218e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "电磁波照射下的跃迁概率公式"
+            }
+          },
+          {
+            "id": "971652bbd713191e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quantum chemistry/振子强度.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "振子强度"
+            }
+          },
+          {
             "id": "22a1a4f8b18ef6f3",
             "type": "leaf",
             "state": {
@@ -91,7 +119,8 @@
               "title": "TBR-test-s2"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,8 +317,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "cbc288b21e58d383",
+  "active": "971652bbd713191e",
   "lastOpenFiles": [
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+    "sci_research/anti-kasha/反Kasha体的设计.md",
     "sci_research/anti-kasha/DHR.md",
     "sci_research/anti-kasha/DHA计算细节.md",
     "sci_research/TBR/TBR-test-s1.md",
@@ -307,7 +338,6 @@
     "sci_research/TBR/TBR-test.md.tmp.27956.c211fad40a43",
     "sci_research/anti-kasha/26-8-19文献主要内容.md",
     "sci_research/anti-kasha",
-    "sci_research/anti-kasha/反Kasha体的设计.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
@@ -320,7 +350,6 @@
     "TOFEL",
     "sci_research/spectrum/TD-DFT项目操作全流程.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
-    "instrument/Multiwfn/Multiwfn手册第一章.md",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.be17e703971f",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.f0d6417274b8",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.e3c800594502",
