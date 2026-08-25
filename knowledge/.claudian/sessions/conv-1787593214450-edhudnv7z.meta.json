@@ -4,8 +4,8 @@
   "title": "Determine if S0 output reveals emissive states",
   "titleGenerationStatus": "success",
   "createdAt": 1787593214450,
-  "updatedAt": 1787625943027,
-  "lastResponseAt": 1787625943027,
+  "updatedAt": 1787628391916,
+  "lastResponseAt": 1787628391916,
   "sessionId": "2b69cf7e-2f6e-4c53-abe2-27823c5cdd8b",
   "providerState": {
     "providerSessionId": "2b69cf7e-2f6e-4c53-abe2-27823c5cdd8b"
@@ -13,12 +13,12 @@
   "currentNote": "sci_research/TBR/TBR-test-s0.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 5372,
+    "inputTokens": 1283,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 49408,
+    "cacheReadInputTokens": 66560,
     "contextWindow": 1000000,
-    "contextTokens": 54780,
-    "percentage": 5,
+    "contextTokens": 67843,
+    "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
 }
