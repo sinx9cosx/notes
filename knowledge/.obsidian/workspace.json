@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cbc288b21e58d383",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/anti-kasha/反Kasha体的设计.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "反Kasha体的设计"
-            }
-          },
-          {
-            "id": "ba85e325ed9218e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quantum chemistry/电磁波照射下的跃迁概率公式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "电磁波照射下的跃迁概率公式"
-            }
-          },
-          {
-            "id": "971652bbd713191e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quantum chemistry/振子强度.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "振子强度"
-            }
-          },
-          {
-            "id": "22a1a4f8b18ef6f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/anti-kasha/DHR文献复现.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DHR文献复现"
-            }
-          },
-          {
             "id": "2b3f01056552ad76",
             "type": "leaf",
             "state": {
@@ -118,9 +62,23 @@
               "icon": "lucide-file",
               "title": "TBR-test-s2"
             }
+          },
+          {
+            "id": "c59b353cdd61e83f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "光化学基元反应.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "光化学基元反应"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -317,10 +275,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "971652bbd713191e",
+  "active": "c59b353cdd61e83f",
   "lastOpenFiles": [
-    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
+    "光化学基元反应.md",
+    "sci_research/TBR/TBR-test-s0.md",
+    "sci_research/anti-kasha/DHR文献复现.md",
+    "quantum chemistry/振子强度.md",
     "sci_research/anti-kasha/反Kasha体的设计.md",
+    "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/anti-kasha/DHR.md",
     "sci_research/anti-kasha/DHA计算细节.md",
     "sci_research/TBR/TBR-test-s1.md",
@@ -328,8 +290,6 @@
     "instrument/linux/linux常用命令.md",
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/TBR-test-s0.md",
-    "sci_research/anti-kasha/DHR文献复现.md",
     "instrument/linux/linux运行软件.md",
     "instrument/linux/vim使用教程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
@@ -348,8 +308,6 @@
     "sci_research/spectrum/TD-DFT calculation results.md",
     "TOFEL/填词",
     "TOFEL",
-    "sci_research/spectrum/TD-DFT项目操作全流程.md",
-    "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.be17e703971f",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.f0d6417274b8",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.e3c800594502",
