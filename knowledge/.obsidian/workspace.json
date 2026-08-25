@@ -77,8 +77,7 @@
               "title": "光化学基元反应"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "光化学基元反应.md",
+                "file": "sci_research/TBR/TBR-test-s0.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -275,9 +274,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "2b3f01056552ad76",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-test-s1.md",
     "光化学基元反应.md",
+    "sci_research/TBR/TBR-test-s2.md",
+    "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/anti-kasha/DHR文献复现.md",
     "quantum chemistry/振子强度.md",
@@ -285,11 +287,8 @@
     "quantum chemistry/电磁波照射下的跃迁概率公式.md",
     "sci_research/anti-kasha/DHR.md",
     "sci_research/anti-kasha/DHA计算细节.md",
-    "sci_research/TBR/TBR-test-s1.md",
     "quantum chemistry/激发态的平均寿命.md",
     "instrument/linux/linux常用命令.md",
-    "sci_research/TBR/TBR-test-s3.md",
-    "sci_research/TBR/TBR-test-s2.md",
     "instrument/linux/linux运行软件.md",
     "instrument/linux/vim使用教程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
