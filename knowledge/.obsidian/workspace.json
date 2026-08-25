@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/spectrum/激发态和光谱计算.md",
+                "file": "instrument/linux/linux常用命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "激发态和光谱计算"
+              "title": "linux常用命令"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -275,18 +275,20 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "22a1a4f8b18ef6f3",
+  "active": "2b3f01056552ad76",
   "lastOpenFiles": [
+    "sci_research/TBR/DHR文献复现.md",
     "sci_research/TBR/TBR-test-s0.md",
+    "instrument/linux/linux常用命令.md",
+    "instrument/linux/linux运行软件.md",
+    "instrument/linux/vim使用教程.md",
+    "sci_research/spectrum/激发态和光谱计算.md",
     "sci_research/TBR/TBR-test-s1.md",
     "TBR-test-s3.md",
-    "sci_research/spectrum/激发态和光谱计算.md",
     "sci_research/TBR/TBR-0.md",
     "TOFEL/TOFEL写作要点.md",
     "sci_research/TBR/TBR-test.md.tmp.27956.c211fad40a43",
-    "sci_research/TBR/DHR文献复现.md",
     "sci_research/anti-kasha/DHR.md",
-    "instrument/linux/vim使用教程.md",
     "sci_research/anti-kasha/26-8-19文献主要内容.md",
     "sci_research/anti-kasha",
     "sci_research/anti-kasha/反Kasha体的设计.md",
@@ -294,12 +296,10 @@
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-分子光谱）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（第二章-QM-MM）.md",
     "sci_research/聚集诱导发光（AIE）；QM/第二轮阅读（总）.md",
-    "instrument/linux/linux常用命令.md",
     "math/第一章 向量空间.md",
     "TOFEL/填词/TOFEL 填词_Article 1.md",
     "TOFEL/TOFEL口语要点.md",
     "TOFEL/错误类型.canvas",
-    "instrument/linux/linux运行软件.md",
     "sci_research/spectrum/TD-DFT calculation results.md",
     "TOFEL/填词",
     "TOFEL",
