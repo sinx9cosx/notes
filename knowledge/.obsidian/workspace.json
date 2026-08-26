@@ -164,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -303,7 +302,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2b3f01056552ad76",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s0.md",
