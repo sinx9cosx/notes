@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-test-s1.md",
+                "file": "sci_research/TBR/TBR-test-s3.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -289,11 +289,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "67a45aaf03921446",
+  "active": "682d9524a2910bcb",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s0.md",
-    "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/s0与激发态的几何对比.md",
     "sci_research/TBR/S0-S1-geometry-report.md",
     "quantum chemistry/光化学基元反应.md",
