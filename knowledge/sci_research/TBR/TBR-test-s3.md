@@ -37,10 +37,17 @@ Category:
 关键词：`# opt freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj
 
 结果：几何优化收敛，频率没计算上，文件没有终止信息。
+
+几何结构：
+
 ——确认为同一个结构，接下来进行频率计算——
 
 ## s3 freq
 
 目标：确认没有虚频
 
-输入文件：
+输入文件：`TBR-s3freq.com`
+
+关键词：`# freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj`
+
+结果：
