@@ -32,8 +32,12 @@ Category:
 
 关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
+结果：
+
 ## s2 opt
 
 输入文件：`DHR-s2opt.gjf`
 
-关键词：``
+关键词：`# opt freq td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
+
+结果：
