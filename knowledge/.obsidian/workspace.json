@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/s0与激发态的几何对比.md",
+                "file": "sci_research/TBR/s0与激发态s1的对比.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "s0与激发态的几何对比"
+              "title": "s0与激发态s1的对比"
             }
           },
           {
@@ -105,7 +105,8 @@
               "title": "DHR文献复现"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -242,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/s0与激发态的几何对比.md",
+                "file": "sci_research/TBR/TBR-test-s2.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -288,7 +290,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -302,14 +305,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "ee5aa964c81911b4",
   "lastOpenFiles": [
+    "sci_research/TBR/s0与激发态s1的对比.md",
+    "sci_research/TBR/S0-S1-geometry-report.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s0.md",
-    "sci_research/TBR/s0与激发态的几何对比.md",
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/anti-kasha/DHR文献复现.md",
-    "sci_research/TBR/S0-S1-geometry-report.md",
     "sci_research/TBR/TBR-test-s2.md",
     "quantum chemistry/光化学基元反应.md",
     "sci_research/image/s2-opt.jpg",
