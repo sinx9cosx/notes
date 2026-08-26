@@ -16,9 +16,6 @@ Category:
 
 结果：优化成功，没有虚频
 
-几何结构特点：
-
-<mark style="background: #FFB8EBA6;">轨道结构（NTO？）</mark>
 
 ## s1 td
 
@@ -43,4 +40,14 @@ Category:
 
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)
 `
+结果：
+
+## s1 NTO
+
+目标：
+
+输入文件：`TBR-s1-NTO.gjf`
+
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(em=gd3bj)`
+
 结果：
