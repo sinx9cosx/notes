@@ -4,8 +4,8 @@
   "title": "确认优化后结构是否需同时算两个频率",
   "titleGenerationStatus": "success",
   "createdAt": 1787730420807,
-  "updatedAt": 1787730555387,
-  "lastResponseAt": 1787730555387,
+  "updatedAt": 1787731419964,
+  "lastResponseAt": 1787731419964,
   "sessionId": "e5c996ab-4353-4dfe-a49a-ed7b5499aa25",
   "providerState": {
     "providerSessionId": "e5c996ab-4353-4dfe-a49a-ed7b5499aa25"
@@ -13,11 +13,11 @@
   "currentNote": "sci_research/TBR/TBR-test-s3.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 2777,
+    "inputTokens": 61,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 35456,
+    "cacheReadInputTokens": 39936,
     "contextWindow": 1000000,
-    "contextTokens": 38233,
+    "contextTokens": 39997,
     "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
