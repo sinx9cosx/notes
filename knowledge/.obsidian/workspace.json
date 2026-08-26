@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-test-s0.md",
+                "file": "sci_research/TBR/TBR-test-s1.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -289,15 +289,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7444cc862a7d03d1",
+  "active": "67a45aaf03921446",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-test-s3.md",
+    "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/s0与激发态的几何对比.md",
-    "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/S0-S1-geometry-report.md",
     "quantum chemistry/光化学基元反应.md",
     "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/TBR-test-s3.md",
     "sci_research/image/s2-opt.jpg",
     "sci_research/anti-kasha/DHR文献复现.md",
     "quantum chemistry/振子强度.md",
