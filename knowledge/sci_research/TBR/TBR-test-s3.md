@@ -17,7 +17,7 @@ Category:
 
 结果：最后一次Converged?的Maximum Displacement是NO，但是只差0.000004，有一个虚频-733.4626$cm^{-1}$，分子振动模式是整体伸缩
 
-打开`TBR-s3opt.log`，`Displacement`输入了$\pm 0.3$并保存结构。<mark style="background: #FFB8EBA6;">为什么</mark>
+打开`TBR-s3opt.log`，`Displacement`输入了$\pm 0.3$并保存结构。
 
 ## s3 opt plus 0.3
 
