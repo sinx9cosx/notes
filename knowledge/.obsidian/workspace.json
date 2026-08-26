@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/anti-kasha/DHR文献复现.md",
+                "file": "sci_research/TBR/TBR-test-s3.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -285,12 +285,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,12 +303,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7be8f5ea17598632",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "sci_research/TBR/s0与激发态的几何对比.md",
+    "sci_research/anti-kasha/DHR文献复现.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "sci_research/anti-kasha/DHR文献复现.md",
-    "sci_research/TBR/s0与激发态的几何对比.md",
     "sci_research/TBR/S0-S1-geometry-report.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s3.md",

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787754775143-5mbkdvsip",
+  "providerId": "claude",
+  "title": "Read and advise what to do now",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787754775143,
+  "updatedAt": 1787754879929,
+  "lastResponseAt": 1787754879929,
+  "sessionId": "600e9b20-7263-47a8-96b3-b7c1ff010d34",
+  "providerState": {
+    "providerSessionId": "600e9b20-7263-47a8-96b3-b7c1ff010d34"
+  },
+  "currentNote": "sci_research/TBR/TBR-test-s3.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 781,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35200,
+    "contextWindow": 1000000,
+    "contextTokens": 35981,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
