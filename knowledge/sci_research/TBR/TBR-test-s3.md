@@ -46,6 +46,6 @@ Category:
 
 输入文件：`TBR-s3freq.com`
 
-关键词：`# freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj`
+关键词：`# freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read geom=check`
 
 结果：有一个虚频，-224.7992
