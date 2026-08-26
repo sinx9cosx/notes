@@ -271,7 +271,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -291,13 +291,13 @@
   },
   "active": "ee5aa964c81911b4",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-test-s3.md",
+    "sci_research/TBR/TBR-test-s2.md",
+    "sci_research/TBR/TBR-test-s1.md",
     "sci_research/image/s2-opt.jpg",
     "sci_research/TBR/s0与激发态的几何对比.md",
-    "sci_research/TBR/TBR-test-s1.md",
     "quantum chemistry/光化学基元反应.md",
     "sci_research/TBR/TBR-test-s0.md",
-    "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/TBR-test-s3.md",
     "sci_research/anti-kasha/DHR文献复现.md",
     "quantum chemistry/振子强度.md",
     "sci_research/anti-kasha/反Kasha体的设计.md",
@@ -343,7 +343,6 @@
     "physchem/images/hw entropy and temperature 3.jpg",
     "physchem/images/hwPIW6.png",
     "physchem/统计力学三大系综与温度角色.canvas",
-    "physchem/images/ideal gas chem potential.jpg",
     "physchem/Gibbs Paradox.canvas",
     "物理化学/量子力学导图.canvas"
   ]

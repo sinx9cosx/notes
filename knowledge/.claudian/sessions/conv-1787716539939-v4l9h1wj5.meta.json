@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787716539939-v4l9h1wj5",
+  "providerId": "claude",
+  "title": "Clarify S2 geometry optimization convergence",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787716539939,
+  "updatedAt": 1787717090259,
+  "lastResponseAt": 1787717090259,
+  "sessionId": "dcb1cd9b-c047-479b-aba6-0531e50e30d5",
+  "providerState": {
+    "providerSessionId": "dcb1cd9b-c047-479b-aba6-0531e50e30d5"
+  },
+  "currentNote": "sci_research/TBR/TBR-test-s2.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 148,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 41728,
+    "contextWindow": 1000000,
+    "contextTokens": 41876,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

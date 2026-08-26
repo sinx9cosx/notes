@@ -27,7 +27,7 @@ Category:
 
 关键词：`# opt freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj
 `
-结果：
+结果：几何优化收敛，但是频率没算上，文件没有终止信息。
 ## s3 opt minus 0.3
 
 目标：优化激发态s3结构
@@ -36,4 +36,4 @@ Category:
 
 关键词：`# opt freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj
 
-结果：
+结果：几何优化收敛，频率没计算上，文件没有终止信息。
