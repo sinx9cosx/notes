@@ -77,7 +77,8 @@
               "title": "光化学基元反应"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/光化学基元反应.md",
+                "file": "sci_research/TBR/TBR-test-s1.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -274,11 +275,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "67a45aaf03921446",
   "lastOpenFiles": [
+    "quantum chemistry/光化学基元反应.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "quantum chemistry/光化学基元反应.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/anti-kasha/DHR文献复现.md",
