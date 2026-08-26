@@ -22,34 +22,6 @@
             }
           },
           {
-            "id": "7444cc862a7d03d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/TBR/TBR-test-s0.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TBR-test-s0"
-            }
-          },
-          {
-            "id": "67a45aaf03921446",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/TBR/TBR-test-s1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TBR-test-s1"
-            }
-          },
-          {
             "id": "682d9524a2910bcb",
             "type": "leaf",
             "state": {
@@ -83,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/S0-S1-geometry-report.md",
+                "file": "sci_research/TBR/agent/S0-S1-geometry-report.md",
                 "mode": "preview",
                 "source": false
               },
@@ -92,20 +64,21 @@
             }
           },
           {
-            "id": "7be8f5ea17598632",
+            "id": "68c446b96b645104",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/anti-kasha/DHR文献复现.md",
-                "mode": "source",
+                "file": "sci_research/TBR/agent/S3-diagnosis-report.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR文献复现"
+              "title": "S3-diagnosis-report"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -242,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/s0与激发态s1的对比.md",
+                "file": "sci_research/TBR/agent/S3-diagnosis-report.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -302,15 +275,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "68c446b96b645104",
   "lastOpenFiles": [
-    "未命名",
-    "sci_research/TBR/TBR-test-s0.md",
+    "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/TBR/TBR-test-s3.md",
+    "sci_research/TBR/TBR-test-s0.md",
+    "sci_research/TBR/agent/S3-diagnosis-report.md",
+    "sci_research/TBR/agent",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "sci_research/TBR/s0与激发态s1的对比.md",
-    "sci_research/TBR/S0-S1-geometry-report.md",
+    "sci_research/TBR/agent/S0-S1-geometry-report.md",
     "sci_research/anti-kasha/DHR文献复现.md",
     "quantum chemistry/光化学基元反应.md",
     "sci_research/image/s2-opt.jpg",
@@ -341,7 +315,6 @@
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.e3c800594502",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.44ed79474ff2",
     "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.c5d6762885eb",
-    "sci_research/Multiwfn命令行操作完整教程.md.tmp.26856.bd1a41c5fb2b",
     "sci_research/image/file_format.jpg",
     "sci_research/image/excitation.jpg",
     "instrument/linux/image/file.jpg",
