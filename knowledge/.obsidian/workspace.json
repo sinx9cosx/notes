@@ -91,8 +91,7 @@
               "title": "S0-S1-geometry-report"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/S0-S1-geometry-report.md",
+                "file": "sci_research/TBR/s0与激发态的几何对比.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -275,7 +275,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,14 +290,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "2b3f01056552ad76",
   "lastOpenFiles": [
+    "sci_research/TBR/S0-S1-geometry-report.md",
     "sci_research/TBR/s0与激发态的几何对比.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s3.md",
-    "sci_research/TBR/S0-S1-geometry-report.md",
     "quantum chemistry/光化学基元反应.md",
     "sci_research/image/s2-opt.jpg",
     "sci_research/anti-kasha/DHR文献复现.md",
