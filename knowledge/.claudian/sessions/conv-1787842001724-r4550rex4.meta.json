@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787842001724-r4550rex4",
+  "providerId": "claude",
+  "title": "检查文件是否正确",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787842001724,
+  "updatedAt": 1787842467851,
+  "lastResponseAt": 1787842467851,
+  "sessionId": "eb9fd74b-df3a-419c-8e1c-e91290d33534",
+  "providerState": {
+    "providerSessionId": "eb9fd74b-df3a-419c-8e1c-e91290d33534"
+  },
+  "currentNote": "sci_research/TBR/TBR SUMMARY1.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 5451,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 50176,
+    "contextWindow": 1000000,
+    "contextTokens": 55627,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}

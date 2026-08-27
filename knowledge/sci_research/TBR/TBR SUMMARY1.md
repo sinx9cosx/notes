@@ -22,7 +22,7 @@ S1->S0发射：2.0554 eV  603.22 nm  f=0.2105
 ## s1-nacme
 
 s1-nacme：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
-这个文件我太清楚该怎么分析：
+这个文件我不太清楚该怎么分析：
 
 HOMO-LUMO能隙：= 0.15196 Ha ≈ 4.135 eV
 
@@ -42,7 +42,7 @@ ESP电荷（S0→S1 电子转移）：
 
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf em=gd3bj`
 
-不知道为什么没有读到NTO，所以看了分子轨道
+不知道为什么看不到NTO轨道，所以看了分子轨道
 
 结果：Alpha virt. eigenvalues --    0.97683 
 由唯一一对空穴-电子主导的激发。

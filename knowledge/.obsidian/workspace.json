@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-test-s0.md",
+                "file": "sci_research/TBR/TBR SUMMARY1.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,11 +261,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "db90faa0c0413b1d",
+  "active": "01db300c37dccba7",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/TBR SUMMARY1.md",
     "sci_research/TBR/agent/S3-diagnosis-report.md",
+    "sci_research/TBR/TBR SUMMARY1.md",
+    "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s0.md",
     "未命名.md",
     "sci_research/TBR/TBR-test-s1.md",
