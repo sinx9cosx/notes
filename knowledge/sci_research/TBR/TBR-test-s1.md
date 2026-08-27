@@ -56,7 +56,7 @@ HOMO-LUMO能隙：
 第一个Alpha virt. eigenvalues --   -0.06991
 ## s1 NTO
 
-目标：
+目标：电荷转移的方向
 
 输入文件：`TBR-s1-NTO.gjf`
 
