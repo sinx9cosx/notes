@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -247,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,8 +263,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "9b0ffa4a84209e77",
+  "active": "a712bab63966226b",
   "lastOpenFiles": [
+    "quantum chemistry/光化学基元反应.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s2.md",
     "instrument/linux/linux常用命令.md",
@@ -273,7 +276,6 @@
     "sci_research/TBR/agent/S0-S1-geometry-report.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/agent",
-    "quantum chemistry/光化学基元反应.md",
     "sci_research/image/s2-opt.jpg",
     "quantum chemistry/振子强度.md",
     "sci_research/anti-kasha/反Kasha体的设计.md",

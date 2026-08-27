@@ -19,7 +19,7 @@ Category:
 
 ## s1 td
 
-目标：看s1的发射情况
+目标：s1的发射情况
 
 输入文件：`TBR-s1td.com`
 
@@ -34,13 +34,13 @@ Category:
 
 ## s1 nacme
 
-目标：<mark style="background: #FFB8EBA6;">为什么</mark>
+目标：S1->S0内转换
 
 输入文件：`TBR-s1-nacme.com`
 
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)
 `
-结果：
+结果：跃迁偶极矩：
 
 ## s1 NTO
 
