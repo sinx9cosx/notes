@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -261,8 +261,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "47db738ba1c14f9a",
+  "active": "a712bab63966226b",
   "lastOpenFiles": [
+    "sci_research/anti-kasha/DHR计算.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
@@ -271,7 +272,6 @@
     "sci_research/TBR/agent/S0-S1-geometry-report.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/agent",
-    "sci_research/anti-kasha/DHR计算.md",
     "quantum chemistry/光化学基元反应.md",
     "sci_research/image/s2-opt.jpg",
     "quantum chemistry/振子强度.md",
