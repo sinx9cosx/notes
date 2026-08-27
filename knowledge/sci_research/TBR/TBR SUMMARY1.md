@@ -45,7 +45,7 @@ ESP电荷（S0→S1 电子转移）：
 不知道为什么看不到NTO轨道，所以看了分子轨道
 
 结果：Alpha virt. eigenvalues --    0.97683 
-由唯一一对空穴-电子主导的激发。
+主要由一对空穴-电子主导的激发。
   <table><tr>
   <td align="center"><img src="TBR-S1-NTO135.png" width="380"><br>HOMO</td>
   <td align="center"><img src="TBR-S1-NTO136.png" width="380"><br>LUMO</td>
