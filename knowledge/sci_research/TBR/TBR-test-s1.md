@@ -92,3 +92,8 @@ HOMO-LUMO能隙：
 
 Alpha virt. eigenvalues --    0.97683 
 由唯一一对空穴-电子主导的激发。
+135：
+![[TBR-S1-NTO135.png]]
+
+![[TBR-S1-NTO136.png]]
+136
