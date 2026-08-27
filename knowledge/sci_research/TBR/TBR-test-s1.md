@@ -30,7 +30,12 @@ Category:
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1610.54373777
 
-<mark style="background: #FFB8EBA6;">发射速率？</mark>
+$$
+\begin{aligned}
+&k_{r}=3.9\times 10^{7}s^{-1}\\ \\
+&\tau_{r}=26 ns
+\end{aligned}
+$$
 
 ## s1 nacme
 
@@ -41,6 +46,7 @@ Category:
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)
 `
 结果：
+
 跃迁偶极矩
 Ground to excited state transition electric dipole moments (Au):
        state          X           Y           Z        Dip. S.      Osc.
@@ -54,6 +60,7 @@ ESP电荷：
 HOMO-LUMO能隙：
 最后一个Alpha  occ. eigenvalues --  -0.22187 Hartree
 第一个Alpha virt. eigenvalues --   -0.06991
+
 ## s1 NTO
 
 目标：电荷转移的方向
