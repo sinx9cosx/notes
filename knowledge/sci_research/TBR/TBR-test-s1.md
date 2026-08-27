@@ -96,4 +96,5 @@ Alpha virt. eigenvalues --    0.97683
 ![[TBR-S1-NTO135.png]]
 
 ![[TBR-S1-NTO136.png]]
-136
+
+> HOMO和LUMO都主要分布在 π 共轭骨架，二者具有较明显空间重叠。
