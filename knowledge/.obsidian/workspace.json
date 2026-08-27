@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -261,11 +261,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "be609a19d23f090e",
+  "active": "a712bab63966226b",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
-    "sci_research/TBR/TBR-test-s2.md",
     "sci_research/anti-kasha/DHR计算.md",
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/agent/S3-diagnosis-report.md",
