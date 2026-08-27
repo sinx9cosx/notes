@@ -4,8 +4,8 @@
   "title": "Analyze s1nacme data and plan next checks",
   "titleGenerationStatus": "success",
   "createdAt": 1787835002495,
-  "updatedAt": 1787836590684,
-  "lastResponseAt": 1787836590684,
+  "updatedAt": 1787836996402,
+  "lastResponseAt": 1787836996402,
   "sessionId": "ebb48d39-0934-4267-9aeb-8cbd26558494",
   "providerState": {
     "providerSessionId": "ebb48d39-0934-4267-9aeb-8cbd26558494"
@@ -13,12 +13,12 @@
   "currentNote": "sci_research/TBR/TBR-test-s1.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 418,
+    "inputTokens": 7707,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 101504,
+    "cacheReadInputTokens": 101888,
     "contextWindow": 1000000,
-    "contextTokens": 101922,
-    "percentage": 10,
+    "contextTokens": 109595,
+    "percentage": 11,
     "contextWindowIsAuthoritative": true
   }
 }
