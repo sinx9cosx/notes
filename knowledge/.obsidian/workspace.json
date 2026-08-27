@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-test-s1.md",
+                "file": "sci_research/TBR/TBR SUMMARY1.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -275,13 +275,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a712bab63966226b",
+  "active": "01db300c37dccba7",
   "lastOpenFiles": [
-    "sci_research/TBR/s0与激发态s1的对比.md",
-    "sci_research/TBR/TBR SUMMARY1.md",
     "sci_research/TBR/TBR-test-s1.md",
+    "sci_research/TBR/TBR SUMMARY1.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/agent/S3-diagnosis-report.md",
+    "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/image/TBR-S1-NTO136.png",
     "sci_research/image/TBR-S1-NTO135.png",
     "sci_research/TBR/TBR-test-s1.md.tmp.24856.d6444aa1cf5a",
