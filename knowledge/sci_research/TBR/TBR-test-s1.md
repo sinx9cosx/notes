@@ -70,3 +70,5 @@ HOMO-LUMO能隙：
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf em=gd3bj`
 
 结果：
+
+Alpha virt. eigenvalues --    0.97683 
