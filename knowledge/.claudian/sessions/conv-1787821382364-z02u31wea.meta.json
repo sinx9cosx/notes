@@ -4,6 +4,20 @@
   "title": "Explain NACME keywords and output analysis",
   "titleGenerationStatus": "success",
   "createdAt": 1787821382364,
-  "updatedAt": 1787821394988,
-  "sessionId": null
+  "updatedAt": 1787821736837,
+  "lastResponseAt": 1787821736837,
+  "sessionId": "7f38ca41-25f4-4186-b197-65a18e710aee",
+  "providerState": {
+    "providerSessionId": "7f38ca41-25f4-4186-b197-65a18e710aee"
+  },
+  "currentNote": "sci_research/TBR/TBR-test-s1.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1137,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 47360,
+    "contextWindow": 200000,
+    "contextTokens": 48497,
+    "percentage": 24
+  }
 }
