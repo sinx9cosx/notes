@@ -53,7 +53,7 @@ Excited State 2: 2.6682 eV 464.67 nm f=0.0206
 
 目标：电子转移情况
 
-输入文件：
+输入文件：`DHR-s1-NTO.gjf`
 
 old chk：`DHR-s1td.chk`
 
@@ -84,7 +84,7 @@ Excited State 2: 2.2135 eV 560.13 nm f=0.0349
 
 目标：电子转移情况
 
-输入文件：
+输入文件：`DHR-s2-NTO.gjf`
 
 old chk：`DHR-s2td.chk`
 
