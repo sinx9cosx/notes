@@ -46,7 +46,8 @@ Excited State 1: 1.9357 eV 640.53 nm f=0.3856
 
 Excited State 2: 2.6682 eV 464.67 nm f=0.0206
 95->98 0.12255
-96->100 
+96->100 0.12726
+97->99 0.67256
 
 ## s2 opt
 
@@ -63,3 +64,5 @@ Excited State 2: 2.6682 eV 464.67 nm f=0.0206
 关键词：`td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
+Excited State 2: 2.2135 eV 560.13 nm f=0.0349
+97->99 
