@@ -35,7 +35,9 @@ Category:
 
 目标：电荷转移情况
 
-输入文件：`TBR-s2-NTO.com`
+输入文件：`TBR-s2-NTO.gjf`
+
+old chk：`TBR-s2td.chk`
 
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=2) pop=(minimal,nto,savento) scrf em=gd3bj`
 
