@@ -4,8 +4,8 @@
   "title": "检查文件是否正确",
   "titleGenerationStatus": "success",
   "createdAt": 1787842001724,
-  "updatedAt": 1787843799165,
-  "lastResponseAt": 1787843799165,
+  "updatedAt": 1787844128379,
+  "lastResponseAt": 1787844128379,
   "sessionId": "eb9fd74b-df3a-419c-8e1c-e91290d33534",
   "providerState": {
     "providerSessionId": "eb9fd74b-df3a-419c-8e1c-e91290d33534",
@@ -315,11 +315,12 @@
   "currentNote": "sci_research/TBR/TBR SUMMARY1.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 122,
+    "inputTokens": 4031,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 93184,
-    "contextWindow": 200000,
-    "contextTokens": 93306,
-    "percentage": 47
+    "cacheReadInputTokens": 107136,
+    "contextWindow": 1000000,
+    "contextTokens": 111167,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
   }
 }
