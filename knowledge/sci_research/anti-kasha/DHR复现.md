@@ -41,6 +41,10 @@ Category:
 关键词：`td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
+Excited State 1: 1.9357 eV 640.53 nm f=0.3856
+97->98 0.69521
+
+Excited Sta
 
 ## s2 opt
 
