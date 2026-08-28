@@ -44,7 +44,9 @@ Category:
 Excited State 1: 1.9357 eV 640.53 nm f=0.3856
 97->98 0.69521
 
-Excited Sta
+Excited State 2: 2.6682 eV 464.67 nm f=0.0206
+95->98 0.12255
+96->100 
 
 ## s2 opt
 
