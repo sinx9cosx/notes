@@ -19,6 +19,18 @@ Category:
 
 打开`TBR-s3opt.log`，`Displacement`输入了$\pm 0.3$并保存结构。
 
+## s3 NTO
+
+目标：电荷转移情况
+
+输入文件：`TBR-s3-NTO.com`
+
+old chk：`TBR-s3opt.chk`
+
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=3) pop=(minimal,nto,savento) scrf em=gd3bj`
+
+结果：
+
 ## s3 opt plus 0.3
 
 目标：优化激发态s3结构
@@ -48,4 +60,5 @@ Category:
 
 关键词：`# freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read geom=check`
 
-结果：有一个虚频，-224.7992
+结果：有一个虚频，-224.7992（推测是混合态的几何）
+

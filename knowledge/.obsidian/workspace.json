@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bdce75d6c1b174f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/TBR/agent/S3-diagnosis-report.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "S3-diagnosis-report"
-            }
-          },
-          {
             "id": "01db300c37dccba7",
             "type": "leaf",
             "state": {
@@ -62,9 +48,37 @@
               "icon": "lucide-file",
               "title": "TBR-test-s2"
             }
+          },
+          {
+            "id": "9e208ea2fa5a050a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sci_research/TBR/TBR-test-s1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TBR-test-s1"
+            }
+          },
+          {
+            "id": "b4dd4d3792940966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sci_research/TBR/TBR-test-s3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TBR-test-s3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,8 +275,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "f5f634fbac59d74e",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-test-s3.md",
+    "sci_research/TBR/TBR-test-s1.md",
+    "sci_research/TBR/TBR-test-s0.md",
+    "sci_research/TBR/TBR-test-s2.md",
+    "sci_research/TBR/TBR SUMMARY1.md",
+    "sci_research/TBR/agent/S3-diagnosis-report.md",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.bd11c6ca25cd",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.b714cd08a285",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.c8db48491462",
@@ -270,12 +290,7 @@
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.b0c266b86fdd",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.40d2d361e4c0",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.933b7918d550",
-    "sci_research/TBR/agent/S3-diagnosis-report.md",
-    "sci_research/TBR/TBR SUMMARY1.md",
-    "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/TBR-test-s0.md",
     "未命名.md",
-    "sci_research/TBR/TBR-test-s1.md",
     "physchem/Gaussian计算实验报告.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/image/TBR-S1-NTO136.png",
@@ -286,7 +301,6 @@
     "quantum chemistry/光化学基元反应.md",
     "instrument/linux/linux常用命令.md",
     "sci_research/anti-kasha/DHR计算.md",
-    "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/agent/S0-S1-geometry-report.md",
     "sci_research/TBR/agent",
     "sci_research/image/s2-opt.jpg",
@@ -300,7 +314,6 @@
     "instrument/linux/vim使用教程.md",
     "sci_research/TBR/TBR-0.md",
     "TOFEL/TOFEL写作要点.md",
-    "sci_research/TBR/TBR-test.md.tmp.27956.c211fad40a43",
     "sci_research/anti-kasha/26-8-19文献主要内容.md",
     "TOFEL/错误类型.canvas",
     "sci_research/image/file_format.jpg",

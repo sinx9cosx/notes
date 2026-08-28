@@ -92,9 +92,10 @@ HOMO-LUMO能隙：
 
 Alpha virt. eigenvalues --    0.97683 
 由唯一一对空穴-电子主导的激发。
-135：
+135HOMO：
 ![[TBR-S1-NTO135.png]]
 
+136LUMO：
 ![[TBR-S1-NTO136.png]]
 
 > HOMO和LUMO都主要分布在 π 共轭骨架，二者具有较明显空间重叠。

@@ -30,3 +30,13 @@ Category:
      134 ->136         0.65149
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1610.51766487
+
+## s2 NTO
+
+目标：电荷转移情况
+
+输入文件：`TBR-s2-NTO.com`
+
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=2) pop=(minimal,nto,savento) scrf em=gd3bj`
+
+结果：
