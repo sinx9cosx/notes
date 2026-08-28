@@ -49,6 +49,18 @@ Excited State 2: 2.6682 eV 464.67 nm f=0.0206
 96->100 0.12726
 97->99 0.67256
 
+## s1 NTO
+
+目标：电子转移情况
+
+输入文件：
+
+old chk：`DHR-s1td.chk`
+
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf em=gd3bj`
+
+结果：
+
 ## s2 opt
 
 输入文件：`DHR-s2opt.gjf`
@@ -65,4 +77,17 @@ Excited State 2: 2.6682 eV 464.67 nm f=0.0206
 
 结果：
 Excited State 2: 2.2135 eV 560.13 nm f=0.0349
-97->99 
+97->99 0.68047
+97->100 0.10262
+
+## s2 NTO
+
+目标：电子转移情况
+
+输入文件：
+
+old chk：`DHR-s2td.chk`
+
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=2) pop=(minimal,nto,savento) scrf em=gd3bj`
+
+结果：
