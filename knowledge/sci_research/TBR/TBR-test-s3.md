@@ -28,12 +28,17 @@ Category:
 关键词：`# td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
+Excited State 3: 2.9299 eV 423.17 nm f=0.4999
+131->136 0.13427
+134->136 0.65479
+134->137 0.11256
+135->136 -0.11246
 
 ## s3 NTO
 
 目标：电荷转移情况
 
-输入文件：`TBR-s3-NTO.com`
+输入文件：`TBR-s3-NTO.gjf`
 
 old chk：`TBR-s3td.chk`
 
