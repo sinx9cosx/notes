@@ -6,7 +6,10 @@ Category:
 ---
 # QC准备
 
-1. 分子s0几何结构优化+频率计算，并生成`.fchk`文件
+1. 分子s0几何结构优化+频率计算，并生成`.fchk`文件。在`.log`文件最后找到`SCF done`以获取优化后s0几何结构下的单点能，如：
+	```
+	SCF Done: E(RB3LYP) = -849.172438992 A.U.
+	```
 2. 在优化的s0几何结构下使用TDDFT方法计算跃迁偶极矩（吸收）。在输出`.log`文件中找到`Excited State 1`的信息，以获取优化后s0几何结构下的垂直激发态能和跃迁偶极矩（吸收）。
 	```
 	Ground to excited state transition electric dipole moments (Au):
@@ -20,7 +23,7 @@ Total Energy, E(TD-HF/TD-KS) = -848.655200149
 $$
 21.8029 \times 2.54 Debye=11.86 Debye
 $$
-
+3. 优化s1几何结构，使用TDDFT方法。获取
 # 生成evc文件
 
 # 生成NACME文件
