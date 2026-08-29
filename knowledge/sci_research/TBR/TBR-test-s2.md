@@ -16,7 +16,6 @@ Category:
 
 结果：优化成功，没有虚频，没有态翻转
 
-<mark style="background: #FFB8EBA6;">几何结构：</mark>
 
 ## s2 td
 

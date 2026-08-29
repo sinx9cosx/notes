@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -261,12 +261,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "af942fb6f66e3762",
+  "active": "e0c0b281b8bc5a45",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR-test-s3.md",
-    "sci_research/TBR/TBR-test-s1.md",
-    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/TBR/TBR-test-s2.md",
+    "sci_research/TBR/TBR-test-s3.md",
+    "sci_research/anti-kasha/DHR复现.md",
+    "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/TBR SUMMARY1.md",
     "sci_research/TBR/agent/S3-diagnosis-report.md",
