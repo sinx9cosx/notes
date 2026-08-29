@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -248,8 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -263,12 +261,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b4dd4d3792940966",
+  "active": "af942fb6f66e3762",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/anti-kasha/DHR复现.md",
     "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/TBR SUMMARY1.md",
     "sci_research/TBR/agent/S3-diagnosis-report.md",
