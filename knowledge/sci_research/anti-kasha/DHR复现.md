@@ -99,3 +99,8 @@ old chk：`DHR-s2td.chk`
 
 结果：0.99014 由一对空穴->电子轨道贡献
 
+97（空穴）->98（电子）：
+  <table><tr>
+  <td align="center"><img src="DHR-s2-NTO-97.jpg" width="380"><br>97空穴</td>
+  <td align="center"><img src="DHR-s2-NTO-98.jpg" width="380"><br>98电子</td>
+  </tr></table>
