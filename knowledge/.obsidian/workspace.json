@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/spectrum/激发态和光谱计算2.md",
+                "file": "sci_research/anti-kasha/DHR复现.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -258,7 +258,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -277,14 +277,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3b5e01f1148ad5d2",
+  "active": "af942fb6f66e3762",
   "lastOpenFiles": [
-    "sci_research/spectrum/激发态和光谱计算.md",
-    "sci_research/TBR/TBR-test-s1.md",
+    "sci_research/TBR/TBR-test-s2.md",
     "sci_research/spectrum/激发态和光谱计算2.md",
     "sci_research/anti-kasha/DHR复现.md",
-    "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s3.md",
+    "sci_research/TBR/TBR-test-s1.md",
+    "sci_research/spectrum/激发态和光谱计算.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/TBR SUMMARY1.md",
     "sci_research/TBR/agent/S3-diagnosis-report.md",

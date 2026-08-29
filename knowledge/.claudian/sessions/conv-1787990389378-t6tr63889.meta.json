@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787990389378-t6tr63889",
+  "providerId": "claude",
+  "title": "评估虚频第三激发态NTO计算的参考价值",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787990389379,
+  "updatedAt": 1787990511568,
+  "lastResponseAt": 1787990511568,
+  "sessionId": "a67073dd-e842-48f9-9151-155eb278d5c1",
+  "providerState": {
+    "providerSessionId": "a67073dd-e842-48f9-9151-155eb278d5c1"
+  },
+  "currentNote": "sci_research/TBR/TBR-test-s3.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 135,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36608,
+    "contextWindow": 1000000,
+    "contextTokens": 36743,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

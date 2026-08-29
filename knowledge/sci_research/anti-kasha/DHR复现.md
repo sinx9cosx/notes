@@ -59,7 +59,7 @@ old chk：`DHR-s1td.chk`
 
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf em=gd3bj`
 
-结果：
+结果：0.98422 由一堆空穴->电子轨道贡献
 
 ## s2 opt
 
@@ -90,4 +90,4 @@ old chk：`DHR-s2td.chk`
 
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=2) pop=(minimal,nto,savento) scrf em=gd3bj`
 
-结果：
+结果：0.99014 由一对空穴->电子轨道贡献
