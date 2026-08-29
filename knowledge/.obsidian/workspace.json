@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index/Gaussian的学习和使用.md",
+                "file": "sci_research/anti-kasha/反Kasha体的设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gaussian的学习和使用"
+              "title": "反Kasha体的设计"
             }
           },
           {
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index/Gaussian的学习和使用.md",
+                "file": "sci_research/anti-kasha/反Kasha体的设计.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -248,6 +248,7 @@
   },
   "active": "af942fb6f66e3762",
   "lastOpenFiles": [
+    "index/Gaussian的学习和使用.md",
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
@@ -293,7 +294,6 @@
     "sci_research/anti-kasha/DHA计算细节.md",
     "quantum chemistry/激发态的平均寿命.md",
     "instrument/linux/linux运行软件.md",
-    "instrument/linux/vim使用教程.md",
     "TOFEL/错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
