@@ -61,10 +61,13 @@ old chk：`DHR-s1td.chk`
 
 结果：0.98422 由一对空穴->电子轨道贡献
 
-98<->97：
-![[DHR-s1-NTO-98.png]]
+97（空穴轨道）->98（电子轨道）：
+  <table><tr>
+  <td align="center"><img src="DHR-s1-NTO-97.jpg" width="380"><br>97空穴</td>
+  <td align="center"><img src="DHR-s1-NTO-98.jpg" width="380"><br>98电子</td>
+  </tr></table>
 
-![[DHR-s1-NTO-97.png]]
+
 ## s2 opt
 
 输入文件：`DHR-s2opt.gjf`
@@ -95,3 +98,4 @@ old chk：`DHR-s2td.chk`
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=2) pop=(minimal,nto,savento) scrf em=gd3bj`
 
 结果：0.99014 由一对空穴->电子轨道贡献
+
