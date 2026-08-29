@@ -35,7 +35,8 @@
               "title": "激发态和光谱计算2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/anti-kasha/DHR复现.md",
+                "file": "sci_research/spectrum/激发态和光谱计算2.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -232,12 +233,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "af942fb6f66e3762",
+  "active": "3b5e01f1148ad5d2",
   "lastOpenFiles": [
+    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/image/DHR-s1-NTO-98.png",
     "sci_research/image/DHR-s1-NTO-97.png",
     "sci_research/TBR/TBR-test-s3.md",
-    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/spectrum/激发态和光谱计算2.md",
     "sci_research/TBR/TBR-test-s1.md",
@@ -285,7 +286,6 @@
     "physchem/统计力学导图.canvas",
     "physchem/量子力学导图.canvas",
     "physchem/images/hw thermo 1.png",
-    "physchem/images/hw entropy calculate 2.jpg",
     "physchem/统计力学三大系综与温度角色.canvas",
     "physchem/Gibbs Paradox.canvas",
     "物理化学/量子力学导图.canvas"
