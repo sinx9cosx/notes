@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
+                "file": "index/MOMAP后处理荧光光谱+速率.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP 7 QC准备"
+              "title": "MOMAP后处理荧光光谱+速率"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 3 evc文件.md",
+                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP 3 evc文件"
+              "title": "MOMAP 7 QC准备"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,12 +243,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,21 +261,21 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "113452cacb269803",
+  "active": "88cf79d0649a6c16",
   "lastOpenFiles": [
+    "index/MOMAP后处理荧光光谱+速率.md",
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
+    "sci_research/anti-kasha/DHR复现.md",
     "instrument/MOMAP/MOMAP 3 evc文件.md",
+    "sci_research/TBR/TBR-test-s1.md",
+    "index/Multiwfn手册.md",
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/MOMAP",
-    "sci_research/TBR/TBR-test-s1.md",
-    "index/MOMAP后处理荧光光谱+速率.md",
-    "index/Multiwfn手册.md",
     "index/Gaussian的学习和使用.md",
     "index/AIE论文阅读进展.md",
-    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/spectrum/激发态和光谱计算.md",
     "sci_research/TBR/TBR SUMMARY1.md",
     "sci_research/TBR/TBR-test-s0.md",
