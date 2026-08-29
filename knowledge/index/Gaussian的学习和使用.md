@@ -15,3 +15,6 @@ Category:
 
 [[TD-DFT calculation results]]
 
+[[激发态和光谱计算]]
+
+[[激发态和光谱计算2]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/anti-kasha/DHR复现.md",
+                "file": "index/Gaussian的学习和使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR复现"
+              "title": "Gaussian的学习和使用"
             }
           },
           {
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/anti-kasha/DHR复现.md",
+                "file": "index/Gaussian的学习和使用.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -248,12 +248,16 @@
   },
   "active": "af942fb6f66e3762",
   "lastOpenFiles": [
+    "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
+    "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
+    "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
+    "instrument/Multiwfn/Multiwfn手册第一章.md",
+    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/image/DHR-s2-NTO-97.jpg",
     "sci_research/image/DHR-s2-NTO-98.jpg",
     "sci_research/image/1e6d9b20b083c519ca16ab7f12c01469.jpg",
     "sci_research/image/af6678c113fa7ed2c8be792b42bdf4c2.jpg",
     "sci_research/spectrum/激发态和光谱计算2.md",
-    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/TBR/TBR SUMMARY1.md",
     "sci_research/image/DHR-s1-NTO-97.jpg",
     "sci_research/image/DHR-s1-NTO-98.jpg",
@@ -261,7 +265,6 @@
     "sci_research/image/cd8f16be3ed4d05bc490887cf27f5d63.jpg",
     "sci_research/image/d5e49994b549ed43e8c5b217a22a9a00.jpg",
     "sci_research/image/DHR-s1-NTO-98.png",
-    "sci_research/image/DHR-s1-NTO-97.png",
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s1.md",
@@ -291,9 +294,6 @@
     "quantum chemistry/激发态的平均寿命.md",
     "instrument/linux/linux运行软件.md",
     "instrument/linux/vim使用教程.md",
-    "sci_research/TBR/TBR-0.md",
-    "TOFEL/TOFEL写作要点.md",
-    "sci_research/anti-kasha/26-8-19文献主要内容.md",
     "TOFEL/错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
