@@ -26,6 +26,14 @@ Category:
 
 结果：优化成功，没有虚频
 
+## s0 td
+
+目标：跃迁偶极矩（吸收）
+
+输入文件：`DHR-s0td.gjf`
+
+关键词：`td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
+
 ## s1 opt
 
 输入文件：`DHR-s1opt.gjf`
