@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR SUMMARY1.md",
+                "file": "sci_research/anti-kasha/DHR复现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR SUMMARY1"
+              "title": "DHR复现"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -187,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP后处理荧光光谱+速率.md",
+                "file": "sci_research/anti-kasha/DHR复现.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -233,7 +234,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,12 +249,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "113452cacb269803",
+  "active": "6ed97c82d342cefe",
   "lastOpenFiles": [
-    "sci_research/spectrum/激发态和光谱计算.md",
-    "sci_research/spectrum/激发态和光谱计算2.md",
     "sci_research/TBR/TBR SUMMARY1.md",
     "instrument/MOMAP后处理荧光光谱+速率.md",
+    "sci_research/TBR/TBR-test-s0.md",
+    "sci_research/spectrum/激发态和光谱计算.md",
+    "sci_research/spectrum/激发态和光谱计算2.md",
     "sci_research/anti-kasha/反Kasha体的设计.md",
     "index/Gaussian的学习和使用.md",
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
@@ -273,7 +276,6 @@
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/agent/S3-diagnosis-report.md",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.bd11c6ca25cd",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.b714cd08a285",
