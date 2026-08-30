@@ -11,28 +11,31 @@
             "id": "e10b268a623883d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "index/MOMAP后处理荧光光谱+速率.md",
-                "mode": "source",
-                "source": false
+                "file": "instrument/MOMAP/MOMAP光谱+速率.canvas",
+                "viewState": {
+                  "x": 775,
+                  "y": 2.38094592851337,
+                  "zoom": -1.0671141958585373
+                }
               },
-              "icon": "lucide-file",
-              "title": "MOMAP后处理荧光光谱+速率"
+              "icon": "lucide-layout-dashboard",
+              "title": "MOMAP光谱+速率"
             }
           },
           {
-            "id": "f4b83c61162d6e0e",
+            "id": "f2c5da9e21fd4142",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/linux/linux常用命令.md",
+                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux常用命令"
+              "title": "MOMAP 3  Duschinsky旋转矩阵和振动分析"
             }
           }
         ],
@@ -173,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/linux/linux常用命令.md",
+                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -233,14 +236,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f4b83c61162d6e0e",
+  "active": "f2c5da9e21fd4142",
   "lastOpenFiles": [
-    "index/MOMAP后处理荧光光谱+速率.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
+    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "instrument/linux/vim使用教程.md",
+    "instrument/linux/linux运行软件.md",
+    "instrument/linux/linux常用命令.md",
+    "index/MOMAP后处理荧光光谱+速率.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
-    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "index/Multiwfn手册.md",
     "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHA计算细节.md",
@@ -271,9 +277,6 @@
     "sci_research/image/DHR-s1-NTO-99.jpg",
     "sci_research/image/cd8f16be3ed4d05bc490887cf27f5d63.jpg",
     "sci_research/image/d5e49994b549ed43e8c5b217a22a9a00.jpg",
-    "sci_research/TBR/TBR-test-s3.md",
-    "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/agent/S3-diagnosis-report.md",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.bd11c6ca25cd",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.b714cd08a285",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.c8db48491462",
