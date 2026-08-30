@@ -11,22 +11,22 @@
 		{"id":"e7116b1ea5d6e485","type":"text","text":"s0 td","x":-380,"y":-370,"width":250,"height":60,"color":"1"},
 		{"id":"56cc1fc2ebf5267c","type":"text","text":"s1 nacme","x":-380,"y":500,"width":250,"height":60,"color":"1"},
 		{"id":"eafbe3301ff62d82","type":"text","text":"s1 td","x":-380,"y":220,"width":250,"height":60,"color":"1"},
-		{"id":"43b4c1e51254a265","x":3,"y":500,"width":125,"height":60,"type":"text","text":".log"},
-		{"id":"81f1f402d2e16d65","x":300,"y":500,"width":250,"height":60,"color":"3","type":"text","text":"NACME计算"},
-		{"id":"d52b43ecf0a8a6b0","x":735,"y":500,"width":250,"height":60,"type":"text","text":"evc.car.nac"},
+		{"id":"43b4c1e51254a265","type":"text","text":".log","x":3,"y":500,"width":125,"height":60},
 		{"id":"ee615155fdd5f201","type":"text","text":"evc计算","x":500,"y":-630,"width":250,"height":60,"color":"2"},
-		{"id":"ae1e120bb6864894","x":860,"y":-820,"width":250,"height":60,"type":"text","text":"momap.inp"},
+		{"id":"ae1e120bb6864894","type":"text","text":"momap.inp","x":860,"y":-820,"width":250,"height":60},
 		{"id":"df25d91c4794bbfb","type":"text","text":"evc.cart.dat","x":860,"y":-720,"width":250,"height":60},
 		{"id":"6ef67f823153ab76","type":"text","text":"evc.dint.dat","x":860,"y":-540,"width":250,"height":60},
-		{"id":"4f9f890c196fb655","x":1220,"y":-780,"width":250,"height":60,"color":"5","type":"text","text":"荧光光谱计算"},
-		{"id":"185cc550f8c40d0e","x":1300,"y":-430,"width":250,"height":60,"color":"4","type":"text","text":"非辐射计算"},
-		{"id":"41b36d96fe449b64","x":860,"y":-340,"width":250,"height":60,"type":"text","text":"momap.inp"},
-		{"id":"eec047719cd7cb8b","x":1680,"y":-430,"width":250,"height":60,"type":"text","text":"ic.tvcf.log"},
-		{"id":"437474bcb8e091cf","x":1680,"y":-880,"width":250,"height":60,"type":"text","text":"spec.tvcf.log"},
-		{"id":"af3063ad9eb4b0bc","x":1680,"y":-690,"width":250,"height":50,"type":"text","text":"spec.tvcf.spec.dat"},
-		{"id":"5f1d3cac02b5cc0d","x":373,"y":-370,"width":355,"height":60,"type":"text","text":"吸收电子偶极矩EDMA（debye）"},
-		{"id":"04c9b937f94e4a62","x":380,"y":220,"width":355,"height":60,"type":"text","text":"发射电子偶极矩EDME(debye)"},
-		{"id":"e75bb6999e3c86ba","x":380,"y":-120,"width":250,"height":60,"type":"text","text":"绝热激发能Ead(a.u.)"}
+		{"id":"4f9f890c196fb655","type":"text","text":"荧光光谱计算","x":1220,"y":-780,"width":250,"height":60,"color":"5"},
+		{"id":"185cc550f8c40d0e","type":"text","text":"非辐射计算","x":1300,"y":-430,"width":250,"height":60,"color":"4"},
+		{"id":"41b36d96fe449b64","type":"text","text":"momap.inp","x":860,"y":-340,"width":250,"height":60},
+		{"id":"eec047719cd7cb8b","type":"text","text":"ic.tvcf.log","x":1680,"y":-430,"width":250,"height":60},
+		{"id":"437474bcb8e091cf","type":"text","text":"spec.tvcf.log","x":1680,"y":-880,"width":250,"height":60},
+		{"id":"af3063ad9eb4b0bc","type":"text","text":"spec.tvcf.spec.dat","x":1680,"y":-690,"width":250,"height":50},
+		{"id":"5f1d3cac02b5cc0d","type":"text","text":"吸收电子偶极矩EDMA（debye）","x":373,"y":-370,"width":355,"height":60},
+		{"id":"04c9b937f94e4a62","type":"text","text":"发射电子偶极矩EDME(debye)","x":380,"y":220,"width":355,"height":60},
+		{"id":"e75bb6999e3c86ba","type":"text","text":"绝热激发能Ead(a.u.)","x":380,"y":-120,"width":250,"height":60},
+		{"id":"d52b43ecf0a8a6b0","type":"text","text":"evc.car.nac","x":860,"y":500,"width":250,"height":60},
+		{"id":"81f1f402d2e16d65","type":"text","text":"NACME计算","x":505,"y":500,"width":250,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"845a4f8d453e88fc","fromNode":"0dd34808cbaa5e8e","fromSide":"right","toNode":"b129aba40fe94a00","toSide":"left"},
@@ -64,6 +64,7 @@
 		{"id":"46d542e5432b588b","fromNode":"e75bb6999e3c86ba","fromSide":"right","toNode":"41b36d96fe449b64","toSide":"left"},
 		{"id":"9797386cf71b7b04","fromNode":"5f1d3cac02b5cc0d","fromSide":"right","toNode":"ae1e120bb6864894","toSide":"left"},
 		{"id":"cc79f42b889373b6","fromNode":"e75bb6999e3c86ba","fromSide":"right","toNode":"ae1e120bb6864894","toSide":"left"},
-		{"id":"3dab430be31f4008","fromNode":"04c9b937f94e4a62","fromSide":"right","toNode":"ae1e120bb6864894","toSide":"left"}
+		{"id":"3dab430be31f4008","fromNode":"04c9b937f94e4a62","fromSide":"right","toNode":"ae1e120bb6864894","toSide":"left"},
+		{"id":"a5b7742043e8ad45","fromNode":"d33de78759685951","fromSide":"right","toNode":"81f1f402d2e16d65","toSide":"left"}
 	]
 }
