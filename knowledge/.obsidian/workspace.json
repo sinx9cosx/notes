@@ -76,9 +76,23 @@
               "icon": "lucide-file",
               "title": "MOMAP后处理荧光光谱+速率"
             }
+          },
+          {
+            "id": "3729178c5ba71340",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sci_research/anti-kasha/DHR复现.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DHR复现"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -215,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
+                "file": "sci_research/anti-kasha/DHR复现.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -275,12 +289,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "88cf79d0649a6c16",
+  "active": "3729178c5ba71340",
   "lastOpenFiles": [
+    "sci_research/anti-kasha/DHA计算细节.md",
+    "sci_research/anti-kasha/DHR复现.md",
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "index/MOMAP后处理荧光光谱+速率.md",
     "quantum chemistry/线性变分法的基函数.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP.md",
@@ -291,7 +307,6 @@
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "sci_research/anti-kasha/DHR复现.md",
     "index/Multiwfn手册.md",
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
     "instrument/MOMAP",
@@ -322,7 +337,6 @@
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.40d2d361e4c0",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.933b7918d550",
     "physchem/Gaussian计算实验报告.md",
-    "sci_research/TBR/s0与激发态s1的对比.md",
     "TOFEL/错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
