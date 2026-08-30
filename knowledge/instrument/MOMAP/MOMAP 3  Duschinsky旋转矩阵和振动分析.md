@@ -4,21 +4,22 @@ tags:
   - research
   - 后处理
 Category:
-  - 笔记
+  - 讲义
 ---
 
 # 生成evc文件
 
 ## 3.1 概述
 
-MOMAP能够分析Duschinsky旋转和简正模式振动，这是基于evc_int和evc_cart子程序实现的。这类计算将被称为evc计算。
+MOMAP能够分析Duschinsky旋转和简正模式振动，这是基于evc_int和evc_cart子程序实现的。在本指南以下部分，这类计算将被称为evc计算。
 
 evc计算可以使用其他QC程序的输出，如Gaussian、Q-Chem、TURBOMOLE、ChemShell、Dalton、MOLPRO、DFTB和MOPAC等。它也可以从输出文件中读取数据，包括振动频率和力常数矩阵，并在内坐标和笛卡尔坐标下计算初始和最终电子态之间的简正模式位移、Huang-Rhys因子、重组能和Duschinsky旋转矩阵。
 
-3.2 开始计算
+## 3.2 开始计算
+
 evc计算需要初始和最终电子态的基本信息。因此，要开始evc计算，您需要在MOMAP输入文件（即momap.inp）中指定相关文件名。
 
-以下是最简单的evc输入文件示例。对于Gaussian输出文件，您还需要提供相应的.fchk文件。
+以下是最简单的evc输入文件示例。对于Gaussian输出文件，您还需要提供相应的`.fchk`文件。
 
 以tests/azulene/evc为例，编辑momap.inp，并在文件中添加以下内容：
 
@@ -56,6 +57,3 @@ $ ./run
 
 请检查evc.cart.dat和evc.dint.dat之间的重组能结果。如果能量差较小（< 1000 cm⁻¹），则使用evc.cart.dat中的结果进行后续计算；如果能量差较大，则使用evc.dint.dat进行后续计算。
 
----
-
-¹ dushin_int和dushin_cart程序由dushin程序修改而来，该程序由Jeffrey R. Reimers教授编写（J. Chem. Phys. vol. 115, 9103-9109, 2001）。

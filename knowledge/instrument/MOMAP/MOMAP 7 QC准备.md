@@ -4,7 +4,7 @@ tags:
   - research
   - 后处理
 Category:
-  - 笔记
+  - 讲义
 ---
 # QC准备
 
