@@ -83,19 +83,19 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "未命名.canvas",
+                "file": "instrument/MOMAP/MOMAP光谱+速率.canvas",
                 "viewState": {
-                  "x": 602.9964607682107,
+                  "x": 715,
                   "y": -160,
-                  "zoom": -0.43098764062314693
+                  "zoom": -0.8237673267344761
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "title": "MOMAP光谱+速率"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -232,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 5 NACME.md",
+                "file": "instrument/MOMAP/MOMAP光谱+速率.canvas",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -278,7 +279,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,17 +294,18 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3ccc596b999ede35",
+  "active": "e10b268a623883d2",
   "lastOpenFiles": [
-    "index/MOMAP后处理荧光光谱+速率.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
-    "未命名.canvas",
-    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "index/MOMAP后处理荧光光谱+速率.md",
+    "instrument/MOMAP/MOMAP光谱+速率.canvas",
+    "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
+    "index/Multiwfn手册.md",
+    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHA计算细节.md",
     "quantum chemistry/线性变分法的基函数.md",
-    "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP.md",
     "instrument/image/fig-3.jpg",
     "instrument/image",
@@ -311,7 +314,6 @@
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "index/Multiwfn手册.md",
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
     "instrument/MOMAP",
     "index/Gaussian的学习和使用.md",

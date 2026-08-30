@@ -1,19 +1,26 @@
 {
 	"nodes":[
+		{"id":"4f9f890c196fb655","x":590,"y":-190,"width":250,"height":60,"type":"text","text":""},
 		{"id":"b129aba40fe94a00","type":"text","text":"SCF Done","x":-30,"y":-340,"width":250,"height":60},
 		{"id":"f5b22fedb6ebd4ab","type":"text","text":".log","x":-30,"y":-440,"width":110,"height":60},
 		{"id":"0dd34808cbaa5e8e","type":"text","text":"s0 opt freq","x":-380,"y":-440,"width":250,"height":60,"color":"1"},
-		{"id":"3f5aec138d47f12d","x":-30,"y":-540,"width":95,"height":60,"type":"text","text":".fchk"},
+		{"id":"3f5aec138d47f12d","type":"text","text":".fchk","x":-30,"y":-540,"width":95,"height":60},
 		{"id":"e7116b1ea5d6e485","type":"text","text":"s0 td","x":-380,"y":-310,"width":250,"height":60,"color":"1"},
-		{"id":"ee615155fdd5f201","x":500,"y":-280,"width":250,"height":60,"color":"2","type":"text","text":"evc计算"},
+		{"id":"ee615155fdd5f201","type":"text","text":"evc计算","x":500,"y":-280,"width":250,"height":60,"color":"2"},
 		{"id":"de8b5214c7995084","type":"text","text":"s1 opt freq","x":-380,"y":-90,"width":250,"height":60,"color":"1"},
 		{"id":"eafbe3301ff62d82","type":"text","text":"s1 td","x":-380,"y":40,"width":250,"height":60,"color":"1"},
 		{"id":"56cc1fc2ebf5267c","type":"text","text":"s1 nacme","x":-380,"y":160,"width":250,"height":60,"color":"1"},
 		{"id":"d33de78759685951","type":"text","text":".log","x":-30,"y":-180,"width":95,"height":60},
 		{"id":"76948cccc4d343f3","type":"text","text":".fchk","x":-30,"y":-90,"width":120,"height":60},
 		{"id":"f7a2eaca022a3a9c","type":"text","text":"SCF Done","x":-30,"y":10,"width":250,"height":60},
-		{"id":"df25d91c4794bbfb","x":860,"y":-340,"width":250,"height":60,"type":"text","text":"evc.cart.dat"},
-		{"id":"6ef67f823153ab76","x":860,"y":-180,"width":250,"height":60,"type":"text","text":"evc.dint.dat"}
+		{"id":"df25d91c4794bbfb","type":"text","text":"evc.cart.dat","x":860,"y":-340,"width":250,"height":60},
+		{"id":"6ef67f823153ab76","type":"text","text":"evc.dint.dat","x":860,"y":-180,"width":250,"height":60},
+		{"id":"43b4c1e51254a265","x":-30,"y":160,"width":125,"height":60,"type":"text","text":".log"},
+		{"id":"81f1f402d2e16d65","x":280,"y":160,"width":250,"height":60,"color":"3","type":"text","text":"NACME计算"},
+		{"id":"d52b43ecf0a8a6b0","x":625,"y":160,"width":250,"height":60,"type":"text","text":"evc.car.nac"},
+		{"id":"185cc550f8c40d0e","x":1220,"y":-120,"width":250,"height":60,"color":"4","type":"text","text":"非辐射计算"},
+		{"id":"41b36d96fe449b64","x":625,"y":-30,"width":250,"height":60,"type":"text","text":"momap.inp"},
+		{"id":"eec047719cd7cb8b","x":1560,"y":-120,"width":250,"height":60,"type":"text","text":"ic.tvcf.log"}
 	],
 	"edges":[
 		{"id":"845a4f8d453e88fc","fromNode":"0dd34808cbaa5e8e","fromSide":"right","toNode":"b129aba40fe94a00","toSide":"left"},
@@ -32,6 +39,14 @@
 		{"id":"4bb0b2a1435287ad","fromNode":"de8b5214c7995084","fromSide":"bottom","toNode":"eafbe3301ff62d82","toSide":"top"},
 		{"id":"127bed13282c800d","fromNode":"eafbe3301ff62d82","fromSide":"bottom","toNode":"56cc1fc2ebf5267c","toSide":"top","toEnd":"none"},
 		{"id":"31bba716310ad7bf","fromNode":"ee615155fdd5f201","fromSide":"right","toNode":"df25d91c4794bbfb","toSide":"left"},
-		{"id":"a873e05a3ecfca42","fromNode":"ee615155fdd5f201","fromSide":"right","toNode":"6ef67f823153ab76","toSide":"left"}
+		{"id":"a873e05a3ecfca42","fromNode":"ee615155fdd5f201","fromSide":"right","toNode":"6ef67f823153ab76","toSide":"left"},
+		{"id":"bfa01cf16d139d97","fromNode":"56cc1fc2ebf5267c","fromSide":"right","toNode":"43b4c1e51254a265","toSide":"left"},
+		{"id":"16b97677e44cd659","fromNode":"f5b22fedb6ebd4ab","fromSide":"right","toNode":"81f1f402d2e16d65","toSide":"left"},
+		{"id":"288ac50a27700746","fromNode":"43b4c1e51254a265","fromSide":"right","toNode":"81f1f402d2e16d65","toSide":"left"},
+		{"id":"a5cb0ce48e87cab8","fromNode":"81f1f402d2e16d65","fromSide":"right","toNode":"d52b43ecf0a8a6b0","toSide":"left"},
+		{"id":"7c5a99b93897ba0b","fromNode":"df25d91c4794bbfb","fromSide":"right","toNode":"185cc550f8c40d0e","toSide":"left"},
+		{"id":"399c6ec8c276db68","fromNode":"d52b43ecf0a8a6b0","fromSide":"right","toNode":"185cc550f8c40d0e","toSide":"left"},
+		{"id":"3d453d6696852401","fromNode":"41b36d96fe449b64","fromSide":"right","toNode":"185cc550f8c40d0e","toSide":"left"},
+		{"id":"7f2f53db6c6785cf","fromNode":"185cc550f8c40d0e","fromSide":"right","toNode":"eec047719cd7cb8b","toSide":"left"}
 	]
 }

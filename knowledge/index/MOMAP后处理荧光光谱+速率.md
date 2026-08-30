@@ -5,6 +5,8 @@ tags:
 Category:
   - 笔记
 ---
+
+
 量子化学软件计算准备：[[MOMAP 7 QC准备]]
 
 生成evc文件：[[MOMAP 3  Duschinsky旋转矩阵和振动分析]]
