@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index/MOMAP后处理荧光光谱+速率.md",
+                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP后处理荧光光谱+速率"
+              "title": "MOMAP 3  Duschinsky旋转矩阵和振动分析"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -201,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
+                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,13 +263,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "88cf79d0649a6c16",
+  "active": "113452cacb269803",
   "lastOpenFiles": [
-    "index/MOMAP后处理荧光光谱+速率.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
-    "sci_research/anti-kasha/DHR复现.md",
-    "instrument/MOMAP/MOMAP 3 evc文件.md",
+    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "index/MOMAP后处理荧光光谱+速率.md",
     "sci_research/TBR/TBR-test-s1.md",
+    "sci_research/anti-kasha/DHR复现.md",
     "index/Multiwfn手册.md",
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
