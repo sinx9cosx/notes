@@ -85,9 +85,9 @@
               "state": {
                 "file": "instrument/MOMAP/MOMAP光谱+速率.canvas",
                 "viewState": {
-                  "x": 715,
-                  "y": -160,
-                  "zoom": -0.8237673267344761
+                  "x": 755,
+                  "y": -16.945031241258448,
+                  "zoom": -0.8755287544242175
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -297,12 +297,12 @@
   "active": "e10b268a623883d2",
   "lastOpenFiles": [
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
-    "index/MOMAP后处理荧光光谱+速率.md",
-    "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
-    "index/Multiwfn手册.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "instrument/MOMAP/MOMAP光谱+速率.canvas",
+    "index/MOMAP后处理荧光光谱+速率.md",
+    "index/Multiwfn手册.md",
     "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHA计算细节.md",
     "quantum chemistry/线性变分法的基函数.md",
