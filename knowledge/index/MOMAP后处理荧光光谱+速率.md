@@ -9,7 +9,7 @@ Category:
 
 生成evc文件：[[MOMAP 3  Duschinsky旋转矩阵和振动分析]]
 
-生成NACME文件：
+生成NACME文件：[[MOMAP 5 NACME]]
 
 计算kr和荧光光谱：
 
