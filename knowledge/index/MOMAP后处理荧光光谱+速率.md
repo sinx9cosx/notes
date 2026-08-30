@@ -11,6 +11,6 @@ Category:
 
 生成NACME文件：[[MOMAP 5 NACME]]
 
-计算kr和荧光光谱：
+计算kr和荧光光谱：[[MOMAP 4 荧光光谱计算]]
 
 计算kic：
