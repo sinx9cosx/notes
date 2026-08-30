@@ -13,4 +13,4 @@ Category:
 
 计算kr和荧光光谱：[[MOMAP 4 荧光光谱计算]]
 
-计算kic：
+计算kic：[[MOMAP 5 NACME#5.3 开始计算]]
