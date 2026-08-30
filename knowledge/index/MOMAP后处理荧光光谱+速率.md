@@ -5,7 +5,7 @@ tags:
 Category:
   - 笔记
 ---
-
+[[MOMAP光谱+速率.canvas]]
 
 量子化学软件计算准备：[[MOMAP 7 QC准备]]
 

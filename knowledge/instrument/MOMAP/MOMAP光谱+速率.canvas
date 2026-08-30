@@ -58,6 +58,12 @@
 		{"id":"226aa156de001809","fromNode":"4f9f890c196fb655","fromSide":"right","toNode":"437474bcb8e091cf","toSide":"left","label":"kr"},
 		{"id":"455dc33a5a160266","fromNode":"4f9f890c196fb655","fromSide":"right","toNode":"af3063ad9eb4b0bc","toSide":"left","label":"光谱信息"},
 		{"id":"5d7820999ffdb600","fromNode":"eafbe3301ff62d82","fromSide":"right","toNode":"04c9b937f94e4a62","toSide":"left"},
-		{"id":"04fb588fee9438b6","fromNode":"e7116b1ea5d6e485","fromSide":"right","toNode":"5f1d3cac02b5cc0d","toSide":"left"}
+		{"id":"04fb588fee9438b6","fromNode":"e7116b1ea5d6e485","fromSide":"right","toNode":"5f1d3cac02b5cc0d","toSide":"left"},
+		{"id":"4708ecc7ea12ee52","fromNode":"b129aba40fe94a00","fromSide":"right","toNode":"e75bb6999e3c86ba","toSide":"left"},
+		{"id":"50a9264033189dc4","fromNode":"f7a2eaca022a3a9c","fromSide":"right","toNode":"e75bb6999e3c86ba","toSide":"left"},
+		{"id":"46d542e5432b588b","fromNode":"e75bb6999e3c86ba","fromSide":"right","toNode":"41b36d96fe449b64","toSide":"left"},
+		{"id":"9797386cf71b7b04","fromNode":"5f1d3cac02b5cc0d","fromSide":"right","toNode":"ae1e120bb6864894","toSide":"left"},
+		{"id":"cc79f42b889373b6","fromNode":"e75bb6999e3c86ba","fromSide":"right","toNode":"ae1e120bb6864894","toSide":"left"},
+		{"id":"3dab430be31f4008","fromNode":"04c9b937f94e4a62","fromSide":"right","toNode":"ae1e120bb6864894","toSide":"left"}
 	]
 }
