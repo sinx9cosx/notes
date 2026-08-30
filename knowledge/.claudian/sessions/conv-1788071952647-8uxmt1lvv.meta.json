@@ -4,8 +4,8 @@
   "title": "解析S2态NACME、KIC及系间窜跃计算疑问",
   "titleGenerationStatus": "success",
   "createdAt": 1788071952648,
-  "updatedAt": 1788072145351,
-  "lastResponseAt": 1788072145351,
+  "updatedAt": 1788074739247,
+  "lastResponseAt": 1788074739247,
   "sessionId": "9cddf0f1-c1e3-49b3-a98c-81a273735674",
   "providerState": {
     "providerSessionId": "9cddf0f1-c1e3-49b3-a98c-81a273735674"
@@ -13,12 +13,12 @@
   "currentNote": "index/MOMAP后处理荧光光谱+速率.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 3739,
+    "inputTokens": 122,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 33408,
+    "cacheReadInputTokens": 46592,
     "contextWindow": 1000000,
-    "contextTokens": 37147,
-    "percentage": 4,
+    "contextTokens": 46714,
+    "percentage": 5,
     "contextWindowIsAuthoritative": true
   }
 }

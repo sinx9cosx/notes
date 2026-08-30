@@ -102,6 +102,14 @@ Excited State 2: 2.2135 eV 560.13 nm f=0.0349
 97->99 0.68047
 97->100 0.10262
 
+## s2 nacme
+
+输入文件：`DHR-s2-nacme.gjf`
+
+关键词：`#p td(nstate=20,root=2) cam-b3lyp/6-31g(d,p) guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
+
+结果：
+
 ## s2 NTO
 
 目标：电子转移情况
