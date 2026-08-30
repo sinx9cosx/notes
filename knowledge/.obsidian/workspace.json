@@ -76,8 +76,26 @@
               "icon": "lucide-file",
               "title": "MOMAP后处理荧光光谱+速率"
             }
+          },
+          {
+            "id": "e10b268a623883d2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -214,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+                "file": "未命名.canvas",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -274,10 +292,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "113452cacb269803",
+  "active": "e10b268a623883d2",
   "lastOpenFiles": [
-    "index/MOMAP后处理荧光光谱+速率.md",
+    "未命名.canvas",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "index/MOMAP后处理荧光光谱+速率.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHA计算细节.md",
@@ -321,7 +340,6 @@
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.b0c266b86fdd",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.40d2d361e4c0",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.933b7918d550",
-    "physchem/Gaussian计算实验报告.md",
     "TOFEL/错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
