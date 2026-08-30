@@ -26,7 +26,7 @@ Excited State 1: Singlet-A 3.3372 eV 371.52 nm f=1.7826 <S**2>=0.000 75 -> 76 0.
 This state for optimization and/or second-order correction.
 Total Energy, E(TD-HF/TD-KS) = -848.655200149
 ```
-跃迁偶极矩（吸收可通过DIp.S获得）：
+跃迁偶极矩（吸收可通过Dip.S获得）：
 $$
 21.8029 \times 2.54 Debye=11.86 Debye
 $$
