@@ -1,0 +1,24 @@
+{
+  "id": "conv-1788168326234-j22oqbd33",
+  "providerId": "claude",
+  "title": "Write TOEFL reference email template",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788168326235,
+  "updatedAt": 1788168362620,
+  "lastResponseAt": 1788168362620,
+  "sessionId": "12d05d52-0b38-4b52-9038-257f4816adbf",
+  "providerState": {
+    "providerSessionId": "12d05d52-0b38-4b52-9038-257f4816adbf"
+  },
+  "currentNote": "TOFEL/TOFEL邮件写作/邮件1.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 865,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33024,
+    "contextWindow": 1000000,
+    "contextTokens": 33889,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
