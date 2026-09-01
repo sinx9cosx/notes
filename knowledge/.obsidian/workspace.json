@@ -86,12 +86,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/linux/linux常用命令.md",
+                "file": "sci_research/anti-kasha/DHR复现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux常用命令"
+              "title": "DHR复现"
             }
           }
         ],
@@ -295,6 +295,8 @@
   },
   "active": "d5c6380458dd6373",
   "lastOpenFiles": [
+    "sci_research/anti-kasha/DHA计算细节.md",
+    "instrument/linux/linux常用命令.md",
     "instrument/linux/vim使用教程.md",
     "instrument/linux/linux运行软件.md",
     "TOFEL/TOFEL邮件写作/邮件-是否更换工作的建议.md",
@@ -310,13 +312,11 @@
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/anti-kasha/DHR复现.md",
-    "instrument/linux/linux常用命令.md",
     "index/MOMAP后处理荧光光谱+速率.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "index/Multiwfn手册.md",
-    "sci_research/anti-kasha/DHA计算细节.md",
     "quantum chemistry/线性变分法的基函数.md",
     "instrument/MOMAP/MOMAP.md",
     "instrument/image/fig-3.jpg",
