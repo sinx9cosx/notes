@@ -106,7 +106,7 @@ old chk：`DHR-s1td.chk`
 关键词：`td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
-Excited State 2: 2.2135 eV 560.13 nm f=0.0349
+Excited State 2: 2.2135 eV 560.13 nm f=0.0349（很弱的发射，波长与文献对不上）
 97->99 0.68047
 97->100 0.10262
 
@@ -143,3 +143,16 @@ old chk：`DHR-s2td.chk`
 关键词：`# opt freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
+
+## s9 td
+
+输入文件：`DHR-s9td.gjf`
+
+
+## s9 nacme
+
+输入文件：`DHR-s9-nacme.gjf`
+
+## s9 NTO
+
+输入wen'ji
