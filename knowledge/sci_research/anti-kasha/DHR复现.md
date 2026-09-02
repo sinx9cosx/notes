@@ -37,7 +37,7 @@ SCF Done:-1151.10651698 a.u.
 
 结果：
 Dip.S.（$\mu^2$）：7.4283 a.u.
-
+换算1 debye=2.5417D a.u.
 
 ## s1 opt
 
@@ -46,13 +46,13 @@ Dip.S.（$\mu^2$）：7.4283 a.u.
 关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：优化成功，无虚频
-SCF Done:-1151.09884677 a.u.
-
+SCF Done:-1151.09884677 a.u.（s0基态再s1几何下的能量）
+s1态能量（要加垂直发射能）：
 ## s1 td
 
 输入文件：`DHR-s1td.gjf`
 
-关键词：`td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
+关键词：`#p td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
 Excited State 1: 1.9357 eV 640.53 nm f=0.3856
@@ -90,6 +90,7 @@ old chk：`DHR-s1td.chk`
   <td align="center"><img src="DHR-s1-NTO-98.jpg" width="380"><br>98电子</td>
   </tr></table>
 
+---
 
 ## s2 opt
 
@@ -136,6 +137,9 @@ old chk：`DHR-s2td.chk`
   <td align="center"><img src="DHR-s2-NTO-98.jpg" width="380"><br>98电子</td>
   </tr></table>
 
+
+---
+
 ## s9 opt
 
 输入文件：`DHR-s9opt.gjf`
@@ -148,11 +152,20 @@ old chk：`DHR-s2td.chk`
 
 输入文件：`DHR-s9td.gjf`
 
+关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
+结果：
 ## s9 nacme
 
 输入文件：`DHR-s9-nacme.gjf`
 
+关键词：`#p td(nstate=20,root=9) cam-b3lyp/6-31g(d,p) guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
+
+结果：
 ## s9 NTO
 
-输入wen'ji
+输入文件：`DHR-s9-NTO.gjf`
+
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf em=gd3bj`
+
+结果：
