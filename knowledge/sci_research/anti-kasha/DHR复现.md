@@ -35,6 +35,8 @@ Category:
 关键词：`td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
+normal termination
+
 
 ## s1 opt
 
