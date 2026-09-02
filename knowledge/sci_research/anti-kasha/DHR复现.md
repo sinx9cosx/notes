@@ -63,7 +63,7 @@ Excited State 2: 2.6682 eV 464.67 nm f=0.0206
 96->100 0.12726
 97->99 0.67256
 
-yu
+跃迁偶极矩：8.1315 a.u.
 
 ## s1 nacme
 
@@ -71,7 +71,7 @@ yu
 
 关键词：`#p td(nstate=20) cam-b3lyp/6-31g(d,p) guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
-结果：
+结果：normal termination
 ## s1 NTO
 
 目标：电子转移情况
@@ -116,7 +116,7 @@ Excited State 2: 2.2135 eV 560.13 nm f=0.0349
 
 关键词：`#p td(nstate=20,root=2) cam-b3lyp/6-31g(d,p) guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
-结果：
+结果：normal termination
 
 ## s2 NTO
 

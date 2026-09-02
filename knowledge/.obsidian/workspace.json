@@ -16,7 +16,7 @@
                 "file": "instrument/MOMAP/MOMAP光谱+速率.canvas",
                 "viewState": {
                   "x": 775,
-                  "y": -160,
+                  "y": -160.00000000000003,
                   "zoom": -0.908168636478358
                 }
               },
@@ -52,8 +52,7 @@
               "title": "MOMAP 7 QC准备"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -252,10 +251,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d5c6380458dd6373",
+  "active": "e8c383da7c79c319",
   "lastOpenFiles": [
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/anti-kasha/DHR复现.md",
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOFEL/TOFEL写作要点.md",
     "sci_research/TBR/TBR-test-s1.md",
