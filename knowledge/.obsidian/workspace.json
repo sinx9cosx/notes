@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/anti-kasha/DHR后处理-光谱计算.md",
+                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR后处理-光谱计算"
+              "title": "MOMAP 7 QC准备"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/未命名.md",
+                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "MOMAP 7 QC准备"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "教程",
+                "query": "tag:数学",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -247,18 +247,20 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3622c0c83f5d9d86",
+  "active": "c455f33f40e4eeea",
   "lastOpenFiles": [
-    "sci_research/anti-kasha/DHR复现.md",
+    "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
+    "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
-    "math/未命名.md",
+    "sci_research/anti-kasha/DHR复现.md",
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
+    "math/The Natural Numbers.md",
+    "physchem/拉格朗日乘数法.md",
     "sci_research/anti-kasha/DHA文献计算细节.md",
     "instrument/linux/linux常用命令.md",
     "instrument/linux/vim使用教程.md",
-    "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "sci_research/anti-kasha/DHR文献概况.md",
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/linux/linux运行软件.md",
     "TOFEL/TOFEL写作要点.md",
     "sci_research/TBR/TBR-test-s1.md",
@@ -271,7 +273,6 @@
     "TOFEL/填词/单词拼写.md",
     "sci_research/TBR/TBR-test-s0.md",
     "index/MOMAP后处理荧光光谱+速率.md",
-    "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "index/Multiwfn手册.md",
     "quantum chemistry/线性变分法的基函数.md",
@@ -279,7 +280,6 @@
     "instrument/image/fig-3.jpg",
     "instrument/image",
     "instrument/新建文件夹",
-    "instrument/Multiwfn/Multiwfn手册第一章.md",
     "instrument/MOMAP",
     "sci_research/image/DHR-s2-NTO-97.jpg",
     "sci_research/image/DHR-s2-NTO-98.jpg",

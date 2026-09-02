@@ -1,6 +1,6 @@
 ---
 tags:
-  - 数学
+  - math
 Category:
   - 笔记
 ---
