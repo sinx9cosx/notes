@@ -11,17 +11,14 @@
             "id": "e8c383da7c79c319",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP光谱+速率.canvas",
-                "viewState": {
-                  "x": 775,
-                  "y": -160.00000000000003,
-                  "zoom": -0.908168636478358
-                }
+                "file": "sci_research/anti-kasha/DHR复现.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "MOMAP光谱+速率"
+              "icon": "lucide-file",
+              "title": "DHR复现"
             }
           },
           {
@@ -250,22 +247,22 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "3622c0c83f5d9d86",
   "lastOpenFiles": [
-    "math/未命名.md",
-    "sci_research/anti-kasha/DHR后处理-光谱计算.md",
-    "instrument/linux/linux常用命令.md",
-    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
-    "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/anti-kasha/DHR复现.md",
+    "sci_research/anti-kasha/DHR后处理-光谱计算.md",
     "sci_research/anti-kasha/DHA文献计算细节.md",
+    "instrument/linux/linux常用命令.md",
+    "instrument/linux/vim使用教程.md",
+    "instrument/MOMAP/MOMAP光谱+速率.canvas",
+    "math/未命名.md",
+    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "sci_research/anti-kasha/DHR文献概况.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/linux/linux运行软件.md",
     "TOFEL/TOFEL写作要点.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s2.md",
-    "instrument/linux/vim使用教程.md",
     "TOFEL/TOFEL邮件写作/邮件-是否更换工作的建议.md",
     "TOFEL/TOFEL邮件写作/邮件1.md.tmp.21116.2d6f8f37cd11",
     "TOFEL/TOFEL口语要点.md",
@@ -283,7 +280,6 @@
     "instrument/image",
     "instrument/新建文件夹",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
-    "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "instrument/MOMAP",
     "sci_research/image/DHR-s2-NTO-97.jpg",
     "sci_research/image/DHR-s2-NTO-98.jpg",
