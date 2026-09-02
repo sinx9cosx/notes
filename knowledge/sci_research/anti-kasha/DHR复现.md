@@ -25,6 +25,7 @@ Category:
 关键词：`# opt freq CAM-B3LYP/6-31g(d,p) scrf em=gd3bj`
 
 结果：优化成功，没有虚频
+SCF Done:-1151.10651698 a.u.
 
 ## s0 td
 
@@ -35,7 +36,7 @@ Category:
 关键词：`td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
-normal termination
+跃迁偶极矩：7.4283 a.u.
 
 
 ## s1 opt
@@ -45,6 +46,7 @@ normal termination
 关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：优化成功，无虚频
+SCF Done:-1151.09884677 a.u.
 
 ## s1 td
 
@@ -60,6 +62,8 @@ Excited State 2: 2.6682 eV 464.67 nm f=0.0206
 95->98 0.12255
 96->100 0.12726
 97->99 0.67256
+
+yu
 
 ## s1 nacme
 
