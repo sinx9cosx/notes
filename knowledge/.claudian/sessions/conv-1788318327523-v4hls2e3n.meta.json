@@ -1,0 +1,24 @@
+{
+  "id": "conv-1788318327523-v4hls2e3n",
+  "providerId": "claude",
+  "title": "Review all documents in directory for errors",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788318327523,
+  "updatedAt": 1788318466120,
+  "lastResponseAt": 1788318466120,
+  "sessionId": "9275a544-9b3f-4129-8f25-959292a5551d",
+  "providerState": {
+    "providerSessionId": "9275a544-9b3f-4129-8f25-959292a5551d"
+  },
+  "currentNote": "sci_research/anti-kasha/DHR后处理-光谱计算.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4220,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 37248,
+    "contextWindow": 1000000,
+    "contextTokens": 41468,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
