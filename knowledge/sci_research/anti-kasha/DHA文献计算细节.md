@@ -25,3 +25,5 @@ freq s0 s1 s2：\omegaB97xd\6-311+g\*
 方法：DFT,TDDFT
 
 振动吸收和发射光谱：MOMAP
+
+> 文献的s1 s2是实验谱带编号。
