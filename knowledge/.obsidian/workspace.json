@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,15 +247,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3622c0c83f5d9d86",
+  "active": "c455f33f40e4eeea",
   "lastOpenFiles": [
+    "math/未命名.md",
     "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
     "sci_research/anti-kasha/DHA文献计算细节.md",
     "instrument/linux/linux常用命令.md",
     "instrument/linux/vim使用教程.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
-    "math/未命名.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "sci_research/anti-kasha/DHR文献概况.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
