@@ -36,7 +36,7 @@ SCF Done:-1151.10651698 a.u.
 关键词：`td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
-Dip.S.：7.4283 a.u.
+Dip.S.（$\mu^2$）：7.4283 a.u.
 
 
 ## s1 opt

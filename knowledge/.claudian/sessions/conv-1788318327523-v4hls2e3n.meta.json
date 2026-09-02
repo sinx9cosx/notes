@@ -4,8 +4,8 @@
   "title": "Review all documents in directory for errors",
   "titleGenerationStatus": "success",
   "createdAt": 1788318327523,
-  "updatedAt": 1788319533505,
-  "lastResponseAt": 1788319533505,
+  "updatedAt": 1788360357722,
+  "lastResponseAt": 1788360357722,
   "sessionId": "9275a544-9b3f-4129-8f25-959292a5551d",
   "providerState": {
     "providerSessionId": "9275a544-9b3f-4129-8f25-959292a5551d",
@@ -428,12 +428,11 @@
   "currentNote": "sci_research/anti-kasha/DHR后处理-光谱计算.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 156,
+    "inputTokens": 3027,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 40704,
+    "cacheReadInputTokens": 68864,
     "contextWindow": 200000,
-    "contextTokens": 40860,
-    "percentage": 20,
-    "contextWindowIsAuthoritative": false
+    "contextTokens": 71891,
+    "percentage": 36
   }
 }
