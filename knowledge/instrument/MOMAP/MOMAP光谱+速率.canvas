@@ -25,7 +25,7 @@
 		{"id":"5f1d3cac02b5cc0d","type":"text","text":"吸收电子偶极矩EDMA（debye）","x":373,"y":-370,"width":355,"height":60},
 		{"id":"04c9b937f94e4a62","type":"text","text":"发射电子偶极矩EDME(debye)","x":380,"y":220,"width":355,"height":60},
 		{"id":"e75bb6999e3c86ba","type":"text","text":"绝热激发能Ead(a.u.)","x":380,"y":-120,"width":250,"height":60},
-		{"id":"d52b43ecf0a8a6b0","type":"text","text":"evc.car.nac","x":860,"y":500,"width":250,"height":60},
+		{"id":"d52b43ecf0a8a6b0","type":"text","text":"evc.cart.nac","x":860,"y":500,"width":250,"height":60},
 		{"id":"81f1f402d2e16d65","type":"text","text":"NACME计算","x":505,"y":500,"width":250,"height":60,"color":"3"}
 	],
 	"edges":[
