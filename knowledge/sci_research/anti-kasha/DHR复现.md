@@ -36,7 +36,7 @@ SCF Done:-1151.10651698 a.u.
 关键词：`td(nstate=20) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
-跃迁偶极矩：7.4283 a.u.
+Dip.S.：7.4283 a.u.
 
 
 ## s1 opt
@@ -63,7 +63,7 @@ Excited State 2: 2.6682 eV 464.67 nm f=0.0206
 96->100 0.12726
 97->99 0.67256
 
-跃迁偶极矩：8.1315 a.u.
+Dip. S.：8.1315 a.u.
 
 ## s1 nacme
 

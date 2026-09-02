@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -247,11 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c455f33f40e4eeea",
+  "active": "3622c0c83f5d9d86",
   "lastOpenFiles": [
-    "math/未命名.md",
     "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
+    "math/未命名.md",
     "sci_research/anti-kasha/DHA文献计算细节.md",
     "instrument/linux/linux常用命令.md",
     "instrument/linux/vim使用教程.md",
