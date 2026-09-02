@@ -42,10 +42,14 @@
             "id": "3622c0c83f5d9d86",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "math/未命名.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "未命名"
             }
           }
         ],
@@ -246,8 +250,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3622c0c83f5d9d86",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "math/未命名.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
     "instrument/linux/linux常用命令.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
