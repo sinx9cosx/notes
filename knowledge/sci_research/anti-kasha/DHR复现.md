@@ -69,7 +69,7 @@ Dip. S.：8.1315 a.u.
 
 输入文件：`DHR-s1-nacme.gjf`
 
-关键词：`#p td(nstate=20) cam-b3lyp/6-31g(d,p) scrf guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
+关键词：`#p td(nstate=20) cam-b3lyp/6-31g(d,p) scrf em=gd3bj guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
 结果：normal termination
 ## s1 NTO
