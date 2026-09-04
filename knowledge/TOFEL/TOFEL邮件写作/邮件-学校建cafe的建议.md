@@ -21,4 +21,6 @@ Tom
 # 修改
 
 Dear Committe Chair,
-I'm writing to share the feedback from students ragarding 
+I'm writing to share the feedback from students ragarding the university's plan to build a new cafe, and to propose serveral menu and services features for your consideration.
+In summary,most students are in favor of opening a new cafe, because it provides convenient access to beverage between classes.
+Based on student input, I'd like to recommend a series coffee,milk and juice. 
