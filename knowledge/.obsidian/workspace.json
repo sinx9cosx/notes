@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 5 NACME.md",
+                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP 5 NACME"
+              "title": "MOMAP 3  Duschinsky旋转矩阵和振动分析"
             }
           },
           {
@@ -52,7 +52,8 @@
               "title": "DHR后处理-光谱计算"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,8 +251,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "e8c383da7c79c319",
+  "active": "f86f7c8db516fd66",
   "lastOpenFiles": [
+    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
+    "instrument/MOMAP/MOMAP 5 NACME.md",
     "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
@@ -259,11 +263,8 @@
     "sci_research/spectrum/激发态和光谱计算2.md",
     "sci_research/anti-kasha/DHA文献计算细节.md",
     "sci_research/spectrum/激发态和光谱计算.md",
-    "instrument/MOMAP/MOMAP 5 NACME.md",
-    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "math/The Natural Numbers.md",
     "sci_research/anti-kasha/DHR文献概况.md",
-    "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "physchem/拉格朗日乘数法.md",
     "instrument/linux/linux常用命令.md",
     "instrument/linux/vim使用教程.md",
