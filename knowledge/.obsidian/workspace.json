@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+                "file": "sci_research/spectrum/激发态和光谱计算2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP 3  Duschinsky旋转矩阵和振动分析"
+              "title": "激发态和光谱计算2"
             }
           },
           {
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -278,8 +278,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6eb8580ed65e9b1b",
+  "active": "3622c0c83f5d9d86",
   "lastOpenFiles": [
+    "sci_research/spectrum/激发态和光谱计算.md",
+    "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/anti-kasha/DHR复现.md",
@@ -304,7 +306,6 @@
     "TOFEL/填词/单词拼写.md",
     "sci_research/TBR/TBR-test-s0.md",
     "index/MOMAP后处理荧光光谱+速率.md",
-    "instrument/MOMAP/MOMAP 5 NACME.md",
     "index/Multiwfn手册.md",
     "quantum chemistry/线性变分法的基函数.md",
     "instrument/MOMAP/MOMAP.md",

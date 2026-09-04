@@ -18,7 +18,7 @@ MOMAP还能够基于TVCORF_IC和TVSPEC_IC子程序计算内转换（IC）速率�
 
 与辐射荧光计算不同，在进行非辐射计算之前，必须先获得NACME。
 
-在MOMAP中，get-nacme函数用于从Gaussian输出中读取跃迁电场和振动信息，并计算电子耦合项。该过程集成在evc_int和evc_cart子程序中。用户需要提供Gaussian电场计算结果，并在MOMAP控制文件momap.inp中启用NACME计算。其余步骤与常规evc计算相同。计算完成后，将生成一个*.nac文件，用于非辐射计算。
+在MOMAP中，get-nacme函数用于从Gaussian输出中读取跃迁电场和振动信息，并计算电子耦合项。该过程集成在evc_int和evc_cart子程序中。用户需要提供Gaussian电场计算结果，并在MOMAP控制文件momap.inp中启用NACME计算。**其余步骤与常规evc计算相同。** 计算完成后，将生成一个`*.nac`文件，用于非辐射计算。
 
 ## 5.3 开始计算
 
