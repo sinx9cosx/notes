@@ -10,10 +10,15 @@ You are a student representative on your university's committee for improving ca
 
 # 我的答案
 
-Dear committee, 
-Hello!I'm writing to talk about school's new cafe plan and I have collected some ideas as a student representive. 
-In summary,most students are in favor of opening a new cafe,because it's convenient to get drinks when feeling thirsty in school.Also,it offers a space for rest and communication. 
-In consideration of suggestions from other students,as for the menu,I'd like to recommend traditional drinks like coffee,milk and juice.It's popular and healthy so that most students will love it.Additionally,I suggest that the cafe can sell different food according to seasons.For example,selling ice cream in summer while selling hot chocolate in winter must be a success since students can cool down or warm up by eating these.When it comes to the service,I think the cafe can spare some space for group work discussion or self study.Good environment is the key to attract students. 
-All in all,to make the cafe better,hope my recommendations would be considered for further discussion.Thanks for your reading! 
+<mark style="background: #FFB8EBA6;">Dear committee</mark>, 
+<mark style="background: #FFB8EBA6;">Hello!</mark>I<mark style="background: #FFB86CA6;">'m writing to talk about </mark>school's new cafe plan and I have collected some ideas as a student <mark style="background: #ABF7F7A6;">representive</mark>. 
+In summary,most students are in favor of opening a new cafe,<mark style="background: #FF5582A6;">because it's convenient to get drinks when feeling thirsty in school.</mark>Also,it offers a space for <mark style="background: #FFF3A3A6;">rest</mark> and communication. 
+<mark style="background: #BBFABBA6;">In consideration of suggestions from other students</mark>,as for the menu,I'd like to recommend traditional drinks like coffee,milk and juice.<mark style="background: #FFF3A3A6;">It's popular and healthy so that most students will love it</mark>.Additionally,I suggest that the cafe can sell different food according to seasons.For example,selling ice cream in summer while selling hot chocolate in winter<mark style="background: #FFB86CA6;"> must be</mark> a success since students can cool down or warm up <mark style="background: #FFF3A3A6;">by eating these</mark>.When it comes to the service,<mark style="background: #FF5582A6;">I think</mark> the cafe can spare some space for group work discussion or self study.Good environment is the key to<mark style="background: #FFB86CA6;"> attract </mark>students. 
+<mark style="background: #BBFABBA6;">All in al</mark>l,to make the cafe better,<mark style="background: #FFF3A3A6;">hope my recommendations would be considered for further discussion.Thanks for your reading! </mark>
 Sincerely, 
 Tom
+
+# 修改
+
+Dear Committe Chair,
+I'm writing to share the feedback from students ragarding 
