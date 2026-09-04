@@ -20,7 +20,10 @@ Tom
 
 # 修改
 
-Dear Committe Chair,
-I'm writing to share the feedback from students ragarding the university's plan to build a new cafe, and to propose serveral menu and services features for your consideration.
-In summary,most students are in favor of opening a new cafe, because it provides convenient access to beverage between classes.
-Based on student input, I'd like to recommend popular and healthy drinks like coffee,milk and juice, which is ideal for morning study. Additionally, I suggest that the cafe can sell different food according to seasons.
+Dear Committee Chair,
+I'm writing to share the feedback from students regarding the university's plan to build a new cafe, and to propose several menu and services features for your consideration.
+In summary,most students are in favor of opening a new cafe, because it provides convenient access to beverages between classes.
+Based on student input, I'd like to recommend popular and healthy drinks like coffee,milk and juice, which are ideal for morning study. Additionally, we could introduce seasonal specialty items such as iced drinks during summer months and hot chocolate in winter, which would ensure the menu remains appealing year-round. In terms of services, I suggest building quiet zones for individual study and semi-private areas for group discussions. A well-designed environment with adequate lighting and reliable Wi-Fi would significantly appeal to students.
+I would greatly appreciate it if these recommendations could be considered in further discussions. Thank you for your time.
+Sincerely,
+Tom
