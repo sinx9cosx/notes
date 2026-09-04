@@ -52,7 +52,8 @@
               "title": "DHR后处理-光谱计算"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,11 +252,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "e8c383da7c79c319",
+  "active": "f86f7c8db516fd66",
   "lastOpenFiles": [
+    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
-    "sci_research/anti-kasha/DHR复现.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/spectrum/激发态和光谱计算2.md",
     "sci_research/anti-kasha/DHA文献计算细节.md",
