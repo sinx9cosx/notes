@@ -53,14 +53,17 @@
             "id": "6eb8580ed65e9b1b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "sci_research/anti-kasha/DHR复现.md",
-                "mode": "source",
-                "source": false
+                "file": "instrument/MOMAP/MOMAP光谱+速率.canvas",
+                "viewState": {
+                  "x": 775,
+                  "y": -160,
+                  "zoom": -1.462557719624017
+                }
               },
-              "icon": "lucide-file",
-              "title": "DHR复现"
+              "icon": "lucide-layout-dashboard",
+              "title": "MOMAP光谱+速率"
             }
           },
           {
@@ -278,13 +281,13 @@
   "active": "6eb8580ed65e9b1b",
   "lastOpenFiles": [
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "instrument/MOMAP/MOMAP光谱+速率.canvas",
+    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/anti-kasha/DHA文献计算细节.md",
-    "sci_research/anti-kasha/DHR复现.md",
     "math/The Natural Numbers.md",
     "sci_research/anti-kasha/DHR文献概况.md",
-    "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "physchem/拉格朗日乘数法.md",
     "instrument/linux/linux常用命令.md",
