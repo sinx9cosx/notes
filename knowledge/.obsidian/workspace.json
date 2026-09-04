@@ -52,8 +52,7 @@
               "title": "DHR后处理-光谱计算"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -252,7 +251,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f86f7c8db516fd66",
+  "active": "e8c383da7c79c319",
   "lastOpenFiles": [
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
