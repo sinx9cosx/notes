@@ -12,7 +12,7 @@ Category:
 
 ## log文件提取数据
 
-Ead（绝热激发能）=2.144 eV
+Ead（绝热激发能）=2.144 eV=0.078792a.u.
 EDMA（吸收电子偶极矩）=6.92738 debye
 EDME（发射电子偶极矩）=7.24786 debye
 
@@ -33,6 +33,7 @@ EDME（发射电子偶极矩）=7.24786 debye
 ## evc-kr
 
 目标：得到evc.cart.dat，用于后续荧光光谱和辐射速率计算
+momap.inp填入log提取的数据
 
 结果：
 
