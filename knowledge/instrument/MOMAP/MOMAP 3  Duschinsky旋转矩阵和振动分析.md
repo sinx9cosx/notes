@@ -61,3 +61,5 @@ nodefile:localhost
 
 请检查evc.cart.dat和evc.dint.dat之间的重组能结果。如果能量差较小（< 1000 cm⁻¹），则使用evc.cart.dat中的结果进行后续计算；如果能量差较大，则使用evc.dint.dat进行后续计算。
 
+<mark style="background: #ABF7F7A6;">关键词搜索</mark>：total reorganization energy
+
