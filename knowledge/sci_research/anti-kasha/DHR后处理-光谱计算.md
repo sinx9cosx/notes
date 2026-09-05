@@ -35,6 +35,8 @@ EDME（发射电子偶极矩）=7.24786 debye
 1. 验证相关函数收敛：使用spec.tvcf.ft.dat中的前两列绘制图形
 2. 获取结果：辐射衰减速率常数可在spec.tvcf.log文件末尾找到，而荧光光谱信息可从spec.tvcf.spec.dat文件中获取
 
+## kir
+
 # s9
 
 ## evc-kr
