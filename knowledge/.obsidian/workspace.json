@@ -49,8 +49,7 @@
               "title": "MOMAP 5 NACME"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -233,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,14 +248,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2cdf46b7a93df2fe",
+  "active": "f86f7c8db516fd66",
   "lastOpenFiles": [
+    "math/The Natural Numbers.md",
+    "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
-    "math/The Natural Numbers.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
-    "instrument/MOMAP/MOMAP 5 NACME.md",
     "TOFEL/TOFEL邮件写作/邮件-学校建cafe的建议.md",
     "TOFEL/TOFEL邮件写作/邮件-人生规划建议.md",
     "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
