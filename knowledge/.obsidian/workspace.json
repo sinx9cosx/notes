@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
+                "file": "instrument/MOMAP/MOMAP结果检查流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP evc输出解读-重组能与kr衔接"
+              "title": "MOMAP结果检查流程"
             }
           }
         ],
@@ -250,9 +250,10 @@
   },
   "active": "2cdf46b7a93df2fe",
   "lastOpenFiles": [
+    "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
+    "instrument/MOMAP/MOMAP结果检查流程.md",
     "instrument/MOMAP/MOMAP结果检查流程.md.tmp.11092.b2754827b0da",
     "instrument/MOMAP/MOMAP结果检查流程.md.tmp.11092.d08fc30df070",
-    "instrument/MOMAP/MOMAP结果检查流程.md",
     "instrument/MOMAP/MOMAP结果检查流程.md.tmp.11092.d72c35286ff7",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
@@ -262,7 +263,6 @@
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "TOFEL/TOFEL邮件写作/邮件-学校建cafe的建议.md",
     "TOFEL/TOFEL邮件写作/邮件-人生规划建议.md",
-    "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
     "TOFEL/填词/填词错误类型.canvas",
     "TOFEL/TOFEL写作要点.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
@@ -297,7 +297,6 @@
     "sci_research/image/d5e49994b549ed43e8c5b217a22a9a00.jpg",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.bd11c6ca25cd",
     "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.b714cd08a285",
-    "sci_research/TBR/TBR SUMMARY1.md.tmp.23252.c8db48491462",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
     "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",

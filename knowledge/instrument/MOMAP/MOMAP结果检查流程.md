@@ -2,7 +2,6 @@
 tags:
   - 计算化学
   - research
-  - MOMAP
   - 后处理
 Category:
   - 笔记
