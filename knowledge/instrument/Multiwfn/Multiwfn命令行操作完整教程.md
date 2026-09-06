@@ -1,5 +1,4 @@
 ---
-title: Multiwfn命令行操作完整教程
 tags:
   - 计算化学
   - research
