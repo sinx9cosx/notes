@@ -12,7 +12,7 @@ Category:
 
 ## log文件提取数据
 
-Ead（绝热激发能）=2.144 eV=0.078792a.u.
+Ead（绝热激发能）=2.144 eV=0.078——792a.u.（数据来自s1td）
 EDMA（吸收电子偶极矩）=6.92738 debye
 EDME（发射电子偶极矩）=7.24786 debye
 
@@ -31,13 +31,11 @@ momap.inp填入log提取的数据
 2. spec.tvcf.log
 	radiative rate:辐射速率：5.49796738E+07 s 辐射寿命:18.17 ns
 
-## evc-kic
+3. 主峰在601？文献在658？
 
-目标：得到evc.cart.nac用于后续非辐射速率计算
 
-结果：ok
+————用s1opt的数据计算Ead————
 
-## kic
+## kr
 
-1. 检查收敛 ： ic.tvcf.ft.dat
-	
+## kir
