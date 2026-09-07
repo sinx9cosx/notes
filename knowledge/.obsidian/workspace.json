@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,10 +249,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "303982a5d9a33ee4",
+  "active": "acca33738c880e77",
   "lastOpenFiles": [
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "TOFEL/TOFEL口语要点.md",
+    "sci_research/image/spec-converge.png",
     "TOFEL/学术讲座.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "math/The Natural Numbers.md",
@@ -288,7 +290,6 @@
     "instrument/linux/linux运行软件.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s2.md",
-    "TOFEL/TOFEL口语要点.md",
     "instrument/image/fig-3.jpg",
     "sci_research/image/DHR-s2-NTO-97.jpg",
     "sci_research/image/DHR-s2-NTO-98.jpg",
@@ -298,7 +299,6 @@
     "sci_research/image/DHR-s1-NTO-98.jpg",
     "sci_research/image/DHR-s1-NTO-99.jpg",
     "sci_research/image/cd8f16be3ed4d05bc490887cf27f5d63.jpg",
-    "sci_research/image/d5e49994b549ed43e8c5b217a22a9a00.jpg",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
     "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",

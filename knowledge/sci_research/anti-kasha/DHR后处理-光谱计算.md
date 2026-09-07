@@ -22,7 +22,7 @@ EDME（发射电子偶极矩）=7.24786 debye
 
 结果：evc.cart.dat与evc.dint.dat重组能相差很小。
 
-## evc-kir
+## evc-kic
 
 目标：得到evc.cart.nac用于后续非辐射速率计算
 
@@ -35,7 +35,7 @@ EDME（发射电子偶极矩）=7.24786 debye
 1. 验证相关函数收敛：使用spec.tvcf.ft.dat中的前两列绘制图形
 2. 获取结果：辐射衰减速率常数可在spec.tvcf.log文件末尾找到，而荧光光谱信息可从spec.tvcf.spec.dat文件中获取
 
-## kir
+## kic
 
 # s9
 
@@ -45,8 +45,11 @@ EDME（发射电子偶极矩）=7.24786 debye
 momap.inp填入log提取的数据
 
 结果：
+1. 检查收敛spec.tvcf.ft.dat
+	![[spec-converge.png]]
+2. 
 
-## evc-kir
+## evc-kic
 
 目标：得到evc.cart.nac用于后续非辐射速率计算
 
