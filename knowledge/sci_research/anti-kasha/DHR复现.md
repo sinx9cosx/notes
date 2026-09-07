@@ -142,13 +142,23 @@ old chk：`DHR-s2td.chk`
 
 ## s9 opt
 
-输入文件：`DHR-s9opt.gjf`
+输入文件：`DHR-s9opt2.gjf`
 
-关键词：`# opt freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
+关键词：`# opt td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
+
+结果：收敛成功
+SCF Done: -1151.10219537 a.u.
+## s9 freq
+
+输入文件：`DHR-s9freq.gjf`
+
+关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：
 
 ## s9 td
+
+oldchk：s9opt
 
 输入文件：`DHR-s9td.gjf`
 
@@ -157,12 +167,16 @@ old chk：`DHR-s2td.chk`
 结果：
 ## s9 nacme
 
+oldchk：s9opt
+
 输入文件：`DHR-s9-nacme.gjf`
 
 关键词：`#p td(nstate=20,root=9) cam-b3lyp/6-31g(d,p) guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
 结果：
 ## s9 NTO
+
+oldchk：s9td
 
 输入文件：`DHR-s9-NTO.gjf`
 
