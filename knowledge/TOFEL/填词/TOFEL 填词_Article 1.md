@@ -1,6 +1,6 @@
 ---
 tags:
-  - english
+  - English
 Category:
   - 笔记
 ---
