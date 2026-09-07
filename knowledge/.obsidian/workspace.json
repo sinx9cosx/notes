@@ -35,7 +35,8 @@
               "title": "阅读"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/anti-kasha/DHR复现.md",
+                "file": "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -233,11 +234,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "700fdb7ebc2138ad",
   "lastOpenFiles": [
+    "sci_research/anti-kasha/DHR复现.md",
+    "TOEFL/TOEFL模拟面试/复述题练习.md",
+    "TOEFL/TOEFL模拟面试/复述题练习.md.tmp.13252.38c42102b31f",
+    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.2bce3f9df5af",
+    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.c21fc67f6b6a",
+    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.dde9679796c1",
+    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.138cfec7f56a",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "sci_research/anti-kasha/DHR复现.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "TOEFL/TOEFL口语要点.md",
@@ -251,11 +258,6 @@
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.fee4b39aa000",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.a215e8e7f13d",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.a3c9df9b58b3",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.09f4f26d8bfc",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.1ba7315216eb",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.0671611e1b61",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.8ef919e87761",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.602532d687f7",
     "instrument/MOMAP/MOMAP结果检查流程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
     "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
@@ -273,7 +275,6 @@
     "physchem/拉格朗日乘数法.md",
     "instrument/linux/linux常用命令.md",
     "instrument/linux/vim使用教程.md",
-    "instrument/linux/linux运行软件.md",
     "instrument/image/fig-3.jpg",
     "sci_research/image/DHR-s2-NTO-97.jpg",
     "sci_research/image/DHR-s2-NTO-98.jpg",
