@@ -26,7 +26,6 @@ momap.inp填入log提取的数据
 ## kr
 
 1. 检查收敛spec.tvcf.ft.dat
-	![[spec-converge.png]]
 
 2. spec.tvcf.log
 	radiative rate:辐射速率：5.49796738E+07 s 辐射寿命:18.17 ns

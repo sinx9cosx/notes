@@ -49,8 +49,7 @@
               "title": "TOFEL口语要点"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,12 +246,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "acca33738c880e77",
+  "active": "f86f7c8db516fd66",
   "lastOpenFiles": [
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "sci_research/anti-kasha/DHR后处理-光谱计算.md",
-    "TOFEL/TOFEL口语要点.md",
     "sci_research/image/spec-converge.png",
+    "sci_research/anti-kasha/DHR后处理-光谱计算.md",
+    "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "TOFEL/TOFEL口语要点.md",
     "TOFEL/学术讲座.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "math/The Natural Numbers.md",
@@ -269,7 +269,6 @@
     "instrument/MOMAP/MOMAP结果检查流程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
     "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
-    "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
@@ -287,7 +286,6 @@
     "instrument/linux/vim使用教程.md",
     "instrument/linux/linux运行软件.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "sci_research/TBR/TBR-test-s2.md",
     "instrument/image/fig-3.jpg",
     "sci_research/image/DHR-s2-NTO-97.jpg",
     "sci_research/image/DHR-s2-NTO-98.jpg",
