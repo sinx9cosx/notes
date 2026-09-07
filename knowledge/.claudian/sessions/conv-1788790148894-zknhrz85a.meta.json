@@ -1,0 +1,24 @@
+{
+  "id": "conv-1788790148894-zknhrz85a",
+  "providerId": "claude",
+  "title": "Evaluate TOEFL speaking answer quality",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788790148895,
+  "updatedAt": 1788790220742,
+  "lastResponseAt": 1788790220742,
+  "sessionId": "599cc20e-9c49-46e8-a279-96486df24cca",
+  "providerState": {
+    "providerSessionId": "599cc20e-9c49-46e8-a279-96486df24cca"
+  },
+  "currentNote": "TOFEL/TOFEL模拟面试/个人习惯与生活方式/阅读.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 498,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32768,
+    "contextWindow": 1000000,
+    "contextTokens": 33266,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
