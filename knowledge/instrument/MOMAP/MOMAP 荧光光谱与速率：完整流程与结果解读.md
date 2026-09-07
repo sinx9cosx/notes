@@ -149,11 +149,18 @@ momap.inp 关键参数：
 | FWHM | 展宽（cm⁻¹），决定谱峰宽度 | 200 |
 | DUSHIN | Duschinsky 混合开关，Delta DUSH 大时必须 `.t.` | .t. |
 
-**收敛验证（需作图检查，不可省略）。** `spec.tvcf.ft.dat` 共 5 列：`#time(fs) abs_FC_Re abs_FC_Im emi_FC_Re emi_FC_Im`。画 `spec.tvcf.ft.dat` 第 1 列（time）vs 第 4 列（`emi_FC_Re`，发射相关函数实部）。判据：包络在 tmax 之前衰减到接近 0、不再大幅振荡。为什么必须看：傅里叶变换在数学上需积至无穷时间；相关函数未衰减至零等价于硬截断，将使光谱出现虚假振荡峰。
+**收敛验证（需作图检查，不可省略）。**
+画 `spec.tvcf.ft.dat` 第 1 列（time）vs 第 4 列（`emi_FC_Re`，发射相关函数实部）。
+判据：包络在 tmax 之前衰减到接近 0、不再大幅振荡。
+为什么看：相关函数经傅里叶变换得到光谱，光谱加权积分得到 kr（kic 走同样的框架，是费米黄金规则下的傅里叶变换）。
+- 数学定义要求把 C(t) 从 t=0 积到 **t=∞** 才能得到无误差的光谱喵。
+- 程序只能积到有限的 `tmax`，这是个**近似**喵。
+- 这个近似成立的唯一条件：C(t) 在到达 tmax 之前已经衰减到 ≈0，后面"没采到的尾巴"不携带信息喵。
 
-**读结果。** log 末尾 `radiative rate` 行取 `/s` 与 `ns` 两个数（同行的极小 a.u. 值不用）。`E0-0`（0-0 跃迁能量）≈ 谱主峰位置参考。
+**读结果。** 
+log 末尾 `radiative rate` 行取 `/s` 与 `ns` 两个数（同行的极小 a.u. 值不用）。`E0-0`（0-0 跃迁能量）≈ 谱主峰位置参考。
 
-**画光谱。** `spec.tvcf.spec.dat` 共 7 列：`#1Energy(Hartree) 2Energy(eV) 3WaveNumber(cm-1) 4WaveLength(nm) 5FC_abs 6FC_emi 7FC_emi_intensity`。x 取第 4 列波长（或第 3 列波数），y 取第 7 列 `FC_emi_intensity`。
+**画光谱。** `spec.tvcf.spec.dat` 共 7 列：`#1Energy(Hartree) 2Energy(eV) 3WaveNumber(cm-1) 4WaveLength(nm) 5FC_abs（吸收跃迁概率分布） 6FC_emi（发射FC跃迁概率分布） 7FC_emi_intensity（2发射光谱强度）`。x 取第 4 列波长（或第 3 列波数），y 取第 7 列 `FC_emi_intensity`。
 
 **物理意义。** kr 大表示辐射通道强。kr 主要由 EDME 与 Ead 决定：跃迁偶极越大、跃迁能量越高，辐射速率越大。
 

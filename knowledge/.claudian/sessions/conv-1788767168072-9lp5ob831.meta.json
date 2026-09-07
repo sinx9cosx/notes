@@ -1,0 +1,24 @@
+{
+  "id": "conv-1788767168072-9lp5ob831",
+  "providerId": "claude",
+  "title": "Explain purpose of convergence verification",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788767168073,
+  "updatedAt": 1788767318608,
+  "lastResponseAt": 1788767318608,
+  "sessionId": "a99a3bb5-7d15-4bac-9cc7-7f2f5e093af7",
+  "providerState": {
+    "providerSessionId": "a99a3bb5-7d15-4bac-9cc7-7f2f5e093af7"
+  },
+  "currentNote": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 209,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46208,
+    "contextWindow": 1000000,
+    "contextTokens": 46417,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}
