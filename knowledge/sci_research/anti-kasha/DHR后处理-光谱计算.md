@@ -49,7 +49,7 @@ momap.inp填入log提取的数据
 	![[spec-converge.png]]
 
 2. spec.tvcf.log
-	radiative rate:5.49796738E+07
+	radiative rate:辐射速率：5.49796738E+07 s 辐射寿命:18.17 ns
 
 ## evc-kic
 
