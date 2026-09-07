@@ -47,7 +47,9 @@ momap.inp填入log提取的数据
 结果：
 1. 检查收敛spec.tvcf.ft.dat
 	![[spec-converge.png]]
-2. 
+
+2. spec.tvcf.log
+	radiative rate:5.49796738E+07
 
 ## evc-kic
 
