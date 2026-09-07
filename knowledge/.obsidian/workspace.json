@@ -35,8 +35,7 @@
               "title": "阅读"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
+                "file": "sci_research/anti-kasha/DHR复现.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -216,11 +215,12 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,8 +234,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "700fdb7ebc2138ad",
+  "active": "f86f7c8db516fd66",
   "lastOpenFiles": [
+    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/anti-kasha/DHR复现.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md.tmp.13252.38c42102b31f",
@@ -243,7 +244,6 @@
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.c21fc67f6b6a",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.dde9679796c1",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.138cfec7f56a",
-    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
