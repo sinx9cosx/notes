@@ -39,3 +39,5 @@ momap.inp填入log提取的数据
 
 ## kic
 
+1. 检查收敛 ： ic.tvcf.ft.dat
+	

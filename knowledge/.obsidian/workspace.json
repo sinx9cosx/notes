@@ -49,7 +49,8 @@
               "title": "TOFEL口语要点"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,11 +248,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f86f7c8db516fd66",
+  "active": "acca33738c880e77",
   "lastOpenFiles": [
-    "TOFEL/TOFEL口语要点.md",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "TOFEL/TOFEL口语要点.md",
     "sci_research/image/spec-converge.png",
     "TOFEL/学术讲座.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
