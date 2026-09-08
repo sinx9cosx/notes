@@ -13,7 +13,9 @@ Category:
 
 结果：收敛成功
 SCF Done: -1151.10219537 a.u.
-
+<mark style="background: #ABF7F7A6;">3.9952 eV  310.34 nm  f=0.1547</mark>
+94 -> 98         0.52870
+95 -> 99         0.15959
 ## s9 freq
 
 输入文件：`DHR-s9freq.gjf`

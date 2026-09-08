@@ -92,6 +92,8 @@ old chk：`DHR-s1td.chk`
 
 ---
 
+# s2
+
 ## s2 opt
 
 输入文件：`DHR-s2opt.gjf`
