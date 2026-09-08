@@ -165,7 +165,7 @@ oldchk：s9opt
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：normal termination
-SCF Done:-1151.10219537 a.u.
+Dip.S.：
 ## s9 nacme
 
 oldchk：s9opt

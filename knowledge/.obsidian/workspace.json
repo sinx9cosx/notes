@@ -49,8 +49,7 @@
               "title": "MOMAP 7 QC准备"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
+                "file": "sci_research/anti-kasha/DHR复现.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -233,8 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,14 +246,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7ac0c252a83a7515",
+  "active": "f86f7c8db516fd66",
   "lastOpenFiles": [
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
+    "instrument/MOMAP/MOMAP 5 NACME.md",
+    "instrument/MOMAP/MOMAP光谱+速率.canvas",
+    "sci_research/anti-kasha/DHR复现.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
-    "sci_research/anti-kasha/DHR复现.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md.tmp.13252.38c42102b31f",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.2bce3f9df5af",
@@ -277,18 +277,15 @@
     "instrument/MOMAP/MOMAP结果检查流程.md",
     "sci_research/spectrum/激发态和光谱计算.md",
     "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
-    "instrument/MOMAP/MOMAP 5 NACME.md",
     "TOEFL/TOEFL邮件写作/邮件-学校建cafe的建议.md",
     "TOEFL/TOEFL邮件写作/邮件-人生规划建议.md",
     "TOEFL/填词/填词错误类型.canvas",
     "TOEFL/TOEFL写作要点.md",
-    "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/spectrum/激发态和光谱计算2.md",
     "sci_research/anti-kasha/DHA文献计算细节.md",
     "sci_research/anti-kasha/DHR文献概况.md",
     "physchem/拉格朗日乘数法.md",
     "instrument/linux/linux常用命令.md",
-    "instrument/linux/vim使用教程.md",
     "instrument/image/fig-3.jpg",
     "sci_research/image/DHR-s2-NTO-97.jpg",
     "sci_research/image/DHR-s2-NTO-98.jpg",
