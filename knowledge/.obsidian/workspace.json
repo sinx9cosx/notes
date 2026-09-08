@@ -63,8 +63,7 @@
               "title": "DHR后处理-光谱计算"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 5 NACME.md",
+                "file": "sci_research/anti-kasha/DHR复现.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,7 +246,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,10 +261,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7ac0c252a83a7515",
+  "active": "f86f7c8db516fd66",
   "lastOpenFiles": [
-    "实验报告要求.md",
+    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
+    "实验报告要求.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/anti-kasha/DHR后处理-光谱计算.md",
@@ -272,7 +273,6 @@
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md.tmp.13252.38c42102b31f",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.2bce3f9df5af",
