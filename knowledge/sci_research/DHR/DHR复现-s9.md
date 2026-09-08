@@ -27,7 +27,7 @@ Total Energy, E(TD-HF/TD-DFT) =  -1150.95108647
 <mark style="background: #FFB8EBA6;">4.1119 eV  301.53 nm  f=1.1829 95 -> 99         0.54087</mark>
 ## s9 td
 
-oldchk：s9opt
+oldchk：s9opt2
 
 输入文件：`DHR-s9td.gjf`
 
@@ -38,7 +38,7 @@ Dip.S.：5.9939
 <mark style="background: #ADCCFFA6;">4.2129 eV  294.30 nm  f=0.6186 95 -> 99         0.52369</mark>
 ## s9 nacme
 
-oldchk：s9opt
+oldchk：s9opt2
 
 输入文件：`DHR-s9-nacme.gjf`
 
@@ -56,3 +56,7 @@ oldchk：s9td
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf em=gd3bj`
 
 结果：normal termination
+
+> [!note]
+> opt2 优化跟踪的 root9 是 94→98 弱态（f≈0.15），freq/td/nacme 锚定的是 95→99 强态（f≈0.6–1.2），两者近简并、opt 期间态序抖动；发光 S9 判定为 95→99 型。
+
