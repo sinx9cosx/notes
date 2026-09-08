@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
+                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP 7 QC准备"
+              "title": "MOMAP 荧光光谱与速率：完整流程与结果解读"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 7 QC准备.md",
+                "file": "sci_research/anti-kasha/DHR后处理-s1.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -290,19 +290,19 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7ac0c252a83a7515",
+  "active": "f461898ad866df63",
   "lastOpenFiles": [
-    "sci_research/anti-kasha/DHR后处理-s9.md",
-    "sci_research/anti-kasha/DHR文献概况.md",
-    "sci_research/anti-kasha/DHR复现-s9.md",
-    "instrument/MOMAP/MOMAP 5 NACME.md",
-    "sci_research/anti-kasha/DHR后处理-s1.md",
     "sci_research/anti-kasha/DHR复现s1.md",
+    "sci_research/anti-kasha/DHR后处理-s1.md",
+    "sci_research/anti-kasha/DHR复现-s9.md",
+    "sci_research/anti-kasha/DHR后处理-s9.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
+    "sci_research/anti-kasha/DHR文献概况.md",
+    "instrument/MOMAP/MOMAP 5 NACME.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "实验报告要求.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md",
