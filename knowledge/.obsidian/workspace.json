@@ -63,7 +63,8 @@
               "title": "DHR后处理-s9"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/anti-kasha/DHR复现s1.md",
+                "file": "sci_research/anti-kasha/DHR后处理-s9.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,10 +262,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f86f7c8db516fd66",
+  "active": "fc86d27bd8c870b1",
   "lastOpenFiles": [
-    "sci_research/anti-kasha/DHR后处理-s1.md",
     "sci_research/anti-kasha/DHR复现s1.md",
+    "sci_research/anti-kasha/DHR后处理-s1.md",
     "sci_research/anti-kasha/DHR复现-s9.md",
     "sci_research/anti-kasha/DHR后处理-s9.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
