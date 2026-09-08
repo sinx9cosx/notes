@@ -46,6 +46,7 @@ oldchk：s9opt
 
 结果：normal termination
 <mark style="background: #FFB8EBA6;">4.2129 eV  294.30 nm  f=0.6186 95 -> 99         0.52369</mark>
+
 ## s9 NTO
 
 oldchk：s9td
