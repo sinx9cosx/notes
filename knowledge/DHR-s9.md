@@ -21,7 +21,7 @@ SCF Done: -1151.10219537 a.u.
 关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：无虚频
-<mark style="background: #FFB8EBA6;">4.1119 eV  301.53 nm  f=1.1829</mark>
+<mark style="background: #FFB8EBA6;">4.1119 eV  301.53 nm  f=1.1829 95 -> 99         0.54087</mark>
 ## s9 td
 
 oldchk：s9opt
@@ -32,7 +32,7 @@ oldchk：s9opt
 
 结果：normal termination
 Dip.S.：5.9939
-<mark style="background: #ADCCFFA6;">4.2129 eV  294.30 nm  f=0.6186</mark>
+<mark style="background: #ADCCFFA6;">4.2129 eV  294.30 nm  f=0.6186 95 -> 99         0.52369</mark>
 ## s9 nacme
 
 oldchk：s9opt
@@ -42,7 +42,7 @@ oldchk：s9opt
 关键词：`#p td(nstate=20,root=9) scrf em=gd3bj cam-b3lyp/6-31g(d,p) guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
 结果：normal termination
-
+<mark style="background: #FFB8EBA6;">4.2129 eV  294.30 nm  f=0.6186 95 -> 99         0.52369</mark>
 ## s9 NTO
 
 oldchk：s9td
@@ -51,4 +51,4 @@ oldchk：s9td
 
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf em=gd3bj`
 
-结果：
+结果：normal termination
