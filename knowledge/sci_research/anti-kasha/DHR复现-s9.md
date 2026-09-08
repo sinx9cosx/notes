@@ -23,6 +23,7 @@ SCF Done: -1151.10219537 a.u.
 关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：无虚频
+Total Energy, E(TD-HF/TD-DFT) =  -1150.95108647
 <mark style="background: #FFB8EBA6;">4.1119 eV  301.53 nm  f=1.1829 95 -> 99         0.54087</mark>
 ## s9 td
 

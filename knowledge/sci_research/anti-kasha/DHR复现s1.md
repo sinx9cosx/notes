@@ -58,7 +58,7 @@ Ead (s1态能量要加垂直发射能1.9357 eV）： (−1151.09884677 + 1.9357
 Excited State 1: 1.9357 eV 640.53 nm f=0.3856
 97->98 0.69521
 
-Excited State 2: 2.6682 eV 464.67 nm f=0.0206
+Excited State 2: 2.6682 eV 464.67 nm <mark style="background: #FFB8EBA6;">f=0.0206</mark>
 95->98 0.12255
 96->100 0.12726
 97->99 0.67256
