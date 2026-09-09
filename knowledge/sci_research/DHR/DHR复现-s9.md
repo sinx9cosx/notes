@@ -46,7 +46,8 @@ oldchk：s9opt2
 
 结果：normal termination
 <mark style="background: #FFB8EBA6;">4.2129 eV  294.30 nm  f=0.6186 95 -> 99         0.52369</mark>
-
+————缺少关键词，重新计算————
+关键词：`#p td(nstate=20,root=9) cam-b3lyp/6-31g(d,p) scrf em=gd3bj guess=read geom=check prop=(fitcharge,field) density=transition=9 iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 ## s9 NTO
 
 oldchk：s9td
