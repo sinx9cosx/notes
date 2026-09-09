@@ -48,6 +48,12 @@ oldchk：s9opt2
 <mark style="background: #FFB8EBA6;">4.2129 eV  294.30 nm  f=0.6186 95 -> 99         0.52369</mark>
 Electrostatic Properties Using The Transition Density Between Ground State And State  1
 <mark style="background: #ABF7F7A6;">（怎么解决？）</mark>
+
+oldchk:s9-td
+
+关键词：`#p cam-b3lyp/6-31g(d,p) scrf em=gd3bj guess=(read,only) geom=allcheck density=(check,transition=9) prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
+
+结果：
 ## s9 NTO
 
 oldchk：s9td

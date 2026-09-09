@@ -49,7 +49,8 @@
               "title": "DHR后处理-s9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/DHR/DHR复现-s9.md",
+                "file": "sci_research/spectrum-tutorial/激发态和光谱计算2.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -229,12 +230,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,12 +248,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a8a26f8a0b39e5f1",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
-    "sci_research/spectrum-tutorial/激发态和光谱计算2.md",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/spectrum-tutorial/激发态和光谱计算2.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s2.md",
