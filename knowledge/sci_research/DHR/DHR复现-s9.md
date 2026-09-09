@@ -52,8 +52,8 @@ Electrostatic Properties Using The Transition Density Between Ground State And S
 oldchk:s9-td
 
 关键词：`#p cam-b3lyp/6-31g(d,p) scrf em=gd3bj guess=(read,only) geom=allcheck density=(check,transition=9) prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
+————报错————修改————
 
-结果：
 ## s9 NTO
 
 oldchk：s9td

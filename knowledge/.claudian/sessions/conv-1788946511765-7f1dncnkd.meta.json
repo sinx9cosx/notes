@@ -4,21 +4,140 @@
   "title": "解析发光贡献的主要轨道对",
   "titleGenerationStatus": "success",
   "createdAt": 1788946511765,
-  "updatedAt": 1788947172868,
-  "lastResponseAt": 1788947172868,
+  "updatedAt": 1788948006507,
+  "lastResponseAt": 1788948006507,
   "sessionId": "7265dc3b-0e56-420f-a1f6-4d5366e2340d",
   "providerState": {
-    "providerSessionId": "7265dc3b-0e56-420f-a1f6-4d5366e2340d"
+    "providerSessionId": "7265dc3b-0e56-420f-a1f6-4d5366e2340d",
+    "subagentData": {
+      "call_00_Y1QLu3qEWLE6TCdX2VGg9337": {
+        "id": "call_00_Y1QLu3qEWLE6TCdX2VGg9337",
+        "description": "追加笔记两节方法论内容",
+        "prompt": "你是负责执行文档编辑的子 agent。任务:向一个 Obsidian Markdown 笔记追加两个新章节,并修正一处错别字。\n\n文件绝对路径:F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2.md\n\n背景:这是一篇计算化学教程笔记《自然轨道跃迁NTO》(中文,UTF-8),已有章节:## 物理意义、## 计算步骤、## 输出文件。主人要求把「如何判断 ππ* 还是 nπ*」和「如何判断 LE 还是 CT」两个方法论章节补充进这篇笔记。\n\n执行步骤:\n1. 先用 Read 读取该文件,确认现有内容和文件末尾结构。\n2. 用 Edit 工具把下面两个章节**逐字**追加到文件末尾(内容已定稿,不得改写、增删)。追加时在两个新章节之间以及最后一个新章节之后,与上文之间保持一个空行的分隔(与笔记现有章节间距风格一致)。\n3. 顺手修正错别字:原文有一句\"在NTO图像中,电子激发被 描述未电子从空穴轨道跃迁到电子轨道\"(可能在 ## 物理意义 章节),\"描述未\"应为\"描述为\"。用 Edit 修正。若文件里该句已是\"描述为\"或不存在,则跳过此项并说明。\n4. 只做追加和这一处 typo 修正,不得改动、删除、重排任何其他原有内容。不要重写整个文件,必须用 Edit 做最小修改。\n5. 文件是 UTF-8 编码的中文内容,保持原格式。\n\n要追加的内容(逐字保留,含表格、代码块和标题层级):\n\n## 如何判断 ππ* 还是 nπ*\n\n按优先级依次检查：\n\n1. **分子组成（最优先，大多数情况一步终结）**：n 轨道来自孤对电子，只有 N、O、S、卤素等杂原子才能提供。纯碳氢化合物不存在 n 轨道，物理上不可能有 nπ* 跃迁，所有跃迁必为 ππ*。例：DHR（C30H14 纯烃）无杂原子 → 全部 ππ*。\n2. **态对称性（有对称性时最干净）**：平面分子属 Cs 点群，对称面 = 分子平面。π 轨道对 σh 反对称（A″），σ/n 轨道对称（A′）。因此 ππ* 跃迁 = A″×A″ = A′；nπ* 跃迁 = A′×A″ = A″。TD 输出中的 `Excited State N: Singlet-A'` 直接给出态对称性：A′ 对应 ππ*，A″ 对应 nπ*。例：DHR S9 输出 `Singlet-A'` → ππ*。\n3. **轨道形状（可视化）**：平面分子中 π 轨道是垂直于分子平面的 pz 瓣（上下两朵云）；n 轨道是躺在分子平面内、朝外的孤对型轨道。用 GaussView 打开 .fchk 看 NTO 空穴轨道的形状即可区分。\n4. **轨道成分（定量）**：分析空穴轨道的 AO 组成（px/py/pz 占比），pz 主导 = π，平面内 sp² 孤对 = n。需 Multiwfn 等工具辅助。\n\n## 如何判断 LE 还是 CT\n\n核心判据：空穴轨道与电子轨道的空间位置关系。对含多个发色团片段的分子（如双薁单元）：\n\n| 空穴位置 | 电子位置 | 判断 |\n| --- | --- | --- |\n| 同一片段 | 同一片段 | LE（局域激发） |\n| 片段 A | 片段 B | CT（电荷转移） |\n| 部分跨片段分离 | 部分跨片段分离 | LE/CT 混合 |\n\n不用工具的辅助线索：\n1. **振子强度**：纯 CT 态的空穴-电子空间重叠小、跃迁偶极矩小，通常 f < 0.1。f 大暗示 LE 特征明显（或 LE 主导的混合）。注意这只是倾向性证据，不是充分条件。\n2. **偶极矩变化**：CT 态伴随大电荷分离，激发态偶极矩相对基态显著变化。\n\n定量判据（空穴-电子重叠指数、质心距离等）需 Multiwfn 空穴-电子分析。\n\n完成后报告(200 字内):追加位置、修改摘要、typo 修正情况。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_vtGe5g7s4QZkWkEW3gaW3733",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2.md"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File does not exist. Note: your current working directory is F:\\obsidian_notes\\knowledge."
+          },
+          {
+            "id": "call_00_lGwtV6ngVVvC1V1Zhks21693",
+            "name": "Glob",
+            "input": {
+              "pattern": "sci_research/**/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "sci_research\\spectrum-tutorial\\TD-DFT calculation results.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-QM-MM）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（总）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第一轮阅读（第2-6章小结+结论）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第一轮阅读（摘要+第一章）.md\nsci_research\\spectrum-tutorial\\TD-DFT项目操作全流程.md\nsci_research\\anti-kasha-paper\\26-8-19文献主要内容.md\nsci_research\\anti-kasha-paper\\DHR文献概况.md\nsci_research\\anti-kasha-paper\\反Kasha体的设计.md\nsci_research\\TBR\\TBR-0.md\nsci_research\\TBR\\agent\\S0-S1-geometry-report.md\nsci_research\\TBR\\agent\\S3-diagnosis-report.md\nsci_research\\TBR\\s0与激发态s1的对比.md\nsci_research\\TBR\\TBR SUMMARY1.md\nsci_research\\TBR\\TBR-test-s0.md\nsci_research\\TBR\\TBR-test-s3.md\nsci_research\\TBR\\TBR-test-s2.md\nsci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md\nsci_research\\TBR\\TBR-test-s1.md\nsci_research\\anti-kasha-paper\\DHA文献计算细节.md\nsci_research\\spectrum-tutorial\\激发态和光谱计算.md\nsci_research\\DHR\\DHR复现-s1.md\nsci_research\\DHR\\DHR后处理-s1.md\nsci_research\\DHR\\DHR后处理-s9.md\nsci_research\\DHR\\DHR复现-s9.md"
+          },
+          {
+            "id": "call_01_Ked9TjzTGNGuKdFiwBW78365",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/*激发态*"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "quantum chemistry\\激发态的平均寿命.md\nsci_research\\TBR\\s0与激发态s1的对比.md\nsci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md\nsci_research\\spectrum-tutorial\\激发态和光谱计算.md"
+          },
+          {
+            "id": "call_00_NhpaRzo0lstAvW3DkUoS6415",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\t  - Gaussian\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 自然轨道跃迁NTO\n10\t\n11\t## 物理意义\n12\t\n13\tNTO的核心思想：将一个复杂的、由多个轨道跃迁组成的激发态，通过奇异值分解SVD，提取出少数几对特殊的轨道。\n14\t空穴与电子：在NTO图像中，电子激发被 描述未电子从空穴轨道跃迁到电子轨道。\n15\t本征值：NTO的本征值就是量化描述纯度的指标，本征值越大，代表这对NTO对激发态的贡献越大。\n16\t\n17\tNTO计算提取数据的步骤：\n18\t1. 从跃迁密度矩阵出发：NTO的计算基于跃迁密度矩阵，这个矩阵描述了电子在基态和激发态之间如何重新分布。\n19\t2. 数学变换：Gaussian对这个矩阵进行奇异值分解SVD。\n20\t3. 得到NTO：SVD分解后，会得到两套新的正交轨道：一套代表空穴的占据NTO，一套代表电子的非占据NTO。而分解得到的奇异值的平方就是.log文件中看到的NTO的本征值。\n21\t\n22\t| NTO的输出标签                | 物理意义 | 激发过程中的含义 |\n23\t| ----------------------- | ---- | -------- |\n24\t| alpha occ. eigenvalues  | 空穴轨道 | 电子离开的地方  |\n25\t| alpha virt. eigenvalues | 电子轨道 | 电子到达的地方  |\n26\t每一对占据值（空穴）和虚值（电子）的数值必须相等，这个数值是权重。最大的数字乘以100%就是这一对空穴->电子跃迁占整个激发态的百分比。\n27\t\n28\t## 计算步骤\n29\t\n30\t1. 进行TD-DFT激发态计算：首先需要用一个标准的TDDFT任务计算感兴趣的激发态并保存好.chk文件。\n31\t\t[[激发态和光谱计算#计算步骤|TD-DFT计算步骤]]\n32\t2. 再进行NTO单点计算\n33\t\t关键词：\n34\t\t```\n35\t\t%oldchk=TBR-s1-td.chk\n36\t\t%chk=TBR-s1-NTO.chk\n37\t\t# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf em=gd3bj\n38\t\t```\n39\t\n40\t`density=(check,transition=1)`指定分析第1个激发态\n41\t`pop=(minimal,NTO,saveNTO)`：NTO命令Gaussian进行NTO计算；saveNTO将NTO保存到chk文件中，方便可视化。\n42\t\n43\t## 输出文件\n44\t\n45\t1. TD-DFT中关注激发态信息和组态系数：搜索关键词`excited state`\n46\t2. NTO本征值，直接给出每一对NTO轨道对激发态的贡献大小。搜素关键词：`alpha virt. eigenvalues`\n47\t\t找到格式如下：\n48\t\t```\n49\t\tAlpha occ. eigenvalues --    0.00476   0.00856   0.02189   0.02224   0.94429\n50\tAlpha virt. eigenvalues --    0.94429   0.02224   0.02189   0.00856   0.00476\n51\t\t```\n52\t\t只要这两行数字左右对称且数值相同，且都是正数，就找到了NTO本征值。\n53\t\t找最大的数字（第一个），若$\\geq{0}.9$，则只需要看一对轨道\n54\t\t若$0.5\\leq max \\leq 0.9$，则激发态有混合，需要看前两对或三对NTO\n55\t\t若$max\\leq 0.5$，则激发态高度复杂，用简单的单轨道图像很难解释\n56\t\n57\t3. 用Gaussview打开.chk文件，查看MOs，本征值相同的轨道为一对"
+          },
+          {
+            "id": "call_00_isnOSt87IZWtZHeQ7Hu75610",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md",
+              "old_string": "描述未电子从空穴轨道跃迁到电子轨道",
+              "new_string": "描述为电子从空穴轨道跃迁到电子轨道"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_pwBq6ilBD9KLBRtS2EG24051",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md",
+              "old_string": "3. 用Gaussview打开.chk文件，查看MOs，本征值相同的轨道为一对",
+              "new_string": "3. 用Gaussview打开.chk文件，查看MOs，本征值相同的轨道为一对\n\n## 如何判断 ππ* 还是 nπ*\n\n按优先级依次检查：\n\n1. **分子组成（最优先，大多数情况一步终结）**：n 轨道来自孤对电子，只有 N、O、S、卤素等杂原子才能提供。纯碳氢化合物不存在 n 轨道，物理上不可能有 nπ* 跃迁，所有跃迁必为 ππ*。例：DHR（C30H14 纯烃）无杂原子 → 全部 ππ*。\n2. **态对称性（有对称性时最干净）**：平面分子属 Cs 点群，对称面 = 分子平面。π 轨道对 σh 反对称（A″），σ/n 轨道对称（A′）。因此 ππ* 跃迁 = A″×A″ = A′；nπ* 跃迁 = A′×A″ = A″。TD 输出中的 `Excited State N: Singlet-A'` 直接给出态对称性：A′ 对应 ππ*，A″ 对应 nπ*。例：DHR S9 输出 `Singlet-A'` → ππ*。\n3. **轨道形状（可视化）**：平面分子中 π 轨道是垂直于分子平面的 pz 瓣（上下两朵云）；n 轨道是躺在分子平面内、朝外的孤对型轨道。用 GaussView 打开 .fchk 看 NTO 空穴轨道的形状即可区分。\n4. **轨道成分（定量）**：分析空穴轨道的 AO 组成（px/py/pz 占比），pz 主导 = π，平面内 sp² 孤对 = n。需 Multiwfn 等工具辅助。\n\n## 如何判断 LE 还是 CT\n\n核心判据：空穴轨道与电子轨道的空间位置关系。对含多个发色团片段的分子（如双薁单元）：\n\n| 空穴位置 | 电子位置 | 判断 |\n| --- | --- | --- |\n| 同一片段 | 同一片段 | LE（局域激发） |\n| 片段 A | 片段 B | CT（电荷转移） |\n| 部分跨片段分离 | 部分跨片段分离 | LE/CT 混合 |\n\n不用工具的辅助线索：\n1. **振子强度**：纯 CT 态的空穴-电子空间重叠小、跃迁偶极矩小，通常 f < 0.1。f 大暗示 LE 特征明显（或 LE 主导的混合）。注意这只是倾向性证据，不是充分条件。\n2. **偶极矩变化**：CT 态伴随大电荷分离，激发态偶极矩相对基态显著变化。\n\n定量判据（空穴-电子重叠指数、质心距离等）需 Multiwfn 空穴-电子分析。"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          }
+        ],
+        "isExpanded": false,
+        "result": "任务完成。\n\n**报告:**\n\n- **文件路径修正**:任务给定的 `激发态和光谱计算2.md` 不存在,实际文件为 `F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md`(主题为 NTO,内容完全匹配描述)。\n- **追加位置**:文件末尾(原 `## 输出文件` 第 3 条之后),与上文空一行;两个新章节之间也空一行,与笔记现有章节间距一致。\n- **追加内容**:`## 如何判断 ππ* 还是 nπ*`(含 4 条优先级检查)和 `## 如何判断 LE 还是 CT`(含判据表格),逐字追加,未作任何改写。\n- **typo 修正**:第 14 行「电子激发被 描述未电子从空穴轨道跃迁到电子轨道」→「描述为」已修正。\n- 仅两处 Edit,其余原有内容(含「搜素关键词」等其他疑似笔误)一律未动。"
+      },
+      "call_00_OGcNnEG6nE8C1qFEMIlm5077": {
+        "id": "call_00_OGcNnEG6nE8C1qFEMIlm5077",
+        "description": "审查笔记编辑结果",
+        "prompt": "你是文档审查子 agent。任务:审查一个 Markdown 笔记最近被追加的内容是否正确、原内容是否完好。只报告,不要修改文件。\n\n文件绝对路径:F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md\n\n背景:一个编辑 agent 刚在这篇计算化学教程笔记(标题「自然轨道跃迁NTO」,中文)末尾追加了两节:「## 如何判断 ππ* 还是 nπ*」(应含 4 条按优先级排列的判断:①分子组成/纯烃无 nπ* ②态对称性/Cs 点群 A″×A″=A′ ③轨道形状/pz 瓣 ④轨道成分定量)和「## 如何判断 LE 还是 CT」(应含一个 3 列 4 行的 Markdown 表格 + 2 条辅助线索:振子强度、偶极矩变化)。同时修正了一处错别字(\"描述未\"→\"描述为\")。\n\n审查内容:\n1. 用 Read 读取整个文件。\n2. 验证两个新章节存在且完整,标题层级(##)与笔记其他章节一致。\n3. 验证 Markdown 表格语法正确(| 分隔、对齐行 | --- | --- | --- |)。\n4. 验证原有章节(## 物理意义、## 计算步骤、## 输出文件)内容完好未被破坏,特别检查「Alpha occ. eigenvalues」示例代码块和「0.5≤max≤0.9」判读规则仍在。\n5. 验证全文不再出现\"描述未\"错别字。\n6. 检查新增内容科学性是否与以下要点一致:纯碳氢化合物无 nπ* 跃迁;Cs 对称性下 ππ*=A″×A″=A′(A′ 对应 ππ*)、nπ*=A′×A″=A″;LE=空穴电子同一片段、CT=跨片段;纯 CT 态振子强度通常小(倾向性证据)。\n7. 若发现任何其他内容被意外改动(如\"搜素关键词\"等原有笔误被改动、格式错乱、乱码),也列出来。\n\n报告格式:逐项 PASS/FAIL + 一行说明,总字数 200 字内。若 FAIL 给出具体行号和修复建议。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_5v3ZBGcRWcoc6wkFFHBY7557",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\sci_research\\spectrum-tutorial\\激发态和光谱计算2-NTO分析.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\t  - Gaussian\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 自然轨道跃迁NTO\n10\t\n11\t## 物理意义\n12\t\n13\tNTO的核心思想：将一个复杂的、由多个轨道跃迁组成的激发态，通过奇异值分解SVD，提取出少数几对特殊的轨道。\n14\t空穴与电子：在NTO图像中，电子激发被 描述为电子从空穴轨道跃迁到电子轨道。\n15\t本征值：NTO的本征值就是量化描述纯度的指标，本征值越大，代表这对NTO对激发态的贡献越大。\n16\t\n17\tNTO计算提取数据的步骤：\n18\t1. 从跃迁密度矩阵出发：NTO的计算基于跃迁密度矩阵，这个矩阵描述了电子在基态和激发态之间如何重新分布。\n19\t2. 数学变换：Gaussian对这个矩阵进行奇异值分解SVD。\n20\t3. 得到NTO：SVD分解后，会得到两套新的正交轨道：一套代表空穴的占据NTO，一套代表电子的非占据NTO。而分解得到的奇异值的平方就是.log文件中看到的NTO的本征值。\n21\t\n22\t| NTO的输出标签                | 物理意义 | 激发过程中的含义 |\n23\t| ----------------------- | ---- | -------- |\n24\t| alpha occ. eigenvalues  | 空穴轨道 | 电子离开的地方  |\n25\t| alpha virt. eigenvalues | 电子轨道 | 电子到达的地方  |\n26\t每一对占据值（空穴）和虚值（电子）的数值必须相等，这个数值是权重。最大的数字乘以100%就是这一对空穴->电子跃迁占整个激发态的百分比。\n27\t\n28\t## 计算步骤\n29\t\n30\t1. 进行TD-DFT激发态计算：首先需要用一个标准的TDDFT任务计算感兴趣的激发态并保存好.chk文件。\n31\t\t[[激发态和光谱计算#计算步骤|TD-DFT计算步骤]]\n32\t2. 再进行NTO单点计算\n33\t\t关键词：\n34\t\t```\n35\t\t%oldchk=TBR-s1-td.chk\n36\t\t%chk=TBR-s1-NTO.chk\n37\t\t# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf em=gd3bj\n38\t\t```\n39\t\n40\t`density=(check,transition=1)`指定分析第1个激发态\n41\t`pop=(minimal,NTO,saveNTO)`：NTO命令Gaussian进行NTO计算；saveNTO将NTO保存到chk文件中，方便可视化。\n42\t\n43\t## 输出文件\n44\t\n45\t1. TD-DFT中关注激发态信息和组态系数：搜索关键词`excited state`\n46\t2. NTO本征值，直接给出每一对NTO轨道对激发态的贡献大小。搜素关键词：`alpha virt. eigenvalues`\n47\t\t找到格式如下：\n48\t\t```\n49\t\tAlpha occ. eigenvalues --    0.00476   0.00856   0.02189   0.02224   0.94429\n50\tAlpha virt. eigenvalues --    0.94429   0.02224   0.02189   0.00856   0.00476\n51\t\t```\n52\t\t只要这两行数字左右对称且数值相同，且都是正数，就找到了NTO本征值。\n53\t\t找最大的数字（第一个），若$\\geq{0}.9$，则只需要看一对轨道\n54\t\t若$0.5\\leq max \\leq 0.9$，则激发态有混合，需要看前两对或三对NTO\n55\t\t若$max\\leq 0.5$，则激发态高度复杂，用简单的单轨道图像很难解释\n56\t\n57\t3. 用Gaussview打开.chk文件，查看MOs，本征值相同的轨道为一对\n58\t\n59\t## 如何判断 ππ* 还是 nπ*\n60\t\n61\t按优先级依次检查：\n62\t\n63\t1. **分子组成（最优先，大多数情况一步终结）**：n 轨道来自孤对电子，只有 N、O、S、卤素等杂原子才能提供。纯碳氢化合物不存在 n 轨道，物理上不可能有 nπ* 跃迁，所有跃迁必为 ππ*。例：DHR（C30H14 纯烃）无杂原子 → 全部 ππ*。\n64\t2. **态对称性（有对称性时最干净）**：平面分子属 Cs 点群，对称面 = 分子平面。π 轨道对 σh 反对称（A″），σ/n 轨道对称（A′）。因此 ππ* 跃迁 = A″×A″ = A′；nπ* 跃迁 = A′×A″ = A″。TD 输出中的 `Excited State N: Singlet-A'` 直接给出态对称性：A′ 对应 ππ*，A″ 对应 nπ*。例：DHR S9 输出 `Singlet-A'` → ππ*。\n65\t3. **轨道形状（可视化）**：平面分子中 π 轨道是垂直于分子平面的 pz 瓣（上下两朵云）；n 轨道是躺在分子平面内、朝外的孤对型轨道。用 GaussView 打开 .fchk 看 NTO 空穴轨道的形状即可区分。\n66\t4. **轨道成分（定量）**：分析空穴轨道的 AO 组成（px/py/pz 占比），pz 主导 = π，平面内 sp² 孤对 = n。需 Multiwfn 等工具辅助。\n67\t\n68\t## 如何判断 LE 还是 CT\n69\t\n70\t核心判据：空穴轨道与电子轨道的空间位置关系。对含多个发色团片段的分子（如双薁单元）：\n71\t\n72\t| 空穴位置 | 电子位置 | 判断 |\n73\t| --- | --- | --- |\n74\t| 同一片段 | 同一片段 | LE（局域激发） |\n75\t| 片段 A | 片段 B | CT（电荷转移） |\n76\t| 部分跨片段分离 | 部分跨片段分离 | LE/CT 混合 |\n77\t\n78\t不用工具的辅助线索：\n79\t1. **振子强度**：纯 CT 态的空穴-电子空间重叠小、跃迁偶极矩小，通常 f < 0.1。f 大暗示 LE 特征明显（或 LE 主导的混合）。注意这只是倾向性证据，不是充分条件。\n80\t2. **偶极矩变化**：CT 态伴随大电荷分离，激发态偶极矩相对基态显著变化。\n81\t\n82\t定量判据（空穴-电子重叠指数、质心距离等）需 Multiwfn 空穴-电子分析。"
+          },
+          {
+            "id": "call_00_LynvKtotQTrUs5iUM3ak2191",
+            "name": "Bash",
+            "input": {
+              "command": "git diff -- \"sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md\"",
+              "description": "Show diff for the NTO note file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "warning: in the working copy of 'knowledge/sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md', LF will be replaced by CRLF the next time Git touches it\ndiff --git \"a/knowledge/sci_research/spectrum-tutorial/\\346\\277\\200\\345\\217\\221\\346\\200\\201\\345\\222\\214\\345\\205\\211\\350\\260\\261\\350\\256\\241\\347\\256\\2272-NTO\\345\\210\\206\\346\\236\\220.md\" \"b/knowledge/sci_research/spectrum-tutorial/\\346\\277\\200\\345\\217\\221\\346\\200\\201\\345\\222\\214\\345\\205\\211\\350\\260\\261\\350\\256\\241\\347\\256\\2272-NTO\\345\\210\\206\\346\\236\\220.md\"\nindex 62ee649..a8a3440 100644\n--- \"a/knowledge/sci_research/spectrum-tutorial/\\346\\277\\200\\345\\217\\221\\346\\200\\201\\345\\222\\214\\345\\205\\211\\350\\260\\261\\350\\256\\241\\347\\256\\2272-NTO\\345\\210\\206\\346\\236\\220.md\"\n+++ \"b/knowledge/sci_research/spectrum-tutorial/\\346\\277\\200\\345\\217\\221\\346\\200\\201\\345\\222\\214\\345\\205\\211\\350\\260\\261\\350\\256\\241\\347\\256\\2272-NTO\\345\\210\\206\\346\\236\\220.md\"\n@@ -11,7 +11,7 @@ Category:\n ## 物理意义\n \n NTO的核心思想：将一个复杂的、由多个轨道跃迁组成的激发态，通过奇异值分解SVD，提取出少数几对特殊的轨道。\n-空穴与电子：在NTO图像中，电子激发被 描述未电子从空穴轨道跃迁到电子轨道。\n+空穴与电子：在NTO图像中，电子激发被 描述为电子从空穴轨道跃迁到电子轨道。\n 本征值：NTO的本征值就是量化描述纯度的指标，本征值越大，代表这对NTO对激发态的贡献越大。\n \n NTO计算提取数据的步骤：\n@@ -54,4 +54,29 @@ Alpha virt. eigenvalues --    0.94429   0.02224   0.02189   0.00856   0.00476\n \t若$0.5\\leq max \\leq 0.9$，则激发态有混合，需要看前两对或三对NTO\n \t若$max\\leq 0.5$，则激发态高度复杂，用简单的单轨道图像很难解释\n \n-3. 用Gaussview打开.chk文件，查看MOs，本征值相同的轨道为一对\n\\ No newline at end of file\n+3. 用Gaussview打开.chk文件，查看MOs，本征值相同的轨道为一对\n+\n+## 如何判断 ππ* 还是 nπ*\n+\n+按优先级依次检查：\n+\n+1. **分子组成（最优先，大多数情况一步终结）**：n 轨道来自孤对电子，只有 N、O、S、卤素等杂原子才能提供。纯碳氢化合物不存在 n 轨道，物理上不可能有 nπ* 跃迁，所有跃迁必为 ππ*。例：DHR（C30H14 纯烃）无杂原子 → 全部 ππ*。\n+2. **态对称性（有对称性时最干净）**：平面分子属 Cs 点群，对称面 = 分子平面。π 轨道对 σh 反对称（A″），σ/n 轨道对称（A′）。因此 ππ* 跃迁 = A″×A″ = A′；nπ* 跃迁 = A′×A″ = A″。TD 输出中的 `Excited State N: Singlet-A'` 直接给出态对称性：A′ 对应 ππ*，A″ 对应 nπ*。例：DHR S9 输出 `Singlet-A'` → ππ*。\n+3. **轨道形状（可视化）**：平面分子中 π 轨道是垂直于分子平面的 pz 瓣（上下两朵云）；n 轨道是躺在分子平面内、朝外的孤对型轨道。用 GaussView 打开 .fchk 看 NTO 空穴轨道的形状即可区分。\n+4. **轨道成分（定量）**：分析空穴轨道的 AO 组成（px/py/pz 占比），pz 主导 = π，平面内 sp² 孤对 = n。需 Multiwfn 等工具辅助。\n+\n+## 如何判断 LE 还是 CT\n+\n+核心判据：空穴轨道与电子轨道的空间位置关系。对含多个发色团片段的分子（如双薁单元）：\n+\n+| 空穴位置 | 电子位置 | 判断 |\n+| --- | --- | --- |\n+| 同一片段 | 同一片段 | LE（局域激发） |\n+| 片段 A | 片段 B | CT（电荷转移） |\n+| 部分跨片段分离 | 部分跨片段分离 | LE/CT 混合 |\n+\n+不用工具的辅助线索：\n+1. **振子强度**：纯 CT 态的空穴-电子空间重叠小、跃迁偶极矩小，通常 f < 0.1。f 大暗示 LE 特征明显（或 LE 主导的混合）。注意这只是倾向性证据，不是充分条件。\n+2. **偶极矩变化**：CT 态伴随大电荷分离，激发态偶极矩相对基态显著变化。\n+\n+定量判据（空穴-电子重叠指数、质心距离等）需 Multiwfn 空穴-电子分析。\n\\ No newline at end of file"
+          },
+          {
+            "id": "call_01_sXjouK3BexTR6BOcBfbD8103",
+            "name": "Bash",
+            "input": {
+              "command": "git status --short -- \"sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md\"",
+              "description": "Show git status for the NTO note file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": " M \"sci_research/spectrum-tutorial/\\346\\277\\200\\345\\217\\221\\346\\200\\201\\345\\222\\214\\345\\205\\211\\350\\260\\261\\350\\256\\241\\347\\256\\2272-NTO\\345\\210\\206\\346\\236\\220.md\""
+          }
+        ],
+        "isExpanded": false,
+        "result": "审查完成，逐项结论如下。\n\n**审查报告**\n\n1. 两新章节存在且完整：PASS。`## 如何判断 ππ* 还是 nπ*`（L59-66）含 4 条按优先级排列判断；`## 如何判断 LE 还是 CT`（L68-82）含表格+2 条辅助线索。\n2. 标题层级：PASS。均为 `##`，与「物理意义」「计算步骤」「输出文件」一致。\n3. 表格语法：PASS。3 列，分隔行 `| --- | --- | --- |`（L73）正确，表头+3 数据行完整。\n4. 原有章节完好：PASS。git diff 确认 L11-57 原内容零改动；「Alpha occ. eigenvalues」代码块（L48-51）、「$0.5\\leq max \\leq 0.9$」判读规则（L54）俱在。\n5. 错别字：PASS。「描述未」已改为「描述为」（L14），全文无残留。\n6. 科学性：PASS。纯烃无 nπ*、Cs 下 ππ*=A″×A″=A′/nπ*=A′×A″=A″、LE/CT 判据均正确；振子强度标注为\"倾向性证据\"表述严谨。\n7. 意外改动：无。「搜素关键词」原有笔误（L46）未被改动；无格式错乱。仅提示：文件末尾仍无换行符（与追加前一致，非本次引入）。"
+      }
+    }
   },
-  "currentNote": "sci_research/spectrum-tutorial/激发态和光谱计算2.md",
+  "currentNote": "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 628,
+    "inputTokens": 3699,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 70016,
-    "contextWindow": 1000000,
-    "contextTokens": 70644,
-    "percentage": 7,
-    "contextWindowIsAuthoritative": true
+    "cacheReadInputTokens": 74112,
+    "contextWindow": 200000,
+    "contextTokens": 77811,
+    "percentage": 39
   }
 }

@@ -49,8 +49,7 @@
               "title": "DHR后处理-s9"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
+                "file": "sci_research/DHR/DHR复现-s9.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -248,11 +247,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f35ed61e6dde74cd",
+  "active": "a8a26f8a0b39e5f1",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR复现-s9.md",
-    "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
     "sci_research/DHR/DHR后处理-s9.md",
+    "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
+    "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
+    "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
+    "sci_research/DHR/DHR复现-s9.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/TBR/TBR-test-s3.md",
@@ -282,13 +283,10 @@
     "TOEFL/学术讲座.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "math/The Natural Numbers.md",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.fee4b39aa000",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md.tmp.11092.a215e8e7f13d",
     "instrument/MOMAP/MOMAP结果检查流程.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算.md",
     "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
     "TOEFL/TOEFL邮件写作/邮件-学校建cafe的建议.md",
-    "TOEFL/TOEFL邮件写作/邮件-人生规划建议.md",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/image/fig-3.jpg",
     "sci_research/image/DHR-s2-NTO-97.jpg",
