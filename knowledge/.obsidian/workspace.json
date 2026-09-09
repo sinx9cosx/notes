@@ -233,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,8 +251,9 @@
   "active": "a8a26f8a0b39e5f1",
   "lastOpenFiles": [
     "sci_research/DHR/DHR后处理-s9.md",
-    "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
+    "sci_research/DHR/DHR复现-s1.md",
     "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
@@ -262,7 +264,6 @@
     "sci_research/image/spec-converge-kic-s1.png",
     "sci_research/image/spec-converge-s1-kr.png",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
-    "sci_research/DHR/DHR复现-s1.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md",
     "sci_research/DHR",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
