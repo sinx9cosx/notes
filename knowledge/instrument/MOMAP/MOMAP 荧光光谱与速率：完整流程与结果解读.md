@@ -121,6 +121,14 @@ MOMAP 不计算电子结构，所有输入数据均由 Gaussian 提供。四件�
 **检查标准。**
 
 1. cart 与 dint 的 `Total reorganization energy` 差 <1000 cm⁻¹ → 后续用 cart（`DSFile=evc.cart.dat`），否则用 dint。
+	```
+	Total reorganization energy(cm-1): 967.532095     929.211092
+	```
+	它们是两个不同电子态各自的"应变"重组能。MOMAP 里 state 1 = 基态 S0、state 2 = 激发态 S1，编号对应"哪个势能面在弛豫"：
+
+	- Reorganization Energy 1 = 基态重组能 λ₁：分子在激发态平衡几何上时，基态势能面比自己的平衡点高出的能量。物理图像：发射荧光后分子落回基态，基态还要"滑"回自己的平衡几何，这个滑落释放的能量就是 λ₁。它决定发射谱的红移：垂直发射能 = Ead − λ₁喵。
+	- Reorganization Energy 2 = 激发态重组能 λ₂：分子站在基态平衡几何上时，激发态势能面比自己的平衡点高出的能量。物理图像：吸收光子后分子垂直激发到 Franck-Condon 点，激发态随后弛豫到自己平衡几何，释放的能量就是 λ₂。它决定吸收谱的蓝移：垂直吸收能 = E_ad + λ₂喵。
+
 2. 无虚频（模式表 freq 无负值）。
 3. Delta DUSH 大（经验上 >50%）→ 后续 momap.inp 必须 `DUSHIN = .t.`。
 4. `BEGIN_DUSH_ORTH_TEST EPS = 0.001` 段无 FAIL → 矩阵正交性通过。
