@@ -68,7 +68,7 @@ oldchk：s9td
 > opt2 优化跟踪的 root9 是 94→98 弱态（f≈0.15），freq/td/nacme（？） 锚定的是 95→99 强态（f≈0.6–1.2），两者近简并、opt 期间态序抖动；发光 S9 判定为 95→99 型。
 
 
-97->98(0.793127)
+97->98(0.73127)
 
   <table><tr>
   <td align="center"><img src="DHR-s9-97.jpg" width="380"><br>97空穴</td>
@@ -78,14 +78,33 @@ oldchk：s9td
 96->99(0.14587)
 
   <table><tr>
-  <td align="center"><img src="DHR-s9-96.jpg" width="380"><br>97空穴</td>
-  <td align="center"><img src="DHR-s9-99.jpg" width="380"><br>98电子</td>
+  <td align="center"><img src="DHR-s9-96.jpg" width="380"><br>96空穴</td>
+  <td align="center"><img src="DHR-s9-99.jpg" width="380"><br>99电子</td>
   </tr></table>
 
 95->100(0.08428)
 
   <table><tr>
-  <td align="center"><img src="DHR-s9-95.jpg" width="380"><br>97空穴</td>
-  <td align="center"><img src="DHR-s9-100.jpg" width="380"><br>98电子</td>
+  <td align="center"><img src="DHR-s9-95.jpg" width="380"><br>95空穴</td>
+  <td align="center"><img src="DHR-s9-100.jpg" width="380"><br>100电子</td>
   </tr></table>
+
+### NTO 判读（2026-09-09）
+
+前三对本征值 0.73127 + 0.14587 + 0.08428 累计 96.1%，需看三对。
+
+| NTO 对 | 空穴 | 电子 | 空间分布判读 |
+| --- | --- | --- | --- |
+| 第 1 对（73.1%） | 97 | 98 | 全分子离域，左右镜像对称 |
+| 第 2 对（14.6%） | 96 | 99 | 全分子离域，中央桥瓣最大 |
+| 第 3 对（8.4%） | 95 | 100 | 全分子离域，左右大体对称 |
+
+**结论：S9 是分子内高度离域的 ππ* 激发（LE 型），不是薁单元间 CT。** 理由：
+
+1. 三对 NTO 的空穴与电子都遍布左右薁 + 中央桥，没有一对是"空穴在左薁、电子在右薁"；空穴-电子空间高度重叠 → 跃迁偶极矩大，与 f=0.62~1.18 强发射自洽（纯 CT 态通常 f<0.1）。
+2. 与文献设计思想呼应：双薁 J-耦合的高激发态是两单元跃迁偶极的集体组合态，离域全分子是预期图像。
+3. 组态混合散（7 个组态、主组态 95→99 系数²仅 27%）正是离域型高激发态的特征，NTO 压缩后仍需三对覆盖 96%。
+
+> [!note]
+> 判读基于轨道图视觉分析 + f 数值 + 组态特征三方互证；定量验证可用 Multiwfn 空穴-电子分析（Sr/D 指数）。
 
