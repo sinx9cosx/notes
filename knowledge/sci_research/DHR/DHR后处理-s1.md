@@ -52,5 +52,5 @@ momap.inp填入log提取的数据
 	![[spec-converge-kic-s1.png]]
 
 2.  log 末尾 `Calculate absorption and emission spectra` 表只有一行（在 Ead 处），取 `6kic(s^{-1})` 列的值；同行的 time(ps) 即 1/kic。
-	 1Energy(Hartree)       2Energy(eV) 3WaveNumber(cm-1)   4WaveLength(nm)    5radi-spectrum      6kic(s^{-1})         7log(kic)         8time(ps)
-    7.33697858E-02    1.99649431E+00    1.61028066E+04    6.21009754E+02    3.25267679E-07    1.34470125E+10    1.01286258E+01       74.36596021
+	 6kic(s^{-1})             8time(ps)
+    1.34470125E+10      74.36596021
