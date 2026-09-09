@@ -65,5 +65,5 @@ oldchk：s9td
 结果：normal termination
 
 > [!note]
-> opt2 优化跟踪的 root9 是 94→98 弱态（f≈0.15），freq/td/nacme 锚定的是 95→99 强态（f≈0.6–1.2），两者近简并、opt 期间态序抖动；发光 S9 判定为 95→99 型。
+> opt2 优化跟踪的 root9 是 94→98 弱态（f≈0.15），freq/td/nacme（？） 锚定的是 95→99 强态（f≈0.6–1.2），两者近简并、opt 期间态序抖动；发光 S9 判定为 95→99 型。
 
