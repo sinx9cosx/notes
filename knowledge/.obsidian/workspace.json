@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR后处理-s9.md",
+                "file": "sci_research/DHR/DHR复现-s1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR后处理-s9"
+              "title": "DHR复现-s1"
             }
           }
         ]
@@ -250,9 +250,19 @@
   },
   "active": "a8a26f8a0b39e5f1",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR复现-s1.md",
+    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/image/DHR-s9-100.jpg",
+    "sci_research/image/DHR-s9-99.jpg",
+    "sci_research/image/DHR-s9-98.jpg",
+    "sci_research/image/DHR-s9-97.jpg",
+    "sci_research/image/DHR-s9-96.jpg",
+    "sci_research/image/DHR-s9-95.jpg",
+    "sci_research/image/微信图片_20260909211415_155_2.jpg",
+    "sci_research/image/微信图片_20260909211413_153_2.jpg",
+    "sci_research/image/微信图片_20260909211413_154_2.jpg",
+    "sci_research/image/微信图片_20260909211411_152_2.jpg",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
@@ -261,8 +271,6 @@
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s1.md",
-    "sci_research/image/spec-converge-kic-s1.png",
-    "sci_research/image/spec-converge-s1-kr.png",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md",
     "sci_research/DHR",
@@ -289,14 +297,6 @@
     "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
     "TOEFL/TOEFL邮件写作/邮件-学校建cafe的建议.md",
     "TOEFL/填词/填词错误类型.canvas",
-    "instrument/image/fig-3.jpg",
-    "sci_research/image/DHR-s2-NTO-97.jpg",
-    "sci_research/image/DHR-s2-NTO-98.jpg",
-    "sci_research/image/1e6d9b20b083c519ca16ab7f12c01469.jpg",
-    "sci_research/image/af6678c113fa7ed2c8be792b42bdf4c2.jpg",
-    "sci_research/image/DHR-s1-NTO-97.jpg",
-    "sci_research/image/DHR-s1-NTO-98.jpg",
-    "sci_research/image/DHR-s1-NTO-99.jpg",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
     "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
