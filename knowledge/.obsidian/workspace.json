@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -233,8 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,8 +249,12 @@
   "active": "a8a26f8a0b39e5f1",
   "lastOpenFiles": [
     "sci_research/DHR/DHR复现-s1.md",
-    "sci_research/DHR/DHR后处理-s9.md",
+    "sci_research/anti-kasha-paper/DHR文献概况.md",
+    "sci_research/anti-kasha-paper/DHR文献计算细节.md",
+    "sci_research/anti-kasha-paper/反Kasha体的设计.md",
+    "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
     "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/image/DHR-s9-100.jpg",
     "sci_research/image/DHR-s9-99.jpg",
     "sci_research/image/DHR-s9-98.jpg",
@@ -275,7 +277,6 @@
     "TOEFL/TOEFL模拟面试/复述题练习.md",
     "sci_research/DHR",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
-    "sci_research/anti-kasha-paper/DHR文献概况.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "实验报告要求.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
@@ -294,8 +295,6 @@
     "math/The Natural Numbers.md",
     "instrument/MOMAP/MOMAP结果检查流程.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算.md",
-    "instrument/MOMAP/MOMAP evc输出解读-重组能与kr衔接.md",
-    "TOEFL/TOEFL邮件写作/邮件-学校建cafe的建议.md",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
