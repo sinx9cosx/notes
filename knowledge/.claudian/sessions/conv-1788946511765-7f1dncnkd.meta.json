@@ -4,8 +4,8 @@
   "title": "解析发光贡献的主要轨道对",
   "titleGenerationStatus": "success",
   "createdAt": 1788946511765,
-  "updatedAt": 1788946574074,
-  "lastResponseAt": 1788946574074,
+  "updatedAt": 1788947172868,
+  "lastResponseAt": 1788947172868,
   "sessionId": "7265dc3b-0e56-420f-a1f6-4d5366e2340d",
   "providerState": {
     "providerSessionId": "7265dc3b-0e56-420f-a1f6-4d5366e2340d"
@@ -13,12 +13,12 @@
   "currentNote": "sci_research/spectrum-tutorial/激发态和光谱计算2.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 966,
+    "inputTokens": 628,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 33024,
+    "cacheReadInputTokens": 70016,
     "contextWindow": 1000000,
-    "contextTokens": 33990,
-    "percentage": 3,
+    "contextTokens": 70644,
+    "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
 }
