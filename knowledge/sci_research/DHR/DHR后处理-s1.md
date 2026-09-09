@@ -37,6 +37,13 @@ momap.inp填入log提取的数据
 
 ## kr
 
+1. 收敛检验 `spec.tvcf.ft.dat` 第 1 列（time）vs 第 4 列（emi_FC_Re）
+	![[spec-converge-s1-kr.png]]
+
+2. log 末尾 `radiative rate` 行取 `/s` 与 `ns` 两个数:
+	radiative rate     (0):     1.03976729E-09    4.29854076E+07 /s,      23.26 ns
+
+
 
 
 ## kic
