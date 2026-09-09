@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+                "file": "sci_research/DHR/DHR后处理-s1.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,12 +261,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f35ed61e6dde74cd",
+  "active": "f555b6769eba6358",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR复现-s9.md",
-    "sci_research/DHR/DHR后处理-s9.md",
-    "sci_research/DHR/DHR后处理-s1.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "sci_research/DHR/DHR后处理-s1.md",
+    "sci_research/image/spec-converge-kic-s1.png",
+    "sci_research/DHR/DHR后处理-s9.md",
+    "sci_research/DHR/DHR复现-s9.md",
     "sci_research/image/spec-converge-s1-kr.png",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/DHR/DHR复现-s1.md",
@@ -309,7 +310,6 @@
     "sci_research/image/DHR-s1-NTO-97.jpg",
     "sci_research/image/DHR-s1-NTO-98.jpg",
     "sci_research/image/DHR-s1-NTO-99.jpg",
-    "sci_research/image/cd8f16be3ed4d05bc490887cf27f5d63.jpg",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
     "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",

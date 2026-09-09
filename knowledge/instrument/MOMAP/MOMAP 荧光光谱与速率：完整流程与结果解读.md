@@ -169,13 +169,13 @@ log 末尾 `radiative rate` 行取 `/s` 与 `ns` 两个数（同行的极小 a.u
 
 **本步做什么。** 与 kr 同一框架，但多一个输入 `evc.cart.nac`（非绝热耦合），计算 S1→S0 无辐射内转换的速率。非绝热耦合描述两个电子态的耦合强度：<mark style="background: #FFB8EBA6;">耦合越大，无辐射跃迁越容易发生。</mark>
 
-| 项目 | 内容 |
-| --- | --- |
-| 输入 | evc 的 dat + nac（必须来自含 `fnacme` 的 evc 目录） |
-| 输出 | `ic.tvcf.ft.dat`（**只有 3 列**：`#time(fs) IC_ft_Re(au) IC_ft_Im(au)`，与 kr 的 5 列不同！）、`ic.tvcf.log`、`ic.tvcf.fo.dat` |
-| 关键词 | log 末尾 `Calculate absorption and emission spectra` 表 |
+| 项目  | 内容                                                                                                              |
+| --- | --------------------------------------------------------------------------------------------------------------- |
+| 输入  | evc 的 dat + nac（必须来自含 `fnacme` 的 evc 目录）                                                                        |
+| 输出  | `ic.tvcf.ft.dat`（**只有 3 列**：`#time(fs) IC_ft_Re(au) IC_ft_Im(au)`，与 kr 的 5 列不同！）、`ic.tvcf.log`、`ic.tvcf.fo.dat` |
+| 关键词 | log 末尾 `Calculate absorption and emission spectra` 表                                                            |
 
-**收敛检验。** c，判据同 2.3。
+**收敛检验。** `ic.tvcf.ft.dat`，判据同 2.3。
 
 **读结果。** log 末尾 `Calculate absorption and emission spectra` 表只有一行（在 Ead 处），取 `6kic(s^{-1})` 列的值；同行的 time(ps) 即 1/kic。`ic.tvcf.fo.dat` 是速率-能隙分布，机制分析用。
 
