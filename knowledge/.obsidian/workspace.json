@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -187,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+                "file": "sci_research/DHR/DHR后处理-s9.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -233,7 +234,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,13 +249,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f35ed61e6dde74cd",
+  "active": "a8a26f8a0b39e5f1",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR后处理-s9.md",
+    "sci_research/DHR/DHR复现-s9.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "sci_research/DHR/DHR后处理-s9.md",
+    "sci_research/TBR/TBR-test-s3.md",
+    "sci_research/TBR/TBR-test-s2.md",
+    "sci_research/TBR/TBR-test-s1.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/image/spec-converge-kic-s1.png",
-    "sci_research/DHR/DHR复现-s9.md",
     "sci_research/image/spec-converge-s1-kr.png",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/DHR/DHR复现-s1.md",
@@ -271,7 +276,6 @@
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.c21fc67f6b6a",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.dde9679796c1",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.138cfec7f56a",
-    "sci_research/TBR/TBR-test-s1.md",
     "TOEFL/TOEFL口语要点.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式",
     "TOEFL/TOEFL模拟面试",
@@ -287,7 +291,6 @@
     "TOEFL/TOEFL邮件写作/邮件-人生规划建议.md",
     "TOEFL/填词/填词错误类型.canvas",
     "TOEFL/TOEFL写作要点.md",
-    "sci_research/spectrum-tutorial/激发态和光谱计算2.md",
     "instrument/image/fig-3.jpg",
     "sci_research/image/DHR-s2-NTO-97.jpg",
     "sci_research/image/DHR-s2-NTO-98.jpg",

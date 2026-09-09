@@ -16,6 +16,7 @@ EDME（发射电子偶极矩）=$\sqrt{ 5.9939 }\times 2.5417=6.2227$ debye
 
  Total reorganization energy      (cm-1):          967.532095        929.211092
  Total reorganization energy      (cm-1):          967.931763        928.553834
+ evc.cart.dat和evc.dint.dat相差不大。
 ## evc-kic-s9
 
 ## kr-s9
