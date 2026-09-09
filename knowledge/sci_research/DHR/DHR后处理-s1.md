@@ -42,7 +42,7 @@ momap.inp填入log提取的数据
 
 2. log 末尾 `radiative rate` 行取 `/s` 与 `ns` 两个数:
 	radiative rate     (0):     1.03976729E-09    4.29854076E+07 /s,      23.26 ns
-
+3. **画光谱。** `spec.tvcf.spec.dat` x 取第 4 列波长（或第 3 列波数），y 取第 7 列 `FC_emi_intensity`。
 
 
 

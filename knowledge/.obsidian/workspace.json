@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/DHR/DHR后处理-s1.md",
+                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,8 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,13 +261,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f555b6769eba6358",
+  "active": "f35ed61e6dde74cd",
   "lastOpenFiles": [
-    "sci_research/image/spec-converge-s1-kr.png",
+    "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "sci_research/DHR/DHR后处理-s9.md",
-    "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/image/spec-converge-s1-kr.png",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/DHR/DHR复现-s1.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md",
