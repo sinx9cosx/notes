@@ -22,5 +22,9 @@ EDME（发射电子偶极矩）=$\sqrt{ 5.9939 }\times 2.5417=6.2227$ debye
 ## kr-s9
 
 1. 收敛检验
+	![[spec-converge-kr-s9.png]]
+
 2. log结果
+	radiative rate     (0):     9.86291977E-09    4.07746649E+08 /s,       2.45 ns
+
 3. 画光谱

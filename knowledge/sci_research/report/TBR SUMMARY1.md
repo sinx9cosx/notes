@@ -3,7 +3,7 @@ tags:
   - 计算化学
   - research
 Category:
-  - 笔记
+  - 总结
 ---
 # s1
 
