@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR后处理-s1.md",
+                "file": "sci_research/DHR/DHR复现-s1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR后处理-s1"
+              "title": "DHR复现-s1"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR后处理-s9.md",
+                "file": "sci_research/DHR/DHR复现-s9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR后处理-s9"
+              "title": "DHR复现-s9"
             }
           },
           {
@@ -263,21 +263,21 @@
   },
   "active": "a0db27a4d72db764",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR后处理-s9.md",
-    "sci_research/report/DHR SUMMARY 1.md",
-    "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/report/DHR SUMMARY 1.md",
+    "sci_research/DHR/DHR复现-s1.md",
+    "sci_research/report/TBR SUMMARY1.md",
+    "sci_research/DHR/DHR后处理-s1.md",
+    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/anti-kasha-paper/DHR文献计算细节.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/anti-kasha-paper/DHR概况.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
     "sci_research/image/DHR-spec.png",
-    "sci_research/report/TBR SUMMARY1.md",
     "sci_research/report",
     "sci_research/image/spec-converge-kr-s9.png",
     "计算作业.md",
-    "sci_research/DHR/DHR复现-s1.md",
     "math/The Natural Numbers.md",
     "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
     "sci_research/image/DHR-s9-100.jpg",
