@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR复现-s9.md",
+                "file": "sci_research/DHR/DHR后处理-s1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR复现-s9"
+              "title": "DHR后处理-s1"
             }
           },
           {
@@ -263,18 +263,19 @@
   },
   "active": "a0db27a4d72db764",
   "lastOpenFiles": [
-    "sci_research/anti-kasha-paper/DHR文献计算细节.md",
+    "sci_research/DHR/DHR后处理-s9.md",
+    "sci_research/report/DHR SUMMARY 1.md",
+    "sci_research/DHR/DHR后处理-s1.md",
+    "sci_research/DHR/DHR复现-s9.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
+    "sci_research/anti-kasha-paper/DHR文献计算细节.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/anti-kasha-paper/DHR概况.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
-    "sci_research/DHR/DHR后处理-s9.md",
-    "sci_research/report/DHR SUMMARY 1.md",
     "sci_research/image/DHR-spec.png",
     "sci_research/report/TBR SUMMARY1.md",
     "sci_research/report",
     "sci_research/image/spec-converge-kr-s9.png",
-    "sci_research/DHR/DHR复现-s9.md",
     "计算作业.md",
     "sci_research/DHR/DHR复现-s1.md",
     "math/The Natural Numbers.md",
@@ -291,7 +292,6 @@
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/TBR/TBR-test-s1.md",
