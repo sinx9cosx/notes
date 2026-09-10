@@ -28,4 +28,4 @@ EDME（发射电子偶极矩）=$\sqrt{ 5.9939 }\times 2.5417=6.2227$ debye
 	radiative rate     (0):     9.86291977E-09    4.07746649E+08 /s,       2.45 ns
 
 3. 画光谱
-	![[]]
+	![[DHR-spec.png]]
