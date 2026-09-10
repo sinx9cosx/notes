@@ -247,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -263,13 +264,13 @@
   },
   "active": "a0db27a4d72db764",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/report/DHR SUMMARY 1.md",
+    "sci_research/DHR/DHR复现-s9.md",
     "sci_research/DHR/DHR复现-s1.md",
     "sci_research/report/TBR SUMMARY1.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/DHR/DHR后处理-s9.md",
-    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/anti-kasha-paper/DHR文献计算细节.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/anti-kasha-paper/DHR概况.md",

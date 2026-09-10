@@ -56,14 +56,14 @@ DHR 在 THF 中，浓度 **1.0×10⁻⁷ mol/L**，激发波长 **305 nm**。
 
 **Table S5 中可读出的关键数据：**
 
-| 结构 | 态 | 能量 / eV | 振子强度 | 主要跃迁贡献 |
-|---|---:|---:|---:|---|
-| S₀-min，吸收 | S₁(Bu) | 1.99 | 0.129 | HOMO→LUMO 44%；HOMO-1→LUMO 16%；HOMO→LUMO+1 10% |
-| S₀-min，吸收 | S₂(Bu) | 3.05 | 0.200 | HOMO→LUMO 36%；HOMO-1→LUMO 16%；HOMO→LUMO+1 18% |
-| S₁-min，发射 | S₁(Bu) | 1.69 | 0.159 | HOMO→LUMO 67%；HOMO-1→LUMO 10% |
-| S₂-min，发射 | S₂(Bu) | 2.60 | 0.096 | HOMO→LUMO 10%；HOMO-1→LUMO 40%；HOMO→LUMO+1 16% |
-| S₂-min，发射 | S₁(Bu) | 1.78 | 0.185 | HOMO→LUMO 60%；HOMO-1→LUMO 11% |
-| S₂-min，发射 | S₂(Bu) | 2.93 | 0.116 | HOMO→LUMO 19%；HOMO-1→LUMO 29%；HOMO→LUMO+1 22% |
+| 结构        |      态 | 能量 / eV |  振子强度 | 主要跃迁贡献                                        |
+| --------- | -----: | ------: | ----: | --------------------------------------------- |
+| S₀-min，吸收 | S₁(Bu) |    1.99 | 0.129 | HOMO→LUMO 44%；HOMO-1→LUMO 16%；HOMO→LUMO+1 10% |
+| S₀-min，吸收 | S₂(Bu) |    3.05 | 0.200 | HOMO→LUMO 36%；HOMO-1→LUMO 16%；HOMO→LUMO+1 18% |
+| S₁-min，发射 | S₁(Bu) |    1.69 | 0.159 | HOMO→LUMO 67%；HOMO-1→LUMO 10%                 |
+| S1-min，发射 | S₂(Bu) |    2.60 | 0.096 | HOMO→LUMO 10%；HOMO-1→LUMO 40%；HOMO→LUMO+1 16% |
+| S₂-min，发射 | S₁(Bu) |    1.78 | 0.185 | HOMO→LUMO 60%；HOMO-1→LUMO 11%                 |
+| S₂-min，发射 | S₂(Bu) |    2.93 | 0.116 | HOMO→LUMO 19%；HOMO-1→LUMO 29%；HOMO→LUMO+1 22% |
 
 > 注：Table S5 原文排版较乱，以上按可读内容整理。若需精确引用，建议核对原表。
 
