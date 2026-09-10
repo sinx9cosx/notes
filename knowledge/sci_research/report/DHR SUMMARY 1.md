@@ -42,28 +42,31 @@ s1结果：0.98422
   <td align="center"><img src="DHR-s1-NTO-98.jpg" width="380"><br>98电子</td>
   </tr></table>
 
+---
 
-s9结果：主要由3对轨道gong'xi
+s9结果：主要由3对轨道贡献
 97->98(0.73127)
-
   <table><tr>
   <td align="center"><img src="DHR-s9-97.jpg" width="380"><br>97空穴</td>
   <td align="center"><img src="DHR-s9-98.jpg" width="380"><br>98电子</td>
   </tr></table>
 
 96->99(0.14587)
-
   <table><tr>
   <td align="center"><img src="DHR-s9-96.jpg" width="380"><br>96空穴</td>
   <td align="center"><img src="DHR-s9-99.jpg" width="380"><br>99电子</td>
   </tr></table>
 
 95->100(0.08428)
-
   <table><tr>
   <td align="center"><img src="DHR-s9-95.jpg" width="380"><br>95空穴</td>
   <td align="center"><img src="DHR-s9-100.jpg" width="380"><br>100电子</td>
   </tr></table>
+
+
+结论：S1和S9 都是分子内高度离域的 ππ* 激发，NTO 的空穴与电子都遍布整个分子。空穴-电子空间高度重叠 → 跃迁偶极矩大。
+
+
 ## 四、遇到的问题
 
 1. S9 的内转换速率无法计算：该速率需要Gaussian的nacme计算，而程序始终未能生成 S9 对应的量——已产出的输出中，要么只有最低激发态的版本，要么缺少该内容，部分尝试直接报错；已调整计算设置尝试 5 种方案，均未成功。
