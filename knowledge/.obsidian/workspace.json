@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -247,11 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "254600b0d54d4a84",
+  "active": "a0db27a4d72db764",
   "lastOpenFiles": [
+    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/report/DHR SUMMARY 1.md",
     "sci_research/report/TBR SUMMARY1.md",
-    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/report",
     "sci_research/image/spec-converge-kr-s9.png",
     "sci_research/DHR/DHR复现-s9.md",
