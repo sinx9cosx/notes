@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "甲醛分子计算.md",
+                "file": "计算作业.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "甲醛分子计算"
+              "title": "计算作业"
             }
           }
         ],
@@ -237,7 +237,7 @@
   },
   "active": "79a3b1e697333e9c",
   "lastOpenFiles": [
-    "甲醛分子计算.md",
+    "计算作业.md",
     "sci_research/DHR/DHR复现-s9.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR复现-s1.md",
