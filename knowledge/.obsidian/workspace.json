@@ -35,8 +35,7 @@
               "title": "计算作业"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,7 +234,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "79a3b1e697333e9c",
+  "active": "a8a26f8a0b39e5f1",
   "lastOpenFiles": [
     "计算作业.md",
     "sci_research/DHR/DHR复现-s9.md",
