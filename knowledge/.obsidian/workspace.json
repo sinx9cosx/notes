@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,11 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a0db27a4d72db764",
+  "active": "254600b0d54d4a84",
   "lastOpenFiles": [
+    "sci_research/report/DHR SUMMARY 1.md",
     "sci_research/image/DHR-spec.png",
     "sci_research/DHR/DHR后处理-s9.md",
-    "sci_research/report/DHR SUMMARY 1.md",
     "sci_research/report/TBR SUMMARY1.md",
     "sci_research/report",
     "sci_research/image/spec-converge-kr-s9.png",
@@ -271,7 +271,6 @@
     "sci_research/image/DHR-s9-95.jpg",
     "sci_research/image/微信图片_20260909211415_155_2.jpg",
     "sci_research/image/微信图片_20260909211413_153_2.jpg",
-    "sci_research/image/微信图片_20260909211413_154_2.jpg",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
