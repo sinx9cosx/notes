@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/report/DHR SUMMARY 1.md",
+                "file": "sci_research/TBR/TBR-test-s2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR SUMMARY 1"
+              "title": "TBR-test-s2"
             }
           }
         ],
@@ -250,10 +250,13 @@
   },
   "active": "7409606e1913d2c2",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-test-s3.md",
+    "sci_research/TBR/TBR-test-s1.md",
+    "sci_research/TBR/TBR-test-s2.md",
+    "sci_research/report/DHR SUMMARY 1.md",
     "sci_research/DHR/DHR复现-s1.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/DHR/DHR复现-s9.md",
-    "sci_research/report/DHR SUMMARY 1.md",
     "计算化学与机器学习作业报告.md",
     "TOEFL/TOEFL口语复述/生活场景-咖啡机.md",
     "figures/volume_vs_label.png",
@@ -285,9 +288,6 @@
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "sci_research/TBR/TBR-test-s3.md",
-    "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/TBR-test-s1.md",
     "TOEFL/TOEFL模拟面试/复述题练习.md",
     "sci_research/DHR",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
