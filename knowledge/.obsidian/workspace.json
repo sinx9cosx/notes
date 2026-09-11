@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0db27a4d72db764",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/report/DHR SUMMARY 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DHR SUMMARY 1"
-            }
-          },
-          {
             "id": "6d0d408e983c5a63",
             "type": "leaf",
             "state": {
@@ -41,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/TOEFL口语复述/生活场景-咖啡机.md",
+                "file": "计算化学与机器学习作业报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生活场景-咖啡机"
+              "title": "计算化学与机器学习作业报告"
             }
           },
           {
@@ -55,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-test-s0.md",
+                "file": "sci_research/report/DHR SUMMARY 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-test-s0"
+              "title": "DHR SUMMARY 1"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -264,10 +250,23 @@
   },
   "active": "7409606e1913d2c2",
   "lastOpenFiles": [
-    "TOEFL/TOEFL口语复述/生活场景-wifi配置.md",
+    "计算化学与机器学习作业报告.md",
     "TOEFL/TOEFL口语复述/生活场景-咖啡机.md",
-    "TOEFL/TOEFL口语复述",
     "sci_research/report/DHR SUMMARY 1.md",
+    "figures/volume_vs_label.png",
+    "figures/univariate_linear_R2.png",
+    "figures/shap_summary_beeswarm.png",
+    "figures/shap_mean_abs_bar.png",
+    "figures/new_molecules_out_of_distribution.png",
+    "figures/model_ladder.png",
+    "figures/label_distribution.png",
+    "figures/importance_values_comparison.png",
+    "figures/importance_rank_comparison.png",
+    "figures/importance_permutation_bar.png",
+    "figures",
+    "sci_research/TBR/TBR-test-s0.md",
+    "TOEFL/TOEFL口语复述/生活场景-wifi配置.md",
+    "TOEFL/TOEFL口语复述",
     "sci_research/DHR/DHR复现-s9.md",
     "sci_research/DHR/DHR复现-s1.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
@@ -278,20 +277,10 @@
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/anti-kasha-paper/DHR概况.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
-    "sci_research/image/DHR-spec.png",
     "sci_research/report",
-    "sci_research/image/spec-converge-kr-s9.png",
     "计算作业.md",
     "math/The Natural Numbers.md",
     "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
-    "sci_research/image/DHR-s9-100.jpg",
-    "sci_research/image/DHR-s9-99.jpg",
-    "sci_research/image/DHR-s9-98.jpg",
-    "sci_research/image/DHR-s9-97.jpg",
-    "sci_research/image/DHR-s9-96.jpg",
-    "sci_research/image/DHR-s9-95.jpg",
-    "sci_research/image/微信图片_20260909211415_155_2.jpg",
-    "sci_research/image/微信图片_20260909211413_153_2.jpg",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
@@ -303,14 +292,11 @@
     "sci_research/DHR",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
-    "实验报告要求.md",
-    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/TOEFL模拟面试/复述题练习.md.tmp.13252.38c42102b31f",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.2bce3f9df5af",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.c21fc67f6b6a",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.dde9679796c1",
-    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md.tmp.13252.138cfec7f56a",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
