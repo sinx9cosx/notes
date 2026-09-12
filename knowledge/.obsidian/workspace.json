@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-test-s1.md",
+                "file": "sci_research/TBR/TBR-test-s2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-test-s1"
+              "title": "TBR-test-s2"
             }
           },
           {
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -251,14 +250,14 @@
   },
   "active": "760df8430b2f5080",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR复现-s9.md",
-    "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s0.md",
+    "sci_research/TBR/TBR-test-s2.md",
+    "sci_research/TBR/TBR-test-s1.md",
+    "sci_research/DHR/DHR复现-s9.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/DHR/DHR复现-s1.md",
     "sci_research/TBR/TBR-0.md",
     "sci_research/TBR/TBR-test-s3.md",
-    "sci_research/TBR/TBR-test-s2.md",
     "sci_research/report/DHR SUMMARY 1.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "计算化学与机器学习作业报告.md",
