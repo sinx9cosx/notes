@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR复现-s1.md",
+                "file": "sci_research/TBR/TBR-s9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR复现-s1"
+              "title": "TBR-s9"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR后处理-s9.md",
+                "file": "sci_research/DHR/DHR-气相光谱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR后处理-s9"
+              "title": "DHR-气相光谱"
             }
           },
           {
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DHR-THF光谱.md",
+                "file": "sci_research/DHR/DHR-THF光谱.md",
                 "mode": "source",
                 "source": false
               },
@@ -63,8 +63,7 @@
               "title": "DHR-THF光谱"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -262,17 +261,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f6344b9a16cffa1e",
+  "active": "7409606e1913d2c2",
   "lastOpenFiles": [
     "sci_research/DHR/DHR复现-s1.md",
+    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
+    "sci_research/DHR/DHR-气相光谱.md",
+    "sci_research/DHR/DHR-THF光谱.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
-    "sci_research/DHR/DHR-气相.md",
     "sci_research/TBR/TBR-s0.md",
-    "DHR-THF光谱.md",
-    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/TBR/TBR-s3.md",
     "sci_research/anti-kasha-paper/DHR文献计算细节.md",
     "sci_research/DHR/DHR复现-s9.md",
