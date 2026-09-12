@@ -19,6 +19,37 @@ Category:
 
 打开`TBR-s3opt.log`，`Displacement`输入了$\pm 0.3$并保存结构。
 
+## s3 opt plus 0.3
+
+目标：优化激发态s3结构
+
+输入文件：`TBR-s3-plus.gjf`
+
+关键词：`# opt freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj
+`
+结果：几何优化收敛，但是频率没算上，文件没有终止信息。
+## s3 opt minus 0.3
+
+目标：优化激发态s3结构
+
+输入文件：`TBR-s3-plus.gjf`
+
+关键词：`# opt freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj
+
+结果：几何优化收敛，频率没计算上，文件没有终止信息。
+
+——确认为同一个结构，接下来进行频率计算——
+
+## s3 freq
+
+
+输入文件：`TBR-s3freq.com`
+
+关键词：`# freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read geom=check`
+
+结果：有一个虚频，-224.7992（推测是混合态的几何）
+
+
 ## s3 td
 
 目标：为计算NTO做准备
@@ -45,35 +76,4 @@ old chk：`TBR-s3td.chk`
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=3) pop=(minimal,nto,savento) scrf em=gd3bj`
 
 结果：
-
-## s3 opt plus 0.3
-
-目标：优化激发态s3结构
-
-输入文件：`TBR-s3-plus.gjf`
-
-关键词：`# opt freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj
-`
-结果：几何优化收敛，但是频率没算上，文件没有终止信息。
-## s3 opt minus 0.3
-
-目标：优化激发态s3结构
-
-输入文件：`TBR-s3-plus.gjf`
-
-关键词：`# opt freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj
-
-结果：几何优化收敛，频率没计算上，文件没有终止信息。
-
-——确认为同一个结构，接下来进行频率计算——
-
-## s3 freq
-
-目标：确认没有虚频
-
-输入文件：`TBR-s3freq.com`
-
-关键词：`# freq td(nstate=20,root=3) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read geom=check`
-
-结果：有一个虚频，-224.7992（推测是混合态的几何）
 

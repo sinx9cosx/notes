@@ -21,7 +21,7 @@ Excited State   2:      Singlet-A      2.7626 eV  448.80 nm  f=1.0798
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1610.52221415
 
- Excited State   3:      Singlet-A      2.9161 eV  425.18 nm  f=0.0000
+ Excited State   3:      Singlet-A      2.9161 eV  425.18 nm  `f=0.0000`
      132 ->136        -0.15986
      133 ->136         0.64841
      135 ->138         0.16515
@@ -34,11 +34,19 @@ Excited State   2:      Singlet-A      2.7626 eV  448.80 nm  f=1.0798
 
 关键词：`# td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
-结果：：Excited State   2:      Singlet-A      2.8864 eV  429.55 nm  f=0.5448 
+结果：
+ Excited State   2:      Singlet-A      2.8864 eV  429.55 nm  f=0.5448 
+     131 ->136        -0.11242
      134 ->136         0.65149
+     134 ->137         0.12578
+     135 ->136        -0.15082
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1610.51766487
 
+ Excited State   3:      Singlet-A      2.9308 eV  423.04 nm ` f=0.0000 `
+     132 ->136        -0.16348
+     133 ->136         0.64905
+     135 ->138         0.15497
 ## s2 NTO
 
 目标：电荷转移情况
@@ -50,3 +58,6 @@ old chk：`TBR-s2td.chk`
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=2) pop=(minimal,nto,savento) scrf em=gd3bj`
 
 结果：
+
+## s2-nacme
+

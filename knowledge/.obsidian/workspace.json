@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-test-s0.md",
+                "file": "sci_research/TBR/TBR-s0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-test-s0"
+              "title": "TBR-s0"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-test-s2.md",
+                "file": "sci_research/TBR/TBR-s3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-test-s2"
+              "title": "TBR-s3"
             }
           },
           {
@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "DHR复现-s9"
             }
+          },
+          {
+            "id": "5f47f67c6151313a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sci_research/TBR/TBR-s9.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TBR-s9"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -248,16 +262,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "760df8430b2f5080",
+  "active": "5f47f67c6151313a",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR-test-s0.md",
-    "sci_research/TBR/TBR-test-s2.md",
-    "sci_research/TBR/TBR-test-s1.md",
+    "sci_research/TBR/TBR-s3.md",
+    "sci_research/TBR/TBR-s2.md",
+    "sci_research/TBR/TBR-s1.md",
+    "sci_research/TBR/TBR-s0.md",
+    "sci_research/TBR/TBR-s9.md",
     "sci_research/DHR/DHR复现-s9.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/DHR/DHR复现-s1.md",
     "sci_research/TBR/TBR-0.md",
-    "sci_research/TBR/TBR-test-s3.md",
     "sci_research/report/DHR SUMMARY 1.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "计算化学与机器学习作业报告.md",
@@ -290,7 +305,6 @@
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "TOEFL/TOEFL模拟面试/复述题练习.md",
     "sci_research/DHR",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/TOEFL模拟面试/复述题练习.md.tmp.13252.38c42102b31f",
