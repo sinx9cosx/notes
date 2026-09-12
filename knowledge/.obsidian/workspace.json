@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,8 +249,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "8fcc1bf36a587b7d",
+  "active": "760df8430b2f5080",
   "lastOpenFiles": [
+    "sci_research/DHR/DHR复现-s9.md",
     "sci_research/TBR/TBR-test-s1.md",
     "sci_research/TBR/TBR-test-s0.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
@@ -260,7 +261,6 @@
     "sci_research/TBR/TBR-test-s2.md",
     "sci_research/report/DHR SUMMARY 1.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
-    "sci_research/DHR/DHR复现-s9.md",
     "计算化学与机器学习作业报告.md",
     "TOEFL/TOEFL口语复述/生活场景-咖啡机.md",
     "figures/volume_vs_label.png",
