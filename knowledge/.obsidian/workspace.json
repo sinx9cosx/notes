@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/TOEFL口语复述/生活场景-wifi配置.md",
+                "file": "sci_research/TBR/TBR-test-s2.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -229,12 +229,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,7 +247,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7409606e1913d2c2",
+  "active": "70f0588fa4efa4e8",
   "lastOpenFiles": [
     "sci_research/TBR/TBR-test-s3.md",
     "sci_research/TBR/TBR-test-s1.md",
