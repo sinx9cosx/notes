@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR-气相.md",
+                "file": "sci_research/DHR/DHR后处理-s9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR-气相"
+              "title": "DHR后处理-s9"
             }
           },
           {
@@ -265,8 +265,12 @@
   "active": "f6344b9a16cffa1e",
   "lastOpenFiles": [
     "sci_research/DHR/DHR复现-s1.md",
-    "sci_research/TBR/TBR-s0.md",
+    "sci_research/DHR/DHR后处理-s9.md",
+    "sci_research/DHR/DHR后处理-s1.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/DHR/DHR-气相.md",
+    "sci_research/TBR/TBR-s0.md",
     "DHR-THF光谱.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/TBR/TBR-s3.md",
@@ -295,14 +299,10 @@
     "TOEFL/TOEFL口语复述/生活场景-wifi配置.md",
     "TOEFL/TOEFL口语复述",
     "sci_research/report/TBR SUMMARY1.md",
-    "sci_research/DHR/DHR后处理-s1.md",
-    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/anti-kasha-paper/DHR概况.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
     "sci_research/report",
     "计算作业.md",
-    "math/The Natural Numbers.md",
-    "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
     "sci_research/DHR",
