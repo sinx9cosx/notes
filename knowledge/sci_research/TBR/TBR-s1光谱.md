@@ -22,5 +22,13 @@ EDME（发射）=$\sqrt{ 4.1807 }\times 2.5417=5.20$ debye
 
 ## evc-kr
 
+evc.car.dat：
+ Total reorganization energy      (cm-1):         2431.500647       2372.727534
+
+evc.dint.dat：
+ Total reorganization energy      (cm-1):         2430.016688       2376.308253
+
+## evc-kic
+
 
 ## kr
