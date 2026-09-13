@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7409606e1913d2c2",
+            "id": "f6344b9a16cffa1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,49 +22,21 @@
             }
           },
           {
-            "id": "c121ddb4ada1ebbe",
+            "id": "7696899b509bcba8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
+                "file": "TBR-s1光谱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "阅读"
-            }
-          },
-          {
-            "id": "f6344b9a16cffa1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/DHR/DHR-气相光谱.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DHR-气相光谱"
-            }
-          },
-          {
-            "id": "85a298debe9da1fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/DHR/DHR-THF光谱.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DHR-THF光谱"
+              "title": "TBR-s1光谱"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,12 +234,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f6344b9a16cffa1e",
+  "active": "7696899b509bcba8",
   "lastOpenFiles": [
+    "TBR-s1光谱.md",
+    "sci_research/TBR/TBR-s9.md",
+    "sci_research/DHR/DHR-气相光谱.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
     "sci_research/DHR/DHR-THF光谱.md",
-    "sci_research/DHR/DHR-气相光谱.md",
-    "sci_research/TBR/TBR-s9.md",
     "sci_research/DHR/DHR复现-s1.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR后处理-s1.md",
@@ -302,7 +275,6 @@
     "sci_research/anti-kasha-paper/DHR概况.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
     "sci_research/report",
-    "计算作业.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
     "sci_research/DHR",
