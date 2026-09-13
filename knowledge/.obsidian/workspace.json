@@ -63,7 +63,8 @@
               "title": "DHR-THF光谱"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,12 +262,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7409606e1913d2c2",
+  "active": "f6344b9a16cffa1e",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR复现-s1.md",
     "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
-    "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/DHR/DHR-THF光谱.md",
+    "sci_research/DHR/DHR-气相光谱.md",
+    "sci_research/TBR/TBR-s9.md",
+    "sci_research/DHR/DHR复现-s1.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
@@ -277,7 +279,6 @@
     "sci_research/DHR/DHR复现-s9.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
-    "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s2.md",
     "sci_research/TBR/TBR-s1.md",
     "sci_research/TBR/TBR-0.md",
