@@ -28,7 +28,6 @@ evc.car.dat：
 evc.dint.dat：
  Total reorganization energy      (cm-1):         2430.016688       2376.308253
 
-## evc-kic
-
-
 ## kr
+
+## kic
