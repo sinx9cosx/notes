@@ -21,9 +21,9 @@ Category:
 
 oldchk：s0opt
 
-输入文件：
+输入文件：`DHR-s0td.gjf`
 
-关键词：
+关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
 
 # s1
 
@@ -46,6 +46,8 @@ oldchk：s1opt
 oldchk：s0opt
 
 输入文件：`DHR-s2opt.gjf`
+
+关键词：`# opt freq td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
 ## s2 td
 
 oldchk：s2opt
@@ -57,6 +59,8 @@ oldchk：s2opt
 oldchk：s0opt
 
 输入文件：`DHR-s2opt.gjf`
+
+关键词：`# opt freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
 
 ## s9 td
 

@@ -15,7 +15,7 @@ Category:
 
 关键词：`# opt freq CAM-B3LYP/6-31g(d,p) scrf=(solvent=THF) em=gd3bj`
 
-结果：
+结果：normal termination
 
 ## s0 td
 
