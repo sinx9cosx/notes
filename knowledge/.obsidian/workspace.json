@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/填词/艺术-抽象派画作.md",
+                "file": "TOEFL/TOEFL写作要点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "艺术-抽象派画作"
+              "title": "TOEFL写作要点"
             }
           }
         ],
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/填词/艺术-抽象派画作.md",
+                "file": "TOEFL/TOEFL写作要点.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -249,9 +249,13 @@
   },
   "active": "8b169922b34eb058",
   "lastOpenFiles": [
+    "TOEFL/TOEFL口语要点.md",
+    "TOEFL/TOEFL邮件写作/邮件-人生规划建议.md",
+    "TOEFL/TOEFL邮件写作/邮件-学校建cafe的建议.md",
     "TOEFL/填词/艺术-皮影戏.md",
-    "TOEFL/填词/生物-动物行为.md",
+    "TOEFL/学术讲座.md",
     "TOEFL/填词/艺术-抽象派画作.md",
+    "TOEFL/填词/生物-动物行为.md",
     "TOEFL/填词/单词拼写.md",
     "TOEFL/填词/填词错误类型.canvas",
     "quantum chemistry/含时微扰理论.md",
@@ -273,10 +277,6 @@
     "sci_research/TBR/TBR-s3.md",
     "sci_research/TBR/TBR-s1.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
-    "sci_research/TBR/TBR-s9.md",
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
-    "TOEFL/TOEFL模拟面试/个人习惯与生活方式/阅读.md",
-    "sci_research/anti-kasha-paper/DHR文献计算细节.md",
     "figures/volume_vs_label.png",
     "figures/univariate_linear_R2.png",
     "figures/shap_summary_beeswarm.png",
