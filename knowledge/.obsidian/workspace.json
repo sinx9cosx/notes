@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
-                "mode": "source",
+                "file": "quantum chemistry/含时微扰理论.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP 3  Duschinsky旋转矩阵和振动分析"
+              "title": "含时微扰理论"
             }
           },
           {
@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR-THF光谱.md",
+                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR-THF光谱"
+              "title": "MOMAP 荧光光谱与速率：完整流程与结果解读"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/DHR/DHR-THF光谱.md",
+                "file": "quantum chemistry/含时微扰理论.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,19 +246,20 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "0af9fe413e276e78",
+  "active": "37d543e067aa9e3b",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR-气相光谱.md",
+    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "math/The Natural Numbers.md",
     "sci_research/DHR/DHR-THF光谱.md",
+    "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/DHR/DHR复现-s1.md",
     "sci_research/DHR/DHR后处理-s2.md",
-    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/TBR/TBR-s2光谱.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/TBR/TBR-s0.md",
     "sci_research/TBR/TBR-s2.md",
@@ -275,7 +275,6 @@
     "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/TBR/TBR-0.md",
     "sci_research/report/DHR SUMMARY 1.md",
-    "计算化学与机器学习作业报告.md",
     "figures/volume_vs_label.png",
     "figures/univariate_linear_R2.png",
     "figures/shap_summary_beeswarm.png",

@@ -20,3 +20,6 @@ Diffrent natural numbers must have differrent successors; i.e., if n, m are natu
 
 Axiom 2.5
 Let P(n) be any property pertraining to a natural number n. Suppose that P(0) is true, and suppose that whenever P(n) is true, P(n++) is also true. Then P(n) is true for every natural number n.
+
+## Addition
+
