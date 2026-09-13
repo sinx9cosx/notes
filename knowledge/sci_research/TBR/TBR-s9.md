@@ -19,7 +19,7 @@ oldchk：s0opt
 
 oldchk：s9opt
 
-输入文件：
+输入文件：`TBR-s9freq.gjf`
 
 关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 ## s9 td

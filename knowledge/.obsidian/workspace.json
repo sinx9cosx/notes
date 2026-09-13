@@ -35,8 +35,7 @@
               "title": "TBR-s1光谱"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,7 +233,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7696899b509bcba8",
+  "active": "f6344b9a16cffa1e",
   "lastOpenFiles": [
     "TBR-s1光谱.md",
     "sci_research/TBR/TBR-s9.md",
