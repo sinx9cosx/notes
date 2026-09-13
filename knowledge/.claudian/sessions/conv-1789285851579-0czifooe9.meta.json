@@ -1,0 +1,24 @@
+{
+  "id": "conv-1789285851579-0czifooe9",
+  "providerId": "claude",
+  "title": "评审作品并提供改进建议与范文",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789285851580,
+  "updatedAt": 1789285912159,
+  "lastResponseAt": 1789285912159,
+  "sessionId": "94b8e2bb-5c70-41de-a48b-c9f98406c576",
+  "providerState": {
+    "providerSessionId": "94b8e2bb-5c70-41de-a48b-c9f98406c576"
+  },
+  "currentNote": "TOEFL/TOEFL邮件写作/邻居沟通.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 450,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34560,
+    "contextWindow": 1000000,
+    "contextTokens": 35010,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
