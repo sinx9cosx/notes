@@ -33,6 +33,7 @@ Category:
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1610.54373777
 
+Dip.S.=4.1807 
 ## s1 nacme
 
 目标：S1几何性质

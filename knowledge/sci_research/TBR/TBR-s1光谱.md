@@ -14,11 +14,11 @@ s0：
 s1：
  Total Energy, E(TD-HF/TD-DFT) =  -1610.54621684
 
-Ead=
+Ead=0.08394205 a.u.
 
-EDMA（吸收）=
+EDMA（吸收）=$\sqrt{ 3.1357 }\times 2.5417=4.50$ debye
 
-EDME（发射）=
+EDME（发射）=$\sqrt{ 4.1807 }\times 2.5417=5.20$ debye
 
 ## evc-kr
 
