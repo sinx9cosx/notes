@@ -49,8 +49,7 @@
               "title": "DHR后处理-s2"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/DHR/DHR后处理-s2.md",
+                "file": "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,7 +246,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d418798bc6bdca28",
+  "active": "37d543e067aa9e3b",
   "lastOpenFiles": [
     "sci_research/DHR/DHR复现-s1.md",
     "sci_research/DHR/DHR后处理-s2.md",
