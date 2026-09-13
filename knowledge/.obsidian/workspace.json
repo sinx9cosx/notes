@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/TOEFL邮件写作/邻居沟通.md",
+                "file": "TOEFL/邮件写作/邻居沟通.md",
                 "mode": "source",
                 "source": false
               },
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "快时尚产品的环境问题.md",
+                "file": "TOEFL/学术讨论/快时尚产品的环境问题.md",
                 "mode": "source",
                 "source": false
               },
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "快时尚产品的环境问题.md",
+                "file": "TOEFL/学术讨论/快时尚产品的环境问题.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -275,15 +275,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b1668fcd6d610a52",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
-    "快时尚产品的环境问题.md",
+    "TOEFL/学术讨论",
+    "TOEFL/学术讨论/快时尚产品的环境问题.md",
     "TOEFL/TOEFL写作要点.md",
     "TOEFL/填词/生物-动物行为.md",
-    "TOEFL/TOEFL邮件写作/邻居沟通.md",
-    "TOEFL/TOEFL邮件写作/学校建cafe的建议.md",
+    "TOEFL/邮件写作/邻居沟通.md",
+    "TOEFL/邮件写作/学校建cafe的建议.md",
     "TOEFL/TOEFL口语要点.md",
-    "TOEFL/TOEFL邮件写作/人生规划建议.md",
+    "TOEFL/邮件写作/人生规划建议.md",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.fc8c549dcb2c",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.148d41188c51",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.2b1d635371f6",
@@ -308,7 +309,6 @@
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/TBR/TBR-s0.md",
-    "sci_research/TBR/TBR-s2.md",
     "figures/volume_vs_label.png",
     "figures/univariate_linear_R2.png",
     "figures/shap_summary_beeswarm.png",
@@ -320,7 +320,7 @@
     "figures/importance_rank_comparison.png",
     "figures/importance_permutation_bar.png",
     "figures",
-    "TOEFL/TOEFL口语复述",
+    "TOEFL/口语复述",
     "sci_research/report",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.70265bb72ca5",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md.tmp.27248.ee550b06e8ff",
