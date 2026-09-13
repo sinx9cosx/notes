@@ -24,7 +24,9 @@ EDME=$\sqrt{ 0.6444 }\times 2.5417=2.04$ debye
 ## evc-kr
 
 evc.cart.dat：
-
+Total reorganization energy      (cm-1):         3523.802699       3270.609292
 
 evc.dint.dat：
+Total reorganization energy      (cm-1):         3526.427385       3274.087450
 
+## kr
