@@ -30,9 +30,28 @@ oldchk：s9opt
 
 关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
-结果：
+结果：无虚频
+ Excited State   9:      Singlet-A      3.8699 eV  320.38 nm  f=1.1292
+     131 ->136         0.30605
+     133 ->139        -0.14421
+     134 ->137         0.53645
+     135 ->140         0.24262
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1610.48466848
 ## s9 td
 
+oldchk：s9 freq
+
+输入文件：`TBR-s9td.gjf`
+
+关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
+
 ## s9 NTO
+
+oldchk：s9 td
+
+输入文件：
+
+关键词：
 
 ## s9 nacme
