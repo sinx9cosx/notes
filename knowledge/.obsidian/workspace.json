@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR-气相光谱.md",
-                "mode": "source",
+                "file": "physchem-spring/统计力学.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR-气相光谱"
+              "title": "统计力学"
             }
           },
           {
@@ -249,9 +249,12 @@
   },
   "active": "5dc4ec87948e14bc",
   "lastOpenFiles": [
+    "physchem-spring/玻尔兹曼分布成立条件.md",
+    "quantum chemistry/含时微扰理论.md",
+    "TOEFL/TOEFL口语要点.md",
+    "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/DHR/DHR-THF光谱.md",
     "sci_research/DHR/DHR复现-s9.md",
-    "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s2.md",
     "sci_research/DHR/DHR后处理-s2.md",
@@ -260,7 +263,6 @@
     "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/DHR/DHR后处理-s9.md",
-    "quantum chemistry/含时微扰理论.md",
     "TOEFL/填词/生物-动物行为.md",
     "TOEFL/邮件写作/邻居沟通.md",
     "TOEFL/TOEFL写作要点.md",
@@ -268,7 +270,6 @@
     "TOEFL/学术讨论/快时尚产品的环境问题.md.tmp.14972.6476d3dc96cb",
     "TOEFL/学术讨论",
     "TOEFL/邮件写作/学校建cafe的建议.md",
-    "TOEFL/TOEFL口语要点.md",
     "TOEFL/邮件写作/人生规划建议.md",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.fc8c549dcb2c",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.148d41188c51",
@@ -281,7 +282,6 @@
     "TOEFL/填词/填词错误类型.canvas",
     "sci_research/DHR/DHR复现-s1.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "figures/volume_vs_label.png",
     "figures/univariate_linear_R2.png",
