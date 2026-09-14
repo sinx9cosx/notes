@@ -46,6 +46,8 @@ oldchk：s9 freq
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
+结果：
+
 ## s9 NTO
 
 oldchk：s9 td
