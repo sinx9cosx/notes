@@ -47,7 +47,7 @@ oldchk：s9 freq
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check`
 
 结果：normal termination
-
+Dip.S.=6.8313
 
 ## s9 NTO
 
@@ -55,6 +55,6 @@ oldchk：s9 td
 
 输入文件：
 
-关键词：
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf em=gd3bj`
 
 ## s9 nacme
