@@ -1,0 +1,24 @@
+{
+  "id": "conv-1789399497927-rrdka0uh8",
+  "providerId": "claude",
+  "title": "Explain Fermi's golden rule from notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789399497927,
+  "updatedAt": 1789399589464,
+  "lastResponseAt": 1789399589464,
+  "sessionId": "ed95831c-87e9-4e86-81b8-7981f87026c3",
+  "providerState": {
+    "providerSessionId": "ed95831c-87e9-4e86-81b8-7981f87026c3"
+  },
+  "currentNote": "quantum chemistry/含时微扰理论.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 647,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45568,
+    "contextWindow": 1000000,
+    "contextTokens": 46215,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}
