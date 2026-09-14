@@ -16,7 +16,7 @@ Category:
 关键词：`# opt freq CAM-B3LYP/6-31g(d,p) em=gd3bj`
 
 结果：normal termination
-
+SCF Done:  E(RCAM-B3LYP) =  -1151.09868773     A.U.
 ## s0 td
 
 oldchk：s0opt
@@ -25,6 +25,13 @@ oldchk：s0opt
 
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
 
+结果：normal termination
+
+| state | Dip.S. |
+| ----- | ------ |
+| 1     | 5.1418 |
+| 2     | 0.1995 |
+| 9     | 3.8736 |
 # s1
 
 ## s1 opt
@@ -34,6 +41,13 @@ oldchk：s0opt
 输入文件：`DHR-s1opt.gjf`
 
 关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
+
+结果：normal termination
+Excited State   1:      Singlet-A'     1.9981 eV  620.52 nm  f=0.2642 
+      95 -> 98         0.10866
+      97 -> 98         0.68913
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1151.01799955
 
 ## s1 td
 
@@ -48,6 +62,9 @@ oldchk：s0opt
 输入文件：`DHR-s2opt.gjf`
 
 关键词：`# opt freq td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
+
+结果：
+
 ## s2 td
 
 oldchk：s2opt

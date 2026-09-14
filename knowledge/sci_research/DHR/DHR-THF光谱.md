@@ -111,5 +111,4 @@ oldchk：s2 opt
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(solvent=THF) em=gd3bj guess=read geom=check`
 
-
 结果：
