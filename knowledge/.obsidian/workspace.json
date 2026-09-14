@@ -49,8 +49,7 @@
               "title": "DHR复现-s9"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,16 +246,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5dc4ec87948e14bc",
+  "active": "6c5d0ad7f79df0b4",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-s9.md",
+    "sci_research/TBR/TBR-s2.md",
+    "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/DHR/DHR-THF光谱.md",
     "sci_research/DHR/DHR后处理-s2.md",
-    "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/TBR/TBR-s3.md",
     "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/DHR/DHR复现-s9.md",
-    "sci_research/TBR/TBR-s2.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "quantum chemistry/含时微扰理论.md",
@@ -281,7 +281,6 @@
     "sci_research/DHR/DHR复现-s1.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
-    "math/The Natural Numbers.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "figures/volume_vs_label.png",
     "figures/univariate_linear_R2.png",

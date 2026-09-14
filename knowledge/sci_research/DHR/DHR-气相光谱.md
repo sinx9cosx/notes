@@ -63,8 +63,12 @@ oldchk：s0opt
 
 关键词：`# opt freq td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
 
-结果：
-
+结果：normal termination
+Excited State   2:      Singlet-A'     2.2281 eV  556.46 nm  f=0.0279  
+      97 -> 99         0.67660
+      97 ->100         0.10554
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1151.00204809
 ## s2 td
 
 oldchk：s2opt
@@ -78,6 +82,16 @@ oldchk：s0opt
 输入文件：`DHR-s2opt.gjf`
 
 关键词：`# opt freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
+
+结果：normal termination
+ Excited State   9:      Singlet-A'     4.1754 eV  296.94 nm  f=0.3611
+      91 -> 98         0.15106
+      94 ->100         0.13858
+      95 -> 99        -0.57158
+      96 ->100        -0.23151
+      97 ->104        -0.10400
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1150.94058314
 
 ## s9 td
 
