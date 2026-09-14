@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-s9.md",
+                "file": "sci_research/DHR/DHR-气相光谱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-s9"
+              "title": "DHR-气相光谱"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR复现-s9.md",
+                "file": "sci_research/DHR/DHR-THF光谱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR复现-s9"
+              "title": "DHR-THF光谱"
             }
           }
         ],
@@ -249,11 +249,11 @@
   },
   "active": "5dc4ec87948e14bc",
   "lastOpenFiles": [
-    "sci_research/DHR/DHR复现-s9.md",
-    "sci_research/TBR/TBR-s9.md",
-    "sci_research/DHR/DHR-气相光谱.md",
-    "sci_research/TBR/TBR-s2.md",
     "sci_research/DHR/DHR-THF光谱.md",
+    "sci_research/DHR/DHR复现-s9.md",
+    "sci_research/DHR/DHR-气相光谱.md",
+    "sci_research/TBR/TBR-s9.md",
+    "sci_research/TBR/TBR-s2.md",
     "sci_research/DHR/DHR后处理-s2.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/TBR/TBR-s3.md",
