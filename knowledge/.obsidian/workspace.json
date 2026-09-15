@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/定态微扰理论.md",
+                "file": "quantum chemistry/Fermi黄金规则.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,14 +247,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4d5fa7b14b8a4757",
+  "active": "151f27d801d3eeb3",
   "lastOpenFiles": [
+    "quantum chemistry/定态微扰理论.md",
     "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/关于微扰理论的疑问.md",
     "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/Fermi黄金规则.md",
     "sci_research/DHR/DHR-THF光谱.md",
-    "quantum chemistry/定态微扰理论.md",
     "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR后处理-s1.md",

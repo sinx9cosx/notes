@@ -29,6 +29,18 @@ $$
 $$
 \frac{\sin^2(\omega_{mn}t/2)}{(\omega_{mn}/2)^2} \rightarrow 2\pi t\delta(\omega_{mn})
 $$
-> [!note]
+<mark style="background: #BBFABBA6;">简单的解释：</mark>
+
+> [!note]- $\delta$函数的性质
+> - 从负无穷到正无穷的积分面积为1
+> - 在一点有值，其他地方为0
 
 
+积分，令$x=\frac{\omega_{mn}t}{2}$：
+$$
+\int_{-\infty}^{+\infty}\frac{\sin^2(\omega_{mn}t/2)}{(\omega_{mn}/2)^2}dt=\int_{-\infty}^{+\infty} \frac{\sin^2x}{(x / t)^2} \frac{2}{t}dx
+=2t\int_{{-\infty}}^{+\infty} \frac{\sin^2x}{x^2}dx=2\pi t
+$$
+则函数的积分面积为$2\pi t$
+
+$\omega=0$时函数取极大值$t^2$，零点为$\pm 2\pi /t$，feng'gao
