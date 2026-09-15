@@ -4,8 +4,8 @@
   "title": "帮我检查笔记",
   "titleGenerationStatus": "failed",
   "createdAt": 1789478711537,
-  "updatedAt": 1789479720823,
-  "lastResponseAt": 1789479720823,
+  "updatedAt": 1789480158022,
+  "lastResponseAt": 1789480158022,
   "sessionId": "de410531-8ccf-4e19-bd9a-d26ac15f36f2",
   "providerState": {
     "providerSessionId": "de410531-8ccf-4e19-bd9a-d26ac15f36f2",
@@ -56,11 +56,11 @@
   "currentNote": "quantum chemistry/Fermi黄金规则.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 13598,
+    "inputTokens": 9167,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 21248,
+    "cacheReadInputTokens": 36864,
     "contextWindow": 200000,
-    "contextTokens": 34846,
-    "percentage": 17
+    "contextTokens": 46031,
+    "percentage": 23
   }
 }
