@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-s3.md",
+                "file": "sci_research/TBR/TBR-s2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-s3"
+              "title": "TBR-s2"
             }
           }
         ],
@@ -263,6 +263,8 @@
   },
   "active": "64231bc1b9c5fe0b",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-s2光谱.md",
+    "sci_research/TBR/TBR-s3.md",
     "quantum chemistry/含时微扰理论.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
     "sci_research/DHR/DHR-THF光谱.md",
@@ -275,8 +277,6 @@
     "sci_research/TBR/TBR-s2.md",
     "sci_research/DHR/DHR后处理-s2.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
-    "sci_research/TBR/TBR-s3.md",
-    "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "TOEFL/填词/生物-动物行为.md",
