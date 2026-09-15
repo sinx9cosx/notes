@@ -57,7 +57,7 @@ old chk：`TBR-s2td.chk`
 
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=2) pop=(minimal,nto,savento) scrf em=gd3bj`
 
-结果：
+结果：normal termination
 
 ## s2-nacme
 
