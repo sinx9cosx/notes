@@ -159,8 +159,8 @@ Total reorganization energy      (cm-1):         1037.994816        986.011068
 
 ## log
 
-Ead=
+Ead=0.15810459 a.u.
 
-EDMA=
+EDMA=5.00 debye
 
-EDME=
+EDME=4.78 debye

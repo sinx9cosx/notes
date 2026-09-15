@@ -60,6 +60,14 @@ oldchk：s1 opt
 结果：normal termination
 Dip.S.=8.4620
 
+## evc-kr
+
+evc.cart.dat：
+Total reorganization energy      (cm-1):         1712.313150       1705.380094
+
+evc.dint.dat：
+
+
 ## log
 
 Ead=
