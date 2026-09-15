@@ -73,7 +73,20 @@ $$
 因此终态需要落在连续谱区间内才能跃迁。
 
 引入态密度$\rho(E)$：单位能量间隔内的状态数
+
+<mark style="background: #FFB86CA6;">Fermi黄金规则</mark>：
+
 跃迁速率
 $$
-\Gamma_{n\to f}=\frac{2\pi}{\hbar}|H'_{fn}|^2\delta(E_{m}^0-E_{n}^0)
+\begin{aligned}
+\Gamma_{n\to f}&=\frac{2\pi}{\hbar}|H'_{fn}|^2\int\delta(E_{m}^0-E_{n}^0)\rho(E_{m}^0)dE_{m}^0\\ \\
+&=\frac{2\pi}{\hbar}|H'_{fn}|\rho(E_{f})
+\end{aligned}
 $$
+
+<mark style="background: #BBFABBA6;">说明：</mark>
+
+-  t要足够长， $\sin^2$因子才能 $\delta$函数化（要求$t\gg \hbar / \Delta E$ ，$\Delta E$为终态能级间隔）；
+- 但一级微扰近似要求跃迁概率远小于 1（弱微扰），即 $t\ll \hbar / |H'_{mn}|$。
+
+两条同时成立，即微扰矩阵元远小于能级间隔、态密度足够大。如果微扰太强（矩阵元大）或终态太稀疏，黄金规则失效。
