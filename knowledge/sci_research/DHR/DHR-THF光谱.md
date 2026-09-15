@@ -66,7 +66,7 @@ evc.cart.dat：
 Total reorganization energy      (cm-1):         1712.313150       1705.380094
 
 evc.dint.dat：
-
+Total reorganization energy      (cm-1):         1711.661481       1706.194780
 
 ## log
 
@@ -103,6 +103,14 @@ oldchk：s2 opt
 结果：normal termination
 Dip.S.=0.6858
 
+## evc-kr
+
+evc.cart.dat：
+Total reorganization energy      (cm-1):         3523.491414       3298.381604
+
+evc.dint.dat：
+Total reorganization energy      (cm-1):         3526.037622       3302.195939
+
 ## log
 
 Ead=
@@ -119,7 +127,7 @@ oldchk：s0 opt
 
 输入文件：`DHR-s9opt.gjf`
 
-关键词：`# opt freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(solvent=THF) em=gd3bj guess=read geom=check`
+关键词：`# opt td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(solvent=THF) em=gd3bj guess=read geom=check`
 
 结果：normal termination
 Excited State   9:      Singlet-A'     4.0719 eV  304.49 nm  f=1.2330 
@@ -139,6 +147,14 @@ oldchk：s2 opt
 
 结果：normal termination
 Dip.S.=7.4264
+
+## evc-kr
+
+evc.cart.dat：
+
+
+evc.dint.dat：
+
 
 ## log
 
