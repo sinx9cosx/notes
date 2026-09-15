@@ -63,16 +63,17 @@ Dip.S.=5.3972
 ## evc-kr
 
 evc.cart.dat：
+Total reorganization energy      (cm-1):         1653.189216       1608.117217
 
 evc.dint.dat：
-
+Total reorganization energy      (cm-1):         1652.762960       1608.888908
 ## log
 
-Ead=
+Ead=0.08068818 a.u.
 
-EDMA=
+EDMA=5.76 debye
 
-EDME=
+EDME=5.90 debye
 
 # s2
 
@@ -101,13 +102,21 @@ oldchk：s2 opt
 结果：normal termination
 Dip.S.=0.5118
 
+## evc-kr
+
+evc.cart.dat：
+Total reorganization energy      (cm-1):         3355.632909       3402.237074
+
+evc.dint.dint：
+Total reorganization energy      (cm-1):         3357.788683       3407.408331
+
 ## log
 
-Ead=
+Ead=0.09663964 a.u.
 
-EDMA=
+EDMA=1.14 debye
 
-EDME=
+EDME=1.82 debye
 
 # s9
 
@@ -139,6 +148,14 @@ oldchk：s9 opt
 
 结果：normal termination
 Dip.S.=3.5296
+
+## evc-kr
+
+evc.cart.dat：
+Total reorganization energy      (cm-1):         1036.949164        986.889172
+
+evc.dint.dat：
+Total reorganization energy      (cm-1):         1037.994816        986.011068
 
 ## log
 
