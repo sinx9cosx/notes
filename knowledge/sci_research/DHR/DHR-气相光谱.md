@@ -58,7 +58,7 @@ oldchk：s1 opt
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read geom=check`
 
 结果：normal termination
-
+Dip.S.=5.3972
 
 # s2
 
