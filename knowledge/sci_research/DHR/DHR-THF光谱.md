@@ -70,11 +70,11 @@ Total reorganization energy      (cm-1):         1711.661481       1706.194780
 
 ## log
 
-Ead=
+Ead=0.07501672 a.u.
 
-EDMA=
+EDMA=7.08 debye
 
-EDME=
+EDME=7.39 debye
 
 # s2
 
@@ -113,11 +113,11 @@ Total reorganization energy      (cm-1):         3526.037622       3302.195939
 
 ## log
 
-Ead=
+Ead=0.0960599 a.u.
 
-EDMA=
+EDMA=1.48 debye
 
-EDME=
+EDME=2.10 debye
 
 # s9
 
@@ -158,8 +158,8 @@ evc.dint.dat：
 
 ## log
 
-Ead=
+Ead=0.15422836 a.u.
 
-EDMA=
+EDMA=6.54 debye
 
-EDME=
+EDME=6.93 debye
