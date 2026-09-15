@@ -60,6 +60,14 @@ oldchk：s1 opt
 结果：normal termination
 Dip.S.=5.3972
 
+## log
+
+Ead=
+
+EDMA=
+
+EDME=
+
 # s2
 
 ## s2 opt
@@ -86,6 +94,15 @@ oldchk：s2 opt
 
 结果：normal termination
 Dip.S.=0.5118
+
+## log
+
+Ead=
+
+EDMA=
+
+EDME=
+
 # s9
 
 ## s9 opt
@@ -116,3 +133,11 @@ oldchk：s9 opt
 
 结果：normal termination
 Dip.S.=3.5296
+
+## log
+
+Ead=
+
+EDMA=
+
+EDME=
