@@ -27,5 +27,8 @@ P_{nm}=\frac{|H'_{mn}|^2}{i\hbar}\cdot \frac{\sin^2(\omega_{mn}t/2)}{(\omega_{mn
 $$
 当t足够大时，这个尖峰函数趋近$\delta$函数：
 $$
-\frac{\sin^2(\omega_{mn}t/2)}{(\omega_{mn}/2)^2}
+\frac{\sin^2(\omega_{mn}t/2)}{(\omega_{mn}/2)^2} \rightarrow 2\pi t\delta(\omega_{mn})
 $$
+> [!note]
+
+

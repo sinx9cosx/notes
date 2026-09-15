@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/含时微扰理论.md",
+                "file": "quantum chemistry/定态微扰理论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "含时微扰理论"
+              "title": "定态微扰理论"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/Fermi黄金规则.md",
+                "file": "quantum chemistry/定态微扰理论.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,9 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "151f27d801d3eeb3",
+  "active": "4d5fa7b14b8a4757",
   "lastOpenFiles": [
     "quantum chemistry/含时微扰理论.md",
+    "quantum chemistry/关于微扰理论的疑问.md",
+    "quantum chemistry/关于简并态的讨论.md",
     "quantum chemistry/Fermi黄金规则.md",
     "sci_research/DHR/DHR-THF光谱.md",
     "quantum chemistry/定态微扰理论.md",
@@ -273,8 +275,6 @@
     "sci_research/DHR/DHR后处理-s2.md",
     "TOEFL/填词/生物-动物行为.md",
     "TOEFL/邮件写作/邻居沟通.md",
-    "TOEFL/TOEFL写作要点.md",
-    "TOEFL/学术讨论/快时尚产品的环境问题.md",
     "TOEFL/学术讨论/快时尚产品的环境问题.md.tmp.14972.6476d3dc96cb",
     "TOEFL/学术讨论",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.fc8c549dcb2c",
