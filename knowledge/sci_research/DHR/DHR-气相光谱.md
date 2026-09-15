@@ -84,8 +84,8 @@ oldchk：s2 opt
 
 关键词：`# td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
 
-结果：
-
+结果：normal termination
+Dip.S.=0.5118
 # s9
 
 ## s9 opt
@@ -114,4 +114,5 @@ oldchk：s9 opt
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) em=gd3bj guess=read  geom=check`
 
-结果：
+结果：normal termination
+Dip.S.=3.5296
