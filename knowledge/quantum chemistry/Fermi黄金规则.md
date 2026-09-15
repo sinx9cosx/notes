@@ -23,7 +23,7 @@ $$
 
 跃迁概率
 $$
-P_{nm}=\frac{|H'_{mn}|^2}{i\hbar}\cdot \frac{\sin^2(\omega_{mn}t/2)}{(\omega_{mn}/2)^2}
+P_{nm}=\frac{|H'_{mn}|^2}{\hbar^2}\cdot \frac{\sin^2(\omega_{mn}t/2)}{(\omega_{mn}/2)^2}
 $$
 当t足够大时，这个尖峰函数趋近$\delta$函数：
 $$
@@ -80,7 +80,7 @@ $$
 $$
 \begin{aligned}
 \Gamma_{n\to f}&=\frac{2\pi}{\hbar}|H'_{fn}|^2\int\delta(E_{m}^0-E_{n}^0)\rho(E_{m}^0)dE_{m}^0\\ \\
-&=\frac{2\pi}{\hbar}|H'_{fn}|\rho(E_{f})
+&=\frac{2\pi}{\hbar}|H'_{fn}|^2\rho(E_{f})
 \end{aligned}
 $$
 
