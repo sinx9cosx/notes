@@ -29,6 +29,9 @@ $$
 $$
 \frac{\sin^2(\omega_{mn}t/2)}{(\omega_{mn}/2)^2} \rightarrow 2\pi t\delta(\omega_{mn})
 $$
+
+---
+
 <mark style="background: #BBFABBA6;">简单的解释：</mark>
 
 > [!note]- $\delta$函数的性质
@@ -43,4 +46,34 @@ $$
 $$
 则函数的积分面积为$2\pi t$
 
-$\omega=0$时函数取极大值$t^2$，零点为$\pm 2\pi /t$，feng'gao
+$\omega=0$时函数取极大值$t^2$，零点为$\pm 2\pi /t$，峰高~$t^2$，峰宽~$\frac{1}{t}$
+
+---
+
+跃迁概率
+$$
+P_{nm}=\frac{|H'_{mn}|^2}{\hbar^2}2\pi t\delta(\omega_{mn})
+$$
+
+跃迁速率
+$$
+\frac{P_{nm}}{t}=\frac{2\pi}{\hbar^2}|H'_{mn}|^2\delta(\omega_{mn})
+$$
+
+$$
+\delta(\omega_{mn})=\delta\left( \frac{E_{m}^0-E_{n}^0}{\hbar} \right)=\hbar \delta(E_{m}^0-E_{n}^0)
+$$
+
+则跃迁速率为
+$$
+\frac{P_{nm}}{t}=\frac{2\pi}{\hbar}|H'_{mn}|^2\delta(E_{m}^0-E_{n}^0)
+$$
+
+只有当$E_{m}^0=E_{n}^0$（终态能量与始态相等）时，跃迁速率才不为0.
+因此终态需要落在连续谱区间内才能跃迁。
+
+引入态密度$\rho(E)$：单位能量间隔内的状态数
+跃迁速率
+$$
+\Gamma_{n\to f}=\frac{2\pi}{\hbar}|H'_{fn}|^2\delta(E_{m}^0-E_{n}^0)
+$$
