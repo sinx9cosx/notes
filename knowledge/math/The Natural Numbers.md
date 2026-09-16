@@ -32,4 +32,13 @@ For any natural number n, n+0=n
 
 proof:
 假设n+0=n，证明(n++)+0=n++
-(n++)
+由于(n++)+0=(n+0)++=n++
+即证
+
+<mark style="background: #FFB86CA6;">Lemma 2.2.3</mark>
+For any natural numbers n and m, n+(m++)=(n+m)++
+
+proof:
+对n使用归纳，当n=0时，0+(m++)=m++，0+m=m，所以0+(m++)=(0+m)++
+假设n满足n+(m++)=(n+m)++，只需证(n++)+(m++)=((n++)+m)++
+由于(n++)+(m++)=(n+(m++))++=((n+m)++)++
