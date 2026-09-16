@@ -27,3 +27,9 @@ Let P(n) be any property pertraining to a natural number n. Suppose that P(0) is
 - m is a natural number, define 0+m=m
 - define (n++)+m=(n+m)++
 
+<mark style="background: #FFB86CA6;">Lemma 2.2.2</mark>
+For any natural number n, n+0=n
+
+proof:
+假设n+0=n，证明(n++)+0=n++
+(n++)
