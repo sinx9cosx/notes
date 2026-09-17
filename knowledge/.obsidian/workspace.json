@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-s2光谱.md",
+                "file": "sci_research/report/DHR SUMMARY 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-s2光谱"
+              "title": "DHR SUMMARY 2"
             }
           },
           {
@@ -250,13 +250,15 @@
   },
   "active": "0ed900cda0595528",
   "lastOpenFiles": [
-    "sci_research/TBR/Emission Spectra of TBR.md",
-    "sci_research/DHR/Emission Spectra of DHR.md",
-    "sci_research/TBR/TBR-s9光谱.md",
+    "sci_research/image/DHR-spec-s129-water.png",
+    "sci_research/report/DHR SUMMARY 2.md",
+    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/TBR/TBR-s2光谱.md",
+    "sci_research/DHR/Emission Spectra of DHR.md",
+    "sci_research/TBR/Emission Spectra of TBR.md",
+    "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s2.md",
     "sci_research/TBR/TBR-s1光谱.md",
-    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/DHR/DHR后处理-s2.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
@@ -280,8 +282,6 @@
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s0.md",
     "sci_research/DHR/DHR复现-s9.md",
-    "sci_research/TBR/s0与激发态s1的对比.md",
-    "sci_research/TBR/TBR-s3.md",
     "TOEFL/学术讨论/快时尚产品的环境问题.md.tmp.14972.6476d3dc96cb",
     "TOEFL/学术讨论",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.fc8c549dcb2c",
