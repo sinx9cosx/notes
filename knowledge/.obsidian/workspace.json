@@ -34,8 +34,23 @@
               "icon": "lucide-file",
               "title": "TBR-s9光谱"
             }
+          },
+          {
+            "id": "21b9a5caa7dded8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Emission Spectra of TBR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Emission Spectra of TBR"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:MOMAP",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +105,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -233,22 +249,24 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6c5d0ad7f79df0b4",
+  "active": "21b9a5caa7dded8b",
   "lastOpenFiles": [
+    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
+    "Emission Spectra of TBR.md",
     "sci_research/TBR/TBR-s9光谱.md",
+    "sci_research/DHR/DHR后处理-s9.md",
+    "sci_research/image/TBR-spec-s129.png",
     "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/DHR/DHR后处理-s2.md",
     "sci_research/image/TBR-converge-s9.png",
     "sci_research/image/TBR-converge-s2.png",
-    "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR-THF光谱.md",
     "sci_research/image/TBR-converge-s1.png",
     "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/TBR/TBR-s1.md",
     "math/The Natural Numbers.md",
-    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md.tmp.25752.f727a3592e2c",
     "quantum chemistry/Fermi黄金规则.md",
     "quantum chemistry/定态微扰理论.md",
@@ -265,7 +283,6 @@
     "sci_research/TBR/TBR-s3.md",
     "physchem-spring/玻尔兹曼分布成立条件.md",
     "physchem-spring/统计力学.md",
-    "TOEFL/TOEFL口语要点.md",
     "TOEFL/学术讨论/快时尚产品的环境问题.md.tmp.14972.6476d3dc96cb",
     "TOEFL/学术讨论",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.fc8c549dcb2c",
@@ -280,7 +297,6 @@
     "figures/shap_mean_abs_bar.png",
     "figures/new_molecules_out_of_distribution.png",
     "figures/model_ladder.png",
-    "figures/label_distribution.png",
     "figures",
     "TOEFL/口语复述",
     "instrument/linux/vim示意图.canvas",

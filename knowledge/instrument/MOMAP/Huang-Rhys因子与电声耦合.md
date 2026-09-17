@@ -1,7 +1,6 @@
 ---
 tags:
   - 计算化学
-  - MOMAP
   - 量子力学
 Category:
   - 讲义
