@@ -250,6 +250,7 @@
   },
   "active": "0ed900cda0595528",
   "lastOpenFiles": [
+    "sci_research/image/DHR-spec-s129-gas.png",
     "sci_research/image/DHR-spec-s129-water.png",
     "sci_research/report/DHR SUMMARY 2.md",
     "sci_research/DHR/DHR后处理-s9.md",
@@ -295,7 +296,6 @@
     "figures/shap_summary_beeswarm.png",
     "figures/shap_mean_abs_bar.png",
     "figures/new_molecules_out_of_distribution.png",
-    "figures/model_ladder.png",
     "figures",
     "TOEFL/口语复述",
     "instrument/linux/vim示意图.canvas",
