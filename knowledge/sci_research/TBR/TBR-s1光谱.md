@@ -30,4 +30,7 @@ evc.dint.dat：
 
 ## kr
 
+1. 收敛性检验
+	
+
 ## kic
