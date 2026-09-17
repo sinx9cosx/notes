@@ -30,3 +30,7 @@ Total reorganization energy      (cm-1):          723.613396        679.139597
 
 ## kr
 
+1. 收敛性检验：
+	![[TBR-converge-s9.png]]
+
+2. log：radiative rate     (0):     9.34189233E-09    3.86206659E+08 /s,       2.59 ns
