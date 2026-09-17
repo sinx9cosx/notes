@@ -151,10 +151,10 @@ Dip.S.=7.4264
 ## evc-kr
 
 evc.cart.dat：
-
+Total reorganization energy      (cm-1):         1020.497353       1007.798667
 
 evc.dint.dat：
-
+Total reorganization energy      (cm-1):         1021.508001       1006.977213
 
 ## log
 

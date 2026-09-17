@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/The Natural Numbers.md",
+                "file": "sci_research/DHR/DHR-气相光谱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Natural Numbers"
+              "title": "DHR-气相光谱"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "DHR-THF光谱"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -218,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,8 +235,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6c5d0ad7f79df0b4",
+  "active": "151f27d801d3eeb3",
   "lastOpenFiles": [
+    "sci_research/DHR/DHR-气相光谱.md",
+    "math/The Natural Numbers.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md.tmp.25752.f727a3592e2c",
     "sci_research/DHR/DHR-THF光谱.md",
@@ -243,7 +248,6 @@
     "quantum chemistry/含时微扰理论.md",
     "quantum chemistry/关于微扰理论的疑问.md",
     "quantum chemistry/关于简并态的讨论.md",
-    "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/DHR/DHR后处理-s9.md",
     "sci_research/DHR/DHR后处理-s1.md",
     "sci_research/spectrum-tutorial/激发态和光谱计算2-NTO分析.md",
@@ -261,7 +265,6 @@
     "physchem-spring/统计力学.md",
     "TOEFL/TOEFL口语要点.md",
     "sci_research/DHR/DHR后处理-s2.md",
-    "TOEFL/填词/生物-动物行为.md",
     "TOEFL/学术讨论/快时尚产品的环境问题.md.tmp.14972.6476d3dc96cb",
     "TOEFL/学术讨论",
     "TOEFL/TOEFL邮件写作/邻居沟通.md.tmp.10904.fc8c549dcb2c",
