@@ -8,12 +8,6 @@ Category:
 ---
 # water
 
-## s1+s9
-
-![[DHR-spec-s19.png]]
-
-## s1+s2+s9
-
 ![[DHR-spec-s129-water.png]]
 
 # gas-phase
@@ -22,3 +16,4 @@ Category:
 
 # THF
 
+![[DHR-spec-s129-THF.png]]
