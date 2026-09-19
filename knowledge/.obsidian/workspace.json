@@ -11,10 +11,14 @@
             "id": "407e2cf066d8bb35",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "math/The Natural Numbers.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "The Natural Numbers"
             }
           }
         ]
@@ -217,6 +221,7 @@
   },
   "active": "407e2cf066d8bb35",
   "lastOpenFiles": [
+    "darling/Slater行列式.md",
     "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/DHR/DHR后处理-s1.md",
