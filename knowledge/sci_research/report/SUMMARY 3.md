@@ -49,24 +49,38 @@ kr-s2=7.19431997E+06 /s
 
 kr-s9=5.54629861E+08 /s
 
+---
 
 ## NTO
+
+> 本征值：0.98422
 
   <table><tr>
   <td align="center"><img src="s1-NTO-97.png" width="380"><br>S1-97空穴</td>
   <td align="center"><img src="s1-NTO-98.png" width="380"><br>S1-98电子</td>
   </tr></table>
 
+---
+
+> 本征值：0.99014
+> 空穴与电子均离域分布在整个分子骨架，覆盖五元环与七元环的区域。电子往左边的七元环转移更多。
 
   <table><tr>
   <td align="center"><img src="s2-NTO-97.png" width="380"><br>S2-97空穴</td>
   <td align="center"><img src="s2-NTO-98.png" width="380"><br>S2-98电子</td>
   </tr></table>
 
+---
+
+> 本征值：0.73127
+> 主导轨道（97-98）能看出电子向七元环转移，空穴主要分布在五元环附近，电子轨道覆盖大部分分子骨架（包括五元环和七元环区域）。
+
   <table><tr>
   <td align="center"><img src="s9-NTO-97.png" width="380"><br>S9-97空穴</td>
   <td align="center"><img src="s9-NTO-98.png" width="380"><br>S9-98电子</td>
   </tr></table>
+
+> 本征值：0.14587
 
   <table><tr>
   <td align="center"><img src="s9-NTO-96.png" width="380"><br>S9-96空穴</td>
@@ -99,27 +113,41 @@ kr-s2=1.26280895E+08 /s
 
 kr-s9=3.86206659E+08 /s
 
+---
+
 ## NTO
+
+> 本征值：0.97683
+> 空穴局域在五元环区域，电子往七元环上转移。
 
   <table><tr>
   <td align="center"><img src="s1-NTO-135.png" width="380"><br>S1-135空穴</td>
   <td align="center"><img src="s1-NTO-136.png" width="380"><br>S1-136电子</td>
   </tr></table>
 
+---
+
+> 本征值：0.95147
+> 空穴主要分布在分子的五元环中心，电子主要分布在七元环及其周围，五元环也有。空穴/电子分离不明显。
 
   <table><tr>
   <td align="center"><img src="s2-NTO-135.png" width="380"><br>S2-135空穴</td>
   <td align="center"><img src="s2-NTO-136.png" width="380"><br>S2-136电子</td>
   </tr></table>
 
+---
+
+> 本征值：0.60264
+> 主导轨道（135-136）的空穴主要在五元环区域，电子分布在七元环周围。两端贡献较小。次级轨道（134-137）类似。
 
   <table><tr>
   <td align="center"><img src="s9-NTO-135.png" width="380"><br>S9-135空穴</td>
   <td align="center"><img src="s9-NTO-136.png" width="380"><br>S9-136电子</td>
   </tr></table>
 
+> 本征值：0.24583
 
   <table><tr>
-  <td align="center"><img src="s9-NTO-97.png" width="380"><br>S2-97空穴</td>
-  <td align="center"><img src="s2-NTO-98.png" width="380"><br>S2-98电子</td>
+  <td align="center"><img src="s9-NTO-134.png" width="380"><br>S9-134空穴</td>
+  <td align="center"><img src="s9-NTO-137.png" width="380"><br>S9-137电子</td>
   </tr></table>
