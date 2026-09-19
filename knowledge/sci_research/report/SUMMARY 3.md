@@ -52,11 +52,33 @@ kr-s9=5.54629861E+08 /s
 
 ## NTO
 
-![[]]
+  <table><tr>
+  <td align="center"><img src="s1-NTO-97.png" width="380"><br>S1-97空穴</td>
+  <td align="center"><img src="s1-NTO-98.png" width="380"><br>S1-98电子</td>
+  </tr></table>
+
+
+  <table><tr>
+  <td align="center"><img src="s2-NTO-97.png" width="380"><br>S2-97空穴</td>
+  <td align="center"><img src="s2-NTO-98.png" width="380"><br>S2-98电子</td>
+  </tr></table>
+
+  <table><tr>
+  <td align="center"><img src="s9-NTO-97.png" width="380"><br>S9-97空穴</td>
+  <td align="center"><img src="s9-NTO-98.png" width="380"><br>S9-98电子</td>
+  </tr></table>
+
+  <table><tr>
+  <td align="center"><img src="s9-NTO-96.png" width="380"><br>S9-96空穴</td>
+  <td align="center"><img src="s9-NTO-99.png" width="380"><br>S2-99电子</td>
+  </tr></table>
+
 
 ---
 
 # TBR
+
+## Spectrum
 
 计算光谱
 ![[TBR-spec-s129.png]]
@@ -76,3 +98,28 @@ kic-s1=kic=4.47073007E+09 /s
 kr-s2=1.26280895E+08 /s
 
 kr-s9=3.86206659E+08 /s
+
+## NTO
+
+  <table><tr>
+  <td align="center"><img src="s1-NTO-135.png" width="380"><br>S1-135空穴</td>
+  <td align="center"><img src="s1-NTO-136.png" width="380"><br>S1-136电子</td>
+  </tr></table>
+
+
+  <table><tr>
+  <td align="center"><img src="s2-NTO-135.png" width="380"><br>S2-135空穴</td>
+  <td align="center"><img src="s2-NTO-136.png" width="380"><br>S2-136电子</td>
+  </tr></table>
+
+
+  <table><tr>
+  <td align="center"><img src="s9-NTO-135.png" width="380"><br>S9-135空穴</td>
+  <td align="center"><img src="s9-NTO-136.png" width="380"><br>S9-136电子</td>
+  </tr></table>
+
+
+  <table><tr>
+  <td align="center"><img src="s9-NTO-97.png" width="380"><br>S2-97空穴</td>
+  <td align="center"><img src="s2-NTO-98.png" width="380"><br>S2-98电子</td>
+  </tr></table>
