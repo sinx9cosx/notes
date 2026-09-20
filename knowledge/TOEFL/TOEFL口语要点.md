@@ -65,3 +65,10 @@ Category:
 10. 成就
 11. 情感
 12. 健康
+
+
+## 表达
+
+It's easier for me to ...
+
+Another reason is that ..

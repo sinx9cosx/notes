@@ -44,6 +44,8 @@ Category:
 6. 例证细节 For example, ...
 7. 总结观点 Therefore, ...
 
+<mark style="background: #FFB8EBA6;">要回应双方的观点。</mark>认可一位同学，反驳另一位，提出理由（对比分析）。提出自己的观点，提出理由（2条），总结。
+
 ## 理由例证
 
 [[TOEFL口语要点#通用理由]]
