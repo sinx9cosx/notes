@@ -50,3 +50,16 @@ proof:
 For any natural numbers n and m, n+m=m+n
 
 proof:
+对n使用归纳法，当n=0时，0+m=m=m+0
+假设n+m=m+n
+只需证(n++)+m=m+(n++)
+由定义：(n++)+m=(n+m)++
+由Lemma 2.2.3：m+(n++)=(m+n)++
+由假设：(n+m)++=(m+n)++
+即证
+
+<mark style="background: #BBFABBA6;">Proposition 2.2.5</mark>
+(Addition is associative)
+For any natural numbers a, b, c, we have (a+b)+c=a+(b+c).
+
+proof：
