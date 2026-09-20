@@ -1,0 +1,22 @@
+{
+  "id": "conv-1789912929127-7qp6c2bxx",
+  "providerId": "claude",
+  "title": "Review physical chemistry notes (physchem-spring)",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789912929127,
+  "updatedAt": 1789913034924,
+  "lastResponseAt": 1789913034924,
+  "sessionId": "806aa06c-2ce0-4ed5-a712-f296a7709914",
+  "providerState": {
+    "providerSessionId": "806aa06c-2ce0-4ed5-a712-f296a7709914"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 721,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32896,
+    "contextWindow": 200000,
+    "contextTokens": 33617,
+    "percentage": 17
+  }
+}
