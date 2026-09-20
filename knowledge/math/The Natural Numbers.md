@@ -63,3 +63,10 @@ proof:
 For any natural numbers a, b, c, we have (a+b)+c=a+(b+c).
 
 proof：
+对a使用归纳法，当a=0时，(0+b)+c=b+c，0+(b+c)=b+c
+假设(a+b)+c=a+(b+c)
+证明((a++)+b)+c=(a++)+(b+c)
+左=((a+b)++)+c=((a+b)+c)++
+右=(a++)+(b+c)=(a+(b+c))++
+又因为假设：(a+b)+c=a+(b+c)
+即证
