@@ -23,7 +23,8 @@ Let P(n) be any property pertraining to a natural number n. Suppose that P(0) is
 
 ## Addition
 
-**Definition 2.2.1** Addition of natural numbers
+**Definition 2.2.1** 
+Addition of natural numbers
 - m is a natural number, define 0+m=m
 - define (n++)+m=(n+m)++
 
@@ -43,3 +44,9 @@ proof:
 假设n满足n+(m++)=(n+m)++，只需证(n++)+(m++)=((n++)+m)++
 由于(n++)+(m++)=(n+(m++))++=((n+m)++)++=((n++)+m)++
 即证
+
+<mark style="background: #BBFABBA6;">Proposition 2.2.4</mark>
+(Addition is commutative)
+For any natural numbers n and m, n+m=m+n
+
+proof:
