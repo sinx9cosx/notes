@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/TOEFL口语要点.md",
+                "file": "math/The Natural Numbers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TOEFL口语要点"
+              "title": "The Natural Numbers"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/TOEFL口语要点.md",
+                "file": "math/The Natural Numbers.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -219,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,10 +234,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "bf5397d9e5436a75",
   "lastOpenFiles": [
-    "TOEFL/TOEFL写作要点.md",
     "TOEFL/TOEFL口语要点.md",
+    "TOEFL/TOEFL写作要点.md",
     "TOEFL/学术讨论/快时尚产品的环境问题.md",
     "TOEFL/填词/生物-化石燃料.md",
     "TOEFL/填词/历史-中世纪.md",
