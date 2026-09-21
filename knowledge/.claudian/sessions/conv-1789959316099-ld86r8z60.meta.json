@@ -4,6 +4,20 @@
   "title": "讲解Franck-Condon因子原理",
   "titleGenerationStatus": "success",
   "createdAt": 1789959316099,
-  "updatedAt": 1789959322006,
-  "sessionId": null
+  "updatedAt": 1789959497942,
+  "lastResponseAt": 1789959497942,
+  "sessionId": "3a3a6ec2-ebc8-4505-8835-5d711b975d18",
+  "providerState": {
+    "providerSessionId": "3a3a6ec2-ebc8-4505-8835-5d711b975d18"
+  },
+  "currentNote": "quantum chemistry/Frank-Condon因子.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 3407,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45312,
+    "contextWindow": 200000,
+    "contextTokens": 48719,
+    "percentage": 24
+  }
 }

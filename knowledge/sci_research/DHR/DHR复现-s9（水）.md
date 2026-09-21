@@ -78,16 +78,10 @@ oldchk：s9td
 96->99(0.14587)
 
   <table><tr>
-  <td align="center"><img src="DHR-s9-96.jpg" width="380"><br>96空穴</td>
-  <td align="center"><img src="DHR-s9-99.jpg" width="380"><br>99电子</td>
+  <td align="center"><img src="s9-NTO-96.png" width="380"><br>96空穴</td>
+  <td align="center"><img src="s9-NTO-99.png" width="380"><br>99电子</td>
   </tr></table>
 
-95->100(0.08428)
-
-  <table><tr>
-  <td align="center"><img src="DHR-s9-95.jpg" width="380"><br>95空穴</td>
-  <td align="center"><img src="DHR-s9-100.jpg" width="380"><br>100电子</td>
-  </tr></table>
 
 ### NTO 判读（2026-09-09）
 

@@ -31,7 +31,7 @@ evc.dint.dat：
 ## kr
 
 1. 收敛性检验
-	![[TBR-converge-s1.png]]
+	成功
 
 2. log结果：radiative rate     (0):     7.44334005E-10    3.07717900E+07 /s,   32.50 ns
 

@@ -38,7 +38,7 @@ momap.inp填入log提取的数据
 ## kr
 
 1. 收敛检验 `spec.tvcf.ft.dat` 第 1 列（time）vs 第 4 列（emi_FC_Re）
-	![[spec-converge-s1-kr.png]]
+	成功
 
 2. log 末尾 `radiative rate` 行取 `/s` 与 `ns` 两个数:
 	radiative rate     (0):     1.03976729E-09    4.29854076E+07 /s,      23.26 ns
@@ -49,7 +49,7 @@ momap.inp填入log提取的数据
 ## kic
 
 1. 收敛检验。`ic.tvcf.ft.dat`
-	![[spec-converge-kic-s1.png]]
+	成功
 
 2.  log 末尾 `Calculate absorption and emission spectra` 表只有一行（在 Ead 处），取 `6kic(s^{-1})` 列的值；同行的 time(ps) 即 1/kic。
 	 6kic(s^{-1})             8time(ps)
