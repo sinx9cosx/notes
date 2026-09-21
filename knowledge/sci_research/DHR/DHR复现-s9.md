@@ -71,8 +71,8 @@ oldchk：s9td
 97->98(0.73127)
 
   <table><tr>
-  <td align="center"><img src="DHR-s9-97.jpg" width="380"><br>97空穴</td>
-  <td align="center"><img src="DHR-s9-98.jpg" width="380"><br>98电子</td>
+  <td align="center"><img src="s9-NTO-97.png" width="380"><br>97空穴</td>
+  <td align="center"><img src="s9-NTO-98.png" width="380"><br>98电子</td>
   </tr></table>
 
 96->99(0.14587)

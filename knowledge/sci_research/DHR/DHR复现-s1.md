@@ -76,8 +76,8 @@ old chk：`DHR-s1td.chk`
 
 97（空穴轨道）->98（电子轨道）：
   <table><tr>
-  <td align="center"><img src="DHR-s1-NTO-97.jpg" width="380"><br>97空穴</td>
-  <td align="center"><img src="DHR-s1-NTO-98.jpg" width="380"><br>98电子</td>
+  <td align="center"><img src="s1-NTO-97.png" width="380"><br>97空穴</td>
+  <td align="center"><img src="s1-NTO-98.png" width="380"><br>98电子</td>
   </tr></table>
 
 ---
@@ -125,10 +125,7 @@ old chk：`DHR-s2td.chk`
 
 97（空穴）->98（电子）：
   <table><tr>
-  <td align="center"><img src="DHR-s2-NTO-97.jpg" width="380"><br>97空穴</td>
-  <td align="center"><img src="DHR-s2-NTO-98.jpg" width="380"><br>98电子</td>
+  <td align="center"><img src="s2-NTO-97.png" width="380"><br>97空穴</td>
+  <td align="center"><img src="s2-NTO-98.png" width="380"><br>98电子</td>
   </tr></table>
-
-
----
 
