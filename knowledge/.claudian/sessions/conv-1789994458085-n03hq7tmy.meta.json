@@ -1,0 +1,137 @@
+{
+  "id": "conv-1789994458085-n03hq7tmy",
+  "providerId": "claude",
+  "title": "Grade TOEFL essay and write sample answer",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789994458086,
+  "updatedAt": 1789994816413,
+  "lastResponseAt": 1789994816413,
+  "sessionId": "5ade630b-8cb2-4e68-a594-39732027bf6e",
+  "providerState": {
+    "providerSessionId": "5ade630b-8cb2-4e68-a594-39732027bf6e",
+    "subagentData": {
+      "call_00_zuIgGeNKmU09G0pm7Buk5195": {
+        "id": "call_00_zuIgGeNKmU09G0pm7Buk5195",
+        "description": "制定托福作文批改计划",
+        "prompt": "你是计划子 agent。请为以下任务制定一份详细的、分步骤的执行计划。注意：你的职责只是做计划，不要执行任何修改。\n\n## 任务背景\n主人（用户）需要猫猫（主 agent）按照**新托福（2023 年改革后）学术讨论写作（Academic Discussion）**的官方评分标准，批改他写的一篇作文，改正错误，并写一篇范文。作文位于 Obsidian 笔记 `TOEFL/学术讨论/学生的成绩评定.md`（工作目录：F:\\obsidian_notes\\knowledge）。\n\n## 笔记内容结构（请自行读取该文件确认细节）\n- 题目部分：教育课教授提问——老师给分应该只看表现（performance）还是也考虑努力（effort）？附 Kelly（只看表现）和 Paul（表现为主、努力也应计入）两位同学的帖子。\n- 回答部分：主人的作文，约 130 词，立场是同意 Paul，并提出了 70% 表现 + 30% 努力的给分方案。\n\n## 主人生成的作文原文（供参考，具体以文件为准）\n\"For my perspective, I agree with Paul's view. Because admitting students' efforts is good for students' confidence and ethusiasm for learning. But if teachers only judge on their performance and ignore their efforts, students would get frustrated easily. Because not everyone is good at study, it's teachers' duty to discover different students' potential. Obviously, teachers would better give grades to students depending on both performance and efforts. I think that teachers can serve 70% grade for performance and 30% grade for efforts, which is fair for everyone to get a reasonable grade. In this case, students with perfect performance will get satisfying grade, while students who had incorrect answers would be encouraged and persistent to work hard.\"\n\n## 任务要求\n1. 按新托福学术讨论写作官方评分标准（0-5 分制）批改这篇作文，给出具体得分和评分依据。\n2. 逐一改正文中的语言错误（拼写、语法、搭配、句式），并说明错误原因。\n3. 写一篇符合官方要求的范文（Academic Discussion 回复，需与题目中两位同学的帖子形成互动，至少 100 词）。\n\n## 硬性约束（来自主人的全局设置，必须遵守）\n- 开始任何工作前先与主人讨论并确认方案，得到\"确认\"后才能执行。\n- 主 agent 负责分工与汇总；三个子 agent 分工：①计划（即你）②执行（写批改内容）③审查（验证批改是否满足需求）。\n- 每次修改尽量用改动最小的方式实现——请计划中明确\"如何以最小改动写入结果\"（例如：在原笔记末尾追加\"批改\"与\"范文\"小节、保留主人原文不动，而不是重写整篇笔记）。\n- 计划中必须说明准备调用哪些 skills。可用的相关 skills 有：obsidian-markdown（创建/编辑 Obsidian 风格的 Markdown，含 callout 等语法）。请判断是否需要调用以及如何调用。\n\n## 你需要产出的计划内容\n1. 评分方法：列出新托福 Academic Discussion 官方评分维度（相关性、内容贡献、表达清晰度、语言准确度、字数要求等），以及每个维度对主人这篇作文的初步评估要点和预计得分区间（最终得分由执行 agent 细评，你只需给出评估框架）。\n2. 批改呈现方式：错误逐条列出格式（建议表格：原文 → 改正 → 原因），如何保证主人原文不被改动。\n3. 范文要求：字数、结构（立场句+理由+回应两位同学观点+细节支撑）、语气与格式规范（学术讨论帖子的语体）。\n4. 写入 Obsidian 笔记的具体位置与格式（是否用 callout、标题层级等），保持改动最小。\n5. 审查 agent 的核对清单：执行完成后，审查 agent 应验证哪些点（评分是否与官方标准一致、错误是否全部改正、范文是否满足 ≥100 词且回应了讨论等）。\n6. 执行顺序：从读文件到写入再到审查的完整步骤序列。\n7. skills 调用建议：是否调用 obsidian-markdown、在哪个环节调用、调用理由。\n\n请先读取文件 `TOEFL/学术讨论/学生的成绩评定.md` 核实内容，然后输出完整计划。用中文写计划。计划要具体、可执行，让主 agent 可以直接拿着它去向主人汇报并等待确认。",
+        "mode": "async",
+        "isExpanded": false,
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_zKK6cGK6IeJUQ3nt2xkf7609",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\学术讨论\\学生的成绩评定.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 题目\n8\t\n9\tYour professor is teaching a class on education. Write a post responding to the professors question. In your response, you should do the following.\n10\t• Express and support your opinion.  \n11\t• Make a contribution to the discussion in your own words.  \n12\tAn effective response will contain at least 100 words.\n13\t\n14\tThis week，I want you to discuss assessment criteria. Some schoolteachers give high grades (marks) only to those students who perform well on their homework assignments and tests. Other teachers, however, may give high grades to students who have worked very hard on their assignments but have not performed so well. Which approach do you think is better: Giving grades based only on performance, or grading students not just on performance but also on their effort?\n15\t\n16\tKelly:\n17\t\n18\tI think grades should be based on performance only. It’s a matter of fairness. I’d be really upset if another student got nearly the same grade that l did when l turned in work that was almost perfect and the other student’s work had incorrect answers or unclear ideas. It wouldn’t matter to me if they worked harder.\n19\t\n20\tPaul:\n21\t\n22\tSure, evaluation should mainly be based upon the student’s performance, but hard work should count for something. A student who works hard, even when the final grade isn’t the highest in the class, builds character, which will benefit the student later in life when they go to university or apply for a job.\n23\t\n24\t# 回答\n25\t\n26\tFor my perspective, I agree with Paul's view. Because admitting students' efforts is good for students' confidence and ethusiasm for learning. But if teachers only judge on their performance and ignore their efforts, students would get frustrated easily. Because not everyone is good at study, it's teachers' duty to discover different students' potential. Obviously, teachers would better give grades to students depending on both performance and efforts. I think that teachers can serve 70% grade for performance and 30% grade for efforts, which is fair for everyone to get a reasonable grade. In this case, students with perfect performance will get satisfying grade, while students who had incorrect answers would be encouraged and persistent to work hard."
+          },
+          {
+            "id": "call_00_S9PLZeQBUjyOKpH6XGw61395",
+            "name": "Bash",
+            "input": {
+              "command": "ls \"F:\\obsidian_notes\\knowledge\\TOEFL\\学术讨论\" 2>/dev/null; ls \"F:\\obsidian_notes\\knowledge\\TOEFL\" 2>/dev/null",
+              "description": "List TOEFL note directories"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "学生的成绩评定.md\n快时尚产品的环境问题.md\nTOEFL写作要点.md\nTOEFL口语要点.md\n口语复述\n填词\n学术讨论\n学术讲座.md\n学科词汇.md\n模拟面试\n邮件写作"
+          },
+          {
+            "id": "call_01_MwSILBxqPbEMfBEa6k488669",
+            "name": "Glob",
+            "input": {
+              "pattern": "TOEFL/**/*.md",
+              "path": "F:\\obsidian_notes\\knowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "TOEFL\\邮件写作\\人生规划建议.md\nTOEFL\\填词\\生物-动物行为.md\nTOEFL\\学术讲座.md\nTOEFL\\模拟面试\\个人习惯与生活方式\\阅读.md\nTOEFL\\口语复述\\生活场景-咖啡机.md\nTOEFL\\口语复述\\生活场景-wifi配置.md\nTOEFL\\填词\\艺术-皮影戏.md\nTOEFL\\填词\\艺术-抽象派画作.md\nTOEFL\\邮件写作\\学校建cafe的建议.md\nTOEFL\\邮件写作\\邻居沟通.md\nTOEFL\\学科词汇.md\nTOEFL\\填词\\生物-化石燃料.md\nTOEFL\\填词\\历史-中世纪.md\nTOEFL\\学术讨论\\快时尚产品的环境问题.md\nTOEFL\\TOEFL写作要点.md\nTOEFL\\TOEFL口语要点.md\nTOEFL\\学术讨论\\学生的成绩评定.md"
+          },
+          {
+            "id": "call_00_sOfGmKye5zUH51lvfIZe1002",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\学术讨论\\快时尚产品的环境问题.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 题目\n8\t\n9\tour professor is teaching a class on economics. Write a post responding to the professor's question.  \n10\t**In your response, you should do the following:**  \n11\t· Express and support your opinion.  \n12\t  \n13\t· Make a contribution to the discussion in your own words.  \n14\t  \n15\tAn effective response will contain at least 100 words.\n16\t\n17\tFast fashion refers to the rapid production of inexpensive clothing for mass-market sales. Fast fashion allows consumers to buy trendy items at low prices and provides job opportunities in manufacturing countries. But critics argue that fast fashion leads to vast amounts of pollution in the form of discarded clothing, which harms the environment, and that workers experience poor working conditions. In your view, what would be the most effective solution to the problems associated with fast fashion?\n18\t\n19\tAndrew:\n20\t\n21\tI believe that laws should be created to hold fashion brands accountable for the problems their products create. This responsibility could push them to innovate and create new, environmentally friendly production methods. These innovations might not only reduce environmental damage but also improve conditions for workers.\n22\t\n23\tKelly:\n24\t\n25\tBased on my experience, today’s consumers demand products that are made in environmentally and socially responsible ways. As a result, market forces are effective at getting companies to adopt better practices voluntarily. Consumer demand can encourage positive change without the need for strict accountability being imposed on clothing makers.\n26\t\n27\t# 回答\n28\t\n29\tI agree with Andrew's view that laws should be created to drive fashion brands making environmentally friendly products. In addition, government should encourage people to buy those products by public service announcement and shopping <mark style=\"background: #FF5582A6;\">subsidy</mark>. It's useful for people to raise the awareness of environmental protection. Especially these days, the pollution really affects living conditions and it's bad for workers' health. So using low price to encourage people to shop is a good starting point. For example, if costumers can buy green products which benefits from subsidies at a low price, then fewer people would buy more expensive ones, which would<mark style=\"background: #FF5582A6;\"> restrain</mark> more non-green products. Therefore, I think the guide from government is a nessecary point.\n30\t\n31\t# 评审意见\n32\t\n33\t> [!info] 总体评估\n34\t> **预估得分：3 分（官方 0–5 整分制），区间约 2.5–3.5 分，达到 4 分的可能性较低。**\n35\t> 1. **观点明确并展开**：观点可辨（立法 + 政府补贴），但\"立法\"这条线只点了题，全文实际只围绕补贴展开，存在观点漂移，展开不足。\n36\t> 2. **对讨论的贡献（高分关键）**：只重复性同意了 Andrew，完全没有回应 Kelly——而 Kelly 的\"市场力量已足够、无需立法\"恰好直接攻击作者\"政府干预\"的立场，这是本文上不了 4 分的最大原因。\n37\t> 3. **词数**：原文 116 词，满足 100 词下限。\n38\t> 4. **语言准确**：拼写错误 2 处（costumers、nessecary）、主谓一致错误 1 处（which benefits）、冠词与可数名词裸用多处、搭配生硬多处（restrain products、guide from government 等），错误密度偏高，属积累性扣分。\n39\t\n40\t## 逐句评审\n41\t\n42\t### 第 1 句\n43\t> I agree with Andrew's view that laws should be created to drive fashion brands making environmentally friendly products.\n44\t\n45\t- **语法错误**：drive 不存在\"宾语 + 现在分词\"的复合宾语结构，应为 drive sb. to do sth.（或 into doing sth.）。\n46\t- **修改**：I agree with Andrew that laws should be enacted to drive fashion brands to produce environmentally friendly products.\n47\t\n48\t### 第 2 句\n49\t> In addition, government should encourage people to buy those products by public service announcement and shopping subsidy.\n50\t\n51\t- **建议**：government 泛指时加 the（TOEFL 稳妥写法；泛指裸用在英美英语中有实证，不算硬性语法错误）。\n52\t- **语法错误**：public service announcement 与 shopping subsidy 两个单数可数名词裸用，需加冠词或变复数。\n53\t- **地道性**：by + 光杆名词表手段限于 by car/mail 等惯用搭配，此处 through 更自然；shopping subsidy 生硬，宜用 purchase subsidies。\n54\t- **修改**：In addition, the government should encourage consumers to purchase such products through public service announcements and purchase subsidies.\n55\t\n56\t### 第 3 句\n57\t> It's useful for people to raise the awareness of environmental protection.\n58\t\n59\t- **语义错位（全篇最值得注意的一处）**：字面意思是\"人们提高环保意识这件事是有用的\"，而作者想说的是\"（政府措施）有助于提高人们的环保意识\"，逻辑主语弄反了。\n60\t- **语法瑕疵**：raise awareness of... 中定冠词多余。\n61\t- **修改**：These measures would help raise public awareness of environmental protection.\n62\t\n63\t### 第 4 句\n64\t> Especially these days, the pollution really affects living conditions and it's bad for workers' health.\n65\t\n66\t- **语法错误**：the pollution 定冠词误用（泛指不可数名词不加 the）。\n67\t- **用词不当**：really 过于口语化，宜用 severely。\n68\t- **衔接问题**：前句谈\"怎么做\"，此句突然谈\"现状多糟\"，缺一句过渡；workers' health 突兀引入、与服装业工作条件无显式连接。\n69\t- **修改**：This is especially urgent today, because pollution severely affects living conditions and poses serious risks to workers' health.\n70\t\n71\t### 第 5 句\n72\t> So using low price to encourage people to shop is a good starting point.\n73\t\n74\t- **语法错误**：low price 单数可数名词裸用，应为 low prices。\n75\t- **用词问题**：encourage people to shop 缺宾语限定（应点明是绿色产品）。\n76\t- **风格**：So 句首偏口语化（学术讨论属网络讨论语体，容忍度较高，非扣分点）。\n77\t- **逻辑跳跃（本句最大问题）**：从\"污染严重\"直接推出\"低价是好起点\"，中间缺\"消费者对价格敏感、绿色产品因成本高卖不动\"这个前提。\n78\t- **修改**：Therefore, lowering the price of green products through subsidies is a good starting point.\n79\t- **逻辑桥梁（可插在句前）**：Since most consumers still choose clothes based on price, making green fashion cheaper is the most direct way to change their behavior.\n80\t\n81\t### 第 6 句\n82\t> For example, if costumers can buy green products which benefits from subsidies at a low price, then fewer people would buy more expensive ones, which would restrain more non-green products.\n83\t\n84\t- **拼写错误**：costumers（戏服供应商）→ consumers，属高风险拼写错误。\n85\t- **主谓一致错误**：which benefits 先行词是 green products（复数），应为 benefit。\n86\t- **语义不当**：products which benefit from subsidies 逻辑主语错位——受益的是消费者或价格，不是产品本身；宜说 subsidized green products。\n87\t- **用词不当**：restrain 的宾语通常是人、情绪、行为或增长类名词，restrain products 不成立，应为 curb the production of 或 discourage people from buying。\n88\t- **润色建议**：more expensive ones 建议点明 their non-green counterparts（先行词无实质歧义，属润色而非错误）；近 30 词长句含两个定语从句，建议拆句。\n89\t- **冗余提示**：本句与第 5 句实质是同一个点（低价 → 消费者转向）说了两遍。\n90\t- **修改**：For example, if consumers can buy subsidized green clothing at a lower price, fewer of them would choose expensive non-green items. This shift in demand would curb the production of environmentally harmful garments.\n91\t\n92\t### 第 7 句\n93\t> Therefore, I think the guide from government is a nessecary point.\n94\t\n95\t- **拼写错误**：nessecary → necessary。\n96\t- **用词不当**：guide 作名词意为\"指南手册/向导\"，\"政府引导\"应为 government guidance；a necessary point 空泛无力，宜为 a necessary measure 或 is essential。\n97\t- **结构问题**：口号式收尾，既未回应 Kelly，也未收拢\"环境 + 工人\"两个问题。\n98\t- **修改**：Therefore, government guidance, backed by legislation, is a necessary measure to solve the problems caused by fast fashion.\n99\t\n100\t## 结构逻辑评估\n101\t\n102\t1. **论证链条断裂**：完整链条应为\"立法约束品牌 + 补贴降低绿色产品价格 → 消费者转向绿色产品 → 抑制非绿色产品生产\"，作者只写了中后段，\"立法\"完全悬空，第 4 句到第 5 句缺\"消费者价格敏感\"的前提，第 3 句（提高意识）与第 5 句（价格手段）之间也缺衔接。\n103\t2. **与同学观点互动不足（最大短板）**：对 Andrew 仅是重复性同意；对 Kelly 零回应。作者本可以用\"绿色产品成本高、定价贵，自愿改进的公司会因价格劣势流失顾客，所以市场力量不足\"来有力反驳，全文只字未提。\n104\t3. **例子有效性中等**：第 6 句是 if...then... 假设推演，非具体实例；且与第 5 句冗余。\n105\t4. **扣题小瑕疵**：全文未出现 fast fashion 一词，可回扣题目关键词。\n106\t\n107\t> [!tip] 改进要点（按优先级）\n108\t> 1. **学会回应反方观点（最高优先级，直接决定能否上 4 分）**：Kelly 必须被回应。练习模板：先概括对方观点（Kelly argues that...）→ 指出漏洞（However, ...）→ 一句因果论证支撑（because...）。\n109\t> 2. **消灭基础语言错误**：拼写（consumers、necessary 这类高频词）、主谓一致、冠词与可数名词裸用；建议建立个人易错清单，写完留 30 秒只查这三类。\n110\t> 3. **提升用词地道性**：restrain products → <mark style=\"background: #BBFABBA6;\">curb（抑制） the production of</mark>；guide from government → government guidance；really → severely；drive sb. doing → drive sb. to do。\n111\t> 4. **补足逻辑桥梁**：每写一个 So / Therefore 之前，检查它的前提是否已明写出来。\n112\t> 5. **把\"同意\"变成\"贡献\"**：同意他人观点时必须追加新论据或新角度（如立法的具体机制：extended producer responsibility、罚款、绿色税收），而不是重复对方已说的内容。\n113\t\n114\t# 范文\n115\t\n116\tI agree with Andrew that legislation is the most effective answer, but I find Kelly's optimism about market forces unconvincing. Consumer demand for sustainable fashion, while growing, is still too weak to drive industry-wide change. Most shoppers care more about price than ethics, so companies that voluntarily raise wages or use eco-friendly materials risk losing customers to cheaper rivals. Binding laws, by contrast, force every brand to internalize the environmental and social costs of production, creating a level playing field. Governments should, however, make compliance easier by combining regulation with incentives, such as subsidizing green products and taxing wasteful production. When sustainable clothing becomes the cheaper choice, consumers will follow, and brands will gain a genuine motive to innovate. Only this combination of legal pressure and market pull can curb fast fashion's harm to both workers and the environment.\n117\t\n118\t**范文说明**：\n119\t1. 首句即概括 Kelly 立场并表态反驳，随后给出两条理由（消费者重价格轻伦理；自愿改进的公司会输给低价对手）。\n120\t2. 对 Andrew 不止说\"同意\"，还补上新论据（internalize costs 内化成本、level playing field 公平竞争）。\n121\t3. 立场升级为\"立法为主、补贴配套\"——既坚持 Andrew 的立法主张，又把学生原文的补贴思路收编为配套工具，主题不漂移。\n122\t4. 句式有变化：让步插入语（while growing）、分词结构（creating a level playing field）、长短句交错。\n123\t5. 结尾收拢\"工人 + 环境\"两个问题，呼应题目。"
+          },
+          {
+            "id": "call_01_7YWOA2pgoh8vzUiGaQc97194",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\邮件写作\\人生规划建议.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 题目\n8\t\n9\tYou recently had a conversation with your friend Sarah, who is considering a new job opportunity in another city. Sarah is unsure about making the decision and asked for advice. In the past, you have discussed her career goals and personal priorities together, and now you want to provide thoughtful advice based on her current situation.  \n10\t  \n11\tWrite an email to Sarah. In your email, do the following:  \n12\t- Explain your perspective on her situation.  \n13\t- Offer specific advice to help her make a decision.  \n14\t- Encourage her to weigh her options.\n15\t\n16\t# 我的答案\n17\t\n18\tDear Sarah, \n19\tI hope you're doing well.Hearing that you're considering about a new job opportunity,I'm happy to tell you my advice.\n20\tI remember that you always hold a positive attitude toward career,this new job offers a just right road to achieve your goal.For your social life,it's no need to worry because you can communicate with friends online convieniently.Also we can go to see you in free time.\n21\tTherefore,I advice you to take this chance.Although it takes time to adapt to new environment,you can also enhance your professional skills rapidly under pressure. \n22\tBesides,exploring new city and making friends can bring you fun! Lastly,I hope you can consider it carefully as it is a big deal for you.No matter what your decsion is,I'll always support you.So just follow your heart and be brave.Hope my advice can help you. \n23\tBest regards, \n24\tTina\n25\t\n26\t# 审题（问题）\n27\t\n28\t\n29\t虽然三项任务都有涉及，但完成得还不够充分，主要问题如下：\n30\t\n31\t## （1）“Explain your perspective”部分较简略\n32\t\n33\t你提到：\n34\t\n35\t- you always hold a positive attitude toward career\n36\t- this new job offers a just right road to achieve your goal\n37\t\n38\t这说明了你支持她换工作的原因，但对“她为什么犹豫”分析不够。题干强调她“is unsure”，所以如果能写出她面临的两难，会更贴合题目。\n39\t\n40\t## （2）“Offer specific advice”不够具体\n41\t\n42\t你目前的建议主要是：\n43\t\n44\t- 接受机会\n45\t- 适应新环境\n46\t- 提升技能\n47\t- 认识新朋友\n48\t\n49\t这些方向是对的，但还不够“specific”。更具体的建议应包括：\n50\t\n51\t- 比较新旧工作的优缺点\n52\t- 考虑职业发展与个人生活是否平衡\n53\t- 想清楚自己最看重什么\n54\t\n55\t## （3）“Encourage her to weigh her options”写得较弱\n56\t\n57\t你写了：\n58\t\n59\t- I hope you can consider it carefully as it is a big deal for you.\n60\t- No matter what your decision is, I'll always support you.\n61\t\n62\t这是鼓励，但“weigh her options”更强调**比较不同选择**。目前缺少对“留在原地”和“去新城市”两个选项的明确权衡。\n63\t\n64\t\n65\t你可以补充类似下面的内容，使任务完成更充分：\n66\t\n67\t- I think it is natural to feel unsure because this decision affects both your career and your personal life.\n68\t- You should compare the advantages of the new job with the comfort and stability of staying where you are now.\n69\t- Before deciding, make a list of the pros and cons, such as career growth, salary, lifestyle, and distance from friends and family.\n70\t\n71\t# 作文修改\n72\t\n73\tDear Sarah, \n74\tI hope you're doing well.Hearing that you're considering a new job opportunity,I'm glad to share my thoughts with you.\n75\tI remember that you have always been ambitious about your career,the new job could be a great step toward your career goals.As for your social life,I don't think you need to worry too much, because you can communicate with your friends online conveniently.Also we can visit you in our free time.\n76\tTherefore,I advise you to take this chance.Although it takes time to adapt to new environment,you can also develop your professional skills more quickly under pressure. Besides,exploring a new city and making new friends can be exciting and rewarding! \n77\tLastly,I hope you can consider it carefully as it is a big deal for you.You should weigh your career goals and personal life before making your final choice.No matter what your decsion is,I'll always support you.So just listen to your heart and make the choice that feels right for you.Hope my advice can help you. \n78\tBest regards, \n79\tTina\n80\t\n81\t# 范文\n82\t\n83\t高分写作要做到三点：\n84\t\n85\t明确表达观点\n86\t先说明你对她目前情况的看法，比如这是一个很好的机会，但也需要认真考虑，因为换城市不仅影响工作，也影响生活。\n87\t\n88\t提供具体建议\n89\t结合她的职业目标和个人 priorities，建议她比较新工作和现在工作的优缺点，例如职业发展、薪水、生活成本、离家人朋友的距离，以及她是否喜欢新城市。\n90\t\n91\t鼓励权衡选择\n92\t最后提醒她不要急着决定，可以列出利弊，想清楚什么对她最重要，再作出选择。语气要友好、支持性强，符合邮件风格。\n93\t\n94\tTo: Sarah\n95\tSubject: Advice on Your Job Opportunity Decision\n96\tHi Sarah,\n97\tI hope you are doing well. I have been thinking about our conversation, and I believe this job opportunity could be a great step for you. Since you have always wanted career growth, this new position may help you reach your goals.\n98\tAt the same time, moving to another city is a big decision. I think you should compare the benefits and challenges carefully. For example, consider the salary, work environment, cost of living, and how comfortable you feel about leaving your current life behind.\n99\tIt may help to make a list of pros and cons. Take your time and choose what fits your goals and personal priorities best.\n100\tThank you,\n101\t"
+          },
+          {
+            "id": "call_00_FNfjMFAZ2HGXoSRPiNRB6156",
+            "name": "Bash",
+            "input": {
+              "command": "awk '/^# 回答/{flag=1;next} /^#/{flag=0} flag' \"TOEFL/学术讨论/学生的成绩评定.md\" | wc -w",
+              "description": "Count words in the answer section"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "117"
+          },
+          {
+            "id": "call_01_9wNbgKVvOzXmNNNMFDcr8031",
+            "name": "Bash",
+            "input": {
+              "command": "tail -c 200 \"TOEFL/学术讨论/学生的成绩评定.md\" | od -c | tail -5",
+              "description": "Inspect file tail for exact ending"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "0000220   a   n   s   w   e   r   s       w   o   u   l   d       b   e\n0000240       e   n   c   o   u   r   a   g   e   d       a   n   d    \n0000260   p   e   r   s   i   s   t   e   n   t       t   o       w   o\n0000300   r   k       h   a   r   d   .\n0000310"
+          },
+          {
+            "id": "call_00_tAwAbfFhyfX8iK14Kagb5759",
+            "name": "Bash",
+            "input": {
+              "command": "head -60 \"TOEFL/TOEFL写作要点.md\"",
+              "description": "Preview TOEFL writing notes file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "---\ntags:\n  - English\nCategory:\n  - 笔记\n---\n# 邮件写作（7min）\n\n## 话题分类\n\n1. 请求/资讯类，比如：选课，请求讲义文献\n2. 问题/处理类，比如：作业，上传文件求助\n3. 建议/推荐类，比如：社团，推荐招新计划\n4. 邀请/组织类，比如：组员，开会时间地点\n5. 感谢/跟进类，比如：投稿，感谢校对发表\n\n## 写作结构（120-130词）\n\n1. 称呼\n2. 问候 I hope you're doing well.\n3. 任务1\n4. 任务2\n5. 任务3\n6. 感谢 Thank you very much for your time and assistance.\n7. 落款 Best regards, your name\n\n# 学术讨论（10min，135 words+）\n\n## 论述提纲：直给型或者让步型\n\n直给型（5句）\n1. 直接认可一位同学的观点 I agree with Kelly's viewpoint that ...\n2. 新的支持理由 In addition, in my view, ...\n3. 解释陈述 Especially these days, ...\n4. 例证细节 For example, ...\n5. 总结观点 Therefore, ...\n\n让步型（7句）\n1. 让步认可一位同学的观点 Admittedly, Paul is right when ...\n2. 让步认可的理由 After all, some people ...\n3. 转折提出自己的新观点 Nevertheless, I think ...\n4. 给予新的支持理由 In my opinion, ...\n5. 解释陈述 In other words, ...\n6. 例证细节 For example, ...\n7. 总结观点 Therefore, ...\n\n<mark style=\"background: #FFB8EBA6;\">要回应双方的观点。</mark>认可一位同学，反驳另一位，提出理由（对比分析）。提出自己的观点，提出理由（2条），总结。\n\n## 理由例证\n\n[[TOEFL口语要点#通用理由]]\n\n例证细节：\n1. 记叙文法：时间、地点、人物，事件起因、发展、结果（选4个因素即可）\n2. 引用数据：比如：According to the statistics provided by ...\n3. 对比分析：用对比信号引导，或虚拟语气假设，再论述一遍\n4. 名人名言：不考虑，不会\n\n## 答题格式"
+          },
+          {
+            "id": "call_00_eFffC5HUH3SOoxVlwaga3859",
+            "name": "Bash",
+            "input": {
+              "command": "sed -n '60,120p' \"TOEFL/TOEFL写作要点.md\"",
+              "description": "Read remainder of TOEFL writing notes"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "开篇顶格，不用分段，书面用语，标点空格"
+          }
+        ],
+        "asyncStatus": "completed",
+        "agentId": "aa87afdafeeb93817",
+        "startedAt": 1789994548004,
+        "outputToolId": "call_00_W4LyOPwh32wdUIeZCjyN0275",
+        "result": "最后快速检查 `TOEFL\\TOEFL写作要点.md`，看主人是否已有写作评分相关笔记需要对齐。",
+        "completedAt": 1789994801418
+      }
+    }
+  },
+  "currentNote": "TOEFL/学术讨论/学生的成绩评定.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 589,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31616,
+    "contextWindow": 200000,
+    "contextTokens": 32205,
+    "percentage": 16
+  }
+}

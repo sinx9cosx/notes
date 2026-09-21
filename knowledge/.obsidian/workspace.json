@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/TOEFL写作要点.md",
+                "file": "TOEFL/学术讨论/快时尚产品的环境问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TOEFL写作要点"
+              "title": "快时尚产品的环境问题"
+            }
+          },
+          {
+            "id": "a4b77436dcda0bbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/学术讨论/学生的成绩评定.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "学生的成绩评定"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -187,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/TOEFL写作要点.md",
+                "file": "TOEFL/学术讨论/学生的成绩评定.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,8 +261,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f9340463c5b81b1e",
+  "active": "a4b77436dcda0bbd",
   "lastOpenFiles": [
+    "TOEFL/学术讨论/快时尚产品的环境问题.md",
+    "TOEFL/学术讨论/学生的成绩评定.md",
+    "TOEFL/TOEFL写作要点.md",
     "TOEFL/学科词汇.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "quantum chemistry/Frank-Condon因子.md",
@@ -286,9 +303,6 @@
     "sci_research/image/新建文件夹",
     "computational-chem-tutorial/分子轨道的定性分析.md",
     "quantum chemistry/Fermi黄金规则.md",
-    "sci_research/report/TD-DFT项目操作全流程.md",
-    "physchem-spring/量子力学.md",
-    "math/The Natural Numbers.md",
     "TOEFL/填词/填词错误类型.canvas",
     "sci_research/image/TBR-png",
     "sci_research/image/DHR-png",
