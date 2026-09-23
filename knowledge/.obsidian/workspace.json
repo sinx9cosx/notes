@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-spring/能量均分原理证明.md",
+                "file": "physchem-1/统计力学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "能量均分原理证明"
+              "title": "统计力学"
+            }
+          },
+          {
+            "id": "f6f25b11e4080842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pyschem-2/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           },
           {
@@ -187,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/学术讨论/学生的成绩评定.md",
+                "file": "pyschem-2/未命名.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -229,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -247,13 +261,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "304111098a8189e4",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
-    "TOEFL/学科词汇.md",
+    "physchem-1/统计力学.md",
+    "pyschem-2/未命名.md",
+    "pyschem-2",
+    "physchem-1/热力学.md",
+    "physchem-1/能量均分原理证明.md",
     "TOEFL/通用词汇.md",
+    "TOEFL/学科词汇.md",
     "TOEFL/学术讲座.md",
-    "physchem-spring/能量均分原理证明.md",
-    "physchem-spring/统计力学.md",
     "quantum chemistry/Frank-Condon因子.md",
     "TOEFL/TOEFL写作要点.md",
     "TOEFL/学术讨论/学生的成绩评定.md",
@@ -274,8 +291,6 @@
     "sci_research/TBR/TBR-s0.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
-    "sci_research/TBR/TBR-s9光谱.md",
-    "sci_research/TBR/TBR-s9.md",
     "sci_research/image/spectrum/experiment.png",
     "sci_research/image/spectrum/TBR-spec-s129.png",
     "sci_research/image/spec-converge/TBR-converge-s2.png",
@@ -295,13 +310,12 @@
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md.tmp.25752.f727a3592e2c",
     "quantum chemistry/Fermi黄金规则.md.tmp.28264.a6df1f8959e7",
     "TOEFL/学术讨论/快时尚产品的环境问题.md.tmp.14972.6476d3dc96cb",
-    "TOEFL/学术讨论",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
     "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
-    "physchem-spring/统计力学导图.canvas",
-    "physchem-spring/量子力学导图.canvas",
+    "physchem-1/统计力学导图.canvas",
+    "physchem-1/量子力学导图.canvas",
     "physchem/统计力学三大系综与温度角色.canvas",
     "physchem/Gibbs Paradox.canvas",
     "物理化学/量子力学导图.canvas"
