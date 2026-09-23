@@ -4,6 +4,20 @@
   "title": "Explain why boiling point equals vapor pressure",
   "titleGenerationStatus": "success",
   "createdAt": 1790161478377,
-  "updatedAt": 1790161494063,
-  "sessionId": null
+  "updatedAt": 1790162060302,
+  "lastResponseAt": 1790162060302,
+  "sessionId": "9e765dfe-cfa5-42fb-8261-1e0db86bd878",
+  "providerState": {
+    "providerSessionId": "9e765dfe-cfa5-42fb-8261-1e0db86bd878"
+  },
+  "currentNote": "physchem-2/第八章 纯物质体相性质.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 168,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34816,
+    "contextWindow": 200000,
+    "contextTokens": 34984,
+    "percentage": 17
+  }
 }
