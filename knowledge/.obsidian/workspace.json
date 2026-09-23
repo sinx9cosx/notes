@@ -49,8 +49,7 @@
               "title": "TBR-s2"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-s2.md",
+                "file": "sci_research/TBR/TBR-s10.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -233,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,11 +248,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "304111098a8189e4",
+  "active": "9e8f63b1f749f0a8",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR-s10.md",
-    "sci_research/TBR/TBR-s2.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "sci_research/TBR/TBR-s2.md",
+    "sci_research/TBR/TBR-s10.md",
     "TOEFL/填词/生物-动物行为.md",
     "TOEFL/通用词汇.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
