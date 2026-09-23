@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
+                "file": "sci_research/DHR/DHR复现-s9（水）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Huang-Rhys因子与电声耦合"
+              "title": "DHR复现-s9（水）"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-s9.md",
+                "file": "pyschem-2/第八章 纯物质体相性质.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,19 +247,20 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a6bca5efa685a44e",
+  "active": "304111098a8189e4",
   "lastOpenFiles": [
+    "sci_research/DHR/DHR复现-s9（水）.md",
+    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
+    "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/DHR/DHR后处理-s2（水）.md",
     "sci_research/DHR/DHR后处理-s1（水）.md",
-    "sci_research/DHR/DHR复现-s9（水）.md",
     "sci_research/DHR/DHR复现-s1（水）.md",
     "sci_research/DHR/DHR-THF光谱.md",
     "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/TBR/TBR-s1.md",
-    "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s2.md",
     "sci_research/TBR/TBR-s2光谱.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
@@ -276,7 +277,6 @@
     "physchem-1/能量均分原理证明.md",
     "TOEFL/学科词汇.md",
     "TOEFL/学术讲座.md",
-    "quantum chemistry/Frank-Condon因子.md",
     "quantum chemistry/Frank-Condon因子.md.tmp.23724.a15552089d57",
     "sci_research/image/spectrum/experiment.png",
     "sci_research/image/spectrum/TBR-spec-s129.png",
