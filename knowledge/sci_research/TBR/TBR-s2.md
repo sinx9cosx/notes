@@ -61,3 +61,10 @@ old chk：`TBR-s2td.chk`
 
 ## s2-nacme
 
+输入文件：`TBR-s2-nacme.gjf`
+
+old chk：`TBR-s2opt.chk`
+
+关键词：`# td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=2, 6/30=0, 6/17=2)
+
+结果：
