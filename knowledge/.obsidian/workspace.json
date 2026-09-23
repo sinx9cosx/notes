@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pyschem-2/第八章 纯物质体相性质.md",
+                "file": "physchem-2/第八章 纯物质体相性质.md",
                 "mode": "source",
                 "source": false
               },
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pyschem-2/第八章 纯物质体相性质.md",
+                "file": "physchem-2/第八章 纯物质体相性质.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,8 +247,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "304111098a8189e4",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "physchem-2/image/8-p-Vm.jpg",
+    "physchem-2/image",
     "sci_research/DHR/DHR复现-s9（水）.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "sci_research/TBR/TBR-s9.md",
@@ -268,15 +270,14 @@
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "physchem-1/统计力学.md",
-    "pyschem-2/第八章 纯物质体相性质.md",
+    "physchem-2/第八章 纯物质体相性质.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "TOEFL/通用词汇.md",
-    "pyschem-2",
+    "physchem-2",
     "physchem-1/热力学.md",
     "physchem-1/能量均分原理证明.md",
     "TOEFL/学科词汇.md",
-    "TOEFL/学术讲座.md",
     "quantum chemistry/Frank-Condon因子.md.tmp.23724.a15552089d57",
     "sci_research/image/spectrum/experiment.png",
     "sci_research/image/spectrum/TBR-spec-s129.png",
@@ -296,7 +297,6 @@
     "sci_research/image/DHR-png",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md.tmp.25752.f727a3592e2c",
     "quantum chemistry/Fermi黄金规则.md.tmp.28264.a6df1f8959e7",
-    "TOEFL/学术讨论/快时尚产品的环境问题.md.tmp.14972.6476d3dc96cb",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
     "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
