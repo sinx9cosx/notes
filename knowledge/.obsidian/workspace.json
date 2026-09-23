@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+                "file": "sci_research/TBR/TBR-s2.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,12 +247,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "304111098a8189e4",
   "lastOpenFiles": [
-    "TOEFL/填词/生物-动物行为.md",
-    "sci_research/TBR/TBR-s2.md",
-    "TOEFL/通用词汇.md",
     "sci_research/TBR/TBR-s10.md",
+    "sci_research/TBR/TBR-s2.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "TOEFL/填词/生物-动物行为.md",
+    "TOEFL/通用词汇.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
     "TOEFL/填词/生物-降水.md",
     "TOEFL/填词/生物-化石燃料.md",
@@ -274,7 +275,6 @@
     "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/TBR/TBR-s1.md",
     "sci_research/TBR/TBR-s2光谱.md",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
