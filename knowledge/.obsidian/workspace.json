@@ -35,8 +35,7 @@
               "title": "TBR-s2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-s2.md",
+                "file": "sci_research/TBR/TBR-s10.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -234,15 +233,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "304111098a8189e4",
+  "active": "9e8f63b1f749f0a8",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-s2.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s10.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/TBR/TBR-s1.md",
-    "sci_research/TBR/TBR-s2.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
