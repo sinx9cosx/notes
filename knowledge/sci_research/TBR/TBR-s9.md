@@ -53,9 +53,17 @@ Dip.S.=6.8313
 
 oldchk：s9 td
 
-输入文件：
+输入文件：`TBR-s9-NTO.gjf`
 
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf em=gd3bj`
 
 结果：normal termination
 ## s9 nacme
+
+oldchk：`TBR-s9freq.chk`
+
+输入文件：`TBR-s9-nacme.gjf`
+
+关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=9, 6/30=0, 6/17=2)
+
+结果：成功
