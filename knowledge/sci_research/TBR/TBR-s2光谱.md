@@ -45,3 +45,6 @@ Total reorganization energy      (cm-1):         1445.433810       1374.179401
 
 ## kic
 
+1. 收敛性检验成功
+2. kic=2.44480935E+10
+

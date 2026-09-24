@@ -38,3 +38,13 @@ Category:
 
 沿`TBR-s10-opt`的结构位移0.05，0.10，0.15做单点计算，得到s10和s9的能隙随位移的变化曲线
 
+## s9-s10-td
+
+输入文件：
+`TBR-s10-1.gjf`对应位移0.05
+`TBR-s10-2.gjf`对应位移0.10
+`TBR-s10-3.gjf`对应位移0.15
+
+关键词：`td(nstate=25) cam-b3lyp/6-31g(d,p) scrf em=gd3bj`
+
+结果：
