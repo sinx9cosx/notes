@@ -59,9 +59,21 @@ Ead=E(S1@S1平衡几何-S0@S0平衡几何)，即两个势能面极小点之间�
 
 <mark style="background: #ABF7F7A6;">关键词解释：</mark>
 
-`prop=(fitcharge, field)`：关键指令。让 Gaussian 在计算中输出拟合静电势电荷（FitCharge）和电场（Field）相关的积分，这里的“电场”本质上就是指跃迁偶极矩（Transition Dipole Moment）及其对坐标的导数信息。
+`prop=(fitcharge, field)`：关键指令。让 Gaussian 在计算中输出**拟合静电势电荷**（FitCharge）和各原子核位置上的电势与电场矢量（Field）。
 
-`iop(6/22=-4)`：将导数积分（包括跃迁偶极矩导数）写入 checkpoint 文件并以文本形式输出到 .log 中，方便 MOMAP 读取。
+MOMAP 算内转换要用"跃迁电场"（transition electric field） (field那张表的 X/Y/Z 三列)。MOMAP 自己的 `evc.out` 里会把这张表原样打印成 `========= Transition Elecric Field (atomic unit) ======`，然后做变换（`.nac`  STEP 1 读入 → STEP 2 把核坐标 x 变换到简正坐标 Q），得到 `<\Psi_b|∂H/∂x_{iα}|\Psi_a>`，再除以两态能隙。
+
+`iop(6/22=-4)`：selection of density matrix。
+
+| 值         | 含义        |
+| --------- | --------- |
+| -4        | iop(6/29) |
+| -5        |           |
+| -3        |           |
+| -2        |           |
+| -1        |           |
+| -1x/+1x   |           |
+| N$\geq$ 0 |           |
 
 `iop(6/29=1)` 和 `iop(6/30=0)`：专门用于激活非绝热耦合（NAC）矩阵元所需积分的输出。
 
