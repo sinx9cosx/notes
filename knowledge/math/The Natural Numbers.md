@@ -70,3 +70,9 @@ proof：
 右=(a++)+(b+c)=(a+(b+c))++
 又因为假设：(a+b)+c=a+(b+c)
 即证
+
+<mark style="background: #BBFABBA6;">Proposition 2.2.6</mark>
+(Cancellation law)
+Let a, b, c be natural numbers such that a+b=a+c. Then we have b=c.
+
+proof:
