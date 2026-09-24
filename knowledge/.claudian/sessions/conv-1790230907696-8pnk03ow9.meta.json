@@ -4,8 +4,8 @@
   "title": "Explain two-state harmonic oscillator surfaces",
   "titleGenerationStatus": "success",
   "createdAt": 1790230907696,
-  "updatedAt": 1790232678048,
-  "lastResponseAt": 1790232678048,
+  "updatedAt": 1790249059825,
+  "lastResponseAt": 1790249059825,
   "sessionId": "581683ea-67f5-41f7-9535-846c030ed3ae",
   "providerState": {
     "providerSessionId": "581683ea-67f5-41f7-9535-846c030ed3ae"
@@ -13,11 +13,11 @@
   "currentNote": "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 6256,
+    "inputTokens": 58,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 45568,
+    "cacheReadInputTokens": 53888,
     "contextWindow": 200000,
-    "contextTokens": 51824,
-    "percentage": 26
+    "contextTokens": 53946,
+    "percentage": 27
   }
 }
