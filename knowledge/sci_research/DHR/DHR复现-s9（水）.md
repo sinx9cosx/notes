@@ -54,6 +54,12 @@ oldchk:s9-td
 关键词：`#p cam-b3lyp/6-31g(d,p) scrf em=gd3bj guess=(read,only) geom=allcheck density=(check,transition=9) prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 ————报错————修改————
 
+更改关键词`6/29=9`
+
+检查输出log：
+populations using transition density between ground and state 9
+
+electrostatic propreties using the transition density between ground state and state 9
 ## s9 NTO
 
 oldchk：s9td
