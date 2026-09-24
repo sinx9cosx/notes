@@ -4,8 +4,8 @@
   "title": "检查 Obsidian 笔记内容",
   "titleGenerationStatus": "success",
   "createdAt": 1790256095551,
-  "updatedAt": 1790256548909,
-  "lastResponseAt": 1790256548909,
+  "updatedAt": 1790257012442,
+  "lastResponseAt": 1790257012442,
   "sessionId": "87b5e60b-0a37-465b-9a4e-f8a3555a2fa5",
   "providerState": {
     "providerSessionId": "87b5e60b-0a37-465b-9a4e-f8a3555a2fa5"
@@ -13,11 +13,11 @@
   "currentNote": "quantum chemistry/未命名.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 3793,
+    "inputTokens": 73,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 30720,
+    "cacheReadInputTokens": 44160,
     "contextWindow": 200000,
-    "contextTokens": 34513,
-    "percentage": 17
+    "contextTokens": 44233,
+    "percentage": 22
   }
 }
