@@ -63,8 +63,7 @@
               "title": "通用词汇"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/未命名.md",
+                "file": "sci_research/TBR/TBR-s10.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,10 +260,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "9e8f63b1f749f0a8",
   "lastOpenFiles": [
-    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "quantum chemistry/未命名.md",
+    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "TOEFL/通用词汇.md",
     "sci_research/TBR/TBR-s2.md",
     "sci_research/TBR/TBR-s10.md",
