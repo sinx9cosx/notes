@@ -24,7 +24,7 @@ $$
 S_k = \frac{\omega_k \Delta Q_k^2}{2\hbar}
 $$
 
-其中 $\Delta Q_k$ 为该模式在两个电子态势能面之间的**简正坐标位移**，$\omega_k$ 为振动频率。
+其中 $\Delta Q_k$ 为该模式在两个电子态势能面之间的[[简正坐标|简正坐标位移]]，$\omega_k$ 为振动频率。
 
 > [!note] 核心结论
 > $S_k$ 越大，说明电子跃迁时该<mark style="background: #ABF7F7A6;">振动模式被激发的程度</mark>越高，光谱中出现的振动子峰越强。

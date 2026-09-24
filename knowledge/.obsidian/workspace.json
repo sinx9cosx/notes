@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
+                "file": "sci_research/TBR/Emission Spectra of TBR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Huang-Rhys因子与电声耦合"
+              "title": "Emission Spectra of TBR"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/未命名.md",
+                "file": "quantum chemistry/简正坐标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "简正坐标"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/未命名.md",
+                "file": "sci_research/TBR/Emission Spectra of TBR.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,15 +261,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "06e6119cf2592b11",
+  "active": "304111098a8189e4",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s2.md",
+    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
+    "sci_research/TBR/TBR-s9.md",
+    "quantum chemistry/简正坐标.md",
+    "quantum chemistry/Frank-Condon因子.md",
     "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
     "sci_research/TBR/TBR-s10.md",
-    "quantum chemistry/未命名.md",
-    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "TOEFL/通用词汇.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
@@ -291,7 +292,6 @@
     "sci_research/DHR/DHR后处理-s2（水）.md",
     "sci_research/DHR/DHR后处理-s1（水）.md",
     "sci_research/DHR/DHR复现-s1（水）.md",
-    "sci_research/DHR/DHR-THF光谱.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "physchem-2",
     "quantum chemistry/Frank-Condon因子.md.tmp.23724.a15552089d57",
