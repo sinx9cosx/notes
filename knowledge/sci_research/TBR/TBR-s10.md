@@ -33,6 +33,14 @@ Category:
 结果：几何结构收敛，有一个虚频-1386.0280
 
 **比较两个结构的频率和state 10的 E(TD-HF/TD-DFT)一致，确认为同一结构**
+Excited State  10:      Singlet-A      4.0797 eV  303.90 nm  f=0.7008 
+     130 ->136         0.14484
+     133 ->139        -0.27875
+     133 ->141         0.16383
+     134 ->137        -0.23387
+     135 ->140         0.48532
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1610.47691239
 
 初步判断交叉落在0和0.2之间
 
