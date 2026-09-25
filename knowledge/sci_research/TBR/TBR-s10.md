@@ -50,9 +50,11 @@ s10和[[TBR-s9#s9 freq|s9组态]]相似，确认这两个plus+minus的结构落�
 ## s9-s10-td
 
 输入文件：
+`TBR-s10-0.gjf`对应位移0
 `TBR-s10-1.gjf`对应位移0.05
 `TBR-s10-2.gjf`对应位移0.10
 `TBR-s10-3.gjf`对应位移0.15
+`TBR-s10-4.gjf`对应位移0.20
 
 关键词：`td(nstate=25) cam-b3lyp/6-31g(d,p) scrf em=gd3bj`
 
