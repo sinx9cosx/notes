@@ -34,3 +34,11 @@ Total reorganization energy      (cm-1):          723.613396        679.139597
 	成功
 
 2. log：radiative rate     (0):     9.34189233E-09    3.86206659E+08 /s,       2.59 ns
+
+## evc-kic
+
+evc.cart.dat：
+Total reorganization energy      (cm-1):          715.132833        687.871122
+
+evc.dint.dat：
+Total reorganization energy      (cm-1):          723.613396        679.139597

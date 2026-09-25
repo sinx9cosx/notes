@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/The Natural Numbers.md",
+                "file": "sci_research/TBR/TBR-s9光谱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Natural Numbers"
+              "title": "TBR-s9光谱"
             }
           },
           {
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/The Natural Numbers.md",
+                "file": "sci_research/TBR/TBR-s9光谱.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -248,13 +248,15 @@
   },
   "active": "9e8f63b1f749f0a8",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-s2光谱.md",
+    "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s9.md",
+    "math/The Natural Numbers.md",
     "quantum chemistry/简正坐标.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/TBR/TBR-s2.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "quantum chemistry/Frank-Condon因子.md",
-    "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
     "sci_research/TBR/TBR-s10.md",
     "TOEFL/通用词汇.md",
@@ -269,14 +271,12 @@
     "TOEFL/填词/填词错误类型.canvas",
     "TOEFL/学科词汇.md",
     "TOEFL/学术讲座.md",
-    "sci_research/TBR/TBR-s9光谱.md",
     "physchem-2/第八章 纯物质体相性质.md",
     "physchem-2/image/8-p-Vm.jpg",
     "physchem-2/image",
     "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/DHR后处理-s2（水）.md",
     "sci_research/DHR/DHR后处理-s1（水）.md",
-    "sci_research/DHR/DHR复现-s1（水）.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "physchem-2",
     "quantum chemistry/Frank-Condon因子.md.tmp.23724.a15552089d57",
