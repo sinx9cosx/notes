@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-s9光谱.md",
+                "file": "sci_research/TBR/Emission Spectra of TBR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-s9光谱"
+              "title": "Emission Spectra of TBR"
             }
           },
           {
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-s9光谱.md",
+                "file": "sci_research/TBR/Emission Spectra of TBR.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -248,8 +248,8 @@
   },
   "active": "9e8f63b1f749f0a8",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/TBR/TBR-s9光谱.md",
+    "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/TBR/TBR-s9.md",
     "math/The Natural Numbers.md",
     "quantum chemistry/简正坐标.md",
