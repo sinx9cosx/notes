@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
+                "file": "sci_research/TBR/TBR-s1光谱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR-文献光谱相关"
+              "title": "TBR-s1光谱"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
+                "file": "sci_research/TBR/TBR-s1光谱.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -235,14 +235,16 @@
   },
   "active": "304111098a8189e4",
   "lastOpenFiles": [
+    "sci_research/DHR/Emission Spectra of DHR.md",
+    "sci_research/TBR/TBR-s1光谱.md",
+    "sci_research/TBR/Emission Spectra of TBR.md",
+    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/TBR/TBR-s10.md",
     "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s3.md",
-    "sci_research/TBR/Emission Spectra of TBR.md",
     "TOEFL/口语复述/生活场景-社区中心.md",
     "TOEFL/口语复述/校园场景-图书馆.md",
-    "sci_research/DHR/Emission Spectra of DHR.md",
     "quantum chemistry/简正坐标.md",
     "sci_research/report/SUMMARY 3.md",
     "TOEFL/口语复述/校园场景-参观学校.md",
@@ -258,9 +260,7 @@
     "quantum chemistry/Frank-Condon因子.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
     "TOEFL/通用词汇.md",
-    "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/TBR/TBR-s1.md",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "TOEFL/填词/填词错误类型.canvas",
     "physchem-2/image/8-p-Vm.jpg",
     "physchem-2/image",

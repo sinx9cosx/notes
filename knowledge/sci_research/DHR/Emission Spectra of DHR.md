@@ -6,6 +6,8 @@ tags:
 Category:
   - 笔记
 ---
+<mark style="background: #FFB8EBA6;">kr计算有问题，EDME错误</mark>
+
 # water
 
 ![[DHR-spec-s129-water.png]]
