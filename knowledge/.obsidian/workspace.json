@@ -36,20 +36,49 @@
             }
           },
           {
-            "id": "06e6119cf2592b11",
+            "id": "02e801ff9a814a73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/简正坐标.md",
+                "file": "TOEFL/口语复述/生活场景-海洋馆.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "简正坐标"
+              "title": "生活场景-海洋馆"
+            }
+          },
+          {
+            "id": "9efafc24850a099a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/口语复述/校园场景-实验室.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "校园场景-实验室"
+            }
+          },
+          {
+            "id": "1f7e49f87bc68da6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "校园场景-参观学校.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "校园场景-参观学校"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -186,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/report/SUMMARY 3.md",
+                "file": "校园场景-参观学校.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -246,15 +275,21 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "9e8f63b1f749f0a8",
+  "active": "1f7e49f87bc68da6",
   "lastOpenFiles": [
+    "校园场景-参观学校.md",
+    "TOEFL/口语复述/校园场景-实验室.md",
+    "TOEFL/口语复述/生活场景-海洋馆.md",
+    "TOEFL/口语复述/生活场景-咖啡机.md",
+    "TOEFL/口语复述/生活场景-wifi配置.md",
+    "quantum chemistry/简正坐标.md",
+    "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/TBR/TBR-s9.md",
     "math/The Natural Numbers.md",
-    "quantum chemistry/简正坐标.md",
     "sci_research/TBR/TBR-s2.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "quantum chemistry/Frank-Condon因子.md",
@@ -268,15 +303,9 @@
     "sci_research/DHR/DHR后处理-s9（水）.md",
     "TOEFL/填词/生物-动物行为.md",
     "TOEFL/填词/生物-降水.md",
-    "TOEFL/填词/生物-化石燃料.md",
     "TOEFL/填词/填词错误类型.canvas",
-    "TOEFL/学科词汇.md",
-    "TOEFL/学术讲座.md",
-    "physchem-2/第八章 纯物质体相性质.md",
     "physchem-2/image/8-p-Vm.jpg",
     "physchem-2/image",
-    "sci_research/DHR/DHR后处理-s2（水）.md",
-    "sci_research/DHR/DHR后处理-s1（水）.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "physchem-2",
     "quantum chemistry/Frank-Condon因子.md.tmp.23724.a15552089d57",
