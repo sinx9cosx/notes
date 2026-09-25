@@ -76,3 +76,11 @@ proof：
 Let a, b, c be natural numbers such that a+b=a+c. Then we have b=c.
 
 proof:
+对a使用归纳法，当a=0时，0+b=b=0+c=c，所以b=c
+假设a+b=a+c可以推出b=c
+只需证(a++)+b=(a++)+可以推出b=c
+左=(a+b)++
+右=(a+c)++
+左=右可以推出a+b=a+c，进一步可以推出b=c
+即证
+
