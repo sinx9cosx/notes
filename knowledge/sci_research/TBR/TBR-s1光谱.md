@@ -16,9 +16,9 @@ s1：
 
 Ead=0.08394205 a.u.
 
-EDMA（吸收）=$\sqrt{ 7.6534}\times 2.5417=$ debye
+EDMA（吸收）=$\sqrt{ 3.1357 }\times 2.5417=4.50$ debye
 
-EDME（发射）=$\sqrt{ 4.1807 }\times 2.5417=5.20$ debye
+EDME（发射）=$\sqrt{ 7.6534 }\times 2.5417=7.03$ debye
 
 ## evc-kr
 
