@@ -35,7 +35,8 @@
               "title": "Emission Spectra of TBR"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,15 +234,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "9e8f63b1f749f0a8",
+  "active": "304111098a8189e4",
   "lastOpenFiles": [
+    "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/anti-kasha-paper/DHR概况.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
     "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
     "sci_research/anti-kasha-paper/DHR文献计算细节.md",
-    "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/DHR复现-s1（水）.md",
     "sci_research/DHR/DHR-THF光谱.md",
     "sci_research/DHR/DHR-气相光谱.md",
