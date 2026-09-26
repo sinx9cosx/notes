@@ -17,7 +17,7 @@ SCF Done: E(RB3LYP) = -849.172438992 A.U.
 
 ## 7.2 s0 td
 
-在优化的s0几何结构下使用TDDFT方法计算跃迁偶极矩（吸收）。在输出`.log`文件中找到`Excited State 1`的信息，以获取优化后s0几何结构下的垂直激发态能和跃迁偶极矩（吸收）。
+在优化的s0几何结构下使用TDDFT方法计算跃迁偶极矩（吸收）。在平衡结构的输出`.log`文件中找到`Excited State 1`的信息，以获取优化后s0几何结构下的垂直激发态能和跃迁偶极矩（吸收）。
 ```
 	Ground to excited state transition electric dipole moments (Au):
 state X Y Z Dip. S. Osc.
