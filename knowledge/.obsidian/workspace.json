@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/Emission Spectra of DHR.md",
+                "file": "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Emission Spectra of DHR"
+              "title": "DHR-文献光谱相关"
             }
           },
           {
@@ -235,18 +235,22 @@
   },
   "active": "9e8f63b1f749f0a8",
   "lastOpenFiles": [
+    "sci_research/anti-kasha-paper/DHR概况.md",
+    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
+    "sci_research/anti-kasha-paper/反Kasha体的设计.md",
+    "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
+    "sci_research/anti-kasha-paper/DHR文献计算细节.md",
+    "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/DHR复现-s1（水）.md",
     "sci_research/DHR/DHR-THF光谱.md",
     "sci_research/DHR/DHR-气相光谱.md",
     "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/TBR/TBR-s9.md",
-    "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/TBR/TBR-s2光谱.md",
     "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s1光谱.md",
-    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/TBR/TBR-s10.md",
     "sci_research/TBR/TBR-s3.md",
     "TOEFL/口语复述/生活场景-社区中心.md",
@@ -257,10 +261,6 @@
     "TOEFL/口语复述/校园场景-实验室.md",
     "TOEFL/口语复述/生活场景-海洋馆.md",
     "TOEFL/口语复述/生活场景-咖啡机.md",
-    "TOEFL/口语复述/生活场景-wifi配置.md",
-    "math/The Natural Numbers.md",
-    "sci_research/TBR/TBR-s2.md",
-    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "TOEFL/填词/填词错误类型.canvas",
     "physchem-2/image/8-p-Vm.jpg",
     "physchem-2/image",
