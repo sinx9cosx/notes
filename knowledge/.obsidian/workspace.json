@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR后处理-s9（水）.md",
+                "file": "sci_research/DHR/Emission Spectra of DHR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR后处理-s9（水）"
+              "title": "Emission Spectra of DHR"
             }
           },
           {
@@ -235,6 +235,7 @@
   },
   "active": "9e8f63b1f749f0a8",
   "lastOpenFiles": [
+    "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/anti-kasha-paper/DHR概况.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
@@ -244,7 +245,6 @@
     "sci_research/DHR/DHR复现-s1（水）.md",
     "sci_research/DHR/DHR-THF光谱.md",
     "sci_research/DHR/DHR-气相光谱.md",
-    "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
