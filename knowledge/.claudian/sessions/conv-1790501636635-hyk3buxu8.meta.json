@@ -1,0 +1,23 @@
+{
+  "id": "conv-1790501636635-hyk3buxu8",
+  "providerId": "claude",
+  "title": "Explain van der Waals pressure term derivation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1790501636636,
+  "updatedAt": 1790501737946,
+  "lastResponseAt": 1790501737946,
+  "sessionId": "288dcdf7-95e8-4cfa-b59f-6e3b4f39b30c",
+  "providerState": {
+    "providerSessionId": "288dcdf7-95e8-4cfa-b59f-6e3b4f39b30c"
+  },
+  "currentNote": "physchem-2/8-纯物质体相性质-真实气体.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1884,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33024,
+    "contextWindow": 200000,
+    "contextTokens": 34908,
+    "percentage": 17
+  }
+}
