@@ -1,0 +1,567 @@
+{
+  "id": "conv-1790517515561-jlhxs9pwe",
+  "providerId": "claude",
+  "title": "Explain Brillouin zones and solid state basics",
+  "titleGenerationStatus": "success",
+  "createdAt": 1790517515561,
+  "updatedAt": 1790517817122,
+  "lastResponseAt": 1790517817122,
+  "sessionId": "f7d1a265-ca84-4f3d-b411-3ae8659e4317",
+  "providerState": {
+    "providerSessionId": "f7d1a265-ca84-4f3d-b411-3ae8659e4317",
+    "subagentData": {
+      "call_00_MTLnbv2wyUWHTHissYyJ9444": {
+        "id": "call_00_MTLnbv2wyUWHTHissYyJ9444",
+        "description": "检索知识库固体物理相关笔记",
+        "prompt": "在 Obsidian 知识库（当前工作目录 F:\\obsidian_notes\\knowledge，vault 根目录）中搜索与以下主题相关的笔记。搜索要 very thorough，覆盖文件名、frontmatter、正文内容，关键词包括中英文变体：\n\n- 固体物理、半导体物理、能带理论、能带结构\n- 布里渊区、倒格子、倒易空间、reciprocal lattice、Brillouin zone\n- 晶体结构、晶格、布拉维格子、晶胞、Bravais\n- 费米能级、Fermi、带隙、能隙、bandgap、直接带隙、间接带隙\n- 光电材料、光电器件、光电效应、光伏、半导体、PN结、载流子、电子空穴\n- 量子力学、薛定谔方程、声子、phonon、能级、原子轨道、分子轨道\n\n对找到的每篇相关笔记，请报告：\n1. 文件路径（vault 相对路径）\n2. frontmatter 中的 tags、标题、aliases\n3. 正文的各级标题结构概览\n4. 摘录与\"基本概念、能带、布里渊区、带隙\"直接相关的关键段落原文（每篇适量摘录，不要整篇复制）\n5. 笔记的质量与深度（是系统学习笔记还是零散摘录）\n\n最后给出结论：哪些笔记与\"光电材料与器件的固体物理基础\"最相关；哪些主题（如布里渊区）在库中完全没有任何笔记。请把结论写清楚。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_GFee9ynL86vNsgM4cyW85884",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/*.md",
+              "path": "F:\\obsidian_notes\\knowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "index\\26春-物化作业汇总.md\nphyschem-1\\循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md\nphyschem-1\\物化实验报告要求.md\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md\nphyschem-1\\Gaussian计算实验报告.md\nindex\\26春-物化考试准备.md\nphyschem-1\\26春_雨课堂作业题整理.md\nphyschem-1\\玻尔兹曼分布成立条件.md\nphyschem-1\\二维正方形势阱简并分析.md\nphyschem-1\\高斯中的热化学计算-翻译.md\nphyschem-1\\构造状态函数.md\nphyschem-1\\孤立体系的平衡判据.md\nphyschem-1\\关于权重W.md\nphyschem-1\\关于熵增加原理.md\nphyschem-1\\简并的情况总览.md\nphyschem-1\\能量均分原理证明.md\nphyschem-1\\期末考试预测.md\nphyschem-1\\熵产生普适表述热力学第二定律.md\nphyschem-1\\统计力学.md\nphyschem-1\\统计力学的研究系统.md\nphyschem-1\\统计力学定理成立的条件.md\nphyschem-1\\物化考试技巧_量纲分析与证明.md\nphyschem-1\\信息熵作业.md\nphyschem-1\\雨课堂讨论题汇总.md\nphyschem-1\\Thermochemistry_in_Gaussian.md\nsci_research\\report\\TD-DFT calculation results.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-QM-MM）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（总）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第一轮阅读（第2-6章小结+结论）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第一轮阅读（摘要+第一章）.md\nsci_research\\report\\TD-DFT项目操作全流程.md\n.trash\\darling\\计算化学方法与需求.md\n.trash\\darling\\DFT为什么只关注E_xc.md\nindex\\AIE论文阅读进展.md\nquantum chemistry\\变分法计算流程总结.md\nquantum chemistry\\线性变分法的基函数.md\nquantum chemistry\\原子单位制.md\nquantum chemistry\\关于微扰理论的疑问.md\n.trash\\darling\\先组轨道，再填电子的化学语言本质.md\nphyschem-1\\热力学.md\nphyschem-1\\热力学第一课时.md\n.trash\\darling\\Slater行列式.md\n.trash\\darling\\填电子三原则.md\nphyschem-1\\理想气体内能与压力无关的证明.md\nquantum chemistry\\关于简并态的讨论.md\nquantum chemistry\\定态微扰理论.md\nquantum chemistry\\含时微扰理论.md\nquantum chemistry\\变分法.md\nphyschem-1\\量子力学.md\nquantum chemistry\\光谱选律.md\nquantum chemistry\\电磁波照射下的跃迁概率公式.md\nquantum chemistry\\振子强度.md\nquantum chemistry\\激发态的平均寿命.md\ninstrument\\linux\\linux常用命令.md\ninstrument\\linux\\linux运行软件.md\nquantum chemistry\\偶极强度与吸收系数的关系.md\nindex\\Multiwfn手册.md\nquantum chemistry\\光谱分类总览.md\ninstrument\\linux\\vim使用教程.md\nsci_research\\anti-kasha-paper\\反Kasha体的设计.md\nquantum chemistry\\光化学基元反应.md\nsci_research\\TBR\\s0与激发态s1的对比.md\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md\ninstrument\\Multiwfn\\Multiwfn手册第一章.md\ninstrument\\Multiwfn\\Multiwfn手册5.2-5.5.md\ninstrument\\MOMAP\\MOMAP 4 荧光光谱计算.md\nindex\\MOMAP后处理荧光光谱+速率.md\nphyschem-1\\拉格朗日乘数法.md\nsci_research\\anti-kasha-paper\\DHR文献计算细节.md\ninstrument\\MOMAP\\MOMAP 5 NACME.md\ncomputational-chem-tutorial\\激发态和光谱计算.md\ninstrument\\MOMAP\\MOMAP 3  Duschinsky旋转矩阵和振动分析.md\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md\nTOEFL\\邮件写作\\人生规划建议.md\nTOEFL\\填词\\生物-动物行为.md\nTOEFL\\学术讲座.md\n.trash\\实验报告要求.md\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md\nindex\\Gaussian的学习和使用.md\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md\nsci_research\\anti-kasha-paper\\DHR概况.md\nTOEFL\\模拟面试\\个人习惯与生活方式\\阅读.md\nsci_research\\anti-kasha-paper\\26-8-19文献主要内容.md\nsci_research\\report\\TBR SUMMARY1.md\nTOEFL\\口语复述\\生活场景-咖啡机.md\nTOEFL\\口语复述\\生活场景-wifi配置.md\nsci_research\\TBR\\TBR-s0.md\nsci_research\\DHR\\DHR后处理-s2（水）.md\nTOEFL\\填词\\艺术-皮影戏.md\nTOEFL\\填词\\艺术-抽象派画作.md\nTOEFL\\邮件写作\\学校建cafe的建议.md\nTOEFL\\邮件写作\\邻居沟通.md\nsci_research\\TBR\\TBR-s3.md\nsci_research\\DHR\\DHR-气相光谱.md\nquantum chemistry\\Fermi黄金规则.md\nsci_research\\DHR\\DHR-THF光谱.md\nsci_research\\report\\DHR SUMMARY 2.md\nTOEFL\\学科词汇.md\nsci_research\\report\\SUMMARY 3.md\n(Showing 100 of 135 matching files; 35 more are not listed. Narrow the pattern or path to see the rest.)"
+          },
+          {
+            "id": "call_01_gYBSfhkbCierNpU1SN7U3887",
+            "name": "Grep",
+            "input": {
+              "pattern": "固体物理|半导体物理|能带|能隙|带隙",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "output_mode": "files_with_matches",
+              "head_limit": 100
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 12 files\nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md\ninstrument\\MOMAP\\MOMAP 7 QC准备.md\nsci_research\\TBR\\TBR-s10.md\nsci_research\\report\\TBR SUMMARY1.md\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md\n.claudian\\sessions\\conv-1788318327523-v4hls2e3n.meta.json\ninstrument\\MOMAP\\MOMAP 5 NACME.md\n.claudian\\sessions\\conv-1787842001724-r4550rex4.meta.json\n.claudian\\sessions\\conv-1787835002495-8b0ddq0kb.meta.json\n.claudian\\sessions\\conv-1787716539939-v4l9h1wj5.meta.json\nquantum chemistry\\关于微扰理论的疑问.md\nphyschem-1\\Gaussian计算实验报告.md"
+          },
+          {
+            "id": "call_02_tJ3Cqi6vCTLAAmmEpGex5688",
+            "name": "Grep",
+            "input": {
+              "pattern": "布里渊|倒格子|倒易空间|布拉维|晶胞|晶格",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "output_mode": "files_with_matches",
+              "head_limit": 100
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 4 files\n.claudian\\sessions\\conv-1789912929127-7qp6c2bxx.meta.json\ninstrument\\Multiwfn\\Multiwfn手册第一章.md\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md\nphyschem-1\\统计力学.md"
+          },
+          {
+            "id": "call_03_RdFixr5ILgZtDlbUyvgt9914",
+            "name": "Grep",
+            "input": {
+              "pattern": "费米|Fermi|bandgap|band gap|band structure",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "output_mode": "files_with_matches",
+              "head_limit": 100,
+              "-i": true
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 13 files\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md\n.claudian\\sessions\\conv-1789959316099-ld86r8z60.meta.json\nquantum chemistry\\Frank-Condon因子.md\n.claudian\\sessions\\conv-1789399497927-rrdka0uh8.meta.json\n.claudian\\sessions\\conv-1789912929127-7qp6c2bxx.meta.json\n.claudian\\sessions\\conv-1789478711537-6pqx39hsq.meta.json\nquantum chemistry\\Fermi黄金规则.md\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md\n.claudian\\sessions\\conv-1788318327523-v4hls2e3n.meta.json\n.claudian\\sessions\\conv-1786950334666-qv23euyh4.meta.json\nphyschem-1\\量子力学.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md\nphyschem-1\\期末考试预测.md"
+          },
+          {
+            "id": "call_00_7eEiTH2RBnrx5wuYJA348262",
+            "name": "Grep",
+            "input": {
+              "-i": true,
+              "head_limit": 100,
+              "output_mode": "files_with_matches",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "reciprocal|Brillouin|Bravais|semiconductor|crystal lattice|direct gap|indirect gap"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 2 files\n.claudian\\sessions\\conv-1790517515561-jlhxs9pwe.meta.json\n.claudian\\sessions\\conv-1788318327523-v4hls2e3n.meta.json"
+          },
+          {
+            "id": "call_01_o4RKLs5cEEQVT7p1bIzy5288",
+            "name": "Grep",
+            "input": {
+              "head_limit": 100,
+              "output_mode": "files_with_matches",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "光电|光伏|PN结|载流子|空穴|电子空穴|光电器件|光电效应"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 19 files\nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md\nsci_research\\DHR\\DHR复现-s9（水）.md\n.claudian\\sessions\\conv-1789959316099-ld86r8z60.meta.json\nsci_research\\TBR\\TBR-s1.md\nsci_research\\DHR\\DHR复现-s1（水）.md\nsci_research\\report\\SUMMARY 3.md\nsci_research\\report\\DHR SUMMARY 2.md\n.claudian\\sessions\\conv-1788946511765-7f1dncnkd.meta.json\nsci_research\\report\\TBR SUMMARY1.md\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md\n.claudian\\sessions\\conv-1788318327523-v4hls2e3n.meta.json\ninstrument\\Multiwfn\\Multiwfn手册第一章.md\n.claudian\\sessions\\conv-1787842001724-r4550rex4.meta.json\n.claudian\\sessions\\conv-1787835002495-8b0ddq0kb.meta.json\n.claudian\\sessions\\conv-1786950334666-qv23euyh4.meta.json\nquantum chemistry\\光谱分类总览.md\n.claudian\\sessions\\conv-1786898857264-5ivgmhubl.meta.json\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md"
+          },
+          {
+            "id": "call_02_SUSy0WHdbXKVu3UICBGq4370",
+            "name": "Grep",
+            "input": {
+              "-i": true,
+              "head_limit": 100,
+              "output_mode": "files_with_matches",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "声子|phonon|薛定谔|Schr(o|ö)dinger|原子轨道|分子轨道"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 26 files\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md\n.claudian\\sessions\\conv-1789959316099-ld86r8z60.meta.json\nquantum chemistry\\Frank-Condon因子.md\n.claudian\\sessions\\conv-1789912929127-7qp6c2bxx.meta.json\ncomputational-chem-tutorial\\分子轨道的定性分析.md\n.claudian\\sessions\\conv-1789478711537-6pqx39hsq.meta.json\nsci_research\\report\\TBR SUMMARY1.md\n.claudian\\sessions\\conv-1788318327523-v4hls2e3n.meta.json\ninstrument\\Multiwfn\\Multiwfn手册第一章.md\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md\n.claudian\\sessions\\conv-1787842001724-r4550rex4.meta.json\nquantum chemistry\\光化学基元反应.md\n.claudian\\sessions\\conv-1786950334666-qv23euyh4.meta.json\nphyschem-1\\量子力学.md\nquantum chemistry\\含时微扰理论.md\nphyschem-1\\热力学第一课时.md\nquantum chemistry\\关于微扰理论的疑问.md\nquantum chemistry\\线性变分法的基函数.md\nsci_research\\report\\TD-DFT项目操作全流程.md\nphyschem-1\\雨课堂讨论题汇总.md\nphyschem-1\\期末考试预测.md\nphyschem-1\\26春_雨课堂作业题整理.md\nphyschem-1\\Gaussian计算实验报告.md\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md\nphyschem-1\\循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md\nphyschem-1\\量子力学导图.canvas"
+          },
+          {
+            "id": "call_03_LwbqUCYA8RpnPfLcZPD18671",
+            "name": "Grep",
+            "input": {
+              "head_limit": 100,
+              "output_mode": "files_with_matches",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "晶体|导带|价带|禁带|能级|态密度"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 50 files\nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md\n.claudian\\sessions\\conv-1789959316099-ld86r8z60.meta.json\nquantum chemistry\\Frank-Condon因子.md\n.claudian\\sessions\\conv-1789912929127-7qp6c2bxx.meta.json\n.claudian\\sessions\\conv-1789478711537-6pqx39hsq.meta.json\nsci_research\\report\\DHR SUMMARY 2.md\nquantum chemistry\\Fermi黄金规则.md\nsci_research\\report\\TBR SUMMARY1.md\nsci_research\\anti-kasha-paper\\26-8-19文献主要内容.md\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md\n.claudian\\sessions\\conv-1788318327523-v4hls2e3n.meta.json\ncomputational-chem-tutorial\\激发态和光谱计算.md\ninstrument\\Multiwfn\\Multiwfn手册第一章.md\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md\n.claudian\\sessions\\conv-1787842001724-r4550rex4.meta.json\nquantum chemistry\\光化学基元反应.md\n.claudian\\sessions\\conv-1786950334666-qv23euyh4.meta.json\nquantum chemistry\\光谱分类总览.md\n.claudian\\sessions\\conv-1786898857264-5ivgmhubl.meta.json\nquantum chemistry\\偶极强度与吸收系数的关系.md\nquantum chemistry\\激发态的平均寿命.md\nquantum chemistry\\电磁波照射下的跃迁概率公式.md\n.claudian\\sessions\\conv-1786161340258-xcnazugmc.meta.json\nquantum chemistry\\光谱选律.md\nphyschem-1\\量子力学.md\n.claudian\\sessions\\conv-1786010604172-778ivjm19.meta.json\nquantum chemistry\\变分法.md\n.claudian\\sessions\\conv-1785986444293-3qk1ooj70.meta.json\nquantum chemistry\\含时微扰理论.md\n.claudian\\sessions\\conv-1785297014408-fp9p7zo8h.meta.json\nquantum chemistry\\定态微扰理论.md\nquantum chemistry\\关于简并态的讨论.md\nphyschem-1\\热力学第一课时.md\nquantum chemistry\\关于微扰理论的疑问.md\nphyschem-1\\雨课堂讨论题汇总.md\nphyschem-1\\物化考试技巧_量纲分析与证明.md\nphyschem-1\\统计力学定理成立的条件.md\nphyschem-1\\统计力学的研究系统.md\nphyschem-1\\统计力学.md\nphyschem-1\\期末考试预测.md\nphyschem-1\\能量均分原理证明.md\nphyschem-1\\简并的情况总览.md\nphyschem-1\\高斯中的热化学计算-翻译.md\nphyschem-1\\二维正方形势阱简并分析.md\nphyschem-1\\玻尔兹曼分布成立条件.md\nphyschem-1\\26春_雨课堂作业题整理.md\nphyschem-1\\Gaussian计算实验报告.md\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md\nphyschem-1\\循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md"
+          },
+          {
+            "id": "call_00_cP4RptLcmDV5WBSdct7E8829",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "布里渊|倒格子|倒易空间|布拉维|晶胞|晶格",
+              "glob": "!**/.claudian/**",
+              "-C": 3,
+              "head_limit": 80
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "physchem-1\\统计力学.md-29-3. **微观状态数** ：微观状态的量\nphyschem-1\\统计力学.md-30-\nphyschem-1\\统计力学.md-31-<mark style=\"background: #BBFABBA6;\">**粒子是否可区分：**</mark>\nphyschem-1\\统计力学.md:32:1. 经典统计：定域子系统，靠位置坐标区分 (晶体：晶格上的原子被固定，波函数的重叠积分趋近于0)\nphyschem-1\\统计力学.md-33-2. 量子统计：非定域系统，不能区分 (气体，电子：波函数可重叠  )  \nphyschem-1\\统计力学.md-34-\nphyschem-1\\统计力学.md-35-<mark style=\"background: #BBFABBA6;\">**$\\omega$计算（可区分）**：</mark>\n--\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-62-* **能量分解分析：** sobEDA和sobEDAw (J. Phys. Chem. A, 127, 7023 (2023))，基于UFF/AMBER/GAFF分子力场的EDA（EDA-FF）；Shubin Liu能量分解（EDA-SBL）；原子对色散能贡献的分析和色散密度的评估。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-63-* **电子离域和芳香性分析：** 多中心键级（MCBO），AV1245和AVmin；等化学屏蔽表面（ICSS）；非平面或倾斜体系的NICS_ZZ；ELF-π和ELF-σ；谐振子芳香性度量（HOMA）和Bird指数；重新参数化的HOMA（HOMAc和HOMER指数）；Shannon芳香性指数；对位离域指数（PDI）；芳香性涨落指数（FLU）和FLU-π；对位线性响应指数（PLR）；信息论（ITA）芳香性指数；环临界点性质；NICS-1D扫描曲线图；积分NICS（INICS）和FiPC-NICS指数；NICS-2D扫描平面图等。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-64-* **（超）极化率研究：** 解析Gaussian“polar”任务的输出文件并计算许多与（超）极化率相关的数据；计算与Hyper-Rayleigh散射（HRS）相关的量；绘制（超）极化率密度；获取原子对（超）极化率的贡献；通过求和态（SOS）方法计算（超）极化率；两能级和三能级模型分析；（超）极化率张量的单位球和矢量表示；计算分子中的原子极化率。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md:65:* **结构和几何相关分析：** 分子范德华（vdW）体积；整个体系或单个片段的vdW表面积；分子长/高/宽，vdW直径和动力学直径；空腔体积和直径；原子间连接性和原子配位数；原子团簇的平均键长；键长交替（BLA）、键级交替（BOA）以及键角和二面角交替；分子平面性参数（MPP）和平面偏差跨度（SDP）；可视化和评估晶胞中的自由区域（孔隙）及其体积；非常丰富的几何操作；绘制表面距离投影图；两个片段之间的最小/最大和几何/质心距离；特定环的面积和周长。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-66-[Omitted long context line]\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-67-\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-68-**Multiwfn支持的实空间函数**\n--\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-211-.dx是可以由例如VMD程序的Volmap插件导出的体积数据格式。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-212-.grd文件是DMol3程序主要使用的体积数据格式。.grd中不记录原子信息。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-213-\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md:214:**Gaussian输入文件 (.gjf), ORCA输入文件和MOPAC输入文件 (.mop)**：这些文件可以为Multiwfn提供原子坐标信息以及α和β电子数的信息。请注意，原子必须记录为Cartesian坐标。.gjf还可以通过“Tv”字段向Multiwfn提供晶胞信息。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-215-\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-216-**Gaussian和ORCA输出文件**\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-217-Gaussian和ORCA输出文件可以为Multiwfn提供原子信息。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-218-* Gaussian输出文件：当settings.ini中的\"iloadGaugeom\"设置为1（默认，加载输入取向）或2（加载标准取向）时，Multiwfn将从此文件加载（最终）几何和电子数。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-219-* ORCA输出文件：当settings.ini中的\"iloadORCAgeom\"设置为1（默认）时，Multiwfn将从此文件加载（最终）几何。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-220-\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md:221:**CP2K输入和重启文件 (.inp 和 .restart)**：这些文件可以为Multiwfn提供原子坐标信息和晶胞信息。请注意，原子必须以Å为单位的Cartesian坐标记录。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-222-\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md:223:**Quantum ESPRESSO输入 (.inp 或 .in)**：它可以为Multiwfn提供原子坐标信息和晶胞信息。只支持ibrav=0。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-224-\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md:225:**Turbomole坐标文件**：如果纯文本文件的第一行是&coord，则它将作为Turbomole坐标文件加载。$coord字段提供原子信息。如果存在$periodic和$lattice，它们也将提供晶胞信息。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-226-\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-227-**VASP相关文件**\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-228-以下文件与VASP代码相关。Multiwfn能够加载它们，文件名必须包含相应的字符串，且没有.in或.inp扩展名。例如，要将文件作为POSCAR加载，文件名可以是POSCAR_Si8和MOF.POSCAR。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md:229:* POSCAR：这是VASP的输入文件之一，记录晶胞和原子信息。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-230-* CHGCAR或CHG：此文件记录VASP生成的电子密度。对于自旋极化情况，它也同时记录自旋密度。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-231-* ELFCAR：此文件记录VASP生成的ELF。对于自旋极化情况，它分别记录α和β电子的ELF。\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-232-* LOCPOT：此文件记录VASP生成的一个电子感受到的外部势。对于自旋极化情况，它分别记录α和β电子的势。如果LVHAR=.TRUE.，该势对应于静电势的负值；而如果LVHAR=.FALSE.，它对应于“分子中一个电子感受到的势”（PAEM，在第2.7节中描述）。"
+          },
+          {
+            "id": "call_01_tbKF1RKKqDJTYpqNsCMA1018",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "能带|能隙|带隙|费米|Fermi|bandgap",
+              "glob": "!**/.claudian/**",
+              "-C": 2,
+              "head_limit": 120
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "physchem-1\\Gaussian计算实验报告.md-266-   NQ⁻ 的 SOMO（−0.15433 Hartree）比 BQ⁻（−0.16381）高约 0.009 Hartree，即第一还原电子在萘醌中的稳定性略弱；但其 LUMO（**−0.03198 Hartree**）比 BQ⁻（−0.00873）低 0.023 Hartree（0.63 eV），比 DQ⁻（+0.00786，非束缚态）低 0.040 Hartree。SOMO 上移 + LUMO 下移造成了 gap 塌缩。\nphyschem-1\\Gaussian计算实验报告.md-267-   物理图像：\nphyschem-1\\Gaussian计算实验报告.md:268:   萘醌的有效 π 共轭长度显著大于苯醌。根据共轭体系能级密集化规律，更大的共轭平面压缩了相邻 π* 能级间距。NQ⁻ 中 SOMO 主要保留醌环 π* 特征，而 LUMO 强烈离域到萘环骨架的低能 π* 轨道上，导致能隙异常收窄。\nphyschem-1\\Gaussian计算实验报告.md-269-   化学意义：\nphyschem-1\\Gaussian计算实验报告.md-270-   NQ⁻ 的 LUMO 能量最低，说明其比 BQ⁻/DQ⁻ 更容易发生第二步还原（NQ⁻ + e⁻ → NQ²⁻），且自由基电子激发能低，动力学稳定性相对较弱。\n--\nphyschem-1\\期末考试预测.md-134-**预测题型**：单选 / 判断\nphyschem-1\\期末考试预测.md-135-\nphyschem-1\\期末考试预测.md:136:- 电子属于____（玻色子/费米子），交换两个电子后总波函数变号。\nphyschem-1\\期末考试预测.md:137:- 两个费米子不能占据完全相同的量子态，这称为____原理。\nphyschem-1\\期末考试预测.md-138-\nphyschem-1\\期末考试预测.md:139:> 答案：费米子；泡利不相容\nphyschem-1\\期末考试预测.md-140-\nphyschem-1\\期末考试预测.md-141-### 14. 单态与三重态\n--\nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md-81-- HOMO：**-4.98 eV**  \nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md-82-- LUMO：**-3.16 eV**  \nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md:83:- 带隙：**1.82 eV**\nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md-84-\nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md-85----\n--\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-122----\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-123-\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md:124:## 4. 在 Fermi 黄金规则中的角色\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-125-\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md:126:分子体系中的辐射或非辐射跃迁速率通常由 Fermi 黄金规则给出：\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-127-\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-128-$$\n--\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-191-## 8. 相关笔记链接\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-192-\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md:193:- [[Fermi黄金规则]]\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-194-- [[MOMAP 3  Duschinsky旋转矩阵和振动分析]]\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md-195-- [[MOMAP 荧光光谱与速率：完整流程与结果解读]]\n--\nphyschem-1\\量子力学.md-595-\nphyschem-1\\量子力学.md-596-- **对称波函数**（$+$，玻色子）：$\\psi_{+}(1,2)=\\psi_{+}(2,1)$，例如光子。\nphyschem-1\\量子力学.md:597:- **反对称波函数**（$-$，费米子）：$\\psi_{-}(1,2)=-\\psi_{-}(2,1)$，例如电子。\nphyschem-1\\量子力学.md-598-\nphyschem-1\\量子力学.md-599-<mark style=\"background: #ADCCFFA6;\">两电子体系的反对称化</mark>\nphyschem-1\\量子力学.md-600-\nphyschem-1\\量子力学.md:601:以激发态氦原子 $\\text{He}\\,(1s^12s^1)$ 为例，简单乘积波函数 $1s(1)2s(2)$ 或 $1s(2)2s(1)$ 均不具有确定的交换对称性。为满足费米子要求，空间波函数需构造为反对称组合：\nphyschem-1\\量子力学.md-602-$$\nphyschem-1\\量子力学.md-603-\\boxed{\\psi_{-}(1,2)=\\frac{1}{\\sqrt{2}}\\big[1s(1)\\,2s(2)-1s(2)\\,2s(1)\\big]}\n--\nphyschem-1\\量子力学.md-622-<mark style=\"background: #ADCCFFA6;\">泡利不相容原理</mark>\nphyschem-1\\量子力学.md-623-\nphyschem-1\\量子力学.md:624:若两个费米子试图占据完全相同的量子态（相同空间轨道且相同自旋），则反对称空间波函数恒为零：\nphyschem-1\\量子力学.md-625-$$\nphyschem-1\\量子力学.md-626-\\psi_{-}(1,2)=1s(1)\\,1s(2)-1s(2)\\,1s(1)\\equiv0\nphyschem-1\\量子力学.md-627-$$\nphyschem-1\\量子力学.md:628:该波函数不存在，意味着**两个费米子不能占据同一个量子态**——此即泡利不相容原理（Pauli Exclusion Principle）。\nphyschem-1\\量子力学.md-629-\nphyschem-1\\量子力学.md-630-<mark style=\"background: #ADCCFFA6;\">自旋与单态、三重态</mark>\n--\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md-28-*   辐射\\无辐射跃迁\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md-29-*   斯托克斯位移\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md:30:*   Frank-Condon原理和费米黄金规则\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md-31-*   吸收和发射光谱的公式怎么来的，拿来干什么的\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md-32-*   Kr,Knr的公式\n--\nsci_research\\report\\TBR SUMMARY1.md-27-这个文件我不太清楚该怎么分析：\nsci_research\\report\\TBR SUMMARY1.md-28-\nsci_research\\report\\TBR SUMMARY1.md:29:HOMO-LUMO能隙：= 0.15196 Ha ≈ 4.135 eV\nsci_research\\report\\TBR SUMMARY1.md-30-\nsci_research\\report\\TBR SUMMARY1.md-31-跃迁偶极矩：在平面内\n--\nsci_research\\TBR\\TBR-s10.md-46-因此初步判断交叉落在0和0.2之间\nsci_research\\TBR\\TBR-s10.md-47-\nsci_research\\TBR\\TBR-s10.md:48:沿`TBR-s10-opt`的结构位移0.05，0.10，0.15做单点计算，得到s10和s9的能隙随位移的变化曲线\nsci_research\\TBR\\TBR-s10.md-49-\nsci_research\\TBR\\TBR-s10.md-50-## s9-s10-td\n--\ninstrument\\MOMAP\\MOMAP 7 QC准备.md-62-`prop=(fitcharge, field)`：关键指令。让 Gaussian 在计算中输出**拟合静电势电荷**（FitCharge）和各原子核位置上的电势与电场矢量（Field）。\ninstrument\\MOMAP\\MOMAP 7 QC准备.md-63-\ninstrument\\MOMAP\\MOMAP 7 QC准备.md:64:MOMAP 算内转换要用\"跃迁电场\"（transition electric field） (field那张表的 X/Y/Z 三列)。MOMAP 自己的 `evc.out` 里会把这张表原样打印成 `========= Transition Elecric Field (atomic unit) ======`，然后做变换（`.nac`  STEP 1 读入 → STEP 2 把核坐标 x 变换到简正坐标 Q），得到 `<\\Psi_b|∂H/∂x_{iα}|\\Psi_a>`，再除以两态能隙。\ninstrument\\MOMAP\\MOMAP 7 QC准备.md-65-\ninstrument\\MOMAP\\MOMAP 7 QC准备.md-66-`iop(6/22=-4)`：selection of density（密度） matrix。\n--\nquantum chemistry\\Frank-Condon因子.md-439-## 10. 在跃迁速率理论中的位置\nquantum chemistry\\Frank-Condon因子.md-440-\nquantum chemistry\\Frank-Condon因子.md:441:辐射与非辐射跃迁同出于[[Fermi黄金规则]]框架，FC 因子在其中扮演不同角色：\nquantum chemistry\\Frank-Condon因子.md-442-\nquantum chemistry\\Frank-Condon因子.md-443-- **辐射跃迁**（光谱）：跃迁速率（强度）$\\propto |\\mu_{fi}|^2 \\times \\mathrm{FC}$。每个振动子峰是一条谱线，强度被 FC 因子标度；FC 因子只是\"分配系数\"，不改变谱带总强度。\n--\nquantum chemistry\\Frank-Condon因子.md-473-\nquantum chemistry\\Frank-Condon因子.md-474-- [[光谱选律]]：$\\Delta v = \\pm 1$ 选律的推导\nquantum chemistry\\Frank-Condon因子.md:475:- [[Fermi黄金规则]]：跃迁速率的统一框架\nquantum chemistry\\Frank-Condon因子.md-476-- [[电磁波照射下的跃迁概率公式]]：$R_{mn}$ 与 Einstein 系数\nquantum chemistry\\Frank-Condon因子.md-477-- [[光谱分类总览]]：带状光谱与 FC/HT/Duschinsky 三件套\n--\nquantum chemistry\\关于微扰理论的疑问.md-13-1. **微扰算符有天然的小参量**：$\\hat{H} = \\hat{H}^0 + \\lambda\\hat{H}'$，λ 是一个\"刻度\"参数——λ=0 就是无微扰体系，λ=1 就是真实体系。当我们说\"微扰很小\"，意思是 $\\hat{H}'$ 对能级和波函数的修正远小于无微扰体系的量。既然\"λ 从小变到大\"是连续的，把解写成 λ 的幂级数就合理。\nquantum chemistry\\关于微扰理论的疑问.md-14-\nquantum chemistry\\关于微扰理论的疑问.md:15:2. **解析性的假设**：我们假设 $E_k(\\lambda)$ 和 $\\psi_k(\\lambda)$ 在 λ=0 附近是**解析函数**（无穷阶可导，Taylor 展开收敛）。数学上这叫\"正则微扰理论\"。大多数物理体系满足这个条件——但不是全部。比如超导的 BCS 理论，能隙 $\\Delta \\sim e^{-1/g}$，在 $g=0$ 处是**本性奇点**，无法做 Taylor 展开——这就是\"非微扰效应\"喵。\nquantum chemistry\\关于微扰理论的疑问.md-16-\nquantum chemistry\\关于微扰理论的疑问.md-17-## Q2：实际的微扰项长什么样子？\n--\ninstrument\\MOMAP\\MOMAP 5 NACME.md-11-## 5.1 概述\ninstrument\\MOMAP\\MOMAP 5 NACME.md-12-\ninstrument\\MOMAP\\MOMAP 5 NACME.md:13:MOMAP还能够基于TVCORF_IC和TVSPEC_IC子程序计算内转换（IC）速率常数。TVCORF_IC子程序用于计算热振动相关函数（TVCF），而TVSPEC_IC子程序用于确定IC速率常数与能隙之间的关系。\ninstrument\\MOMAP\\MOMAP 5 NACME.md-14-\ninstrument\\MOMAP\\MOMAP 5 NACME.md-15-在本指南的以下部分，这类计算将被简称为非辐射计算。\n--\ninstrument\\MOMAP\\MOMAP 5 NACME.md-65-确保相关函数已收敛，这一点非常重要。验证过程可参见本指南第4.4节。\ninstrument\\MOMAP\\MOMAP 5 NACME.md-66-\ninstrument\\MOMAP\\MOMAP 5 NACME.md:67:内转换（IC）速率常数可在ic.tvcf.log文件末尾找到。IC速率常数与能隙之间的关系也可从ic.tvcf.log文件中获取。\n--\nquantum chemistry\\Fermi黄金规则.md-75-引入态密度$\\rho(E)$：单位能量间隔内的状态数\nquantum chemistry\\Fermi黄金规则.md-76-\nquantum chemistry\\Fermi黄金规则.md:77:<mark style=\"background: #FFB86CA6;\">Fermi黄金规则</mark>：\nquantum chemistry\\Fermi黄金规则.md-78-\nquantum chemistry\\Fermi黄金规则.md-79-跃迁速率\n--\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md-39-| `ic.tvcf.ft.dat` | 内转换相关函数（3 列） | kic 收敛验证 |\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md-40-| `ic.tvcf.log` | kic 速率表 | 读内转换速率 |\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md:41:| `ic.tvcf.fo.dat` | kic 速率-能隙分布 | 机制分析 |\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md-42-\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md-43-# 1. 背景概念\n--\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md-160-画 `spec.tvcf.ft.dat` 第 1 列（time）vs 第 4 列（`emi_FC_Re`，发射相关函数实部）。\n\n[Showing results with pagination = limit: 120]"
+          },
+          {
+            "id": "call_00_bMIG0Xbq7knW84pEfhvZ7198",
+            "name": "Glob",
+            "input": {
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "sci_research/**/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "sci_research\\report\\TD-DFT calculation results.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-分子光谱）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（第二章-QM-MM）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第二轮阅读（总）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第一轮阅读（第2-6章小结+结论）.md\nsci_research\\聚集诱导发光（AIE）；QM\\第一轮阅读（摘要+第一章）.md\nsci_research\\report\\TD-DFT项目操作全流程.md\nsci_research\\anti-kasha-paper\\反Kasha体的设计.md\nsci_research\\TBR\\s0与激发态s1的对比.md\nsci_research\\anti-kasha-paper\\DHR文献计算细节.md\nsci_research\\anti-kasha-paper\\DHR概况.md\nsci_research\\anti-kasha-paper\\26-8-19文献主要内容.md\nsci_research\\report\\TBR SUMMARY1.md\nsci_research\\TBR\\TBR-s0.md\nsci_research\\DHR\\DHR后处理-s2（水）.md\nsci_research\\TBR\\TBR-s3.md\nsci_research\\DHR\\DHR-气相光谱.md\nsci_research\\DHR\\DHR-THF光谱.md\nsci_research\\report\\DHR SUMMARY 2.md\nsci_research\\report\\SUMMARY 3.md\nsci_research\\DHR\\DHR复现-s1（水）.md\nsci_research\\TBR\\TBR-s1.md\nsci_research\\DHR\\DHR后处理-s1（水）.md\nsci_research\\TBR\\TBR-s2.md\nsci_research\\DHR\\DHR复现-s9（水）.md\nsci_research\\TBR\\TBR-s9.md\nsci_research\\TBR\\TBR-s10.md\nsci_research\\DHR\\Emission Spectra of DHR.md\nsci_research\\TBR\\TBR-s1光谱.md\nsci_research\\TBR\\TBR-s2光谱.md\nsci_research\\TBR\\TBR-s9光谱.md\nsci_research\\TBR\\Emission Spectra of TBR.md\nsci_research\\anti-kasha-paper\\DHR-文献光谱相关.md\nsci_research\\DHR\\DHR后处理-s9（水）.md"
+          },
+          {
+            "id": "call_01_RPSxcgfjJTbY4elKNqMy6458",
+            "name": "Grep",
+            "input": {
+              "-C": 2,
+              "-n": true,
+              "glob": "!**/.claudian/**",
+              "head_limit": 100,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "空穴|载流子|PN结|光电效应|光伏|光电器件"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "instrument\\Multiwfn\\Multiwfn手册第一章.md-49-* **绘制总态密度、分波态密度、重叠布居态密度（TDOS、PDOS、OPDOS）和MO-PDOS。** 可以非常灵活方便地定义最多10个片段。也可以为一点绘制局域态密度（LDOS）曲线图或为一条线绘制彩色填充图。此外，完全支持基于（广义）Koopmans定理绘制光电子能谱（PES），并可计算d带和p带中心。还可以绘制晶体轨道Hamilton布居（COHP）。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-50-* **绘制各种光谱：** IR（红外）、常规/预共振Raman、UV-Vis、方向UV-Vis、ECD（电子圆二色）、VCD（振动圆二色）、拉曼光学活性（ROA）和NMR。对于振动光谱，不仅可以绘制谐波光谱，还可以绘制非谐波基频、泛频和组合频带。电子光谱可以考虑自旋-轨道耦合效应。用户可以自定义丰富的参数（展宽函数、FWHM、比例因子等）。可以打印光谱的最大值和最小值，并直接在地图上标注。可以在图形底部添加尖峰以清晰指示跃迁能级的位置和简并度。总光谱可以分解为每个跃迁的单独贡献。可以方便地同时绘制多个体系的光谱。可以轻松绘制构象加权光谱。此外，对于振动类型的光谱，可以绘制局域振动谱（PVS）以直观理解不同原子或内坐标如何参与光谱，并可绘制重叠局域振动谱（OPVS）以可视化各种项的耦合。也可以绘制局域振动态密度（PVDOS）。可以根据理论上模拟和实验测定的UV-Vis光谱精确预测化学物质显示的颜色。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md:51:* **分子表面定量分析。** 可以为整个分子表面或局域表面计算表面性质，如（总/正/负/极性/非极性）表面积、包围体积、映射函数的平均值和标准差；可以评估各种GIPF描述符和分子极性指数（MPI）；可以定位表面上映射函数的最小值和最大值；可以基于ESP计算特征区域（例如σ/π空穴和孤对电子）的面积；可以实现对分子表面上任意映射函数的类盆地分析。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-52-* **处理网格数据（可以从.cub/.grd/.vti/.dx/CHGCAR...加载或由Multiwfn直接生成）。** 用户可以对网格数据执行非常丰富的数学运算，设置特定范围内的值，提取指定平面中的数据，绘制（局域）积分和平面平均曲线，执行平移等。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-53-* **自适应自然密度划分（AdNDP）分析。** 界面是交互式的，AdNDP轨道可以直接可视化。可以获取AdNDP轨道的能量和轨道成分。\n--\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-55-* **电荷分解分析（CDA）和扩展CDA分析。** 可以绘制轨道相互作用图。可以定义无限数量的片段。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-56-* **盆地分析。** 可以为任何实空间函数定位吸引子，生成相应的盆地并同时可视化。可以在生成的盆地中积分所有实空间函数。可以计算盆地的电多极矩、盆地/原子重叠矩阵（BOM/AOM）、局域化指数（LI）和非局域化指数（DI）。可以获得原子对盆地布居的贡献。可以自动分配ELF盆地的标签。可以评估高ELF定域域布居和体积（HELP和HELV）。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md:57:* **电子激发分析：** 可视化和分析空穴-电子分布、跃迁密度、跃迁电/磁偶极矩和电荷密度差；计算空穴和电子之间的Coulomb吸引能（激子结合能）；计算Mulliken原子跃迁电荷和TrEsp（来自静电势的跃迁电荷）；将跃迁电/磁偶极矩分解为MO对贡献或基函数/原子贡献；通过JCTC, 7, 2498中提出的方法分析电荷转移；绘制原子/片段跃迁密度矩阵、跃迁偶极矩矩阵和电荷转移矩阵的热图；计算Δr指数 (JCTC, 9, 3118) 和Λ指数 (JCP, 128, 044118) 以揭示电子激发特性；计算激发态之间的跃迁电/磁偶极矩；生成自然跃迁轨道（NTOs）；计算ghost-hunter指数 (JCC, 38, 2151)；通过IFCT方法计算片段间电荷转移量；为一批激发态生成自然轨道；快速检查所有激发态的主要MO跃迁；绘制电荷转移谱 (Carbon, 187, 78)；基于电子激发的电子密度极化分析 (JPCA, 124, 633)；计算手性体系的ECD/CPL不对称因子 (g)。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-58-* **轨道定域化分析：** 支持Pipek-Mezey（基于Mulliken、Löwdin或Becke布居）和Foster-Boys定域化方法。可以推导所得LMOs的成分、能量和偶极矩，可以轻松可视化LMOs的形状和中心。此外，基于LMOs，可以通过LOBA方法 (PCCP, 11, 11297) 或修正的LOBA方法评估氧化态。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-59-* **弱相互作用的可视研究：** 相互作用区域指示器（IRI和IRI-π，Chem.-Methods, 1, 231）；RDG/NCI方法 (JACS, 132, 6498)；aNCI方法（波动环境中的非共价相互作用分析，JCTC, 9, 2226）；DORI方法 (JCTC, 10, 3745)；独立梯度模型（IGM）方法 (PCCP, 19, 17928)；基于Hirshfeld分子密度划分的IGM（IGMH）(JCC, 43, 539)；修正的IGM（mIGM，Struct. Bond., 190, 297）；平均IGM和平均修正IGM（aIGM和amIGM，Struct. Bond., 190, 297）。可以对这些实空间函数等值面包围的各个区域进行积分以进行定量分析。还支持Becke和Hirshfeld表面分析以及指纹分析。可以可视化范德华势 (J. Mol. Model., 26, 315) 并定位其极值。\n--\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-86-* 带/不带分子态近似的约化密度梯度 (RDG)\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-87-* 带/不带分子态近似的sign(λ2)ρ（电子密度Hessian矩阵的第二大特征值符号与电子密度的乘积）\ninstrument\\Multiwfn\\Multiwfn手册第一章.md:88:* 交换相关密度、相关空穴和相关因子\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-89-* 平均局域电离能 (ALIE) 和局域电子附着能 (LEAE)\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-90-* 源函数\n--\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-103-* **芳香性和电子离域分析：** 概述请参见手册4.A.3节。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-104-* **表征分子内和分子间弱相互作用：** AIM分析（键径可视化和键临界点各种性质的分析）；弱相互作用的可视化分析（NCI、IGM、IGMH、aIGM、IRI、DORI）；基于IGM或IGMH的原子和原子对δg指数；静电势（ESP）的定量分子表面分析；以各种形式绘制ESP；绘制范德华势；基于力场的能量分解分析（EDA-FF）；Hirshfeld/Becke表面分析；LOLIPOP；相互穿透距离和穿透体积分析；原子电荷和多极矩分析；电荷转移分析（密度差图、CDA、布居变化...）；ELF和核-价电子分叉（CVB）指数等。概述请参见手册4.A.5节。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md:105:* **电子激发分析：** 空穴和电子分析（分布、原子/片段/轨道贡献、质心位置、位移和重叠、激子结合能）；电荷转移分析（IFCT、密度差...）；NTO；关键MO之间的重叠和质心距离；绘制原子/片段跃迁密度矩阵和电荷转移矩阵；Δr指数；跃迁偶极矩分解为基函数/原子/片段/MO对贡献；各种激发态之间的跃迁偶极矩；跃迁原子电荷；ghost-hunter指数；揭示激发过程中电子结构（键合和布居）的变化；打印所有激发态的主要MO跃迁；绘制电荷转移谱以图形方式揭示UV-Vis光谱的本质等。概述请参见手册4.A.12节。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-106-* **预测反应位点和反应性分析：** 分子表面上的ESP和ALIE分析；原子电荷；前线分子轨道的轨道成分分析；π电子布居；轨道重叠距离函数分析；自动计算概念密度泛函理论框架中定义的所有量；评估轨道（MO、NBO、NAO等）对Fukui函数的贡献。概述请参见手册4.A.4节。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-107-* **预测分子凝聚相性质：** 使用vdW表面上的ESP分布经验性地预测汽化热、升华热、分子晶体密度、沸点、熔化热、表面张力、pKb等。可以量化分子极性。请参见手册第3.15.1节。\n--\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-740-\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-741-讲解：\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md:742:- 第一段 heredoc 用 `>` **创建**指令文件头：`18`=电子激发分析主功能；`1`=空穴-电子分析；`D-pi-A.out`=读取组态系数的 Gaussian TD 输出文件名；\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-743-- 循环里的 heredoc 用 `>>` **追加**，`$i` 会被展开成 1、2、3；\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md:744:- 每个激发态的六条指令：`$i`=激发态序号；`1`=分析空穴电子；`2`=中等质量格点；`0`=后处理菜单返回；`0`=返回主功能 18 的菜单；`1`=再进空穴-电子分析，以便处理下一个态；\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-745-- `nl` 给每行加行号（行号即激发态序号）；\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-746-- `;` 让两条命令写在同一行。\n--\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-1071-| 定量分子表面分析（Estimated density） | 12 → 0 | 已核实（3.8 dev 时代） |\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-1072-| 格点数据乘常数 | 13 → 11 → 5 → 0 导出 | 2026.7.15 实测 |\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md:1073:| 空穴-电子分析 | 18 → 1 | 已核实（3.8 dev 时代） |\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-1074-| 导出文件 / 格式转换 | 100 → 2 | 子格式序号以屏幕为准；10=gjf 视输入是否含波函数多一问（见 9.1 节） |\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-1075-\n--\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-12-\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-13-NTO的核心思想：将一个复杂的、由多个轨道跃迁组成的激发态，通过奇异值分解SVD，提取出少数几对特殊的轨道。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:14:空穴与电子：在NTO图像中，电子激发被 描述为电子从空穴轨道跃迁到电子轨道。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-15-本征值：NTO的本征值就是量化描述纯度的指标，本征值越大，代表这对NTO对激发态的贡献越大。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-16-\n--\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-18-1. 从跃迁密度矩阵出发：NTO的计算基于跃迁密度矩阵，这个矩阵描述了电子在基态和激发态之间如何重新分布。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-19-2. 数学变换：Gaussian对这个矩阵进行奇异值分解SVD。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:20:3. 得到NTO：SVD分解后，会得到两套新的正交轨道：一套代表空穴的占据NTO，一套代表电子的非占据NTO。而分解得到的奇异值的平方就是.log文件中看到的NTO的本征值。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-21-\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-22-| NTO的输出标签                | 物理意义 | 激发过程中的含义 |\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-23-| ----------------------- | ---- | -------- |\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:24:| alpha occ. eigenvalues  | 空穴轨道 | 电子离开的地方  |\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-25-| alpha virt. eigenvalues | 电子轨道 | 电子到达的地方  |\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:26:每一对占据值（空穴）和虚值（电子）的数值必须相等，这个数值是权重。最大的数字乘以100%就是这一对空穴->电子跃迁占整个激发态的百分比。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-27-\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-28-## 计算步骤\n--\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-63-1. **分子组成（最优先，大多数情况一步终结）**：n 轨道来自孤对电子，只有 N、O、S、卤素等杂原子才能提供。纯碳氢化合物不存在 n 轨道，物理上不可能有 nπ* 跃迁，所有跃迁必为 ππ*。例：DHR（C30H14 纯烃）无杂原子 → 全部 ππ*。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-64-2. **态对称性（有对称性时最干净）**：平面分子属 Cs 点群，对称面 = 分子平面。π 轨道对 σh 反对称（A″），σ/n 轨道对称（A′）。因此 ππ* 跃迁 = A″×A″ = A′；nπ* 跃迁 = A′×A″ = A″。TD 输出中的 `Excited State N: Singlet-A'` 直接给出态对称性：A′ 对应 ππ*，A″ 对应 nπ*。例：DHR S9 输出 `Singlet-A'` → ππ*。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:65:3. **轨道形状（可视化）**：平面分子中 π 轨道是垂直于分子平面的 pz 瓣（上下两朵云）；n 轨道是躺在分子平面内、朝外的孤对型轨道。用 GaussView 打开 .fchk 看 NTO 空穴轨道的形状即可区分。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:66:4. **轨道成分（定量）**：分析空穴轨道的 AO 组成（px/py/pz 占比），pz 主导 = π，平面内 sp² 孤对 = n。需 Multiwfn 等工具辅助。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-67-\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-68-## 如何判断 LE 还是 CT\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-69-\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:70:核心判据：空穴轨道与电子轨道的空间位置关系。对含多个发色团片段的分子（如双薁单元）：\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-71-\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:72:| 空穴位置 | 电子位置 | 判断 |\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-73-| --- | --- | --- |\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-74-| 同一片段 | 同一片段 | LE（局域激发） |\n--\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-77-\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-78-不用工具的辅助线索：\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:79:1. **振子强度**：纯 CT 态的空穴-电子空间重叠小、跃迁偶极矩小，通常 f < 0.1。f 大暗示 LE 特征明显（或 LE 主导的混合）。注意这只是倾向性证据，不是充分条件。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-80-2. **偶极矩变化**：CT 态伴随大电荷分离，激发态偶极矩相对基态显著变化。\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-81-\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:82:定量判据（空穴-电子重叠指数、质心距离等）需 Multiwfn 空穴-电子分析。\n--\nsci_research\\TBR\\TBR-s1.md-60-\nsci_research\\TBR\\TBR-s1.md-61-Alpha virt. eigenvalues --    0.97683 \nsci_research\\TBR\\TBR-s1.md:62:由唯一一对空穴-电子主导的激发。\nsci_research\\TBR\\TBR-s1.md-63-135：\nsci_research\\TBR\\TBR-s1.md-64-![[s1-NTO-135.png]]\n--\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md-117-2. **DQ 中性态**存在 2 个虚频（−32.42 cm⁻¹ 和 −22.81 cm⁻¹），表明该结构并非真正的势能面极小值，而是二阶鞍点（second-order saddle point）。这两个虚频对应的振动模式可能涉及甲基的内转动（hindered rotation），这类低频模式在常规的 harmonic oscillator 近似下计算误差较大。由于虚频的存在，DQ 中性态的热力学数据（尤其是振动熵）包含额外的不确定性——Gaussian 的热化学计算会忽略虚频模式，导致配分函数和熵的估计偏离真实值。\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md-118-\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md:119:3. **DQ⁻ 还原态**存在 1 个极小虚频（−4.45 cm⁻¹），其绝对值非常小（< 5 cm⁻¹），在 CPCM 连续溶剂化模型的数值噪声范围内（CPCM 的数值积分网格和溶剂空穴构建可能引入 ~10 cm⁻¹ 量级的数值误差）。从实用角度，该虚频可视为数值噪声，不影响对 DQ⁻ 结构为近似极小值的判断。\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md-120-\nphyschem-1\\zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md-121-4. **对后续分析的影响**：由于 DQ 中性态的虚频问题，DQ 的 ΔG 和 S 相关量（ΔS、TΔS）的定量精度低于 BQ 和 NQ。这一限制在数据分析中将明确标注。\n--\nsci_research\\DHR\\DHR复现-s9（水）.md-78-\nsci_research\\DHR\\DHR复现-s9（水）.md-79-  <table><tr>\nsci_research\\DHR\\DHR复现-s9（水）.md:80:  <td align=\"center\"><img src=\"s9-NTO-97.png\" width=\"380\"><br>97空穴</td>\nsci_research\\DHR\\DHR复现-s9（水）.md-81-  <td align=\"center\"><img src=\"s9-NTO-98.png\" width=\"380\"><br>98电子</td>\nsci_research\\DHR\\DHR复现-s9（水）.md-82-  </tr></table>\n--\nsci_research\\DHR\\DHR复现-s9（水）.md-85-\nsci_research\\DHR\\DHR复现-s9（水）.md-86-  <table><tr>\nsci_research\\DHR\\DHR复现-s9（水）.md:87:  <td align=\"center\"><img src=\"s9-NTO-96.png\" width=\"380\"><br>96空穴</td>\nsci_research\\DHR\\DHR复现-s9（水）.md-88-  <td align=\"center\"><img src=\"s9-NTO-99.png\" width=\"380\"><br>99电子</td>\nsci_research\\DHR\\DHR复现-s9（水）.md-89-  </tr></table>\n--\n\n[Showing results with pagination = limit: 100]"
+          },
+          {
+            "id": "call_02_PkkglH82BqzTJbXPGAxh7480",
+            "name": "Grep",
+            "input": {
+              "-i": true,
+              "glob": "!**/.claudian/**",
+              "head_limit": 60,
+              "output_mode": "files_with_matches",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "半导体|太阳能|钙钛矿|perovskite|固体物理|晶体结构|能带结构|valence band|conduction band|doping|载流子"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 2 files\nsci_research\\anti-kasha-paper\\26-8-19文献主要内容.md\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md"
+          },
+          {
+            "id": "call_00_wdLNxxKIg8reXPHUdqkp3038",
+            "name": "Grep",
+            "input": {
+              "-C": 4,
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\sci_research\\anti-kasha-paper\\26-8-19文献主要内容.md",
+              "pattern": "半导体|太阳能|钙钛矿|perovskite|固体物理|晶体结构|能带结构|valence band|conduction band|doping|载流子"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "10-\n11-### 每份文件的核心内容\n12-\n13-1. 论文一主文 (`angew ... 2019.pdf`) [[DHR概况]]\n14:- 核心内容：报道新型非苯型纳米石墨烯 DHR 的合成、晶体结构、稳定性及半导体性能。\n15:- 关键发现：DHR<mark style=\"background: #FFB8EBA6;\">完全平面</mark>、高热/空气稳定性，并表现出<mark style=\"background: #FFB8EBA6;\">反-Kasha发射</mark>和p型半导体行为（迁移率最高0.082 cm² V⁻¹ s⁻¹）。\n16-\n17-2. 论文一补充信息 (`angew ... 2019 s.pdf`)\n18-- 核心内容：为主文提供全部实验支撑数据。\n19-- 包含内容：详细的合成步骤、NMR/质谱/元素分析原始数据、单晶XRD的键长/键角表格、TGA曲线、OFET器件制备细节、<mark style=\"background: #FFB8EBA6;\">理论计算</mark>（DFT/NICS）的补充结果。"
+          },
+          {
+            "id": "call_01_YU1kaJrsYzfB58nNc9pc3034",
+            "name": "Grep",
+            "input": {
+              "-C": 3,
+              "-i": true,
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\instrument\\Multiwfn\\Multiwfn手册2.1-2.5.md",
+              "pattern": "半导体|太阳能|钙钛矿|perovskite|固体物理|晶体结构|能带结构|valence band|conduction band|doping|载流子"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "202-\n203-**.gro文件**：GROMOS结构格式。这种文件最常用于GROMACS分子动力学程序。.gro文件只能为Multiwfn提供原子信息。请注意，由于此文件记录的是原子名称而不是元素，Multiwfn在加载时会根据原子名称和残基名称自动猜测实际元素。但是，有时猜测的元素可能不正确，因此建议在加载文件后检查打印的分子式。\n204-\n205:**.cif文件**：这是记录晶体结构的标准格式。对称操作必须在此文件中明确给出，否则无法生成等价原子的位置。\n206-\n207-**Gaussian型cube文件 (.cub 或 .cube)**：这是最流行的体积数据格式，可以由大量计算化学软件生成，并且可以被大多数分子图形程序识别。此文件可以记录原子坐标、一组实空间函数网格数据或多组分子轨道网格数据。将cube文件加载到Multiwfn后，您可以选择主功能0来可视化等值面，或使用主功能13来处理网格数据。\n208-"
+          },
+          {
+            "id": "call_02_y1lT99Lx0SlIBp7DBPxb3777",
+            "name": "Glob",
+            "input": {
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "TOEFL/**/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "TOEFL\\邮件写作\\人生规划建议.md\nTOEFL\\填词\\生物-动物行为.md\nTOEFL\\学术讲座.md\nTOEFL\\模拟面试\\个人习惯与生活方式\\阅读.md\nTOEFL\\口语复述\\生活场景-咖啡机.md\nTOEFL\\口语复述\\生活场景-wifi配置.md\nTOEFL\\填词\\艺术-皮影戏.md\nTOEFL\\填词\\艺术-抽象派画作.md\nTOEFL\\邮件写作\\学校建cafe的建议.md\nTOEFL\\邮件写作\\邻居沟通.md\nTOEFL\\学科词汇.md\nTOEFL\\填词\\生物-化石燃料.md\nTOEFL\\填词\\历史-中世纪.md\nTOEFL\\学术讨论\\快时尚产品的环境问题.md\nTOEFL\\TOEFL口语要点.md\nTOEFL\\学术讨论\\学生的成绩评定.md\nTOEFL\\TOEFL写作要点.md\nTOEFL\\通用词汇.md\nTOEFL\\填词\\生物-降水.md\nTOEFL\\口语复述\\校园场景-图书馆.md\nTOEFL\\口语复述\\校园场景-实验室.md\nTOEFL\\口语复述\\校园场景-参观学校.md\nTOEFL\\口语复述\\生活场景-社区中心.md\nTOEFL\\口语复述\\生活场景-海洋馆.md"
+          },
+          {
+            "id": "call_03_Z3FNZmGUYu8w2vlaq6043507",
+            "name": "Glob",
+            "input": {
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "{index,computational-chem-tutorial,instrument,quantum*,.trash}/**/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "index\\26春-物化作业汇总.md\nindex\\26春-物化考试准备.md\n.trash\\darling\\计算化学方法与需求.md\n.trash\\darling\\DFT为什么只关注E_xc.md\nindex\\AIE论文阅读进展.md\nquantum chemistry\\变分法计算流程总结.md\nquantum chemistry\\线性变分法的基函数.md\nquantum chemistry\\原子单位制.md\nquantum chemistry\\关于微扰理论的疑问.md\n.trash\\darling\\先组轨道，再填电子的化学语言本质.md\n.trash\\darling\\Slater行列式.md\n.trash\\darling\\填电子三原则.md\nquantum chemistry\\关于简并态的讨论.md\nquantum chemistry\\定态微扰理论.md\nquantum chemistry\\含时微扰理论.md\nquantum chemistry\\变分法.md\nquantum chemistry\\光谱选律.md\nquantum chemistry\\电磁波照射下的跃迁概率公式.md\nquantum chemistry\\振子强度.md\nquantum chemistry\\激发态的平均寿命.md\ninstrument\\linux\\linux常用命令.md\ninstrument\\linux\\linux运行软件.md\nquantum chemistry\\偶极强度与吸收系数的关系.md\nindex\\Multiwfn手册.md\nquantum chemistry\\光谱分类总览.md\ninstrument\\linux\\vim使用教程.md\nquantum chemistry\\光化学基元反应.md\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md\ninstrument\\Multiwfn\\Multiwfn手册第一章.md\ninstrument\\Multiwfn\\Multiwfn手册5.2-5.5.md\ninstrument\\MOMAP\\MOMAP 4 荧光光谱计算.md\nindex\\MOMAP后处理荧光光谱+速率.md\ninstrument\\MOMAP\\MOMAP 5 NACME.md\ncomputational-chem-tutorial\\激发态和光谱计算.md\ninstrument\\MOMAP\\MOMAP 3  Duschinsky旋转矩阵和振动分析.md\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md\n.trash\\实验报告要求.md\ninstrument\\MOMAP\\MOMAP 荧光光谱与速率：完整流程与结果解读.md\nindex\\Gaussian的学习和使用.md\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md\nquantum chemistry\\Fermi黄金规则.md\ncomputational-chem-tutorial\\分子轨道的定性分析.md\nquantum chemistry\\Frank-Condon因子.md\nquantum chemistry\\简正坐标.md\ninstrument\\MOMAP\\Huang-Rhys因子与电声耦合.md\ninstrument\\MOMAP\\MOMAP 7 QC准备.md"
+          },
+          {
+            "id": "call_00_zqAMATGTJU934Wrw1SM76634",
+            "name": "Grep",
+            "input": {
+              "-i": true,
+              "glob": "!**/.claudian/**",
+              "head_limit": 40,
+              "output_mode": "files_with_matches",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "布洛赫|Bloch|波矢|k空间|费米面|费米分布|费米能级|周期势|绝缘体|掺杂|电导|霍尔|晶系|点阵|Miller|密勒"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_01_3zf2zuUkaVhahvTKL40v9055",
+            "name": "Bash",
+            "input": {
+              "command": "ls -la \"F:\\obsidian_notes\\knowledge\" && echo \"---\" && ls \"F:\\obsidian_notes\\knowledge\\physchem-1\" && echo \"---\" && ls \"F:\\obsidian_notes\\knowledge\\sci_research\"",
+              "description": "List vault top-level directories and key subfolders"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 36\ndrwxr-xr-x 1 20509 197609 0 Sep 26 10:20 .\ndrwxr-xr-x 1 20509 197609 0 Aug 18 23:35 ..\ndrwxr-xr-x 1 20509 197609 0 Jun 10 21:05 .claude\ndrwxr-xr-x 1 20509 197609 0 Jun 10 21:06 .claudian\ndrwxr-xr-x 1 20509 197609 0 Aug 11 01:34 .obsidian\ndrwxr-xr-x 1 20509 197609 0 Sep 21 11:06 .trash\ndrwxr-xr-x 1 20509 197609 0 Sep 23 21:57 TOEFL\ndrwxr-xr-x 1 20509 197609 0 Sep 21 10:47 computational-chem-tutorial\ndrwxr-xr-x 1 20509 197609 0 Aug 30 14:22 index\ndrwxr-xr-x 1 20509 197609 0 Aug 30 14:27 instrument\ndrwxr-xr-x 1 20509 197609 0 Sep  2 22:31 math\ndrwxr-xr-x 1 20509 197609 0 Sep 23 16:45 physchem-1\ndrwxr-xr-x 1 20509 197609 0 Sep 27 17:37 physchem-2\ndrwxr-xr-x 1 20509 197609 0 Sep 24 21:46 quantum chemistry\ndrwxr-xr-x 1 20509 197609 0 Sep 21 10:50 sci_research\n---\n26春_雨课堂作业题整理.md\nGaussian计算实验报告.md\nThermochemistry_in_Gaussian.md\nimages\nzyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md\n二维正方形势阱简并分析.md\n信息熵作业.md\n关于权重W.md\n关于熵增加原理.md\n孤立体系的平衡判据.md\n循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md\n拉格朗日乘数法.md\n期末考试预测.md\n构造状态函数.md\n热力学.md\n热力学第一课时.md\n熵产生普适表述热力学第二定律.md\n物化实验报告要求.md\n物化考试技巧_量纲分析与证明.md\n玻尔兹曼分布成立条件.md\n理想气体内能与压力无关的证明.md\n简并的情况总览.md\n统计力学.md\n统计力学定理成立的条件.md\n统计力学导图.canvas\n统计力学的研究系统.md\n能量均分原理证明.md\n量子力学.md\n量子力学导图.canvas\n雨课堂讨论题汇总.md\n高斯中的热化学计算-翻译.md\n---\nDHR\nTBR\nanti-kasha-paper\nimage\nreport\n聚集诱导发光（AIE）；QM"
+          },
+          {
+            "id": "call_00_zMGUahJ6KMNdz6YSddBH7787",
+            "name": "Glob",
+            "input": {
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "{math,physchem-2}/**/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "math\\The Natural Numbers.md\nphyschem-2\\8-纯物质体相性质-真实气体.md\nphyschem-2\\8-纯物质体相性质-分子间相互作用.md"
+          },
+          {
+            "id": "call_01_ruYIyhILCNPMDLcHTkC63306",
+            "name": "Grep",
+            "input": {
+              "-i": true,
+              "glob": "{math,physchem-2}/**",
+              "head_limit": 40,
+              "output_mode": "files_with_matches",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "固体|半导体|能带|晶体|晶格|布里渊|倒格|费米|Fermi|bandgap|带隙|能隙|phonon|声子|光电|光伏|薛定谔|Schr"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_00_elKUHczt28rI7K52rNdn0632",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\physchem-1\\量子力学.md",
+              "limit": 120
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 量子力学\n4\t  - 物理化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t[[量子力学导图.canvas]]\n9\t\n10\t# 量子力学基本假设\n11\t\n12\t我们学习的量子力学中的满足**良好定义**的波函数满足三个要求： ^58d8eb\n13\t1. 可归一化\n14\t2. 单值\n15\t3. 连续 \n16\t\n17\t<mark style=\"background: #ADCCFFA6;\">1</mark>.系统的状态完全由波函数定义\n18\t$$\n19\t\\begin{align}\n20\t&P=\\left|\\Phi\\right|^2=\\Phi^*\\Phi\\\\ \\\\\n21\t&\\int\\Phi^*\\Phi d\\tau=1\n22\t\\end{align}\n23\t$$\n24\t<mark style=\"background: #ADCCFFA6;\">2</mark>.对于任意可观测的物理量，都有一个对应的算符（厄米算符）。算符的本征值即为该物理量的可能测量值。\n25\t\n26\t厄米算符（自伴算符）的性质：\n27\t（1）不同本征值对应的本征波函数正交。\n28\t$$\n29\t\\begin{align}\n30\t&\\hat{H}\\Phi_{1}=E_{1}\\Phi_{1}\\qquad\\hat{H}\\Phi_{2}=E_{2}\\Phi_{2} \\qquad(E_{1}\\neq E_{2})\\\\ \\\\[3pt]\n31\t&<\\Phi_{1},\\Phi_{2}>=\\int\\Phi_{1}^*\\Phi_{2} d\\tau=0\n32\t\\end{align}\n33\t$$\n34\t（2）厄米算符的本征值全为实数，对应力学量的可能测量值。\n35\t\n36\t势能是量子系统外部影响的来源。\n37\t几种典型的势能：\n38\t（1）自由粒子：$U(x)=0$\n39\t（2）势阱：\n40\t$$U(x)=\n41\t\\begin{cases}\n42\t0\\qquad&-a\\leq x\\leq a\\\\\n43\t\\infty\\qquad&x\\geq a,x\\leq-a\\\\\n44\t\\end{cases}\n45\t$$\n46\t（3）谐振子：$U(x)=\\frac{1}{2}kx^2$\n47\t（4）中心场：$U(x)=-\\frac{ze^2}{4\\pi\\epsilon r}$\n48\t（5）光波：$U(x)=\\mu\\epsilon e^{-i\\omega t}$\n49\t\n50\t<mark style=\"background: #ADCCFFA6;\">3</mark>.算符的本征值是可能的测量值：$\\hat{A}\\psi=a\\psi$\n51\t通常在具有边界条件中，算子将有一组本征函数和本征值：$\\hat{A}\\psi_{n}=a_{n}\\psi_{n}$\n52\t\n53\t$$\n54\t\\hat{H}\\psi_{n}=E_{n}\\psi_{n}\n55\t$$\n56\tn比较小时，$E_{n}$是离散的$\\leftrightarrow$量子效应\n57\tn比较大时，$E_{n}$趋于连续$\\leftrightarrow$量子效应宏观上表现不明显\n58\t\n59\t<mark style=\"background: #ADCCFFA6;\">4</mark>.可观测的物理量的期望值\n60\t（1）若一个系统用归一化的波函数$\\psi$描述，则$<o>=\\int\\psi^*\\hat{O}\\psi d\\tau$\n61\t（2）若系统在本征态，则$<a>=\\int\\psi^*\\hat{A}\\psi dx=\\int\\psi^*a\\psi dx=a$\n62\t此时期望值是本征值，状态是确定的状态。\n63\t（3）若系统不在本征态，则每次测量有一定概率得到算符的某个本征值，\n64\t它们的平均得到$<a>$\n65\t（4）用本征态波函数生成新的非本征态的波函数，建立了非本征态与本征态的联系。\n66\t（厄米算符的本征函数构成了这个空间的一组正交归一基，空间内任何合法的波函数都可以唯一地展开为本征波函数的线性组合）\n67\t$$\n68\tf(x)=c_{1}\\psi_{1}+c_{2}\\psi_{2}+……+c_{n}\\psi_{n}\n69\t$$\n70\t系数$c_{i}$与概率有关，$\\left|c_{i}\\right|^2$代表测量该物理量是测得对应本征态$\\psi_{i}$的本征值的概率。\n71\t$$\n72\t<a>=\\left|c_{1}\\right|^2a_{1}+\\left|c_{2}\\right|^2a_{2}+……+\\left|c_{n}\\right|^2a_{n}\n73\t$$\n74\t（5）若$[\\hat{A},\\hat{B}]=\\hat{A}\\hat{B}-\\hat{B}\\hat{A}=0$，则$\\hat{A}，\\hat{B}$有相同的本征态\n75\t补充：如果 $\\hat{A}$ 存在简并，$\\hat{B}$ 的本征态可能只是简并子空间里的某种线性组合，不一定恰好是 $\\hat{A}$ 原来的那个本征态（但可以重组出来）。 ^cce281\n76\t\n77\t<mark style=\"background: #FFB86CA6;\">作业例题</mark>：\n78\t\n79\t1.若V(x)=V(-x)，则能量的本征态$\\psi(x)$是奇函数或偶函数。\n80\t证明：定义$\\hat{p}:\\hat{p}\\psi(x)=\\psi(-x)$，设$\\lambda$是$\\hat{p}$的本征值。\n81\t$$\n82\t\\begin{gather}\n83\t\\hat{p}^2\\psi(x)=\\psi(x)=\\lambda^2\\psi(x) \\qquad \\lambda=\\pm{1} \\\\ \\\\\n84\t偶函数:\\hat{p}\\psi(x)=\\psi(x) \\qquad 奇函数:\\hat{p}\\psi(x)=-\\psi(x)\\\\ \\\\\n85\t 奇函数和偶函数是\\hat{p}的本征态\\\\ \\\\\n86\t[\\hat{H},\\hat{p}]\\psi(x)=(\\hat{H}\\hat{p}-\\hat{p}\\hat{H})\\psi(x)=\\hat{H}\\psi(-x)-\\hat{p}(-\\frac{\\hbar^2}{2m}\\frac{d^2}{dx^2}+V(x))\\psi(x)\\\\ \\\\\n87\t=(-\\frac{\\hbar^2}{2m}\\frac{d^2}{dx^2}+V(x))\\psi(-x)-(-\\frac{\\hbar^2}{2m}\\frac{d^2}{dx^2}+V(x))\\psi(-x)=0\\\\ \\\\\n88\t\\Rightarrow [\\hat{H},\\hat{p}]=0\\qquad \\hat{H}，\\hat{p}有共同的本征态\\\\ \\\\\n89\t\\Rightarrow奇函数，偶函数是能量的本征态。\n90\t\\end{gather}\n91\t$$\n92\t\n93\t2.一个一维无限深势阱，位于（-a,a)。求它的本征态波函数。\n94\t$$\n95\t\\begin{gather}\n96\tV(x)=\n97\t\\begin{cases}\n98\t0 &-a<x<a\\\\\n99\t\\infty&x\\geq|a|\n100\t\\end{cases}\n101\t\\end{gather}\n102\t$$\n103\t奇函数解：设$\\psi(x)=A\\sin kx \\qquad k=\\frac{n\\pi}{2a}\\qquad n=2,4,6,\\dots$\n104\t\n105\t偶函数解：设$\\psi(x)=B\\cos kx \\qquad k=\\frac{n\\pi}{2a}\\qquad n=1,3,5,\\dots$\n106\t$$\n107\t\\begin{gather}\n108\t边界条件:\\cos ka=0\\qquad ka=\\frac{2m-1}{2}\\pi\\qquad m=1,2,3,\\dots\\qquad 令n=2m-1\\\\ \\\\\n109\t\\sin ka=0 \\qquad ka=m\\pi \\qquad m=1,2,3,\\dots \\qquad 令n=2m\\\\ \\\\\n110\t\\end{gather}\n111\t$$\n112\t能量本征值$E=\\frac{\\hbar^2n^2\\pi^2}{8ma^2}\\qquad n=1,2,3,\\dots$\n113\t\n114\t归一化：$\\int_{-a}^{a}A^2\\sin^2kx dx=1\\qquad \\int_{-a}^{a}B^2\\cos^2kxdx=1\\qquad A=B=\\sqrt{ \\frac{1}{a} }$\n115\t$$\n116\t\\begin{gather}\n117\t\\Rightarrow 本征态波函数\\psi(x)= \n118\t\\begin{cases} \n119\t\\sqrt{ \\frac{1}{a} }\\cos\\frac{n\\pi}{2a}&n=1,3,\\dots \\\\\n120\t\\sqrt{ \\frac{1}{a} }\\sin\\frac{n\\pi}{2a}&n=2,4,\\dots"
+          },
+          {
+            "id": "call_01_JPVaulGiTLosNyjAlkjK3137",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\quantum chemistry\\Fermi黄金规则.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t在[[含时微扰理论#代入方程求解|微扰]]$\\hat{H'}(t)$作用下，t1时刻处于$\\psi_{m}^0$的系数为\n8\t$$\n9\t\\begin{aligned}\n10\t&c_{m}(t_{1})=\\frac{1}{i\\hbar}\\int_{0}^{t_{1}} H'_{mn}e^{i\\omega_{mn}t}dt\\\\ \\\\\n11\t&\\omega_{mn}=\\frac{E_{m}^0-E_{n}^0}{\\hbar}\\\\ \\\\\n12\t&P_{nm}=|c_{m}(t_{1})|^2\n13\t\\end{aligned}\n14\t$$\n15\t\n16\t若微扰与时间无关：\n17\t$$\n18\t\\begin{aligned}\n19\tc_{m}(t)&=\\frac{1}{i\\hbar}H'_{mn}\\int_{0}^{t} e^{i\\omega_{mn}t}dt\\\\ \\\\\n20\t&=\\frac{H'_{mn}}{i\\hbar}\\cdot \\frac{e^{i\\omega_{mn}t}-1}{i\\omega_{mn}}\n21\t\\end{aligned}\n22\t$$\n23\t\n24\t跃迁概率\n25\t$$\n26\tP_{nm}=\\frac{|H'_{mn}|^2}{\\hbar^2}\\cdot \\frac{\\sin^2(\\omega_{mn}t/2)}{(\\omega_{mn}/2)^2}\n27\t$$\n28\t当t足够大时，这个尖峰函数趋近$\\delta$函数：\n29\t$$\n30\t\\frac{\\sin^2(\\omega_{mn}t/2)}{(\\omega_{mn}/2)^2} \\rightarrow 2\\pi t\\delta(\\omega_{mn})\n31\t$$\n32\t\n33\t---\n34\t\n35\t<mark style=\"background: #BBFABBA6;\">简单的解释：</mark>\n36\t\n37\t> [!note]- $\\delta$函数的性质\n38\t> - 从负无穷到正无穷的积分面积为1\n39\t> - 在一点有值，其他地方为0\n40\t\n41\t\n42\t积分，令$x=\\frac{\\omega_{mn}t}{2}$：\n43\t$$\n44\t\\int_{-\\infty}^{+\\infty}\\frac{\\sin^2(\\omega_{mn}t/2)}{(\\omega_{mn}/2)^2}dt=\\int_{-\\infty}^{+\\infty} \\frac{\\sin^2x}{(x / t)^2} \\frac{2}{t}dx\n45\t=2t\\int_{{-\\infty}}^{+\\infty} \\frac{\\sin^2x}{x^2}dx=2\\pi t\n46\t$$\n47\t则函数的积分面积为$2\\pi t$\n48\t\n49\t$\\omega=0$时函数取极大值$t^2$，零点为$\\pm 2\\pi /t$，峰高~$t^2$，峰宽~$\\frac{1}{t}$\n50\t\n51\t---\n52\t\n53\t跃迁概率\n54\t$$\n55\tP_{nm}=\\frac{|H'_{mn}|^2}{\\hbar^2}2\\pi t\\delta(\\omega_{mn})\n56\t$$\n57\t\n58\t跃迁速率\n59\t$$\n60\t\\frac{P_{nm}}{t}=\\frac{2\\pi}{\\hbar^2}|H'_{mn}|^2\\delta(\\omega_{mn})\n61\t$$\n62\t\n63\t$$\n64\t\\delta(\\omega_{mn})=\\delta\\left( \\frac{E_{m}^0-E_{n}^0}{\\hbar} \\right)=\\hbar \\delta(E_{m}^0-E_{n}^0)\n65\t$$\n66\t\n67\t则跃迁速率为\n68\t$$\n69\t\\frac{P_{nm}}{t}=\\frac{2\\pi}{\\hbar}|H'_{mn}|^2\\delta(E_{m}^0-E_{n}^0)\n70\t$$\n71\t\n72\t只有当$E_{m}^0=E_{n}^0$（终态能量与始态相等）时，跃迁速率才不为0.\n73\t因此终态需要落在连续谱区间内才能跃迁。\n74\t\n75\t引入态密度$\\rho(E)$：单位能量间隔内的状态数\n76\t\n77\t<mark style=\"background: #FFB86CA6;\">Fermi黄金规则</mark>：\n78\t\n79\t跃迁速率\n80\t$$\n81\t\\begin{aligned}\n82\t\\Gamma_{n\\to f}&=\\frac{2\\pi}{\\hbar}|H'_{fn}|^2\\int\\delta(E_{m}^0-E_{n}^0)\\rho(E_{m}^0)dE_{m}^0\\\\ \\\\\n83\t&=\\frac{2\\pi}{\\hbar}|H'_{fn}|^2\\rho(E_{f})\n84\t\\end{aligned}\n85\t$$\n86\t\n87\t<mark style=\"background: #BBFABBA6;\">说明：</mark>\n88\t\n89\t-  t要足够长， $\\sin^2$因子才能 $\\delta$函数化（要求$t\\gg \\hbar / \\Delta E$ ，$\\Delta E$为终态能级间隔）；\n90\t- 但一级微扰近似要求跃迁概率远小于 1（弱微扰），即 $t\\ll \\hbar / |H'_{mn}|$。\n91\t\n92\t两条同时成立，即微扰矩阵元远小于能级间隔、态密度足够大。如果微扰太强（矩阵元大）或终态太稀疏，黄金规则失效。"
+          },
+          {
+            "id": "call_02_M3xvk6FYVwJeidoUNkoi2807",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\instrument\\MOMAP\\Huang-Rhys因子与电声耦合.md",
+              "limit": 200
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\t  - 量子力学\n5\tCategory:\n6\t  - 讲义\n7\t---\n8\t\n9\t# Huang-Rhys 因子与电声耦合\n10\t\n11\t## 1. Huang-Rhys 因子的物理定义\n12\t\n13\tHuang-Rhys 因子 $S_k$（笔记中常记为 HR）描述的是第 $k$ 个振动模式在电子跃迁过程中平均激发的振动量子数。它量化了电子态改变时，<mark style=\"background: #ABF7F7A6;\">原子核平衡位置发生位移</mark>所导致的振动激发程度。\n14\t\n15\t两种常用的等价表达式为：\n16\t\n17\t$$\n18\tS_k = \\frac{1}{2}\\delta_k^2\n19\t$$\n20\t\n21\t其中 $\\delta_k$ 为**无量纲位移**。\n22\t\n23\t$$\n24\tS_k = \\frac{\\omega_k \\Delta Q_k^2}{2\\hbar}\n25\t$$\n26\t\n27\t其中 $\\Delta Q_k$ 为该模式在两个电子态势能面之间的[[简正坐标|简正坐标位移]]，$\\omega_k$ 为振动频率。\n28\t\n29\t> [!note] 核心结论\n30\t> $S_k$ 越大，说明电子跃迁时该<mark style=\"background: #ABF7F7A6;\">振动模式被激发的程度</mark>越高，光谱中出现的振动子峰越强。\n31\t\n32\t---\n33\t\n34\t## 2. 严格量子力学推导\n35\t\n36\t### 2.1 两电子态的谐振子势能面\n37\t\n38\t考虑第 $k$ 个振动模式，其初态（$i$）和末态（$f$）的谐振子势能面分别为：\n39\t\n40\t$$\n41\tV_i = \\frac{1}{2}\\omega_k^2 Q_k^2\n42\t$$\n43\t\n44\t$$\n45\tV_f = \\frac{1}{2}\\omega_k^2 (Q_k - \\Delta Q_k)^2 + E_{ad}\n46\t$$\n47\t\n48\t其中 $E_{ad}$ 为绝热激发能，$\\Delta Q_k$ 为两态势能面平衡位置的简正坐标位移。\n49\t\n50\t### 2.2 无量纲位移与产生湮灭算符\n51\t\n52\t引入无量纲位移：\n53\t\n54\t$$\n55\t\\delta_k = \\sqrt{\\frac{\\omega_k}{\\hbar}} \\Delta Q_k\n56\t$$\n57\t\n58\t利用谐振子的产生/湮灭算符 $a^\\dagger, a$，简正坐标可写为：\n59\t\n60\t$$\n61\tQ_k = \\sqrt{\\frac{\\hbar}{2\\omega_k}}(a^\\dagger + a)\n62\t$$\n63\t\n64\t初态（$i$）的振动基态记为 $|\\\\chi_{i,0}\\\\rangle$，对应真空态 $|0\\\\rangle$。末态（$f$）的势能面相对于初态发生了平移，其基态可通过**位移算符**（Displacement Operator）作用在初态基态上得到：\n65\t\n66\t$$\n67\tD(\\\\alpha) = \\\\exp(\\\\alpha a^\\dagger - \\\\alpha^* a), \\\\quad \\\\alpha = \\\\frac{\\delta_k}{\\sqrt{2}}\n68\t$$\n69\t\n70\t末态势能面的第 $v$ 个振动本征态与初态基态的重叠积分即为 Franck-Condon 因子：\n71\t\n72\t$$\n73\t\\\\langle \\\\chi_{f,v} | \\\\chi_{i,0} \\\\rangle = \\\\langle v | D(\\\\alpha) | 0 \\\\rangle\n74\t$$\n75\t\n76\t### 2.3 Franck-Condon 因子的解析形式\n77\t\n78\t位移算符作用在真空态上产生一个相干态：\n79\t\n80\t$$\n81\tD(\\\\alpha)|0\\\\rangle = |\\\\alpha\\\\rangle = e^{-|\\\\alpha|^2/2} \\\\sum_{v=0}^{\\\\infty} \\\\frac{\\\\alpha^v}{\\\\sqrt{v!}} |v\\\\rangle\n82\t$$\n83\t\n84\t因此，一维 Franck-Condon 因子的模方可直接读出：\n85\t\n86\t$$\n87\t|\\\\langle v | 0 \\\\rangle|^2 = \\\\frac{e^{-S_k} S_k^v}{v!}, \\\\quad S_k = |\\\\alpha|^2 = \\\\frac{\\delta_k^2}{2}\n88\t$$\n89\t\n90\t这正是**泊松分布**（Poisson distribution）！\n91\t\n92\t### 2.4 平均振动量子数\n93\t\n94\t由泊松分布的统计性质，其均值为：\n95\t\n96\t$$\n97\t\\\\langle v \\\\rangle = \\\\sum_{v=0}^{\\\\infty} v \\\\cdot \\\\frac{e^{-S_k} S_k^v}{v!} = S_k\n98\t$$\n99\t\n100\t> [!tip] 关键推导结果\n101\t> Huang-Rhys 因子 $S_k$ 的严格量子力学意义即为：电子跃迁后，第 $k$ 个振动模式平均被激发的振动量子数。\n102\t\n103\t---\n104\t\n105\t## 3. 与重组能的关系\n106\t\n107\t单模式重组能 $\\lambda_k$ 定义为将该模式从初态平衡位置移动到末态平衡位置所需的能量，它与 Huang-Rhys 因子的关系极为简洁：\n108\t\n109\t$$\n110\t\\\\lambda_k = S_k \\\\cdot \\\\hbar\\\\omega_k\n111\t$$\n112\t\n113\t对所有振动模式求和，得到**总重组能**：\n114\t\n115\t$$\n116\t\\\\lambda = \\\\sum_k \\\\lambda_k = \\\\sum_k S_k \\\\hbar\\\\omega_k\n117\t$$\n118\t\n119\t> [!note] 重组能的物理图像\n120\t> 重组能反映了两个电子态势能面在几何结构上的差异所带来的能量代价。重组能越大，说明跃迁前后的几何变化越剧烈，Stokes 位移也越大。\n121\t\n122\t---\n123\t\n124\t## 4. 在 Fermi 黄金规则中的角色\n125\t\n126\t分子体系中的辐射或非辐射跃迁速率通常由 Fermi 黄金规则给出：\n127\t\n128\t$$\n129\t\\\\Gamma = \\\\frac{2\\\\pi}{\\\\hbar}|H'|^2 \\\\rho(E_f)\n130\t$$\n131\t\n132\t其中 $H'$ 为微扰哈密顿量。在分子体系中，终态密度 $\\rho(E_f)$ 被替换为**Franck-Condon 加权态密度**（Franck-Condon Weighted Density of States, FCWD），它综合了所有振动模式的贡献：\n133\t\n134\t$$\n135\t\\\\text{FCWD} = \\\\sum_{\\\\{v_k\\\\}} \\\\left( \\\\prod_k \\\\frac{e^{-S_k} S_k^{v_k}}{v_k!} \\\\right) \\\\delta\\\\left(E_{i,0} - E_{f,\\\\{v_k\\\\}}\\\\right)\n136\t$$\n137\t\n138\t> [!warning] Huang-Rhys 因子的核心作用\n139\t> FCWD 中每个振动模式的贡献以泊松分布 $e^{-S_k}S_k^{v_k}/v_k!$ 的形式出现。因此，$S_k$ 直接决定了各振动子峰的相对强度：$S_k$ 大的模式，其 $v_k \\\\geq 1$ 的峰越强。\n140\t\n141\t---\n142\t\n143\t## 5. MOMAP 中的具体体现\n144\t\n145\tMOMAP 的 `evc` 模块完成电声耦合计算后，会在 `evc.cart.dat` 文件中输出各振动模式的耦合信息。各列含义如下：\n146\t\n147\t| 列名 | 符号 | 物理含义 |\n148\t| :--- | :--- | :--- |\n149\t| `freq` | $\\omega_k$ | 振动频率（单位通常为 cm⁻¹） |\n150\t| `D` | $\\Delta Q_k$ | 质量加权坐标位移 |\n151\t| `delta` | $\\delta_k$ | 无量纲位移 |\n152\t| `HR` | $S_k = \\\\frac{1}{2}\\\\delta_k^2$ | Huang-Rhys 因子 |\n153\t| `lam` | $\\lambda_k = \\\\text{HR} \\\\cdot \\\\hbar\\\\omega_k$ | 该模式的重组能 |\n154\t\n155\t> [!warning] 注意平动转动伪模式\n156\t> `evc.cart.dat` 文件的前 6 行对应平动和转动伪模式（频率接近 0），这些不是真实的分子振动，在分析 Huang-Rhys 因子和重组能时必须忽略。\n157\t\n158\t典型的数据读取方式：从第 7 行开始，筛选 `HR` 值显著大于 0 的模式，这些模式对光谱的振动精细结构有实质性贡献。\n159\t\n160\t---\n161\t\n162\t## 6. 物理图像与判断标准\n163\t\n164\t根据 Huang-Rhys 因子的大小，可以定性判断该模式在光谱中的表现：\n165\t\n166\t| HR 取值范围 | 物理图像 | 光谱表现 |\n167\t| :--- | :--- | :--- |\n168\t| **HR ≈ 0** | 该模式在跃迁中几乎不被激发 | 对振动结构无贡献，$v=0$ 峰占绝对主导 |\n169\t| **HR ≈ 1** | 振动激发程度中等 | 0-0、0-1、0-2 等峰的强度可比，振动结构明显 |\n170\t| **HR ≫ 1** | 多声子过程主导 | 谱带显著变宽，出现大量高量子数振动峰，Stokes 位移大 |\n171\t\n172\t> [!example] 举例\n173\t> 若第 15 个模式的 HR 为 1.2，而其余模式的 HR 均小于 0.1，则荧光光谱中 0-1 峰将主要对应第 15 个模式的单量子激发，该振动峰将成为光谱中最显著的振动子峰。\n174\t\n175\t---\n176\t\n177\t## 7. 与 Duschinsky 旋转的区分\n178\t\n179\tHuang-Rhys 因子与 Duschinsky 旋转是描述电声耦合的两个独立但互补的概念：\n180\t\n181\t| 概念 | 数学描述 | 物理图像 |\n182\t| :--- | :--- | :--- |\n183\t| **Huang-Rhys 因子** | $S_k = \\\\frac{1}{2}\\\\delta_k^2$ | 描述**同一振动模式**在两个电子态势能面上的平衡位置**位移**（平移） |\n184\t| **Duschinsky 旋转** | $\\mathbf{Q}_f = \\\\mathbf{J} \\\\mathbf{Q}_i + \\\\boldsymbol{\\\\Delta}$ | 描述**不同振动模式之间**的混合（旋转），即两个电子态的简正坐标系不完全平行 |\n185\t\n186\t> [!note] 综合作用\n187\t> 两者共同决定光谱的振动精细结构：HR 决定\"峰有多强\"，Duschinsky 旋转决定\"峰之间如何混合\"。在简谐近似且 Duschinsky 效应较弱时，光谱可近似为各模式独立泊松分布的卷积。\n188\t\n189\t---\n190\t\n191\t## 8. 相关笔记链接\n192\t\n193\t- [[Fermi黄金规则]]\n194\t- [[MOMAP 3  Duschinsky旋转矩阵和振动分析]]\n195\t- [[MOMAP 荧光光谱与速率：完整流程与结果解读]]\n196\t- [[MOMAP 4 荧光光谱计算]]\n197\t- [[MOMAP 5 NACME]]\n198\t"
+          },
+          {
+            "id": "call_00_kMHaByfrdaETqYIBZlFQ0630",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "head_limit": 80,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\physchem-1\\量子力学.md",
+              "pattern": "^#{1,4}\\s"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "10:# 量子力学基本假设\n125:# 基本粒子模型\n127:## 一维势阱\n214:## 二维势阱\n253:## 谐振子\n306:## 环上粒子\n353:## 球体上的粒子（刚性转子模型）\n401:# 原子和分子中的应用\n403:## 氢原子（一个电子的系统）\n471:## 电子自旋\n527:## 氦原子（多粒子系统）\n583:## 泡利不相容原理\n652:## 分子轨道理论（$H_{2}^+$分子）"
+          },
+          {
+            "id": "call_01_bKUrN31gAbTZqj1uTYBt0901",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "head_limit": 80,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\physchem-1\\统计力学.md",
+              "pattern": "^#{1,4}\\s"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "11:# 统计力学的目标\n16:# 基本假设\n23:# 熵\n25:## 微观状态\n42:## 最可几分布\n57:## 玻尔兹曼熵公式（基本假设）\n66:## 熵增加原理\n87:## 温度\n154:# 玻尔兹曼分布\n156:## 介绍\n214:## 说明\n221:## 特性\n231:## $kT$ ($RT$) 的物理意义\n245:## 最大法推导玻尔兹曼分布\n323:# 物质体系微观运动的基本规律\n325:## 形式\n327:###  分子平动\n333:### 分子转动\n346:### 分子振动\n356:### 电子与核运动\n360:## 独立性与耦合性\n371:# 配分函数\n373:## 析因子性质\n393:## 意义\n398:## 不同形式的配分函数\n400:### 平动配分函数\n402:#### 公式推导\n438:#### 特点\n447:### 转动配分函数\n449:#### 公式推导\n472:#### 分子对称数$\\sigma$\n504:#### 特征温度的物理意义\n513:#### 特点\n521:### 振动配分函数\n523:#### 公式推导\n556:### 电子运动的配分函数\n586:### 核运动的配分函数\n592:### 平动、转动和振动对比\n602:### 能量均分原理\n612:## 能量零点选择的影响\n637:## 与系统总能量的关系\n639:### 公式推导\n675:## 不同运动形式对热能的贡献\n677:### $U_t^0$ 平动热能\n694:### $U_r^0$ 转动热能\n702:###  $U_v^0$ 振动热能\n720:### 推论\n765:## 不同运动形式对定容热容的贡献\n767:### 公式推导\n790:### 推论\n801:## 与熵的关系\n803:#### 定域子系统\n835:#### 离域子系统\n866:#### 系统熵的分解\n890:### 吉布斯悖论\n906:# 吉布斯熵\n934:# 香农信息熵"
+          },
+          {
+            "id": "call_02_hNN3NaAqSwXav10zZX3N2342",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\physchem-1\\统计力学.md",
+              "limit": 80
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 统计力学\n4\t  - 物理化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t[[统计力学定理成立的条件]]\n9\t[[统计力学的研究系统]]\n10\t[[统计力学导图.canvas]]\n11\t# 统计力学的目标\n12\t\n13\t1. 对于一个有<mark style=\"background: #BBFABBA6;\">大量粒子</mark>组成的体系，在相当长的时间尺度上，系统的所有粒子在各个形式的运动能态上的分布状况？\n14\t2. 这种分布与宏观系统的性质有什么关系？\n15\t\n16\t# 基本假设\n17\t\n18\t1. 等概率假定：所有满足系统边界条件的微观状态，其出现概率相等。\n19\t2. 遍历态假定：无论系统在初始处于哪个状态，经过足够长的时间，一定会遍历所有状态，且在每一个状态上存在的时间相等。\n20\t3. 玻尔兹曼方程：$S=k\\ln\\omega$\n21\t[[统计力学#玻尔兹曼熵公式（基本假设）]]\n22\t\n23\t# 熵\n24\t\n25\t## 微观状态\n26\t\n27\t1. **分布**：一组宏观约束条件下，描述粒子在能级上占据数目的集合\n28\t2. **微观状态**：系统内所有粒子的状态被完全精确指定的状态\n29\t3. **微观状态数** ：微观状态的量\n30\t\n31\t<mark style=\"background: #BBFABBA6;\">**粒子是否可区分：**</mark>\n32\t1. 经典统计：定域子系统，靠位置坐标区分 (晶体：晶格上的原子被固定，波函数的重叠积分趋近于0)\n33\t2. 量子统计：非定域系统，不能区分 (气体，电子：波函数可重叠  )  \n34\t\n35\t<mark style=\"background: #BBFABBA6;\">**$\\omega$计算（可区分）**：</mark>\n36\t1. 一个系统含$N$个粒子，$n$个能级，第$i$个能级上粒子数为$N_{i}$\n37\t$$\n38\t\\omega=\\frac{N!}{\\prod_{i=1}^nN_{i}!}\n39\t$$\n40\t2. 分母的意义 ：能级内部粒子的排列方式不可分辨\n41\t3. 无简并的情况下，若粒子不可区分，则$\\omega=1$。\n42\t## 最可几分布\n43\t\n44\t1. 最可几分布：具有最大微观结构数/最大权重的分布方式。可以代表体系，决定了体系的宏观性质\n45\t2. 系统最终必然在最可几分布附近 (到达平衡态)\n46\t3. 系统自发偏离到较低熵态的时间间隔远比加速回归时间。在有限人类观测尺度上，那极小概率事件等同于不可能事件\n47\t\n48\t```mermaid\n49\tflowchart LR\n50\tA[低概率状态\n51\t（低微观状态数）] --> |自发不可逆| B[高概率状态\n52\t（高微观状态数）]\n53\tC(低熵态) --> |自发不可逆| D(高熵态)\n54\t```\n55\t\n56\t[[雨课堂讨论题汇总#2. 最可几分布的微观状态数]]\n57\t## 玻尔兹曼熵公式（基本假设）\n58\t\n59\t$$\n60\tS=k\\ln \\omega\n61\t$$\n62\t- 熵是一个宏观状态的微观结构数的另一种数学描述\n63\t- 熵和权重$W$具有物理化学意义上的同质性\n64\t[[关于权重W]]\n65\t\n66\t## 熵增加原理\n67\t\n68\t> [!tips]\n69\t>熵增加原理**只对孤立系统（或绝热封闭系统）的熵本身**直接成立；对于其他系统，**系统的熵可升可降，唯一的普遍要求是系统内部的熵产生$d_iS \\ge 0$，这也是热力学第二定律的最核心形式。**\n70\t\n71\t[[关于熵增加原理]]\n72\t\n73\t对于一个宏观系统，如果不受到环境扰动，那么该系统总是自发不可逆地朝熵增加的方向发展。当系统达到最可几宏观状态时，系统的熵达到最大，系统也就达到了平衡态。\n74\t\n75\t---\n76\t\n77\t$$\n78\t对孤立系统：\\Delta S \\geq 0\n79\t$$\n80\t"
+          },
+          {
+            "id": "call_00_eia2w5w91T64Zx6pQVVQ0568",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\quantum chemistry\\关于微扰理论的疑问.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 第一个问题\n8\t\n9\t## Q1：为什么可以按照 λ 的幂级数展开？\n10\t\n11\t这是一个**数学假定（ansatz）**，不是什么都能展开的喵。它的合理性来自两个前提：\n12\t\n13\t1. **微扰算符有天然的小参量**：$\\hat{H} = \\hat{H}^0 + \\lambda\\hat{H}'$，λ 是一个\"刻度\"参数——λ=0 就是无微扰体系，λ=1 就是真实体系。当我们说\"微扰很小\"，意思是 $\\hat{H}'$ 对能级和波函数的修正远小于无微扰体系的量。既然\"λ 从小变到大\"是连续的，把解写成 λ 的幂级数就合理。\n14\t\n15\t2. **解析性的假设**：我们假设 $E_k(\\lambda)$ 和 $\\psi_k(\\lambda)$ 在 λ=0 附近是**解析函数**（无穷阶可导，Taylor 展开收敛）。数学上这叫\"正则微扰理论\"。大多数物理体系满足这个条件——但不是全部。比如超导的 BCS 理论，能隙 $\\Delta \\sim e^{-1/g}$，在 $g=0$ 处是**本性奇点**，无法做 Taylor 展开——这就是\"非微扰效应\"喵。\n16\t\n17\t## Q2：实际的微扰项长什么样子？\n18\t\n19\t笔记里氦原子的例子就是典型的：$\\hat{H}' = \\frac{1}{r_{12}}$（电子间排斥能）。微扰项**不是**自己被展开成幂级数——它就是一个固定的算符 $\\hat{H}'$。被展开的是**解**（$E_k$ 和 $\\psi_k$）：\n20\t\n21\t$$\n22\tE_k(\\lambda) = E_k^0 + \\lambda E_k' + \\lambda^2 E_k'' + \\dots\n23\t$$\n24\t其他常见的微扰项举例：\n25\t\n26\t| 体系                            | $\\hat{H}'$               | 物理含义               |\n27\t| ----------------------------- | ------------------------ | ------------------ |\n28\t| 氦原子                           | $1/r_{12}$               | 电子间库仑排斥            |\n29\t| [[关于简并态的讨论#Stark效应\\|Stark效应]] | $e\\mathcal{E}z$          | 外电场与电偶极矩的耦合        |\n30\t| Zeeman 效应                     | $\\frac{eB}{2m}L_z$       | 外磁场与轨道角动量的耦合       |\n31\t| 相对论修正                         | $-\\frac{p^4}{8m^3c^2}$ 等 | 动能和自旋-轨道耦合的狭义相对论修正 |\n32\t\n33\t\n34\t## Q3：λ 到底在干什么\n35\t\n36\t问题的起点是：$\\hat{H} = \\hat{H}^0 + \\hat{H}'$，其中 $\\hat{H}^0$ 精确可解，$\\hat{H}'$ 很小。我们想求 $\\hat{H}$ 的本征值和本征函数。\n37\t\n38\t如果直接把 $\\hat{H}^0 + \\hat{H}'$ 代进方程，我们**没办法一次性解出来**——太复杂了。\n39\t\n40\t那怎么办？既然 $\\hat{H}'$ 很小，直觉上 $\\hat{H}$ 的解应该很接近 $\\hat{H}^0$ 的解，只差一点点修正。于是写成：\n41\t\n42\t$$\n43\t\\begin{aligned}\n44\t\\psi_k &= \\psi_k^0 + \\psi_k' + \\psi_k'' + \\dots \\\\\n45\tE_k   &= E_k^0   + E_k'   + E_k''   + \\dots\n46\t\\end{aligned}\n47\t$$\n48\t\n49\t现在问题来了：代进 Schrödinger 方程：\n50\t\n51\t$$\n52\t(\\hat{H}^0 + \\hat{H}')(\\psi_k^0 + \\psi_k' + \\psi_k'' + \\dots) = (E_k^0 + E_k' + E_k'' + \\dots)(\\psi_k^0 + \\psi_k' + \\psi_k'' + \\dots)\n53\t$$\n54\t\n55\t展开以后，你怎么知道哪些项跟哪些项是一组的？比如 $\\hat{H}'\\psi_k^0$ 这一项，它是\"一级小\"还是\"零级\"？$\\hat{H}^0\\psi_k'$ 呢？**没有任何标记，你无法把方程按不同精度层级拆开。**\n56\t\n57\tλ 的作用就是这个标记。在每个修正量前面塞一个 λ 的幂：\n58\t\n59\t$$\n60\t\\begin{aligned}\n61\t\\psi_k &= \\psi_k^0 + \\lambda\\psi_k' + \\lambda^2\\psi_k'' + \\dots \\\\\n62\tE_k   &= E_k^0   + \\lambda E_k'   + \\lambda^2 E_k''   + \\dots\n63\t\\end{aligned}\n64\t$$\n65\t\n66\t代进方程后，λ 的幂次直接告诉你\"这一项包含了几次 $\\hat{H}'$ 的贡献\"：\n67\t\n68\t- **λ⁰**（没有 λ）：$\\hat{H}^0\\psi_k^0$ 和 $E_k^0\\psi_k^0$——零级，跟 $\\hat{H}'$ 无关。\n69\t- **λ¹**（一次 λ）：$\\hat{H}'\\psi_k^0$、$\\hat{H}^0\\psi_k'$、$E_k^0\\psi_k'$、$E_k'\\psi_k^0$——都恰好包含一次微扰的影响。\n70\t- **λ²**（二次 λ）：包含两次微扰的影响。\n71\t\n72\t然后令每个 λ 幂次的系数分别等于零，方程就被拆成了一个个**可以逐个求解**的层次：\n73\t\n74\t- λ⁰ 方程：$\\hat{H}^0\\psi_k^0 = E_k^0\\psi_k^0$ → 已知，不用解\n75\t- λ¹ 方程：含 $\\psi_k'$ 和 $E_k'$ → 用已知的 $\\psi_k^0$、$E_k^0$ 解出来\n76\t- λ² 方程：含 $\\psi_k''$ 和 $E_k''$ → 用上一轮的结果继续解\n77\t\n78\t**到最后令 λ = 1**，幂级数就变回了我们原来想要的修正量。λ 的使命到此结束喵。\n79\t\n80\t\n81\t## Q4：收敛性是假定吗？必须收敛吗？\n82\t\n83\t**是假定的一部分，而且确实必须收敛喵。**\n84\t\n85\t严格来说，微扰级数在很多量子体系中其实**是渐近级数（asymptotic series）而非真正收敛的级数**——意思是最初几项越来越精确，但加多了反而发散。不过：\n86\t\n87\t- 对于低阶微扰（一级、二级），绝大多数化学问题里级数表现得**像收敛的**，精度足够实用。\n88\t- 如果根本不收敛（比如两个能级\"近简并\"时非简并微扰公式分母趋近于零），说明**微扰理论的假设就不成立**，需要改用简并微扰或其他方法。\n89\t\n90\t你说的\"必须收敛，保证波函数可归一化、能量有限\"——对，这正是物理上的必要条件。如果级数发散，ψ 的模方趋于无穷大，波函数就丧失了概率诠释喵。\n91\t\n92\t# 第二个问题\n93\t\n94\t## Q5：为什么 ψ' 的展开包含简并态以外的波函数？\n95\t\n96\t因为 $\\{\\psi_j^0\\}$ 是**完备集**——不全用上就没法精确表达任意函数。$\\psi'$ 是 Schrödinger 方程的一个未知解，它不一定在简并子空间里。物理上，微扰 $\\hat{H}'$ 会把简并态与**其他所有态**耦合起来，所以 $\\psi'$ 在简并子空间之外也有分量喵。\n97\t\n98\t## Q6：为什么零级波函数只取简并态的线性组合？\n99\t\n100\t核心原因：**把 λ→0 取极限**。\n101\t\n102\t$$\n103\t\\psi = \\sum_{j=1}^m c_j \\psi_j^0 + \\lambda\\psi' + \\dots\n104\t$$\n105\t\n106\t当 $\\lambda \\to 0$ 时，$\\psi \\to \\sum_{j=1}^m c_j\\psi_j^0$。也就是说，零级波函数必须是**无微扰简并能级的本征函数**。而简并子空间里**任意线性组合**都是该能级的本征函数——所以零级项写成一个未定系数的线性组合，系数的值由微扰决定（通过久期方程）。\n107\t\n108\t那非简并态去哪了？它们在 $\\lambda\\psi'$（一级修正）以及更高阶项里。因为它们的能量和 $E_1^0$ 不同，不能出现在 λ=0 的极限中——否则 $\\hat{H}^0\\psi^0 = E^0\\psi^0$ 就不成立了喵。\n109\t\n110\t# 第三个问题\n111\t\n112\t## Q7：零级波函数的选择标准是什么？\n113\t\n114\t1. 是$\\hat{H}^0$的本征函数\n115\t2. 简并子空间内正交归一\n116\t3. $\\hat{H}'$再简并子空间内对角化(没有看懂是为什么？？)\n117\t\n118\t# 第四个问题\n119\t\n120\t## Q8： 选择定则是什么？\n121\t\n122\t选择定则就是**判定一个积分是否为零的对称性法则**喵。\n123\t\n124\t在微扰计算中，我们需要算矩阵元：\n125\t\n126\t$$\n127\tH'_{jk} = \\int \\psi_j^{0*} \\, \\hat{H}' \\, \\psi_k^0 \\, d\\tau\n128\t$$\n129\t\n130\t如果被积函数整体的对称性不对，积分结果直接就是零。\n131\t\n132\t再多一点就看不懂了喵不嘻嘻\n133\t\n134\t## Q8：为什么氢原子本征态分这三类？\n135\t\n136\t这是**氢原子 $\\hat{H}^0$ 本身能谱的本征结构**喵。\n137\t\n138\t氢原子的定态 Schrödinger 方程：\n139\t\n140\t$$\n141\t\\left(-\\frac{1}{2}\\nabla^2 - \\frac{1}{r}\\right) \\psi = E\\psi\n142\t$$\n143\t\n144\t解这个方程，$E$ 的取值范围决定了态的性质：\n145\t\n146\t```\n147\tE ↑\n148\t  ┃\n149\t0 ┃━━━━━━━━━━━━ 电离阈 (ionization threshold)\n150\t  ┃  ↓ 连续谱 (continuum): E > 0, 任意值, 电子自由\n151\t  ┃\n152\t  ┃  ↓ 激发束缚态: E = -1/(2n²), n=3,4,5,...\n153\t  ┃  ↓ 激发束缚态: E = -1/8, n=2 (4重简并)\n154\t  ┃  ↓ 基态: E = -1/2, n=1\n155\t  ┃\n156\t```\n157\t\n158\t- **基态**（$n=1$，$E=-\\frac{1}{2}$）：能量最低的束缚态，电子最靠近原子核，最\"紧\"地束缚着。\n159\t- **激发束缚态**（$n=2,3,4,\\dots$，$E=-\\frac{1}{2n^2}$）：能量较高但还是负的——电子没有足够能量逃离原子核的吸引，仍然是束缚的。能级分立，越来越密。\n160\t- **连续谱**（$E>0$）：电子能量超过电离阈，不再被束缚——这就是电离态、散射态。能量可以取**任意正值**（不是分立的），所以叫\"连续谱\"。\n161\t\n162\t为什么完备集必须包括连续谱？因为 $\\hat{H}^0$ 是 Hermitian 算符，它的**全体**本征函数才构成 Hilbert 空间的完备基。丢掉连续谱，展开就不完整了。只是实际计算中，$E > 0$ 的态能量差很大（分母 $E_1^0 - E_j^0$ 大），贡献通常很小，所以近似计算里往往只保留前几个束缚态就够用了喵。\n163\t"
+          },
+          {
+            "id": "call_01_PfyqM3rjoAcA07fGLY8u0437",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\computational-chem-tutorial\\分子轨道的定性分析.md",
+              "limit": 100
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 总览\n8\t\n9\t分子轨道分析角度：\n10\t\n11\t- 垂直于键径的截面：成键，反键，能量\n12\t- 形状：s, p, d 轨道成分\n13\t- 过键径的截面：$\\sigma, \\pi, \\delta$   化学键类型与强度\n14\t\n15\t\n16\t# 分子轨道的截面\n17\t\n18\t##  垂直于键径的截面\n19\t\n20\t轨道垂直于化学键的截面数，表征该电子波的动能。截面数越多，动能越大。\n21\t\n22\t> 截面数越多，频率越大，$E=h\\nu$ 动能越大。\n23\t> 类似[[量子力学#一维势阱]]，n越大（频率越大），动能越大。\n24\t\n25\t![[orbital-analysis-1.jpg]]\n26\t\n27\t\n28\t## 截面对化学键的影响\n29\t\n30\t截面越多越不利于成键。\n31\t所有占据分子轨道的贡献加和就是化学键的键级。\n32\t\n33\t> 一个占据分子轨道若在原子A-B之间出现截面，对A-B有负贡献\n34\t> 一个占据分子轨道若在原子A-B之间有分布，则对A-B有正贡献\n35\t\n36\t\n37\t# 分子轨道的取向和形状\n38\t\n39\t只需看是否有过键径的截面。头碰头$\\sigma$，肩并肩$\\pi$（有过化学键的截面）\n40\t截面差不多时，$\\sigma$能量较低，因为头碰头的重叠程度>肩并肩\n41\t\n42\t![[orbital-analysis-2.jpg]]"
+          },
+          {
+            "id": "call_02_DG1qMCmlWjJ5n5hG1SYI5681",
+            "name": "Grep",
+            "input": {
+              "-A": 3,
+              "glob": "!**/.claudian/**",
+              "head_limit": 60,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "^tags:"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "math\\The Natural Numbers.md:2:tags:\nmath\\The Natural Numbers.md-3-  - math\nmath\\The Natural Numbers.md-4-Category:\nmath\\The Natural Numbers.md-5-  - 笔记\n--\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md:2:tags:\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-3-  - 计算化学\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-4-  - Gaussian\ncomputational-chem-tutorial\\激发态和光谱计算2-NTO分析.md-5-Category:\n--\ncomputational-chem-tutorial\\激发态和光谱计算.md:2:tags:\ncomputational-chem-tutorial\\激发态和光谱计算.md-3-  - 计算化学\ncomputational-chem-tutorial\\激发态和光谱计算.md-4-  - Gaussian\ncomputational-chem-tutorial\\激发态和光谱计算.md-5-  - research\n--\ninstrument\\Multiwfn\\Multiwfn手册第一章.md:2:tags:\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-3-  - 计算化学\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-4-  - research\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-5-  - 后处理\n--\ncomputational-chem-tutorial\\分子轨道的定性分析.md:2:tags:\ncomputational-chem-tutorial\\分子轨道的定性分析.md-3-  - 计算化学\ncomputational-chem-tutorial\\分子轨道的定性分析.md-4-Category:\ncomputational-chem-tutorial\\分子轨道的定性分析.md-5-  - 笔记\n--\ninstrument\\Multiwfn\\Multiwfn手册5.2-5.5.md:2:tags:\ninstrument\\Multiwfn\\Multiwfn手册5.2-5.5.md-3-  - 后处理\ninstrument\\Multiwfn\\Multiwfn手册5.2-5.5.md-4-  - 计算化学\ninstrument\\Multiwfn\\Multiwfn手册5.2-5.5.md-5-  - research\n--\nindex\\AIE论文阅读进展.md:2:tags:\nindex\\AIE论文阅读进展.md-3-  - research\nindex\\AIE论文阅读进展.md-4-  - 计算化学\nindex\\AIE论文阅读进展.md-5-Category:\n--\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md:2:tags:\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-3-  - 计算化学\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-4-  - research\ninstrument\\Multiwfn\\Multiwfn手册2.1-2.5.md-5-  - 后处理\n--\nindex\\26春-物化考试准备.md:2:tags:\nindex\\26春-物化考试准备.md-3-  - 物理化学\nindex\\26春-物化考试准备.md-4-Category:\nindex\\26春-物化考试准备.md-5-  - 总结\n--\nindex\\Multiwfn手册.md:2:tags:\nindex\\Multiwfn手册.md-3-  - research\nindex\\Multiwfn手册.md-4-  - 计算化学\nindex\\Multiwfn手册.md-5-Category:\n--\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md:2:tags:\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-3-  - 计算化学\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-4-  - research\ninstrument\\Multiwfn\\Multiwfn命令行操作完整教程.md-5-  - 后处理\n--\nindex\\26春-物化作业汇总.md:2:tags:\nindex\\26春-物化作业汇总.md-3-  - 物理化学\nindex\\26春-物化作业汇总.md-4-Category:\nindex\\26春-物化作业汇总.md-5-  - 总结\n--\n\n[Showing results with pagination = limit: 60]"
+          },
+          {
+            "id": "call_00_eAixqXKStiSDCu0do5HO5673",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\physchem-1\\量子力学.md",
+              "offset": 401,
+              "limit": 130
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "401\t# 原子和分子中的应用\n402\t\n403\t## 氢原子（一个电子的系统）\n404\t\n405\t<mark style=\"background: #ADCCFFA6;\">求解薛定谔方程</mark>\n406\t\n407\t$$\n408\t\\boxed{ \n409\t\\begin{aligned} \n410\t&\\text{电子的哈密顿算符}\\\\ \n411\t&\\hat{H}=-\\frac{\\hbar^2}{2m}\\nabla ^2-\\frac{Ze^2}{4\\pi \\epsilon_{0}r} \\qquad \\text{（Z是原子序数）}\\\\\n412\t&\\hat{H}=-\\frac{\\hbar^2}{2m}(\\frac{\\partial^2}{\\partial r^2}+\\frac{2}{r}\\frac{\\partial}{\\partial r}+\\frac{1}{r^2}\\Lambda^2)-\\frac{Ze^2}{4\\pi \\epsilon_{0}r}\\\\\n413\t&= \\textcolor{red}{-\\frac{\\hbar^2}{2m}(\\frac{\\partial^2}{\\partial r^2}+\\frac{2}{r}\\frac{\\partial}{\\partial r})-\\frac{Ze^2}{4\\pi \\epsilon_{0}r}} \\textcolor{blue}{-\\frac{\\hbar^2}{2mr^2}\\Lambda^2}\\\\\n414\t&=\\textcolor{red}{\\hat{H}_{r} \\text{（径向）}}+\\textcolor{blue}{\\hat{H}_{\\theta;\\phi;r} \\text{（角度）}} \\\\\n415\t\\end{aligned}\\\\\n416\t}\n417\t$$\n418\t解的形式：$\\textcolor{red}{\\Psi(r,\\theta,\\phi)=R(r)Y(\\theta,\\phi)}$\n419\t代入：$\\hat{H}\\Psi=E\\Psi$\n420\t\n421\t$-\\frac{\\hbar^2}{2m}(\\frac{\\partial^2}{\\partial r^2}+\\frac{2}{r}\\frac{\\partial}{\\partial r})RY-\\frac{Ze^2}{4\\pi \\epsilon_{0}r}RY-\\frac{\\hbar^2}{2mr^2}\\Lambda^2RY$\n422\t\n423\t$=-Y\\cdot\\frac{\\hbar^2}{2m}(\\frac{\\partial^2}{\\partial r^2}+\\frac{2}{r}\\frac{\\partial}{\\partial r})R-\\frac{Ze^2}{4\\pi \\epsilon_{0}r}RY-R\\frac{\\hbar^2}{2mr^2}(\\Lambda^2Y)$\n424\t\n425\t>由球谐函数性质：$\\Lambda^2Y=l(l+1)Y$\n426\t>[[量子力学#^c8ef48]]\n427\t\n428\t$=-Y\\cdot\\frac{\\hbar^2}{2m}(\\frac{\\partial^2}{\\partial r^2}+\\frac{2}{r}\\frac{\\partial}{\\partial r})R-\\frac{Ze^2}{4\\pi \\epsilon_{0}r}RY+\\frac{\\hbar^2}{2mr^2}l(l+1)YR=ERY$\n429\t\n430\t$\\textcolor{red}{\\Rightarrow \\qquad -\\frac{\\hbar^2}{2m}(\\frac{\\partial^2}{\\partial r^2}+\\frac{2}{r}\\frac{\\partial}{\\partial r})R-\\frac{Ze^2}{4\\pi \\epsilon_{0}r}R+\\frac{\\hbar^2}{2mr^2}l(l+1)R=ER}$\n431\t\n432\t$$\n433\t\\begin{flalign}\n434\t\\boxed{\n435\t\\begin{aligned}\n436\t&\\text{径向部分的动能：} -\\frac{\\hbar^2}{2m}(\\frac{\\partial^2}{\\partial r^2}+\\frac{2}{r}\\frac{\\partial}{\\partial r})R=E_{k}R\\\\\n437\t&\\text{径向部分的势能：}-\\frac{Ze^2}{4\\pi \\epsilon_{0}r}\\\\\n438\t&\\text{角度部分的总能量/动能（旋转给径向带来的离心势能）：}\\frac{\\hbar^2}{2mr^2}l(l+1)\n439\t\\end{aligned}\n440\t} && \n441\t\\end{flalign}\n442\t$$\n443\t\n444\t$$\n445\t\\begin{flalign}\n446\t\\boxed{\n447\t\\begin{aligned}\n448\t&\\text{本征值}E_{n}=-Z^2\\cdot\\frac{\\hbar^2}{2m}\\frac{1}{a_{0}^2}\\frac{1}{n^2}=Z^2\\frac{E_{1}}{n^2}\\\\\n449\t&\\text{玻尔半径：} a_{0}=\\frac{4\\pi \\epsilon_{0} \\hbar^2}{me^2}\\\\ \\\\\n450\t&为什么要定义玻尔半径:提供一个原子尺度的天然长度单位、 \\\\\n451\t&能量本征值可以写成简单的形式，可以简化计算。\\\\ \\\\\n452\t&\\text{氢原子基态电子能量：} E_{1}=-\\frac{\\hbar^2}{2m}\\frac{1}{a_{0}^2}=-13.6eV\n453\t\\end{aligned}\n454\t} && \n455\t\\end{flalign}\n456\t$$\n457\t[[关于简并态的讨论]]\n458\t\n459\t<mark style=\"background: #FFB86CA6;\">说明</mark>：\n460\t\n461\t1.$n\\geq l+1$：n决定能量大小，l决定角动量大小。解径向方程得到的关系，为了让波函数不在无穷远处发散。（*推导过程看得晕晕的不太懂*）\n462\t\n463\t2.$\\text{径向方程：}R_{n,l}(r)=N_{n,l}\\rho^l L^{2l+1}_{n+1}(\\rho)e^{-\\frac{\\rho}{2}}$（*deepseek说写错了，不过没有关系不用理它*）\n464\t$e^{-\\frac{\\rho}{2}}$保证波函数在无穷远处趋于0. \n465\t[[量子力学#^58d8eb]]\n466\t\n467\t3.钻穿效应：由于波函数的径向分布不同而导致的穿透概率差异\n468\t在多电子原子中，外层电子有一定概率穿入内层电子壳层区域（靠近原子核），它感受到的屏蔽作用变弱，有效核电荷$Z_{eff}$增大，从而使该电子的能量降低。\n469\t**解释原因**：由于离心势$\\propto l(l+1)$，$l$越小，电子受到的离心排斥越弱，其径向波函数在原子核附近（r≈0）能够具有非零甚至较大的幅度。因此，s电子（l=0）比p,d电子有更高概率出现在靠近核的区域。多电子原子中，外层 s 电子比 p,d电子更容易穿透内层屏蔽云，感受到更大的有效核电荷，能量更低。这是能级发生$l$依赖分裂（ns<np<nd）的根本原因。\n470\t\n471\t## 电子自旋\n472\t\n473\t<mark style=\"background: #ADCCFFA6;\">1. 自旋是什么？</mark>\n474\t\n475\t-   不是经典自转：电子并非真的在绕轴旋转，自旋是粒子的内禀属性，没有经典对应。\n476\t-   量子特征：自旋完全是一种量子力学效应，自动出现在相对论量子力学（Dirac方程）中，非相对论量子力学需要作为假设手动引入。\n477\t\n478\t<mark style=\"background: #ADCCFFA6;\">2. 自旋量子数$s$</mark>\n479\t\n480\t-   电子自旋量子数永远固定为：\n481\t    $$\n482\t    s = \\frac{1}{2}\n483\t    $$\n484\t\n485\t<mark style=\"background: #ADCCFFA6;\">3. 自旋磁量子数$m_s$</mark>\n486\t\n487\t-   自旋角动量在任意选定$z$轴上的投影取值为：\n488\t    $$\n489\t    m_s = +\\frac{1}{2} \\quad \\text{或} \\quad -\\frac{1}{2}\n490\t    $$\n491\t-   对应化学中“自旋向上” $\\uparrow$，$\\alpha$\\) 态 和“自旋向下” $\\downarrow$，$\\beta$态。\n492\t- 满足正交规范：$<\\alpha,\\alpha>=<\\beta,\\beta>= 1，<\\alpha,\\beta>= 0$\n493\t-   化学意义：这就是**每个轨道最多容纳两个电子**的根源，且这两个电子必须自旋相反（泡利不相容原理）。\n494\t[[量子力学#泡利不相容原理]]\n495\t\n496\t<mark style=\"background: #ADCCFFA6;\">4. 自旋角动量$S，S_{z}$和自旋能量$S^2$</mark>\n497\t\n498\t-   自旋角动量大小：\n499\t    $$\n500\t    |\\vec{S}| = \\sqrt{s(s+1)}\\hbar = \\frac{\\sqrt{3}}{2}\\hbar\n501\t    $$\n502\t-   z分量：\n503\t    $$\n504\t    \\begin{aligned}\n505\t    &\\hat{S_{z}}\\alpha =\\frac{1}{2}\\hbar \\alpha \\\\\n506\t    &\\hat{S_{z}}=-\\frac{1}{2}\\hbar \\beta \\\\\n507\t    &S_z = m_s \\hbar = \\pm \\frac{1}{2}\\hbar\n508\t    \\end{aligned}\n509\t    $$\n510\t- 自旋能量： \n511\t     $$\n512\t     \\begin{aligned}\n513\t     &\\hat{S}^2 \\alpha=\\frac{3}{4}\\hbar^2 \\alpha \\\\\n514\t     &\\hat{S}^2 \\beta=\\frac{3}{4}\\hbar^2 \\beta\\\\\n515\t     &\\hat{S}^2 \\text{作用于任何自旋态本征值都是}s(s+1)\\hbar^2=\\frac{3}{4}\\hbar^2\n516\t     \\end{aligned}\n517\t     $$\n518\t<mark style=\"background: #ADCCFFA6;\">5. 自旋与波函数</mark>\n519\t\n520\t-   单电子的完整波函数必须包含空间和自旋两部分，写作**自旋轨道**：\n521\t    $$\n522\t    \\psi(\\vec{r}, s) = \\phi(\\vec{r}) \\cdot \\sigma(s)\n523\t    $$\n524\t    其中空间部分$\\phi$是轨道（如氢原子轨道），自旋部分$\\sigma$是$\\alpha$或 $\\beta$。\n525\t\n526\t\n527\t## 氦原子（多粒子系统）\n528\t\n529\t<mark style=\"background: #ADCCFFA6;\">平均场近似（了解）</mark>\n530\t"
+          },
+          {
+            "id": "call_01_uonkY64hDM3By7Ev3v1n9930",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\.trash\\darling\\先组轨道，再填电子的化学语言本质.md",
+              "limit": 80
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t\n8\t虽然老东西HF已经不用了，但是基于其单电子思想可以发展出很多实用的工具，其中就有先组轨道，再填电子这套化学语言（化学家真的很喜欢轨道这套表述），而我们在这么思考的时候本质上是在干两件事：\n9\t1. 组轨道：进行单电子近似，求解定态薛定谔方程得到“轨道”\n10\t2. 填电子：依据实际场景获得电子组态，构造单个或多个[[Slater行列式]]得到总波函数\n11\t\n12\t## 单电子近似\n13\t\n14\t### 多电子原子轨道\n15\t\n16\t多电子原子由于电子相互作用项，薛定谔方程不可解，需采用单电子近似处理。对于一个含N个电子的原子\n17\t$$\\hat{H}=-\\sum_{i=1}^{N} \\frac{1}{2}\\nabla_{i}^2-\\sum_{i=1}^{N} \\frac{Z}{r_{i}}+\\sum_{i=1}^{N}\\sum_{j>i}^{N} \\frac{1}{r_{ij}}$$\n18\t$$\\hat{H}\\Psi=E\\Psi$$\n19\t1. **单电子近似**：$$\\hat{H}=\\sum_{i=1}^{N}(-\\frac{1}{2}\\nabla_{i}^2-\\frac{Z}{r_{i}}+U(r_{i}))$$\n20\t进一步的，如果采取的是**中心力场近似**，则直接化简成$$\\hat{H}=\\sum_{i=1}^{N}(-\\frac{1}{2}\\nabla_{i}^2-\\frac{Z^*}{r_{i}})$$\n21\t解定态薛定谔方程：\n22\t$$\\hat{H_{i}} \\psi_{i}=E_{i} \\psi_{i}$$\n23\t从而每个电子都具有相同形式的解，或者说每个电子都在某个原子轨道上，这些原子轨道的排布方式就是我们所熟悉的那样。\n24\t\n25\t至此我们已经有了我们最熟悉的，那张能量从低到高的一系列轨道分布图，这时候可能会引入所谓钻穿效应（源于单电子波函数径向分布具有节点，有一部分靠近核）和屏蔽效应（内层电子屏蔽核对外层电子的吸引，钻穿会缓解该现象）来解释能级交错现象，这对于定性直观理解够用了，但是对于定量来说精度远远不够。\n26\t\n27\t2.  构造Slater行列式：\n28\t当我们画出这张图时，实际背后N个电子的总波函数 $\\Psi$ 并不是各个电子占据的自旋轨道直接相乘，而是Slater行列式得到的线性组合形式，以保证满足费米子交换反对称。\n29\t\n30\t将轨道波函数和自旋波函数$\\eta$ 相乘，得到自旋轨道，根据图确定所有轨道和自旋，对N个自旋轨道构造行列式，得到填了N个电子的电子组态总波函数\n31\t$$\\Psi = \\frac{1}{\\sqrt{N!}}\n32\t\\begin{vmatrix}\n33\t\\psi_1(1)\\eta_{1}(1) & \\psi_2(1)\\eta_{2}(1) & \\cdots & \\psi_N(1)\\eta_{N}(1) \\\\\n34\t\\psi_1(2)\\eta_{1}(2) & \\psi_2(2)\\eta_{2}(2) & \\cdots & \\psi_N(2)\\eta_{N}(2) \\\\\n35\t\\vdots & \\vdots & \\ddots & \\vdots \\\\\n36\t\\psi_1(N)\\eta_{1}(N) & \\psi_2(N)\\eta_{2}(N) & \\cdots & \\psi_N(N)\\eta_{N}(N)\n37\t\\end{vmatrix}$$\n38\t\n39\t我们在考虑原子的电子排布图时一般不会考虑磁量子数m（如p轨道，不同m的p轨道能量是简并的，我们在画图填电子时一般也不会区分x、y、z）但这意味着我们并没有确定$\\psi$ 具体是什么，不过这一点我们会在光谱项中详细讨论。\n40\t\n41\t### 分子轨道理论\n42\t\n43\t对二原子体系和P共轭体系进行考虑\n44\t### 能带论\n45\t\n46\t依旧设有N个电子，M个核$$\\hat{H}=-\\sum_{i=1}^{N} \\frac{1}{2}\\nabla_{i}^2+\\left( -\\sum_{i=1}^{N}\\sum_{A=1}^{M} \\frac{Z_{A}}{r_{Ai}}+\\sum_{i=1}^{N}\\sum_{j>i}^{N} \\frac{1}{r_{ij}} \\right)$$\n47\t1. 单电子近似：\n48\t为了能够利用晶体平移对称性，可以将括号里的项化成一个周期性势能项，简单起见，我们考虑一维情形。\n49\t$$\\hat{H}=\\sum_{i=1}^{N}\\left( -\\frac{1}{2} \\frac{d^2}{dx_{i}^2} +V_{i}(x) \\right)$$\n50\t其中$V_{i}(x)=V_{i}(x+a)$，为第$i$个电子所受的势场，a为晶格参数。\n51\t\n52\t**自由电子近似**（用平面波组波函数）：所有的电子受到一个相同的势场，$\\forall i, V_{i}(x)=V(x)$ ，\n53\t$$\\left( -\\frac{1}{2} \\frac{d^2}{dx_{i}^2} +V(x) \\right)\\psi_{i}=E_{i} \\psi_{i}$$\n54\t经微扰法求解并使用波恩—卡门条件，我们可以画出能量从低到高，密密麻麻的“轨道”挤满一条条带的图，每个“轨道”的指标是量子数k。\n55\t\n56\t**紧束缚模型**（用原子或分子轨道组波函数）：每个电子都只在原子或分子（格点）附近，对于第m个格点的第$i$ 个电子，有\n57\t$$\\left( -\\frac{1}{2} \\frac{d^2}{dx_{i}^2} +V_{i}(x) \\right)\\psi_{i}=E_{i} \\psi_{i}$$\n58\t$\\psi_{i}$ 为$i$ 电子所在的原子或分子轨道，$V_{i}$ 为该电子受该格点的势， $E_{i}=$为该轨道的能量，考虑到每个格点都具有与其能量相等的电子，令$\\phi=\\sum_{m} a_{m}\\psi_{i}(x-x_{m})$ （$x_{m}$为该格点位置），把这些格点间的相互作用看作微扰项，设组合后总势场为$U(x)$\n59\t$$\\left( -\\sum_{i} \\frac{1}{2} \\frac{d^2}{dx_{i}^2} +U(x)\\right)\\phi=E\\phi$$\n60\t经微扰法求解并使用波恩—卡门条件，我们可以知道这些简并的轨道相互作用后变成了“轨道”密密麻麻的一条带，且能量由k指标。格点的每个能级都是如此，由此每个能级都会成一条带。\n61\t\n62\t在能带论中，k是准连续的且在倒空间中有明确的物理图像，因而我们不再像前面分子原子那样画成一层一层往上叠的形式，而是在横坐标加入k的信息，画成E(k)函数图的形式，实际上这个函数图上每个合理的k对应的位置都有一个“轨道”。"
+          },
+          {
+            "id": "call_02_3ZtsQkB9bonlz36eekT45453",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "glob": "!**/.claudian/**",
+              "head_limit": 20,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "aliases|alias:"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": ".obsidian\\plugins\\tag-wrangler\\main.js:64:[Omitted long matching line]\n.obsidian\\plugins\\obsidian-git\\main.js:6:[Omitted long matching line]\n.obsidian\\plugins\\realclaudian\\main.js:45495:[Omitted long matching line]\n.obsidian\\plugins\\realclaudian\\main.js:47807:function pruneModelAliasesToVisible(aliases, visibleModels) {\n.obsidian\\plugins\\realclaudian\\main.js:47808:  if (visibleModels.length === 0 || Object.keys(aliases).length === 0) {\n.obsidian\\plugins\\realclaudian\\main.js:47813:  for (const [rawId, alias] of Object.entries(aliases)) {\n.obsidian\\plugins\\realclaudian\\main.js:50513:    desc: \"Set model selector aliases and context window sizes for custom models.\"\n.obsidian\\plugins\\realclaudian\\main.js:52213:    desc: \"Defina aliases no seletor de modelos e tamanhos de janela de contexto para modelos personalizados.\"\n.obsidian\\plugins\\realclaudian\\main.js:61780:  const aliases = {};\n.obsidian\\plugins\\realclaudian\\main.js:61788:      aliases[modelId] = alias;\n.obsidian\\plugins\\realclaudian\\main.js:61791:  return aliases;\n.obsidian\\plugins\\realclaudian\\main.js:77624:    const subscribeNotification = (aliases, handler) => {\n.obsidian\\plugins\\realclaudian\\main.js:77625:      for (const alias of aliases) {\n.obsidian\\plugins\\realclaudian\\main.js:77629:    const subscribeRequest = (aliases, handler) => {\n.obsidian\\plugins\\realclaudian\\main.js:77630:      for (const alias of aliases) {\n.obsidian\\plugins\\realclaudian\\main.js:86316:    aliases: [\"new\"],\n.obsidian\\plugins\\realclaudian\\main.js:86343:  if (cmd.aliases) {\n.obsidian\\plugins\\realclaudian\\main.js:86344:    for (const alias of cmd.aliases) {"
+          },
+          {
+            "id": "call_00_eEuTFR21UTNkJfpJCicj3054",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\.trash\\darling\\先组轨道，再填电子的化学语言本质.md",
+              "offset": 62
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "62\t在能带论中，k是准连续的且在倒空间中有明确的物理图像，因而我们不再像前面分子原子那样画成一层一层往上叠的形式，而是在横坐标加入k的信息，画成E(k)函数图的形式，实际上这个函数图上每个合理的k对应的位置都有一个“轨道”。"
+          },
+          {
+            "id": "call_01_2kxkt03xQYx1OT6aUYVZ6468",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\.trash\\darling\\填电子三原则.md",
+              "limit": 100
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t\n8\t当我们画出化学中电子排布图后，填电子都会下意识遵循这三原则：\n9\t1. 能量最低原则\n10\t2. 泡利不相容原理\n11\t3. Hund Rules\n12\t在[[先组轨道，再填电子的化学语言本质]]中我们已经知道，轨道是单电子近似下的定态解，每个轨道都有对应的能量本征值，而填电子是在组[[Slater行列式]]。而填电子三原则，实际上是我们为了得到**基态电子组态**而找到的简单规律。\n13\t### 能量最低原则\n14\t\n15\t这一点其实就已经表明了我们这个填电子方式是为了得到基态电子组态。\n16\t\n17\t之所以填电子时往往考虑基态，其实是因为基态是该体系最主要的态，大部分化学使用场景都是在基态的基础上进行考虑的，如考虑激发态，考虑价电子、前线轨道等等。\n18\t\n19\t### Pauli不相容原理\n20\t\n21\t若两个电子具有相同的自旋轨道，根据[[Slater行列式]]：\n22\t$$\\Psi = \\frac{1}{\\sqrt{N!}}\n23\t\\begin{vmatrix}\n24\t\\psi_1(1)\\eta_{1}(1) & \\psi_2(1)\\eta_{2}(1) & \\cdots & \\psi_N(1)\\eta_{N}(1) \\\\\n25\t\\psi_1(2)\\eta_{1}(2) & \\psi_2(2)\\eta_{2}(2) & \\cdots & \\psi_N(2)\\eta_{N}(2) \\\\\n26\t\\vdots & \\vdots & \\ddots & \\vdots \\\\\n27\t\\psi_1(N)\\eta_{1}(N) & \\psi_2(N)\\eta_{2}(N) & \\cdots & \\psi_N(N)\\eta_{N}(N)\n28\t\\end{vmatrix}$$\n29\t如设$\\psi_{1}\\eta_{1}=\\psi _{2}\\eta_{2}$，则行列式两列相同，总波函数为0，意味着这种情况是不存在的。而电子只有两种自旋，因而一个轨道上只能有放0，1，2个自旋相反的电子三种情况。\n30\t\n31\t### Hund Rules\n32\t\n33\t这是一个我们为了得到基态电子组态的经验规则，在这里我会一并提起其他经验规则。\n34\t\n35\t此外我们从低到高排电子的时候，往往先在一个能量较低的轨道填上两个电子，再填更高的轨道，这实际上是一种经验规则"
+          },
+          {
+            "id": "call_00_TniqpOM5xkfvYvg0kfil1780",
+            "name": "Grep",
+            "input": {
+              "-C": 3,
+              "-n": true,
+              "head_limit": 60,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "光电",
+              "glob": "!**/.claudian/**"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "quantum chemistry\\光谱分类总览.md-65-| Raman | freq + 极化率导数 | Gaussian |\nquantum chemistry\\光谱分类总览.md-66-| ECD | TD-DFT旋光强度 | Gaussian/Multiwfn |\nquantum chemistry\\光谱分类总览.md-67-| VCD/ROA | freq + 磁场微扰 | Gaussian |\nquantum chemistry\\光谱分类总览.md:68:| 光电子能谱 | 电离能/电子亲和能 | Gaussian |\nquantum chemistry\\光谱分类总览.md-69-\nquantum chemistry\\光谱分类总览.md-70-## 相关笔记\nquantum chemistry\\光谱分类总览.md-71-\n--\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-46-* **布居分析。** 支持ADCH（原子偶极矩校正的Hirshfeld）、Hirshfeld、Hirshfeld-I、MBIS、VDD、Mulliken、Löwdin、修正的Mulliken（包括三种方法：SCPA、Stout & Politzer、Bickelhaupt）、Becke、CM5、1.2`*`CM5、CHELPG、Merz-Kollmann、RESP、RESP2、AIM（分子中的原子）和EEM（电负性均衡方法）。可以基于原子电荷计算两个给定片段间的静电相互作用能。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-47-* **轨道成分分析。** 支持Mulliken、Stout & Politzer、SCPA、Hirshfeld、Hirshfeld-I、Becke、自然原子轨道（NAO）和AIM方法获取轨道成分。可以计算轨道离域指数（ODI）或空间离域指数（SDI）来量化轨道的空间离域程度。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-48-* **键级/强度分析。** Mayer键级；多中心键级（MCBO）和多中心指数（MCI）（在AO或自然原子轨道(NAO)基下，任意中心数）；Löwdin正交基下的Wiberg键级；Mulliken键级；AV1245指数；固有键强度指数（IBSI）。Mayer和Mulliken键级可以分解为轨道贡献。Wiberg键级可以分解为各种NAO对相互作用的贡献。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md:49:* **绘制总态密度、分波态密度、重叠布居态密度（TDOS、PDOS、OPDOS）和MO-PDOS。** 可以非常灵活方便地定义最多10个片段。也可以为一点绘制局域态密度（LDOS）曲线图或为一条线绘制彩色填充图。此外，完全支持基于（广义）Koopmans定理绘制光电子能谱（PES），并可计算d带和p带中心。还可以绘制晶体轨道Hamilton布居（COHP）。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-50-* **绘制各种光谱：** IR（红外）、常规/预共振Raman、UV-Vis、方向UV-Vis、ECD（电子圆二色）、VCD（振动圆二色）、拉曼光学活性（ROA）和NMR。对于振动光谱，不仅可以绘制谐波光谱，还可以绘制非谐波基频、泛频和组合频带。电子光谱可以考虑自旋-轨道耦合效应。用户可以自定义丰富的参数（展宽函数、FWHM、比例因子等）。可以打印光谱的最大值和最小值，并直接在地图上标注。可以在图形底部添加尖峰以清晰指示跃迁能级的位置和简并度。总光谱可以分解为每个跃迁的单独贡献。可以方便地同时绘制多个体系的光谱。可以轻松绘制构象加权光谱。此外，对于振动类型的光谱，可以绘制局域振动谱（PVS）以直观理解不同原子或内坐标如何参与光谱，并可绘制重叠局域振动谱（OPVS）以可视化各种项的耦合。也可以绘制局域振动态密度（PVDOS）。可以根据理论上模拟和实验测定的UV-Vis光谱精确预测化学物质显示的颜色。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-51-* **分子表面定量分析。** 可以为整个分子表面或局域表面计算表面性质，如（总/正/负/极性/非极性）表面积、包围体积、映射函数的平均值和标准差；可以评估各种GIPF描述符和分子极性指数（MPI）；可以定位表面上映射函数的最小值和最大值；可以基于ESP计算特征区域（例如σ/π空穴和孤对电子）的面积；可以实现对分子表面上任意映射函数的类盆地分析。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-52-* **处理网格数据（可以从.cub/.grd/.vti/.dx/CHGCAR...加载或由Multiwfn直接生成）。** 用户可以对网格数据执行非常丰富的数学运算，设置特定范围内的值，提取指定平面中的数据，绘制（局域）积分和平面平均曲线，执行平移等。\n--\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-105-* **电子激发分析：** 空穴和电子分析（分布、原子/片段/轨道贡献、质心位置、位移和重叠、激子结合能）；电荷转移分析（IFCT、密度差...）；NTO；关键MO之间的重叠和质心距离；绘制原子/片段跃迁密度矩阵和电荷转移矩阵；Δr指数；跃迁偶极矩分解为基函数/原子/片段/MO对贡献；各种激发态之间的跃迁偶极矩；跃迁原子电荷；ghost-hunter指数；揭示激发过程中电子结构（键合和布居）的变化；打印所有激发态的主要MO跃迁；绘制电荷转移谱以图形方式揭示UV-Vis光谱的本质等。概述请参见手册4.A.12节。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-106-* **预测反应位点和反应性分析：** 分子表面上的ESP和ALIE分析；原子电荷；前线分子轨道的轨道成分分析；π电子布居；轨道重叠距离函数分析；自动计算概念密度泛函理论框架中定义的所有量；评估轨道（MO、NBO、NAO等）对Fukui函数的贡献。概述请参见手册4.A.4节。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-107-* **预测分子凝聚相性质：** 使用vdW表面上的ESP分布经验性地预测汽化热、升华热、分子晶体密度、沸点、熔化热、表面张力、pKb等。可以量化分子极性。请参见手册第3.15.1节。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md:108:* **绘制光谱：** IR、Raman、UV-Vis、ECD、VCD、ROA、NMR和光电子能谱。在UV-Vis的情况下，可以精确预测显示的颜色。\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-109-* **表征几何结构**\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-110-* **(超)极化率研究**\ninstrument\\Multiwfn\\Multiwfn手册第一章.md-111-* **导电分析：** TDOS和PDOS；相邻单体之间的轨道重叠分析；Yoshizawa的传输路径分析；键长/键级交替（BLA/BOA）。"
+          },
+          {
+            "id": "call_01_QFDZizbGpEJB3Iyu4SBJ0892",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\.trash\\darling\\计算化学方法与需求.md",
+              "limit": 60
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\t---\n5\t计算化学工作包括：\n6\t1. 理论 \n7\t2. 算法和代码 \n8\t3. 应用\n9\t\n10\t基态的定义：\n11\t1. 从算符出发，根据体系列出薛定谔方程，解方程得到的一系列本征值中最小的那个称为基态能量，对应的本征态称为基态。\n12\t2. 从真实的态出发，对于所有满足归一化的良好波函数$\\Psi$，使能量期望值$E=\\bra{\\Psi}\\hat{H}\\ket{\\Psi}$ 最小的那个称为基态，对应能量为基态能量。\n13\t\n14\t>[! tip] 变分原理\n15\t>上述两种定义等价，只需要知道由谱定理，  $\\forall\\Psi,\\Psi=\\sum_{i} c_{i}\\psi_{i}$ $$E=\\bra{\\Psi}\\hat{H}\\ket{\\Psi}=\\sum_{i} |c_{i}|^2E_{i}\\geq \\sum_{i}|c_{i}|^2E_{0}=E_{0}$$\n16\t该式被称为量子力学的变分原理\n17\t\n18\t需要指出的是，只要真实体系确定了，那么真实体系的哈密顿算符也就确定了，基态也就确定了，与计算方法无关。所有的计算方法，都是计算在**某一近似意义**下的基态和基态能\n19\t\n20\t\n21\t\n22\t\n23\t\n24\t\n25\t\n26\t"
+          },
+          {
+            "id": "call_00_HKriqAFp1heBi6p1rP7z8300",
+            "name": "Grep",
+            "input": {
+              "-C": 2,
+              "-i": true,
+              "-n": true,
+              "head_limit": 40,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\physchem-1\\量子力学.md",
+              "pattern": "声子|phonon|费米|Fermi"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "595-\n596-- **对称波函数**（$+$，玻色子）：$\\psi_{+}(1,2)=\\psi_{+}(2,1)$，例如光子。\n597:- **反对称波函数**（$-$，费米子）：$\\psi_{-}(1,2)=-\\psi_{-}(2,1)$，例如电子。\n598-\n599-<mark style=\"background: #ADCCFFA6;\">两电子体系的反对称化</mark>\n600-\n601:以激发态氦原子 $\\text{He}\\,(1s^12s^1)$ 为例，简单乘积波函数 $1s(1)2s(2)$ 或 $1s(2)2s(1)$ 均不具有确定的交换对称性。为满足费米子要求，空间波函数需构造为反对称组合：\n602-$$\n603-\\boxed{\\psi_{-}(1,2)=\\frac{1}{\\sqrt{2}}\\big[1s(1)\\,2s(2)-1s(2)\\,2s(1)\\big]}\n--\n622-<mark style=\"background: #ADCCFFA6;\">泡利不相容原理</mark>\n623-\n624:若两个费米子试图占据完全相同的量子态（相同空间轨道且相同自旋），则反对称空间波函数恒为零：\n625-$$\n626-\\psi_{-}(1,2)=1s(1)\\,1s(2)-1s(2)\\,1s(1)\\equiv0\n627-$$\n628:该波函数不存在，意味着**两个费米子不能占据同一个量子态**——此即泡利不相容原理（Pauli Exclusion Principle）。\n629-\n630-<mark style=\"background: #ADCCFFA6;\">自旋与单态、三重态</mark>"
+          },
+          {
+            "id": "call_01_S2ctlOG99hbnPTC9Nrbl0726",
+            "name": "Bash",
+            "input": {
+              "command": "grep -o -i -E \".{60}(reciprocal|Brillouin|Bravais).{60}\" \"F:\\obsidian_notes\\knowledge\\.claudian\\sessions\\conv-1790517515561-jlhxs9pwe.meta.json\" \"F:\\obsidian_notes\\knowledge\\.claudian\\sessions\\conv-1788318327523-v4hls2e3n.meta.json\" | head -30",
+              "description": "Show context around reciprocal/Brillouin/Bravais mentions in two session metadata files"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_00_5JUT8crI5omAgMyjlJBi3829",
+            "name": "Grep",
+            "input": {
+              "-C": 1,
+              "-i": true,
+              "-n": true,
+              "head_limit": 15,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\.claudian\\sessions\\conv-1790517515561-jlhxs9pwe.meta.json",
+              "pattern": "reciprocal|Brillouin|Bravais"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "3-  \"providerId\": \"claude\",\n4:  \"title\": \"Explain Brillouin zones and solid state basics\",\n5-  \"titleGenerationStatus\": \"success\","
+          },
+          {
+            "id": "call_00_HgTaQUwQa5ailbcaR9Qi9273",
+            "name": "Grep",
+            "input": {
+              "glob": "!**/.claudian/**",
+              "head_limit": 20,
+              "output_mode": "files_with_matches",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "直接带隙|间接带隙|导带|价带|禁带|带边|有效质量|迁移率"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Found 1 file\nsci_research\\anti-kasha-paper\\26-8-19文献主要内容.md"
+          }
+        ],
+        "isExpanded": false,
+        "result": "搜索完成。我对整个 vault（135 个 md 文件 + canvas + 废纸篓 + 会话元数据）做了穷尽式检索，覆盖全部中英文关键词变体。以下是完整报告。\n\n# 搜索报告：光电材料与器件相关的固体物理笔记\n\n## 一、Vault 总体概况\n\n该库是一个**化学专业学生的知识库**，目录结构为：\n- `physchem-1` / `physchem-2`：物理化学课程笔记（热力学、统计力学、量子力学、真实气体）\n- `quantum chemistry`：量子化学课程笔记（微扰理论、变分法、光谱选律、Fermi 黄金规则等）\n- `computational-chem-tutorial`、`instrument`：计算化学软件教程（Gaussian、Multiwfn、MOMAP）\n- `sci_research`：有机分子光物理研究（AIE、DHR、TBR 等有机发光分子）\n- `index`、`TOEFL`、`math`、`.trash`、`.claudian`（会话元数据，非笔记）\n\n**核心结论先行：整个库中没有一篇固体物理/半导体物理的系统笔记。** 所有关键词命中都属于以下三类\"邻近但不同域\"的内容：(1) 分子/原子的量子力学与光谱；(2) 计算化学软件操作（晶胞是文件格式术语、空穴是 NTO 激发分析术语）；(3) 有机分子材料的 HOMO-LUMO 能隙。\n\n---\n\n## 二、与主题最相关的笔记详报\n\n### 1. `.trash\\darling\\先组轨道，再填电子的化学语言本质.md` ⭐ 全库唯一涉及能带论的笔记（但在废纸篓）\n\n- **frontmatter**：tags: 计算化学；Category: 笔记\n- **结构**：单电子近似 → 多电子原子轨道 → 分子轨道理论 → **能带论**（自由电子近似、紧束缚模型、E(k) 图）\n- **关键摘录**（能带论一节原文）：\n  > \"为了能够利用晶体平移对称性，可以将括号里的项化成一个周期性势能项……$V_{i}(x)=V_{i}(x+a)$，为第 $i$ 个电子所受的势场，a 为晶格参数。\"\n  > \"**自由电子近似**（用平面波组波函数）……经微扰法求解并使用波恩—卡门条件，我们可以画出能量从低到高，密密麻麻的'轨道'挤满一条条带的图，每个'轨道'的指标是量子数 k。\"\n  > \"**紧束缚模型**（用原子或分子轨道组波函数）……经微扰法求解并使用波恩—卡门条件……每个能级都会成一条带。\"\n  > \"在能带论中，k 是准连续的且在倒空间中有明确的物理图像……画成 E(k) 函数图的形式。\"\n- **质量评价**：这是全库唯一从单电子近似讲到周期势、自由电子近似、紧束缚模型、Born-von Karman 条件、倒空间 E(k) 图的笔记，物理图像清晰，但**已被人为删除到废纸篓**，且该节到此戛然而止——没有继续讲布里渊区、能隙成因、费米面、半导体。同一废纸篓里的配套笔记还有 `填电子三原则.md`（构造 Slater 行列式 + 能量最低/泡利/Hund 三原则）和 `Slater行列式.md`，属于同一套电子结构理论系列。\n\n### 2. `physchem-1\\量子力学.md` —— 量子力学课程系统笔记\n\n- **frontmatter**：tags: 量子力学、物理化学；Category: 笔记；关联 `量子力学导图.canvas`\n- **标题结构**：量子力学基本假设 / 基本粒子模型（一维势阱、二维势阱、谐振子、环上粒子、刚性转子）/ 原子和分子中的应用（氢原子、电子自旋、氦原子、泡利不相容原理、分子轨道理论 H₂⁺）\n- **关键摘录**：\n  > \"氢原子……本征值 $E_{n}=-Z^2\\frac{\\hbar^2}{2m}\\frac{1}{a_0^2}\\frac{1}{n^2}$……氢原子基态电子能量 $E_1=-13.6$ eV\"\n  > \"钻穿效应：由于波函数的径向分布不同而导致的穿透概率差异……这是能级发生 $l$ 依赖分裂（ns<np<nd）的根本原因。\"\n  > \"两个费米子不能占据同一个量子态——此即泡利不相容原理。\"\n- **质量评价**：高质量系统课程笔记（约 700 行，含完整推导和例题），覆盖薛定谔方程、能级、原子轨道、分子轨道理论，是固体物理最直接的前置基础，但**全部止步于原子/分子尺度**，无周期势、无晶体。\n\n### 3. `instrument\\MOMAP\\Huang-Rhys因子与电声耦合.md` —— 电声耦合（分子振动版）\n\n- **frontmatter**：tags: 计算化学、量子力学；Category: 讲义\n- **结构**：HR 因子物理定义 / 严格量子力学推导（位移算符、FC 因子泊松分布）/ 与重组能关系 / 在 Fermi 黄金规则中的角色（FCWD）/ MOMAP 体现 / 物理图像 / 与 Duschinsky 旋转区分\n- **关键摘录**：\n  > \"Huang-Rhys 因子 $S_k$ 描述的是第 $k$ 个振动模式在电子跃迁过程中平均激发的振动量子数。\"\n  > \"| HR ≫ 1 | **多声子过程主导** | 谱带显著变宽……Stokes 位移大 |\"\n  > \"分子体系中的辐射或非辐射跃迁速率通常由 Fermi 黄金规则给出：$\\Gamma=\\frac{2\\pi}{\\hbar}|H'|^2\\rho(E_f)$\"\n- **质量评价**：高质量讲义，严格推导。\"声子\"一词指**分子振动量子**（MOMAP 光谱计算语境），非晶格声子，但电声耦合/FCWD 概念框架与固体物理相通。\n\n### 4. `quantum chemistry\\Fermi黄金规则.md` —— 费米黄金规则推导\n\n- **frontmatter**：tags: 计算化学；Category: 笔记\n- **结构**：从含时微扰系数出发 → δ 函数化 → 引入态密度 $\\rho(E)$ → 黄金规则公式\n- **关键摘录**：\"引入态密度 $\\rho(E)$：单位能量间隔内的状态数……$\\Gamma_{n\\to f}=\\frac{2\\pi}{\\hbar}|H'_{fn}|^2\\rho(E_f)$\"\n- **质量评价**：聚焦推导的短笔记，质量高。注意这是**费米黄金规则（Fermi's golden rule）**，与费米能级/费米面无关。\n\n### 5. `physchem-1\\统计力学.md` —— 统计力学课程系统笔记\n\n- **frontmatter**：tags: 统计力学、物理化学；Category: 笔记\n- **结构**：基本假设（等概率、遍历态、玻尔兹曼方程）/ 熵 / 玻尔兹曼分布 / 配分函数（平动、转动、振动、电子、核）/ 吉布斯熵、香农信息熵\n- **关键摘录**（唯一涉及晶体的句子）：\"经典统计：定域子系统，靠位置坐标区分（**晶体：晶格上的原子被固定，波函数的重叠积分趋近于 0**）\"\n- **质量评价**：约 950 行系统课程笔记，质量高。但只讨论玻尔兹曼统计，**未涉及费米-狄拉克分布**；晶体仅在\"粒子可区分性\"处一笔带过。\n\n### 6. `quantum chemistry\\关于微扰理论的疑问.md`\n\n- **frontmatter**：tags: 计算化学；Category: 笔记\n- **结构**：Q1-Q8 问答（微扰级数展开、解析性假设、λ 的作用、收敛性、简并微扰、选择定则、氢原子能谱）\n- **关键摘录**：\"比如超导的 BCS 理论，能隙 $\\Delta\\sim e^{-1/g}$，在 $g=0$ 处是本性奇点，无法做 Taylor 展开——这就是'非微扰效应'。\"\n- **质量评价**：高质量问答式笔记；\"能隙\"仅作为非微扰效应的例子出现（超导能隙），非固体能带内容。\n\n### 7. 其他次要命中（均非固体物理）\n\n| 文件 | 命中内容 | 实际语境 |\n|---|---|---|\n| `sci_research\\anti-kasha-paper\\26-8-19文献主要内容.md` | \"半导体性能\"、\"p型半导体行为（迁移率最高0.082 cm² V⁻¹ s⁻¹）\" | 文献阅读笔记：DHR 有机纳米石墨烯的 OFET 器件表征数据，非物理讲解 |\n| `sci_research\\anti-kasha-paper\\DHR-文献光谱相关.md` | \"带隙：1.82 eV\"（HOMO -4.98 / LUMO -3.16 eV） | **分子 HOMO-LUMO 能隙**，非晶体带隙 |\n| `physchem-1\\期末考试预测.md` | \"电子属于____（玻色子/费米子）\" | 费米子判断题，量子力学考点 |\n| `computational-chem-tutorial\\分子轨道的定性分析.md` | σ/π 键、成键反键 | 分子轨道定性判断，短笔记 |\n| `instrument\\Multiwfn\\*` | \"晶胞\"、\"空穴-电子分析\"、\"TDOS/PDOS\"、\"COHP\"、\"晶体结构(.cif)\" | 软件手册：晶胞=文件格式；空穴=激发态 NTO 分析术语 |\n| `sci_research\\report\\TBR SUMMARY1.md` 等 | \"HOMO-LUMO能隙 4.135 eV\" | 分子激发计算报告 |\n\n---\n\n## 三、最终结论\n\n### 与\"光电材料与器件的固体物理基础\"最相关的笔记（按相关度排序）\n\n1. **`.trash\\darling\\先组轨道，再填电子的化学语言本质.md`** —— 全库唯一真正触及能带论的笔记（周期势、自由电子近似、紧束缚模型、Born-von Karman、倒空间 E(k)），但目前躺在废纸篓且未写完。若要做固体物理主题，它是最接近的起点，可从废纸篓恢复并续写。\n2. **`physchem-1\\量子力学.md`** —— 提供薛定谔方程、能级、原子轨道、分子轨道、泡利原理等全部前置知识，质量最高的系统笔记。\n3. **`instrument\\MOMAP\\Huang-Rhys因子与电声耦合.md`** + **`quantum chemistry\\Fermi黄金规则.md`** —— 电声耦合与跃迁速率理论（分子版本），概念可平移至固体。\n4. **`physchem-1\\统计力学.md`** —— 量子统计基础，但缺费米-狄拉克统计。\n\n### 库中完全没有任何笔记的主题（连废纸篓都没有，穷尽搜索确认）\n\n- **布里渊区（Brillouin zone）**：仅在 `.claudian` 会话元数据中有一条历史会话标题 \"Explain Brillouin zones and solid state basics\"（conv-1790517515561），说明曾在对话中问过，但**从未沉淀成笔记**。\n- **倒格子 / 倒易空间 / reciprocal lattice / 布拉维格子 / Bravais lattice**：无任何笔记（\"倒空间\"仅在废纸篓那篇能带论笔记末尾出现一次）。\n- **费米能级、费米面、费米-狄拉克分布**：无（库中\"费米\"只指费米子统计性质和 Fermi 黄金规则）。\n- **晶体能带结构、导带 / 价带 / 禁带、直接带隙 / 间接带隙**：无。\n- **半导体物理、PN 结、载流子、掺杂、光电器件、光伏 / 太阳能电池**：无（\"半导体\"仅两次出现：DHR 文献笔记的 p 型半导体表征数据；Multiwfn 手册中的\"导电分析\"功能）。\n- **晶格振动 / 晶格声子**：无（\"声子\"均为分子振动语境）。\n\n简言之：该库是一个**分子光物理/计算化学**知识库，具备量子力学、统计力学、电声耦合（分子版）等扎实的基础层，但**固体物理层（晶体、倒空间、能带、布里渊区、半导体）几乎是空白**——唯一相关笔记已被删进废纸篓且残缺。若目标是学习\"光电材料与器件的固体物理基础\"，需要在库中新建固体物理专题，并可从恢复废纸篓笔记 + 衔接 `量子力学.md` 的已有内容开始。"
+      }
+    }
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 29887,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 29887,
+    "percentage": 15
+  }
+}
