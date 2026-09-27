@@ -219,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,8 +234,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "304111098a8189e4",
   "lastOpenFiles": [
+    "physchem-2/image/8-pVm-p.jpg",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/DHR后处理-s9（水）.md",
@@ -260,7 +262,6 @@
     "TOEFL/口语复述/校园场景-参观学校.md",
     "TOEFL/口语复述/校园场景-实验室.md",
     "TOEFL/口语复述/生活场景-海洋馆.md",
-    "TOEFL/口语复述/生活场景-咖啡机.md",
     "TOEFL/填词/填词错误类型.canvas",
     "physchem-2/image/8-p-Vm.jpg",
     "physchem-2/image",
