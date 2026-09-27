@@ -1,0 +1,23 @@
+{
+  "id": "conv-1790502968284-y7padlhvu",
+  "providerId": "claude",
+  "title": "Determine next step in Taylor expansion",
+  "titleGenerationStatus": "success",
+  "createdAt": 1790502968284,
+  "updatedAt": 1790503017744,
+  "lastResponseAt": 1790503017744,
+  "sessionId": "8a849231-91a5-45ca-a0b2-dd037cf7e5aa",
+  "providerState": {
+    "providerSessionId": "8a849231-91a5-45ca-a0b2-dd037cf7e5aa"
+  },
+  "currentNote": "physchem-2/8-纯物质体相性质-分子间相互作用.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 367,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30080,
+    "contextWindow": 200000,
+    "contextTokens": 30447,
+    "percentage": 15
+  }
+}
