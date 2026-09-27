@@ -4,8 +4,8 @@
   "title": "Explain Brillouin zones and solid state basics",
   "titleGenerationStatus": "success",
   "createdAt": 1790517515561,
-  "updatedAt": 1790517817122,
-  "lastResponseAt": 1790517817122,
+  "updatedAt": 1790518103280,
+  "lastResponseAt": 1790518103280,
   "sessionId": "f7d1a265-ca84-4f3d-b411-3ae8659e4317",
   "providerState": {
     "providerSessionId": "f7d1a265-ca84-4f3d-b411-3ae8659e4317",
@@ -557,11 +557,11 @@
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 29887,
+    "inputTokens": 99,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "cacheReadInputTokens": 40832,
     "contextWindow": 200000,
-    "contextTokens": 29887,
-    "percentage": 15
+    "contextTokens": 40931,
+    "percentage": 20
   }
 }
