@@ -247,14 +247,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "66589ed34dfc506d",
   "lastOpenFiles": [
-    "physchem-2/8-纯物质体相性质-真实气体.md",
+    "physchem-2/image/8-debye.jpg",
+    "physchem-2/image/8-Lennard.jpg",
+    "sci_research/DHR/DHR复现-s1（水）.md",
     "physchem-2/8-纯物质体相性质-分子间相互作用.md",
+    "physchem-2/8-纯物质体相性质-真实气体.md",
     "physchem-2/8-纯物质体相性质-真实气体.md.tmp.22460.447f9af4840f",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "physchem-1/热力学.md",
-    "sci_research/DHR/DHR复现-s1（水）.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
     "physchem-2/image/8-TB.jpg",
     "physchem-2/image/8-pVm-p.jpg",
@@ -289,7 +291,6 @@
     "sci_research/image/spec-converge/TBR-converge-s1.png",
     "sci_research/image/spec-converge/spec-converge-s1-kr.png",
     "sci_research/image/spec-converge/spec-converge-kr-s9.png",
-    "sci_research/image/spec-converge/spec-converge-kic-s1.png",
     "sci_research/image/spec-converge",
     "sci_research/image/spectrum",
     "sci_research/image/新建文件夹",
