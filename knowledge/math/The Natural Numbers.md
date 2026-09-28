@@ -90,3 +90,11 @@ A natural number n is said to be positive iff it is not equal to 0.
 
 <mark style="background: #BBFABBA6;">Proposition 2.2.8</mark>
 If a is positive and b is a natural number, then a+b is positive (and hence b+a is also, by Proposition 2.2.4)
+
+proof:
+对b使用归纳法，当b=0时，a+0=a是正数
+假设b=n时a+n是一个正数
+只需证a+(n++)是一个正数
+由于a+(n++)=(a+n)++，0不能是任何数的后继
+所以(a+n)++不等于0
+即证
