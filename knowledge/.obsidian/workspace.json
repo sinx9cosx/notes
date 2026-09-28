@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
+                "file": "sci_research/TBR/TBR-s0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR-文献光谱相关"
+              "title": "TBR-s0"
             }
           },
           {
@@ -235,14 +235,16 @@
   },
   "active": "1b7d27c74894572a",
   "lastOpenFiles": [
-    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
+    "sci_research/report/未命名.md",
     "sci_research/report/SUMMARY 4.md",
+    "sci_research/TBR/TBR-s0.md",
+    "sci_research/TBR/TBR-s9光谱.md",
+    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/anti-kasha-paper/DHR文献计算细节.md",
     "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/TBR-s10.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/image/spectrum/result1.png",
-    "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/report/TD-DFT项目操作全流程.md",
@@ -263,8 +265,6 @@
     "physchem-2/8-纯物质体相性质-分子间相互作用.md",
     "physchem-2/image/8-debye.jpg",
     "physchem-2/image/8-Lennard.jpg",
-    "sci_research/DHR/DHR复现-s1（水）.md",
-    "physchem-2/8-纯物质体相性质-真实气体.md",
     "physchem-2/8-纯物质体相性质-真实气体.md.tmp.22460.447f9af4840f",
     "physchem-2/image/8-TB.jpg",
     "physchem-2/image/8-pVm-p.jpg",
