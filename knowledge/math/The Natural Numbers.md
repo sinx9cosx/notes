@@ -84,3 +84,9 @@ proof:
 左=右可以推出a+b=a+c，进一步可以推出b=c
 即证
 
+**Definition 2.2.7**
+(Positive natural numbers)
+A natural number n is said to be positive iff it is not equal to 0.
+
+<mark style="background: #BBFABBA6;">Proposition 2.2.8</mark>
+If a is positive and b is a natural number, then a+b is positive (and hence b+a is also, by Proposition 2.2.4)
