@@ -1,0 +1,23 @@
+{
+  "id": "conv-1790691953482-3mctxbuxc",
+  "providerId": "claude",
+  "title": "Explain why involves is used instead of includes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1790691953483,
+  "updatedAt": 1790691981230,
+  "lastResponseAt": 1790691981230,
+  "sessionId": "c4a077e5-8cbf-468c-8b88-8ceca7209796",
+  "providerState": {
+    "providerSessionId": "c4a077e5-8cbf-468c-8b88-8ceca7209796"
+  },
+  "currentNote": "TOEFL/填词/生物-疾病预防.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 257,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30080,
+    "contextWindow": 200000,
+    "contextTokens": 30337,
+    "percentage": 15
+  }
+}
