@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/口语复述/生活场景-参观艺术馆.md",
+                "file": "sci_research/DHR/DHR复现-s9（水）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生活场景-参观艺术馆"
+              "title": "DHR复现-s9（水）"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活场景-博物馆.md",
+                "file": "sci_research/TBR/TBR-s9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生活场景-博物馆"
+              "title": "TBR-s9"
             }
           }
         ],
@@ -249,8 +249,10 @@
   },
   "active": "dd9902292932c7de",
   "lastOpenFiles": [
-    "生活场景-博物馆.md",
+    "sci_research/DHR/DHR复现-s9（水）.md",
+    "sci_research/TBR/TBR-s9.md",
     "TOEFL/口语复述/生活场景-参观艺术馆.md",
+    "TOEFL/口语复述/生活场景-博物馆.md",
     "TOEFL/口语复述/生活场景-wifi配置.md",
     "TOEFL/口语复述/生活场景-租车.md",
     "TOEFL/口语复述/校园场景-实验室.md",
@@ -271,11 +273,9 @@
     "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/TBR-s10.md",
-    "sci_research/TBR/TBR-s9.md",
     "sci_research/image/spectrum/result1.png",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
-    "sci_research/report/TD-DFT项目操作全流程.md",
     "photoelectric-material",
     "physchem-2/image/8-debye.jpg",
     "physchem-2/image/8-Lennard.jpg",
