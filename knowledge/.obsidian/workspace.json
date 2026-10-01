@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/口语复述/生活场景-海洋馆.md",
+                "file": "TOEFL/口语复述/校园场景-图书馆.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生活场景-海洋馆"
+              "title": "校园场景-图书馆"
             }
           }
         ],
@@ -236,6 +236,13 @@
   },
   "active": "091cabb00829ba22",
   "lastOpenFiles": [
+    "TOEFL/口语复述/校园场景-实验室.md",
+    "TOEFL/口语复述/校园场景-参观学校.md",
+    "TOEFL/口语复述/生活场景-wifi配置.md",
+    "TOEFL/口语复述/生活场景-租车.md",
+    "TOEFL/口语复述/生活场景-社区中心.md",
+    "TOEFL/口语复述/生活场景-咖啡机.md",
+    "TOEFL/口语复述/生活场景-海洋馆.md",
     "TOEFL/口语复述/生活场景-参观艺术馆.md",
     "TOEFL/口语复述/生活场景-博物馆.md",
     "未命名.md",
@@ -243,9 +250,6 @@
     "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/TBR/TBR-s9.md",
-    "TOEFL/口语复述/生活场景-wifi配置.md",
-    "TOEFL/口语复述/生活场景-租车.md",
-    "TOEFL/口语复述/校园场景-实验室.md",
     "TOEFL/口语复述/校园场景-图书馆.md",
     "TOEFL/邮件写作/邻居沟通.md",
     "TOEFL/邮件写作/人生规划建议.md",
@@ -258,11 +262,7 @@
     "sci_research/report/SUMMARY 4.md",
     "math/The Natural Numbers.md",
     "sci_research/anti-kasha-paper/DHR文献计算细节.md",
-    "sci_research/TBR/TBR-s0.md",
-    "sci_research/TBR/TBR-s9光谱.md",
-    "sci_research/TBR/TBR-s10.md",
     "sci_research/image/spectrum/result1.png",
-    "sci_research/DHR/Emission Spectra of DHR.md",
     "photoelectric-material",
     "physchem-2/image/8-debye.jpg",
     "physchem-2/image/8-Lennard.jpg",
