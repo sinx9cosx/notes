@@ -28,7 +28,7 @@ DHR 和 TBR 的高激发态 NTO 存在相似性
 ↓  
 为 TBR 的高激发态发光行为提供电子结构上的解释
 
-The natural transition orbital (NTO) analysis reveals similar excited state electronic structures for DHR and TBR. They are highly connected with the conjugate system, which includes a pentagon and a heptagon. Just like DHR, excited states of TBR features 
+The natural transition orbital (NTO) analysis reveals similar excited state electronic structures for DHR and TBR. They are highly connected with the conjugate system, which includes a pentagon and a heptagon. Just like DHR, the hole of TBR S9 is distributed near the pentagon, while the electronic orbital near the heptagon. The correspendence between the NTO patterns of TBR and DHR suggests that this specific structure provides a similar high energy excited state luminescence mechanism.
 
 <mark style="background: #FFB86CA6;">（参考）DHR的文章-计算方法描述</mark>
 
