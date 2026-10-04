@@ -32,6 +32,8 @@ DHR 和 TBR 的高激发态 NTO 存在相似性
 
 The natural transition orbital (NTO) analysis reveals similar excited state electronic structures for DHR and TBR. They are highly connected with the conjugated system, which includes a pentagon and a heptagon. Just like DHR, the hole of TBR S9 is distributed near the pentagon, while the electron orbital is distributed near the heptagon. The correspondence between the NTO patterns of TBR and DHR suggests that this specific structure provides a similar high energy excited state luminescence mechanism.
 
+The natural transition orbital (NTO) analysis reveals similar electronic structures for the high-lying excited states of DHR and TBR. In both molecules, the relevant electronic transitions are associated with the conjugated system involving the five-membered and seven-membered rings. Similar to DHR, the hole NTO of TBR-S9 is mainly distributed around the five-membered ring, whereas the electron NTO is mainly distributed around the seven-membered ring. The correspondence between the NTO distributions of DHR and TBR suggests that the cyclic conjugated framework in TBR can support a high-lying excited-state electronic structure similar to that of DHR. This structural similarity provides an electronic-structure basis for understanding the high-lying excited-state luminescence behavior of TBR.
+
 ---
 
 <mark style="background: #FFB86CA6;">（参考）DHR的文章-计算方法描述</mark>
@@ -43,3 +45,5 @@ All the molecular geometry structures in the S0, S1 and S2 states were optimized
 S9 opt+freq -> S9 td -> S9 NTO
 
 The S9 states of DHR and TBR were optimized at the CAM-B3LYP/6-31G(d,p) level with Gaussian 16. TDDFT was used to calculate excitation energies of S9 and prepare for the NTO calculation. NTOs were analyzed at the same level of theory.
+
+The S9 excited-state geometries of DHR and TBR were optimized using time-dependent density functional theory (TD-DFT) at the CAM-B3LYP/6-31G(d,p) level with Gaussian 16. Frequency calculations were subsequently performed at the same level to confirm the nature of the optimized excited-state structures. The excitation energies and oscillator strengths of the S9 states were calculated using TD-DFT. Natural transition orbitals (NTOs) were generated and analyzed at the same level of theory to characterize the spatial distributions of the hole and electron involved in the S9 electronic transitions.
