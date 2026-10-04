@@ -16,6 +16,8 @@ Category:
   <td align="center"><img src="136-0.png" width="380"><br>TBR-S9-136电子</td>
   </tr></table>
   
+---
+
 # 机理解释+方法描述
 
 <mark style="background: #FFB86CA6;">机理解释：</mark>
@@ -30,6 +32,8 @@ DHR 和 TBR 的高激发态 NTO 存在相似性
 
 The natural transition orbital (NTO) analysis reveals similar excited state electronic structures for DHR and TBR. They are highly connected with the conjugated system, which includes a pentagon and a heptagon. Just like DHR, the hole of TBR S9 is distributed near the pentagon, while the electron orbital is distributed near the heptagon. The correspondence between the NTO patterns of TBR and DHR suggests that this specific structure provides a similar high energy excited state luminescence mechanism.
 
+---
+
 <mark style="background: #FFB86CA6;">（参考）DHR的文章-计算方法描述</mark>
 
 2.2 Computational details for the absorption and emission spectra simulations  
@@ -38,4 +42,4 @@ All the molecular geometry structures in the S0, S1 and S2 states were optimized
 
 S9 opt+freq -> S9 td -> S9 NTO
 
-The S9 states of DHR and TBR were optimized at cam-B3LYP/6-31g(d,p) level with Gaussian 16. TDDFT were used to calculate excitation 
+The S9 states of DHR and TBR were optimized at the CAM-B3LYP/6-31G(d,p) level with Gaussian 16. TDDFT was used to calculate excitation energies of S9 and prepare for the NTO calculation. NTOs were analyzed at the same level of theory.
