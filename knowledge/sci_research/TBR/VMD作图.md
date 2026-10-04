@@ -28,6 +28,8 @@ Multiwfn 会立即进行 NTO 变换，并在控制台输出该激发态的前几
 
 回车后，Multiwfn 会生成一个包含该激发态所有 NTO 轨道的新 `.fch` 文件。这个文件就是后续导出 cube 文件的输入来源。
 
+## 生成cube文件
+
 完全关闭之前的 Multiwfn 窗口，重新启动 Multiwfn。将上一步生成的 NTO `.fch` 文件拖入 Multiwfn 命令行窗口。
 
 
@@ -44,3 +46,34 @@ Multiwfn 会立即进行 NTO 变换，并在控制台输出该激发态的前几
 
 计算完成后，当前工作目录下会生成一组 `.cub` 文件。
 
+# VMD参数设置
+
+## 分子骨架
+
+drawing method:CPK
+
+coloring method: element
+C:tan
+H:silver
+
+material:AOEdgy
+
+sphere scale:0.7
+sphere resolution:37
+bond radius:0.4
+bond resolution:12
+
+## 等值面
+
+coloring method:colorID
++:22
+-:32
+
+material:AOShiny
+ambient:0.30
+diffuse:0.85
+specular:0.30
+shininess:0.65
+opacity:0.60
+
+isovalue:$\pm$ 0.03
