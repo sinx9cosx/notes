@@ -36,3 +36,6 @@ The natural transition orbital (NTO) analysis reveals similar excited state elec
 
 All the molecular geometry structures in the S0, S1 and S2 states were optimized at CASSCF/`631G*`/(12,12) level with symmetry contained as D2H group point. The excitation energies and oscillator strengths were calculated at CASPT2/`6-31G*`/(12,12) level based on CASSCF orbitals. S4  The above calculations were performed by using MOLCAS 7.0 program7. Because CASSCF method cannot deal with the frequency calculation owing to expensive computational cost, DFT and TDDFT were used to calculate the frequencies and analyze the normal modes of DHR in the S0, S1 and S2 states, respectively, at $\omega$B97xd/6-311+g* level with Gaussian 16 program8. Further the vibrational absorption and emission spectra of isolated DHR were simulated by using the thermal vibration correlation function method in MOMAP program9, for which the fine structures of the spectra were assigned in detail.
 
+S9 opt+freq -> S9 td -> S9 NTO
+
+The S9 states of DHR and TBR were optimized at cam-B3LYP/6-31g(d,p) level with Gaussian 16. TDDFT were used to calculate excitation 
