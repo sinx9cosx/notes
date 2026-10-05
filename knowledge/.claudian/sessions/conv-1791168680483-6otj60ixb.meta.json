@@ -4,8 +4,8 @@
   "title": "Explain liquid energy equipartition RT",
   "titleGenerationStatus": "success",
   "createdAt": 1791168680483,
-  "updatedAt": 1791169479435,
-  "lastResponseAt": 1791169479435,
+  "updatedAt": 1791170056913,
+  "lastResponseAt": 1791170056913,
   "sessionId": "ec354737-f31e-4772-ac0f-139de19ecd4b",
   "providerState": {
     "providerSessionId": "ec354737-f31e-4772-ac0f-139de19ecd4b",
@@ -142,11 +142,11 @@
   "currentNote": "physchem-2/8-纯物质体相性质-液态.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 93,
+    "inputTokens": 57,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 49408,
+    "cacheReadInputTokens": 54272,
     "contextWindow": 200000,
-    "contextTokens": 49501,
-    "percentage": 25
+    "contextTokens": 54329,
+    "percentage": 27
   }
 }
