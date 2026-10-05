@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -247,7 +247,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "29334b22aa88ca15",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "molecular-simulation",
     "sci_research/TBR/VMD作图.md",

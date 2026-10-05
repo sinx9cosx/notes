@@ -1,0 +1,23 @@
+{
+  "id": "conv-1791210987412-nwpjgzkm9",
+  "providerId": "claude",
+  "title": "Explain applicable scenarios for these potentials",
+  "titleGenerationStatus": "success",
+  "createdAt": 1791210987413,
+  "updatedAt": 1791211028118,
+  "lastResponseAt": 1791211028118,
+  "sessionId": "45468d84-9fa1-4033-b40b-8a53ef31659e",
+  "providerState": {
+    "providerSessionId": "45468d84-9fa1-4033-b40b-8a53ef31659e"
+  },
+  "currentNote": "molecular-simulation/分子作用势.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 899,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 29952,
+    "contextWindow": 200000,
+    "contextTokens": 30851,
+    "percentage": 15
+  }
+}
