@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f84edc07099f4d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sci_research/DHR/Emission Spectra of DHR.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Emission Spectra of DHR"
-            }
-          },
-          {
             "id": "d53f7720ad195a68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR实验发光机理解释草稿.md",
+                "file": "sci_research/TBR/VMD作图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR实验发光机理解释草稿"
+              "title": "VMD作图"
             }
           },
           {
@@ -41,30 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/8-纯物质体相性质-液态.md",
+                "file": "sci_research/report/SUMMARY 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8-纯物质体相性质-液态"
-            }
-          },
-          {
-            "id": "ac06c95524256621",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physchem-2/8-纯物质体相性质-相.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "8-纯物质体相性质-相"
+              "title": "SUMMARY 3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -201,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR实验发光机理解释草稿.md",
+                "file": "sci_research/TBR/VMD作图.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -263,24 +236,29 @@
   },
   "active": "d53f7720ad195a68",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR实验发光机理解释草稿.md",
+    "sci_research/report/SUMMARY 3.md",
+    "sci_research/report/DHR SUMMARY 2.md",
+    "sci_research/report/SUMMARY 4.md",
+    "sci_research/report/TBR SUMMARY1.md",
+    "sci_research/report/TD-DFT项目操作全流程.md",
+    "sci_research/report/TD-DFT calculation results.md",
+    "sci_research/TBR/VMD作图.md",
+    "physchem-2/8-纯物质体相性质-液态.md",
+    "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/溶剂：二氯甲烷.md",
     "sci_research/TBR/溶剂：二氯甲烷.md",
     "sci_research/TBR/TBR-s0.md",
-    "sci_research/DHR/Emission Spectra of DHR.md",
     "physchem-2/8-纯物质体相性质-分子间相互作用.md",
     "physchem-2/image/杨涵3024207300.pdf",
     "physchem-2/8-纯物质体相性质-相.md",
     "physchem-1/热力学.md",
-    "physchem-2/8-纯物质体相性质-液态.md",
     "TOEFL/通用词汇.md",
     "physchem-2/image/liquid-volume.jpg",
-    "sci_research/TBR/TBR实验发光机理解释草稿.md",
     "physchem-2/8-纯物质体相性质-液态.md.tmp.24824.ba0a43df0f85",
     "physchem-2/8-纯物质体相性质-真实气体.md",
-    "sci_research/TBR/VMD作图.md",
     "sci_research/TBR/TBR-s9.md",
     "TOEFL/邮件写作/社区设施修缮.md",
-    "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/TBR实验发光机理解释草稿.md.tmp.17384.18502bb3e199",
     "sci_research/image/TBR/135-0.png",
     "sci_research/image/TBR/136-0.png",
@@ -304,11 +282,6 @@
     "TOEFL/口语复述/校园场景-图书馆.md",
     "TOEFL/口语复述/校园场景-实验室.md",
     "TOEFL/口语复述/校园场景-参观学校.md",
-    "TOEFL/口语复述/生活场景-wifi配置.md",
-    "TOEFL/口语复述/生活场景-租车.md",
-    "TOEFL/口语复述/生活场景-社区中心.md",
-    "TOEFL/口语复述/生活场景-咖啡机.md",
-    "TOEFL/口语复述/生活场景-海洋馆.md",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/linux/vim示意图.canvas",
