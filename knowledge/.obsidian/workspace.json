@@ -35,8 +35,7 @@
               "title": "SUMMARY 3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/report/SUMMARY 3.md",
+                "file": "sci_research/TBR/VMD作图.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -235,10 +234,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "e089553ba04d8253",
+  "active": "d53f7720ad195a68",
   "lastOpenFiles": [
-    "sci_research/TBR/VMD作图.md",
     "sci_research/report/SUMMARY 3.md",
+    "sci_research/TBR/VMD作图.md",
     "sci_research/TBR/TBR实验发光机理解释草稿.md",
     "sci_research/report/DHR SUMMARY 2.md",
     "sci_research/report/SUMMARY 4.md",
