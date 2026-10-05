@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/溶剂：二氯甲烷.md",
+                "file": "sci_research/DHR/溶剂：二氯甲烷.md",
                 "mode": "source",
                 "source": false
               },
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/溶剂：二氯甲烷.md",
+                "file": "sci_research/DHR/溶剂：二氯甲烷.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -263,8 +263,9 @@
   },
   "active": "d53f7720ad195a68",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR-s0.md",
     "sci_research/TBR/溶剂：二氯甲烷.md",
+    "sci_research/DHR/溶剂：二氯甲烷.md",
+    "sci_research/TBR/TBR-s0.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
     "physchem-2/8-纯物质体相性质-分子间相互作用.md",
     "physchem-2/image/杨涵3024207300.pdf",
@@ -308,7 +309,6 @@
     "TOEFL/口语复述/生活场景-社区中心.md",
     "TOEFL/口语复述/生活场景-咖啡机.md",
     "TOEFL/口语复述/生活场景-海洋馆.md",
-    "TOEFL/口语复述/生活场景-参观艺术馆.md",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/linux/vim示意图.canvas",
