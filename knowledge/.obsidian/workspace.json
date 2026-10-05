@@ -35,7 +35,8 @@
               "title": "SUMMARY 3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/VMD作图.md",
+                "file": "sci_research/report/SUMMARY 3.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -234,16 +235,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d53f7720ad195a68",
+  "active": "e089553ba04d8253",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR实验发光机理解释草稿.md",
+    "sci_research/TBR/VMD作图.md",
     "sci_research/report/SUMMARY 3.md",
+    "sci_research/TBR/TBR实验发光机理解释草稿.md",
     "sci_research/report/DHR SUMMARY 2.md",
     "sci_research/report/SUMMARY 4.md",
     "sci_research/report/TBR SUMMARY1.md",
     "sci_research/report/TD-DFT项目操作全流程.md",
     "sci_research/report/TD-DFT calculation results.md",
-    "sci_research/TBR/VMD作图.md",
     "physchem-2/8-纯物质体相性质-液态.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/溶剂：二氯甲烷.md",
