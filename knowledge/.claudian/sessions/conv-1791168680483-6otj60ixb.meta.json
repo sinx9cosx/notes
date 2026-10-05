@@ -4,20 +4,149 @@
   "title": "Explain liquid energy equipartition RT",
   "titleGenerationStatus": "success",
   "createdAt": 1791168680483,
-  "updatedAt": 1791168737180,
-  "lastResponseAt": 1791168737180,
+  "updatedAt": 1791169479435,
+  "lastResponseAt": 1791169479435,
   "sessionId": "ec354737-f31e-4772-ac0f-139de19ecd4b",
   "providerState": {
-    "providerSessionId": "ec354737-f31e-4772-ac0f-139de19ecd4b"
+    "providerSessionId": "ec354737-f31e-4772-ac0f-139de19ecd4b",
+    "subagentData": {
+      "call_00_QmLd0teOc4tPWsp1LQK09560": {
+        "id": "call_00_QmLd0teOc4tPWsp1LQK09560",
+        "description": "向笔记插入液体平动解释",
+        "prompt": "任务：在 Obsidian 笔记中插入一段解释内容，只做这一处修改，不得改动文件其他任何部分。\n\n文件：8-纯物质体相性质-液态.md（相对路径，当前工作目录是 F:\\obsidian_notes\\knowledge，是 Obsidian vault 根目录）\n\n步骤：\n1. 先用 Skill 工具调用 \"obsidian-markdown\" skill，按其规范指导本次编辑。\n2. 用 Read 工具读取 8-纯物质体相性质-液态.md。\n3. 用 Edit 工具，在\"能量类型对比\"表格之后、\"相关公式\"标题之前插入以下内容（前后各保留一个空行）：\n\n<mark style=\"background: #FFB8EBA6;\">液体平动自由度为何是 RT</mark>\n\n气体平动自由度只有动能平方项 $p^2/2m$，按能量均分定理每摩尔贡献 $\\frac{1}{2}RT$，且只有动能。液体中分子被周围分子束缚在瞬时\"笼子\"（势阱）中，偏离平衡位置受回复力，多出一个势能平方项 $\\frac{1}{2}kx^2$，于是动能、势能各贡献 $\\frac{1}{2}RT$，合计 $RT$，恰为气体纯动能的两倍。动能与势能随时间相互转化，简谐近似下两者时间平均相等（维里定理）。\n\n三个平动自由度在液态合计 $3RT$（动能、势能各 $\\frac{3}{2}RT$），是气体 $\\frac{3}{2}RT$ 的两倍——这正是 $Q_{液,m}\\approx 2Q_{气,m}$ 的来源。\n\n> 注意：此处\"势能\"指偏离平衡位置的振动势能，不含分子间平均相互作用能（势阱内聚能是负常数，对热容无贡献）。\n\nEdit 的 old_string 建议取\"能量类型对比\"表格的最后一行加上其后的空行和\"相关公式\"标题，确保唯一匹配。注意表格行内有对齐空格，必须逐字符精确复制（以 Read 到的内容为准）。\n\n4. 完成后报告：插入是否成功、插入位置的前后各 3 行上下文（原文照抄）。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_omGwhpnQIJ53T2Y6S02d0031",
+            "name": "Skill",
+            "input": {
+              "skill": "obsidian-markdown"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Launching skill: obsidian-markdown"
+          },
+          {
+            "id": "call_00_j6LZmQTLEKnPFIstqsRv6078",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\8-纯物质体相性质-液态.md"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File does not exist. Note: your current working directory is F:\\obsidian_notes\\knowledge."
+          },
+          {
+            "id": "call_00_YFcvbO7ir7ioczZkG1YD7686",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\physchem-2\\8-纯物质体相性质-液态.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 热力学\n4\t  - 物理化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t\n10\t# 液态的宏观特性\n11\t\n12\t## 液态的热容\n13\t\n14\t能量类型对比\n15\t\n16\t| 能量类型 | 气体每自由度能量               | 液体每自由度能量                         |\n17\t| ---- | ---------------------- | -------------------------------- |\n18\t| 平动   | $\\frac{1}{2}RT$（纯动能）   | RT（动能 + 势能）                      |\n19\t| 转动   | $\\frac{1}{2}RT$ （自由转动） | $\\frac{1}{2}RT \\sim RT$（受限转动/摆动） |\n20\t| 振动   | $\\ll RT$（未激发）          | $\\ll RT$（低频振动）                   |\n21\t\n22\t相关公式\n23\t\n24\t$$\n25\t\\begin{aligned}\n26\t&Q_{\\text{液},m}=3RT+jRT+O(Q)\\\\ \\\\\n27\t&Q_{\\text{液},m}=2Q_{\\text{气,转动}}+2Q_{\\text{气,平动}}+O(Q)\\\\ \\\\\n28\t&Q_{\\text{液},m}\\approx 2Q_{\\text{气},m}\n29\t\\end{aligned}\n30\t$$\n31\t<mark style=\"background: #FFB8EBA6;\">液态热容原理</mark>\n32\t\n33\t在常温常压下，物质的液态标准摩尔等压热容大约等于其同样条件下气体标准等容摩尔热容的两倍。\n34\t\n35\t$$\n36\tC_{p,m,\\text{液}}=2(C_{p,m,\\text{气}}-R)\n37\t$$\n38\t\n39\t在能量均分定理下：\n40\t\n41\t- 每个平动/转动自由度对热容贡献 $\\frac{1}{2}R$\n42\t- 每个振动自由度（含动能 + 势能）对热容贡献 R\n43\t- 结论：液态中平动和转动“转化”为类振动后，热容贡献约为原来的两倍。\n44\t\n45\t$$\n46\t\\begin{aligned}\n47\tC_{P,m,\\text{液}}&=\n48\t\\left(\\frac{\\partial H_{m,\\text{液}}}{\\partial T}\\right)_P\\\\ \\\\\n49\t\\approx\n50\t&\\left(\\frac{\\partial U_{m,\\text{液}}}{\\partial T}\\right)_V\n51\t+\n52\tP\\left(\\frac{\\partial V_{m,\\text{液}}}{\\partial T}\\right)_P\\\\ \\\\\n53\t\\approx\n54\t&2C_{V,m,\\text{气}}\n55\t=\n56\t2(C_{P,m,\\text{气}}-R)\n57\t\\end{aligned}\n58\t$$\n59\t\n60\t---\n61\t\n62\t<mark style=\"background: #FFB8EBA6;\">液态的单位体积比热容</mark>\n63\t\n64\t定义：\n65\t$$\n66\t\\Gamma_V=\\frac{C_P}{V}=\\frac{nC_{P,m}}{V}=\\frac{C_{P,m}}{V_m}\n67\t$$\n68\t\n69\t\n70\t<mark style=\"background: #FFB8EBA6;\">液态熵补偿</mark>\n71\t\n72\t\n73\t\n74\t液态的体积\n75\t\n76\t势能曲线与分子间距：\n77\t\n78\t\\[\n79\tE_{\\text{分子}}=\\frac{A}{d^{12}}-\\frac{B}{d^6}\n80\t\\]\n81\t\n82\t\\[\n83\t\\frac{E_{\\text{分子}}}{E_{\\text{分子}}^0}\n84\t=\n85\t2\\left(\\frac{d}{d^0}\\right)^{-6}\n86\t-\n87\t\\left(\\frac{d}{d^0}\\right)^{-12}\n88\t\\]\n89\t\n90\t“凝聚态”：固态和液态。\n91\t\n92\t结论：液态的体积决定于分子间相互作用能（势能曲线最低点）。\n93\t\n94\t---\n95\t\n96\t#### 液态体积与气态体积区别分析\n97\t\n98\t根据热力学基本方程，对于任意体系：\n99\t\n100\t\\[\n101\tV=\\left(\\frac{\\partial G}{\\partial P}\\right)_T\n102\t\\]\n103\t\n104\t将 \\( G=H-TS \\) 代入：\n105\t\n106\t\\[\n107\tV=\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n108\t-\n109\tT\\left(\\frac{\\partial S}{\\partial P}\\right)_T\n110\t\\]\n111\t\n112\t又由热力学关系式：\n113\t\n114\t\\[\n115\t\\left(\\frac{\\partial S}{\\partial P}\\right)_T\n116\t=\n117\t-\\left(\\frac{\\partial V}{\\partial T}\\right)_P\n118\t\\]\n119\t\n120\t因此：\n121\t\n122\t\\[\n123\tV=\n124\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n125\t+\n126\tT\\left(\\frac{\\partial V}{\\partial T}\\right)_P\n127\t\\]\n128\t\n129\t---\n130\t\n131\t#### 对液态体积\n132\t\n133\t\\[\n134\tV=\n135\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n136\t+\n137\tT\\left(\\frac{\\partial V}{\\partial T}\\right)_P\n138\t\\]\n139\t\n140\t对于液体而言，其体积膨胀系数和压缩系数都很小，也就是说在常温常压附近，液体的体积对温度的依赖极弱。\n141\t\n142\t因此，第二项 \\( T(\\partial V/\\partial T)_P \\) 的贡献非常小，可以近似认为为零。于是有：\n143\t\n144\t\\[\n145\tV_{\\text{液}}\\approx\n146\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n147\t\\]\n148\t\n149\t这个结果表明，液体的体积主要由焓随压强变化的关系决定。\n150\t\n151\t而焓中包含了分子间相互作用势能的影响，所以液体体积实际上反映了分子间作用力的平衡特征。\n152\t\n153\t也就是说，液体体积是由分子间吸引与排斥作用的平衡距离所决定的。\n154\t\n155\t---\n156\t\n157\t#### 对气态体积\n158\t\n159\t\\[\n160\tV=\n161\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n162\t-\n163\tT\\left(\\frac{\\partial S}{\\partial P}\\right)_T\n164\t\\]\n165\t\n166\t对于理想气体，上述推导同样成立，但有一条重要性质：\n167\t\n168\t理想气体的焓只与温度有关，而与压力无关，因此：\n169\t\n170\t\\[\n171\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T=0\n172\t\\]\n173\t\n174\t代入前式就得到：\n175\t\n176\t\\[\n177\tV_{\\text{气}}=\n178\t-\n179\tT\\left(\\frac{\\partial S}{\\partial P}\\right)_T\n180\t\\]\n181\t\n182\t这说明，理想气体的体积完全由体系的熵随压强的变化所决定。\n183\t\n184\t换句话说，气体体积取决于体系膨胀时熵的变化趋势，与体系本身的分子相互作用无关。\n185\t\n186\t液体体积主要取决于分子间相互作用的性质；气体体积主要取决于体系的集体行为，即系统的多样性或熵。\n187\t\n188\t---\n189\t\n190\t## 二、相与相平衡\n191\t\n192\t### 1. 相的概念\n193\t\n194\t相：\n195\t\n196\t- 在系统中，物理性质和化学性质完全均匀的部分；\n197\t- 相间有界面；\n198\t- 相必须连续吗？\n199\t\n200\t相数：\\( P \\)，多相平衡体系中如何确定相数？\n201\t\n202\t气体：1个气相。\n203\t\n204\t液体：\n205\t\n206\t固体：\n207\t\n208\t相态：系统的相数不变，无新相的生成也无旧相消失，称系统处于确定的相态。\n209\t\n210\t---\n211\t\n212\t### 2. 相平衡的条件\n213\t\n214\t任意物质 B 在它所存在的所有相中的化学势相等：\n215\t\n216\t\\[\n217\t\\mu_B(1)=\\mu_B(2)=\\cdots=\\mu_B(P)\n218\t\\]\n219\t\n220\t相平衡系统：满足相平衡条件的系统。\n221\t\n222\t---\n223\t\n224\t## 三、多相多组分系统热力学\n225\t\n226\t### 1. 敞开系统的基本关系式\n227\t\n228\t条件：无非体积功的任意过程。\n229\t\n230\t\\[\n231\tdU=TdS-pdV+\\sum \\mu_B dn_B\n232\t\\]\n233\t\n234\t\\[\n235\tdH=TdS+Vdp+\\sum \\mu_B dn_B\n236\t\\]\n237\t\n238\t\\[\n239\tdA=-SdT-pdV+\\sum \\mu_B dn_B\n240\t\\]\n241\t\n242\t\\[\n243\tdG=-SdT+Vdp+\\sum \\mu_B dn_B\n244\t\\]\n245\t\n246\t---\n247\t\n248\t### 2. 多相多组分系统\n249\t\n250\t多组分多相系统中任一相（\\( \\alpha,\\beta,\\gamma,\\delta,\\varepsilon\\cdots \\)）均适用上节讨论：\n251\t\n252\t\\[\n253\tdG(\\alpha)=-S(\\alpha)dT+V(\\alpha)dp+\\sum_B \\mu_B(\\alpha)dn_B(\\alpha)\n254\t\\]\n255\t\n256\t\\[\n257\tdG(\\beta)=-S(\\beta)dT+V(\\beta)dp+\\sum_B \\mu_B(\\beta)dn_B(\\beta)\n258\t\\]\n259\t\n260\t\\[\n261\tdG(\\gamma)=-S(\\gamma)dT+V(\\gamma)dp+\\sum_B \\mu_B(\\gamma)dn_B(\\gamma)\n262\t\\]\n263\t\n264\t\\[\n265\t\\cdots\n266\t\\]\n267\t\n268\t忽略界面效应：\n269\t\n270\t\\[\n271\tX=\\sum_{\\alpha} X(\\alpha)\n272\t\\]\n273\t\n274\t\\[\n275\t\\sum_{\\alpha} dG(\\alpha)\n276\t=\n277\t-\\sum_{\\alpha} S(\\alpha)dT\n278\t+\n279\t\\sum_{\\alpha} V(\\alpha)dp\n280\t+\n281\t\\sum_{\\alpha}\\left(\\sum_B \\mu_B(\\alpha)dn_B(\\alpha)\\right)\n282\t\\]\n283\t\n284\t所有相的化学势贡献之和。\n285\t\n286\t某相化学势 = 该相所有物质的化学势贡献之和。\n287\t\n288\t---\n289\t\n290\t进一步：\n291\t\n292\t\\[\n293\t\\sum_{\\alpha} dG(\\alpha)\n294\t=\n295\td\\sum_{\\alpha} G(\\alpha)\n296\t=\n297\tdG\n298\t\\]\n299\t\n300\t\\[\n301\t\\sum_{\\alpha} S(\\alpha)=S\n302\t\\]\n303\t\n304\t\\[\n305\t\\sum_{\\alpha} V(\\alpha)=V\n306\t\\]\n307\t\n308\t代入上式，得：\n309\t\n310\t\\[\n311\tdG=-SdT+Vdp+\\sum_{\\alpha}\\left(\\sum_B \\mu_B(\\alpha)dn_B(\\alpha)\\right)\n312\t\\]\n313\t\n314\t所有相的化学势贡献之和。\n315\t\n316\t某相化学势 = 该相所有物质的化学势贡献之和。\n317\t\n318\t多相多组分系统化学势。\n319\t\n320\t条件：无非体积功的任意过程。\n321\t\n322\t——多相多组分系统热力学基本方程。\n323\t\n324\t---\n325\t\n326\t### 3. 恒温恒容与恒温恒压判据\n327\t\n328\t#### 恒温恒容且非体积功 \\( W'=0 \\) 时\n329\t\n330\tA 判据：\n331\t\n332\t\\[\n333\tdA\\le 0\n334\t\\quad\n335\t\\begin{cases}\n336\t<0, & \\text{自发}\\\\\n337\t=0, & \\text{平衡}\n338\t\\end{cases}\n339\t\\quad\n340\t(dT=0,\\ dV=0,\\ \\delta W'=0)\n341\t\\]\n342\t\n343\t多相多组分系统：\n344\t\n345\t\\[\n346\tdA=-SdT-pdV+\\sum_{\\alpha}\\sum_{\\beta}\\mu_{\\beta}(\\alpha)dn_{\\beta}(\\alpha)\n347\t\\]\n348\t\n349\t得：\n350\t\n351\t\\[\n352\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_{\\beta}(\\alpha)dn_{\\beta}(\\alpha)\\le 0\n353\t\\quad\n354\t\\begin{cases}\n355\t<0, & \\text{自发}\\\\\n356\t=0, & \\text{平衡}\n357\t\\end{cases}\n358\t\\quad\n359\t(dT=0,\\ dV=0,\\ \\delta W'=0)\n360\t\\]\n361\t\n362\t#### 恒温恒压且非体积功 \\( W'=0 \\) 时\n363\t\n364\tG 判据：\n365\t\n366\t\\[\n367\tdG\\le 0\n368\t\\quad\n369\t\\begin{cases}\n370\t<0, & \\text{自发}\\\\\n371\t=0, & \\text{平衡}\n372\t\\end{cases}\n373\t\\quad\n374\t(dT=0,\\ dp=0,\\ \\delta W'=0)\n375\t\\]\n376\t\n377\t多相多组分系统：\n378\t\n379\t\\[\n380\tdG=-SdT+Vdp+\\sum_{\\alpha}\\sum_{\\beta}\\mu_{\\beta}(\\alpha)dn_{\\beta}(\\alpha)\n381\t\\]\n382\t\n383\t得：\n384\t\n385\t\\[\n386\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_{\\beta}(\\alpha)dn_{\\beta}(\\alpha)\\le 0\n387\t\\quad\n388\t\\begin{cases}\n389\t<0, & \\text{自发}\\\\\n390\t=0, & \\text{平衡}\n391\t\\end{cases}\n392\t\\quad\n393\t(dT=0,\\ dp=0,\\ \\delta W'=0)\n394\t\\]\n395\t\n396\t---\n397\t\n398\t### 4. 多相多组分系统的化学势判据\n399\t\n400\t\\[\n401\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_B(\\alpha)dn_B(\\alpha)\\le 0\n402\t\\quad\n403\t\\begin{cases}\n404\t<0, & \\text{自发}\\\\\n405\t=0, & \\text{平衡}\n406\t\\end{cases}\n407\t\\quad\n408\t(dT=0,\\ dV=0,\\ \\delta W'=0)\n409\t\\]\n410\t\n411\t\\[\n412\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_B(\\alpha)dn_B(\\alpha)\\le 0\n413\t\\quad\n414\t\\begin{cases}\n415\t<0, & \\text{自发}\\\\\n416\t=0, & \\text{平衡}\n417\t\\end{cases}\n418\t\\quad\n419\t(dT=0,\\ dp=0,\\ \\delta W'=0)\n420\t\\]\n421\t\n422\t---\n423\t\n424\t## 四、化学势判据与平衡\n425\t\n426\t无论恒温、恒容或恒温、恒压，当系统达到平衡时，均有：\n427\t\n428\t\\[\n429\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_B(\\alpha)dn_B(\\alpha)=0\n430\t\\quad\n431\t(W'=0)\n432\t\\]\n433\t\n434\t可以证明，在非体积功为零的情况下，对任意过程，封闭系统达平衡时均有：\n435\t\n436\t\\[\n437\t\\sum_{\\alpha}\\left(\\sum_{\\beta}\\mu_B(\\alpha)dn_B(\\alpha)\\right)=0\n438\t\\quad\n439\t(W'=0)\n440\t\\]\n441\t\n442\t系统是否达到平衡的化学势判据：\n443\t\n444\t- 是系统物质平衡的条件；\n445\t- 与系统达到平衡的方式无关；\n446\t- 系统热力学函数在平衡时的极值与系统达到平衡的方式有关。\n447\t\n448\t具体：\n449\t\n450\t- 恒温、恒压下：\\( G \\) 达到极小值；\n451\t- 恒温、恒容下：\\( A \\) 达到极小值。\n452\t\n453\t---\n454\t\n455\t### 化学势判断总结\n456\t\n457\t1. 在恒 \\( T \\) 恒 \\( p \\)，\\( W'=0 \\) 的条件下，物质总是由高化学势流向低化学势，直至化学势相等达到平衡。\n458\t2. 其他条件下，只要 \\( W'=0 \\)，化学势决定所有传质过程的方向。\n459\t3. 在 \\( W'=0 \\) 的条件下，化学势相等是平衡的条件，是处理平衡问题的依据。\n460\t\n461\t化学势判断——统一判断：\n462\t\n463\t- 化学势决定了系统的物质平衡；\n464\t- 化学势、温度和压力一起共同决定了系统的热力学平衡。\n465\t\n466\t---\n467\t\n468\t### 传递方向\n469\t\n470\t- \\( T_2\\neq T_1 \\)：温差导致能量以热的方式传递；\n471\t- \\( p_2\\neq p_1 \\)：压力差导致能量以功的方式传递；\n472\t- \\( \\mu_2\\neq \\mu_1 \\)：化学势差导致物质传递。\n473\t"
+          },
+          {
+            "id": "call_00_uIZyWyYRRq6KfgSVBJBD9870",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/8-纯物质体相性质-液态.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "physchem-2\\8-纯物质体相性质-液态.md"
+          },
+          {
+            "id": "call_01_RuVwsDjtUYvsWfbQEDsf1839",
+            "name": "Bash",
+            "input": {
+              "command": "sed -n '19,23p' \"F:/obsidian_notes/knowledge/physchem-2/8-纯物质体相性质-液态.md\" | cat -A",
+              "description": "Show exact bytes of table end and heading lines"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "| M-hM-=M-,M-eM-^JM-(   | $\\frac{1}{2}RT$ M-oM-<M-^HM-hM-^GM-*M-gM-^TM-1M-hM-=M-,M-eM-^JM-(M-oM-<M-^I | $\\frac{1}{2}RT \\sim RT$M-oM-<M-^HM-eM-^OM-^WM-iM-^YM-^PM-hM-=M-,M-eM-^JM-(/M-fM-^QM-^FM-eM-^JM-(M-oM-<M-^I |$\n| M-fM-^LM-/M-eM-^JM-(   | $\\ll RT$M-oM-<M-^HM-fM-^\\M-*M-fM-?M-^@M-eM-^OM-^QM-oM-<M-^I          | $\\ll RT$M-oM-<M-^HM-dM-=M-^NM-iM-\"M-^QM-fM-^LM-/M-eM-^JM-(M-oM-<M-^I                   |$\n$\nM-gM-^[M-8M-eM-^EM-3M-eM-^EM-,M-eM-<M-^O$\n$"
+          },
+          {
+            "id": "call_00_qEweM71TUXsaiaOW6y9x6258",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\physchem-2\\8-纯物质体相性质-液态.md",
+              "old_string": "| 振动   | $\\ll RT$（未激发）          | $\\ll RT$（低频振动）                   |\n\n相关公式",
+              "new_string": "| 振动   | $\\ll RT$（未激发）          | $\\ll RT$（低频振动）                   |\n\n<mark style=\"background: #FFB8EBA6;\">液体平动自由度为何是 RT</mark>\n\n气体平动自由度只有动能平方项 $p^2/2m$，按能量均分定理每摩尔贡献 $\\frac{1}{2}RT$，且只有动能。液体中分子被周围分子束缚在瞬时\"笼子\"（势阱）中，偏离平衡位置受回复力，多出一个势能平方项 $\\frac{1}{2}kx^2$，于是动能、势能各贡献 $\\frac{1}{2}RT$，合计 $RT$，恰为气体纯动能的两倍。动能与势能随时间相互转化，简谐近似下两者时间平均相等（维里定理）。\n\n三个平动自由度在液态合计 $3RT$（动能、势能各 $\\frac{3}{2}RT$），是气体 $\\frac{3}{2}RT$ 的两倍——这正是 $Q_{液,m}\\approx 2Q_{气,m}$ 的来源。\n\n> 注意：此处\"势能\"指偏离平衡位置的振动势能，不含分子间平均相互作用能（势阱内聚能是负常数，对热容无贡献）。\n\n相关公式"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\physchem-2\\8-纯物质体相性质-液态.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          }
+        ],
+        "isExpanded": false,
+        "result": "插入成功。报告如下：\n\n**插入结果**\n- 成功，仅此一处修改，文件其他部分未动。\n- 实际文件路径：`F:\\obsidian_notes\\knowledge\\physchem-2\\8-纯物质体相性质-液态.md`。任务给出的根目录路径已不存在——git 状态显示该文件已从根目录删除并移至 `physchem-2\\` 子目录，vault 内仅此一份，故编辑实际存在的这份。已按 obsidian-markdown skill 规范核对：`<mark>` 高亮块与笔记中已有样式一致（背景色 #FFB8EBA6），数学公式用 `$...$` 行内 LaTeX，引用行用 `>` 语法，插入块前后各保留一个空行。\n\n**插入位置前 3 行（原文照抄）**\n```\n| 平动   | $\\frac{1}{2}RT$（纯动能）   | RT（动能 + 势能）                      |\n| 转动   | $\\frac{1}{2}RT$ （自由转动） | $\\frac{1}{2}RT \\sim RT$（受限转动/摆动） |\n| 振动   | $\\ll RT$（未激发）          | $\\ll RT$（低频振动）                   |\n```\n\n**插入位置后 3 行（原文照抄）**\n```\n相关公式\n\n$$\n\\begin{aligned}\n```\n\n插入的内容为「液体平动自由度为何是 RT」高亮标题 + 三段解释（气体纯动能 $\\frac{1}{2}RT$、液体笼子模型动能势能各半合计 $RT$、三平动自由度合计 $3RT$ 与 $Q_{液,m}\\approx 2Q_{气,m}$ 的关系）+ 一个 `>` 注意行，位于能量类型对比表格与相关公式之间。"
+      },
+      "call_00_JlrXIRGyFBfcSIKpuHkG7334": {
+        "id": "call_00_JlrXIRGyFBfcSIKpuHkG7334",
+        "description": "审查笔记修改正确性",
+        "prompt": "任务：审查 Obsidian 笔记的一处修改是否正确。\n\n背景：文件 8-纯物质体相性质-液态.md 原在 vault 根目录，现已被移动到 physchem-2\\ 子目录（根目录已无此文件）。刚有一个写手子agent在 physchem-2\\8-纯物质体相性质-液态.md 中、\"能量类型对比\"表格之后、\"相关公式\"标题之前插入了一个解释块。\n\n请执行：\n1. 用 Glob 或 Bash 确认 vault（当前工作目录 F:\\obsidian_notes\\knowledge）中该文件名只存在于 physchem-2\\ 下，根目录下不存在同名文件。\n2. 用 Read 读取 physchem-2\\8-纯物质体相性质-液态.md，逐项核对：\n   a. 新插入块「液体平动自由度为何是 RT」的确切位置：应在\"能量类型对比\"表格（含\"平动/转动/振动\"三行）之后、\"相关公式\"标题之前；\n   b. 插入内容与下列要求逐字一致（mark 块样式、公式语法）：\n      - 高亮标题行：<mark style=\"background: #FFB8EBA6;\">液体平动自由度为何是 RT</mark>\n      - 段落一：气体平动自由度只有动能平方项 $p^2/2m$，按能量均分定理每摩尔贡献 $\\frac{1}{2}RT$，且只有动能。液体中分子被周围分子束缚在瞬时\"笼子\"（势阱）中，偏离平衡位置受回复力，多出一个势能平方项 $\\frac{1}{2}kx^2$，于是动能、势能各贡献 $\\frac{1}{2}RT$，合计 $RT$，恰为气体纯动能的两倍。动能与势能随时间相互转化，简谐近似下两者时间平均相等（维里定理）。\n      - 段落二：三个平动自由度在液态合计 $3RT$（动能、势能各 $\\frac{3}{2}RT$），是气体 $\\frac{3}{2}RT$ 的两倍——这正是 $Q_{液,m}\\approx 2Q_{气,m}$ 的来源。\n      - 引用行：> 注意：此处\"势能\"指偏离平衡位置的振动势能，不含分子间平均相互作用能（势阱内聚能是负常数，对热容无贡献）。\n   c. 文件其余部分未被改动：特别核对\"能量类型对比\"表格、\"液态热容原理\"高亮块、\"相关公式\"及其后的 $$ 公式块与原文一致（若你无法拿到修改前原文，至少核对这些部分的结构完整、无重复、无缺失）；\n   d. 插入块前后各有一个空行，格式与笔记其他部分一致。\n\n3. 报告：每项（a/b/c/d）通过/不通过，不通过则给出具体差异。最后给一句总评。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_jT3jOK9O7rgUSBIA68g21433",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/8-纯物质体相性质-液态.md",
+              "path": "F:\\obsidian_notes\\knowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "physchem-2\\8-纯物质体相性质-液态.md"
+          },
+          {
+            "id": "call_01_ZD9qakKpocjnltM3ZbDE6049",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\physchem-2\\8-纯物质体相性质-液态.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 热力学\n4\t  - 物理化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t\n10\t# 液态的宏观特性\n11\t\n12\t## 液态的热容\n13\t\n14\t能量类型对比\n15\t\n16\t| 能量类型 | 气体每自由度能量               | 液体每自由度能量                         |\n17\t| ---- | ---------------------- | -------------------------------- |\n18\t| 平动   | $\\frac{1}{2}RT$（纯动能）   | RT（动能 + 势能）                      |\n19\t| 转动   | $\\frac{1}{2}RT$ （自由转动） | $\\frac{1}{2}RT \\sim RT$（受限转动/摆动） |\n20\t| 振动   | $\\ll RT$（未激发）          | $\\ll RT$（低频振动）                   |\n21\t\n22\t<mark style=\"background: #FFB8EBA6;\">液体平动自由度为何是 RT</mark>\n23\t\n24\t气体平动自由度只有动能平方项 $p^2/2m$，按能量均分定理每摩尔贡献 $\\frac{1}{2}RT$，且只有动能。液体中分子被周围分子束缚在瞬时\"笼子\"（势阱）中，偏离平衡位置受回复力，多出一个势能平方项 $\\frac{1}{2}kx^2$，于是动能、势能各贡献 $\\frac{1}{2}RT$，合计 $RT$，恰为气体纯动能的两倍。动能与势能随时间相互转化，简谐近似下两者时间平均相等（维里定理）。\n25\t\n26\t三个平动自由度在液态合计 $3RT$（动能、势能各 $\\frac{3}{2}RT$），是气体 $\\frac{3}{2}RT$ 的两倍——这正是 $Q_{液,m}\\approx 2Q_{气,m}$ 的来源。\n27\t\n28\t> 注意：此处\"势能\"指偏离平衡位置的振动势能，不含分子间平均相互作用能（势阱内聚能是负常数，对热容无贡献）。\n29\t\n30\t相关公式\n31\t\n32\t$$\n33\t\\begin{aligned}\n34\t&Q_{\\text{液},m}=3RT+jRT+O(Q)\\\\ \\\\\n35\t&Q_{\\text{液},m}=2Q_{\\text{气,转动}}+2Q_{\\text{气,平动}}+O(Q)\\\\ \\\\\n36\t&Q_{\\text{液},m}\\approx 2Q_{\\text{气},m}\n37\t\\end{aligned}\n38\t$$\n39\t<mark style=\"background: #FFB8EBA6;\">液态热容原理</mark>\n40\t\n41\t在常温常压下，物质的液态标准摩尔等压热容大约等于其同样条件下气体标准等容摩尔热容的两倍。\n42\t\n43\t$$\n44\tC_{p,m,\\text{液}}=2(C_{p,m,\\text{气}}-R)\n45\t$$\n46\t\n47\t在能量均分定理下：\n48\t\n49\t- 每个平动/转动自由度对热容贡献 $\\frac{1}{2}R$\n50\t- 每个振动自由度（含动能 + 势能）对热容贡献 R\n51\t- 结论：液态中平动和转动“转化”为类振动后，热容贡献约为原来的两倍。\n52\t\n53\t$$\n54\t\\begin{aligned}\n55\tC_{P,m,\\text{液}}&=\n56\t\\left(\\frac{\\partial H_{m,\\text{液}}}{\\partial T}\\right)_P\\\\ \\\\\n57\t\\approx\n58\t&\\left(\\frac{\\partial U_{m,\\text{液}}}{\\partial T}\\right)_V\n59\t+\n60\tP\\left(\\frac{\\partial V_{m,\\text{液}}}{\\partial T}\\right)_P\\\\ \\\\\n61\t\\approx\n62\t&2C_{V,m,\\text{气}}\n63\t=\n64\t2(C_{P,m,\\text{气}}-R)\n65\t\\end{aligned}\n66\t$$\n67\t\n68\t---\n69\t\n70\t<mark style=\"background: #FFB8EBA6;\">液态的单位体积比热容</mark>\n71\t\n72\t定义：\n73\t$$\n74\t\\Gamma_V=\\frac{C_P}{V}=\\frac{nC_{P,m}}{V}=\\frac{C_{P,m}}{V_m}\n75\t$$\n76\t\n77\t\n78\t<mark style=\"background: #FFB8EBA6;\">液态熵补偿</mark>\n79\t\n80\t\n81\t\n82\t液态的体积\n83\t\n84\t势能曲线与分子间距：\n85\t\n86\t\\[\n87\tE_{\\text{分子}}=\\frac{A}{d^{12}}-\\frac{B}{d^6}\n88\t\\]\n89\t\n90\t\\[\n91\t\\frac{E_{\\text{分子}}}{E_{\\text{分子}}^0}\n92\t=\n93\t2\\left(\\frac{d}{d^0}\\right)^{-6}\n94\t-\n95\t\\left(\\frac{d}{d^0}\\right)^{-12}\n96\t\\]\n97\t\n98\t“凝聚态”：固态和液态。\n99\t\n100\t结论：液态的体积决定于分子间相互作用能（势能曲线最低点）。\n101\t\n102\t---\n103\t\n104\t#### 液态体积与气态体积区别分析\n105\t\n106\t根据热力学基本方程，对于任意体系：\n107\t\n108\t\\[\n109\tV=\\left(\\frac{\\partial G}{\\partial P}\\right)_T\n110\t\\]\n111\t\n112\t将 \\( G=H-TS \\) 代入：\n113\t\n114\t\\[\n115\tV=\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n116\t-\n117\tT\\left(\\frac{\\partial S}{\\partial P}\\right)_T\n118\t\\]\n119\t\n120\t又由热力学关系式：\n121\t\n122\t\\[\n123\t\\left(\\frac{\\partial S}{\\partial P}\\right)_T\n124\t=\n125\t-\\left(\\frac{\\partial V}{\\partial T}\\right)_P\n126\t\\]\n127\t\n128\t因此：\n129\t\n130\t\\[\n131\tV=\n132\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n133\t+\n134\tT\\left(\\frac{\\partial V}{\\partial T}\\right)_P\n135\t\\]\n136\t\n137\t---\n138\t\n139\t#### 对液态体积\n140\t\n141\t\\[\n142\tV=\n143\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n144\t+\n145\tT\\left(\\frac{\\partial V}{\\partial T}\\right)_P\n146\t\\]\n147\t\n148\t对于液体而言，其体积膨胀系数和压缩系数都很小，也就是说在常温常压附近，液体的体积对温度的依赖极弱。\n149\t\n150\t因此，第二项 \\( T(\\partial V/\\partial T)_P \\) 的贡献非常小，可以近似认为为零。于是有：\n151\t\n152\t\\[\n153\tV_{\\text{液}}\\approx\n154\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n155\t\\]\n156\t\n157\t这个结果表明，液体的体积主要由焓随压强变化的关系决定。\n158\t\n159\t而焓中包含了分子间相互作用势能的影响，所以液体体积实际上反映了分子间作用力的平衡特征。\n160\t\n161\t也就是说，液体体积是由分子间吸引与排斥作用的平衡距离所决定的。\n162\t\n163\t---\n164\t\n165\t#### 对气态体积\n166\t\n167\t\\[\n168\tV=\n169\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T\n170\t-\n171\tT\\left(\\frac{\\partial S}{\\partial P}\\right)_T\n172\t\\]\n173\t\n174\t对于理想气体，上述推导同样成立，但有一条重要性质：\n175\t\n176\t理想气体的焓只与温度有关，而与压力无关，因此：\n177\t\n178\t\\[\n179\t\\left(\\frac{\\partial H}{\\partial P}\\right)_T=0\n180\t\\]\n181\t\n182\t代入前式就得到：\n183\t\n184\t\\[\n185\tV_{\\text{气}}=\n186\t-\n187\tT\\left(\\frac{\\partial S}{\\partial P}\\right)_T\n188\t\\]\n189\t\n190\t这说明，理想气体的体积完全由体系的熵随压强的变化所决定。\n191\t\n192\t换句话说，气体体积取决于体系膨胀时熵的变化趋势，与体系本身的分子相互作用无关。\n193\t\n194\t液体体积主要取决于分子间相互作用的性质；气体体积主要取决于体系的集体行为，即系统的多样性或熵。\n195\t\n196\t---\n197\t\n198\t## 二、相与相平衡\n199\t\n200\t### 1. 相的概念\n201\t\n202\t相：\n203\t\n204\t- 在系统中，物理性质和化学性质完全均匀的部分；\n205\t- 相间有界面；\n206\t- 相必须连续吗？\n207\t\n208\t相数：\\( P \\)，多相平衡体系中如何确定相数？\n209\t\n210\t气体：1个气相。\n211\t\n212\t液体：\n213\t\n214\t固体：\n215\t\n216\t相态：系统的相数不变，无新相的生成也无旧相消失，称系统处于确定的相态。\n217\t\n218\t---\n219\t\n220\t### 2. 相平衡的条件\n221\t\n222\t任意物质 B 在它所存在的所有相中的化学势相等：\n223\t\n224\t\\[\n225\t\\mu_B(1)=\\mu_B(2)=\\cdots=\\mu_B(P)\n226\t\\]\n227\t\n228\t相平衡系统：满足相平衡条件的系统。\n229\t\n230\t---\n231\t\n232\t## 三、多相多组分系统热力学\n233\t\n234\t### 1. 敞开系统的基本关系式\n235\t\n236\t条件：无非体积功的任意过程。\n237\t\n238\t\\[\n239\tdU=TdS-pdV+\\sum \\mu_B dn_B\n240\t\\]\n241\t\n242\t\\[\n243\tdH=TdS+Vdp+\\sum \\mu_B dn_B\n244\t\\]\n245\t\n246\t\\[\n247\tdA=-SdT-pdV+\\sum \\mu_B dn_B\n248\t\\]\n249\t\n250\t\\[\n251\tdG=-SdT+Vdp+\\sum \\mu_B dn_B\n252\t\\]\n253\t\n254\t---\n255\t\n256\t### 2. 多相多组分系统\n257\t\n258\t多组分多相系统中任一相（\\( \\alpha,\\beta,\\gamma,\\delta,\\varepsilon\\cdots \\)）均适用上节讨论：\n259\t\n260\t\\[\n261\tdG(\\alpha)=-S(\\alpha)dT+V(\\alpha)dp+\\sum_B \\mu_B(\\alpha)dn_B(\\alpha)\n262\t\\]\n263\t\n264\t\\[\n265\tdG(\\beta)=-S(\\beta)dT+V(\\beta)dp+\\sum_B \\mu_B(\\beta)dn_B(\\beta)\n266\t\\]\n267\t\n268\t\\[\n269\tdG(\\gamma)=-S(\\gamma)dT+V(\\gamma)dp+\\sum_B \\mu_B(\\gamma)dn_B(\\gamma)\n270\t\\]\n271\t\n272\t\\[\n273\t\\cdots\n274\t\\]\n275\t\n276\t忽略界面效应：\n277\t\n278\t\\[\n279\tX=\\sum_{\\alpha} X(\\alpha)\n280\t\\]\n281\t\n282\t\\[\n283\t\\sum_{\\alpha} dG(\\alpha)\n284\t=\n285\t-\\sum_{\\alpha} S(\\alpha)dT\n286\t+\n287\t\\sum_{\\alpha} V(\\alpha)dp\n288\t+\n289\t\\sum_{\\alpha}\\left(\\sum_B \\mu_B(\\alpha)dn_B(\\alpha)\\right)\n290\t\\]\n291\t\n292\t所有相的化学势贡献之和。\n293\t\n294\t某相化学势 = 该相所有物质的化学势贡献之和。\n295\t\n296\t---\n297\t\n298\t进一步：\n299\t\n300\t\\[\n301\t\\sum_{\\alpha} dG(\\alpha)\n302\t=\n303\td\\sum_{\\alpha} G(\\alpha)\n304\t=\n305\tdG\n306\t\\]\n307\t\n308\t\\[\n309\t\\sum_{\\alpha} S(\\alpha)=S\n310\t\\]\n311\t\n312\t\\[\n313\t\\sum_{\\alpha} V(\\alpha)=V\n314\t\\]\n315\t\n316\t代入上式，得：\n317\t\n318\t\\[\n319\tdG=-SdT+Vdp+\\sum_{\\alpha}\\left(\\sum_B \\mu_B(\\alpha)dn_B(\\alpha)\\right)\n320\t\\]\n321\t\n322\t所有相的化学势贡献之和。\n323\t\n324\t某相化学势 = 该相所有物质的化学势贡献之和。\n325\t\n326\t多相多组分系统化学势。\n327\t\n328\t条件：无非体积功的任意过程。\n329\t\n330\t——多相多组分系统热力学基本方程。\n331\t\n332\t---\n333\t\n334\t### 3. 恒温恒容与恒温恒压判据\n335\t\n336\t#### 恒温恒容且非体积功 \\( W'=0 \\) 时\n337\t\n338\tA 判据：\n339\t\n340\t\\[\n341\tdA\\le 0\n342\t\\quad\n343\t\\begin{cases}\n344\t<0, & \\text{自发}\\\\\n345\t=0, & \\text{平衡}\n346\t\\end{cases}\n347\t\\quad\n348\t(dT=0,\\ dV=0,\\ \\delta W'=0)\n349\t\\]\n350\t\n351\t多相多组分系统：\n352\t\n353\t\\[\n354\tdA=-SdT-pdV+\\sum_{\\alpha}\\sum_{\\beta}\\mu_{\\beta}(\\alpha)dn_{\\beta}(\\alpha)\n355\t\\]\n356\t\n357\t得：\n358\t\n359\t\\[\n360\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_{\\beta}(\\alpha)dn_{\\beta}(\\alpha)\\le 0\n361\t\\quad\n362\t\\begin{cases}\n363\t<0, & \\text{自发}\\\\\n364\t=0, & \\text{平衡}\n365\t\\end{cases}\n366\t\\quad\n367\t(dT=0,\\ dV=0,\\ \\delta W'=0)\n368\t\\]\n369\t\n370\t#### 恒温恒压且非体积功 \\( W'=0 \\) 时\n371\t\n372\tG 判据：\n373\t\n374\t\\[\n375\tdG\\le 0\n376\t\\quad\n377\t\\begin{cases}\n378\t<0, & \\text{自发}\\\\\n379\t=0, & \\text{平衡}\n380\t\\end{cases}\n381\t\\quad\n382\t(dT=0,\\ dp=0,\\ \\delta W'=0)\n383\t\\]\n384\t\n385\t多相多组分系统：\n386\t\n387\t\\[\n388\tdG=-SdT+Vdp+\\sum_{\\alpha}\\sum_{\\beta}\\mu_{\\beta}(\\alpha)dn_{\\beta}(\\alpha)\n389\t\\]\n390\t\n391\t得：\n392\t\n393\t\\[\n394\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_{\\beta}(\\alpha)dn_{\\beta}(\\alpha)\\le 0\n395\t\\quad\n396\t\\begin{cases}\n397\t<0, & \\text{自发}\\\\\n398\t=0, & \\text{平衡}\n399\t\\end{cases}\n400\t\\quad\n401\t(dT=0,\\ dp=0,\\ \\delta W'=0)\n402\t\\]\n403\t\n404\t---\n405\t\n406\t### 4. 多相多组分系统的化学势判据\n407\t\n408\t\\[\n409\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_B(\\alpha)dn_B(\\alpha)\\le 0\n410\t\\quad\n411\t\\begin{cases}\n412\t<0, & \\text{自发}\\\\\n413\t=0, & \\text{平衡}\n414\t\\end{cases}\n415\t\\quad\n416\t(dT=0,\\ dV=0,\\ \\delta W'=0)\n417\t\\]\n418\t\n419\t\\[\n420\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_B(\\alpha)dn_B(\\alpha)\\le 0\n421\t\\quad\n422\t\\begin{cases}\n423\t<0, & \\text{自发}\\\\\n424\t=0, & \\text{平衡}\n425\t\\end{cases}\n426\t\\quad\n427\t(dT=0,\\ dp=0,\\ \\delta W'=0)\n428\t\\]\n429\t\n430\t---\n431\t\n432\t## 四、化学势判据与平衡\n433\t\n434\t无论恒温、恒容或恒温、恒压，当系统达到平衡时，均有：\n435\t\n436\t\\[\n437\t\\sum_{\\alpha}\\sum_{\\beta}\\mu_B(\\alpha)dn_B(\\alpha)=0\n438\t\\quad\n439\t(W'=0)\n440\t\\]\n441\t\n442\t可以证明，在非体积功为零的情况下，对任意过程，封闭系统达平衡时均有：\n443\t\n444\t\\[\n445\t\\sum_{\\alpha}\\left(\\sum_{\\beta}\\mu_B(\\alpha)dn_B(\\alpha)\\right)=0\n446\t\\quad\n447\t(W'=0)\n448\t\\]\n449\t\n450\t系统是否达到平衡的化学势判据：\n451\t\n452\t- 是系统物质平衡的条件；\n453\t- 与系统达到平衡的方式无关；\n454\t- 系统热力学函数在平衡时的极值与系统达到平衡的方式有关。\n455\t\n456\t具体：\n457\t\n458\t- 恒温、恒压下：\\( G \\) 达到极小值；\n459\t- 恒温、恒容下：\\( A \\) 达到极小值。\n460\t\n461\t---\n462\t\n463\t### 化学势判断总结\n464\t\n465\t1. 在恒 \\( T \\) 恒 \\( p \\)，\\( W'=0 \\) 的条件下，物质总是由高化学势流向低化学势，直至化学势相等达到平衡。\n466\t2. 其他条件下，只要 \\( W'=0 \\)，化学势决定所有传质过程的方向。\n467\t3. 在 \\( W'=0 \\) 的条件下，化学势相等是平衡的条件，是处理平衡问题的依据。\n468\t\n469\t化学势判断——统一判断：\n470\t\n471\t- 化学势决定了系统的物质平衡；\n472\t- 化学势、温度和压力一起共同决定了系统的热力学平衡。\n473\t\n474\t---\n475\t\n476\t### 传递方向\n477\t\n478\t- \\( T_2\\neq T_1 \\)：温差导致能量以热的方式传递；\n479\t- \\( p_2\\neq p_1 \\)：压力差导致能量以功的方式传递；\n480\t- \\( \\mu_2\\neq \\mu_1 \\)：化学势差导致物质传递。\n481\t"
+          },
+          {
+            "id": "call_00_UDiFBpJB5x0xcn8Hz7Nh6993",
+            "name": "Bash",
+            "input": {
+              "command": "git show \"HEAD:8-纯物质体相性质-液态.md\" > /tmp/orig.md && diff -u /tmp/orig.md \"physchem-2/8-纯物质体相性质-液态.md\" | head -80; echo \"EXIT: $?\"",
+              "description": "Diff original file from git HEAD against current physchem-2 file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "fatal: path 'knowledge/8-纯物质体相性质-液态.md' exists, but not '8-纯物质体相性质-液态.md'\nhint: Did you mean 'HEAD:knowledge/8-纯物质体相性质-液态.md' aka 'HEAD:./8-纯物质体相性质-液态.md'?\nEXIT: 128"
+          },
+          {
+            "id": "call_00_u1TGbblQFN0MFr5eN7nq3005",
+            "name": "Bash",
+            "input": {
+              "command": "git show \"HEAD:knowledge/8-纯物质体相性质-液态.md\" > /tmp/orig.md && diff -u /tmp/orig.md \"physchem-2/8-纯物质体相性质-液态.md\"; echo \"EXIT: $?\"",
+              "description": "Diff original note from git HEAD against current physchem-2 file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "--- /tmp/orig.md\t2026-10-05 10:56:15.325271800 +0800\n+++ \"physchem-2/8-\\347\\272\\257\\347\\211\\251\\350\\264\\250\\344\\275\\223\\347\\233\\270\\346\\200\\247\\350\\264\\250-\\346\\266\\262\\346\\200\\201.md\"\t2026-10-05 10:55:38.341156300 +0800\n@@ -19,6 +19,14 @@\n | 转动   | $\\frac{1}{2}RT$ （自由转动） | $\\frac{1}{2}RT \\sim RT$（受限转动/摆动） |\n | 振动   | $\\ll RT$（未激发）          | $\\ll RT$（低频振动）                   |\n \n+<mark style=\"background: #FFB8EBA6;\">液体平动自由度为何是 RT</mark>\n+\n+气体平动自由度只有动能平方项 $p^2/2m$，按能量均分定理每摩尔贡献 $\\frac{1}{2}RT$，且只有动能。液体中分子被周围分子束缚在瞬时\"笼子\"（势阱）中，偏离平衡位置受回复力，多出一个势能平方项 $\\frac{1}{2}kx^2$，于是动能、势能各贡献 $\\frac{1}{2}RT$，合计 $RT$，恰为气体纯动能的两倍。动能与势能随时间相互转化，简谐近似下两者时间平均相等（维里定理）。\n+\n+三个平动自由度在液态合计 $3RT$（动能、势能各 $\\frac{3}{2}RT$），是气体 $\\frac{3}{2}RT$ 的两倍——这正是 $Q_{液,m}\\approx 2Q_{气,m}$ 的来源。\n+\n+> 注意：此处\"势能\"指偏离平衡位置的振动势能，不含分子间平均相互作用能（势阱内聚能是负常数，对热容无贡献）。\n+\n 相关公式\n \n $$\nEXIT: 1"
+          }
+        ],
+        "isExpanded": false,
+        "result": "核对完成。报告如下：\n\n**审查报告：physchem-2\\8-纯物质体相性质-液态.md 插入块检查**\n\na. **位置 — 通过。** 插入块位于第 22-28 行：在\"能量类型对比\"表格（第 16-20 行，含平动/转动/振动三行）之后、\"相关公式\"（第 30 行）之前，位置正确。\n\nb. **内容逐字一致 — 通过。** 标题行 `<mark style=\"background: #FFB8EBA6;\">液体平动自由度为何是 RT</mark>`、段落一（$p^2/2m$、$\\frac{1}{2}kx^2$、维里定理等）、段落二（$3RT$、$Q_{液,m}\\approx 2Q_{气,m}$）、引用行，四部分与要求逐字一致，mark 样式与公式语法均正确。\n\nc. **其余部分未改动 — 通过。** 我直接与 git HEAD 中修改前的原文件（`git show HEAD:knowledge/8-纯物质体相性质-液态.md`）做了逐行 diff：唯一差异就是这 8 行新增内容（含块内空行），其余全文逐字节一致。\"能量类型对比\"表格、\"液态热容原理\"高亮块、\"相关公式\"及其后的 `$$` 公式块均完好、无重复无缺失。\n\nd. **空行格式 — 通过。** 表格后有一个空行（原有上下文，第 21 行）再接 mark 标题，引用行后有一个空行（第 29 行）再接\"相关公式\"，与笔记其他部分（如\"液态热容原理\"块的排版）一致。\n\n**总评：本次插入完全正确，位置、内容、格式全部符合要求，且未对文件其余部分造成任何改动。喵**"
+      }
+    }
   },
-  "currentNote": "8-纯物质体相性质-液态.md",
+  "currentNote": "physchem-2/8-纯物质体相性质-液态.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 3831,
+    "inputTokens": 93,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 31104,
+    "cacheReadInputTokens": 49408,
     "contextWindow": 200000,
-    "contextTokens": 34935,
-    "percentage": 17
+    "contextTokens": 49501,
+    "percentage": 25
   }
 }
