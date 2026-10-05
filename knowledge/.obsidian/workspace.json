@@ -49,8 +49,7 @@
               "title": "8-纯物质体相性质-相"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8-纯物质体相性质-相.md",
+                "file": "physchem-2/8-纯物质体相性质-分子间相互作用.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -247,14 +246,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "ac06c95524256621",
+  "active": "2f84edc07099f4d6",
   "lastOpenFiles": [
     "8-纯物质体相性质-相.md",
+    "physchem-1/热力学.md",
     "physchem-2/8-纯物质体相性质-液态.md",
     "physchem-2/8-纯物质体相性质-分子间相互作用.md",
     "TOEFL/通用词汇.md",
     "physchem-2/image/liquid-volume.jpg",
-    "physchem-1/热力学.md",
     "sci_research/TBR/TBR实验发光机理解释草稿.md",
     "physchem-2/8-纯物质体相性质-液态.md.tmp.24824.ba0a43df0f85",
     "physchem-2/8-纯物质体相性质-真实气体.md",
