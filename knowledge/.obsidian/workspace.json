@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "29334b22aa88ca15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "molecular-simulation/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
             "id": "e089553ba04d8253",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "SUMMARY 3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -173,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/VMD作图.md",
+                "file": "molecular-simulation/未命名.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -219,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,10 +247,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d53f7720ad195a68",
+  "active": "29334b22aa88ca15",
   "lastOpenFiles": [
-    "sci_research/report/SUMMARY 3.md",
+    "molecular-simulation",
     "sci_research/TBR/VMD作图.md",
+    "molecular-simulation/未命名.md",
+    "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/TBR实验发光机理解释草稿.md",
     "sci_research/report/DHR SUMMARY 2.md",
     "sci_research/report/SUMMARY 4.md",
@@ -280,8 +295,6 @@
     "TOEFL/邮件写作/学校建cafe的建议.md",
     "TOEFL/邮件写作/邻居沟通.md",
     "TOEFL/口语复述/校园场景-图书馆.md",
-    "TOEFL/口语复述/校园场景-实验室.md",
-    "TOEFL/口语复述/校园场景-参观学校.md",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "instrument/linux/vim示意图.canvas",
