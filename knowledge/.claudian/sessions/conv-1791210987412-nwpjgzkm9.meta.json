@@ -4,20 +4,212 @@
   "title": "Explain applicable scenarios for these potentials",
   "titleGenerationStatus": "success",
   "createdAt": 1791210987413,
-  "updatedAt": 1791211842566,
-  "lastResponseAt": 1791211842566,
+  "updatedAt": 1791212032695,
+  "lastResponseAt": 1791212032695,
   "sessionId": "45468d84-9fa1-4033-b40b-8a53ef31659e",
   "providerState": {
-    "providerSessionId": "45468d84-9fa1-4033-b40b-8a53ef31659e"
+    "providerSessionId": "45468d84-9fa1-4033-b40b-8a53ef31659e",
+    "subagentData": {
+      "call_00_6eaNlg5apZD02HMzIn4P9065": {
+        "id": "call_00_6eaNlg5apZD02HMzIn4P9065",
+        "description": "修改分子作用势笔记",
+        "prompt": "你的任务是修改 Obsidian 笔记文件 `F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md`（相对路径 molecular-simulation/分子作用势.md）。\n\n任务要求：\n1. 先用 Read 工具读取该文件全文，理解现有结构。\n2. 在以下 8 种势函数各自的公式块（$$...$$）下方，各添加一行适用场景说明。格式为 Obsidian markdown 加粗标签加文字，例如：`**适用场景**：xxx`。新增行放在公式块结束行之后、下一节标题之前。\n3. 每种势添加的内容如下（请原样采用）：\n   - 硬球势：纯排斥的理想化模型，用于验证统计力学理论、测试模拟算法、研究硬球流体与胶体玻璃转变\n   - 方阱势：硬球加有限深吸引阱，有解析解，用于推导简单液体状态方程、胶体与粗粒化模型\n   - Lennard-Jones 12-6 势：最通用，描述稀有气体与非极性分子（Ar、N₂、CH₄ 等）的范德华作用，是 AMBER、CHARMM、OPLS 等分子力场的标准范德华项\n   - Buckingham exp-6 势：指数项更贴近闭壳层电子云重叠排斥的真实行为，用于稀有气体、离子晶体（COMPASS 等力场）；缺点是 r→0 时吸引项发散（Buckingham 灾难），需人为修正\n   - Morse 势：描述化学键伸缩振动，能体现非谐性与键离解，用于分子振动光谱、金属键与金属团簇模拟\n   - Born-Mayer 势：离子晶体（碱金属卤化物如 NaCl）的晶格能计算与熔盐模拟，指数项描述离子间电子云重叠排斥\n   - Stockmayer 势：LJ 加偶极-偶极作用，用于极性分子（HCl、CH₃Cl 等）与极性气体状态方程（如第二维里系数）\n   - 多体势：Stillinger-Weber 用于硅等四面体共价固体；Tersoff 用于 Si、C（金刚石）等强共价材料；EAM 用于 Cu、Au 等金属\n4. 严格遵守最小改动原则：不修改原有文字、公式、frontmatter、标题结构，只在公式块后插入新行。\n5. 用 Edit 工具逐处精确插入（old_string 取公式块的结尾行加其后的内容，确保唯一匹配）。\n\n完成后报告：实际插入了几处、每处插入的位置（所在小节名）、以及插入后的文件结构是否完整。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_bIIE7r8ssKaLx2lDkaek3573",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\tCategory:\n5\t  - 作业\n6\t---\n7\t# 常用经验分子作用势模型\n8\t\n9\t下面给出常见种类及公式。令r为分子间距离，$\\mu$为永久偶极矩，$\\alpha$为极化率，I为电离能，k为玻尔兹曼常数，T为温度，$\\varepsilon_0$为真空介电常数。\n10\t\n11\t按照数学函数分\n12\t\n13\t## 硬球势\n14\t\n15\t$$\n16\tU(r)=\n17\t\\begin{cases}\n18\t\\infty, & r<\\sigma\\\\\n19\t0, & r>\\sigma\n20\t\\end{cases}\n21\t$$\n22\t\n23\t## 方阱势\n24\t\n25\t$$\n26\tU(r)=\n27\t\\begin{cases}\n28\t\\infty, & r<\\sigma\\\\\n29\t-\\varepsilon, & \\sigma<r<\\lambda\\sigma\\\\\n30\t0, & r>\\lambda\\sigma\n31\t\\end{cases}\n32\t$$\n33\t\n34\t## Lennard-Jones 12-6 势\n35\t\n36\t最常用：\n37\t$$\n38\tU(r)=4\\varepsilon\n39\t\\left[\n40\t\\left(\\frac{\\sigma}{r}\\right)^{12}\n41\t-\n42\t\\left(\\frac{\\sigma}{r}\\right)^6\n43\t\\right]\n44\t$$\n45\t或\n46\t$$\n47\tU(r)=\\varepsilon\n48\t\\left[\n49\t\\left(\\frac{r_m}{r}\\right)^{12}\n50\t-\n51\t2\\left(\\frac{r_m}{r}\\right)^6\n52\t\\right]\n53\t$$\n54\t其中 $r^{12}$项为排斥，$r^6$ 项为吸引。\n55\t\n56\t## Buckingham exp-6 势\n57\t\n58\t$$\n59\tU(r)=A e^{-Br}-\\frac{C}{r^6}\n60\t$$\n61\t有时也写为：\n62\t$$\n63\tU(r)=A e^{-Br}-\\frac{C_6}{r^6}-\\frac{C_8}{r^8}\n64\t$$\n65\t\n66\t## Morse 势\n67\t\n68\t$$\n69\tU(r)=D_e\n70\t\\left[\n71\te^{-2a(r-r_e)}\n72\t-\n73\t2e^{-a(r-r_e)}\n74\t\\right]\n75\t$$\n76\t在$r=r_e$处能量为$-D_e$，$D_e$为离解能。\n77\t\n78\t## Born-Mayer 势\n79\t\n80\t$$\n81\tU(r)=A e^{-r/\\rho}-\\frac{C}{r^6}\n82\t$$\n83\t若用于离子晶体，还常加库仑项：\n84\t$$\n85\tU(r)=\\frac{q_1q_2}{4\\pi\\varepsilon_0 r}\n86\t+A e^{-r/\\rho}\n87\t-\\frac{C}{r^6}\n88\t$$\n89\t\n90\t## Stockmayer 势\n91\t\n92\tLennard-Jones 加偶极-偶极作用：\n93\t$$\n94\tU(r)=\n95\t4\\varepsilon\n96\t\\left[\n97\t\\left(\\frac{\\sigma}{r}\\right)^{12}\n98\t-\n99\t\\left(\\frac{\\sigma}{r}\\right)^6\n100\t\\right]\n101\t-\n102\t\\frac{\\mu_1\\mu_2}{4\\pi\\varepsilon_0 r^3}\n103\t\\left(\n104\t2\\cos\\theta_1\\cos\\theta_2\n105\t-\n106\t\\sin\\theta_1\\sin\\theta_2\\cos\\phi\n107\t\\right)\n108\t$$\n109\t\n110\t## 多体势\n111\t\n112\t如 Stillinger-Weber、Tersoff、EAM 等，用于共价固体、金属等，形式较复杂，通常不能简单写成两体对势。\n113\t"
+          },
+          {
+            "id": "call_00_l1iKf3EVtbKzrE7H5ho74854",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "old_string": "0, & r>\\sigma\n\\end{cases}\n$$\n\n## 方阱势",
+              "new_string": "0, & r>\\sigma\n\\end{cases}\n$$\n\n**适用场景**：纯排斥的理想化模型，用于验证统计力学理论、测试模拟算法、研究硬球流体与胶体玻璃转变\n\n## 方阱势"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_01_NkkMpILQNUcgaFdQYyO10161",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "old_string": "0, & r>\\lambda\\sigma\n\\end{cases}\n$$\n\n## Lennard-Jones 12-6 势",
+              "new_string": "0, & r>\\lambda\\sigma\n\\end{cases}\n$$\n\n**适用场景**：硬球加有限深吸引阱，有解析解，用于推导简单液体状态方程、胶体与粗粒化模型\n\n## Lennard-Jones 12-6 势"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_02_gw3T1oZdXFjMxfeLH8f16919",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "old_string": "其中 $r^{12}$项为排斥，$r^6$ 项为吸引。\n\n## Buckingham exp-6 势",
+              "new_string": "其中 $r^{12}$项为排斥，$r^6$ 项为吸引。\n\n**适用场景**：最通用，描述稀有气体与非极性分子（Ar、N₂、CH₄ 等）的范德华作用，是 AMBER、CHARMM、OPLS 等分子力场的标准范德华项\n\n## Buckingham exp-6 势"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_03_Ol7UlrQEvUir0mXqXn8W0115",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "old_string": "U(r)=A e^{-Br}-\\frac{C_6}{r^6}-\\frac{C_8}{r^8}\n$$\n\n## Morse 势",
+              "new_string": "U(r)=A e^{-Br}-\\frac{C_6}{r^6}-\\frac{C_8}{r^8}\n$$\n\n**适用场景**：指数项更贴近闭壳层电子云重叠排斥的真实行为，用于稀有气体、离子晶体（COMPASS 等力场）；缺点是 r→0 时吸引项发散（Buckingham 灾难），需人为修正\n\n## Morse 势"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_04_uC4QFI92qPz85m6j2vE17715",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "old_string": "在$r=r_e$处能量为$-D_e$，$D_e$为离解能。\n\n## Born-Mayer 势",
+              "new_string": "在$r=r_e$处能量为$-D_e$，$D_e$为离解能。\n\n**适用场景**：描述化学键伸缩振动，能体现非谐性与键离解，用于分子振动光谱、金属键与金属团簇模拟\n\n## Born-Mayer 势"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_05_cDJIX4OhDsTgwNJHrK6M8461",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "old_string": "U(r)=\\frac{q_1q_2}{4\\pi\\varepsilon_0 r}\n+A e^{-r/\\rho}\n-\\frac{C}{r^6}\n$$\n\n## Stockmayer 势",
+              "new_string": "U(r)=\\frac{q_1q_2}{4\\pi\\varepsilon_0 r}\n+A e^{-r/\\rho}\n-\\frac{C}{r^6}\n$$\n\n**适用场景**：离子晶体（碱金属卤化物如 NaCl）的晶格能计算与熔盐模拟，指数项描述离子间电子云重叠排斥\n\n## Stockmayer 势"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_06_cxNhLurxYdA4iYBix96e9401",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "old_string": "\\sin\\theta_1\\sin\\theta_2\\cos\\phi\n\\right)\n$$\n\n## 多体势",
+              "new_string": "\\sin\\theta_1\\sin\\theta_2\\cos\\phi\n\\right)\n$$\n\n**适用场景**：LJ 加偶极-偶极作用，用于极性分子（HCl、CH₃Cl 等）与极性气体状态方程（如第二维里系数）\n\n## 多体势"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_07_8q5XFYO6kdEV2sL6coFt9239",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "old_string": "如 Stillinger-Weber、Tersoff、EAM 等，用于共价固体、金属等，形式较复杂，通常不能简单写成两体对势。",
+              "new_string": "如 Stillinger-Weber、Tersoff、EAM 等，用于共价固体、金属等，形式较复杂，通常不能简单写成两体对势。\n\n**适用场景**：Stillinger-Weber 用于硅等四面体共价固体；Tersoff 用于 Si、C（金刚石）等强共价材料；EAM 用于 Cu、Au 等金属"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_dMsTkLAT3fKFO6j3MDTN0575",
+            "name": "Bash",
+            "input": {
+              "command": "git diff -- \"molecular-simulation/分子作用势.md\"",
+              "description": "Show git diff of the edited note file"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_00_CDKa4bzW9P9xBjETRLB01880",
+            "name": "Bash",
+            "input": {
+              "command": "git -C \"F:/obsidian_notes/knowledge\" status --porcelain -- \"molecular-simulation/分子作用势.md\" && git -C \"F:/obsidian_notes/knowledge\" diff -- \"molecular-simulation/分子作用势.md\"",
+              "description": "Show git status and diff for the note file in its repository"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "call_00_SN7QQxgQEGzD1r0slDLG0515",
+            "name": "Grep",
+            "input": {
+              "pattern": "\\*\\*适用场景\\*\\*",
+              "path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "output_mode": "count"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "molecular-simulation\\分子作用势.md:8\n\nFound 8 total occurrences across 1 file."
+          },
+          {
+            "id": "call_01_QgrcR16j4kq6a1B6ub6P6502",
+            "name": "Grep",
+            "input": {
+              "pattern": "^## ",
+              "path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md",
+              "output_mode": "count"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "molecular-simulation\\分子作用势.md:8\n\nFound 8 total occurrences across 1 file."
+          }
+        ],
+        "isExpanded": false,
+        "result": "验证完成：`**适用场景**` 在文件中恰好出现 8 次，`## ` 二级标题恰好 8 个，frontmatter 与原有文字、公式均未改动喵。git diff 无输出（该文件可能未被仓库跟踪），但 Edit 工具逐处唯一匹配成功、Grep 计数吻合，可确认改动正确喵。\n\n修改报告如下喵：\n\n- 实际插入：8 处（每处一行 `**适用场景**：…`，内容按要求原样采用）\n- 各插入位置（所在小节）：\n  1. 硬球势 —— 公式块 `$$` 结束行之后\n  2. 方阱势 —— 公式块 `$$` 结束行之后\n  3. Lennard-Jones 12-6 势 —— 第二个公式块及其说明行「其中 $r^{12}$项为排斥…」之后\n  4. Buckingham exp-6 势 —— 第二个公式块 `$$` 结束行之后\n  5. Morse 势 —— 公式块及说明行「在$r=r_e$处能量为…」之后\n  6. Born-Mayer 势 —— 第二个（含库仑项）公式块 `$$` 结束行之后\n  7. Stockmayer 势 —— 公式块 `$$` 结束行之后\n  8. 多体势 —— 该节没有公式块，插在其原有说明文字行之后（文件末尾）\n- 文件结构完整性：8 个二级标题全部保留，frontmatter、原有公式与文字零改动，插入行均位于公式块结束行之后、下一节标题之前（LJ、Morse 两处为不打断原说明行文，放在说明行之后，仍满足「下一节标题之前」的要求）\n\nresult: 已在 F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md 的 8 个势小节各插入一行「**适用场景**」说明，原有内容零改动，结构完整"
+      },
+      "call_00_60pZWHYn1wVz2RQl2tN13625": {
+        "id": "call_00_60pZWHYn1wVz2RQl2tN13625",
+        "description": "审查笔记修改结果",
+        "prompt": "你的任务是代码审查：核对 Obsidian 笔记 `F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md` 刚被修改后的内容是否满足需求。\n\n用 Read 工具读取该文件全文，逐项验证：\n\n1. 8 个势函数小节（硬球势、方阱势、Lennard-Jones 12-6 势、Buckingham exp-6 势、Morse 势、Born-Mayer 势、Stockmayer 势、多体势）下方是否都各有一行以 `**适用场景**：` 开头的说明。\n2. 场景与势的对应关系是否正确：\n   - 硬球势 → 硬球流体/胶体玻璃转变\n   - 方阱势 → 简单液体状态方程/粗粒化\n   - LJ 12-6 → 稀有气体与非极性分子、AMBER/CHARMM/OPLS 力场\n   - Buckingham → 稀有气体、离子晶体、Buckingham 灾难\n   - Morse → 化学键振动、分子光谱、金属\n   - Born-Mayer → 离子晶体晶格能、熔盐\n   - Stockmayer → 极性分子、第二维里系数\n   - 多体势 → SW 硅、Tersoff 共价材料、EAM 金属\n3. 所有 $$ 数学公式块是否完好未被破坏（公式块成对、内容与原意一致）。\n4. frontmatter（YAML 头）是否完好。\n5. 插入行是否都在各自小节内（公式块之后、下一节标题之前），没有插错位置或跨节串位。\n6. 格式是否符合 Obsidian markdown 规范。\n\n输出审查结论：逐项通过/不通过，如有问题列出具体位置和问题描述。若全部通过，明确说明\"审查通过\"。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_kVHHvonyvuQi7vKORF4D7268",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 计算化学\n4\t  - 分子模拟\n5\tCategory:\n6\t  - 作业\n7\t---\n8\t# 常用经验分子作用势模型\n9\t\n10\t下面给出常见种类及公式。令r为分子间距离，$\\mu$为永久偶极矩，$\\alpha$为极化率，I为电离能，k为玻尔兹曼常数，T为温度，$\\varepsilon_0$为真空介电常数。\n11\t\n12\t按照数学函数分\n13\t\n14\t## 硬球势\n15\t\n16\t$$\n17\tU(r)=\n18\t\\begin{cases}\n19\t\\infty, & r<\\sigma\\\\\n20\t0, & r>\\sigma\n21\t\\end{cases}\n22\t$$\n23\t\n24\t**适用场景**：纯排斥的理想化模型，用于验证统计力学理论、测试模拟算法、研究硬球流体与胶体玻璃转变\n25\t\n26\t## 方阱势\n27\t\n28\t$$\n29\tU(r)=\n30\t\\begin{cases}\n31\t\\infty, & r<\\sigma\\\\\n32\t-\\varepsilon, & \\sigma<r<\\lambda\\sigma\\\\\n33\t0, & r>\\lambda\\sigma\n34\t\\end{cases}\n35\t$$\n36\t\n37\t**适用场景**：硬球加有限深吸引阱，有解析解，用于推导简单液体状态方程、胶体与粗粒化模型\n38\t\n39\t## Lennard-Jones 12-6 势\n40\t\n41\t最常用：\n42\t$$\n43\tU(r)=4\\varepsilon\n44\t\\left[\n45\t\\left(\\frac{\\sigma}{r}\\right)^{12}\n46\t-\n47\t\\left(\\frac{\\sigma}{r}\\right)^6\n48\t\\right]\n49\t$$\n50\t或\n51\t$$\n52\tU(r)=\\varepsilon\n53\t\\left[\n54\t\\left(\\frac{r_m}{r}\\right)^{12}\n55\t-\n56\t2\\left(\\frac{r_m}{r}\\right)^6\n57\t\\right]\n58\t$$\n59\t其中 $r^{12}$项为排斥，$r^6$ 项为吸引。\n60\t\n61\t**适用场景**：最通用，描述稀有气体与非极性分子（Ar、N₂、CH₄ 等）的范德华作用，是 AMBER、CHARMM、OPLS 等分子力场的标准范德华项\n62\t\n63\t## Buckingham exp-6 势\n64\t\n65\t$$\n66\tU(r)=A e^{-Br}-\\frac{C}{r^6}\n67\t$$\n68\t有时也写为：\n69\t$$\n70\tU(r)=A e^{-Br}-\\frac{C_6}{r^6}-\\frac{C_8}{r^8}\n71\t$$\n72\t\n73\t**适用场景**：指数项更贴近闭壳层电子云重叠排斥的真实行为，用于稀有气体、离子晶体（COMPASS 等力场）；缺点是 r→0 时吸引项发散（Buckingham 灾难），需人为修正\n74\t\n75\t## Morse 势\n76\t\n77\t$$\n78\tU(r)=D_e\n79\t\\left[\n80\te^{-2a(r-r_e)}\n81\t-\n82\t2e^{-a(r-r_e)}\n83\t\\right]\n84\t$$\n85\t在$r=r_e$处能量为$-D_e$，$D_e$为离解能。\n86\t\n87\t**适用场景**：描述化学键伸缩振动，能体现非谐性与键离解，用于分子振动光谱、金属键与金属团簇模拟\n88\t\n89\t## Born-Mayer 势\n90\t\n91\t$$\n92\tU(r)=A e^{-r/\\rho}-\\frac{C}{r^6}\n93\t$$\n94\t若用于离子晶体，还常加库仑项：\n95\t$$\n96\tU(r)=\\frac{q_1q_2}{4\\pi\\varepsilon_0 r}\n97\t+A e^{-r/\\rho}\n98\t-\\frac{C}{r^6}\n99\t$$\n100\t\n101\t**适用场景**：离子晶体（碱金属卤化物如 NaCl）的晶格能计算与熔盐模拟，指数项描述离子间电子云重叠排斥\n102\t\n103\t## Stockmayer 势\n104\t\n105\tLennard-Jones 加偶极-偶极作用：\n106\t$$\n107\tU(r)=\n108\t4\\varepsilon\n109\t\\left[\n110\t\\left(\\frac{\\sigma}{r}\\right)^{12}\n111\t-\n112\t\\left(\\frac{\\sigma}{r}\\right)^6\n113\t\\right]\n114\t-\n115\t\\frac{\\mu_1\\mu_2}{4\\pi\\varepsilon_0 r^3}\n116\t\\left(\n117\t2\\cos\\theta_1\\cos\\theta_2\n118\t-\n119\t\\sin\\theta_1\\sin\\theta_2\\cos\\phi\n120\t\\right)\n121\t$$\n122\t\n123\t**适用场景**：LJ 加偶极-偶极作用，用于极性分子（HCl、CH₃Cl 等）与极性气体状态方程（如第二维里系数）\n124\t\n125\t## 多体势\n126\t\n127\t如 Stillinger-Weber、Tersoff、EAM 等，用于共价固体、金属等，形式较复杂，通常不能简单写成两体对势。\n128\t\n129\t**适用场景**：Stillinger-Weber 用于硅等四面体共价固体；Tersoff 用于 Si、C（金刚石）等强共价材料；EAM 用于 Cu、Au 等金属\n130\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "已读完全文（130 行），逐项核对完毕喵。审查结论如下喵。\n\n**逐项核对结果**\n\n1. 8 个势函数小节的 `**适用场景**：` 行——通过：\n   - 硬球势（第 24 行）、方阱势（第 37 行）、LJ 12-6（第 61 行）、Buckingham（第 73 行）、Morse（第 87 行）、Born-Mayer（第 101 行）、Stockmayer（第 123 行）、多体势（第 129 行），8 处齐全。\n\n2. 场景与势的对应关系——通过：\n   - 硬球势 → 硬球流体与胶体玻璃转变（第 24 行）✓\n   - 方阱势 → 简单液体状态方程、粗粒化（第 37 行）✓\n   - LJ 12-6 → 稀有气体与非极性分子、AMBER/CHARMM/OPLS 力场（第 61 行）✓\n   - Buckingham → 稀有气体、离子晶体、Buckingham 灾难（第 73 行）✓\n   - Morse → 化学键振动、分子光谱、金属（第 87 行）✓\n   - Born-Mayer → 离子晶体晶格能、熔盐（第 101 行）✓\n   - Stockmayer → 极性分子、第二维里系数（第 123 行）✓\n   - 多体势 → SW 硅、Tersoff 共价材料、EAM 金属（第 129 行）✓\n\n3. $$ 公式块完整性——通过：全文共 20 个 `$$`，恰好 10 对，均成对闭合；各公式内容与原意一致（硬球/方阱分段函数、LJ 两种写法、Buckingham 单/双形式、Morse、Born-Mayer 含库仑项、Stockmayer 偶极-偶极项均完好），行内 `$...$` 公式也全部闭合。\n\n4. frontmatter——通过：第 1-7 行 YAML 头（tags、Category）结构完整，前后 `---` 闭合。\n\n5. 插入位置——通过：每行 `**适用场景**` 均位于本节公式块之后、下一节 `##` 标题之前，无插错位置或跨节串位。\n\n6. Obsidian markdown 规范——通过：`##` 标题、`$$` 块级公式、行内 `$...$`、`**加粗**`、YAML frontmatter 均符合规范；各插入行与下一标题之间有空行分隔。\n\n审查通过喵。文件路径：`F:\\obsidian_notes\\knowledge\\molecular-simulation\\分子作用势.md`\n\nresult: 分子作用势.md 修改审查通过——8 处适用场景行齐全且对应正确，公式块、frontmatter、插入位置、格式均完好喵"
+      }
+    }
   },
   "currentNote": "molecular-simulation/分子作用势.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 64,
+    "inputTokens": 100,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 32512,
+    "cacheReadInputTokens": 33664,
     "contextWindow": 200000,
-    "contextTokens": 32576,
-    "percentage": 16
+    "contextTokens": 33764,
+    "percentage": 17
   }
 }
