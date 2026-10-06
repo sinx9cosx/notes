@@ -1,0 +1,23 @@
+{
+  "id": "conv-1791257515032-v3qoj7zs8",
+  "providerId": "claude",
+  "title": "解释速度标定与标定因子的作用",
+  "titleGenerationStatus": "success",
+  "createdAt": 1791257515032,
+  "updatedAt": 1791257582858,
+  "lastResponseAt": 1791257582858,
+  "sessionId": "7f7a8f18-8bb1-4171-9135-3567d8baefb4",
+  "providerState": {
+    "providerSessionId": "7f7a8f18-8bb1-4171-9135-3567d8baefb4"
+  },
+  "currentNote": "molecular-simulation/模拟系综.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1351,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32640,
+    "contextWindow": 200000,
+    "contextTokens": 33991,
+    "percentage": 17
+  }
+}
