@@ -4,8 +4,8 @@
   "title": "Explain statistical mechanics ensemble invariants",
   "titleGenerationStatus": "success",
   "createdAt": 1791256273671,
-  "updatedAt": 1791256409363,
-  "lastResponseAt": 1791256409363,
+  "updatedAt": 1791257154078,
+  "lastResponseAt": 1791257154078,
   "sessionId": "5bdaa930-3bb6-40ec-8465-391b3e0d7a7a",
   "providerState": {
     "providerSessionId": "5bdaa930-3bb6-40ec-8465-391b3e0d7a7a"
@@ -13,11 +13,11 @@
   "currentNote": "molecular-simulation/模拟系综.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 159,
+    "inputTokens": 1526,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 36736,
+    "cacheReadInputTokens": 41344,
     "contextWindow": 200000,
-    "contextTokens": 36895,
-    "percentage": 18
+    "contextTokens": 42870,
+    "percentage": 21
   }
 }
