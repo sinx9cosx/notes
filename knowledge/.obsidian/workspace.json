@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecular-simulation/模拟系综.md",
+                "file": "molecular-simulation/分子动力学模拟演化计算.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "模拟系综"
+              "title": "分子动力学模拟演化计算"
             }
           }
         ],
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecular-simulation/模拟系综.md",
+                "file": "molecular-simulation/分子动力学模拟演化计算.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -275,14 +275,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "13f5640315194f27",
   "lastOpenFiles": [
+    "molecular-simulation/模拟系综.md",
     "molecular-simulation/模拟系综.md.tmp.39312.2b6108d30be3",
     "molecular-simulation/模拟系综.md.tmp.39312.c0a175442d30",
     "molecular-simulation/模拟系综.md.tmp.39312.756d550221d8",
     "molecular-simulation/模拟系综.md.tmp.39312.51a5d4eff3c9",
     "molecular-simulation/温度和压力与分子动能和分子间作用力的关系.md",
-    "molecular-simulation/模拟系综.md",
     "molecular-simulation/温度和压力与分子动能和分子间作用力的关系.md.bak",
     "molecular-simulation/分子动力学模拟演化计算.md",
     "molecular-simulation/分子作用势.md",
@@ -291,7 +291,6 @@
     "molecular-simulation/分子作用势.md.tmp.39748.f7feea1d2c55",
     "molecular-simulation/分子作用势.md.tmp.39748.0887e00ab07e",
     "molecular-simulation/分子作用势.md.tmp.39748.4ab8f9747fc0",
-    "molecular-simulation/分子作用势.md.tmp.39748.72e4a3131135",
     "sci_research/TBR/VMD作图.md",
     "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/TBR实验发光机理解释草稿.md",
