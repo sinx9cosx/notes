@@ -18,7 +18,7 @@ kic-s1=1.34470125E+10 /s
 kr-s2=6.72519946E+06 /s
 
 kr-s9=4.07746649E+08 /s
-
+kic-s9=
 # gas-phase
 
 ![[DHR-spec-s129-gas.png]]

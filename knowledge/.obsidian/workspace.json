@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/Emission Spectra of DHR.md",
+                "file": "sci_research/TBR/Emission Spectra of TBR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Emission Spectra of DHR"
+              "title": "Emission Spectra of TBR"
             }
           }
         ],
@@ -236,6 +236,8 @@
   },
   "active": "afd56e579fb4e9c3",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-s9光谱.md",
+    "sci_research/DHR/Emission Spectra of DHR.md",
     "sci_research/DHR/溶剂：二氯甲烷.md",
     "sci_research/TBR/溶剂：二氯甲烷.md",
     "sci_research/TBR/TBR-s0.md",
@@ -270,8 +272,6 @@
     "sci_research/TBR/TBR实验发光机理解释草稿.md",
     "sci_research/report/DHR SUMMARY 2.md",
     "sci_research/report/SUMMARY 4.md",
-    "sci_research/report/TBR SUMMARY1.md",
-    "sci_research/report/TD-DFT项目操作全流程.md",
     "physchem-2/image/liquid-volume.jpg",
     "sci_research/image/TBR/135-0.png",
     "sci_research/image/TBR/136-0.png",
