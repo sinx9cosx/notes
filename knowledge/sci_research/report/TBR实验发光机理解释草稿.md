@@ -5,7 +5,9 @@ tags:
 Category:
   - 草稿
 ---
-# 空穴-电子图
+# 空穴-电子
+
+## graph
   
   <table><tr>
   <td align="center"><img src="97.png" width="380"><br>DHR-S9-97空穴</td>
@@ -20,7 +22,7 @@ Category:
   
 ---
 
-# 机理解释
+## 机理解释
 
 <mark style="background: #FFB86CA6;">机理解释：</mark>
 
@@ -38,7 +40,7 @@ The natural transition orbital (NTO) analysis reveals similar electronic structu
 
 ---
 
-# 方法描述
+## 方法描述
 
 <mark style="background: #FFB86CA6;">（参考）DHR的文章-计算方法描述</mark>
 
@@ -56,6 +58,8 @@ The ground-state geometries of DHR and TBR were optimized using density function
 ---
 
 # 光谱
+
+## graph
 
 ![[TBR-s19-water.png]]
 
@@ -76,5 +80,5 @@ kic-s9=
 
 ---
 
-# 方法描述
+## 方法描述
 
