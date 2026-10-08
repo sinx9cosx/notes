@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-s9光谱.md",
+                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-s9光谱"
+              "title": "MOMAP 荧光光谱与速率：完整流程与结果解读"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-s9光谱.md",
+                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -235,11 +235,11 @@
   },
   "active": "afd56e579fb4e9c3",
   "lastOpenFiles": [
+    "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "TOEFL/学术讨论/AI伦理问题.md",
     "TOEFL/邮件写作/感谢工作前辈.md",
-    "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s0.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/DHR/DHR复现-s1（水）.md",
