@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/学术讨论/AI伦理问题.md",
+                "file": "TOEFL/邮件写作/感谢工作前辈.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -263,11 +263,12 @@
   },
   "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.48b24ddb103c",
+    "TOEFL/学术讨论/AI伦理问题.md",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.276da1199909",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.248bbe82efa1",
     "nul",
     "TOEFL/邮件写作/感谢工作前辈.md",
-    "TOEFL/学术讨论/AI伦理问题.md",
     "sci_research/report/TBR实验发光机理解释草稿.md",
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
@@ -302,7 +303,6 @@
     "molecular-simulation 1/未命名.md",
     "molecular-simulation 1/模拟系综.md",
     "molecular-simulation 1",
-    "molecular-simulation/模拟系综-不变量选择与等价性.md.tmp.44316.606bc32607f1",
     "physchem-2/image/liquid-volume.jpg",
     "sci_research/image/TBR/135-0.png",
     "sci_research/image/TBR/136-0.png",

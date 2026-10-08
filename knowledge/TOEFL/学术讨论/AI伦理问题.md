@@ -6,7 +6,7 @@ Category:
 ---
 # 题目
 
-**In your response, you should do the following:**  
+In your response, you should do the following: 
 · Express and support your opinion.  
   
 · Make a contribution to the discussion in your own words.  
@@ -139,13 +139,7 @@ In conclusion, I think privacy violation and data miuse represent the most serio
 
 **注意**：本句几乎逐字照搬 Claire 原话（privacy violations and data misuse represent the most serious ethical concerns），结论没有新增任何信息——这是贡献度扣分点，不属于语言错误。
 
-## 结构逻辑评估
 
-1. **论证链完整、扣题良好**：同意 Claire → 隐私透明化 + 购物数据例证 → 新角度（创作者版权风险）→ 反驳 Andrew 两条理由（制造能力不足、自动化成本高）→ 结论。全文 10 句 4 段，始终围绕"AI 伦理最严重关切"，结构完整。
-2. **回应了两位同学（亮点）**：既承接 Claire 又反驳 Andrew，且对 Andrew 的两条反驳均直指其论点（job displacement）本身，互动度高于只同意不反驳的写法。
-3. **版权段"点而未展"**：第 6 句"法律需完善"一句即止，未说明法律如何不完善、创作者具体如何受损，是展开上的主要短板。
-4. **首尾无新信息（扣贡献度）**：第 1 句仅表态同意；第 10 句照搬 Claire 原话。全文的新信息全部集中在主体三段，首尾两句对讨论的贡献为零。
-5. **例证有效**：购物软件推荐与数据留存的例子具体、贴近生活，与隐私关切直接挂钩。
 
 > [!tip] 改进要点（按优先级）
 > 1. **结论必须加新信息（最高优先级，直接决定贡献度）**：结尾不要复述 Claire，用一句话总结"自己"的理由，如 <mark style="background: #BBFABBA6;">Given the copyright risks I raised and the limited threat to jobs, privacy deserves more attention.</mark>
@@ -162,17 +156,32 @@ As for Andrew's opinion, I think widespread job displacement is not the most sig
 In conclusion, I think privacy violations and data misuse represent the most serious ethical concerns.
 
 **改正说明**：
-1. 词数：161 词（精确计数，脚本统计）；共 10 句、4 段，与原文逐句对应，论点、句序、段落结构均未改动。
-2. 只改语言错误，不改风格：totally concur、Besides、push goods、gets popular 等口语化表达按"只改语言错误"原则全部保留。
-3. 按句改动清单：
-   1. 第 1 句：无改动。
-   2. 第 2 句：wide-use → widespread use（搭配）；our life → our lives（润色）。
-   3. 第 3 句：softwares → software ×2（不可数）；privacy leak → privacy leaks（可数性）。
-   4. 第 4 句：删 for them（与 for creators 冗余）。
-   5. 第 5 句：paiting → painting（拼写）；删 the（泛指领域不加冠词）；they → AI systems（指代不清）。
-   6. 第 6 句：completed → improved（搭配：法律"完善"不用 complete）。
-   7. 第 7 句：significent → significant（拼写）；补 concern（缺中心名词）。
-   8. 第 8 句：human → humans（可数性）；human's help → human help（中式）。
-   9. 第 9 句：the cost of AI systems automate tasks → the cost of automating tasks with AI systems（结构断裂）；at a wide range → on a large scale（搭配）。
-   10. 第 10 句：miuse → misuse（拼写）；privacy violation → privacy violations（可数性）。
-4. 可记的表达：<mark style="background: #BBFABBA6;">widespread use</mark>（广泛使用）、<mark style="background: #BBFABBA6;">privacy leaks</mark>（隐私泄露）、<mark style="background: #BBFABBA6;">need to be improved</mark>（需完善）、<mark style="background: #BBFABBA6;">on a large scale</mark>（大规模地）。
+
+1. 按句改动清单：
+   2. 第 1 句：无改动。
+   3. 第 2 句：wide-use → widespread use（搭配）；our life → our lives（润色）。
+   4. 第 3 句：softwares → software ×2（不可数）；privacy leak → privacy leaks（可数性）。
+   5. 第 4 句：删 for them（与 for creators 冗余）。
+   6. 第 5 句：paiting → painting（拼写）；删 the（泛指领域不加冠词）；they → AI systems（指代不清）。
+   7. 第 6 句：completed → improved（搭配：法律"完善"不用 complete）。
+   8. 第 7 句：significent → significant（拼写）；补 concern（缺中心名词）。
+   9. 第 8 句：human → humans（可数性）；human's help → human help（中式）。
+   10. 第 9 句：the cost of AI systems automate tasks → the cost of automating tasks with AI systems（结构断裂）；at a wide range → on a large scale（搭配）。
+   11. 第 10 句：miuse → misuse（拼写）；privacy violation → privacy violations（可数性）。
+12. 可记的表达：<mark style="background: #BBFABBA6;">widespread use</mark>（广泛使用）、<mark style="background: #BBFABBA6;">privacy leaks</mark>（隐私泄露）、<mark style="background: #BBFABBA6;">need to be improved</mark>（需完善）、<mark style="background: #BBFABBA6;">on a large scale</mark>（大规模地）。
+
+# 提升版作文
+
+I totally concur with Claire's opinion. Although the widespread use of AI brings convenience to our lives, our personal information becomes exposed at the same time. For example, AI helps shopping software recommend more goods that meet our tastes, but our shopping habits are also stored by the software, which may cause privacy leaks.
+
+Besides, especially for creators, there's another type of risk. As AI painting becomes popular, AI systems may violate human creators' copyright when their works are used for data training. The related laws still need to be improved, and one concrete step is to require companies to use licensed data for AI training.
+
+As for Andrew's opinion, I think widespread job displacement is not the most significant concern. Firstly, AI is not good enough at manufacturing to replace humans, especially without human help. In addition, the cost of automating tasks with AI systems is high, which makes it difficult to replace human-made production on a large scale.
+
+In conclusion, given the copyright risks that creators face and the limited threat AI currently poses to jobs, I believe privacy deserves more attention from both lawmakers and the public.
+
+**提升说明**：
+1. 落实「改进要点」第 1 条：结论不再照搬 Claire 原话，改为总结自己的两条理由（创作者版权风险 + AI 对就业的威胁有限）。
+2. 落实「改进要点」第 5 条：版权段补上具体方向——要求公司使用授权数据（licensed data）训练 AI。
+3. 表达提升：transparent → exposed、push goods → recommend、gets popular → becomes popular；其余保持原立场、4 段结构与句序。
+4. 词数：190 词（精确计数，脚本统计）。
