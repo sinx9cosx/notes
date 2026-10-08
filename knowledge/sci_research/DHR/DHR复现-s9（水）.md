@@ -60,6 +60,12 @@ oldchk:s9-td
 populations using transition density between ground and state 9
 
 electrostatic propreties using the transition density between ground state and state 9
+
+————重新计算————
+
+oldchk:DHR-s9freq.chk
+
+输入文件：
 ## s9 NTO
 
 oldchk：s9td

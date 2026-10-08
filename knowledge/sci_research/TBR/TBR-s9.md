@@ -60,7 +60,7 @@ oldchk：s9 td
 结果：normal termination
 ## s9 nacme
 
-oldchk：`TBR-s9freq.chk`
+oldchk：`TBR-s9opt.chk`
 
 输入文件：`TBR-s9-nacme.gjf`
 
