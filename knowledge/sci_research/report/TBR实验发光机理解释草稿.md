@@ -82,3 +82,6 @@ kic-s9=
 
 ## 方法描述
 
+Emission spectrum calculation
+
+The S1 and S9 excited-state geometries of DHR and TBR were optimized using TD-DFT at the CAM-B3LYP/6-31G(d,p) level, with water treated as the solvent using a continuum solvation model. Frequency calculations were performed to verify the optimized structures. The emission properties were subsequently calculated at the optimized excited-state geometries, and the resulting parameters were further processed using MOMAP to obtain the vibronic emission spectra with spectral broadening.
