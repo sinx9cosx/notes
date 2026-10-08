@@ -1,0 +1,23 @@
+{
+  "id": "conv-1791463461519-cui0dgd03",
+  "providerId": "claude",
+  "title": "Score TOEFL essay and write corrected version",
+  "titleGenerationStatus": "success",
+  "createdAt": 1791463461520,
+  "updatedAt": 1791463579944,
+  "lastResponseAt": 1791463579944,
+  "sessionId": "a2e6115f-8470-4d32-9967-7d0f4e5d10f9",
+  "providerState": {
+    "providerSessionId": "a2e6115f-8470-4d32-9967-7d0f4e5d10f9"
+  },
+  "currentNote": "TOEFL/邮件写作/感谢工作前辈.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 447,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30976,
+    "contextWindow": 200000,
+    "contextTokens": 31423,
+    "percentage": 16
+  }
+}
