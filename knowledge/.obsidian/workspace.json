@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/溶剂：二氯甲烷.md",
+                "file": "sci_research/DHR/溶剂：二氯甲烷.md",
                 "mode": "source",
                 "source": false
               },
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -237,8 +236,8 @@
   },
   "active": "afd56e579fb4e9c3",
   "lastOpenFiles": [
-    "sci_research/TBR/TBR-s0.md",
     "sci_research/TBR/溶剂：二氯甲烷.md",
+    "sci_research/TBR/TBR-s0.md",
     "molecular-simulation/模拟系综-不变量选择与等价性.md",
     "sci_research/DHR/溶剂：二氯甲烷.md",
     "molecular-simulation/维里定理.md",
