@@ -5,6 +5,8 @@ tags:
 Category:
   - 草稿
 ---
+# 空穴-电子图
+  
   <table><tr>
   <td align="center"><img src="97.png" width="380"><br>DHR-S9-97空穴</td>
   <td align="center"><img src="98.png" width="380"><br>DHR-S9-98电子</td>
@@ -18,7 +20,7 @@ Category:
   
 ---
 
-# 机理解释+方法描述
+# 机理解释
 
 <mark style="background: #FFB86CA6;">机理解释：</mark>
 
@@ -36,6 +38,8 @@ The natural transition orbital (NTO) analysis reveals similar electronic structu
 
 ---
 
+# 方法描述
+
 <mark style="background: #FFB86CA6;">（参考）DHR的文章-计算方法描述</mark>
 
 2.2 Computational details for the absorption and emission spectra simulations  
@@ -48,3 +52,24 @@ The S9 states of DHR and TBR were optimized at the CAM-B3LYP/6-31G(d,p) level wi
 
 
 The ground-state geometries of DHR and TBR were optimized using density functional theory (DFT) at the CAM-B3LYP/6-31G(d,p) level with Gaussian 16. Solvent effects were considered using the polarizable continuum model (PCM) with water as the solvent, and empirical dispersion corrections were included using the D3(BJ) scheme. The S9 excited-state geometries were subsequently optimized using time-dependent density functional theory (TD-DFT) at this level of theory. Frequency calculations were performed to confirm the nature of the optimized excited-state structures. The excitation energies and oscillator strengths of the S9 states were calculated using TD-DFT, and natural transition orbitals (NTOs) were generated and analyzed at this level of theory.
+
+---
+
+# 光谱
+
+![[TBR-s19-water.png]]
+
+kr-s1=5.62414777E+07 /s 
+kic-s1=kic=4.47073007E+09 /s
+
+kr-s9=6.73725189E+08 /s
+kic-s9=1.01347331E+09 /s
+
+
+![[DHR-s19-water.png]]
+
+kr-s1=4.29854076E+07 /s
+kic-s1=1.34470125E+10 /s
+
+kr-s9=4.07746649E+08 /s
+kic-s9=
