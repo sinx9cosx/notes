@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR后处理-s9（水）.md",
+                "file": "sci_research/TBR/TBR-s0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR后处理-s9（水）"
+              "title": "TBR-s0"
             }
           },
           {
@@ -27,40 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+                "file": "sci_research/TBR/TBR-s9光谱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP 荧光光谱与速率：完整流程与结果解读"
-            }
-          },
-          {
-            "id": "90693d98052a6003",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/邮件写作/感谢工作前辈.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "感谢工作前辈"
-            }
-          },
-          {
-            "id": "44caeb88ad1f6cbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/学术讨论/AI伦理问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI伦理问题"
+              "title": "TBR-s9光谱"
             }
           }
         ],
@@ -201,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+                "file": "sci_research/TBR/TBR-s9光谱.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -263,18 +235,22 @@
   },
   "active": "afd56e579fb4e9c3",
   "lastOpenFiles": [
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
+    "sci_research/TBR/TBR-s9.md",
+    "sci_research/TBR/TBR-s1光谱.md",
+    "TOEFL/学术讨论/AI伦理问题.md",
+    "TOEFL/邮件写作/感谢工作前辈.md",
+    "sci_research/TBR/TBR-s9光谱.md",
+    "sci_research/TBR/TBR-s0.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "sci_research/DHR/DHR复现-s1（水）.md",
+    "sci_research/DHR/DHR后处理-s9（水）.md",
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
-    "sci_research/TBR/TBR-s9光谱.md",
-    "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/report/TBR实验发光机理解释草稿.md",
-    "TOEFL/邮件写作/感谢工作前辈.md",
     "sci_research/DHR/DHR后处理-s2（水）.md",
     "sci_research/DHR/DHR后处理-s1（水）.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
-    "TOEFL/学术讨论/AI伦理问题.md",
     "TOEFL/邮件写作/感谢工作前辈.md.tmp.30960.cca0598d65ff",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
@@ -283,12 +259,8 @@
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.276da1199909",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.248bbe82efa1",
     "nul",
-    "sci_research/TBR/TBR-s1光谱.md",
-    "sci_research/DHR/DHR复现-s1（水）.md",
-    "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s3.md",
     "sci_research/report/SUMMARY 3.md",
-    "sci_research/TBR/TBR-s0.md",
     "sci_research/image/spectrum/TBR-s19-water.png",
     "sci_research/image/spectrum/TBR-experiment.png",
     "sci_research/image/spectrum/TBR-refer.png",
