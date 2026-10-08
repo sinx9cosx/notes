@@ -29,3 +29,11 @@ EDME（发射电子偶极矩）=$\sqrt{ 5.9939 }\times 2.5417=6.2227$ debye
 
 3. 画光谱
 	![[DHR-spec-s19.png]]
+
+## evc-kic
+
+evc.cart.dat:
+Total reorganization energy      (cm-1):          967.532095        929.211092
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):          967.931763        928.553834

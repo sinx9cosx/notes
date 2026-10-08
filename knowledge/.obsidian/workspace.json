@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 5 NACME.md",
+                "file": "sci_research/DHR/DHR后处理-s9（水）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOMAP 5 NACME"
+              "title": "DHR后处理-s9（水）"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/report/TBR实验发光机理解释草稿.md",
+                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR实验发光机理解释草稿"
+              "title": "MOMAP 荧光光谱与速率：完整流程与结果解读"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/邮件写作/感谢工作前辈.md",
+                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,13 +261,21 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "90693d98052a6003",
+  "active": "afd56e579fb4e9c3",
   "lastOpenFiles": [
-    "TOEFL/邮件写作/感谢工作前辈.md.tmp.30960.cca0598d65ff",
-    "TOEFL/学术讨论/AI伦理问题.md",
-    "TOEFL/邮件写作/感谢工作前辈.md",
+    "instrument/MOMAP/MOMAP 7 QC准备.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "sci_research/TBR/Emission Spectra of TBR.md",
+    "sci_research/DHR/Emission Spectra of DHR.md",
+    "sci_research/TBR/TBR-s9光谱.md",
+    "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/report/TBR实验发光机理解释草稿.md",
+    "TOEFL/邮件写作/感谢工作前辈.md",
+    "sci_research/DHR/DHR后处理-s2（水）.md",
+    "sci_research/DHR/DHR后处理-s1（水）.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
+    "TOEFL/学术讨论/AI伦理问题.md",
+    "TOEFL/邮件写作/感谢工作前辈.md.tmp.30960.cca0598d65ff",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
@@ -278,12 +286,7 @@
     "sci_research/TBR/TBR-s1光谱.md",
     "sci_research/DHR/DHR复现-s1（水）.md",
     "sci_research/TBR/TBR-s9.md",
-    "instrument/MOMAP/MOMAP 7 QC准备.md",
-    "sci_research/DHR/Emission Spectra of DHR.md",
-    "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/TBR/TBR-s3.md",
-    "sci_research/TBR/TBR-s9光谱.md",
-    "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/report/SUMMARY 3.md",
     "sci_research/TBR/TBR-s0.md",
     "sci_research/image/spectrum/TBR-s19-water.png",
@@ -295,14 +298,11 @@
     "molecular-simulation/模拟系综-不变量选择与等价性.md",
     "molecular-simulation/维里定理.md",
     "未命名.md",
-    "molecular-simulation/模拟系综.md",
-    "molecular-simulation/分子动力学模拟演化计算.md",
     "physchem-1/量子力学.md.tmp.34840.9316c00d9f5a",
     "physchem-1/量子力学.md.tmp.34840.225e0331f358",
     "molecular-simulation/温度和压力与分子动能和分子间作用力的关系.md.tmp.34840.6011dd5fd892",
     "molecular-simulation/温度和压力与分子动能和分子间作用力的关系.md.tmp.34840.db0b6dbd596e",
     "molecular-simulation/模拟系综.md.tmp.34840.9e2b848f8a48",
-    "physchem-1/维里定理.md.tmp.34840.633153028cde",
     "physchem-2/image/liquid-volume.jpg",
     "sci_research/image/TBR/135-0.png",
     "sci_research/image/TBR/136-0.png",
