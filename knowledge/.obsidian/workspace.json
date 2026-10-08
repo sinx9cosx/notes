@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/学术讨论/AI伦理问题.md",
+                "file": "TOEFL/邮件写作/感谢工作前辈.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -261,8 +261,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "44caeb88ad1f6cbe",
+  "active": "90693d98052a6003",
   "lastOpenFiles": [
+    "TOEFL/邮件写作/感谢工作前辈.md.tmp.30960.cca0598d65ff",
+    "TOEFL/学术讨论/AI伦理问题.md",
     "TOEFL/邮件写作/感谢工作前辈.md",
     "sci_research/report/TBR实验发光机理解释草稿.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
@@ -270,7 +272,6 @@
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
     "sci_research/DHR/DHR复现-s9（水）.md",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.48b24ddb103c",
-    "TOEFL/学术讨论/AI伦理问题.md",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.276da1199909",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.248bbe82efa1",
     "nul",
@@ -302,7 +303,6 @@
     "molecular-simulation/温度和压力与分子动能和分子间作用力的关系.md.tmp.34840.db0b6dbd596e",
     "molecular-simulation/模拟系综.md.tmp.34840.9e2b848f8a48",
     "physchem-1/维里定理.md.tmp.34840.633153028cde",
-    "molecular-simulation/分子模拟课后作业2.md",
     "physchem-2/image/liquid-volume.jpg",
     "sci_research/image/TBR/135-0.png",
     "sci_research/image/TBR/136-0.png",
