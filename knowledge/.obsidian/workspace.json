@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-s9.md",
+                "file": "sci_research/DHR/DHR复现-s9（水）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-s9"
+              "title": "DHR复现-s9（水）"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/DHR复现-s9（水）.md",
+                "file": "sci_research/report/TBR实验发光机理解释草稿.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHR复现-s9（水）"
+              "title": "TBR实验发光机理解释草稿"
             }
           }
         ],
@@ -236,10 +236,11 @@
   },
   "active": "afd56e579fb4e9c3",
   "lastOpenFiles": [
+    "sci_research/DHR/DHR复现-s9（水）.md",
+    "sci_research/DHR/DHR复现-s1（水）.md",
     "sci_research/TBR/TBR-s9.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/DHR/Emission Spectra of DHR.md",
-    "sci_research/DHR/DHR复现-s9（水）.md",
     "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/TBR/TBR-s3.md",
     "sci_research/TBR/TBR-s9光谱.md",
@@ -271,7 +272,6 @@
     "molecular-simulation 1/分子作用势.md",
     "molecular-simulation 1/分子动力学模拟演化计算.md",
     "molecular-simulation 1/温度和压力与分子动能和分子间作用力的关系.md",
-    "molecular-simulation 1/模拟系综-不变量选择与等价性.md",
     "molecular-simulation 1",
     "molecular-simulation/模拟系综-不变量选择与等价性.md.tmp.44316.606bc32607f1",
     "molecular-simulation/模拟系综.md.tmp.39312.2b6108d30be3",
