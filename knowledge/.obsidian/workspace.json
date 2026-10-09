@@ -35,8 +35,7 @@
               "title": "溶剂：二氯甲烷"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,10 +234,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "afd56e579fb4e9c3",
+  "active": "479d33d8d03d5eb2",
   "lastOpenFiles": [
-    "sci_research/DHR/溶剂：二氯甲烷.md",
     "sci_research/TBR/溶剂：二氯甲烷.md",
+    "sci_research/DHR/溶剂：二氯甲烷.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s1.md",
     "sci_research/TBR/TBR-s9光谱.md",
