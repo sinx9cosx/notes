@@ -72,16 +72,16 @@ kic-s9=1.01347331E+09 /s
 
 ![[DHR-s19-water.png]]
 
-kr-s1=4.29854076E+07 /s
+kr-s1=8.03142014E+07 /s
 kic-s1=1.34470125E+10 /s
 
-kr-s9=4.07746649E+08 /s
-kic-s9=
+kr-s9=7.99550576E+08 /s
+kic-s9=3.36155004E+09 /s
 
 ---
 
 ## 方法描述
 
-Emission spectrum calculation
+The above calculations were performed by using MOLCAS 7.0 program7. Because CASSCF method cannot deal with the frequency calculation owing to expensive computational cost, DFT and TDDFT were used to calculate the frequencies and analyze the normal modes of DHR in the S0, S1 and S2 states, respectively, at $$B97xd/6-311+g* level with Gaussian 16 program8. Further the vibrational absorption and emission spectra of isolated DHR were simulated by using the thermal vibration correlation function method in MOMAP program9, for which the fine structures of the spectra were assigned in detail.
 
-The S1 and S9 excited-state geometries of DHR and TBR were optimized using TD-DFT at the CAM-B3LYP/6-31G(d,p) level, with water treated as the solvent using a continuum solvation model. Frequency calculations were performed to verify the optimized structures. The emission properties were subsequently calculated at the optimized excited-state geometries, and the resulting parameters were further processed using MOMAP to obtain the vibronic emission spectra with spectral broadening.
+The emission energies and oscillator strengths of the S1 and S9 states were calculated using TD-DFT at the CAM-B3LYP/6-31G(d,p) level based on the optimized excited-state geometries. The resulting parameters were then used to simulate the vibronic emission spectra with spectral broadening using MOMAP, with water treated as the solvent.
