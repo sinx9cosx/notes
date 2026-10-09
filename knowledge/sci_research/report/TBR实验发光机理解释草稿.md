@@ -91,3 +91,8 @@ The above calculations were performed by using MOLCAS 7.0 program7. Because CASS
 ---
 
 To further compare with experimental data, the emission energies and frequencies of the S1 and S9 states were then used to simulate the vibronic emission spectra using MOMAP, with water treated as the solvent.
+
+---
+# 汇总方法描述
+
+The ground-state geometries of DHR and TBR were optimized using density functional theory (DFT) at the CAM-B3LYP/6-31G(d,p) level with Gaussian 16. Solvent effects were considered using the polarizable continuum model (PCM) with water as the solvent, and empirical dispersion corrections were included using the D3(BJ) scheme. The S1 and S9 excited-state geometries were subsequently optimized using time-dependent density functional theory (TD-DFT) at the same level of theory. Frequency calculations were performed to confirm the nature of the optimized excited-state structures. The excitation energies and oscillator strengths of the excited states were calculated using TD-DFT,  and natural transition orbitals (NTOs) were generated and analyzed at this level of theory. To compare the calculated emission spectra with experimental data, vibronic emission spectra of the S1 and S9 states were simulated using MOMAP based on the ground-state and excited-state geometries calculated in Gaussian 16, with water treated as the solvent.
