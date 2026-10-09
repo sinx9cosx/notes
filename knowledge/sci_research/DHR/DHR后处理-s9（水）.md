@@ -9,8 +9,8 @@ Category:
 ## log信息
 
 Ead=(-1150.95108647)-(-1151.10651698)=0.15543051 a.u.
-EDMA（吸收电子偶极矩）= $\sqrt{ 6.1887 }\times 2.5417=6.323$debye
-EDME（发射电子偶极矩）=$\sqrt{ 5.9939 }\times 2.5417=6.2227$ debye
+EDMA（吸收电子偶极矩）= $\sqrt{ 6.1887 }\times 2.5417=6.32$debye
+EDME（发射电子偶极矩）=$\sqrt{ 11.7424 }\times 2.5417=8.71$ debye
 
 ## evc-kr-s9
 

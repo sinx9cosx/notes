@@ -95,7 +95,9 @@ MOMAP 不计算电子结构，所有输入数据均由 Gaussian 提供。四件�
 - nacme 的 route 必须带 `prop=(fitcharge,field)` `iop(6/22=-4,6/29=1,6/30=0,6/17=2)`，且含溶剂 `scrf`，否则与水里算的频率不自洽。
 
 > [!warning]- 
-> 
+> Ead=S0(SCF Done)-Sx(Total energy)
+> EDMA: S0 td
+> EDME: Sx opt
 
 上游怎么算详见 [[激发态和光谱计算]]。
 
