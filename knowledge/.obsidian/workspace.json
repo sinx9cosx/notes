@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/溶剂：二氯甲烷.md",
+                "file": "sci_research/DHR/Emission Spectra of DHR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "溶剂：二氯甲烷"
+              "title": "Emission Spectra of DHR"
             }
           },
           {
@@ -236,8 +236,8 @@
   },
   "active": "479d33d8d03d5eb2",
   "lastOpenFiles": [
-    "sci_research/TBR/溶剂：二氯甲烷.md",
     "sci_research/DHR/溶剂：二氯甲烷.md",
+    "sci_research/TBR/溶剂：二氯甲烷.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s1.md",
     "sci_research/TBR/TBR-s9光谱.md",

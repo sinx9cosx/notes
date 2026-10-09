@@ -11,7 +11,7 @@ Category:
 
 ![[DHR-spec-s129-water.png]]
 
-kr-s1=
+kr-s1=8.03142014E+07 /s
 kic-s1=1.34470125E+10 /s
 
 kr-s2=6.72519946E+06 /s
