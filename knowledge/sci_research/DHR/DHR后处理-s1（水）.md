@@ -12,9 +12,9 @@ Category:
 
 ## log文件提取数据
 
-Ead（绝热激发能）=2.144 eV=0.078792a.u.（已弃用）
+Ead（绝热激发能）=0.0733699 au
 EDMA（吸收电子偶极矩）=6.92738 debye
-EDME（发射电子偶极矩）=7.24786 debye
+EDME（发射电子偶极矩）=$\sqrt{ 15.2084 }\times 2.5417=9.91$debye
 
 ## evc-kr
 
@@ -23,17 +23,6 @@ momap.inp填入log提取的数据
 
 结果：evc.cart.dat与evc.dint.dat重组能相差很小。
 
-## kr
-
-1. 检查收敛spec.tvcf.ft.dat
-
-2. spec.tvcf.log
-	radiative rate:辐射速率：5.49796738E+07 s 辐射寿命:18.17 ns
-
-3. 主峰在601？文献在658？
-
-
-————用s1opt的数据计算Ead=0.0733699 au————
 
 ## kr
 
@@ -52,5 +41,3 @@ momap.inp填入log提取的数据
 	成功
 
 2.  log 末尾 `Calculate absorption and emission spectra` 表只有一行（在 Ead 处），取 `6kic(s^{-1})` 列的值；同行的 time(ps) 即 1/kic。
-	 6kic(s^{-1})             8time(ps)
-    1.34470125E+10      74.36596021

@@ -6,19 +6,18 @@ tags:
 Category:
   - 笔记
 ---
-<mark style="background: #FFB8EBA6;">kr计算有问题，EDME错误</mark>
 
 # water
 
 ![[DHR-spec-s129-water.png]]
 
-kr-s1=4.29854076E+07 /s
+kr-s1=
 kic-s1=1.34470125E+10 /s
 
 kr-s2=6.72519946E+06 /s
 
-kr-s9=4.07746649E+08 /s
-kic-s9=
+kr-s9=7.99550576E+08 /s
+kic-s9=3.36155004E+09 /s
 # gas-phase
 
 ![[DHR-spec-s129-gas.png]]
