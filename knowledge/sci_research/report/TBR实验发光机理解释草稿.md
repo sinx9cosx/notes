@@ -48,6 +48,8 @@ The natural transition orbital (NTO) analysis reveals similar electronic structu
 
 All the molecular geometry structures in the S0, S1 and S2 states were optimized at CASSCF/`631G*`/(12,12) level with symmetry contained as D2H group point. The excitation energies and oscillator strengths were calculated at CASPT2/`6-31G*`/(12,12) level based on CASSCF orbitals. S4  The above calculations were performed by using MOLCAS 7.0 program7. Because CASSCF method cannot deal with the frequency calculation owing to expensive computational cost, DFT and TDDFT were used to calculate the frequencies and analyze the normal modes of DHR in the S0, S1 and S2 states, respectively, at $\omega$B97xd/6-311+g* level with Gaussian 16 program8. Further the vibrational absorption and emission spectra of isolated DHR were simulated by using the thermal vibration correlation function method in MOMAP program9, for which the fine structures of the spectra were assigned in detail.
 
+---
+
 S9 opt+freq -> S9 td -> S9 NTO
 
 The S9 states of DHR and TBR were optimized at the CAM-B3LYP/6-31G(d,p) level with Gaussian 16. TDDFT was used to calculate excitation energies of S9 and prepare for the NTO calculation. NTOs were analyzed at the same level of theory.
@@ -82,6 +84,10 @@ kic-s9=3.36155004E+09 /s
 
 ## 方法描述
 
-The above calculations were performed by using MOLCAS 7.0 program7. Because CASSCF method cannot deal with the frequency calculation owing to expensive computational cost, DFT and TDDFT were used to calculate the frequencies and analyze the normal modes of DHR in the S0, S1 and S2 states, respectively, at $$B97xd/6-311+g* level with Gaussian 16 program8. Further the vibrational absorption and emission spectra of isolated DHR were simulated by using the thermal vibration correlation function method in MOMAP program9, for which the fine structures of the spectra were assigned in detail.
+<mark style="background: #FFB86CA6;">angew参考</mark>
 
-The emission energies and oscillator strengths of the S1 and S9 states were calculated using TD-DFT at the CAM-B3LYP/6-31G(d,p) level based on the optimized excited-state geometries. The resulting parameters were then used to simulate the vibronic emission spectra with spectral broadening using MOMAP, with water treated as the solvent.
+The above calculations were performed by using MOLCAS 7.0 program7. Because CASSCF method cannot deal with the frequency calculation owing to expensive computational cost, DFT and TDDFT were used to calculate the frequencies and analyze the normal modes of DHR in the S0, S1 and S2 states, respectively, at $\omega$B97xd/6-311+g* level with Gaussian 16 program8. Further the vibrational absorption and emission spectra of isolated DHR were simulated by using the thermal vibration correlation function method in MOMAP program9, for which the fine structures of the spectra were assigned in detail.
+
+---
+
+To further compare with experimental data, the emission energies and frequencies of the S1 and S9 states were then used to simulate the vibronic emission spectra using MOMAP, with water treated as the solvent.

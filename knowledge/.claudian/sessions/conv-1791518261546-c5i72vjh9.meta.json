@@ -1,0 +1,23 @@
+{
+  "id": "conv-1791518261546-c5i72vjh9",
+  "providerId": "claude",
+  "title": "Check syntax errors in selected code",
+  "titleGenerationStatus": "success",
+  "createdAt": 1791518261547,
+  "updatedAt": 1791518295192,
+  "lastResponseAt": 1791518295192,
+  "sessionId": "ce94e112-bba7-4ce0-929d-554ab1fd7947",
+  "providerState": {
+    "providerSessionId": "ce94e112-bba7-4ce0-929d-554ab1fd7947"
+  },
+  "currentNote": "sci_research/report/TBR实验发光机理解释草稿.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 296,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30976,
+    "contextWindow": 200000,
+    "contextTokens": 31272,
+    "percentage": 16
+  }
+}
