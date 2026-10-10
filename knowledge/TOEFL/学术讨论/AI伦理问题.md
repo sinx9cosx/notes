@@ -155,21 +155,6 @@ Besides, especially for creators, there's another type of risk. As AI painting g
 As for Andrew's opinion, I think widespread job displacement is not the most significant concern. Firstly, AI is not good enough at manufacturing to replace humans, especially without human help. In addition, the cost of automating tasks with AI systems is high, which makes it difficult to replace human-made production on a large scale.
 In conclusion, I think privacy violations and data misuse represent the most serious ethical concerns.
 
-**改正说明**：
-
-1. 按句改动清单：
-   2. 第 1 句：无改动。
-   3. 第 2 句：wide-use → widespread use（搭配）；our life → our lives（润色）。
-   4. 第 3 句：softwares → software ×2（不可数）；privacy leak → privacy leaks（可数性）。
-   5. 第 4 句：删 for them（与 for creators 冗余）。
-   6. 第 5 句：paiting → painting（拼写）；删 the（泛指领域不加冠词）；they → AI systems（指代不清）。
-   7. 第 6 句：completed → improved（搭配：法律"完善"不用 complete）。
-   8. 第 7 句：significent → significant（拼写）；补 concern（缺中心名词）。
-   9. 第 8 句：human → humans（可数性）；human's help → human help（中式）。
-   10. 第 9 句：the cost of AI systems automate tasks → the cost of automating tasks with AI systems（结构断裂）；at a wide range → on a large scale（搭配）。
-   11. 第 10 句：miuse → misuse（拼写）；privacy violation → privacy violations（可数性）。
-12. 可记的表达：<mark style="background: #BBFABBA6;">widespread use</mark>（广泛使用）、<mark style="background: #BBFABBA6;">privacy leaks</mark>（隐私泄露）、<mark style="background: #BBFABBA6;">need to be improved</mark>（需完善）、<mark style="background: #BBFABBA6;">on a large scale</mark>（大规模地）。
-
 # 提升版作文
 
 I totally concur with Claire's opinion. Although the widespread use of AI brings convenience to our lives, our personal information becomes exposed at the same time. For example, AI helps shopping software recommend more goods that meet our tastes, but our shopping habits are also stored by the software, which may cause privacy leaks.
@@ -184,4 +169,3 @@ In conclusion, given the copyright risks that creators face and the limited thre
 1. 落实「改进要点」第 1 条：结论不再照搬 Claire 原话，改为总结自己的两条理由（创作者版权风险 + AI 对就业的威胁有限）。
 2. 落实「改进要点」第 5 条：版权段补上具体方向——要求公司使用授权数据（licensed data）训练 AI。
 3. 表达提升：transparent → exposed、push goods → recommend、gets popular → becomes popular；其余保持原立场、4 段结构与句序。
-4. 词数：190 词（精确计数，脚本统计）。
