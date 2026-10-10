@@ -118,6 +118,6 @@ oldchk:DHR-s9freq.chk
 
 输入文件：DHR-s9nacme.gjf
 
-关键词：
+关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=9, 6/30=0, 6/17=2)`
 
 结果：
