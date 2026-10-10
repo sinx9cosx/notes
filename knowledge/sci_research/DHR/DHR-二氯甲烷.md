@@ -38,7 +38,11 @@ oldchk:DHR-s0opt.gjf
 关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：收敛，无虚频
-Total Energy, E(TD-HF/TD-DFT) =  -1151.03028453
+
+ Excited State   1:      Singlet-A'     1.8289 eV  677.93 nm  f=0.5886 
+      97 -> 98         0.69974
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1151.03028453
 
 ## s1 td
 
@@ -49,6 +53,10 @@ oldchk:DHR-s1opt.chk
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：
+Excited State   1:      Singlet-A'     1.9254 eV  643.95 nm  f=0.4051 
+      97 -> 98         0.69564
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1151.02673840
 
 
 ## s1 NTO
@@ -61,7 +69,7 @@ oldchk:DHR-s1opt.chk
 
 关键词：`#p td(nstate=20) cam-b3lyp/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
-结果：
+结果：normal termination
 
 # s9
 ## s9 opt
@@ -82,7 +90,7 @@ oldchk:DHR-s9opt.chk
 
 关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
-结果：
+结果：无虚频
 
 ## s9 td
 
