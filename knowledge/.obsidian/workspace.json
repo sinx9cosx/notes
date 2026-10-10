@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/学术讨论/AI伦理问题.md",
+                "file": "sci_research/TBR/溶剂：二氯甲烷.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI伦理问题"
+              "title": "溶剂：二氯甲烷"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/DHR/Emission Spectra of DHR.md",
+                "file": "sci_research/DHR/DHR复现-s9（水）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Emission Spectra of DHR"
+              "title": "DHR复现-s9（水）"
             }
           }
         ]
@@ -235,21 +235,22 @@
   },
   "active": "479d33d8d03d5eb2",
   "lastOpenFiles": [
+    "sci_research/DHR/DHR复现-s9（水）.md",
+    "sci_research/TBR/溶剂：二氯甲烷.md",
+    "sci_research/DHR/DHR后处理-s9（水）.md",
+    "sci_research/DHR/DHR复现-s1（水）.md",
+    "sci_research/DHR/溶剂：二氯甲烷.md",
+    "sci_research/DHR/Emission Spectra of DHR.md",
+    "TOEFL/学术讨论/AI伦理问题.md",
     "TOEFL/邮件写作/感谢工作前辈.md",
     "sci_research/report/TBR实验发光机理解释草稿.md",
-    "sci_research/DHR/Emission Spectra of DHR.md",
-    "sci_research/TBR/溶剂：二氯甲烷.md",
-    "sci_research/DHR/溶剂：二氯甲烷.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/TBR-s1.md",
     "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/DHR/DHR后处理-s1（水）.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "sci_research/DHR/DHR后处理-s9（水）.md",
     "sci_research/TBR/TBR-s0.md",
     "sci_research/TBR/TBR-s1光谱.md",
-    "TOEFL/学术讨论/AI伦理问题.md",
-    "sci_research/DHR/DHR复现-s1（水）.md",
     "instrument/MOMAP/MOMAP 7 QC准备.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/DHR/DHR后处理-s2（水）.md",
@@ -257,7 +258,6 @@
     "TOEFL/邮件写作/感谢工作前辈.md.tmp.30960.cca0598d65ff",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
-    "sci_research/DHR/DHR复现-s9（水）.md",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.48b24ddb103c",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.276da1199909",
     "TOEFL/学术讨论/AI伦理问题.md.tmp.30132.248bbe82efa1",
