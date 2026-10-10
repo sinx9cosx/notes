@@ -63,9 +63,9 @@ Excited State   1:      Singlet-A      2.0491 eV  605.08 nm  f=0.2211
 
 oldchk:TBR-s1td.chk
 
-输入文件：
+输入文件：TBR-s1-NTO.gjf
 
-关键词：
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
 结果：
 
@@ -130,9 +130,9 @@ Excited State   9:      Singlet-A      3.9762 eV  311.81 nm  f=0.7205
 
 oldchk:TBR-s9td.chk
 
-输入文件：
+输入文件：TBR-s9-NTO.gjf
 
-关键词：
+关键词：`# cam-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
 结果：
 
