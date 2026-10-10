@@ -61,6 +61,14 @@ Excited State   1:      Singlet-A'     1.9254 eV  643.95 nm  f=0.4051
 
 ## s1 NTO
 
+oldchk:DHR-s1td.chk
+
+输入文件：DHR-s1-NTO.gjf
+
+关键词：`# cam-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
+
+结果：
+
 ## s1 nacme
 
 oldchk:DHR-s1opt.chk
@@ -94,6 +102,22 @@ oldchk:DHR-s9opt.chk
 
 ## s9 td
 
+oldchk:DHR-s9freq.chk
+
+输入文件：TBR-s9td.chk
+
+关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+
+结果：
+
 ## s9 NTO 
 
 ## s9 nacme
+
+oldchk:DHR-s9freq.chk
+
+输入文件：DHR-s9nacme.gjf
+
+关键词：
+
+结果：

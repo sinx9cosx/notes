@@ -113,7 +113,7 @@ Dip.S.=10.7764
 
 oldchk:TBR-s9freq.chk
 
-输入文件：TBR-s9td.chk
+输入文件：TBR-s9td.gjf
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
