@@ -68,6 +68,7 @@ oldchk:DHR-s1td.chk
 关键词：`# cam-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
 结果：
+97-98 0.98548
 
 ## s1 nacme
 
@@ -99,6 +100,12 @@ oldchk:DHR-s9opt.chk
 关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：无虚频
+Excited State   9:      Singlet-A'     4.0659 eV  304.94 nm  f=1.2755 
+      94 ->100         0.12853
+      95 -> 99         0.63655
+      97 ->102         0.11752
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1150.95097402
 
 ## s9 td
 
@@ -109,8 +116,24 @@ oldchk:DHR-s9freq.chk
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：
+Excited State   9:      Singlet-A'     4.1425 eV  299.30 nm  f=0.7689 
+      91 -> 98         0.12388
+      94 ->100         0.14031
+      95 -> 99         0.61515
+      96 ->100        -0.10484
+      97 ->102         0.11743
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1150.94815906
 
 ## s9 NTO 
+
+oldchk:DHR-s9td.chk
+
+输入文件：DHR-s9-NTO.gjf
+
+关键词：`# cam-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
+
+结果：
 
 ## s9 nacme
 
@@ -120,4 +143,4 @@ oldchk:DHR-s9freq.chk
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=9, 6/30=0, 6/17=2)`
 
-结果：
+结果：normal termination
