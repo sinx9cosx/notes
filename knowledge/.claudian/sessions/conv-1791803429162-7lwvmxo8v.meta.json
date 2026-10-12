@@ -1,0 +1,23 @@
+{
+  "id": "conv-1791803429162-7lwvmxo8v",
+  "providerId": "claude",
+  "title": "按新托福6分制评分并修改英语作文",
+  "titleGenerationStatus": "success",
+  "createdAt": 1791803429162,
+  "updatedAt": 1791803517089,
+  "lastResponseAt": 1791803517089,
+  "sessionId": "bd3c3b6d-8b4d-4166-965d-e00cfa97cad1",
+  "providerState": {
+    "providerSessionId": "bd3c3b6d-8b4d-4166-965d-e00cfa97cad1"
+  },
+  "currentNote": "TOEFL/邮件写作/实习.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1837,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34688,
+    "contextWindow": 200000,
+    "contextTokens": 36525,
+    "percentage": 18
+  }
+}
