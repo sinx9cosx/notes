@@ -182,3 +182,19 @@ Ead= -1610.62818550-( -1610.48170429)=0.14648121 au
 EDMA=$\sqrt{ 7.4396 }\times 2.5417=6.93$ debye
 
 EDME=$\sqrt{ 10.7764 }\times 2.5417=8.34$ debye
+
+## evc
+
+**kic:**
+evc.cart.dat:
+Total reorganization energy      (cm-1):          707.120931        670.222417
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):          715.703061        661.110213
+
+**kr:**
+evc.cart.dat:
+Total reorganization energy      (cm-1):          707.120931        670.222417
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):          715.703061        661.110213
