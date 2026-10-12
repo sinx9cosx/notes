@@ -82,11 +82,19 @@ oldchk:TBR-s1opt.chk
 
 ## 相关数据
 
-Ead=-1610.62818550-(-1610.54371263)
+Ead=-1610.62818550-(-1610.54371263)=0.08447287 au
 
-EDMA=$\sqrt{ 3.3497 }\times 2.5417=$
+EDMA=$\sqrt{ 3.3497 }\times 2.5417=4.65$ debye
 
-EDME=$\sqrt{ 6.6253 }\times 2.5417=$
+EDME=$\sqrt{ 6.6253 }\times 2.5417=6.54$ debye
+
+## evc-kic
+
+evc.cart.dat:
+Total reorganization energy      (cm-1):         2410.410417       2355.342721
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):         2409.009457       2358.767947
 
 # s9
 ## s9 opt
@@ -144,6 +152,7 @@ oldchk:TBR-s9td.chk
 关键词：`# cam-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
 结果：
+135-136 0.58923
 
 
 ## s9 nacme
