@@ -134,6 +134,7 @@ oldchk:DHR-s9td.chk
 关键词：`# cam-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
 结果：
+97-98 0.78220
 
 ## s9 nacme
 
