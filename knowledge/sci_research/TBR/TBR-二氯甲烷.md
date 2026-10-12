@@ -68,6 +68,7 @@ oldchk:TBR-s1td.chk
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
 结果：
+135-136 0.97717
 
 ## s1 nacme
 
@@ -78,6 +79,14 @@ oldchk:TBR-s1opt.chk
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
 结果：normal termination
+
+## 相关数据
+
+Ead=-1610.62818550-(-1610.54371263)
+
+EDMA=$\sqrt{ 3.3497 }\times 2.5417=$
+
+EDME=$\sqrt{ 6.6253 }\times 2.5417=$
 
 # s9
 ## s9 opt
