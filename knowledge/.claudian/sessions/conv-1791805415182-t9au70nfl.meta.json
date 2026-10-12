@@ -4,7 +4,7 @@
   "title": "Score TOEFL essay with 2026 6-point standard",
   "titleGenerationStatus": "success",
   "createdAt": 1791805415183,
-  "updatedAt": 1791809097798,
+  "updatedAt": 1791816630891,
   "lastResponseAt": 1791809097797,
   "sessionId": "cfa79128-ee96-4202-b7e1-de8a512b2e59",
   "providerState": {
@@ -1369,7 +1369,6 @@
       }
     }
   },
-  "currentNote": "TOEFL/学术讨论/城市空地利用.md",
   "usage": {
     "model": "opus",
     "inputTokens": 507,
