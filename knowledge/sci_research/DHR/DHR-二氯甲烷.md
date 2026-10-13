@@ -44,6 +44,8 @@ oldchk:DHR-s0opt.gjf
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1151.03028453
 
+Dip.S.=13.1360
+
 ## s1 td
 
 oldchk:DHR-s1opt.chk
@@ -82,7 +84,11 @@ oldchk:DHR-s1opt.chk
 
 ## evc数据
 
+Ead=-1151.10502586+1151.03028453=0.07474133 au
 
+EDMA=$\sqrt{7.8665  }\times 2.5417=7.13$ debye
+
+EDME=$\sqrt{ 13.1360 }\times 2.5417=9.21$ debye
 
 ## evc
 
@@ -168,7 +174,11 @@ oldchk:DHR-s9freq.chk
 
 ## evc数据
 
+Ead=-1151.10502586+1150.95097402=
 
+EDMA=$\sqrt{6.7245 }\times 2.5417=$
+
+EDME=$\sqrt{  }$
 
 ## evc
 
