@@ -65,27 +65,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "ea797bbd841b02aa",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ec5335677565626b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "physchem-2/8-纯物质体相性质-克拉佩龙方程.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -282,7 +261,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "ec5335677565626b",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "未命名.md",
     "physchem-2/8-纯物质体相性质-克拉佩龙方程.md",
