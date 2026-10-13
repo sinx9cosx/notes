@@ -4,8 +4,8 @@
   "title": "Explain dispersion relation and its naming",
   "titleGenerationStatus": "success",
   "createdAt": 1791901175368,
-  "updatedAt": 1791901198309,
-  "lastResponseAt": 1791901198309,
+  "updatedAt": 1791901787745,
+  "lastResponseAt": 1791901787745,
   "sessionId": "e8285330-5131-4916-a0fa-646aca8fdd8f",
   "providerState": {
     "providerSessionId": "e8285330-5131-4916-a0fa-646aca8fdd8f"
@@ -13,11 +13,11 @@
   "currentNote": "photoelectric-material/半导体中的电子状态.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 4848,
+    "inputTokens": 99,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 30080,
+    "cacheReadInputTokens": 35584,
     "contextWindow": 200000,
-    "contextTokens": 34928,
-    "percentage": 17
+    "contextTokens": 35683,
+    "percentage": 18
   }
 }
