@@ -133,6 +133,8 @@ Excited State   9:      Singlet-A'     4.0659 eV  304.94 nm  f=1.2755
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1150.95097402
 
+Dip.S.=12.8043
+
 ## s9 td
 
 oldchk:DHR-s9freq.chk
@@ -174,11 +176,11 @@ oldchk:DHR-s9freq.chk
 
 ## evc数据
 
-Ead=-1151.10502586+1150.95097402=
+Ead=-1151.10502586+1150.95097402=0.15405184 au
 
-EDMA=$\sqrt{6.7245 }\times 2.5417=$
+EDMA=$\sqrt{6.7245 }\times 2.5417=6.59$ debye
 
-EDME=$\sqrt{  }$
+EDME=$\sqrt{ 12.8043 }\times 2.5417=9.09$ debye
 
 ## evc
 
