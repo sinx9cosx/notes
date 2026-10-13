@@ -35,8 +35,7 @@
               "title": "半导体中的电子状态"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photoelectric-material/半导体中的电子状态.md",
+                "file": "physchem-2/8-纯物质体相性质-相律与克拉佩龙方程.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -233,10 +232,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7f09343be8097bb1",
+  "active": "4b7878aa742d68b0",
   "lastOpenFiles": [
-    "physchem-2/8-纯物质体相性质-相律与克拉佩龙方程.md",
     "photoelectric-material/半导体中的电子状态.md",
+    "physchem-2/8-纯物质体相性质-相律与克拉佩龙方程.md",
     "TOEFL/口语复述/生活场景-咖啡机.md",
     "photoelectric-material/作业-布里渊区.md",
     "TOEFL/口语复述/生活场景-公园.md",
