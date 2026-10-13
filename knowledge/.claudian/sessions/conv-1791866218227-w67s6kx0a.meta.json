@@ -4,6 +4,20 @@
   "title": "Debug Obsidian note outline display issue",
   "titleGenerationStatus": "success",
   "createdAt": 1791866218227,
-  "updatedAt": 1791866224910,
-  "sessionId": null
+  "updatedAt": 1791867482585,
+  "lastResponseAt": 1791867482585,
+  "sessionId": "fd154fb3-241d-4ba7-9772-ee7bd4fac68c",
+  "providerState": {
+    "providerSessionId": "fd154fb3-241d-4ba7-9772-ee7bd4fac68c"
+  },
+  "currentNote": "physchem-2/8-纯物质体相性质-克拉佩龙方程.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 591,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 112128,
+    "contextWindow": 200000,
+    "contextTokens": 112719,
+    "percentage": 56
+  }
 }
