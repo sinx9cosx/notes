@@ -1,0 +1,23 @@
+{
+  "id": "conv-1791856881911-5nsfgx2ef",
+  "providerId": "claude",
+  "title": "Explain reversible phase transition equation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1791856881912,
+  "updatedAt": 1791856910501,
+  "lastResponseAt": 1791856910501,
+  "sessionId": "c2fb934a-9d78-480a-a1a3-1a1cffc4b725",
+  "providerState": {
+    "providerSessionId": "c2fb934a-9d78-480a-a1a3-1a1cffc4b725"
+  },
+  "currentNote": "physchem-2/8-纯物质体相性质-克拉佩龙方程.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2755,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30080,
+    "contextWindow": 200000,
+    "contextTokens": 32835,
+    "percentage": 16
+  }
+}
