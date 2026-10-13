@@ -80,6 +80,26 @@ oldchk:DHR-s1opt.chk
 
 结果：normal termination
 
+## evc数据
+
+
+
+## evc
+
+**kic:**
+evc.cart.dat:
+Total reorganization energy      (cm-1):         1717.737474       1711.784875
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):         1717.076611       1712.602560
+
+**kr:**
+evc.cart.dat:
+Total reorganization energy      (cm-1):         1717.737474       1711.784875
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):         1717.076611       1712.602560
+
 # s9
 ## s9 opt
 
@@ -145,3 +165,23 @@ oldchk:DHR-s9freq.chk
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=9, 6/30=0, 6/17=2)`
 
 结果：normal termination
+
+## evc数据
+
+
+
+## evc
+
+**kic:**
+evc.cart.dat:
+Total reorganization energy      (cm-1):         1024.438072       1013.902836
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):         1025.420099       1013.108046
+
+**kr:**
+evc.cart.dat:
+Total reorganization energy      (cm-1):         1024.438072       1013.902836
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):         1025.420099       1013.108046
