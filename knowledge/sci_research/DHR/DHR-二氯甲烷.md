@@ -108,7 +108,9 @@ Total reorganization energy      (cm-1):         1717.076611       1712.602560
 
 ## 速率
 
+kic=1.28315772E+10 /s
 
+kr=7.41462367E+07 /s
 
 # s9
 ## s9 opt
@@ -201,3 +203,9 @@ Total reorganization energy      (cm-1):         1024.438072       1013.902836
 
 evc.dint.dat:
 Total reorganization energy      (cm-1):         1025.420099       1013.108046
+
+## 速率
+
+kic=3.31040339E+09 /s
+
+kr=9.64877646E+08 /s
