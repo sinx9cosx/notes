@@ -4,13 +4,13 @@
   "title": "Explain phase transition enthalpy vs temperature",
   "titleGenerationStatus": "success",
   "createdAt": 1791991657144,
-  "updatedAt": 1791991686108,
+  "updatedAt": 1792000338389,
   "lastResponseAt": 1791991686108,
   "sessionId": "886af407-c9be-4518-9a2d-a75d32fe7ae2",
   "providerState": {
     "providerSessionId": "886af407-c9be-4518-9a2d-a75d32fe7ae2"
   },
-  "currentNote": "physchem-2/8-纯物质体相性质/8-纯物质体相性质-相变焓与相变熵.md",
+  "currentNote": "physchem-2/8-纯物质体相性质/相变焓与相变熵.md",
   "usage": {
     "model": "opus",
     "inputTokens": 3362,
