@@ -141,6 +141,8 @@ Excited State   9:      Singlet-A'     4.0659 eV  304.94 nm  f=1.2755
 
 Dip.S.=12.8043
 
+有一个5175.47的异常振动频率。
+
 ## s9 td
 
 oldchk:DHR-s9freq.chk
