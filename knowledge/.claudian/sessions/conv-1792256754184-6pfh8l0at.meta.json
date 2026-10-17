@@ -4,8 +4,8 @@
   "title": "Write TOEFL 2026 six-point scoring notes",
   "titleGenerationStatus": "success",
   "createdAt": 1792256754184,
-  "updatedAt": 1792258900652,
-  "lastResponseAt": 1792258900652,
+  "updatedAt": 1792259486002,
+  "lastResponseAt": 1792259486002,
   "sessionId": "e76943a9-1900-4c8b-8837-88b34c38c233",
   "providerState": {
     "providerSessionId": "e76943a9-1900-4c8b-8837-88b34c38c233",
@@ -662,11 +662,11 @@
   "currentNote": "TOEFL/邮件写作/询问朋友帮忙动物救助慈善活动.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 1164,
+    "inputTokens": 36,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 70144,
+    "cacheReadInputTokens": 88832,
     "contextWindow": 200000,
-    "contextTokens": 71308,
-    "percentage": 36
+    "contextTokens": 88868,
+    "percentage": 44
   }
 }
