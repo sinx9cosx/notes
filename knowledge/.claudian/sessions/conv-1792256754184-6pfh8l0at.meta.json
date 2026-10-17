@@ -1,0 +1,23 @@
+{
+  "id": "conv-1792256754184-6pfh8l0at",
+  "providerId": "claude",
+  "title": "Write TOEFL 2026 six-point scoring notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792256754184,
+  "updatedAt": 1792256896078,
+  "lastResponseAt": 1792256896078,
+  "sessionId": "e76943a9-1900-4c8b-8837-88b34c38c233",
+  "providerState": {
+    "providerSessionId": "e76943a9-1900-4c8b-8837-88b34c38c233"
+  },
+  "currentNote": "TOEFL/邮件写作/未命名.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1342,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42496,
+    "contextWindow": 200000,
+    "contextTokens": 43838,
+    "percentage": 22
+  }
+}
