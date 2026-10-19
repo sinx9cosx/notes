@@ -1,0 +1,23 @@
+{
+  "id": "conv-1792422080850-cxp98r4lj",
+  "providerId": "claude",
+  "title": "按2026年新托福标准评分",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792422080850,
+  "updatedAt": 1792422128552,
+  "lastResponseAt": 1792422128552,
+  "sessionId": "f64af7c2-2cc3-492e-a8b9-d59b1b71ddf4",
+  "providerState": {
+    "providerSessionId": "f64af7c2-2cc3-492e-a8b9-d59b1b71ddf4"
+  },
+  "currentNote": "TOEFL/学术讨论/真题/快时尚产品.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 758,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 29952,
+    "contextWindow": 200000,
+    "contextTokens": 30710,
+    "percentage": 15
+  }
+}
