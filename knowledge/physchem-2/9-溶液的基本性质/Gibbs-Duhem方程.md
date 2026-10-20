@@ -5,24 +5,24 @@ tags:
 Category:
   - 笔记
 ---
-
 # Gibbs-Duhem 方程
 
-## 从加和公式推出约束
+## 推导
 
-恒 $T$、$p$ 下的二组分系统，体积由加和公式给出：
+恒 $T$、$p$ 下的二组分系统，体积由[[偏摩尔量#加和公式|加和公式]]给出：
 $$
 V=n_AV_A+n_BV_B
 $$
-两边微分。注意 $V_A$、$V_B$ 也随组成变，所以它们也要微分：
+两边微分：
 $$
 \mathrm{d}V=n_A\mathrm{d}V_A+V_A\mathrm{d}n_A+n_B\mathrm{d}V_B+V_B\mathrm{d}n_B
 $$
+
 另一方面，体积是 $n_A$、$n_B$ 的函数，直接全微分并对两个偏导用偏摩尔体积的定义：
 $$
 \mathrm{d}V=\left(\frac{\partial V}{\partial n_A}\right)_{T,p,n_B}\mathrm{d}n_A+\left(\frac{\partial V}{\partial n_B}\right)_{T,p,n_A}\mathrm{d}n_B=V_A\mathrm{d}n_A+V_B\mathrm{d}n_B
 $$
-两式相减，含 $\mathrm{d}n_A$、$\mathrm{d}n_B$ 的项抵消，只剩
+两式相减
 $$
 n_A\mathrm{d}V_A+n_B\mathrm{d}V_B=0
 $$
@@ -72,3 +72,4 @@ $$
 与[[热力学#Maxwell 关系式|Maxwell 关系式]]一样，Gibbs-Duhem 方程讲的也是热力学量之间不独立：Maxwell 关系式说二阶偏导可以交换次序，Gibbs-Duhem 方程说各组分偏摩尔量的变化必须互相补偿。
 
 上一篇[[偏摩尔量]]的加和公式是代数关系，这一篇的方程是它的微分关系。两者合起来，才能由一个已知组分的偏摩尔量推出另一个未知组分。
+
