@@ -35,7 +35,8 @@
               "title": "偏摩尔量的热力学关系"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/Gibbs-Duhem方程.md",
+                "file": "physchem-2/9-溶液的基本性质/偏摩尔量的热力学关系.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,11 +233,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c905ae7a015ed833",
+  "active": "a6492174035995f1",
   "lastOpenFiles": [
+    "physchem-2/9-溶液的基本性质/Gibbs-Duhem方程.md",
     "physchem-2/9-溶液的基本性质/偏摩尔量.md",
     "physchem-2/9-溶液的基本性质/偏摩尔量的热力学关系.md",
-    "physchem-2/9-溶液的基本性质/Gibbs-Duhem方程.md",
     "physchem-2/9-溶液的基本性质/溶液与混合物.md",
     "TOEFL/词汇/常犯语法错误.md",
     "TOEFL/词汇/学科词汇.md",
