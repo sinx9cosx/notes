@@ -13,58 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/常犯语法错误.md",
+                "file": "physchem-2/9-溶液的基本性质/溶液与混合物.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常犯语法错误"
-            }
-          },
-          {
-            "id": "ff01e946c7db67a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/邮件写作/感谢工作前辈.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "感谢工作前辈"
-            }
-          },
-          {
-            "id": "3f13fe8f141a929e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/邮件写作/TOEFL写作要点.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TOEFL写作要点"
-            }
-          },
-          {
-            "id": "689f1ada67c677db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/词汇/常犯语法错误.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "常犯语法错误"
+              "title": "溶液与混合物"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/词汇/常犯语法错误.md",
+                "file": "physchem-2/9-溶液的基本性质/溶液与混合物.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -261,8 +218,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "689f1ada67c677db",
+  "active": "c905ae7a015ed833",
   "lastOpenFiles": [
+    "physchem-2/9-溶液的基本性质/偏摩尔量.md",
     "TOEFL/词汇/常犯语法错误.md",
     "TOEFL/词汇/学科词汇.md",
     "TOEFL/邮件写作/TOEFL写作要点.md",
