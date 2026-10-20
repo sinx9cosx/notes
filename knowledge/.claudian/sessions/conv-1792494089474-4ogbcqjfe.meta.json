@@ -4,8 +4,8 @@
   "title": "检查是否存在错误",
   "titleGenerationStatus": "success",
   "createdAt": 1792494089475,
-  "updatedAt": 1792494145379,
-  "lastResponseAt": 1792494145379,
+  "updatedAt": 1792494799680,
+  "lastResponseAt": 1792494799680,
   "sessionId": "3bb57f1b-0edd-46ff-8ef9-64b9064b1807",
   "providerState": {
     "providerSessionId": "3bb57f1b-0edd-46ff-8ef9-64b9064b1807"
@@ -13,11 +13,11 @@
   "currentNote": "sci_research/report/TBR实验发光机理解释草稿.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 2226,
+    "inputTokens": 5071,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 30976,
+    "cacheReadInputTokens": 44544,
     "contextWindow": 200000,
-    "contextTokens": 33202,
-    "percentage": 17
+    "contextTokens": 49615,
+    "percentage": 25
   }
 }

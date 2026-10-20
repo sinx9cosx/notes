@@ -35,8 +35,7 @@
               "title": "TBR-二氯甲烷"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/TBR-二氯甲烷.md",
+                "file": "sci_research/report/TBR实验发光机理解释草稿.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,10 +232,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a6492174035995f1",
+  "active": "c905ae7a015ed833",
   "lastOpenFiles": [
-    "sci_research/report/TBR实验发光机理解释草稿.md",
+    "sci_research/TBR/TBR-二氯甲烷.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
+    "sci_research/report/TBR实验发光机理解释草稿.md.tmp.22216.6a52b48ad1cb",
+    "sci_research/report/TBR实验发光机理解释草稿.md",
     "physchem-2/9-溶液的基本性质/Gibbs-Duhem方程.md",
     "sci_research/TBRs",
     "sci_research/TBR/Emission Spectra of TBR.md",
@@ -270,7 +271,6 @@
     "TOEFL/学术讨论/真题",
     "physchem-2/image/9-水和乙醇的偏摩尔体积.jpg",
     "physchem-2/9-溶液的基本性质",
-    "TOEFL/填词/TPO",
     "physchem-2/image/8-固液相对稳定性.jpg",
     "physchem-2/image/8-水的相图-过程分析.jpg",
     "physchem-2/image/8-水的相图.jpg",
