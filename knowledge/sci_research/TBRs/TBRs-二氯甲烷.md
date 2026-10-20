@@ -6,7 +6,7 @@ tags:
 # s0
 ## s0 opt+freq
 
-输入文件：TBR-s0opt.gjf
+输入文件：TBRs-s0opt.gjf
 
 关键词：`# opt freq CAM-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 

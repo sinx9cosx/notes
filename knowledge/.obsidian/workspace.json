@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR/TBR-二氯甲烷.md",
+                "file": "sci_research/TBRs/TBRs-二氯甲烷.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR-二氯甲烷"
+              "title": "TBRs-二氯甲烷"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/report/TBR实验发光机理解释草稿.md",
+                "file": "sci_research/TBRs/TBRs-二氯甲烷.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,12 +233,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c905ae7a015ed833",
+  "active": "a6492174035995f1",
   "lastOpenFiles": [
     "sci_research/TBR/TBR-二氯甲烷.md",
+    "sci_research/report/TBR实验发光机理解释草稿.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
     "sci_research/report/TBR实验发光机理解释草稿.md.tmp.22216.6a52b48ad1cb",
-    "sci_research/report/TBR实验发光机理解释草稿.md",
     "physchem-2/9-溶液的基本性质/Gibbs-Duhem方程.md",
     "sci_research/TBRs",
     "sci_research/TBR/Emission Spectra of TBR.md",
