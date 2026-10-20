@@ -1,0 +1,103 @@
+---
+tags:
+  - research
+  - Gaussian
+---
+# s0
+## s0 opt+freq
+
+输入文件：TBR-s0opt.gjf
+
+关键词：`# opt freq CAM-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
+
+结果：
+SCF Done
+
+## s0 td
+
+oldchk:TBR-s0opt.chk
+
+输入文件：TBR-s0td.gjf
+
+关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+
+结果：
+
+
+# s1
+## s1 opt+freq
+
+oldchk：TBR-s0opt.chk
+
+输入文件：TBR-s1opt.gjf
+
+关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) scrf# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+
+结果：
+ Excited State   1
+ Total Energy
+ 
+Dip.S.=
+
+## s1 td
+
+oldchk: TBR-s1opt.chk
+
+输入文件：TBR-s1td.gjf
+
+关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+
+结果：
+Excited State   1
+ Total Energy
+
+## s1 NTO
+
+oldchk:TBR-s1td.chk
+
+输入文件：TBR-s1-NTO.gjf
+
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
+
+结果：
+
+
+## s1 nacme
+
+oldchk:TBR-s1opt.chk
+
+输入文件：TBR-s1nacme.gjf
+
+关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
+
+结果：
+## evc数据
+
+Ead=
+
+EDMA=$\sqrt{}\times 2.5417=$ debye
+
+EDME=$\sqrt{ }\times 2.5417=$ debye
+
+## evc
+
+**kic：**
+evc.cart.dat:
+
+
+evc.dint.dat:
+
+
+**kr：**
+evc.cart.dat:
+
+
+evc.dint.dat:
+
+
+## 速率
+
+kic=
+
+kr=
+
