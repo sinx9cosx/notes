@@ -10,14 +10,14 @@ tags:
 
 关键词：`# opt freq CAM-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
-结果：
-SCF Done
+结果：normal termination
+SCF Done:  E(RCAM-B3LYP) =  -1611.82271929
 
 ## s0 td
 
-oldchk:TBR-s0opt.chk
+oldchk:TBRs-s0opt.chk
 
-输入文件：TBR-s0td.gjf
+输入文件：TBRs-s0td.gjf
 
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
@@ -27,9 +27,9 @@ oldchk:TBR-s0opt.chk
 # s1
 ## s1 opt+freq
 
-oldchk：TBR-s0opt.chk
+oldchk：TBRs-s0opt.chk
 
-输入文件：TBR-s1opt.gjf
+输入文件：TBRs-s1opt.gjf
 
 关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) scrf# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
