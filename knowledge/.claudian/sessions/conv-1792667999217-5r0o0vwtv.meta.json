@@ -1,0 +1,23 @@
+{
+  "id": "conv-1792667999217-5r0o0vwtv",
+  "providerId": "claude",
+  "title": "Score work against 2026 new TOEFL standards",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792667999218,
+  "updatedAt": 1792668142579,
+  "lastResponseAt": 1792668142579,
+  "sessionId": "ff8cac89-f814-45fa-bdab-189ace580d36",
+  "providerState": {
+    "providerSessionId": "ff8cac89-f814-45fa-bdab-189ace580d36"
+  },
+  "currentNote": "TOEFL/邮件写作/真题/找实习.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1676,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34304,
+    "contextWindow": 200000,
+    "contextTokens": 35980,
+    "percentage": 18
+  }
+}
