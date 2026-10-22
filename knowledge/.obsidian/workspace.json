@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/化学势.md",
+                "file": "physchem-2/9-溶液的基本性质/气体的化学势.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "化学势"
+              "title": "气体的化学势"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "偏摩尔量"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBRs/TBRs-二氯甲烷.md",
+                "file": "physchem-2/9-溶液的基本性质/气体的化学势.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -246,12 +247,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c905ae7a015ed833",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
     "physchem-2/9-溶液的基本性质/化学势.md",
     "physchem-2/9-溶液的基本性质/偏摩尔量.md",
-    "physchem-2/9-溶液的基本性质/溶液与混合物.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
+    "physchem-2/9-溶液的基本性质/溶液与混合物.md",
     "physchem-2/9-溶液的基本性质/气体的化学势.md",
     "physchem-2/9-溶液的基本性质/理想溶液.md",
     "sci_research/report/TBR实验发光机理解释草稿.md",

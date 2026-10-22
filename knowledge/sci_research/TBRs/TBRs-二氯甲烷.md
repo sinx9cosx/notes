@@ -108,4 +108,10 @@ kr=
 
 ## s10 opt+freq
 
-`# opt freq td(nstate=20,root=10) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+oldchk：TBRs-s0opt.chk
+
+输入文件：TBRs-s10opt.gjf
+
+关键词：`# opt freq td(nstate=20,root=10) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+
+结果：
