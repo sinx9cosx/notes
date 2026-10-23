@@ -35,8 +35,7 @@
               "title": "MOMAP 荧光光谱与速率：完整流程与结果解读"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+                "file": "sci_research/TBRs/TBRs-二氯甲烷.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,11 +232,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "0d88a6b96a6089a6",
+  "active": "f3ee293d29e340a0",
   "lastOpenFiles": [
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "sci_research/TBRs/TBRs-二氯甲烷.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "sci_research/TBR/TBR-二氯甲烷.md",
-    "sci_research/TBRs/TBRs-二氯甲烷.md",
     "TOEFL/邮件写作/真题/找实习.md",
     "TOEFL/填词/真题2/艺术-巴洛克音乐.md",
     "TOEFL/填词/真题2/生物-象龟灭绝.md",

@@ -80,11 +80,11 @@ oldchk:TBRs-s1opt.chk
 
 ## evc数据
 
-Ead= -1611.73360097 -(-1611.82271929)=
+Ead= -1611.73360097 -(-1611.82271929)=0.08911832 au
 
-EDMA=$\sqrt{4.7465}\times 2.5417=$ debye
+EDMA=$\sqrt{4.7465}\times 2.5417=5.54$ debye
 
-EDME=$\sqrt{ 7.4754}\times 2.5417=$ debye
+EDME=$\sqrt{ 7.4754}\times 2.5417=$ 6.95debye
 
 ## evc
 
