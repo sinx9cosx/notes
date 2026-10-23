@@ -15,6 +15,21 @@ Category:
 5. `例子2` for instance, ...
 6. `总结` so overall, ... （补时间）
 
+### 观点题固定结构
+
+1. **观点**：I think...
+    
+2. **原因**：This is because...
+    
+3. **例子**：For example...
+    
+4. **结果/结论**：As a result...
+    
+
+例如：
+
+> I definitely think location matters a lot. This is because a long commute can be exhausting and time-consuming. For example, when I moved closer to my high school, I could walk there in only five minutes. As a result, I could sleep longer and felt more energetic during the day.
+
 ## 表达
 
 填充词：
