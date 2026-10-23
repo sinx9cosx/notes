@@ -90,17 +90,17 @@ EDME=$\sqrt{ 7.4754}\times 2.5417=$ 6.95debye
 
 **kic：**
 evc.cart.dat:
-
+Total reorganization energy      (cm-1):         2626.961112       2546.877394
 
 evc.dint.dat:
-
+Total reorganization energy      (cm-1):         2622.274554       2555.670285
 
 **kr：**
 evc.cart.dat:
-
+Total reorganization energy      (cm-1):         2626.961112       2546.877394
 
 evc.dint.dat:
-
+Total reorganization energy      (cm-1):         2622.274554       2555.670285
 
 ## 速率
 
