@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "photoelectric-material/杂质和缺陷能级.md",
+                "file": "physchem-2/9-溶液的基本性质/理想溶液.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "杂质和缺陷能级"
+              "title": "理想溶液"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photoelectric-material/杂质和缺陷能级.md",
+                "file": "physchem-2/9-溶液的基本性质/理想溶液.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,8 +233,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "e8e47547ec1d9d98",
   "lastOpenFiles": [
+    "physchem-2/9-溶液的基本性质/理想液体混合物.md",
+    "physchem-2/9-溶液的基本性质/理想溶液.md",
+    "physchem-2/9-溶液的基本性质/溶液与混合物.md",
+    "physchem-2/9-溶液的基本性质/气体的化学势.md",
+    "photoelectric-material/杂质和缺陷能级.md",
     "photoelectric-material/半导体中的电子状态.md",
     "TOEFL/模拟面试/通勤时间.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
@@ -242,7 +247,6 @@
     "physchem-2/image/9-solution-alloy.png",
     "physchem-2/image/9-raoult-deviation.png",
     "physchem-2/image/9-henry-law.png",
-    "physchem-2/9-溶液的基本性质/理想液体混合物.md",
     "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
     "physchem-2/9-溶液的基本性质/混合熵.md",
     "physchem-2/9-溶液的基本性质/亨利定律.md",
@@ -252,7 +256,6 @@
     "photoelectric-material/image/3-施主能级.png",
     "photoelectric-material/image/3-刃位错.png",
     "photoelectric-material/image/3-类氢模型.png",
-    "photoelectric-material/杂质和缺陷能级.md",
     "TOEFL/填词/真题/地质-地质学.md",
     "TOEFL/填词/真题/地理-GIS技术.md",
     "TOEFL/填词/真题2/历史-美国城市化.md",
@@ -268,9 +271,6 @@
     "TOEFL/填词/真题/环境-大气压.md",
     "TOEFL/填词/真题/公共卫生-公共卫生史.md",
     "TOEFL/填词/真题/地质-环境地质学.md",
-    "TOEFL/填词/真题/生物-物种大灭绝.md",
-    "TOEFL/填词/真题/历史-工业革命.md",
-    "TOEFL/填词/真题/教育-学术成功技能.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/邮件写作/真题",
     "TOEFL/填词/填词错误类型.canvas",
