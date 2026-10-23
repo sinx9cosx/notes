@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/理想溶液.md",
+                "file": "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "理想溶液"
+              "title": "理想溶液的混合熵"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/理想溶液.md",
+                "file": "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -236,7 +236,7 @@
   "active": "e8e47547ec1d9d98",
   "lastOpenFiles": [
     "physchem-2/9-溶液的基本性质/理想液体混合物.md",
-    "physchem-2/9-溶液的基本性质/理想溶液.md",
+    "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
     "physchem-2/9-溶液的基本性质/溶液与混合物.md",
     "physchem-2/9-溶液的基本性质/气体的化学势.md",
     "photoelectric-material/杂质和缺陷能级.md",
