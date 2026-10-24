@@ -65,8 +65,8 @@ oldchk:TBRs-s1td.chk
 
 关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
-结果：
-
+结果：normal termination
+0.98739
 
 ## s1 nacme
 
@@ -118,7 +118,7 @@ oldchk：TBRs-s0opt.chk
 
 关键词：`# opt td(nstate=20,root=10) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
-结果：
+结果：normal termination 收敛了
 
 ## s10 freq
 
