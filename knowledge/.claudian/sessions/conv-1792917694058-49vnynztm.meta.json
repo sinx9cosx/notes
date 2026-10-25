@@ -1,0 +1,23 @@
+{
+  "id": "conv-1792917694058-49vnynztm",
+  "providerId": "claude",
+  "title": "解释引入理想液体混合物的目的",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792917694059,
+  "updatedAt": 1792917719403,
+  "lastResponseAt": 1792917719403,
+  "sessionId": "4043027f-ba77-469e-ab0b-4a40be5701fd",
+  "providerState": {
+    "providerSessionId": "4043027f-ba77-469e-ab0b-4a40be5701fd"
+  },
+  "currentNote": "physchem-2/9-溶液的基本性质/理想液体混合物.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1076,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 29952,
+    "contextWindow": 200000,
+    "contextTokens": 31028,
+    "percentage": 16
+  }
+}

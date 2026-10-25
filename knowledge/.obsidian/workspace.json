@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/气体的化学势.md",
+                "file": "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "气体的化学势"
+              "title": "拉乌尔定律"
             }
           },
           {
@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -233,13 +233,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7513b3d29c438fd0",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
+    "physchem-2/9-溶液的基本性质/气体的化学势.md",
+    "physchem-2/9-溶液的基本性质/理想液体混合物.md",
     "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
     "physchem-2/9-溶液的基本性质/亨利定律.md",
-    "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
-    "physchem-2/9-溶液的基本性质/理想液体混合物.md",
-    "physchem-2/9-溶液的基本性质/气体的化学势.md",
     "physchem-2/9-溶液的基本性质/化学势.md",
     "physchem-2/9-溶液的基本性质/溶液与混合物.md",
     "physchem-2/9-溶液的基本性质/混合熵.md",
