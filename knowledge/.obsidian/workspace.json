@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -233,10 +233,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
-    "physchem-2/9-溶液的基本性质/理想液体混合物.md",
+    "physchem-2/9-溶液的基本性质/气体的化学势.md",
     "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
+    "physchem-2/9-溶液的基本性质/溶液与混合物.md",
+    "physchem-2/9-溶液的基本性质/理想液体混合物.md",
     "physchem-2/9-溶液的基本性质/化学势.md",
     "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
     "physchem-2/9-溶液的基本性质/混合熵.md",
@@ -259,8 +261,6 @@
     "TOEFL/模拟面试/体育赛事与旅行.md",
     "TOEFL/模拟面试/户外运动.md",
     "TOEFL/模拟面试/口语面试题-体育赛事与旅行.md",
-    "physchem-2/9-溶液的基本性质/溶液与混合物.md",
-    "physchem-2/9-溶液的基本性质/气体的化学势.md",
     "photoelectric-material/杂质和缺陷能级.md",
     "photoelectric-material/半导体中的电子状态.md",
     "physchem-2/image/9-total-vapor-pressure.png",
