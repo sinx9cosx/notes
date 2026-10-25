@@ -1,0 +1,23 @@
+{
+  "id": "conv-1792940475761-guv9op0cj",
+  "providerId": "claude",
+  "title": "按2026新托福6分制标准评分",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792940475762,
+  "updatedAt": 1792940588497,
+  "lastResponseAt": 1792940588497,
+  "sessionId": "6bcc716b-511b-4681-a7b1-816683e54e5c",
+  "providerState": {
+    "providerSessionId": "6bcc716b-511b-4681-a7b1-816683e54e5c"
+  },
+  "currentNote": "TOEFL/学术讨论/真题/保护环境.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2100,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30976,
+    "contextWindow": 200000,
+    "contextTokens": 33076,
+    "percentage": 17
+  }
+}
