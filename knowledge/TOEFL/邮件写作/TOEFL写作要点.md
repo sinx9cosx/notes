@@ -7,7 +7,14 @@ Category:
 # 邮件写作（7min）
 
 称呼Dear xxx
-开场白（一句话点出来意）
+开场白（一句话点出来意）Thank you for considering my application for the summer internship in your company.
+
+正文3段题干的三个任务，每段2-3句话，先回应应该点，再补充解释和细节
+
+结尾收束一句固定表达，如Please let me know if you have any information from me
+
+落款Best regards,
+Tom
 
 # 学术讨论（10min，135 words+）
 
