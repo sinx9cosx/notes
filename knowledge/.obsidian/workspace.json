@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
+                "file": "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "拉乌尔定律"
+              "title": "理想溶液的混合熵"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -232,13 +233,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
-    "physchem-2/9-溶液的基本性质/混合熵.md",
-    "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
-    "TOEFL/模拟面试/公园和休闲场所.md",
-    "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
     "physchem-2/9-溶液的基本性质/理想液体混合物.md",
+    "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
+    "physchem-2/9-溶液的基本性质/化学势.md",
+    "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
+    "physchem-2/9-溶液的基本性质/混合熵.md",
+    "TOEFL/模拟面试/公园和休闲场所.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
     "未命名.md",
     "TOEFL/口语复述/真题",
@@ -272,7 +274,6 @@
     "photoelectric-material/image/3-施主能级.png",
     "photoelectric-material/image/3-刃位错.png",
     "photoelectric-material/image/3-类氢模型.png",
-    "TOEFL/填词/真题/地质-地质学.md",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/邮件写作/真题",
     "TOEFL/填词/填词错误类型.canvas",
