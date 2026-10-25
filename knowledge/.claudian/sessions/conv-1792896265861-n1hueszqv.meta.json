@@ -1,0 +1,23 @@
+{
+  "id": "conv-1792896265861-n1hueszqv",
+  "providerId": "claude",
+  "title": "Explain DeepSeek output in plain language",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792896265863,
+  "updatedAt": 1792896338791,
+  "lastResponseAt": 1792896338791,
+  "sessionId": "b125dc4e-a07e-4ed3-97ad-187cee50f536",
+  "providerState": {
+    "providerSessionId": "b125dc4e-a07e-4ed3-97ad-187cee50f536"
+  },
+  "currentNote": "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1831,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31488,
+    "contextWindow": 200000,
+    "contextTokens": 33319,
+    "percentage": 17
+  }
+}
