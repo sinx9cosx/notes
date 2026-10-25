@@ -4,8 +4,8 @@
   "title": "推导拉乌尔定律",
   "titleGenerationStatus": "success",
   "createdAt": 1792900086822,
-  "updatedAt": 1792900114671,
-  "lastResponseAt": 1792900114671,
+  "updatedAt": 1792900368540,
+  "lastResponseAt": 1792900368540,
   "sessionId": "c6e642e3-87ea-4e97-a31c-55ed853adccf",
   "providerState": {
     "providerSessionId": "c6e642e3-87ea-4e97-a31c-55ed853adccf"
@@ -13,11 +13,11 @@
   "currentNote": "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 1661,
+    "inputTokens": 375,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 30080,
+    "cacheReadInputTokens": 32768,
     "contextWindow": 200000,
-    "contextTokens": 31741,
-    "percentage": 16
+    "contextTokens": 33143,
+    "percentage": 17
   }
 }
