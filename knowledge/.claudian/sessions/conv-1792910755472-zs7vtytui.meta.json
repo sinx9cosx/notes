@@ -4,6 +4,20 @@
   "title": "排查笔记标题未出现在大纲的原因",
   "titleGenerationStatus": "success",
   "createdAt": 1792910755473,
-  "updatedAt": 1792910764735,
-  "sessionId": null
+  "updatedAt": 1792910882850,
+  "lastResponseAt": 1792910882850,
+  "sessionId": "392c043c-1314-401c-9c36-bbbc65e50ad1",
+  "providerState": {
+    "providerSessionId": "392c043c-1314-401c-9c36-bbbc65e50ad1"
+  },
+  "currentNote": "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1916,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30080,
+    "contextWindow": 200000,
+    "contextTokens": 31996,
+    "percentage": 16
+  }
 }
