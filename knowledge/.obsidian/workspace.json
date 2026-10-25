@@ -35,7 +35,8 @@
               "title": "TOEFL写作要点"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/邮件写作/真题/找实习.md",
+                "file": "TOEFL/邮件写作/TOEFL写作要点.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,10 +233,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5a65b947c6dd6a5a",
+  "active": "0a1aa9c6ecf3f8a7",
   "lastOpenFiles": [
-    "TOEFL/邮件写作/TOEFL写作要点.md",
     "TOEFL/邮件写作/真题/找实习.md",
+    "TOEFL/邮件写作/TOEFL写作要点.md",
     "TOEFL/学术讨论/TPO/AI伦理问题.md",
     "TOEFL/邮件写作/邮件写作tips.md",
     "TOEFL/学术讨论/真题/保护环境.md",
