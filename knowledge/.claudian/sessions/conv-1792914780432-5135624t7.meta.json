@@ -1,0 +1,23 @@
+{
+  "id": "conv-1792914780432-5135624t7",
+  "providerId": "claude",
+  "title": "解释温度升高时化学势为何降低",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792914780433,
+  "updatedAt": 1792915177063,
+  "lastResponseAt": 1792915177063,
+  "sessionId": "0445309c-1b43-42d4-8989-2347a5870a11",
+  "providerState": {
+    "providerSessionId": "0445309c-1b43-42d4-8989-2347a5870a11"
+  },
+  "currentNote": "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 168,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32640,
+    "contextWindow": 200000,
+    "contextTokens": 32808,
+    "percentage": 16
+  }
+}
