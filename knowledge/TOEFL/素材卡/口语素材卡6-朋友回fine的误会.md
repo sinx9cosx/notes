@@ -1,0 +1,30 @@
+---
+tags: [flashcards, 口语素材]
+话题: [科技, 线上沟通, 误会, 朋友, 社交媒体]
+创建: 2026-10-26
+---
+
+# 口语素材卡 6：朋友回 "fine" 的误会
+
+#flashcards
+
+这张卡的人物、事件、时间、感受分别是什么？
+?
+**人物**: a close friend（含 I）
+**事件**: texted her about her exam; she replied "fine"; without seeing her face or hearing her tone, I was sure she was angry; spent the whole evening worrying; it turned out she was just busy — since then I send voice messages instead of plain text
+**时间**: last month
+**感受**: frustrated and worried → learned a lesson; hearing a voice makes meaning much clearer
+
+这张卡里两个可以直接进嘴的地道短语块是什么？各造一个句子。
+?
+- **without seeing her face or hearing her tone**: Without seeing her face or hearing her tone, I totally misread her message.
+- **send voice messages instead of plain text**: Now I usually send voice messages instead of plain text.
+
+这张卡的万能接口句是什么？（听到哪些题目可以抽它）
+?
+*"Without seeing her face or hearing her tone, I was sure she was angry with me."*
+适用题目：technology frustration / online communication / misunderstanding / social media pros and cons / how you keep in touch with friends
+
+卡片对应的完整示范回答（约 30 秒）是什么？
+?
+Yes, I've often felt frustrated while using technology. Last month I asked a friend about her exam, and she simply texted back "fine." Without seeing her face or hearing her tone, I was sure she was angry with me, so I spent the whole evening worrying about it. It turned out she was just busy. Since then, I usually send voice messages instead of plain text, because hearing someone's voice makes their meaning much clearer. So online chats are useful, but they can easily cause misunderstandings.
