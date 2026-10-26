@@ -76,9 +76,37 @@
               "icon": "lucide-file",
               "title": "生活场景-船舶展览"
             }
+          },
+          {
+            "id": "42c4f555ea45286e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/口语复述/真题/生活场景-做饭.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "生活场景-做饭"
+            }
+          },
+          {
+            "id": "0f174e67e4c94fe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/模拟面试/两周口语练习计划.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "两周口语练习计划"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -112,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "话题",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -133,7 +161,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -153,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-船舶展览.md",
+                "file": "TOEFL/模拟面试/两周口语练习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-船舶展览.md",
+                "file": "TOEFL/模拟面试/两周口语练习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -215,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-船舶展览.md",
+                "file": "TOEFL/模拟面试/两周口语练习计划.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -230,7 +259,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-船舶展览.md"
+                "file": "TOEFL/模拟面试/两周口语练习计划.md"
               },
               "icon": "lucide-info",
               "title": "笔记属性"
@@ -257,7 +286,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -275,10 +304,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5094c998d3bc24bf",
+  "active": "0f174e67e4c94fe1",
   "lastOpenFiles": [
-    "TOEFL/口语复述/真题/生活场景-工具箱.md",
+    "TOEFL/素材卡/口语素材卡1-初中好友.md",
+    "TOEFL/口语复述/真题/生活场景-水彩画.md",
+    "TOEFL/口语复述/真题/未命名.md",
+    "TOEFL/口语复述/真题/生活场景-做饭.md",
     "TOEFL/口语复述/真题/生活场景-船舶展览.md",
+    "TOEFL/口语复述/真题/生活场景-工具箱.md",
     "TOEFL/模拟面试/通勤时间.md",
     "TOEFL/模拟面试/体育赛事与旅行.md",
     "TOEFL/模拟面试/两周口语练习计划.md",
@@ -299,10 +332,6 @@
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
     "TOEFL/素材卡/口语素材卡6-朋友回fine的误会.md",
     "TOEFL/素材卡/口语素材卡4-放学后公园慢跑.md",
-    "TOEFL/素材卡/口语素材卡2-和家人公园散步.md",
-    "TOEFL/素材卡/口语素材卡1-初中好友.md",
-    "TOEFL/素材卡/口语素材卡5-十分钟网购生日礼物.md",
-    "TOEFL/素材卡/口语素材卡3-和同学自助旅行.md",
     "TOEFL/素材卡",
     "TOEFL/新建文件夹",
     "TOEFL/口语复述/真题",
