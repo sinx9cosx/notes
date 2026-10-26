@@ -83,12 +83,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-做面包.md",
+                "file": "TOEFL/填词/TPO/艺术-抽象派画作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生活场景-做面包"
+              "title": "艺术-抽象派画作"
+            }
+          },
+          {
+            "id": "c1b9b5c4ec99113d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/填词/真题/地质-地质学.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "地质-地质学"
             }
           },
           {
@@ -106,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -140,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "创建",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -181,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-做面包.md",
+                "file": "TOEFL/填词/真题/地质-地质学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-做面包.md",
+                "file": "TOEFL/填词/真题/地质-地质学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -243,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-做面包.md",
+                "file": "TOEFL/填词/真题/地质-地质学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -258,7 +272,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "TOEFL/口语复述/真题/生活场景-做面包.md"
+                "file": "TOEFL/填词/真题/地质-地质学.md"
               },
               "icon": "lucide-info",
               "title": "笔记属性"
@@ -303,13 +317,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "42c4f555ea45286e",
+  "active": "c1b9b5c4ec99113d",
   "lastOpenFiles": [
+    "TOEFL/填词/TPO2/生物-睡觉.md",
+    "TOEFL/填词/TPO/艺术-抽象派画作.md",
+    "TOEFL/口语复述/真题/生活场景-做面包.md",
+    "TOEFL/填词/TPO2",
     "TOEFL/口语复述/真题/生活场景-水彩画.md",
     "TOEFL/口语复述/真题/生活场景-工具箱.md",
     "TOEFL/口语复述/真题/生活场景-动物园.md",
     "TOEFL/口语复述/真题/生活场景-船舶展览.md",
-    "TOEFL/口语复述/真题/生活场景-做面包.md",
     "physchem-1/循环伏安法结合理论计算研究苯醌及其衍生物的氧化还原电势.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
     "TOEFL/模拟面试/科技话题面试题.md",
@@ -317,7 +334,6 @@
     "TOEFL/素材卡/口语素材卡1-初中好友.md",
     "TOEFL/模拟面试/口语话题分类.md",
     "TOEFL/模拟面试/下班后活动与工作平衡.md",
-    "TOEFL/口语复述/真题/未命名.md",
     "TOEFL/模拟面试/通勤时间.md",
     "TOEFL/模拟面试/体育赛事与旅行.md",
     "TOEFL/模拟面试/公园和休闲场所.md",
@@ -330,7 +346,6 @@
     "TOEFL/素材卡/口语素材卡8-用AI查资料多来源核实.md",
     "TOEFL/素材卡/口语素材卡7-表哥当prompt engineer.md",
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
-    "TOEFL/素材卡/口语素材卡6-朋友回fine的误会.md",
     "TOEFL/素材卡",
     "TOEFL/新建文件夹",
     "TOEFL/口语复述/真题",
@@ -352,7 +367,6 @@
     "sci_research/report/TBR实验发光机理解释草稿.md.tmp.22216.6a52b48ad1cb",
     "sci_research/TBRs",
     "TOEFL/词汇",
-    "TOEFL/模拟面试",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
     "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
