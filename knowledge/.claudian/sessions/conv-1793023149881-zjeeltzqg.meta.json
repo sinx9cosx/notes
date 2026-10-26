@@ -4,8 +4,8 @@
   "title": "Explain two exercise questions",
   "titleGenerationStatus": "success",
   "createdAt": 1793023149882,
-  "updatedAt": 1793023226426,
-  "lastResponseAt": 1793023226426,
+  "updatedAt": 1793023520884,
+  "lastResponseAt": 1793023520884,
   "sessionId": "26743b23-d025-4b21-bcd6-62024ffffb81",
   "providerState": {
     "providerSessionId": "26743b23-d025-4b21-bcd6-62024ffffb81"
@@ -13,11 +13,11 @@
   "currentNote": "句子填充错题.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 140,
+    "inputTokens": 144,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 30080,
+    "cacheReadInputTokens": 38784,
     "contextWindow": 200000,
-    "contextTokens": 30220,
-    "percentage": 15
+    "contextTokens": 38928,
+    "percentage": 19
   }
 }
