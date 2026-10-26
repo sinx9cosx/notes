@@ -1,7 +1,8 @@
 ---
-tags: [flashcards, 口语素材]
-话题: [科技, 职业, 新机会, AI, 未来]
-创建: 2026-10-26
+tags:
+  - English
+Category:
+  - 笔记
 ---
 # 骨架
 
