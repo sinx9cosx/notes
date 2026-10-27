@@ -108,7 +108,7 @@ kic=3.64427732E+09 /s
 
 kr=6.59924393E+07 /s
 
-# s10
+# s9
 
 ## s10 opt
 
@@ -118,7 +118,7 @@ oldchk：TBRs-s0opt.chk
 
 关键词：`# opt td(nstate=20,root=10) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
-结果：normal termination 收敛了
+结果：normal termination 收敛到S9
 
 ## s10 freq
 
@@ -126,21 +126,10 @@ oldchk:TBR-s9opt.chk
 
 输入文件：TBR-s9freq.gjf
 
-关键词：`# freq td(nstate=20,root=10) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：无虚频
-Excited State  10:      Singlet-A      4.1486 eV  298.86 nm  f=0.2909  
-     132 ->137         0.12705
-     133 ->137        -0.11803
-     134 ->141        -0.10277
-     135 ->138        -0.10008
-     135 ->139         0.53562
-     136 ->140         0.10139
-     136 ->141         0.14884
- This state for optimization and/or second-order correction.
- Total Energy, E(TD-HF/TD-DFT) =  -1611.6670833
 
-Dip.S.=2.8621
 
 ## s10 td
 
