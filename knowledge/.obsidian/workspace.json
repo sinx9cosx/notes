@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBRs/TBRs-二氯甲烷.md",
+                "file": "TOEFL/邮件写作/邮件写作tips.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBRs-二氯甲烷"
+              "title": "邮件写作tips"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "MOMAP 荧光光谱与速率：完整流程与结果解读"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBRs/TBRs-二氯甲烷.md",
+                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,13 +233,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6e190f408d1ebd85",
+  "active": "423785c00a8e931b",
   "lastOpenFiles": [
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "TOEFL/邮件写作/邮件写作tips.md",
+    "TOEFL/邮件写作/TOEFL写作要点.md",
+    "TOEFL/模拟面试/TOEFL口语要点.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/TBR/TBR-二氯甲烷.md",
     "TOEFL/学术讨论/真题/线上学习.md",
-    "TOEFL/邮件写作/邮件写作tips.md",
     "TOEFL/邮件写作/真题/解决问题.md",
     "TOEFL/填词/TPO2/生物-老虎.md",
     "TOEFL/学术讨论/真题/快时尚产品.md",
@@ -247,7 +250,6 @@
     "TOEFL/句子填充错题.md",
     "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/模拟面试/口语话题分类.md",
-    "TOEFL/邮件写作/TOEFL写作要点.md",
     "TOEFL/填词/真题2/艺术-巴洛克音乐.md",
     "TOEFL/填词/真题2/生物-象龟灭绝.md",
     "TOEFL/填词/真题2/生物-生物化学.md",
@@ -259,7 +261,6 @@
     "TOEFL/填词/真题2/地质-河流三角洲.md",
     "TOEFL/填词/真题2/地理-城市化.md",
     "TOEFL/素材卡/口语素材卡1-初中好友.md",
-    "TOEFL/填词/TPO2/生物-睡觉.md",
     "TOEFL/填词/TPO2/地理-板块运动.md.tmp.11824.e445f2e9e9f3",
     "TOEFL/填词/TPO2",
     "TOEFL/素材卡",

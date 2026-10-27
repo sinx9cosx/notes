@@ -187,9 +187,9 @@ oldchk:TBRs-s9freq.chk
 
 ## s9 NTO 
 
-oldchk:TBR-s9td.chk
+oldchk:TBRs-s9td.chk
 
-输入文件：TBR-s9-NTO.gjf
+输入文件：TBRs-s9-NTO.gjf
 
 关键词：`# cam-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
