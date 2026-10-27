@@ -35,7 +35,8 @@
               "title": "品牌发展"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/邮件写作/真题/咖啡馆提建议.md",
+                "file": "TOEFL/学术讨论/真题/品牌发展.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,13 +233,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6e190f408d1ebd85",
+  "active": "4cd4b1660deef936",
   "lastOpenFiles": [
+    "TOEFL/邮件写作/真题/咖啡馆提建议.md",
     "TOEFL/邮件写作/邮件写作tips.md",
     "TOEFL/学术讨论/真题/品牌发展.md",
     "TOEFL/邮件写作/真题/解决问题.md",
     "TOEFL/学术讨论/真题/线上学习.md",
-    "TOEFL/邮件写作/真题/咖啡馆提建议.md",
     "TOEFL/填词/真题/生物-动物社会等级.md",
     "TOEFL/填词/真题/生物-物种大灭绝.md",
     "TOEFL/填词/真题/历史-工业革命.md",
