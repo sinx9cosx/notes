@@ -26,8 +26,10 @@ Category:
 	【模板句】 开头：I am checking in on my earlier note about [事情]. 
 	中间：I know you may be busy. When you have a moment, could you share [问题]? 
 	结尾：Thanks for your time. Hope to hear from you soon.
-5. 投诉问题
-	I am writing to express my concern about [具体问题], which has caused [具体影响].
+5. 投诉问题 【场景】：反馈成绩、服务、设施等问题。
+	【模板句】 开头：I am writing to express my concern about [具体问题], which has caused [具体影响].
+	中间：Could you please look into this? I can provide [细节/证据] if needed.
+	结尾：Thank you for your attention. I hope this can be resolved soon.
 
 三、一些干货tips 
 
