@@ -119,30 +119,58 @@ oldchk：TBRs-s0opt.chk
 关键词：`# opt td(nstate=20,root=10) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：normal termination 收敛到S9
+ Excited State  10:      Singlet-A      4.0067 eV  309.44 nm  f=0.3337
+     130 ->137        -0.11128
+     131 ->137         0.15497
+     132 ->137        -0.14411
+     132 ->139         0.10617
+     133 ->140         0.10171
+     135 ->138         0.32043
+     135 ->139         0.10312
+     135 ->140        -0.15305
+     136 ->139         0.24888
+     136 ->140         0.32593
+     136 ->142         0.14455
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1611.67229675
 
-## s10 freq
+## s9 freq
 
-oldchk:TBR-s9opt.chk
+oldchk:TBRs-s10opt.chk
 
 输入文件：TBR-s9freq.gjf
 
 关键词：`# freq td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：无虚频
+ Excited State   9:      Singlet-A      4.0067 eV  309.44 nm  f=0.3337  
+     130 ->137        -0.11128
+     131 ->137         0.15497
+     132 ->137        -0.14411
+     132 ->139         0.10617
+     133 ->140         0.10171
+     135 ->138         0.32043
+     135 ->139         0.10312
+     135 ->140        -0.15305
+     136 ->139         0.24888
+     136 ->140         0.32593
+     136 ->142         0.14455
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1611.67229671
 
 
-## s10 td
+## s9 td
 
-oldchk:TBR-s9freq.chk
+oldchk:TBRs-s9freq.chk
 
-输入文件：TBR-s9td.gjf
+输入文件：TBRs-s9td.gjf
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：
 Excited State   9
 
-## s10 NTO 
+## s9 NTO 
 
 oldchk:TBR-s9td.chk
 
@@ -154,11 +182,11 @@ oldchk:TBR-s9td.chk
 135-136
 
 
-## s10 nacme
+## s9 nacme
 
-oldchk:TBR-s9opt.chk
+oldchk:TBRs-s9freq.chk
 
-输入文件：TBR-s9nacme.gjf
+输入文件：TBRs-s9nacme.gjf
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=9, 6/30=0, 6/17=2)`
 
