@@ -25,10 +25,9 @@ oldchk:TBRs-s0opt.chk
 
 | 激发态 | 能量        | 波长        | 振子强度     | Dip.S. |
 | --- | --------- | --------- | -------- | ------ |
-| s1  | 2.7784 eV | 446.25 nm | f=0.3231 | 3.3497 |
-| s9  | 4.1361 eV | 4.1361 eV | f=0.7539 | 7.4396 |
+| s1  | 2.7784 eV | 446.25 nm | f=0.3231 | 4.7465 |
+| s9  | 4.2002 eV | 295.19 nm | f=0.3021 | 2.9355 |
 
-S1-Dip.S.=4.7465
 
 # s1
 ## s1 opt+freq
@@ -162,7 +161,7 @@ oldchk:TBRs-s10opt.chk
      136 ->142         0.14455
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1611.67229671
-
+Dip.S.=3.3997
 
 ## s9 td
 
@@ -210,11 +209,11 @@ oldchk:TBRs-s9freq.chk
 
 ## evc数据
 
-Ead= 
+Ead= -1611.67229671+1611.82271929=0.15042258
 
-EDMA=$\sqrt{ }\times 2.5417=$ debye
+EDMA=$\sqrt{ 2.9355}\times 2.5417=4.35$ debye
 
-EDME=$\sqrt{  }\times 2.5417=$ debye
+EDME=$\sqrt{ 3.3997 }\times 2.5417=4.69$ debye
 
 ## evc
 
