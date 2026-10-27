@@ -23,6 +23,11 @@ oldchk:TBRs-s0opt.chk
 
 结果：normal termination
 
+| 激发态 | 能量        | 波长        | 振子强度     | Dip.S. |
+| --- | --------- | --------- | -------- | ------ |
+| s1  | 2.7784 eV | 446.25 nm | f=0.3231 | 3.3497 |
+| s9  | 4.1361 eV | 4.1361 eV | f=0.7539 | 7.4396 |
+
 S1-Dip.S.=4.7465
 
 # s1
@@ -167,8 +172,19 @@ oldchk:TBRs-s9freq.chk
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
-结果：
-Excited State   9
+结果：normal termination
+ Excited State   9:      Singlet-A      4.0313 eV  307.56 nm  f=0.2452
+     130 ->137        -0.14012
+     131 ->137         0.16195
+     132 ->139         0.11409
+     135 ->138         0.32537
+     135 ->140        -0.16489
+     136 ->139         0.19454
+     136 ->140         0.34184
+     136 ->141        -0.11632
+     136 ->142         0.14296
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1611.67139505
 
 ## s9 NTO 
 
@@ -190,7 +206,7 @@ oldchk:TBRs-s9freq.chk
 
 关键词：`# td(nstate=20,root=9) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=9, 6/30=0, 6/17=2)`
 
-结果：
+结果：normal termination
 
 ## evc数据
 
