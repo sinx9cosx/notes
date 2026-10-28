@@ -14,3 +14,4 @@ Category:
 
 # S1光谱
 
+![[TBRs-s1.png]]
