@@ -14,7 +14,7 @@ DHR-S9-NTO
 
 ## 生成cube文件
 
-完全关闭之前的 Multiwfn 窗口，重新启动 Multiwfn。将上一步生成的 NTO `.fch` 文件拖入 Multiwfn 命令行窗口。
+将 NTO `.fchk` 文件拖入 Multiwfn 命令行窗口。
 
 
 在主功能菜单提示符下，输入200
