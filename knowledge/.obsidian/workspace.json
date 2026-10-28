@@ -35,7 +35,8 @@
               "title": "TBRs计算结果"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -172,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR/VMD作图.md",
+                "file": "sci_research/TBRs/TBRs计算结果.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -218,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,8 +235,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cd4b1660deef936",
+  "active": "0e16746798697f4c",
   "lastOpenFiles": [
+    "sci_research/TBR/VMD作图.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
     "sci_research/TBRs/TBRs计算结果.md",
     "TOEFL/邮件写作/真题/餐厅issue.md",
@@ -260,7 +264,6 @@
     "TOEFL/学术讨论/真题/快时尚产品.md",
     "TOEFL/学术讨论/真题/保护环境.md",
     "TOEFL/素材卡/口语素材卡-预算习惯.md",
-    "TOEFL/素材卡/口语素材卡-社团.md",
     "sci_research/image/spectrum/TBRs-s1.png",
     "TOEFL/素材卡/口语素材卡-社团.md.tmp.12476.4bb04cfc50be",
     "TOEFL/素材卡/口语素材卡1-初中好友.md.tmp.23860.3ce850768b30",
