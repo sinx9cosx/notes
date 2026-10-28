@@ -43,35 +43,35 @@ I would suggest adding a <mark style="background: #FFB8EBA6;">partition</mark> n
 Sincerely,
 A satisfied customer
 
-# Issue 补充
+# Issue Bank
 
-> [!note] 用途
-> 备考写作短语库：Issue → 解决办法
+> [!note] Purpose
+> Phrase bank for TOEFL writing: Issue → Solution
 
-## 食物类
-- 菜品与菜单不符 → 更新菜单照片与描述
-- 太咸 / 太淡 / 没熟 / 烧焦 → 重做或更换菜品
-- 食物中有异物 → 重做并免单
-- 上桌时已凉 → 加快传菜速度
-- 分量偏少 → 统一出餐标准
-- 忌口 / 过敏需求未满足 → 下单时标注并确认
+## Food
+- Dish doesn't match menu → Update menu photos and descriptions
+- Too salty / bland / undercooked / burnt → Remake or replace the dish
+- Foreign object in food → Remake and waive the charge
+- Food arrived cold → Serve dishes faster
+- Portion too small → Standardize portion sizes
+- Dietary / allergy needs ignored → Note and confirm when ordering
 
-## 服务类
-- 上菜太慢 → 高峰期加派人手
-- 服务员态度差 → 加强员工培训
-- 上错菜 / 漏单 → 下单后复述订单确认
-- 难叫到服务员 → 高峰期增派人手
-- 服务员不熟悉菜品 → 定期菜品培训
+## Service
+- Food took too long → Add more staff at peak hours
+- Rude / inattentive staff → Staff training
+- Wrong or missing order → Repeat the order back to confirm
+- Hard to get a server's attention → Add more staff at peak hours
+- Staff unfamiliar with the menu → Regular menu training
 
-## 环境类
-- 桌面脏 → 餐前加强清洁检查
-- 餐具不干净 / 缺失 → 餐前检查并补齐
-- 空调过冷 / 过热 → 调节室温
-- 灯光太暗 → 调亮灯光
-- 油烟味重 → 改善通风系统
-- 预订后无座位 / 等位久 → 完善预订系统
+## Environment
+- Dirty table → Clean tables before seating
+- Dirty or missing utensils → Check and provide before serving
+- AC too cold / too hot → Adjust room temperature
+- Lighting too dim → Brighten the lights
+- Strong cooking smell → Improve ventilation
+- No table despite reservation / long wait → Improve the reservation system
 
-## 账单类
-- 账单多算钱 → 核对账单后退差价
-- 刷卡机故障 → 备用 POS 机 / 提前告知顾客
-- 菜价与标价不符 → 更新菜单价格
+## Bill
+- Overcharged → Refund the difference after checking the bill
+- Card machine broken → Backup POS machine / inform customers in advance
+- Price differs from menu → Update menu prices

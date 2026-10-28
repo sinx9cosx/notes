@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/邮件写作/真题/咖啡馆提建议.md",
+                "file": "physchem-2/9-溶液的基本性质/气体的化学势.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "咖啡馆提建议"
+              "title": "气体的化学势"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/邮件写作/真题/餐厅issue.md",
+                "file": "physchem-2/9-溶液的基本性质/气体的化学势.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -289,11 +289,22 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "9bfb336b388fe449",
+  "active": "6f499fc6edd960a1",
   "lastOpenFiles": [
-    "TOEFL/邮件写作/真题/找实习.md",
+    "physchem-2/9-溶液的基本性质/偏摩尔量的热力学关系.md",
+    "physchem-2/9-溶液的基本性质/偏摩尔量.md",
+    "physchem-2/9-溶液的基本性质/理想液体混合物.md",
+    "physchem-2/9-溶液的基本性质/理想溶液的混合熵.md",
+    "physchem-2/9-溶液的基本性质/拉乌尔定律.md",
+    "physchem-2/9-溶液的基本性质/化学势.md",
+    "physchem-2/9-溶液的基本性质/亨利定律.md",
+    "TOEFL/模拟面试/两周口语练习计划.md",
+    "TOEFL/模拟面试/口语话题分类.md",
+    "TOEFL/模拟面试/科技话题面试题.md",
+    "TOEFL/邮件写作/真题/餐厅issue.md.tmp.27668.c9f665420857",
     "TOEFL/邮件写作/真题/咖啡馆提建议.md",
     "TOEFL/邮件写作/真题/餐厅issue.md",
+    "TOEFL/邮件写作/真题/找实习.md",
     "TOEFL/邮件写作/真题/公寓管道问题.md",
     "TOEFL/句子填充错题.md",
     "TOEFL/学术讨论/真题/演讲是否讲故事.md",
@@ -301,22 +312,12 @@
     "TOEFL/学术讨论/真题/线上学习.md",
     "TOEFL/学术讨论/真题/快时尚产品.md",
     "TOEFL/学术讨论/真题/保护环境.md",
-    "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/素材卡/口语素材卡-预算习惯.md",
     "TOEFL/素材卡/口语素材卡-社团.md",
     "TOEFL/素材卡/口语素材卡12-晨跑备战十公里比赛.md",
     "TOEFL/素材卡/口语素材卡11-搬家步行五分钟上学.md",
     "TOEFL/素材卡/口语素材卡10-App查垃圾分类.md",
     "TOEFL/素材卡/口语素材卡9-打印纸背面写笔记.md",
-    "TOEFL/素材卡/口语素材卡8-用AI查资料多来源核实.md",
-    "TOEFL/素材卡/口语素材卡7-表哥当prompt engineer.md",
-    "TOEFL/素材卡/口语素材卡6-朋友回fine的误会.md",
-    "TOEFL/素材卡/口语素材卡5-十分钟网购生日礼物.md",
-    "TOEFL/素材卡/口语素材卡4-放学后公园慢跑.md",
-    "TOEFL/素材卡/口语素材卡3-和同学自助旅行.md",
-    "TOEFL/素材卡/口语素材卡2-和家人公园散步.md",
-    "TOEFL/素材卡/口语素材卡1-初中好友.md",
-    "sci_research/TBRs/TBRs-二氯甲烷.md",
     "sci_research/image/spectrum/TBRs-s1.png",
     "TOEFL/素材卡/口语素材卡-社团.md.tmp.12476.4bb04cfc50be",
     "TOEFL/素材卡/口语素材卡1-初中好友.md.tmp.23860.3ce850768b30",
@@ -337,7 +338,6 @@
     "photoelectric-material/image/3-施主能级.png",
     "photoelectric-material/image/3-刃位错.png",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
-    "TOEFL/邮件写作/真题",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
