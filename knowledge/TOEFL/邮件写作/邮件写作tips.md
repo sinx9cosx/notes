@@ -30,6 +30,10 @@ Category:
 	【模板句】 开头：I am writing to express my concern about [具体问题], which has caused [具体影响].
 	中间：Could you please look into this? I can provide [细节/证据] if needed.
 	结尾：Thank you for your attention. I hope this can be resolved soon.
+6. 提建议型 【场景】：给教授/同学提方案、提议改进、推荐做法。
+	【模板句】 开头：I would like to suggest [建议] regarding [事情].
+	中间：This might help with [好处]. Would you be open to [具体做法]?
+	结尾：I am happy to discuss further. Please let me know your thoughts.
 
 三、一些干货tips 
 

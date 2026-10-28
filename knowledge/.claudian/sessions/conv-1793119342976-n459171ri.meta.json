@@ -4,8 +4,8 @@
   "title": "Write simple reusable suggestion templates",
   "titleGenerationStatus": "success",
   "createdAt": 1793119342976,
-  "updatedAt": 1793120345679,
-  "lastResponseAt": 1793120345679,
+  "updatedAt": 1793159021982,
+  "lastResponseAt": 1793159021981,
   "sessionId": "3b19924c-ce64-40f3-b8a8-0515764a9f50",
   "providerState": {
     "providerSessionId": "3b19924c-ce64-40f3-b8a8-0515764a9f50"
@@ -13,11 +13,11 @@
   "currentNote": "TOEFL/邮件写作/邮件写作tips.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 135,
+    "inputTokens": 1590,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 33792,
+    "cacheReadInputTokens": 33920,
     "contextWindow": 200000,
-    "contextTokens": 33927,
-    "percentage": 17
+    "contextTokens": 35510,
+    "percentage": 18
   }
 }
