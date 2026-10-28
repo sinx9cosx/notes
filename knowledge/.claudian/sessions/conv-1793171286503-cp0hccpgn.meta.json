@@ -1,0 +1,23 @@
+{
+  "id": "conv-1793171286503-cp0hccpgn",
+  "providerId": "claude",
+  "title": "使用同一文件夹中的笔记内容补全本笔记",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793171286503,
+  "updatedAt": 1793171485061,
+  "lastResponseAt": 1793171485061,
+  "sessionId": "57f7db30-9473-4b5d-8029-14063ab91d93",
+  "providerState": {
+    "providerSessionId": "57f7db30-9473-4b5d-8029-14063ab91d93"
+  },
+  "currentNote": "TOEFL/素材卡/口语素材卡-社团.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 119,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 38144,
+    "contextWindow": 200000,
+    "contextTokens": 38263,
+    "percentage": 19
+  }
+}
