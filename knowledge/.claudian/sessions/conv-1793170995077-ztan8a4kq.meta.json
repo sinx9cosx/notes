@@ -1,0 +1,23 @@
+{
+  "id": "conv-1793170995077-ztan8a4kq",
+  "providerId": "claude",
+  "title": "Complete note using sibling notes in folder",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793170995078,
+  "updatedAt": 1793171066710,
+  "lastResponseAt": 1793171066710,
+  "sessionId": "d35a7d75-db1c-4421-9e99-ac0e9351a29b",
+  "providerState": {
+    "providerSessionId": "d35a7d75-db1c-4421-9e99-ac0e9351a29b"
+  },
+  "currentNote": "TOEFL/素材卡/口语素材卡1-初中好友.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 835,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34560,
+    "contextWindow": 200000,
+    "contextTokens": 35395,
+    "percentage": 18
+  }
+}
