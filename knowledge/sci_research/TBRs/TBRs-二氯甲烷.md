@@ -193,8 +193,7 @@ oldchk:TBRs-s9td.chk
 
 关键词：`# cam-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=9) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
-结果：
-135-136
+结果：normal termination
 
 
 ## s9 nacme
@@ -233,6 +232,6 @@ Total reorganization energy      (cm-1):          713.307617        663.638845
 
 ## 速率
 
-kic=
+kic=2.46632702E+09 /s
 
-kr=
+kr=2.15725430E+08 /s
