@@ -4,7 +4,7 @@
   "title": "Explain the meaning of a sentence",
   "titleGenerationStatus": "success",
   "createdAt": 1793235875511,
-  "updatedAt": 1793236144353,
+  "updatedAt": 1793253525162,
   "lastResponseAt": 1793236144353,
   "sessionId": "71730cc6-865f-40bd-9e5e-bd9efa050cbc",
   "providerState": {
@@ -76,7 +76,6 @@
       }
     }
   },
-  "currentNote": "physchem-2/9-溶液的基本性质/理想液体混合物的化学势.md",
   "usage": {
     "model": "opus",
     "inputTokens": 25,
