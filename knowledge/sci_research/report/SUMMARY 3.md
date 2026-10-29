@@ -97,7 +97,7 @@ kr-s9=5.54629861E+08 /s
 ![[TBR-spec-s129.png]]
 
 实验光谱
-![[experiment.png]]
+![[TBR-experiment.png]]
 
 ---
 
