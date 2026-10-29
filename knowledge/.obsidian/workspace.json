@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/report/TBR实验发光机理解释草稿.md",
+                "file": "sci_research/anti-kasha-paper/DHR文献计算细节.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR实验发光机理解释草稿"
+              "title": "DHR文献计算细节"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sci_research/report/TBR实验发光机理解释草稿.md",
+                "file": "sci_research/anti-kasha-paper/DHR文献计算细节.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/report/TBR实验发光机理解释草稿.md",
+                "file": "sci_research/anti-kasha-paper/DHR文献计算细节.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -277,6 +277,11 @@
   },
   "active": "171f567d897ef9d0",
   "lastOpenFiles": [
+    "sci_research/anti-kasha-paper/DHR概况.md",
+    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
+    "sci_research/anti-kasha-paper/反Kasha体的设计.md",
+    "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
+    "sci_research/report/TBR实验发光机理解释草稿.md",
     "sci_research/report/课设汇报大纲-1.md",
     "sci_research/report/SUMMARY 3.md",
     "sci_research/report/SUMMARY 4.md",
@@ -299,11 +304,6 @@
     "physchem-2/8-纯物质体相性质/8.6-相变焓与相变熵.md",
     "physchem-2/8-纯物质体相性质/8.5-液态.md",
     "physchem-2/8-纯物质体相性质/8.4-真实气体.md",
-    "physchem-2/8-纯物质体相性质/8.3-分子间相互作用.md",
-    "physchem-2/8-纯物质体相性质/8.2-相律.md",
-    "physchem-2/8-纯物质体相性质/8.1-相与化学势.md",
-    "physchem-2/9-溶液的基本性质/4-非理想溶液与纳米簇.md",
-    "physchem-2/9-溶液的基本性质/3.4-理想稀溶液.md",
     "physchem-2/9-溶液的基本性质/理想液体混合物的化学势.md.tmp.30284.b391a492c15a",
     "TOEFL/邮件写作/真题/餐厅issue.md.tmp.27668.c9f665420857",
     "sci_research/image/spectrum/TBRs-s1.png",
