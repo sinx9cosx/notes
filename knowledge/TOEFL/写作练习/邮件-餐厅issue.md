@@ -16,7 +16,7 @@ You recently dined at a local restaurant near campus and were impressed overall.
   
 Write as much as you can and in complete sentences.
 
-# 回答
+# 回答（3/5）
 
 Dear Ms. Miller, 
 I visited your restaurant recently. It was an enjoyable experience. I loved the quiet atmosphere, and the food <mark style="background: #FFB8EBA6;">tastes</mark> good. 
