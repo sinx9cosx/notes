@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/report/课设汇报大纲.md",
+                "file": "sci_research/report/课设汇报大纲-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "课设汇报大纲"
+              "title": "课设汇报大纲-1"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sci_research/report/课设汇报大纲.md",
+                "file": "sci_research/report/课设汇报大纲-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/report/课设汇报大纲.md",
+                "file": "sci_research/report/课设汇报大纲-1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -278,7 +278,7 @@
   "active": "171f567d897ef9d0",
   "lastOpenFiles": [
     "sci_research/report/DHR SUMMARY 2.md",
-    "sci_research/report/课设汇报大纲.md",
+    "sci_research/report/课设汇报大纲-1.md",
     "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/素材卡/口语素材卡15-学习外语的好处.md.tmp.4840.aa161335bd69",
     "TOEFL/模拟面试/科技话题面试题.md",
