@@ -1,0 +1,23 @@
+{
+  "id": "conv-1793359332660-f1wh8qp0t",
+  "providerId": "claude",
+  "title": "Explain what 'lap' means in context",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793359332661,
+  "updatedAt": 1793359400918,
+  "lastResponseAt": 1793359400918,
+  "sessionId": "a64dff59-e821-4ff2-8858-61b6a8224c85",
+  "providerState": {
+    "providerSessionId": "a64dff59-e821-4ff2-8858-61b6a8224c85"
+  },
+  "currentNote": "TOEFL/口语复述/真题/生活场景-电子产品.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 77,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30592,
+    "contextWindow": 200000,
+    "contextTokens": 30669,
+    "percentage": 15
+  }
+}
