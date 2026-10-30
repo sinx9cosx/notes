@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "4.2-活度与活度因子"
             }
+          },
+          {
+            "id": "a3611b8157ebbfa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/模拟面试/两周口语练习计划.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "两周口语练习计划"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,8 +233,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "017e11fba93df865",
+  "active": "a3611b8157ebbfa8",
   "lastOpenFiles": [
+    "physchem-2/9-溶液的基本性质/4.2-活度与活度因子.md",
     "physchem-2/image/9-RH-basis.png",
     "physchem-2/image/9-px-deviation.png",
     "physchem-2/9-溶液的基本性质/4.1-非理想溶液与纳米簇.md",
@@ -227,7 +243,6 @@
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
     "physchem-2/9-溶液的基本性质/4.4-实际溶液的化学势.md",
     "physchem-2/9-溶液的基本性质/4.3-非理想液体混合物的化学势.md",
-    "physchem-2/9-溶液的基本性质/4.2-活度与活度因子.md",
     "sci_research/report/课设汇报-1.md",
     "sci_research/report/课设汇报大纲-1.md",
     "sci_research/report/演讲稿.md",
@@ -265,7 +280,6 @@
     "physchem-2/image/9-solution-alloy.png",
     "physchem-2/image/9-raoult-deviation.png",
     "physchem-2/image/9-henry-law.png",
-    "photoelectric-material/image/3-替位间隙杂质.png",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
