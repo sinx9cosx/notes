@@ -1,0 +1,23 @@
+{
+  "id": "conv-1793361472199-4vw707rl2",
+  "providerId": "claude",
+  "title": "Complete missing content in Obsidian notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793361472199,
+  "updatedAt": 1793361600273,
+  "lastResponseAt": 1793361600272,
+  "sessionId": "dc287601-b785-40ed-80d7-878e231834a2",
+  "providerState": {
+    "providerSessionId": "dc287601-b785-40ed-80d7-878e231834a2"
+  },
+  "currentNote": "TOEFL/填词/TPO2/历史-骑士精神.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1516,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35840,
+    "contextWindow": 200000,
+    "contextTokens": 37356,
+    "percentage": 19
+  }
+}
