@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/3.1-拉乌尔定律和亨利定律.md",
+                "file": "physchem-2/9-溶液的基本性质/3.4-理想稀溶液.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1-拉乌尔定律和亨利定律"
+              "title": "3.4-理想稀溶液"
             }
           }
         ]
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/3.1-拉乌尔定律和亨利定律.md",
+                "file": "physchem-2/9-溶液的基本性质/3.4-理想稀溶液.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -218,13 +218,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "017e11fba93df865",
   "lastOpenFiles": [
-    "physchem-2/9-溶液的基本性质/4.6-弱相互作用非理想溶液.md",
-    "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
     "physchem-2/9-溶液的基本性质/4.4-实际溶液的化学势.md",
-    "physchem-2/9-溶液的基本性质/4.3-非理想液体混合物的化学势.md",
+    "physchem-2/9-溶液的基本性质/2-气体的化学势.md",
     "physchem-2/9-溶液的基本性质/4.2-活度与活度因子.md",
+    "physchem-2/9-溶液的基本性质/4.3-非理想液体混合物的化学势.md",
+    "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
+    "physchem-2/9-溶液的基本性质/3.1-拉乌尔定律和亨利定律.md",
+    "physchem-2/9-溶液的基本性质/4.6-弱相互作用非理想溶液.md",
     "TOEFL/填词/TPO2/地理-板块运动.md",
     "TOEFL/填词/TPO2/地理-气候变化.md",
     "TOEFL/填词/TPO2/生物-睡觉.md",
@@ -251,7 +253,6 @@
     "sci_research/image/excitation.jpg",
     "sci_research/image/orbital-analysis-1.jpg",
     "sci_research/image/file_format.jpg",
-    "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
     "TOEFL/写作练习",
     "TOEFL/素材卡/口语素材卡15-学习外语的好处.md.tmp.4840.aa161335bd69",
     "physchem-2/9-溶液的基本性质/理想液体混合物的化学势.md.tmp.30284.b391a492c15a",
