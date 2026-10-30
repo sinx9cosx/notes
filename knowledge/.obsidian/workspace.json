@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/report/课设汇报-1.md",
+                "file": "physchem-2/9-溶液的基本性质/4.2-活度与活度因子.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "课设汇报-1"
+              "title": "4.2-活度与活度因子"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0496c47be577e363",
@@ -205,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,8 +220,16 @@
   },
   "active": "017e11fba93df865",
   "lastOpenFiles": [
-    "sci_research/report/课设汇报大纲-1.md",
+    "physchem-2/image/9-RH-basis.png",
+    "physchem-2/image/9-px-deviation.png",
+    "physchem-2/9-溶液的基本性质/4.1-非理想溶液与纳米簇.md",
+    "physchem-2/9-溶液的基本性质/4.6-弱相互作用非理想溶液.md",
+    "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
+    "physchem-2/9-溶液的基本性质/4.4-实际溶液的化学势.md",
+    "physchem-2/9-溶液的基本性质/4.3-非理想液体混合物的化学势.md",
+    "physchem-2/9-溶液的基本性质/4.2-活度与活度因子.md",
     "sci_research/report/课设汇报-1.md",
+    "sci_research/report/课设汇报大纲-1.md",
     "sci_research/report/演讲稿.md",
     "sci_research/report/SUMMARY 3.md",
     "sci_research/report/SUMMARY 4.md",
@@ -245,14 +251,7 @@
     "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
     "sci_research/report/TBR实验发光机理解释草稿.md",
     "sci_research/TBR/TBR-二氯甲烷.md",
-    "TOEFL/素材卡/口语素材卡14-预算习惯.md",
-    "TOEFL/素材卡/口语素材卡15-学习外语的好处.md",
-    "TOEFL/素材卡/口语素材卡12-晨跑备战十公里比赛.md",
-    "sci_research/report/DHR SUMMARY 2.md",
-    "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/素材卡/口语素材卡15-学习外语的好处.md.tmp.4840.aa161335bd69",
-    "TOEFL/模拟面试/科技话题面试题.md",
-    "TOEFL/口语复述/TPO/生活场景-参观艺术馆.md",
     "physchem-2/9-溶液的基本性质/理想液体混合物的化学势.md.tmp.30284.b391a492c15a",
     "TOEFL/邮件写作/真题/餐厅issue.md.tmp.27668.c9f665420857",
     "sci_research/image/spectrum/TBRs-s1.png",
@@ -267,7 +266,6 @@
     "physchem-2/image/9-raoult-deviation.png",
     "physchem-2/image/9-henry-law.png",
     "photoelectric-material/image/3-替位间隙杂质.png",
-    "photoelectric-material/image/3-受主能级.png",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
