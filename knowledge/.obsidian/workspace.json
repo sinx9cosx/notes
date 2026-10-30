@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/3.4-理想稀溶液.md",
+                "file": "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.4-理想稀溶液"
+              "title": "4.5-活度与混合广度性质"
             }
           }
         ]
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/3.4-理想稀溶液.md",
+                "file": "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -221,11 +221,12 @@
   "active": "017e11fba93df865",
   "lastOpenFiles": [
     "physchem-2/9-溶液的基本性质/4.4-实际溶液的化学势.md",
+    "physchem-2/9-溶液的基本性质/3.1-拉乌尔定律和亨利定律.md",
+    "physchem-2/9-溶液的基本性质/3.4-理想稀溶液.md",
     "physchem-2/9-溶液的基本性质/2-气体的化学势.md",
     "physchem-2/9-溶液的基本性质/4.2-活度与活度因子.md",
     "physchem-2/9-溶液的基本性质/4.3-非理想液体混合物的化学势.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
-    "physchem-2/9-溶液的基本性质/3.1-拉乌尔定律和亨利定律.md",
     "physchem-2/9-溶液的基本性质/4.6-弱相互作用非理想溶液.md",
     "TOEFL/填词/TPO2/地理-板块运动.md",
     "TOEFL/填词/TPO2/地理-气候变化.md",
@@ -249,7 +250,6 @@
     "sci_research/report/课设汇报大纲-1.md",
     "sci_research/report/演讲稿.md",
     "sci_research/report/SUMMARY 3.md",
-    "sci_research/report/SUMMARY 4.md",
     "sci_research/image/excitation.jpg",
     "sci_research/image/orbital-analysis-1.jpg",
     "sci_research/image/file_format.jpg",
