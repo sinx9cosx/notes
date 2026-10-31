@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBRs/TBRs计算结果.md",
+                "file": "TOEFL/模拟面试/两周口语练习计划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBRs计算结果"
+              "title": "两周口语练习计划"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBRs/TBRs计算结果.md",
+                "file": "TOEFL/模拟面试/两周口语练习计划.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -219,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,6 +236,8 @@
   },
   "active": "acfde17f14efc8ba",
   "lastOpenFiles": [
+    "TOEFL/模拟面试/口语话题分类.md",
+    "sci_research/TBRs/TBRs计算结果.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
     "TOEFL/口语复述/TPO/生活场景-健身房.md",
     "TOEFL/口语复述/TPO/生活场景-海洋馆.md",
@@ -259,8 +262,6 @@
     "TOEFL/口语复述/真题/生活场景-做面包.md",
     "TOEFL/口语复述/真题/生活场景-水彩画.md",
     "TOEFL/口语复述/真题/生活场景-工具箱.md",
-    "TOEFL/口语复述/真题/生活场景-动物园.md",
-    "TOEFL/口语复述/真题/生活场景-电子产品.md",
     "TOEFL/填词/TPO2/历史-工业革命.md.tmp.11632.ffb08a125fa6",
     "TOEFL/填词/TPO2/历史-工业革命.md.tmp.11632.d5560a8dc151",
     "physchem-2/image/9-RH-basis.png",
