@@ -4,6 +4,186 @@
   "title": "Restructure note to match sibling note structure",
   "titleGenerationStatus": "success",
   "createdAt": 1793453200689,
-  "updatedAt": 1793453215319,
-  "sessionId": null
+  "updatedAt": 1793453541507,
+  "lastResponseAt": 1793453541507,
+  "sessionId": "010af111-ba4a-4228-b71a-e5fb7aa75372",
+  "providerState": {
+    "providerSessionId": "010af111-ba4a-4228-b71a-e5fb7aa75372",
+    "subagentData": {
+      "call_00_kOmTshMwnydirckf4Q3I2248": {
+        "id": "call_00_kOmTshMwnydirckf4Q3I2248",
+        "description": "制定素材卡16改写方案",
+        "prompt": "你是计划子agent，负责为以下任务制定详细改写方案（只读侦查+产出方案，绝对不要修改任何文件）。\n\n## 任务背景\nObsidian 库 F:\\obsidian_notes\\knowledge 中，TOEFL/素材卡/ 目录下有 16 篇口语素材卡笔记。素材卡 9、14、15 使用统一结构，而素材卡 16（TOEFL/素材卡/口语素材卡16-奶茶袋子再利用.md）使用了另一套结构。主人要求：把素材卡 16 改写为与其他笔记相同的结构，内容信息尽量保留。\n\n## 已知信息\n素材卡 16 现有内容（已读过）：\n- frontmatter: tags: [English], Category: [笔记]\n- 正文是\"核心故事（约30秒版）+ 关键词块 + 这个素材能套哪些题（表格）+ 30秒压缩版 + 发音小提醒\"。\n\n统一模板结构（来自素材卡9/14/15，已读过）：\n```\n# 骨架\n- **人物**：...\n- **事件**：...\n- **时间**：...\n- **感受**：...\n\n# 短语块\n- **短语**: 例句（含该短语的完整英文句子）\n\n# 万能接口句\n\"一句可套用的英文句\"\n适用题目：关键词列表（英文，逗号分隔）\n\n# 卡片对应的完整示范回答\n一段完整英文示范回答（约100-130词）\n```\nfrontmatter 均为 tags: [English] 与 Category: [笔记]。\n\n## 你的任务\n1. 用 Glob/Read 侦查 TOEFL/素材卡/ 目录下其余笔记（至少再读 1、2、13 三篇），确认模板是否全目录统一；特别检查有没有别的卡片也带\"发音小提醒/小提醒\"之类的文末备注，以及\"时间\"字段在无明确时间时如何处理（参照素材卡9的写法）。\n2. 产出以下内容的完整方案：\n   a) 素材卡16原文内容到新模板的逐项映射（核心故事→骨架各字段；关键词块→短语块；套题表格→适用题目；30秒压缩版/完整回答的处理）；\n   b) 目标笔记的完整最终内容（逐字写全，包括 frontmatter），供主人直接审核；\n   c) 对\"发音小提醒\"等模板外特有内容的处理建议（保留/删除/改成一句话），给出你的推荐；\n   d) 改写时可能丢失信息的风险点清单。\n3. 注意：方案要尽量小改动、忠于原文素材，不要自己新编原文没有的故事情节；短语块例句优先复用原文已有的英文句子。\n\n输出格式：中文方案文档，分节清晰，附上目标笔记完整内容（用代码块包裹，避免歧义）。",
+        "mode": "async",
+        "isExpanded": false,
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_f4FhNpmz61t78gvfxCpo3823",
+            "name": "Glob",
+            "input": {
+              "pattern": "TOEFL/素材卡/*.md",
+              "path": "F:\\obsidian_notes\\knowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "TOEFL\\素材卡\\口语素材卡2-和家人公园散步.md\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md\nTOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md\nTOEFL\\素材卡\\口语素材卡1-初中好友.md\nTOEFL\\素材卡\\口语素材卡13-社团.md\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md\nTOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md"
+          },
+          {
+            "id": "call_01_fOLgJ1tjCTT0G4ar91PW2655",
+            "name": "Bash",
+            "input": {
+              "command": "ls \"F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\"",
+              "description": "List files in 素材卡 directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "口语素材卡1-初中好友.md\n口语素材卡10-App查垃圾分类.md\n口语素材卡11-搬家步行五分钟上学.md\n口语素材卡12-晨跑备战十公里比赛.md\n口语素材卡13-社团.md\n口语素材卡14-预算习惯.md\n口语素材卡15-学习外语的好处.md\n口语素材卡16-奶茶袋子再利用.md\n口语素材卡2-和家人公园散步.md\n口语素材卡3-和同学自助旅行.md\n口语素材卡4-放学后公园慢跑.md\n口语素材卡5-十分钟网购生日礼物.md\n口语素材卡6-朋友回fine的误会.md\n口语素材卡7-表哥当prompt engineer.md\n口语素材卡8-用AI查资料多来源核实.md\n口语素材卡9-打印纸背面写笔记.md"
+          },
+          {
+            "id": "call_00_IWnEw2scGKW0LcGuXCC54448",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t好素材！奶茶袋重复利用这种\"个人小事\"正好配你之前练的环保、节能、个人责任类题目。给你一套可以直接背的素材：\n8\t\n9\t## 核心故事（约 30 秒版）\n10\t\n11\t> When I buy milk tea, I always keep the paper bag instead of throwing it away. These bags are actually very strong and waterproof, so I reuse them in many ways. For example, I use them to carry my lunch box to school, and sometimes I use them as trash bags or to store my books. My friends do the same thing, and we even compare whose bag design is the prettiest. It sounds like a small thing, but if every customer reuses just one bag, that's millions of bags saved every day.\n12\t\n13\t## 关键词块（卡壳时捡这些说）\n14\t\n15\t- **keep the paper bag instead of throwing it away** 留着袋子不扔\n16\t- **strong and waterproof** 结实又防水\n17\t- **carry my lunch box** 装饭盒\n18\t- **use them as trash bags** 当垃圾袋\n19\t- **It sounds like a small thing, but...** 听着是小事，但是……\n20\t- **if every customer reuses one bag, that's millions of bags saved** 每人省一个，一天就是几百万个\n21\t\n22\t## 这个素材能套哪些题\n23\t\n24\t| 题目类型 | 怎么套 |\n25\t|---|---|\n26\t| 个人能为环保做什么 | 直接当主例子 |\n27\t| 节约能源/资源 | 省纸 = 少砍树 = 保护森林资源 |\n28\t| 年轻人环保意识 | \"我和我的同学都这么干\" |\n29\t| 公司该减少包装吗 | 让步用：Of course companies should use less packaging, but before that, we can reuse what we already have |\n30\t| 垃圾分类/回收 | 这是 reduce and reuse，比 recycle 更优先 |\n31\t\n32\t## 30 秒压缩版（备用，题目时间紧时用）\n33\t\n34\t> Actually, I reuse milk tea paper bags in my daily life. After I finish my drink, I keep the bag because it's strong and waterproof. I use it to carry my lunch or store my books. It sounds like a small thing, but if everyone does this, we can save a lot of paper and protect the environment.\n35\t\n36\t小提醒：说的时候注意 **bag（/bæɡ/）** 尾音要收干净，别拖成 \"bag-guh\"；**waterproof** 重音在前面 WA-ter-proof。这个话题比较生活化，你说起来应该比能源政策题顺——正好练流利度。录音发来我听听。"
+          },
+          {
+            "id": "call_01_fIrY1ZdSBqGOC8EC9Sy41980",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡1-初中好友.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t- **人物**：close friend from junior high\n10\t- **事件**：park → bench → he wants to be a doctor, I have no idea about my future\n11\t- **时间**：last month\n12\t- **感受**：connected and understood\n13\t\n14\t# 短语块\n15\t\n16\t- **have no idea about my future**: I honestly said I still have no idea about my future.\n17\t- **feel connected and understood**: That talk made me feel connected and understood, even though we rarely meet now.\n18\t\n19\t# 万能接口句\n20\t\n21\tThat's why I value quiet moments with close friends.\n22\t\n23\t适用话题：朋友 / 安静vs热闹 / 放松 / 重要的谈话\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tLast month, I met my close friend from junior high in the park. We sat on a bench and talked for a long time. He told me he wants to be a doctor, and I honestly said I still have no idea about my future. That talk made me feel connected and understood, even though we rarely meet now. That's why I value quiet moments with close friends.\n28\t"
+          },
+          {
+            "id": "call_02_Ky4L2AvQ9wBx6mqv0yHY8515",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡2-和家人公园散步.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: my family（含 I）\n10\t**事件**: took a walk in the park with my family\n11\t**时间**: last Sunday evening（比 every night 更好展开——锁定\"具体某一次\"）\n12\t**感受**: slow down and recharge / enjoy the peaceful moment\n13\t\n14\t# 短语块\n15\t\n16\t- **slow down and recharge**: After a busy week, taking a walk with my family helps me slow down and recharge.\n17\t- **enjoy the peaceful moment**: We just enjoy the peaceful moment together, without phones or worries.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"It's the best way for my family to slow down and recharge after a busy week.\"\n22\t\n23\t适用题目：family activity / how you relax / weekends / health / balance between study and life\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tLast Sunday evening, I took a walk in the park with my family. We walked slowly along the lake and talked about our week. There was no phone, no homework — just the peaceful evening. It was the best way for us to slow down and recharge after a busy week. That's why I think simple outdoor activities matter more than expensive entertainment.\n28\t"
+          },
+          {
+            "id": "call_03_FoIHA5COuexLgKwFeASA4502",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡13-社团.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t- **人物**：I\n10\t- **事件**：join the running club->jog with club members in the school twice a week\n11\t- **时间**：since I went to college\n12\t- **感受**：improve physical health, enjoy exercising, relax after a long day of school work\n13\t\n14\t# 短语块\n15\t\n16\t- **improve my physical health**: Jogging with club members twice a week has really improved my physical health.\n17\t- **relax after a long day**: Running with the group helps me relax after a long day of schoolwork, especially when I'm stressed about assignments.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"Joining a club is a great way to stay active and meet like-minded people.\"\n22\t\n23\t适用题目：clubs and activities / exercise / how you relax / making friends / campus life / healthy habits\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tSince I went to college, I joined the running club and jog with club members twice a week on campus. We usually meet in the late afternoon, run a few laps around the track, and stretch together. It has really improved my physical health, and I now enjoy exercising more than before. More importantly, it helps me relax after a long day of schoolwork — when I run with the group, I can forget about my assignments for a while. That's why I think joining a club is a great way to stay active and meet like-minded people.\n28\t\n29\t"
+          },
+          {
+            "id": "call_00_GucDrKDbd4h5KqoiUrW01553",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: I\n10\t**事件**: often print out notes and write homework on paper, but can't always use every page completely; instead of throwing those pages away, I reuse them — write class notes or draft speaking scripts on the back\n11\t**时间**: this semester（习惯，可锁定\"昨天整理讲义\"展开）\n12\t**感受**: doing my own part for the environment — makes me feel I'm not wasting resources\n13\t\n14\t# 短语块\n15\t\n16\t- **reuse ... instead of throwing (it) away**: Instead of throwing those pages away, I reuse them.\n17\t- **make full use of the paper**: I write my notes on the back to make full use of the paper.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"Instead of throwing those pages away, I reuse them.\"\n22\t\n23\t适用题目：do you recycle / environment / small actions that help the planet / saving resources / good habits\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tYes, I recycle paper regularly. I often print out notes or write my homework on paper, but I can't always use every page completely. So instead of throwing those pages away, I reuse them — I write my class notes or draft my speaking scripts on the back. That way, I make full use of the paper before it goes into the recycling bin. It's a small habit, but every little bit helps reduce waste.\n28\t"
+          },
+          {
+            "id": "call_01_6WjNWJ02j7TQbQRBIoVb8863",
+            "name": "Grep",
+            "input": {
+              "pattern": "小提醒|发音|/bæɡ/|重音",
+              "path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡",
+              "output_mode": "content",
+              "-n": true
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "TOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md:36:小提醒：说的时候注意 **bag（/bæɡ/）** 尾音要收干净，别拖成 \"bag-guh\"；**waterproof** 重音在前面 WA-ter-proof。这个话题比较生活化，你说起来应该比能源政策题顺——正好练流利度。录音发来我听听。"
+          },
+          {
+            "id": "call_00_PiXOO1i7ml9cb8DZeIMo9739",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡14-预算习惯.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t- **人物**：I\n10\t- **事件**：use a budgeting app to keep track of what I spend every month, the AI in the app analyzes my records and helps me make future plans\n11\t- **时间**：since I went to college\n12\t- **感受**：feel clear about my consumption habits, raise my awareness of managing money\n13\t\n14\t# 短语块\n15\t\n16\t- **keep track of what I spend**: The budgeting app helps me keep track of what I spend every month.\n17\t- **raise my awareness of managing money**: Keeping a monthly record has really raised my awareness of managing money.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"Managing money is a habit everyone should build in college.\"\n22\t\n23\t适用题目：money management / a useful app / habits / technology helps / personal growth / saving money\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tSince I went to college, I have been using a budgeting app to keep track of what I spend every month. Whenever I buy something, I enter it into the app, and the AI in the app analyzes my records and helps me make future plans. Thanks to that, I now feel clear about my consumption habits, and I have raised my awareness of managing money. I no longer spend money without thinking, and I even started saving a little each month. That's why I believe managing money is a habit everyone should build in college.\n28\t"
+          },
+          {
+            "id": "call_01_d1b5aFnaSsruDyYmey5h2790",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡15-学习外语的好处.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t正面事例\n10\t- **人物**：I\n11\t- **事件**：read an English scholar article without translator\n12\t- **时间**：for my schoolwork\n13\t- **感受**：clearly understand the author's meaning\n14\t\n15\t反面事例\n16\t\n17\t- **人物**：I\n18\t- **事件**：went to Japan but didn't understand Japanese\n19\t- **时间**：last summer\n20\t- **感受**：difficult to communicate with local people\n21\t\n22\t# 短语块\n23\t\n24\t- **understand the author's meaning**: For my schoolwork, I read an English scholarly article without a translator and could clearly understand the author's meaning.\n25\t- **communicate with local people**: Last summer in Japan, I found it difficult to communicate with local people because I didn't understand Japanese.\n26\t\n27\t# 万能接口句\n28\t\n29\t\"Learning a foreign language makes a real difference — in study, travel, and daily communication.\"\n30\t\n31\t适用题目：learning a foreign language / travel / communication / tools like translation apps / reading / studying abroad / benefits of learning languages\n32\t\n33\t# 卡片对应的完整示范回答\n34\t\n35\tI believe learning a foreign language is really worth the effort. For my schoolwork, I once read an English scholarly article without a translator, and I could clearly understand the author's meaning — something I could never have done without my English skills. However, last summer, when I went to Japan, I didn't understand Japanese at all, so it was difficult to communicate with local people, and even ordering food became a struggle. Looking back at these two experiences, I clearly see how much of a difference knowing a language can make. So I would say learning a foreign language makes a real difference — in study, travel, and daily communication.\n36\t"
+          },
+          {
+            "id": "call_02_Wq6yIxdNfQo24OWcdENu9100",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t**人物**: my classmates（含 I）\n9\t**事件**: went on a trip together; didn't ask my parents for advice like I used to; solved everything by ourselves, from choosing a restaurant to dealing with a missed train\n10\t**时间**: last time I went on a trip with my classmates（可锁定为 last summer vacation 展开）\n11\t**感受**: felt nervous at first, but proud at the end — more capable and mature\n12\t\n13\t# 短语块\n14\t\n15\t- **handle problems on our own**: We handled everything on our own, even a missed train.\n16\t- **boost independence and confidence**: Travelling with my classmates really boosted my independence and confidence.\n17\t\n18\t# 万能接口句\n19\t\n20\t\"Small experiences like these make me feel more capable and mature.\"\n21\t\n22\t适用题目：travel / independence / confidence / learn from experience / growing up / teamwork\n23\t\n24\t# 卡片对应的完整示范回答\n25\t\n26\tLast time I went on a trip with my classmates, I didn't ask my parents for advice like I used to. We solved everything by ourselves, from choosing a restaurant to dealing with a missed train. At first I was a little nervous, but by the end of the trip I felt really proud. Small experiences like these make me feel more capable and mature. That's why I believe travelling is a great chance to boost independence and confidence.\n27\t"
+          },
+          {
+            "id": "call_03_4AgaykC8E5d7zRWT7Q3d3700",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: my friends（含 I）\n10\t**事件**: jogged in the park near our campus; about half an hour; then grabbed a drink together\n11\t**时间**: usually after class\n12\t**感受**: refreshed me both physically and mentally; friends push me to show up even when I feel lazy\n13\t\n14\t# 短语块\n15\t\n16\t- **breathe some fresh air**: Jogging in the park lets me breathe some fresh air after exhausting schoolwork.\n17\t- **grab a drink (together)**: After jogging for about half an hour, we grab a drink together.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"It's a great way to breathe some fresh air and relax after exhausting schoolwork.\"\n22\t\n23\t适用题目：exercise / free time / how you relax / health / friends / outdoor activities / morning or night\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tAfter a long day at school last Friday, I went jogging with my friends in the park near our campus. We jogged for about half an hour, chatting and laughing along the way, and then we grabbed a drink together. It refreshed me both physically and mentally. My friends also keep me going — on days when I feel lazy, they push me to show up. That's why I prefer exercising with friends: it's a great way to breathe some fresh air and relax after exhausting schoolwork.\n28\t"
+          },
+          {
+            "id": "call_00_YgP2LZwOlHzcZD7m7eSd6972",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡",
+              "pattern": "^\\*\\*人物|^- \\*\\*人物|适用话题|适用题目|^#+ "
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "TOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md:9:**人物**: I\nTOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md:23:适用题目：do you recycle / environment / small actions that help the planet / saving resources / good habits\nTOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md:9:## 核心故事（约 30 秒版）\nTOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md:13:## 关键词块（卡壳时捡这些说）\nTOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md:22:## 这个素材能套哪些题\nTOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md:32:## 30 秒压缩版（备用，题目时间紧时用）\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md:9:**人物**：my family（含 I）\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md:23:适用题目：where to live / commute / quality of life / time management / an important decision / live close to school or not\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡13-社团.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡13-社团.md:9:- **人物**：I\nTOEFL\\素材卡\\口语素材卡13-社团.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡13-社团.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡13-社团.md:23:适用题目：clubs and activities / exercise / how you relax / making friends / campus life / healthy habits\nTOEFL\\素材卡\\口语素材卡13-社团.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡2-和家人公园散步.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡2-和家人公园散步.md:9:**人物**: my family（含 I）\nTOEFL\\素材卡\\口语素材卡2-和家人公园散步.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡2-和家人公园散步.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡2-和家人公园散步.md:23:适用题目：family activity / how you relax / weekends / health / balance between study and life\nTOEFL\\素材卡\\口语素材卡2-和家人公园散步.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md:9:**人物**: I（+ 手机 App）\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md:23:适用题目：difficulties of recycling / environment / how technology helps / solve problems / green lifestyle\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡1-初中好友.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡1-初中好友.md:9:- **人物**：close friend from junior high\nTOEFL\\素材卡\\口语素材卡1-初中好友.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡1-初中好友.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡1-初中好友.md:23:适用话题：朋友 / 安静vs热闹 / 放松 / 重要的谈话\nTOEFL\\素材卡\\口语素材卡1-初中好友.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md:9:**人物**: a close friend（含 I）\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md:23:适用题目：technology frustration / online communication / misunderstanding / social media pros and cons / how you keep in touch with friends\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md:8:**人物**: my classmates（含 I）\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md:13:# 短语块\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md:18:# 万能接口句\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md:22:适用题目：travel / independence / confidence / learn from experience / growing up / teamwork\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md:24:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md:9:**人物**: my friends（含 I）\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md:23:适用题目：exercise / free time / how you relax / health / friends / outdoor activities / morning or night\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md:9:- **人物**：I\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md:23:适用题目：money management / a useful app / habits / technology helps / personal growth / saving money\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md:10:- **人物**：I\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md:17:- **人物**：I\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md:22:# 短语块\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md:27:# 万能接口句\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md:31:适用题目：learning a foreign language / travel / communication / tools like translation apps / reading / studying abroad / benefits of learning languages\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md:33:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md:9:**人物**: I\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md:23:适用题目：set goals / overcome difficulties / self-discipline / sports / a sense of achievement / healthy habits / morning person\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md:9:**人物**: I（+ AI 工具）\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md:23:适用题目：relying on technology / independent thinking / critical thinking / AI and students / how to use technology wisely\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md:9:**人物**: my cousin\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md:19:# 万能接口句\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md:23:适用题目：technology creates opportunities / future jobs / AI / new careers / what job will be popular / choose a major\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md:25:# 卡片对应的完整示范回答\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md:7:# 骨架\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md:9:**人物**: my mom（含 I）\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md:14:# 短语块\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md:18:# 万能接口句\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md:22:适用题目：technology in daily life / online shopping / gifts / convenience / save time / do you like cooking...（任何\"科技带来便利\"题）\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md:24:# 卡片对应的完整示范回答"
+          },
+          {
+            "id": "call_01_G5fm45zMpMJ1uJqIkSRA1070",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: I（+ 手机 App）\n10\t**事件**: sometimes get confused about which category a piece of waste belongs to; open an app, search the item, and it tells me which bin it goes in\n11\t**时间**: whenever I sort waste at home（可锁定\"昨天扔一杯奶茶\"展开）\n12\t**感受**: no longer confused — a little technology makes recycling much easier\n13\t\n14\t# 短语块\n15\t\n16\t- **get confused about which category ... belongs to**: I sometimes get confused about which category a piece of waste belongs to.\n17\t- **search the item on an app**: I just search the item on an app, and it tells me which bin it goes in.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"I just search the item on my phone, and it tells me which bin it goes in.\"\n22\t\n23\t适用题目：difficulties of recycling / environment / how technology helps / solve problems / green lifestyle\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tRecycling sounds easy, but I do face one challenge: I sometimes get confused about which category a piece of waste belongs to. For example, yesterday I wasn't sure which bin a milk tea cup should go in. To deal with that, I use an app on my phone — I just search the item, and it tells me which bin it goes in. With a little help from technology, recycling becomes much easier. So when there's a will, there's a way.\n28\t"
+          }
+        ],
+        "asyncStatus": "completed",
+        "agentId": "a38f455151aafbd73",
+        "startedAt": 1793453308042,
+        "outputToolId": "call_00_0qe6T0NM0urmbr2UAgdd0407",
+        "result": "侦查完成。以下是完整改写方案。\n\n# 素材卡16改写方案（改为全目录统一模板）\n\n## 一、侦查结论：模板统一性确认\n\n我读了卡 1、2、3、4、9、10、13、14、15、16 共 10 篇，并用 grep 全目录核查了标题结构与标签分布，结论如下：\n\n1. **除卡16外，全部 15 张卡均为同一四段式结构**：`# 骨架`（人物/事件/时间/感受四字段）→ `# 短语块` → `# 万能接口句`（引号句 + \"适用题目：\"英文关键词表）→ `# 卡片对应的完整示范回答`（一段约 60-130 词）。frontmatter 全部为 `tags: [English]` + `Category: [笔记]`。卡16是唯一结构离群的卡。\n2. **字段格式存在两派但内容一致**：无横线+半角冒号（`**人物**: I`）占多数（卡2、3、4、5、6、7、8、9、10、11、12，共11张）；横线列表+全角冒号（`- **人物**：I`）为卡1、13、14、15（4张）。**建议卡16采用多数派格式**（与卡9一致）。\n3. **标签惯例**：除卡1 用\"适用话题\"（中文标签，最老的卡）外，其余 14 张全部用\"适用题目\"+英文逗号分隔关键词。卡16 用\"适用题目\"+英文。\n4. **\"时间\"字段无明确时间时的处理**（重点）：卡9 `this semester（习惯，可锁定\"昨天整理讲义\"展开）`、卡10 `whenever I sort waste at home（可锁定\"昨天扔一杯奶茶\"展开）`、卡3 `last time I went on a trip...（可锁定为 last summer vacation 展开）`。**惯例 = 泛化时间短语 + 括号内\"可锁定某具体时间展开\"提示**。\n5. **文末备注**：grep 全目录确认，**只有卡16 有\"小提醒/发音\"类文末备注**，其余卡在完整示范回答后直接结束。卡15 有\"正面事例/反面事例\"双骨架变体（本卡用不上）。\n6. **短语块惯例**：每卡 2 条，格式 `- **短语**: 完整英文例句`，无中文释义。卡5 的适用题目行尾有中文括号先例（`...do you like cooking...（任何\"科技带来便利\"题）`）。\n7. **接口句与示范回答末句重复是先例**：卡9 接口句 \"Instead of throwing those pages away, I reuse them.\" 与其示范回答中的句子逐字相同；卡1、卡2、卡13 同理。改写时接口句与回答末句重复属模板惯例。\n\n## 二、原文到新模板的逐项映射\n\n| 原版区块 | 去向 | 处理方式 |\n|---|---|---|\n| 开头一句话（\"好素材！……可以直接背的素材：\"） | **删除** | 对话式语气，面向聊天对象而非笔记读者，全目录无此先例 |\n| 核心故事（约30秒版，引文块） | **骨架四字段 + 完整示范回答** | 骨架拆出人物/事件/时间/感受；整段英文逐字保留作为\"卡片对应的完整示范回答\"（约94词，符合模板篇幅） |\n| 关键词块（6条，含中文释义） | **短语块** | 中文释义删除（模板无此槽位）；例句全部直接复用核心故事原句，合并为 4-5 条 |\n| 这个素材能套哪些题（表格） | **适用题目行** | \"题目类型\"列译为英文关键词；\"怎么套\"栏中唯一的完整英文句（让步句）收进短语块，避免丢失 |\n| 30秒压缩版（引文块） | **删除段落** | 与核心故事内容重复；唯一新增信息（save a lot of paper / protect the environment）收进短语块第4条，无净损失 |\n| 小提醒（发音+鼓励） | **见第三节** | 聊天语气部分删除，发音信息建议压缩成一行保留 |\n\n**骨架各字段的来源**：\n- **人物**：原文 \"When I buy milk tea, I always keep...\"（主角是 I）+ \"My friends do the same thing\" → `I（my friends 也这么做）`（仿卡10 `I（+ 手机 App）`的括号补充式）。\n- **事件**：核心故事的行为序列逐字压缩（keep the bag → strong and waterproof → 三种用途 → 朋友比图案）。\n- **时间**：原文无明确时间，只有 always/When I buy milk tea → 按卡9/卡10惯例写 `every time I buy milk tea（习惯，可锁定\"昨天买奶茶\"展开）`。\n- **感受**：原文无显性感受句 → 由 punchline（\"听着是小事，但每天就是几百万个袋子\"）提炼为 `doing my own part for the environment — a small thing that adds up to millions of bags saved`。此为最小推定，未添加新情节，句式对齐卡9 的感受写法（`doing my own part for the environment — makes me feel...`）。\n\n## 三、\"发音小提醒\"处理建议（推荐：压缩成一行保留）\n\n三个选项：\n- **A. 整段删除**：结构绝对统一，但丢失两条发音信息（bag /bæɡ/ 尾音、waterproof 重音），且违背\"内容尽量保留\"。\n- **B. 压缩成一行放文末（推荐）**：只保留两条技术性发音信息，删除聊天语气部分（\"这个话题比较生活化，你说起来应该比能源政策题顺——正好练流利度\"、\"录音发来我听听\"——这些都是聊天记录而非笔记内容）。\n- C. 原文整段保留：破坏统一性，不推荐。\n\n**推荐 B**：一行文字只牺牲极小的结构统一性，换来内容保留；若主人后续要求绝对统一，删掉这一行即可，零成本回退。格式建议不加标题（避免出现\"# 发音小提醒\"这种模板外章节），直接一行正文放在示范回答之后。\n\n## 四、目标笔记完整内容（逐字版，供主人审核）\n\n```markdown\n---\ntags:\n  - English\nCategory:\n  - 笔记\n---\n\n# 骨架\n\n**人物**: I（my friends 也这么做）\n**事件**: always keep the paper bag instead of throwing it away after buying milk tea; the bags are strong and waterproof, so I reuse them in many ways — carry my lunch box to school, use them as trash bags or to store books; my friends do the same, and we even compare whose bag design is the prettiest\n**时间**: every time I buy milk tea（习惯，可锁定\"昨天买奶茶\"展开）\n**感受**: doing my own part for the environment — a small thing that adds up to millions of bags saved\n\n# 短语块\n\n- **keep the paper bag instead of throwing it away**: When I buy milk tea, I always keep the paper bag instead of throwing it away.\n- **strong and waterproof**: These bags are actually very strong and waterproof, so I reuse them in many ways.\n- **carry my lunch box / use them as trash bags**: I use them to carry my lunch box to school, and sometimes I use them as trash bags or to store my books.\n- **protect the environment**: It sounds like a small thing, but if everyone does this, we can save a lot of paper and protect the environment.\n- **reuse what we already have**: Of course companies should use less packaging, but before that, we can reuse what we already have.\n\n# 万能接口句\n\n\"It sounds like a small thing, but if every customer reuses just one bag, that's millions of bags saved every day.\"\n\n适用题目：environment / what individuals can do for the environment / saving resources / recycling / young people's environmental awareness / should companies use less packaging\n\n# 卡片对应的完整示范回答\n\nWhen I buy milk tea, I always keep the paper bag instead of throwing it away. These bags are actually very strong and waterproof, so I reuse them in many ways. For example, I use them to carry my lunch box to school, and sometimes I use them as trash bags or to store my books. My friends do the same thing, and we even compare whose bag design is the prettiest. It sounds like a small thing, but if every customer reuses just one bag, that's millions of bags saved every day.\n\n发音小提醒：bag（/bæɡ/）尾音要收干净，别拖成 \"bag-guh\"；waterproof 重音在前（WA-ter-proof）。\n```\n\n说明：文件名与 frontmatter 不变；\"发音小提醒\"一行如主人要求绝对统一可整行删除。英文内容中除短语块第3条例句删去原句开头的连接词 \"For example\" 外，其余全部逐字复用原文。\n\n## 五、风险点清单（改写可能丢失的信息）\n\n1. **关键词块的中文释义丢失**（如\"留着袋子不扔\"\"结实又防水\"）：模板短语块无中文释义槽位，这是结构统一的必然代价；如需保留可仿卡5先例在适用题目行尾加中文括号，但会破坏简洁性。\n2. **套题表格\"怎么套\"栏的中文策略丢失**：具体是\"直接当主例子\"\"省纸 = 少砍树 = 保护森林资源\"\"这是 reduce and reuse，比 recycle 更优先\"三条中文使用策略。其中英文让步句已收进短语块第5条；中文策略如需保留，建议主人另存他处（如笔记末尾加一行中文备注，但不建议放进正文模板）。\n3. **发音信息**：如选 A 方案则两条发音点（bag 尾音、waterproof 重音）丢失。已在推荐方案 B 中避免。\n4. **\"时间\"与\"感受\"是推定字段**：原文无显性时间与感受句。时间源于原文 always（事实性概括，风险低）；感受是对 punchline 的提炼。两者均有原文依据、无新编情节，但严格说是\"改写者的补充\"，主人审核时应重点看这两行。\n5. **短语块 5 条 vs 全目录惯例 2 条**：为内容保留所做的权衡。若主人要求严格对齐，可只留第1、2条并把第3条合并进第2条例句（代价：protect the environment 与让步句的独立条目丢失）。\n6. **\"可锁定'昨天买奶茶'展开\"为新增提示**：仿卡9/卡10惯例添加的展开建议，原文没有这句话；如不想要可删括号只留 `every time I buy milk tea`。\n7. **聊天式语句删除**（开头\"好素材！……\"、结尾\"录音发来我听听\"、\"这个话题比较生活化……\"）：属对话记录而非素材内容，删除不影响素材本身。\n8. **接口句与示范回答末句逐字重复**：与卡9、卡1 的先例一致，属模板惯例而非冗余错误，保留。\n\n## 六、实施步骤（供执行阶段参考）\n\n1. 用第四节的完整内容整体覆盖 `TOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md`（保留文件名与 frontmatter）。\n2. 校验：四个标题均为 H1、字段名与\"适用题目\"标签写法与卡9/14/15一致、字段格式与多数派（卡2-12）一致。\n3. 主人审核\"时间/感受\"两个推定字段与末行发音小提醒是否保留。\n\n### Critical Files for Implementation\n\n- F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md（改写目标）\n- F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md（最贴近的模板参照：同为环保主题，提供时间字段\"可锁定\"惯例与感受写法）\n- F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md（同为环保主题，时间字段\"可锁定\"惯例的直接范本）\n- F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡14-预算习惯.md（主人指定的模板参照卡）\n- F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡15-学习外语的好处.md（主人指定的模板参照卡）",
+        "completedAt": 1793453529799
+      }
+    }
+  },
+  "currentNote": "TOEFL/素材卡/口语素材卡16-奶茶袋子再利用.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1234,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31488,
+    "contextWindow": 200000,
+    "contextTokens": 32722,
+    "percentage": 16
+  }
 }
