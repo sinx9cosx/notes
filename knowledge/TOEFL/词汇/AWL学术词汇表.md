@@ -4,48 +4,313 @@ tags:
 Category:
   - 笔记
 ---
-Sublist 1analyse分析area区域assess评估assume假设authority威
-approach方法，接近
-available可用的benefit益处concept概念consist由...组成constitute构成context背景
-contract合同，收缩create创造data数据define定义derive源自distribute 分配economy经济environment环境establish建立estimate 估计evident明显的
-export出口
-factor因素
-finance金融
-formula 公式
-function功能identify识别income收入indicate表明individual个人的interpret解释involve涉及issue问题labour劳动legal法律的legislate 立法major主要的
-method方法
-occur发生percent百分比
-period时期
-policy政策
-principle原则
-proceed进行
-process过程
-require要求
-research研究
-respond回应
-role角色
-section 部分
-sector部门
-significant 重要的similar相似的source来源specific具体的structure结构theory理论vary变化
-Sublist 2achieve实现acquire 获得administrate 管理affect影响appropriate适当的aspect方面assist协助category类别chapter章节commission委员会community 社区complex复杂的compute计算conclude结束conduct行为，进行consequent 随之发生的construct建造consume消费credit信用
-culture文化design设计distinct 独特的element元素equate等同evaluate评估feature特征final最终的focus 聚焦impact影响injure伤害institute机构invest投资item项目journal期刊maintain维持normal正常的obtain获得participate 参与perceive感知positive积极的potential潜力previous先前的primary主要的purchase购买range范围
-region地区
-regulate调节relevant相关的reside居住resource资源restrict限制secure安全的seek寻找select选择site地点strategy策略survey 调查text文本tradition传统transfer 转移
-Sublist 3alternative替代的circumstance环境comment评论compensate 补偿component组成部分consent同意considerable相当大的constant持续的constrain约束contribute贡献convene召集coordinate 协调
-core核心corporate 公司的correspond相符criteria标准deduce推论demonstrate证明document 文件dominate支配emphasis 强调ensure确保exclude排除framework 框架fund基金illustrate 说明immigrate移民imply暗示initial最初的instance实例interact 互动justify证明合理layer层link连接locate定位maximise 最大化minor次要的negate否定outcome结果
-partner伙伴philosophy学physical物理的proportion E例publish出版react反应register登记rely依赖remove移除scheme方案sequence 顺序sex性别shift转移specify具体说明sufficient足够的task任务technical技术的technique技术technology 技术valid有效的volume卷
-Sublist 4access进入adequate 充分的annual年度的apparent 明显的approximate近似的
-attitude态度attribute 归因于civil公民的code代码commit承诺communicate沟通concentrate 集中confer授予contrast对比cycle循环debate辩论despite尽管dimension维度domestic国内的emerge出现error错误ethnic种族的goal目标grant授予hence因此hypothesis 假设implement 实施implicate牵连impose强加integrate整合internal内部的investigate 调查
-job工作label标签mechanism 机制obvious明显的occupy占据option选择output产出overall整体的parallel平行的parameter参数phase阶段predict 预测principal主要的prior先前的professional专业的project项目promote促进regime 政体resolve解决retain保留series系列statistic 统计status地位stress压力subsequent 随后的
-sum总和
-summary摘要
-undertake承担
-Sublist 5academy学院adjust调整alter 改变amend修改aware意识到的capacity能力challenge 挑战clause条款compound复合的conflict冲突consult咨询contact接触decline 下降discrete离散的draft草稿enable使能够energy能量enforce执行entity实体equivalent 等同的evolve进化expand扩大expose暴露external外部的facilitate 促进
-fundamental基本的generate产生generation 一代image形象liberal自由的licence许可证logic逻辑margin边缘medical 医学的mental心理的modify修改monitor监控network网络notion观念objective 客观的orient朝向perspective 观点precise 精确的prime首要的psychology心理学pursue追求ratio 比率reject拒绝revenue 收入stable稳定的style 风格substitute 替代
-sustain维持
-symbol符号
-target目标transit过境
-trend趋势
-version 版本
-welfare 福利
-whereas然而
+
+## Sublist 1
+- analyse v. 分析
+- area n. 区域
+- assess v. 评估
+- assume v. 假设
+- authority n. 权威
+- approach n. 方法；v. 接近
+- available adj. 可用的
+- benefit n. 益处
+- concept n. 概念
+- consist v. 由…组成
+- constitute v. 构成
+- context n. 背景
+- contract n. 合同；v. 收缩
+- create v. 创造
+- data n. 数据
+- define v. 定义
+- derive v. 源自
+- distribute v. 分配
+- economy n. 经济
+- environment n. 环境
+- establish v. 建立
+- estimate v./n. 估计
+- evident adj. 明显的
+- export n./v. 出口
+- factor n. 因素
+- finance n. 金融
+- formula n. 公式
+- function n. 功能
+- identify v. 识别
+- income n. 收入
+- indicate v. 表明
+- individual adj. 个人的
+- interpret v. 解释
+- involve v. 涉及
+- issue n. 问题
+- labour n./v. 劳动
+- legal adj. 法律的
+- legislate v. 立法
+- major adj. 主要的
+- method n. 方法
+- occur v. 发生
+- percent n. 百分比
+- period n. 时期
+- policy n. 政策
+- principle n. 原则
+- proceed v. 进行
+- process n. 过程
+- require v. 要求
+- research n./v. 研究
+- respond v. 回应
+- role n. 角色
+- section n. 部分
+- sector n. 部门
+- significant adj. 重要的
+- similar adj. 相似的
+- source n. 来源
+- specific adj. 具体的
+- structure n. 结构
+- theory n. 理论
+- vary v. 变化
+
+## Sublist 2
+- achieve v. 实现
+- acquire v. 获得
+- administrate v. 管理
+- affect v. 影响
+- appropriate adj. 适当的
+- aspect n. 方面
+- assist v. 协助
+- category n. 类别
+- chapter n. 章节
+- commission n. 委员会
+- community n. 社区
+- complex adj. 复杂的
+- compute v. 计算
+- conclude v. 结束
+- conduct n. 行为；v. 进行
+- consequent adj. 随之发生的
+- construct v. 建造
+- consume v. 消费
+- credit n. 信用
+- culture n. 文化
+- design n./v. 设计
+- distinct adj. 独特的
+- element n. 元素
+- equate v. 等同
+- evaluate v. 评估
+- feature n. 特征
+- final adj. 最终的
+- focus v. 聚焦
+- impact n./v. 影响
+- injure v. 伤害
+- institute n. 机构
+- invest v. 投资
+- item n. 项目
+- journal n. 期刊
+- maintain v. 维持
+- normal adj. 正常的
+- obtain v. 获得
+- participate v. 参与
+- perceive v. 感知
+- positive adj. 积极的
+- potential n. 潜力
+- previous adj. 先前的
+- primary adj. 主要的
+- purchase v./n. 购买
+- range n. 范围
+- region n. 地区
+- regulate v. 调节
+- relevant adj. 相关的
+- reside v. 居住
+- resource n. 资源
+- restrict v. 限制
+- secure adj. 安全的
+- seek v. 寻找
+- select v. 选择
+- site n. 地点
+- strategy n. 策略
+- survey n./v. 调查
+- text n. 文本
+- tradition n. 传统
+- transfer v./n. 转移
+
+## Sublist 3
+- alternative adj. 替代的
+- circumstance n. 环境
+- comment n./v. 评论
+- compensate v. 补偿
+- component n. 组成部分
+- consent v./n. 同意
+- considerable adj. 相当大的
+- constant adj. 持续的
+- constrain v. 约束
+- contribute v. 贡献
+- convene v. 召集
+- coordinate v. 协调
+- core n. 核心
+- corporate adj. 公司的
+- correspond v. 相符
+- criteria n. 标准
+- deduce v. 推论
+- demonstrate v. 证明
+- document n. 文件
+- dominate v. 支配
+- emphasis n. 强调
+- ensure v. 确保
+- exclude v. 排除
+- framework n. 框架
+- fund n. 基金
+- illustrate v. 说明
+- immigrate v. 移民
+- imply v. 暗示
+- initial adj. 最初的
+- instance n. 实例
+- interact v. 互动
+- justify v. 证明合理
+- layer n. 层
+- link v./n. 连接
+- locate v. 定位
+- maximise v. 最大化
+- minor adj. 次要的
+- negate v. 否定
+- outcome n. 结果
+- partner n. 伙伴
+- philosophy n. 哲学
+- physical adj. 物理的
+- proportion n. 比例
+- publish v. 出版
+- react v. 反应
+- register v. 登记
+- rely v. 依赖
+- remove v. 移除
+- scheme n. 方案
+- sequence n. 顺序
+- sex n. 性别
+- shift v./n. 转移
+- specify v. 具体说明
+- sufficient adj. 足够的
+- task n. 任务
+- technical adj. 技术的
+- technique n. 技术
+- technology n. 技术
+- valid adj. 有效的
+- volume n. 卷
+
+## Sublist 4
+- access n./v. 进入
+- adequate adj. 充分的
+- annual adj. 年度的
+- apparent adj. 明显的
+- approximate adj. 近似的
+- attitude n. 态度
+- attribute v. 归因于
+- civil adj. 公民的
+- code n. 代码
+- commit v. 承诺
+- communicate v. 沟通
+- concentrate v. 集中
+- confer v. 授予
+- contrast n./v. 对比
+- cycle n./v. 循环
+- debate n./v. 辩论
+- despite prep. 尽管
+- dimension n. 维度
+- domestic adj. 国内的
+- emerge v. 出现
+- error n. 错误
+- ethnic adj. 种族的
+- goal n. 目标
+- grant v. 授予
+- hence adv. 因此
+- hypothesis n. 假设
+- implement v. 实施
+- implicate v. 牵连
+- impose v. 强加
+- integrate v. 整合
+- internal adj. 内部的
+- investigate v. 调查
+- job n. 工作
+- label n. 标签
+- mechanism n. 机制
+- obvious adj. 明显的
+- occupy v. 占据
+- option n. 选择
+- output n. 产出
+- overall adj. 整体的
+- parallel adj. 平行的
+- parameter n. 参数
+- phase n. 阶段
+- predict v. 预测
+- principal adj. 主要的
+- prior adj. 先前的
+- professional adj. 专业的
+- project n. 项目
+- promote v. 促进
+- regime n. 政体
+- resolve v. 解决
+- retain v. 保留
+- series n. 系列
+- statistic n. 统计数据
+- status n. 地位
+- stress n. 压力
+- subsequent adj. 随后的
+- sum n. 总和
+- summary n. 摘要
+- undertake v. 承担
+
+## Sublist 5
+- academy n. 学院
+- adjust v. 调整
+- alter v. 改变
+- amend v. 修改
+- aware adj. 意识到的
+- capacity n. 能力
+- challenge n./v. 挑战
+- clause n. 条款
+- compound adj. 复合的
+- conflict n./v. 冲突
+- consult v. 咨询
+- contact n./v. 接触
+- decline v./n. 下降
+- discrete adj. 离散的
+- draft n. 草稿
+- enable v. 使能够
+- energy n. 能量
+- enforce v. 执行
+- entity n. 实体
+- equivalent adj. 等同的
+- evolve v. 进化
+- expand v. 扩大
+- expose v. 暴露
+- external adj. 外部的
+- facilitate v. 促进
+- fundamental adj. 基本的
+- generate v. 产生
+- generation n. 一代
+- image n. 形象
+- liberal adj. 自由的
+- licence n. 许可证
+- logic n. 逻辑
+- margin n. 边缘
+- medical adj. 医学的
+- mental adj. 心理的
+- modify v. 修改
+- monitor v./n. 监控
+- network n. 网络
+- notion n. 观念
+- objective adj. 客观的
+- orient v. 朝向
+- perspective n. 观点
+- precise adj. 精确的
+- prime adj. 首要的
+- psychology n. 心理学
+- pursue v. 追求
+- ratio n. 比率
+- reject v. 拒绝
+- revenue n. 收入
+- stable adj. 稳定的
+- style n. 风格
+- substitute v./n. 替代
+- sustain v. 维持
+- symbol n. 符号
+- target n. 目标
+- transit n. 过境
+- trend n. 趋势
+- version n. 版本
+- welfare n. 福利
+- whereas conj. 然而
