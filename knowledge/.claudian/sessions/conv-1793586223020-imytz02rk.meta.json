@@ -1,0 +1,23 @@
+{
+  "id": "conv-1793586223020-imytz02rk",
+  "providerId": "claude",
+  "title": "Find notes with \"-\" property in Obsidian vault",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793586223021,
+  "updatedAt": 1793586273445,
+  "lastResponseAt": 1793586273445,
+  "sessionId": "31c19729-5676-4dbe-9abe-8ac1555926dc",
+  "providerState": {
+    "providerSessionId": "31c19729-5676-4dbe-9abe-8ac1555926dc"
+  },
+  "currentNote": "TOEFL/口语复述/真题/生活场景-船舶展览.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 183,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32000,
+    "contextWindow": 200000,
+    "contextTokens": 32183,
+    "percentage": 16
+  }
+}
