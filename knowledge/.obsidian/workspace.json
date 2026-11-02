@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/发光机制/未命名.md",
+                "file": "sci_research/发光机制/暗态的研究大纲.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "暗态的研究大纲"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/发光机制/未命名.md",
+                "file": "sci_research/发光机制/振动分析研究大纲.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -289,11 +289,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2d98a0462aecbb65",
+  "active": "945f68461b3f7c3a",
   "lastOpenFiles": [
     "sci_research/发光机制/对称性研究大纲.md",
-    "sci_research/发光机制/未命名.md",
     "sci_research/发光机制/振动分析研究大纲.md",
+    "sci_research/发光机制/暗态的研究大纲.md",
     "sci_research/发光机制/理论学习清单.md",
     "sci_research/report/5-TBR实验发光机理解释草稿.md",
     "sci_research/发光机制",
