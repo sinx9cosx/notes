@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/发光机制/振动分析研究大纲.md",
+                "file": "sci_research/发光机制/暗态的研究大纲.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -289,13 +289,20 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "945f68461b3f7c3a",
+  "active": "2d98a0462aecbb65",
   "lastOpenFiles": [
-    "sci_research/发光机制/对称性研究大纲.md",
-    "sci_research/发光机制/振动分析研究大纲.md",
-    "sci_research/发光机制/暗态的研究大纲.md",
+    "sci_research/image/暗态.png",
+    "sci_research/image/23be7daf-e37b-4127-8898-c72f232e3ff8.png",
     "sci_research/发光机制/理论学习清单.md",
     "sci_research/report/5-TBR实验发光机理解释草稿.md",
+    "sci_research/report/课设汇报大纲-1.md",
+    "sci_research/report/课设汇报-1.md",
+    "TOEFL/词汇/AWL学术词汇表.md",
+    "sci_research/发光机制/暗态的研究大纲.md",
+    "sci_research/发光机制/振动分析研究大纲.md",
+    "sci_research/发光机制/对称性研究大纲.md",
+    "sci_research/image/evc.png",
+    "sci_research/image/e4a57b7c-99b2-4ac2-9256-c143f4875bac.png",
     "sci_research/发光机制",
     "TOEFL/模拟面试/校园场景-图书馆.md",
     "TOEFL/口语复述/TPO/校园场景-实验室.md",
@@ -314,10 +321,6 @@
     "sci_research/report/4-DHR和TBR计算光谱（二氯）.md",
     "sci_research/report/3-DHR和TBR计算光谱.md",
     "sci_research/report/2-DHR复现进展.md",
-    "sci_research/report/1-TBR初步计算结果.md",
-    "sci_research/report/课设汇报大纲-1.md",
-    "sci_research/report/课设汇报-1.md",
-    "sci_research/report/TD-DFT calculation results.md",
     "molecular-simulation/image/hw5.png",
     "molecular-simulation/image",
     "molecular-simulation/新建文件夹",
@@ -334,9 +337,6 @@
     "TOEFL/邮件写作/真题/餐厅issue.md.tmp.27668.c9f665420857",
     "sci_research/image/spectrum/TBRs-s1.png",
     "TOEFL/素材卡/口语素材卡-社团.md.tmp.12476.4bb04cfc50be",
-    "physchem-2/image/9-total-vapor-pressure.png",
-    "physchem-2/image/9-solution-alloy.png",
-    "physchem-2/image/9-raoult-deviation.png",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
