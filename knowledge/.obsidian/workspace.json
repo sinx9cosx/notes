@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/发光机制研究大纲/理论学习清单.md",
+                "file": "TOEFL/口语复述/TPO/生活场景-博物馆.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "理论学习清单"
+              "title": "生活场景-博物馆"
             }
           },
           {
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/发光机制研究大纲/理论学习清单.md",
+                "file": "TOEFL/口语复述/TPO/生活场景-博物馆.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -289,13 +289,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "e99394cd6d254c37",
   "lastOpenFiles": [
+    "TOEFL/口语复述/真题/生活场景-船舶展览.md",
+    "sci_research/发光机制研究大纲/理论学习清单.md",
+    "sci_research/image/激发态动力学.png",
+    "sci_research/image/c77158383fbd2a4d5b187c13a90cdb75.png",
     "sci_research/发光机制研究大纲/对称性研究大纲.md",
     "sci_research/发光机制研究大纲/暗态的研究大纲.md",
     "sci_research/image/暗态.png",
     "sci_research/image/23be7daf-e37b-4127-8898-c72f232e3ff8.png",
-    "sci_research/发光机制研究大纲/理论学习清单.md",
     "sci_research/report/5-TBR实验发光机理解释草稿.md",
     "sci_research/report/课设汇报大纲-1.md",
     "sci_research/report/课设汇报-1.md",
@@ -317,7 +320,6 @@
     "TOEFL/口语复述/TPO/生活场景-公园.md",
     "TOEFL/口语复述/TPO/生活场景-参观艺术馆.md",
     "TOEFL/口语复述/TPO/生活场景-博物馆.md",
-    "TOEFL/口语复述/真题/生活场景-船舶展览.md",
     "sci_research/report/4-DHR和TBR计算光谱（二氯）.md",
     "sci_research/report/3-DHR和TBR计算光谱.md",
     "sci_research/report/2-DHR复现进展.md",
@@ -329,8 +331,6 @@
     "physchem-2/image/9-RH-basis.png",
     "physchem-2/image/9-px-deviation.png",
     "sci_research/image/excitation.jpg",
-    "sci_research/image/orbital-analysis-1.jpg",
-    "sci_research/image/file_format.jpg",
     "TOEFL/写作练习",
     "TOEFL/素材卡/口语素材卡15-学习外语的好处.md.tmp.4840.aa161335bd69",
     "physchem-2/9-溶液的基本性质/理想液体混合物的化学势.md.tmp.30284.b391a492c15a",
