@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/发光机制/理论学习清单.md",
+                "file": "sci_research/发光机制研究大纲/理论学习清单.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/发光机制/对称性研究大纲.md",
+                "file": "sci_research/发光机制研究大纲/对称性研究大纲.md",
                 "mode": "source",
                 "source": false
               },
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/发光机制/暗态的研究大纲.md",
+                "file": "sci_research/发光机制研究大纲/暗态的研究大纲.md",
                 "mode": "source",
                 "source": false
               },
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/发光机制/振动分析研究大纲.md",
+                "file": "sci_research/发光机制研究大纲/振动分析研究大纲.md",
                 "mode": "source",
                 "source": false
               },
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/发光机制/暗态的研究大纲.md",
+                "file": "sci_research/发光机制研究大纲/理论学习清单.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -289,21 +289,21 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2d98a0462aecbb65",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "sci_research/发光机制研究大纲/对称性研究大纲.md",
+    "sci_research/发光机制研究大纲/暗态的研究大纲.md",
     "sci_research/image/暗态.png",
     "sci_research/image/23be7daf-e37b-4127-8898-c72f232e3ff8.png",
-    "sci_research/发光机制/理论学习清单.md",
+    "sci_research/发光机制研究大纲/理论学习清单.md",
     "sci_research/report/5-TBR实验发光机理解释草稿.md",
     "sci_research/report/课设汇报大纲-1.md",
     "sci_research/report/课设汇报-1.md",
     "TOEFL/词汇/AWL学术词汇表.md",
-    "sci_research/发光机制/暗态的研究大纲.md",
-    "sci_research/发光机制/振动分析研究大纲.md",
-    "sci_research/发光机制/对称性研究大纲.md",
+    "sci_research/发光机制研究大纲/振动分析研究大纲.md",
     "sci_research/image/evc.png",
     "sci_research/image/e4a57b7c-99b2-4ac2-9256-c143f4875bac.png",
-    "sci_research/发光机制",
+    "sci_research/发光机制研究大纲",
     "TOEFL/模拟面试/校园场景-图书馆.md",
     "TOEFL/口语复述/TPO/校园场景-实验室.md",
     "TOEFL/口语复述/TPO/校园场景-参观学校.md",
@@ -335,7 +335,6 @@
     "TOEFL/素材卡/口语素材卡15-学习外语的好处.md.tmp.4840.aa161335bd69",
     "physchem-2/9-溶液的基本性质/理想液体混合物的化学势.md.tmp.30284.b391a492c15a",
     "TOEFL/邮件写作/真题/餐厅issue.md.tmp.27668.c9f665420857",
-    "sci_research/image/spectrum/TBRs-s1.png",
     "TOEFL/素材卡/口语素材卡-社团.md.tmp.12476.4bb04cfc50be",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/填词/填词错误类型.canvas",
