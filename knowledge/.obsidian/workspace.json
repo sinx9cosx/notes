@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/口语复述/真题/校园场景-木工.md",
+                "file": "sci_research/report/5-TBR实验发光机理解释草稿.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "校园场景-木工"
+              "title": "5-TBR实验发光机理解释草稿"
             }
           }
         ]
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md",
+                "file": "sci_research/report/5-TBR实验发光机理解释草稿.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -218,8 +218,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "8846c5b35a33b835",
   "lastOpenFiles": [
+    "sci_research/report/4-DHR和TBR计算光谱（二氯）.md",
+    "sci_research/report/3-DHR和TBR计算光谱.md",
+    "sci_research/report/2-DHR复现进展.md",
+    "sci_research/report/1-TBR初步计算结果.md",
+    "sci_research/report/课设汇报大纲-1.md",
+    "sci_research/report/课设汇报-1.md",
+    "sci_research/report/5-TBR实验发光机理解释草稿.md",
+    "sci_research/report/TD-DFT calculation results.md",
+    "sci_research/report/TD-DFT项目操作全流程.md",
     "未命名.md",
     "TOEFL/口语复述/真题/校园场景-木工.md",
     "molecular-simulation/数据分析结果.md",
@@ -237,15 +246,6 @@
     "TOEFL/口语复述/真题/生活场景-动物园.md",
     "TOEFL/口语复述/真题/校园场景-水彩画.md",
     "TOEFL/词汇/常犯语法错误.md",
-    "TOEFL/填词/TPO2/生物-睡觉.md",
-    "TOEFL/模拟面试/新能源与节约资源.md",
-    "TOEFL/口语复述/TPO/校园场景-图书馆.md",
-    "TOEFL/口语复述/TPO/校园场景-实验室.md",
-    "TOEFL/口语复述/TPO/校园场景-参观学校.md",
-    "TOEFL/口语复述/TPO/生活场景-wifi配置.md",
-    "TOEFL/口语复述/TPO/生活场景-租车.md",
-    "TOEFL/口语复述/TPO/生活场景-文化节.md",
-    "TOEFL/口语复述/TPO/生活场景-社区中心.md",
     "molecular-simulation/image/hw5.png",
     "molecular-simulation/image",
     "molecular-simulation/新建文件夹",
@@ -270,7 +270,7 @@
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
     "quantum chemistry/第五章思维导图.canvas",
-    "sci_research/聚集诱导发光（AIE）；QM/HPS的AIE机理解释.canvas",
+    "sci_research/聚集诱导发光文献阅读/HPS的AIE机理解释.canvas",
     "physchem-1/统计力学导图.canvas",
     "physchem-1/量子力学导图.canvas",
     "physchem/统计力学三大系综与温度角色.canvas",
