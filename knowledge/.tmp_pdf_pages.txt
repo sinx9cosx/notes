@@ -1,0 +1,128 @@
+========== PDF页21 (正文页9) ==========
+1.18 CH4,C2H2,C2H4,SO2Cl2ful®ltherules,i.e.havenoatoms
+presentinoddnumbers,orhaveonlyonesuchatom.
+Whichoftheseactuallyhaveinversioncentres?
+1.19 OnlyC2H2andC2H4.Bothhaveaninversioncentremidway
+betweenthetwocarbonatoms.
+Whatistheoperationi2?
+1.20 i2E,forthesamereasonthat2E(Frame1.10).
+We now have the operations E,,Cn, i. Only one more is
+necessaryinordertospecifymolecularsymmetrycompletely.
+ThatiscalledanIMPROPERROTATIONandisgiventhe
+symbol S, again with a subscript showing the order of the
+axis. The element is sometimes called a rotation-re¯ection
+axis,andthisdescribestheoperationverywell.
+The Snoperation is rotation by 1/n of a turn, followed by
+re¯ectioninaplaneperpendiculartotheaxis,e.g.ethanein
+the staggered conformation has an S6axis because it is
+brought to an indistinguishable arrangement by a rotation
+of1/6ofaturn,followedbyre¯ection:
+N.B.NeitherC6norarepresentontheirown.
+Inthisexampletheeectofthesymmetryoperationhasbeen
+shownbylabellingonecornerofthedrawing.Drawtheposi-
+tionofthelabelaftertheS6operationisappliedasecondtime.
+SymmetryElementsandOperations9
+========== PDF页22 (正文页10) ==========
+1.21
+Nowconsiderwhatsinglesymmetryoperationwilltakethis
+moleculefromstateIdirecttostateIIIi.e.whatsingleopera-
+tionisthesameasS2
+6?
+1.22 S2
+6C3,rotationbyonethird ofaturn, becausethemole-
+cule has been rotated by 2/6 of a turn (C3) and re¯ected
+twice(2E).
+WhathappenstothemarkerifS6isappliedoncemore,i.e.
+whatsingleoperationhasthesameeectasS3
+6(useamodel
+orthediagramabove).
+1.23 S3
+6i. In general Sn=2
+ni if n is even and n/2 is odd. The
+operation Sn=2
+nis then not counted by convention. If Sn(n
+even)ispresent,andn=2isodd,iispresentbuttheconverse
+isnotnecessarilytrue.
+Now apply S6once more, so that it has been applied four
+timesinall.
+WhatotheroperationgivesthesameresultasS4
+6?
+Programme110
+========== PDF页23 (正文页11) ==========
+1.24 S4
+6C2
+3for the same reason that S2
+6C3(Frame 1.22) i.e.
+we have now rotated by 1/6 of a turn 4 times (C2
+3), and
+re¯ected4times(E)
+S5
+6isauniqueoperation,andS6
+6E.Thisisagaintruefor
+anySnofevenn.
+Let us now look at Snof odd n because the case is rather
+dierent from even n. It may at ®rst seem rather a trivial
+operation, because the Cnaxis and a perpendicular plane
+must both be present, but it is necessary to include it to
+applyGroupTheorytosymmetry.
+Use as the model a ¯at equilateral triangle with one vertex
+``labelled'';thislabelisonlytohelpustofollowtheeectof
+theoperations,forexampletheapplicationofS3movesthe
+labelasshown:
+Write down the result
+of applying S3clockwise
+once, twice and then
+threetimes.
+1.25
+In contrast to S6and C3, applying the operation n times,
+where n is the order of the axis does not bring us back to
+theidentity.
+Keepgoing,then,whendowegetE?
+SymmetryElementsandOperations11
+Start
+========== PDF页24 (正文页12) ==========
+1.26
+This result is quite general, for n odd S2n
+nE, because we
+haverotatedthroughtwowholecircles,andre¯ectedaneven
+numberoftimes.
+The equilateral triangle also has E, C3,a n damong its
+elementsofsymmetry.Manyoftheoperationswehavegen-
+eratedbyusingtheS3elementofsymmetrycouldhavebeen
+generatedbyusingotherelementse.g.,S2
+3C2
+3.Writethese
+equivalentsunderneaththesymbolSn
+3whereappropriate:
+S3 S2
+3 S3
+3 S4
+3 S5
+3 S6
+3
+e:g:C2
+3
+1.27S3 S2
+3 S3
+3 S4
+3 S5
+3 S6
+3
+C2
+3 C3 E
+Byconvention,onlyS3andS5
+3arecountedasdistinctopera-
+tionsgeneratedbytheS3symmetryelement.
+Do a similar analysis for the symmetry element C6(proper
+rotation axis) of benzene, which also has C3and C2axes
+colinearwiththeC6.ClearlyC2
+6C3sincerotationbytwo
+sixthsofaturnisthesameasrotationbyonethirdofaturn.
+WritetheoperationswhichhavethesameeectasC6C2
+6C3
+6
+C4
+6C5
+6andC6
+6.
+Programme112
