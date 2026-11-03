@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "对称性研究大纲"
             }
+          },
+          {
+            "id": "339d50a98172ad9d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ]
       }
@@ -220,6 +230,7 @@
   },
   "active": "5215997b869c6b2b",
   "lastOpenFiles": [
+    "sci_research/发光机制研究大纲/对称性研究大纲.md",
     "TOEFL/填词/TPO2/环境-气象研究.md",
     "TOEFL/填词/TPO2/生物-睡觉.md",
     "TOEFL/模拟面试/户外运动.md",
@@ -246,7 +257,6 @@
     "sci_research/发光机制研究大纲/理论学习清单.md",
     "sci_research/image/激发态动力学.png",
     "sci_research/image/c77158383fbd2a4d5b187c13a90cdb75.png",
-    "sci_research/发光机制研究大纲/对称性研究大纲.md",
     "sci_research/发光机制研究大纲/暗态的研究大纲.md",
     "sci_research/image/暗态.png",
     "sci_research/image/23be7daf-e37b-4127-8898-c72f232e3ff8.png",
