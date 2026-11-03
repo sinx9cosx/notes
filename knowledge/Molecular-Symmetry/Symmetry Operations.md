@@ -9,103 +9,102 @@ Category:
 
 
 ## 1. 对称操作与对称元素
-（symmetry operation / symmetry element）
 
-- symmetry operation（对称操作）：actually doing something to a shape so that the result is indistinguishable from the initial state
-- symmetry element（对称元素）：即使什么都不做，分子也仍具有的 abstract geometrical property（抽象几何属性）；元素 generate（产生）操作；元素与其操作使用相同符号（Frame 1.5）。
-- indistinguishable（不可区分）≠ identical（完全相同）：纸板三角形旋转 1/3 圈后，A 与 A′ 不可区分但并非同一点（Frame 1.2）；转满整圈后每一点回到原位，才是 "more than indistinguishable, it is IDENTICAL"（Frame 1.8）。
+- 对称操作：实际对形状进行操作，使结果与初始状态不可区分。
+- 对称元素：即使什么都不做，分子也仍具有的抽象几何属性；元素产生操作；元素与其操作使用相同符号（Frame 1.5）。
+- 不可区分 ≠ 完全相同：纸板三角形旋转 1/3 圈后，A 与 A′ 不可区分但并非同一点（Frame 1.2）；转满整圈后每一点回到原位，才是"不止是不可区分，而是完全相同"（Frame 1.8）。
 - 引入背景：书用旋转/翻转纸板三角形的例子，引出"更定量地"描述对称（Frames 1.1-1.3）。
 
-## 2. 恒等操作 E（identity operation）
+## 2. 恒等操作 E
 
-- 由 C₅⁵ 引出：绕 C₅ 转 5 次回到出发点，结果 identical with the starting point（Frame 1.8）。
-- 定义：**E** = the identity operation, the operation of doing nothing（什么都不做的操作）；对任何 Cₙ 都有 **Cₙⁿ ≡ E**（Frame 1.8）。
-- 为什么需要 E：为了对分子对称性应用群论（apply the theory of Groups），必须把 E 纳入描述（Frame 1.8）。
-- E 是所有分子**无论形状**都具有的对称元素（Frame 1.12，水分子四元素的讨论："one of which is possessed by all molecules irrespective of shape"）。
+- 由 C₅⁵ 引出：绕 C₅ 转 5 次回到出发点，结果与出发点完全相同（Frame 1.8）。
+- 定义：**E** = 恒等操作，即什么都不做的操作；对任何 Cₙ 都有 **Cₙⁿ ≡ E**（Frame 1.8）。
+- 为什么需要 E：为了对分子对称性应用群论，必须把 E 纳入描述（Frame 1.8）。
+- E 是所有分子**无论形状**都具有的对称元素（Frame 1.12，水分子四元素的讨论："其中一个是所有分子无论形状都具有的"）。
 
-## 3. 真旋转 Cₙ（proper rotation / proper rotation axis）
+## 3. 真旋转 Cₙ
 
-- 定义：rotation by 1/n of a turn（绕轴旋转 1/n 圈）；符号 **C**，下标 = order（旋转的阶）。例：C₂ = 转半圈、C₃ = 转 1/3 圈、C₄ = 转 1/4 圈（Frames 1.4-1.5）。
-- 正六边形有 C₆，即 six-fold rotation axis（六重旋转轴，可转 1/6 圈）（Frame 1.6）。
+- 定义：绕轴旋转 1/n 圈；符号 **C**，下标 = 旋转的阶。例：C₂ = 转半圈、C₃ = 转 1/3 圈、C₄ = 转 1/4 圈（Frames 1.4-1.5）。
+- 正六边形有 C₆，即六重旋转轴（可转 1/6 圈）（Frame 1.6）。
 - **一个对称元素可产生多个操作**：C₃ 轴产生 C₃ 与 C₃² 两个操作（Frame 1.6）；C₅ 轴产生 C₅、C₅²、C₅³、C₅⁴（Frame 1.7）。
 - Cₙⁿ ≡ E（Frame 1.8），详见第 2 节。
-- 三角形例子中的另一类真旋转：绕通过顶点的轴转半圈（turn it over，翻转），共有 3 个，每个顶点一个（Frames 1.3-1.4）。
+- 三角形例子中的另一类真旋转：绕通过顶点的轴转半圈（翻转），共有 3 个，每个顶点一个（Frames 1.3-1.4）。
 
-## 4. 反映 σ（plane of symmetry / mirror plane）＋ 例子：水分子 H2O
+## 4. 反映 σ ＋ 例子：水分子 H2O
 
 ### 4.1 σ 的定义
 
-- 所有平面型形状（all planar shapes）都具有的对称元素：plane of symmetry（对称面，即镜面），符号 **σ** (sigma)。
-- 镜面元素**只产生一个操作**：reflection in the plane（在面内的反映）——因为做两次即 σ² ≡ E（对比：Cₙ 产生多个操作）。
-- **σ² ≡ E**：反映一次再反映回来，所有点回到 initial / identical position（Frame 1.10）。
-- 平面分子总有一个位于分子平面内的镜面（"A flat molecule will always have a plane in the molecular plane"），如水（Frame 1.10）。
+- 所有平面型形状都具有的对称元素：对称面（即镜面），符号 **σ**。
+- 镜面元素**只产生一个操作**：在面内的反映——因为做两次即 σ² ≡ E（对比：Cₙ 产生多个操作）。
+- **σ² ≡ E**：反映一次再反映回来，所有点回到初始位置（即完全相同的位置）（Frame 1.10）。
+- 平面分子总有一个位于分子平面内的镜面，如水（Frame 1.10）。
 
 ### 4.2 例子：水分子 H2O
 
-- **σ** = the plane of the molecule（分子平面本身）。
-- **σ′** = 与 σ 垂直（at right angles to it）的第二个镜面，把两个 H 互换（reflects one H atom to the other）。
-- **C₂** 轴：twofold rotation axis，绕它转半圈；书强调 "A C₂ axis passing through space is the hardest of all symmetry elements to see"——穿过空间的 C₂ 轴是所有对称元素中最难看出的，建议用分子模型观察。方位：过 O 原子、平分 H–O–H 键角，即 σ 与 σ′ 两平面的交线。
-- 水的四个对称元素：**E、C₂、σ、σ′**（书原话 "Don't forget E!"，Frame 1.13）。
+- **σ** = 分子平面本身。
+- **σ′** = 与 σ 垂直的第二个镜面，把两个 H 互换（把一个 H 原子反映到另一个 H 原子的位置）。
+- **C₂** 轴：二重旋转轴，绕它转半圈；书强调：穿过空间的 C₂ 轴是所有对称元素中最难看出的，建议用分子模型观察。方位：过 O 原子、平分 H–O–H 键角，即 σ 与 σ′ 两平面的交线。
+- 水的四个对称元素：**E、C₂、σ、σ′**（书原话"别忘了 E！"，Frame 1.13）。
 - 每个元素在此都只产生一个操作，所以四个符号同时描述四个操作（Frame 1.13）。
-- pyridine（吡啶）：与 H2O 同为 flat molecule（平面分子），对称元素相同：E、C₂、σ、σ′（Frame 1.14）。
-- 这套对称操作的集合称为 **C2v point group（C2v 点群）**——书中仅点名（"more about this nomenclature later"），命名法留待后文展开（Frame 1.14）。
+- 吡啶：与 H2O 同为平面分子，对称元素相同：E、C₂、σ、σ′（Frame 1.14）。
+- 这套对称操作的集合称为 **C2v 点群**——书中仅点名，命名法留待后文展开（Frame 1.14）。
 
 ### 4.3 找镜面的规则
 
-- 规则原文：A plane must either pass through an atom, or else that type of atom must occur in pairs, symmetrically either side of the plane——镜面要么穿过某原子，要么该种原子必须成对、对称地分布在镜面两侧。
+- 规则：镜面要么穿过某原子，要么该种原子必须成对、对称地分布在镜面两侧。
 - 例 SOCl₂：镜面必须穿过 S 和 O（因为两者各只有一个）（Frame 1.15）。
 - 例 NH₃：镜面必须穿过 N（只有一个 N），并穿过至少一个 H（H 数目为奇数）（Frame 1.16）。
 
-## 5. 反演 i（inversion centre / centre of inversion）
+## 5. 反演 i
 
-- 定义：从任意点向分子中心连线，再向另一侧延长相等距离；若到达 equivalent point（等价点），则 inversion（反演）是对称操作（Frame 1.16）。
-- 例：staggered ethane（交错乙烷）有反演中心 i。
+- 定义：从任意点向分子中心连线，再向另一侧延长相等距离；若到达等价点，则反演是对称操作（Frame 1.16）。
+- 例：交错乙烷有反演中心 i。
 
-> [!note] N.B.
-> 反演操作无法在分子模型上物理操作完成（cannot be physically carried out on a model）。
+> [!note] 注意
+> 反演操作无法在分子模型上物理操作完成。
 
 - **i² ≡ E**，与 σ² ≡ E 同理（Frame 1.20）。
 - 反演中心可在分子内部空间（如乙烷、苯：所有原子成对分居两侧），也可在某个中心原子上（该种原子数目为奇）；因此 AB₃ 不可能有 i，AB₄ 可能有（Frame 1.17）。
 
-## 6. 非真旋转 Sₙ（improper rotation / rotation-reflection axis）＋ 交错乙烷 S₆
+## 6. 非真旋转 Sₙ ＋ 交错乙烷 S₆
 
 ### 6.1 定义
 
-- improper rotation（非真旋转），符号 **S**，下标 = order of the axis（轴的阶）。
-- 对称元素别称 rotation-reflection axis（旋转-反映轴）。
-- 操作 = rotation by 1/n of a turn, followed by reflection in a plane perpendicular to the axis：先绕轴转 1/n 圈，再在垂直于该轴的平面内反映。
-- 至此对称操作齐全：E、σ、Cₙ、i、Sₙ——书："Only one more is necessary in order to specify molecular symmetry completely."
+- 非真旋转，符号 **S**，下标 = 轴的阶。
+- 对称元素别称旋转-反映轴。
+- 操作 = 先绕轴转 1/n 圈，再在垂直于该轴的平面内反映。
+- 至此对称操作齐全：E、σ、Cₙ、i、Sₙ——书："只需再补充一个操作，就能完整描述分子对称性。"
 
 ### 6.2 例子：交错乙烷的 S₆
 
-- staggered ethane（交错乙烷）有 S₆ 轴：绕轴转 1/6 圈 + 在垂直平面内反映，得到与初态不可区分的构型。
+- 交错乙烷有 S₆ 轴：绕轴转 1/6 圈 + 在垂直平面内反映，得到与初态不可区分的构型。
 
-> [!note] N.B.
-> 单独的 C₆ 轴和 σ 平面都不存在（neither C₆ nor σ are present on their own）。此 σ 指垂直于轴的镜面；交错乙烷另有包含主轴的镜面，与此不同。
+> [!note] 注意
+> 单独的 C₆ 轴和 σ 平面都不存在。此 σ 指垂直于轴的镜面；交错乙烷另有包含主轴的镜面，与此不同。
 
-- 书中用"给图的一角做标记"（labelling one corner）追踪操作效果（Frames 1.20-1.22）。
+- 书中用"给图的一角做标记"追踪操作效果（Frames 1.20-1.22）。
 
 ### 6.3 S₆ 的幂与偶 n 规律
 
 - **S₆² ≡ C₃**：已累计转 2/6 圈（≡ C₃），反映两次（σ² ≡ E）（Frame 1.22）。
 - **S₆³ ≡ i**：累计转 3/6 圈（≡ C₂），反映 3 次（≡ σ 一次）；转半圈后接垂直面反映 ≡ 反演（Frame 1.23）。
 - **S₆⁴ ≡ C₃²**：累计转 4/6 圈（≡ C₃²），反映 4 次（≡ E）（Frame 1.24）。
-- **S₆⁵**：unique operation（独立操作，不等价于其他任何单一操作）。
-- **S₆⁶ ≡ E**；对任意偶 n 都成立：Sₙⁿ ≡ E（"This is again true for any Sₙ of even n"）。
-- 偶 n 一般规律（Frame 1.23）：若 n 为偶数且 n/2 为奇数，把 Sₙ 连续作用 n/2 次 ≡ i；按约定该操作不再单独计数（is then not counted by convention）。
-- 推论：若分子有 Sₙ（n 偶、n/2 奇，如 S₆），则必有 i；但反之不必然（converse is not necessarily true）——分子有 i 不保证有这种 Sₙ 轴（Frame 1.23）。
+- **S₆⁵**：独立操作（不等价于其他任何单一操作）。
+- **S₆⁶ ≡ E**；对任意偶 n 都成立：Sₙⁿ ≡ E。
+- 偶 n 一般规律（Frame 1.23）：若 n 为偶数且 n/2 为奇数，把 Sₙ 连续作用 n/2 次 ≡ i；按约定该操作不再单独计数。
+- 推论：若分子有 Sₙ（n 偶、n/2 奇，如 S₆），则必有 i；但反之不必然——分子有 i 不保证有这种 Sₙ 轴（Frame 1.23）。
 
 ### 6.4 奇 n：S₃ 与等边三角形
 
-- 与偶 n 情形不同：此时 Cₙ 轴与垂直镜面必须同时单独存在（the Cₙ axis and a perpendicular plane must both be present）——对比偶 n（S₆ 例中 C₆ 与 σ 单独都不存在）。
-- 作用 n 次不回到 E（"In contrast to S₆ and C₃, applying the operation n times ... does not bring us back to the identity"，S₃³ ≡ σ ≠ E）（Frame 1.25）。
-- 一般规律：n 为奇数时，Sₙ 作用 2n 次 ≡ E，因为旋转了整整两圈、反映了偶数次（rotated through two whole circles, and reflected an even number of times）（Frame 1.26）。
-- 等边三角形（equilateral triangle，给一顶点作标记）在 S₃ 下的幂次对照表（Frame 1.27）：
+- 与偶 n 情形不同：此时 Cₙ 轴与垂直镜面必须同时单独存在——对比偶 n（S₆ 例中 C₆ 与 σ 单独都不存在）。
+- 作用 n 次不回到 E（"与 S₆ 和 C₃ 不同，连续作用 n 次……不会回到恒等操作"，S₃³ ≡ σ ≠ E）（Frame 1.25）。
+- 一般规律：n 为奇数时，Sₙ 作用 2n 次 ≡ E，因为旋转了整整两圈、反映了偶数次（Frame 1.26）。
+- 等边三角形（给一顶点作标记）在 S₃ 下的幂次对照表（Frame 1.27）：
 
 | S₃ | S₃² | S₃³ | S₃⁴ | S₃⁵ | S₃⁶ |
 |----|-----|-----|-----|-----|-----|
 | S₃（本身） | C₃² | σ | C₃ | S₃⁵（独立） | E |
 
-- 约定（convention）：由 S₃ 元素产生的操作中，只把 S₃ 与 S₃⁵ 计为 distinct operations（独立操作），其余都等价于其他元素产生的操作（Frame 1.27）。
+- 约定：由 S₃ 元素产生的操作中，只把 S₃ 与 S₃⁵ 计为独立操作，其余都等价于其他元素产生的操作（Frame 1.27）。
 
 > 来源：Alan Vincent, *Molecular Symmetry and Group Theory*, Programme 1 "Symmetry Elements and Operations"，正文 pp.1-12（Frame 1.1-1.27）；当前阅读进度至 p.10-11（Frame 1.24-1.25）。

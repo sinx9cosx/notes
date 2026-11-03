@@ -4,8 +4,8 @@
   "title": "Organize molecular symmetry notes from PDF",
   "titleGenerationStatus": "success",
   "createdAt": 1793718945544,
-  "updatedAt": 1793720236145,
-  "lastResponseAt": 1793720236144,
+  "updatedAt": 1793721070320,
+  "lastResponseAt": 1793721070320,
   "sessionId": "e81959ef-cf30-4aa9-8fb4-8a55586fc5ab",
   "providerState": {
     "providerSessionId": "e81959ef-cf30-4aa9-8fb4-8a55586fc5ab",
@@ -360,14 +360,14 @@
       }
     }
   },
-  "currentNote": "Symmetry Operations.md",
+  "currentNote": "Molecular-Symmetry/Symmetry Operations.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 4189,
+    "inputTokens": 65,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 43008,
+    "cacheReadInputTokens": 65024,
     "contextWindow": 200000,
-    "contextTokens": 47197,
-    "percentage": 24
+    "contextTokens": 65089,
+    "percentage": 33
   }
 }
