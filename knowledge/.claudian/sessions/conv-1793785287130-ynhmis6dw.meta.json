@@ -1,0 +1,216 @@
+{
+  "id": "conv-1793785287130-ynhmis6dw",
+  "providerId": "claude",
+  "title": "Rewrite note to match template structure",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793785287131,
+  "updatedAt": 1793785592741,
+  "lastResponseAt": 1793785592741,
+  "sessionId": "012e5e81-7e98-4299-bc90-a7c62540d4da",
+  "providerState": {
+    "providerSessionId": "012e5e81-7e98-4299-bc90-a7c62540d4da",
+    "subagentData": {
+      "call_00_HfgxqCi9KfT076odehmQ1147": {
+        "id": "call_00_HfgxqCi9KfT076odehmQ1147",
+        "description": "核对素材卡格式产出蓝本",
+        "prompt": "你在一个 Obsidian 笔记库中工作，工作目录是 F:\\obsidian_notes\\knowledge。请用绝对路径访问文件。\n\n任务：核对「TOEFL/素材卡/」目录下全部素材卡的格式约定，然后为「TOEFL/素材卡/口语素材卡17-朋友冲突.md」产出一份完整的改写蓝本（逐字逐句的目标文件内容）。这是纯只读任务，禁止修改或创建任何文件。\n\n背景：目录内有素材卡1~17共17个 md 文件。素材卡17目前只有 frontmatter + 三段英文回答，缺少其他卡片的统一结构。需要把它改写为同目录其他卡片的统一结构。\n\n第一步（格式核对）：通读 TOEFL/素材卡/ 下除17外的全部16篇笔记，总结主流格式约定，重点核对：\n1. frontmatter 字段顺序（tags 在前还是 Category 在前）和字段值写法\n2. 「# 骨架」的写法：条目是「- **人物**：」还是「**人物**: 」形式？冒号是中文还是英文？有 4 条（人物/事件/时间/感受）还是分正面事例/反面事例？\n3. 「# 短语块」的写法：粗体短语 + 英文例句，条数大致多少\n4. 「# 万能接口句」的写法：句子是否加引号？「适用题目/适用话题」用中文还是英文罗列？\n5. 「# 卡片对应的完整示范回答」的长度风格（大致几句）\n\n第二步（产出蓝本）：基于素材卡17的原文语义，产出改写后的完整文件内容。原文如下：\n\n---\nCategory:\n  - 笔记\ntags:\n  - English\n---\n\n\nI'd handle disagreements with friends mainly through honest communication, and if we really can't agree, I respect their choice.\n\nLast semester, my friends and I worked on a group project and our opinions clashed — I wanted to make a poster, but they preferred a slideshow. Instead of insisting on my idea, I listened to everyone's reasons first. After a thorough discussion, we came up with a compromise that combined both ideas. In the end, we finished ahead of schedule and got a great grade.\n\nSo I believe open communication can resolve most disagreements. And even when it can't, respecting each other's choices is what keeps a friendship strong.\n\n蓝本要求：\n- frontmatter 对齐主流格式\n- 骨架四要素（人物/事件/时间/感受），内容从原文提取\n- 短语块 4~6 条，每条：**粗体短语**: 含该短语的英文例句。短语从原文提取（如 handle disagreements through honest communication / our opinions clashed / instead of insisting on my idea / come up with a compromise / finish ahead of schedule / respect each other's choices），例句需完整自然\n- 万能接口句一句 + 适用题目列表（语言风格对齐主流写法，适合的题目如 disagreement / conflict with friends / group work / communication / compromise 等）\n- 完整示范回答：完整保留原文三段英文的语义，衔接润色成一段流畅回答，长度与其他卡片一致\n- 只改结构不改内容，不得新增原文没有的事实\n\n返回格式：\n1. 格式核对结论（简要，指出主流格式）\n2. 改写蓝本：完整的最终 markdown 文件内容（放在代码块中）",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_Q2WQCzhXqvb1o5txuWA86324",
+            "name": "Glob",
+            "input": {
+              "pattern": "TOEFL/素材卡/*.md",
+              "path": "F:\\obsidian_notes\\knowledge"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "TOEFL\\素材卡\\口语素材卡2-和家人公园散步.md\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md\nTOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md\nTOEFL\\素材卡\\口语素材卡1-初中好友.md\nTOEFL\\素材卡\\口语素材卡13-社团.md\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md\nTOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md\nTOEFL\\素材卡\\口语素材卡17-朋友冲突.md"
+          },
+          {
+            "id": "call_00_6Gi1BkqwMkeaUwB2sIMd5910",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡1-初中好友.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t- **人物**：close friend from junior high\n10\t- **事件**：park → bench → he wants to be a doctor, I have no idea about my future\n11\t- **时间**：last month\n12\t- **感受**：connected and understood\n13\t\n14\t# 短语块\n15\t\n16\t- **have no idea about my future**: I honestly said I still have no idea about my future.\n17\t- **feel connected and understood**: That talk made me feel connected and understood, even though we rarely meet now.\n18\t\n19\t# 万能接口句\n20\t\n21\tThat's why I value quiet moments with close friends.\n22\t\n23\t适用话题：朋友 / 安静vs热闹 / 放松 / 重要的谈话\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tLast month, I met my close friend from junior high in the park. We sat on a bench and talked for a long time. He told me he wants to be a doctor, and I honestly said I still have no idea about my future. That talk made me feel connected and understood, even though we rarely meet now. That's why I value quiet moments with close friends.\n28\t"
+          },
+          {
+            "id": "call_01_4zrKwKOeguMmV7ernMTy3708",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡2-和家人公园散步.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: my family（含 I）\n10\t**事件**: took a walk in the park with my family\n11\t**时间**: last Sunday evening（比 every night 更好展开——锁定\"具体某一次\"）\n12\t**感受**: slow down and recharge / enjoy the peaceful moment\n13\t\n14\t# 短语块\n15\t\n16\t- **slow down and recharge**: After a busy week, taking a walk with my family helps me slow down and recharge.\n17\t- **enjoy the peaceful moment**: We just enjoy the peaceful moment together, without phones or worries.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"It's the best way for my family to slow down and recharge after a busy week.\"\n22\t\n23\t适用题目：family activity / how you relax / weekends / health / balance between study and life\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tLast Sunday evening, I took a walk in the park with my family. We walked slowly along the lake and talked about our week. There was no phone, no homework — just the peaceful evening. It was the best way for us to slow down and recharge after a busy week. That's why I think simple outdoor activities matter more than expensive entertainment.\n28\t"
+          },
+          {
+            "id": "call_02_89oHxVRUWPEDmOcfj8C66355",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t**人物**: my classmates（含 I）\n9\t**事件**: went on a trip together; didn't ask my parents for advice like I used to; solved everything by ourselves, from choosing a restaurant to dealing with a missed train\n10\t**时间**: last time I went on a trip with my classmates（可锁定为 last summer vacation 展开）\n11\t**感受**: felt nervous at first, but proud at the end — more capable and mature\n12\t\n13\t# 短语块\n14\t\n15\t- **handle problems on our own**: We handled everything on our own, even a missed train.\n16\t- **boost independence and confidence**: Travelling with my classmates really boosted my independence and confidence.\n17\t\n18\t# 万能接口句\n19\t\n20\t\"Small experiences like these make me feel more capable and mature.\"\n21\t\n22\t适用题目：travel / independence / confidence / learn from experience / growing up / teamwork\n23\t\n24\t# 卡片对应的完整示范回答\n25\t\n26\tLast time I went on a trip with my classmates, I didn't ask my parents for advice like I used to. We solved everything by ourselves, from choosing a restaurant to dealing with a missed train. At first I was a little nervous, but by the end of the trip I felt really proud. Small experiences like these make me feel more capable and mature. That's why I believe travelling is a great chance to boost independence and confidence.\n27\t"
+          },
+          {
+            "id": "call_03_GcPya9PSux2uEVvneCZj4452",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: my friends（含 I）\n10\t**事件**: jogged in the park near our campus; about half an hour; then grabbed a drink together\n11\t**时间**: usually after class\n12\t**感受**: refreshed me both physically and mentally; friends push me to show up even when I feel lazy\n13\t\n14\t# 短语块\n15\t\n16\t- **breathe some fresh air**: Jogging in the park lets me breathe some fresh air after exhausting schoolwork.\n17\t- **grab a drink (together)**: After jogging for about half an hour, we grab a drink together.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"It's a great way to breathe some fresh air and relax after exhausting schoolwork.\"\n22\t\n23\t适用题目：exercise / free time / how you relax / health / friends / outdoor activities / morning or night\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tAfter a long day at school last Friday, I went jogging with my friends in the park near our campus. We jogged for about half an hour, chatting and laughing along the way, and then we grabbed a drink together. It refreshed me both physically and mentally. My friends also keep me going — on days when I feel lazy, they push me to show up. That's why I prefer exercising with friends: it's a great way to breathe some fresh air and relax after exhausting schoolwork.\n28\t"
+          },
+          {
+            "id": "call_04_u5IUQ1RlIuWGHBHiS17Q2244",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: my mom（含 I）\n10\t**事件**: bought a birthday gift for my mom online — compared prices, picked one she would like, without leaving my room; had hundreds of options to choose from\n11\t**时间**: last week\n12\t**感受**: so convenient — can't imagine getting through a day without technology\n13\t\n14\t# 短语块\n15\t\n16\t- **do (most of) my shopping online**: I do most of my shopping online because it saves me a lot of time.\n17\t- **have hundreds of options to choose from**: Online shops give me hundreds of options to choose from.\n18\t# 万能接口句\n19\t\n20\t\"Last week I bought a birthday gift for my mom in ten minutes without leaving my room.\"\n21\t\n22\t适用题目：technology in daily life / online shopping / gifts / convenience / save time / do you like cooking...（任何\"科技带来便利\"题）\n23\t\n24\t# 卡片对应的完整示范回答\n25\t\n26\tTechnology is essential to my daily life. Last week I bought a birthday gift for my mom in ten minutes without even leaving my room. I just opened a shopping app, compared the prices, and picked the one she would like — there were hundreds of options to choose from. Honestly, I can't imagine getting through a day without technology. That's why I think online shopping is one of the most convenient things technology has brought us.\n27\t"
+          },
+          {
+            "id": "call_05_9csdXbnmUXViMO6PIDpz0046",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: a close friend（含 I）\n10\t**事件**: texted her about her exam; she replied \"fine\"; without seeing her face or hearing her tone, I was sure she was angry; spent the whole evening worrying; it turned out she was just busy — since then I send voice messages instead of plain text\n11\t**时间**: last month\n12\t**感受**: frustrated and worried → learned a lesson; hearing a voice makes meaning much clearer\n13\t\n14\t# 短语块\n15\t\n16\t- **without seeing her face or hearing her tone**: Without seeing her face or hearing her tone, I totally misread her message.\n17\t- **send voice messages instead of plain text**: Now I usually send voice messages instead of plain text.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"Without seeing her face or hearing her tone, I was sure she was angry with me.\"\n22\t\n23\t适用题目：technology frustration / online communication / misunderstanding / social media pros and cons / how you keep in touch with friends\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tYes, I've often felt frustrated while using technology. Last month I asked a friend about her exam, and she simply texted back \"fine.\" Without seeing her face or hearing her tone, I was sure she was angry with me, so I spent the whole evening worrying about it. It turned out she was just busy. Since then, I usually send voice messages instead of plain text, because hearing someone's voice makes their meaning much clearer. So online chats are useful, but they can easily cause misunderstandings.\n28\t"
+          },
+          {
+            "id": "call_06_QM2krpxiFa4qWIMgZH432027",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: my cousin\n10\t**事件**: got his first job last year as a prompt engineer — a job nobody had even heard of five years ago; companies like OpenAI and Deepseek are hiring engineers and data annotators in large numbers\n11\t**时间**: last year（对照：five years ago 这职业还不存在）\n12\t**感受**: amazed and excited — technology keeps creating new opportunities\n13\t\n14\t# 短语块\n15\t\n16\t- **a job nobody had heard of five years ago**: My cousin works as a prompt engineer, a job nobody had heard of five years ago.\n17\t- **create jobs that didn't exist before**: AI is creating jobs that simply didn't exist before.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"My cousin actually got his first job last year as a prompt engineer.\"\n22\t\n23\t适用题目：technology creates opportunities / future jobs / AI / new careers / what job will be popular / choose a major\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tDefinitely, technology creates new opportunities. As AI keeps growing fast, companies like OpenAI and Deepseek are hiring lots of engineers and data annotators. My cousin actually got his first job last year as a prompt engineer — a job nobody had even heard of five years ago. So in my view, technology doesn't take opportunities away; it keeps creating new ones. That's why I'm excited about the future job market.\n28\t"
+          },
+          {
+            "id": "call_07_vQe6x5bndiDhz9UPLMgi4407",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: I（+ AI 工具）\n10\t**事件**: when I search for information with AI, I always double-check the facts using different sources; it forces me to compare and judge instead of just accepting answers\n11\t**时间**: whenever I use AI for homework（习惯，可锁定为\"上周查一个课题\"展开）\n12\t**感受**: AI actually trains my brain — technology itself is not the problem, the user is\n13\t\n14\t# 短语块\n15\t\n16\t- **double-check the facts using different sources**: Whenever I use AI, I double-check the facts using different sources.\n17\t- **compare and judge instead of just accepting**: This forces me to compare and judge instead of just accepting answers.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"Technology itself is not the problem — the user is.\"\n22\t\n23\t适用题目：relying on technology / independent thinking / critical thinking / AI and students / how to use technology wisely\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tSome people say relying on technology makes our thinking lazy, but I think it depends on how you use it. For example, when I search for information with AI, I always double-check the facts using different sources. That forces me to compare and judge instead of just accepting answers. Used this way, AI actually trains my brain instead of weakening it. So technology itself is not the problem — the user is.\n28\t"
+          },
+          {
+            "id": "call_00_rkVG8klZP8A5kKR8dh5L0460",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: I\n10\t**事件**: often print out notes and write homework on paper, but can't always use every page completely; instead of throwing those pages away, I reuse them — write class notes or draft speaking scripts on the back\n11\t**时间**: this semester（习惯，可锁定\"昨天整理讲义\"展开）\n12\t**感受**: doing my own part for the environment — makes me feel I'm not wasting resources\n13\t\n14\t# 短语块\n15\t\n16\t- **reuse ... instead of throwing (it) away**: Instead of throwing those pages away, I reuse them.\n17\t- **make full use of the paper**: I write my notes on the back to make full use of the paper.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"Instead of throwing those pages away, I reuse them.\"\n22\t\n23\t适用题目：do you recycle / environment / small actions that help the planet / saving resources / good habits\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tYes, I recycle paper regularly. I often print out notes or write my homework on paper, but I can't always use every page completely. So instead of throwing those pages away, I reuse them — I write my class notes or draft my speaking scripts on the back. That way, I make full use of the paper before it goes into the recycling bin. It's a small habit, but every little bit helps reduce waste.\n28\t"
+          },
+          {
+            "id": "call_01_7puDrzUK1b9if8S8CG8D4991",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: I（+ 手机 App）\n10\t**事件**: sometimes get confused about which category a piece of waste belongs to; open an app, search the item, and it tells me which bin it goes in\n11\t**时间**: whenever I sort waste at home（可锁定\"昨天扔一杯奶茶\"展开）\n12\t**感受**: no longer confused — a little technology makes recycling much easier\n13\t\n14\t# 短语块\n15\t\n16\t- **get confused about which category ... belongs to**: I sometimes get confused about which category a piece of waste belongs to.\n17\t- **search the item on an app**: I just search the item on an app, and it tells me which bin it goes in.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"I just search the item on my phone, and it tells me which bin it goes in.\"\n22\t\n23\t适用题目：difficulties of recycling / environment / how technology helps / solve problems / green lifestyle\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tRecycling sounds easy, but I do face one challenge: I sometimes get confused about which category a piece of waste belongs to. For example, yesterday I wasn't sure which bin a milk tea cup should go in. To deal with that, I use an app on my phone — I just search the item, and it tells me which bin it goes in. With a little help from technology, recycling becomes much easier. So when there's a will, there's a way.\n28\t"
+          },
+          {
+            "id": "call_02_4TQAgSp7kff06uvo78nu2821",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**：my family（含 I）\n10\t**事件**: moved to a house near my school in my last year of high school; could walk there in only five minutes; slept longer and arrived at school feeling more energetic\n11\t**时间**: in my last year of high school\n12\t**感受**: really improved my quality of life — location matters a lot\n13\t\n14\t# 短语块\n15\t\n16\t- **within walking distance (of)**: Our new house was within walking distance of my school.\n17\t- **improve my quality of life**: Moving closer to school really improved my quality of life.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"I could walk there in only five minutes, so I was able to sleep longer and feel more energetic.\"\n22\t\n23\t适用题目：where to live / commute / quality of life / time management / an important decision / live close to school or not\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tI definitely think location matters a lot. In my last year of high school, my family moved to a house near my school. I could walk there in only five minutes, so I was able to sleep longer and arrive at school feeling more energetic. Before that, I used to spend a lot of time on the road and always felt tired. That move really improved my quality of life. So in my opinion, living close to school or work is always worth it.\n28\t"
+          },
+          {
+            "id": "call_03_jSfka0BKL2OVqyuD5XeC1544",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t**人物**: I\n10\t**事件**: trained for a 10-kilometer race; set a goal of running every morning at 6 a.m.; put my alarm across the room so I had to get up; stuck with it for a month and finished the race\n11\t**时间**: last year\n12\t**感受**: hard, especially on cold days — but a real sense of achievement; taught me how to be persistent\n13\t\n14\t# 短语块\n15\t\n16\t- **stick with it**: It was hard, but I stuck with it for a whole month.\n17\t- **a (real) sense of achievement**: Finishing the race gave me a real sense of achievement.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"That experience taught me how to be persistent.\"\n22\t\n23\t适用题目：set goals / overcome difficulties / self-discipline / sports / a sense of achievement / healthy habits / morning person\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tYes, I set goals regularly, because clear goals give me direction and keep me self-disciplined. For example, last year I trained for a 10-kilometer race. I set a goal of running every morning at 6 a.m., and I put my alarm across the room so I had to get up. It was hard, especially on cold days, but I stuck with it for a month and finally finished the race. That experience taught me how to be persistent. So setting goals is essential for me — not just for fitness, but for building self-discipline.\n28\t"
+          },
+          {
+            "id": "call_04_ZSkU9bHZtCDkuAu671gY0730",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡13-社团.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t- **人物**：I\n10\t- **事件**：join the running club->jog with club members in the school twice a week\n11\t- **时间**：since I went to college\n12\t- **感受**：improve physical health, enjoy exercising, relax after a long day of school work\n13\t\n14\t# 短语块\n15\t\n16\t- **improve my physical health**: Jogging with club members twice a week has really improved my physical health.\n17\t- **relax after a long day**: Running with the group helps me relax after a long day of schoolwork, especially when I'm stressed about assignments.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"Joining a club is a great way to stay active and meet like-minded people.\"\n22\t\n23\t适用题目：clubs and activities / exercise / how you relax / making friends / campus life / healthy habits\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tSince I went to college, I joined the running club and jog with club members twice a week on campus. We usually meet in the late afternoon, run a few laps around the track, and stretch together. It has really improved my physical health, and I now enjoy exercising more than before. More importantly, it helps me relax after a long day of schoolwork — when I run with the group, I can forget about my assignments for a while. That's why I think joining a club is a great way to stay active and meet like-minded people.\n28\t\n29\t"
+          },
+          {
+            "id": "call_05_2iHlRwYGOmooMi9eX8FX9149",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡14-预算习惯.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t- **人物**：I\n10\t- **事件**：use a budgeting app to keep track of what I spend every month, the AI in the app analyzes my records and helps me make future plans\n11\t- **时间**：since I went to college\n12\t- **感受**：feel clear about my consumption habits, raise my awareness of managing money\n13\t\n14\t# 短语块\n15\t\n16\t- **keep track of what I spend**: The budgeting app helps me keep track of what I spend every month.\n17\t- **raise my awareness of managing money**: Keeping a monthly record has really raised my awareness of managing money.\n18\t\n19\t# 万能接口句\n20\t\n21\t\"Managing money is a habit everyone should build in college.\"\n22\t\n23\t适用题目：money management / a useful app / habits / technology helps / personal growth / saving money\n24\t\n25\t# 卡片对应的完整示范回答\n26\t\n27\tSince I went to college, I have been using a budgeting app to keep track of what I spend every month. Whenever I buy something, I enter it into the app, and the AI in the app analyzes my records and helps me make future plans. Thanks to that, I now feel clear about my consumption habits, and I have raised my awareness of managing money. I no longer spend money without thinking, and I even started saving a little each month. That's why I believe managing money is a habit everyone should build in college.\n28\t"
+          },
+          {
+            "id": "call_06_rCGCn5LKxpzysnrx7Ffa2708",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡15-学习外语的好处.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 骨架\n8\t\n9\t正面事例\n10\t- **人物**：I\n11\t- **事件**：read an English scholar article without translator\n12\t- **时间**：for my schoolwork\n13\t- **感受**：clearly understand the author's meaning\n14\t\n15\t反面事例\n16\t\n17\t- **人物**：I\n18\t- **事件**：went to Japan but didn't understand Japanese\n19\t- **时间**：last summer\n20\t- **感受**：difficult to communicate with local people\n21\t\n22\t# 短语块\n23\t\n24\t- **understand the author's meaning**: For my schoolwork, I read an English scholarly article without a translator and could clearly understand the author's meaning.\n25\t- **communicate with local people**: Last summer in Japan, I found it difficult to communicate with local people because I didn't understand Japanese.\n26\t\n27\t# 万能接口句\n28\t\n29\t\"Learning a foreign language makes a real difference — in study, travel, and daily communication.\"\n30\t\n31\t适用题目：learning a foreign language / travel / communication / tools like translation apps / reading / studying abroad / benefits of learning languages\n32\t\n33\t# 卡片对应的完整示范回答\n34\t\n35\tI believe learning a foreign language is really worth the effort. For my schoolwork, I once read an English scholarly article without a translator, and I could clearly understand the author's meaning — something I could never have done without my English skills. However, last summer, when I went to Japan, I didn't understand Japanese at all, so it was difficult to communicate with local people, and even ordering food became a struggle. Looking back at these two experiences, I clearly see how much of a difference knowing a language can make. So I would say learning a foreign language makes a real difference — in study, travel, and daily communication.\n36\t"
+          },
+          {
+            "id": "call_07_kiS0sZI0993vG5y3GWdr7737",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡16-奶茶袋子再利用.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t\n8\t# 骨架\n9\t\n10\t**人物**: I\n11\t**事件**: always keep the paper bag instead of throwing it away after buying milk tea; the bags are strong and waterproof, so I reuse them in many ways — carry my lunch box to school, use them as trash bags or to store books\n12\t**时间**: every time I buy milk tea（习惯，可锁定\"昨天买奶茶\"展开）\n13\t**感受**: doing my own part for the environment — a small thing that adds up to millions of bags saved\n14\t\n15\t# 短语块\n16\t\n17\t- **keep the paper bag instead of throwing it away**: When I buy milk tea, I always keep the paper bag instead of throwing it away.\n18\t- **strong and waterproof**: These bags are actually very strong and waterproof, so I reuse them in many ways.\n19\t- **carry my lunch box / use them as trash bags**: I use them to carry my lunch box to school, and sometimes I use them as trash bags or to store my books.\n20\t- **protect the environment**: It sounds like a small thing, but if everyone does this, we can save a lot of paper and protect the environment.\n21\t- **reuse what we already have**: Of course companies should use less packaging, but before that, we can reuse what we already have.\n22\t\n23\t# 万能接口句\n24\t\n25\t\"It sounds like a small thing, but if every customer reuses just one bag, that's millions of bags saved every day.\"\n26\t\n27\t适用题目：environment / what individuals can do for the environment / saving resources / recycling / young people's environmental awareness / should companies use less packaging\n28\t\n29\t# 卡片对应的完整示范回答\n30\t\n31\tWhen I buy milk tea, I always keep the paper bag instead of throwing it away. These bags are actually very strong and waterproof, so I reuse them in many ways. For example, I use them to carry my lunch box to school, and sometimes I use them as trash bags or to store my books. My friends do the same thing, and we even compare whose bag design is the prettiest. It sounds like a small thing, but if every customer reuses just one bag, that's millions of bags saved every day.\n32\t"
+          },
+          {
+            "id": "call_08_M1DRR2ikxQh3r1IKXgbe8684",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡17-朋友冲突.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tCategory:\n3\t  - 笔记\n4\ttags:\n5\t  - English\n6\t---\n7\t\n8\t\n9\tI'd handle disagreements with friends mainly through honest communication, and if we really can't agree, I respect their choice.\n10\t\n11\tLast semester, my friends and I worked on a group project and our opinions clashed — I wanted to make a poster, but they preferred a slideshow. Instead of insisting on my idea, I listened to everyone's reasons first. After a thorough discussion, we came up with a compromise that combined both ideas. In the end, we finished ahead of schedule and got a great grade.\n12\t\n13\tSo I believe open communication can resolve most disagreements. And even when it can't, respecting each other's choices is what keeps a friendship strong."
+          }
+        ],
+        "isExpanded": false,
+        "result": "16 篇全部通读完毕，素材卡17 原文也已确认。以下为核对结论与改写蓝本。\n\n## 一、格式核对结论\n\n**1. frontmatter 字段顺序**：16/16 篇全部为 `tags` 在前、`Category` 在后，值写法为 YAML 列表（`- English` / `- 笔记`）。素材卡17 目前顺序相反（Category 在前），需对调。\n\n**2. 「# 骨架」**：主流形式（11/16）为**无列表符号 + 半角冒号**的 `**人物**: my friends（含 I）` 四要素（人物/事件/时间/感受），每条一行、中间无空行；值用英文，可加中文括注（如「（含 I）」「（可锁定…展开）」）。仅卡1、13、14、15 使用旧式 `- **人物**：`（破折号 + 全角冒号）；仅卡15 拆成「正面事例/反面事例」。卡17 是单一正面故事，按主流四要素处理。\n\n**3. 「# 短语块」**：每条 `- **粗体短语**: 完整英文例句。`（短语后为**半角冒号**）。条数多为 2 条，卡16 多达 5 条——2~5 条均为正常范围，按你要求的 4~6 条取 6 条。\n\n**4. 「# 万能接口句」**：15/16 篇用**双引号包裹**的一句英文；下一行写 `适用题目：`（**中文冒号**）+ 英文题目关键词，以 ` / ` 分隔（仅卡1 用「适用话题」+ 中文罗列，属旧式）。\n\n**5. 「# 卡片对应的完整示范回答」**：单个英文段落，约 5~7 句：交代立场 → 展开事例（时间/冲突/转折/结果）→ 结尾一句总结观点。\n\n## 二、改写蓝本\n\n```markdown\n---\ntags:\n  - English\nCategory:\n  - 笔记\n---\n\n# 骨架\n\n**人物**: my friends（含 I）\n**事件**: worked on a group project and our opinions clashed — I wanted to make a poster, but they preferred a slideshow; instead of insisting on my idea, I listened to everyone's reasons first, and we came up with a compromise that combined both ideas\n**时间**: last semester\n**感受**: open communication can resolve most disagreements; respecting each other's choices keeps a friendship strong\n\n# 短语块\n\n- **handle disagreements through honest communication**: I'd handle disagreements with friends mainly through honest communication.\n- **our opinions clashed**: Last semester, my friends and I worked on a group project and our opinions clashed.\n- **instead of insisting on my idea**: Instead of insisting on my idea, I listened to everyone's reasons first.\n- **come up with a compromise**: After a thorough discussion, we came up with a compromise that combined both ideas.\n- **finish ahead of schedule**: In the end, we finished ahead of schedule and got a great grade.\n- **respect each other's choices**: Even when we can't agree, respecting each other's choices is what keeps a friendship strong.\n\n# 万能接口句\n\n\"Open communication can resolve most disagreements, and respecting each other's choices is what keeps a friendship strong.\"\n\n适用题目：disagreement / conflict with friends / group work / communication / compromise / teamwork\n\n# 卡片对应的完整示范回答\n\nI'd handle disagreements with friends mainly through honest communication. Last semester, my friends and I worked on a group project and our opinions clashed — I wanted to make a poster, but they preferred a slideshow. Instead of insisting on my idea, I listened to everyone's reasons first. After a thorough discussion, we came up with a compromise that combined both ideas. In the end, we finished ahead of schedule and got a great grade. So I believe open communication can resolve most disagreements. And even when it can't, respecting each other's choices is what keeps a friendship strong.\n```\n\n**蓝本说明**\n- frontmatter 对调为 `tags` → `Category`，与全部 16 篇一致。\n- 骨架采用主流无列表符号、半角冒号四要素；人物按惯例加「（含 I）」，事件/时间/感受全部从原文提炼，无新增事实。\n- 短语块 6 条全部来自原文语义，例句为完整自然句，均直接或轻微改造自原文（如「I'd handle…」直接取自首段）。\n- 万能接口句带双引号，`适用题目` 用英文关键词 + ` / ` 分隔，覆盖 conflict/group work/communication/compromise 等适用方向。\n- 完整示范回答为一段 7 句：完整保留原文三段语义（态度立场 → 事例经过 → 结论升华），仅做衔接润色（第二、三段之间用「So I believe…」衔接），长度与卡2、卡3、卡12 等同档。\n\n参考文件（绝对路径）：\n- F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡1-初中好友.md ~ 口语素材卡16-奶茶袋子再利用.md（16 篇格式基准）\n- F:\\obsidian_notes\\knowledge\\TOEFL\\素材卡\\口语素材卡17-朋友冲突.md（待改写对象）"
+      }
+    }
+  },
+  "currentNote": "TOEFL/素材卡/口语素材卡17-朋友冲突.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 103,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34944,
+    "contextWindow": 200000,
+    "contextTokens": 35047,
+    "percentage": 18
+  }
+}
