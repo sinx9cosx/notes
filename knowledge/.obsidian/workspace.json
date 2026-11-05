@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
+                "file": "physchem-2/9-溶液的基本性质/5.1-稀溶液的依数性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.5-活度与混合广度性质"
+              "title": "5.1-稀溶液的依数性"
+            }
+          },
+          {
+            "id": "9cb7d0b761fab549",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physchem-2/9-溶液的基本性质/5.1-稀溶液的依数性.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5.1-稀溶液的依数性"
             }
           },
           {
@@ -49,7 +63,8 @@
               "title": "口语素材卡17-朋友冲突"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
+                "file": "physchem-2/9-溶液的基本性质/5.1-稀溶液的依数性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -228,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -246,10 +261,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5215997b869c6b2b",
+  "active": "9cb7d0b761fab549",
   "lastOpenFiles": [
+    "physchem-2/9-溶液的基本性质/5.2-凝固点降低.md",
+    "physchem-2/9-溶液的基本性质/5.1-稀溶液的依数性.md",
+    "physchem-2/9-溶液的基本性质/5.3-沸点升高.md",
     "physchem-2/9-溶液的基本性质/4.6-弱相互作用非理想溶液.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
+    "physchem-2/9-溶液的基本性质/4.1-非理想溶液与纳米簇.md",
+    "physchem-2/9-溶液的基本性质/4.7-活度因子与偏摩尔量.md",
     "physchem-2/image/10-tx.png",
     "physchem-2/image/10-px.png",
     "physchem-2/image/10-process.png",
@@ -266,11 +286,7 @@
     "physchem-2/image/9-boiling-point-elevation.png",
     "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/素材卡/口语素材卡17-朋友冲突.md",
-    "physchem-2/9-溶液的基本性质/4.7-活度因子与偏摩尔量.md",
     "physchem-2/9-溶液的基本性质/5.4-渗透压.md",
-    "physchem-2/9-溶液的基本性质/5.3-沸点升高.md",
-    "physchem-2/9-溶液的基本性质/5.2-凝固点降低.md",
-    "physchem-2/9-溶液的基本性质/5.1-稀溶液的依数性.md",
     "TOEFL/素材卡/口语素材卡11-搬家步行五分钟上学.md",
     "Molecular-Symmetry/Symmetry Operations.md",
     "Molecular-Symmetry/Symmetry Operations.md.tmp.17792.957205620b78",
@@ -289,7 +305,6 @@
     "TOEFL/口语复述/真题/生活场景-船舶展览.md",
     "TOEFL/模拟面试/新能源模拟面试.md",
     "TOEFL/模拟面试/新能源与节约资源.md",
-    "TOEFL/模拟面试/通勤时间.md",
     "sci_research/image/激发态动力学.png",
     "sci_research/image/c77158383fbd2a4d5b187c13a90cdb75.png",
     "sci_research/image/暗态.png",

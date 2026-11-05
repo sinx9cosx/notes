@@ -1,0 +1,23 @@
+{
+  "id": "conv-1793875923336-3rt90hrvs",
+  "providerId": "claude",
+  "title": "Summarize chapter structure and connections",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793875923336,
+  "updatedAt": 1793875952999,
+  "lastResponseAt": 1793875952999,
+  "sessionId": "6a01d578-4be4-4339-80ac-a4090a3571b0",
+  "providerState": {
+    "providerSessionId": "6a01d578-4be4-4339-80ac-a4090a3571b0"
+  },
+  "currentNote": "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1398,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30080,
+    "contextWindow": 200000,
+    "contextTokens": 31478,
+    "percentage": 16
+  }
+}
