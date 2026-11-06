@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/模拟面试/两周口语练习计划.md",
+                "file": "molecular-simulation/分子模拟课后作业4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "两周口语练习计划"
+              "title": "分子模拟课后作业4"
+            }
+          },
+          {
+            "id": "f7d8f8563fb40d40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "molecular-simulation/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           },
           {
@@ -119,7 +133,8 @@
               "title": "口语素材卡17-朋友冲突"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/模拟面试/两周口语练习计划.md",
+                "file": "molecular-simulation/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -316,8 +331,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5215997b869c6b2b",
+  "active": "f7d8f8563fb40d40",
   "lastOpenFiles": [
+    "molecular-simulation/分子模拟课后作业4.md",
+    "molecular-simulation/未命名.md",
+    "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/口语复述/TPO/生活场景-博物馆.md",
     "TOEFL/写作练习/邮件.md",
     "TOEFL/写作练习/学术讨论.md",
@@ -351,10 +369,7 @@
     "physchem-2/image/9-osmosis.png",
     "physchem-2/image/9-freezing-point-depression.png",
     "physchem-2/image/9-boiling-point-elevation.png",
-    "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/素材卡/口语素材卡17-朋友冲突.md",
-    "physchem-2/9-溶液的基本性质/5.4-渗透压.md",
-    "TOEFL/素材卡/口语素材卡11-搬家步行五分钟上学.md",
     "Molecular-Symmetry/Symmetry Operations.md.tmp.17792.957205620b78",
     "Molecular-Symmetry/Symmetry Operations.md.tmp.17792.ddd031fe0318",
     "Molecular-Symmetry/Symmetry Operations.md.tmp.17792.6aa106ff866a",
