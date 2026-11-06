@@ -1,0 +1,23 @@
+{
+  "id": "conv-1793973051849-j4e3tm1qi",
+  "providerId": "claude",
+  "title": "Reformat Obsidian markdown bold, spacing, math",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793973051850,
+  "updatedAt": 1793973143596,
+  "lastResponseAt": 1793973143596,
+  "sessionId": "4b17d94e-9b32-424b-be91-db1be16a8920",
+  "providerState": {
+    "providerSessionId": "4b17d94e-9b32-424b-be91-db1be16a8920"
+  },
+  "currentNote": "molecular-simulation/分子模拟课后作业6.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1068,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33408,
+    "contextWindow": 200000,
+    "contextTokens": 34476,
+    "percentage": 17
+  }
+}
