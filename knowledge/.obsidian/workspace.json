@@ -133,8 +133,7 @@
               "title": "口语素材卡17-朋友冲突"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecular-simulation/分子模拟课后作业6.md",
+                "file": "molecular-simulation/分子模拟课后作业4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -331,10 +330,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "5215997b869c6b2b",
   "lastOpenFiles": [
-    "molecular-simulation/分子模拟课后作业4.md",
     "molecular-simulation/分子模拟课后作业6.md",
+    "molecular-simulation/分子模拟课后作业4.md",
     "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/口语复述/TPO/生活场景-博物馆.md",
     "TOEFL/写作练习/邮件.md",
