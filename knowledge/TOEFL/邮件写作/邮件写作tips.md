@@ -4,7 +4,17 @@ tags:
 Category:
   - 笔记
 ---
+称呼Dear xxx
+开场白（一句话点出来意）Thank you for considering my application for the summer internship in your company.
 
+正文3段题干的三个任务，每段2-3句话，先回应应该点，再补充解释和细节
+
+结尾收束一句固定表达，如Please let me know if you need any further information from me
+
+落款Best regards,
+Tom
+
+## 收件人
 
 这道题不看你词藻多华丽，而是看你能不能把事说清楚。教授让你确认时间、同学让你补资料、教务让你更新信息，都是办事场景。
 一、先分清收件人
@@ -22,10 +32,14 @@ Category:
 	【模板句】 开头：I am sending over [材料] as requested. 
 	中间：Attached please find [附件]. If you need more details, I can provide them. 
 	结尾：Thank you for your patience. I appreciate it. 
+	[[找实习]]
+	
 3. 同步进度型 【场景】：汇报项目、作业、小组任务进展。 
 	【模板句】 开头：Here is a quick update on [任务]. 
 	中间：I have completed [内容]. Next, I will focus on [下一步]. 
 	结尾：Please let me know if you have any advice. Thanks for your guidance. 
+	[[询问朋友帮忙动物救助慈善活动]]
+	
 4. 跟进回复型 【场景】：之前邮件没回、活动未确认、同学未答复。
 	【模板句】 开头：I am checking in on my earlier note about [事情]. 
 	中间：I know you may be busy. When you have a moment, could you share [问题]? 
@@ -36,7 +50,9 @@ Category:
 	结尾：Thank you for your attention. I hope this can be resolved soon.
 	[[公寓管道问题]]
 	[[社区设施修缮]]
-	
+	[[邻居沟通]]
+	[[邮件-餐厅issue]]
+	[[邮件-网课平台问题]]
 	
 6. 提建议型 【场景】：给教授/同学提方案、提议改进、推荐做法。
 	【模板句】 开头：I would like to suggest [建议] regarding [事情].
@@ -45,6 +61,9 @@ Category:
 	[[咖啡馆提建议]]
 	[[人生规划建议]]
 	[[学校建cafe的建议]]
+	[[感谢工作前辈]]
+
+## 模板句式
 
 三、一些干货tips 
 
