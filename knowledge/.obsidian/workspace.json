@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/词汇/AWL学术词汇表.md",
+                "file": "molecular-simulation/分子动力学模拟演化计算.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWL学术词汇表"
+              "title": "分子动力学模拟演化计算"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/词汇/AWL学术词汇表.md",
+                "file": "molecular-simulation/分子动力学模拟演化计算.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -235,13 +235,22 @@
   },
   "active": "46a7cae82d6c1f11",
   "lastOpenFiles": [
+    "instrument/MOMAP/MOMAP 5 NACME.md",
+    "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
+    "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
+    "instrument/linux/linux运行软件.md",
+    "instrument/linux/linux常用命令.md",
+    "computational-chem-tutorial/激发态和光谱计算2-NTO分析.md",
+    "computational-chem-tutorial/激发态和光谱计算.md",
+    "computational-chem-tutorial/分子轨道的定性分析.md",
+    "TOEFL/词汇/AWL学术词汇表.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
     "TOEFL/写作练习/邮件.md",
     "Molecular-Symmetry/Symmetry Operations.md",
     "sci_research/anti-kasha-paper/DHR概况.md",
     "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
     "sci_research/anti-kasha-paper/DHR文献计算细节.md",
-    "instrument/MOMAP/Huang-Rhys因子与电声耦合.md",
+    "computational-chem-tutorial/Huang-Rhys因子与电声耦合.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "molecular-simulation/GROMACS溶菌酶分子动力学模拟操作流程.md",
     "molecular-simulation/温度和压力与分子动能和分子间作用力的关系.md",
@@ -252,15 +261,6 @@
     "molecular-simulation/分子作用势.md",
     "molecular-simulation/分子模拟课后作业6.md",
     "molecular-simulation/分子模拟课后作业4.md",
-    "molecular-simulation/分子动力学模拟演化计算.md",
-    "TOEFL/写作练习/学术写作-社交媒体个性化.md",
-    "TOEFL/词汇/AWL学术词汇表.md",
-    "TOEFL/词汇/学科词汇.md",
-    "TOEFL/词汇/通用词汇.md",
-    "TOEFL/词汇/冠词和名词单复数.md",
-    "TOEFL/词汇/常犯语法错误.md",
-    "TOEFL/素材卡/口语素材卡1-初中好友.md",
-    "TOEFL/模拟面试/两周口语练习计划.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md.tmp.1352.ab79201e8697",
     "physchem-2/image/10-tx.png",
     "physchem-2/image/10-px.png",
