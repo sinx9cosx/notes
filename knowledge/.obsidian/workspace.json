@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/report/2-DHR复现进展.md",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-DHR复现进展"
+              "title": "TBR和TBRs分子对称性"
             }
           }
         ]
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/report/2-DHR复现进展.md",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,6 +220,7 @@
   },
   "active": "4ecbddf028fccda2",
   "lastOpenFiles": [
+    "sci_research/report/2-DHR复现进展.md",
     "sci_research/anti-kasha-paper/DHR复现计算/DHR后处理-s9（水）.md",
     "sci_research/anti-kasha-paper/DHR复现计算/DHR复现计算.md",
     "sci_research/anti-kasha-paper/反Kasha体的设计.md",
@@ -245,7 +246,6 @@
     "TOEFL/学术讨论/真题/品牌发展.md",
     "TOEFL/学术讨论/真题/快时尚产品的环保问题.md",
     "TOEFL/学术讨论/真题/线上学习.md",
-    "TOEFL/写作练习/邮件-感谢工作前辈.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md.tmp.1352.ab79201e8697",
     "physchem-2/image/10-tx.png",
     "physchem-2/image/10-px.png",
