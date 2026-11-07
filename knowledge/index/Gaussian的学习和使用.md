@@ -13,8 +13,6 @@ Category:
 
 [[zyq实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算]]
 
-[[TD-DFT calculation results]]
-
 [[激发态和光谱计算]]
 
 [[激发态和光谱计算2-NTO分析]]
