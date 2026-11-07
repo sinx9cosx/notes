@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index/TOEFL话题分类.md",
+                "file": "TOEFL/邮件写作/邮件写作tips.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TOEFL话题分类"
+              "title": "邮件写作tips"
             }
           },
           {
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index/TOEFL话题分类.md",
+                "file": "TOEFL/邮件写作/邮件写作tips.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -276,8 +276,17 @@
   },
   "active": "46a7cae82d6c1f11",
   "lastOpenFiles": [
-    "TOEFL/口语复述/TPO/生活场景-厨房陈设.md",
     "index/TOEFL话题分类.md",
+    "TOEFL/学术讨论/真题/品牌发展.md",
+    "TOEFL/学术讨论/真题/快时尚产品的环保问题.md",
+    "TOEFL/学术讨论/真题/线上学习.md",
+    "TOEFL/写作练习/邮件-感谢工作前辈.md",
+    "TOEFL/写作练习/学术讨论-社交媒体个性化.md",
+    "TOEFL/写作练习/学术讨论-最新产品购买.md",
+    "TOEFL/填词/真题/历史-工业革命.md",
+    "TOEFL/填词/TPO/地理-降水.md",
+    "TOEFL/填词/真题2/历史-城市化发展.md",
+    "TOEFL/口语复述/TPO/生活场景-厨房陈设.md",
     "TOEFL/口语复述/真题/生活场景-电子产品专卖.md",
     "TOEFL/口语复述/TPO/生活场景-文化节.md",
     "TOEFL/口语复述/真题/生活场景-动物园.md",
@@ -293,15 +302,6 @@
     "sci_research/report/课设汇报-1.md",
     "sci_research/report/1-TBR初步计算结果.md",
     "sci_research/anti-kasha-paper/DHR复现计算/DHR-二氯甲烷.md",
-    "sci_research/anti-kasha-paper/DHR文献计算细节.md",
-    "sci_research/anti-kasha-paper/DHR概况.md",
-    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
-    "sci_research/anti-kasha-paper/反Kasha体的设计.md",
-    "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
-    "sci_research/anti-kasha-paper/DHR复现计算/DHR复现计算.md",
-    "sci_research/anti-kasha-paper/DHR复现计算/Emission Spectra of DHR.md",
-    "sci_research/聚集诱导发光文献阅读/第一轮阅读（摘要+第一章）.md",
-    "sci_research/聚集诱导发光文献阅读/第一轮阅读（第2-6章小结+结论）.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md.tmp.1352.ab79201e8697",
     "physchem-2/image/10-tx.png",
     "physchem-2/image/10-px.png",

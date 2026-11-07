@@ -4,10 +4,14 @@ tags:
 Category:
   - 笔记
 ---
+
+
 这道题不看你词藻多华丽，而是看你能不能把事说清楚。教授让你确认时间、同学让你补资料、教务让你更新信息，都是办事场景。
 一、先分清收件人
 1. 给教授/教务：称呼用 Dear + 姓氏，结尾 Regards，语气稳，少缩写。
 2. 给同学/组员：称呼用 Hi + 名字，结尾 Thanks，语气自然，但别太随便。 
+
+## 题目类型
 
 二、提问类型常见就这几类：
 1. 确认安排型 【场景】：确认见面、链接、地点、截止时间。 
@@ -30,10 +34,17 @@ Category:
 	【模板句】 开头：I am writing to express my concern about [具体问题], which has caused [具体影响].
 	中间：Could you please look into this? I can provide [细节/证据] if needed.
 	结尾：Thank you for your attention. I hope this can be resolved soon.
+	[[公寓管道问题]]
+	[[社区设施修缮]]
+	
+	
 6. 提建议型 【场景】：给教授/同学提方案、提议改进、推荐做法。
 	【模板句】 开头：I would like to suggest [建议] regarding [事情].
 	中间：This might help with [好处]. Would you be open to [具体做法]?
 	结尾：I am happy to discuss further. Please let me know your thoughts.
+	[[咖啡馆提建议]]
+	[[人生规划建议]]
+	[[学校建cafe的建议]]
 
 三、一些干货tips 
 
