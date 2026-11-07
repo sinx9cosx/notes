@@ -7,7 +7,7 @@ Category:
 ---
 ## TBR
 
-s0:C2
+s0:C2={E,C2}
 
 s1:C2
 
