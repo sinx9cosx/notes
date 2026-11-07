@@ -37,8 +37,8 @@ s1结果：0.98422
 由一对空穴->电子轨道贡献
 97（空穴轨道）->98（电子轨道）：
   <table><tr>
-  <td align="center"><img src="DHR-s1-NTO-97.jpg" width="380"><br>97空穴</td>
-  <td align="center"><img src="DHR-s1-NTO-98.jpg" width="380"><br>98电子</td>
+  <td align="center"><img src="s1-NTO-97.png" width="380"><br>97空穴</td>
+  <td align="center"><img src="s1-NTO-98.png" width="380"><br>98电子</td>
   </tr></table>
 
 ---
@@ -46,20 +46,14 @@ s1结果：0.98422
 s9结果：主要由3对轨道贡献
 97->98(0.73127)
   <table><tr>
-  <td align="center"><img src="DHR-s9-97.jpg" width="380"><br>97空穴</td>
-  <td align="center"><img src="DHR-s9-98.jpg" width="380"><br>98电子</td>
+  <td align="center"><img src="s9-NTO-97.png" width="380"><br>97空穴</td>
+  <td align="center"><img src="s9-NTO-98.png" width="380"><br>98电子</td>
   </tr></table>
 
 96->99(0.14587)
   <table><tr>
-  <td align="center"><img src="DHR-s9-96.jpg" width="380"><br>96空穴</td>
-  <td align="center"><img src="DHR-s9-99.jpg" width="380"><br>99电子</td>
-  </tr></table>
-
-95->100(0.08428)
-  <table><tr>
-  <td align="center"><img src="DHR-s9-95.jpg" width="380"><br>95空穴</td>
-  <td align="center"><img src="DHR-s9-100.jpg" width="380"><br>100电子</td>
+  <td align="center"><img src="s9-NTO-96.png" width="380"><br>96空穴</td>
+  <td align="center"><img src="s9-NTO-99.png" width="380"><br>99电子</td>
   </tr></table>
 
 
