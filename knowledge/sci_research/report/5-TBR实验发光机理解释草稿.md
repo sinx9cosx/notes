@@ -22,6 +22,8 @@ Category:
   
 ---
 
+[[VMD作图]]
+
 ## 机理解释
 
 <mark style="background: #FFB86CA6;">机理解释：</mark>

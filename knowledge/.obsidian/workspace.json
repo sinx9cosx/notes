@@ -11,14 +11,38 @@
             "id": "46a7cae82d6c1f11",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "4d2c03630c34cfae",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "molecular-simulation/分子动力学模拟演化计算.md",
+                "file": "sci_research/TBR/Emission Spectra of TBR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "分子动力学模拟演化计算"
+              "title": "Emission Spectra of TBR"
+            }
+          },
+          {
+            "id": "6b64f6bddd0c9f03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sci_research/TBR/TBR计算汇总.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TBR计算汇总"
             }
           },
           {
@@ -35,7 +59,8 @@
               "title": "反Kasha体的设计"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -172,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecular-simulation/分子动力学模拟演化计算.md",
+                "file": "sci_research/TBR/TBR计算汇总.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -214,12 +239,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,34 +257,34 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "46a7cae82d6c1f11",
+  "active": "6b64f6bddd0c9f03",
   "lastOpenFiles": [
+    "sci_research/TBR/Emission Spectra of TBR.md",
+    "sci_research/TBR/TBR计算汇总.md",
+    "sci_research/TBR/s0与激发态s1的对比.md",
+    "sci_research/report/4-DHR和TBR计算光谱（二氯）.md",
+    "sci_research/report/5-TBR实验发光机理解释草稿.md",
+    "sci_research/report/课设汇报-1.md",
+    "sci_research/report/1-TBR初步计算结果.md",
+    "sci_research/anti-kasha-paper/DHR复现计算/DHR-二氯甲烷.md",
+    "sci_research/anti-kasha-paper/DHR文献计算细节.md",
+    "sci_research/anti-kasha-paper/DHR概况.md",
+    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
+    "sci_research/anti-kasha-paper/反Kasha体的设计.md",
+    "sci_research/anti-kasha-paper/26-8-19文献主要内容.md",
+    "sci_research/anti-kasha-paper/DHR复现计算/DHR复现计算.md",
+    "sci_research/anti-kasha-paper/DHR复现计算/Emission Spectra of DHR.md",
+    "sci_research/聚集诱导发光文献阅读/第一轮阅读（摘要+第一章）.md",
+    "sci_research/聚集诱导发光文献阅读/第一轮阅读（第2-6章小结+结论）.md",
+    "sci_research/聚集诱导发光文献阅读/第二轮阅读（总）.md",
+    "sci_research/聚集诱导发光文献阅读/第二轮阅读（第二章-QM-MM）.md",
+    "sci_research/聚集诱导发光文献阅读/第二轮阅读（第二章-分子光谱）.md",
+    "molecular-simulation/分子动力学模拟演化计算.md",
     "instrument/MOMAP/MOMAP 5 NACME.md",
     "instrument/MOMAP/MOMAP 4 荧光光谱计算.md",
     "instrument/MOMAP/MOMAP 3  Duschinsky旋转矩阵和振动分析.md",
     "instrument/linux/linux运行软件.md",
     "instrument/linux/linux常用命令.md",
-    "computational-chem-tutorial/激发态和光谱计算2-NTO分析.md",
-    "computational-chem-tutorial/激发态和光谱计算.md",
-    "computational-chem-tutorial/分子轨道的定性分析.md",
-    "TOEFL/词汇/AWL学术词汇表.md",
-    "sci_research/anti-kasha-paper/反Kasha体的设计.md",
-    "TOEFL/写作练习/邮件.md",
-    "Molecular-Symmetry/Symmetry Operations.md",
-    "sci_research/anti-kasha-paper/DHR概况.md",
-    "sci_research/anti-kasha-paper/DHR-文献光谱相关.md",
-    "sci_research/anti-kasha-paper/DHR文献计算细节.md",
-    "computational-chem-tutorial/Huang-Rhys因子与电声耦合.md",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "molecular-simulation/GROMACS溶菌酶分子动力学模拟操作流程.md",
-    "molecular-simulation/温度和压力与分子动能和分子间作用力的关系.md",
-    "molecular-simulation/维里定理.md",
-    "molecular-simulation/数据分析结果.md",
-    "molecular-simulation/模拟系综-不变量选择与等价性.md",
-    "molecular-simulation/模拟系综.md",
-    "molecular-simulation/分子作用势.md",
-    "molecular-simulation/分子模拟课后作业6.md",
-    "molecular-simulation/分子模拟课后作业4.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md.tmp.1352.ab79201e8697",
     "physchem-2/image/10-tx.png",
     "physchem-2/image/10-px.png",
