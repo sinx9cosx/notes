@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学术讨论-演讲是否讲故事"
+              "title": "TBR和TBRs分子对称性"
             }
           },
           {
@@ -66,8 +66,7 @@
               "title": "句子填充错题"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.canvas",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -264,15 +263,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "bf2a6718246a5c60",
+  "active": "3881d26404882802",
   "lastOpenFiles": [
-    "未命名.canvas",
+    "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
     "未命名 1.canvas",
+    "未命名.canvas",
     "TOEFL/写作练习/邮件-宿舍流感处理.md",
     "TOEFL/写作练习/学术讨论-软技能是否应该开课.md",
     "TOEFL/写作练习/学术讨论-社交媒体个性化.md",
     "TOEFL/句子填充错题.md.tmp.25360.692606199bc0",
-    "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
     "TOEFL/口语复述/真题/生活场景-做沙拉.md",
     "TOEFL/句子填充错题.md",
     "TOEFL/口语复述/真题/生活场景-宠物店.md",
@@ -320,7 +319,6 @@
     "sci_research/聚集诱导发光文献阅读/HPS的AIE机理解释.canvas",
     "physchem-1/统计力学导图.canvas",
     "physchem-1/量子力学导图.canvas",
-    "physchem/统计力学三大系综与温度角色.canvas",
-    "physchem/Gibbs Paradox.canvas"
+    "physchem/统计力学三大系综与温度角色.canvas"
   ]
 }
