@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"c3550e64580f1113","x":-400,"y":-320,"width":250,"height":400,"type":"text","text":"pdf"},
-		{"id":"61d4f4a23e5641fd","x":-100,"y":-320,"width":250,"height":400,"type":"text","text":"html"},
-		{"id":"214a5dfe19a24b1c","x":200,"y":-320,"width":240,"height":400,"type":"text","text":"note/ask deepseek"}
-	],
-	"edges":[]
-}

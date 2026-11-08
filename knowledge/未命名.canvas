@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"0a3680d0d99e814f","x":-260,"y":-300,"width":605,"height":60,"type":"text","text":"目录位置"},
-		{"id":"6852b510c226d98e","x":-260,"y":-220,"width":255,"height":470,"type":"text","text":"书架"},
-		{"id":"eec5e4a4479e9d7d","x":43,"y":-220,"width":302,"height":60,"type":"text","text":"选择的书籍"},
-		{"id":"0ca41232d0b71ae6","x":43,"y":-140,"width":302,"height":390,"type":"text","text":"阅读偏好"}
-	],
-	"edges":[]
-}

@@ -11,17 +11,14 @@
             "id": "3881d26404882802",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名 1.canvas",
-                "viewState": {
-                  "x": 20,
-                  "y": -120,
-                  "zoom": -0.0031261009867197026
-                }
+                "file": "sci_research/TBR和TBRs分子对称性.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名 1"
+              "icon": "lucide-file",
+              "title": "TBR和TBRs分子对称性"
             }
           },
           {
@@ -36,23 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "学术讨论-软技能是否应该开课"
-            }
-          },
-          {
-            "id": "bf2a6718246a5c60",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名 1"
             }
           },
           {
@@ -206,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.canvas",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -268,9 +248,9 @@
   },
   "active": "3881d26404882802",
   "lastOpenFiles": [
+    "未命名 1.canvas",
     "sci_research/TBR和TBRs分子对称性.md",
     "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
-    "未命名 1.canvas",
     "未命名.canvas",
     "TOEFL/写作练习/邮件-宿舍流感处理.md",
     "TOEFL/写作练习/学术讨论-软技能是否应该开课.md",
@@ -298,7 +278,6 @@
     "TOEFL/模拟面试/TOEFL话题分类-个人生活.md",
     "TOEFL/模拟面试/口语话题分类.md",
     "TOEFL/模拟面试/两周口语练习计划.md",
-    "index/TOEFL话题分类-日常生活.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md.tmp.1352.ab79201e8697",
     "physchem-2/image/10-tx.png",
     "physchem-2/image/10-px.png",
