@@ -11,14 +11,17 @@
             "id": "3881d26404882802",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "sci_research/TBR和TBRs分子对称性.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "TBR和TBRs分子对称性"
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名 1"
             }
           },
           {
@@ -203,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR和TBRs分子对称性.md",
+                "file": "未命名 1.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -265,6 +268,7 @@
   },
   "active": "3881d26404882802",
   "lastOpenFiles": [
+    "sci_research/TBR和TBRs分子对称性.md",
     "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
     "未命名 1.canvas",
     "未命名.canvas",
