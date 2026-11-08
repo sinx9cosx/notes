@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794126746468-or33ck4ol",
+  "providerId": "claude",
+  "title": "Supplement vocabulary word meanings",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794126746469,
+  "updatedAt": 1794126777685,
+  "lastResponseAt": 1794126777685,
+  "sessionId": "2d88d29b-a079-4bc3-8305-3e7a9cbc1321",
+  "providerState": {
+    "providerSessionId": "2d88d29b-a079-4bc3-8305-3e7a9cbc1321"
+  },
+  "currentNote": "TOEFL/口语复述/真题/生活场景-做沙拉.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 179,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30208,
+    "contextWindow": 200000,
+    "contextTokens": 30387,
+    "percentage": 15
+  }
+}
