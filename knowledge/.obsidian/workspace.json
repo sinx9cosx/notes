@@ -39,14 +39,17 @@
             "id": "bf2a6718246a5c60",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "TOEFL/写作练习/邮件-宿舍流感处理.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "邮件-宿舍流感处理"
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名 1"
             }
           },
           {
@@ -201,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/写作练习/邮件-宿舍流感处理.md",
+                "file": "未命名 1.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -263,8 +266,10 @@
   },
   "active": "bf2a6718246a5c60",
   "lastOpenFiles": [
-    "TOEFL/写作练习/学术讨论-软技能是否应该开课.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
     "TOEFL/写作练习/邮件-宿舍流感处理.md",
+    "TOEFL/写作练习/学术讨论-软技能是否应该开课.md",
     "TOEFL/写作练习/学术讨论-社交媒体个性化.md",
     "TOEFL/句子填充错题.md.tmp.25360.692606199bc0",
     "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
@@ -291,7 +296,6 @@
     "TOEFL/模拟面试/口语话题分类.md",
     "TOEFL/模拟面试/两周口语练习计划.md",
     "index/TOEFL话题分类-日常生活.md",
-    "index/TOEFL话题分类-社会议题.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md.tmp.1352.ab79201e8697",
     "physchem-2/image/10-tx.png",
     "physchem-2/image/10-px.png",
@@ -317,7 +321,6 @@
     "physchem-1/统计力学导图.canvas",
     "physchem-1/量子力学导图.canvas",
     "physchem/统计力学三大系综与温度角色.canvas",
-    "physchem/Gibbs Paradox.canvas",
-    "物理化学/量子力学导图.canvas"
+    "physchem/Gibbs Paradox.canvas"
   ]
 }
