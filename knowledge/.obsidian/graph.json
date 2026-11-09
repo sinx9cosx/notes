@@ -11,21 +11,21 @@
       "query": "物理化学",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 10211288
       }
     },
     {
       "query": "English",
       "color": {
         "a": 1,
-        "rgb": 6084241
+        "rgb": 14147060
       }
     },
     {
       "query": "research",
       "color": {
         "a": 1,
-        "rgb": 16367322
+        "rgb": 6454417
       }
     }
   ],
@@ -39,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3823010968769952,
-  "close": true
+  "scale": 0.3823010968769939,
+  "close": false
 }
