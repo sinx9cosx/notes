@@ -27,3 +27,5 @@ Category:
 - 另一个五元环：`9,19,21,27,44`
 
 把 Hole 列和 Electron 列分别加总即可喵。
+
+![[dark-state.png]]
