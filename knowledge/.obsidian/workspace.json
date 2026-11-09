@@ -34,26 +34,9 @@
               "icon": "lucide-file",
               "title": "历史-工具发展"
             }
-          },
-          {
-            "id": "055245482d794ec0",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 390,
-                  "y": -422.5,
-                  "zoom": -0.9506586810925841
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas",
+                "file": "TOEFL/填词/TPO2/历史-工具发展.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -250,10 +233,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "055245482d794ec0",
+  "active": "e60df37a48c6a7d8",
   "lastOpenFiles": [
+    "学习工作流.canvas",
     "TOEFL/填词/TPO2/历史-工具发展.md",
-    "未命名.canvas",
     "TOEFL/填词/TPO2/历史-工具发展.md.tmp.29028.5a2dd3666b18",
     "TOEFL/填词/TPO2/历史-希腊和罗马文明.md",
     "TOEFL/填词/TPO2/历史-骑士精神.md",
