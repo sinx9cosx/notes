@@ -4,6 +4,152 @@
   "title": "补全 Obsidian 单词笔记释义",
   "titleGenerationStatus": "success",
   "createdAt": 1794223257062,
-  "updatedAt": 1794223273569,
-  "sessionId": null
+  "updatedAt": 1794223358461,
+  "lastResponseAt": 1794223358461,
+  "sessionId": "b42ea5f2-0266-45e1-bc1e-c9922077fa3f",
+  "providerState": {
+    "providerSessionId": "b42ea5f2-0266-45e1-bc1e-c9922077fa3f",
+    "subagentData": {
+      "call_00_ubtbkV4Qx5UsmNS0SWsY3009": {
+        "id": "call_00_ubtbkV4Qx5UsmNS0SWsY3009",
+        "description": "规划单词释义补充方案",
+        "prompt": "你是计划子agent。任务背景：用户（主人）希望给笔记 `TOEFL/填词/TPO2/历史-工具发展.md` 中的单词列表补充中文释义。当前工作目录是 Obsidian 笔记库根目录 F:\\obsidian_notes\\knowledge（Windows，注意路径是反斜杠风格的实际目录，工具调用时用相对路径 `TOEFL/填词/TPO2/历史-工具发展.md` 即可）。\n\n请做以下工作：\n1. 读取该笔记，确认单词列表内容（目前有 4 个单词：axes、hominids、transformative、flakes，均无释义）。\n2. 在笔记库中搜索同类的 TOEFL 填词笔记（例如 TOEFL 目录下其他 TPO 笔记），看看是否已有\"单词+释义\"的既有格式惯例（比如是否有的笔记已经补过释义、用什么排版：纯列表、表格、加粗等），尽量沿用库里已有格式，保持风格一致。\n3. 基于调查结果，给出一个改动最小的补充方案：包括每个单词的中文释义（结合原文语境，如 axes 在文中是\"手斧\"义而非\"坐标轴\"、flakes 是\"石片\"义）、词性，以及建议的排版格式。\n4. 输出一份简明计划：说明补充后的单词区块会长什么样（可给出完整示例文本）、共改动几行、是否影响其他内容。\n\n注意：不要直接修改文件。你的任务是调查并产出计划文本，回报给主agent，由主agent转达用户确认。",
+        "mode": "async",
+        "isExpanded": false,
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_8x7uhKQ68IwJd6hUT0RM4365",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/TPO2/历史-工具发展.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 题目\n8\t\n9\tThe development of tools during the time of early hominids was a transformative step in human evolution, reflecting increasing cognitive abilities and adaptability to diverse environments. Beginning with simple stone flakes, tools **were** used **for** self-defense, **cutting** meat, **and** processing **plants**. **As** time **progressed**, more **advanced** tools **like** hand **axes** and scrapers emerged, showing evidence of planning, skill, and possibly even teaching within social groups. These innovations not only improved survival rates but also laid the foundation for cultural evolution and technological advancement.\n10\t\n11\t## 单词\n12\t\n13\taxes\n14\t\n15\thominids\n16\t\n17\ttransformative\n18\t\n19\tflakes"
+          },
+          {
+            "id": "call_01_3v8vrIUhW363Gucxwlje8565",
+            "name": "Glob",
+            "input": {
+              "pattern": "TOEFL/**/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "TOEFL\\填词\\TPO\\生物-动物行为.md\nTOEFL\\口语复述\\TPO\\生活场景-咖啡机.md\nTOEFL\\口语复述\\TPO\\生活场景-wifi配置.md\nTOEFL\\填词\\TPO\\艺术-皮影戏.md\nTOEFL\\填词\\TPO\\艺术-抽象派画作.md\nTOEFL\\填词\\TPO\\生物-化石燃料.md\nTOEFL\\填词\\TPO\\历史-中世纪.md\nTOEFL\\词汇\\通用词汇.md\nTOEFL\\填词\\TPO\\地理-降水.md\nTOEFL\\口语复述\\TPO\\校园场景-图书馆.md\nTOEFL\\口语复述\\TPO\\校园场景-实验室.md\nTOEFL\\口语复述\\TPO\\校园场景-参观学校.md\nTOEFL\\口语复述\\TPO\\生活场景-社区中心.md\nTOEFL\\口语复述\\TPO\\生活场景-海洋馆.md\nTOEFL\\填词\\TPO\\生物-生物多样性.md\nTOEFL\\填词\\TPO\\生物-疾病预防.md\nTOEFL\\口语复述\\TPO\\生活场景-租车.md\nTOEFL\\口语复述\\TPO\\生活场景-博物馆.md\nTOEFL\\学术讨论\\TPO\\城市空地利用.md\nTOEFL\\学术讨论\\TPO\\学生的成绩评定.md\nTOEFL\\学术讨论\\TPO\\AI伦理问题.md\nTOEFL\\邮件写作\\TPO\\人生规划建议.md\nTOEFL\\邮件写作\\TPO\\学校建cafe的建议.md\nTOEFL\\邮件写作\\TPO\\邻居沟通.md\nTOEFL\\邮件写作\\TPO\\社区设施修缮.md\nTOEFL\\邮件写作\\TPO\\感谢工作前辈.md\nTOEFL\\邮件写作\\TPO\\实习.md\nTOEFL\\词汇\\常犯语法错误.md\nTOEFL\\填词\\TPO\\历史-古希腊、古罗马.md\nTOEFL\\口语复述\\TPO\\生活场景-公园.md\nTOEFL\\口语复述\\TPO\\生活场景-文化节.md\nTOEFL\\填词\\真题\\地理-GIS技术.md\nTOEFL\\填词\\真题\\地质-地质学.md\nTOEFL\\填词\\真题\\地质-环境地质学.md\nTOEFL\\填词\\真题\\公共卫生-公共卫生史.md\nTOEFL\\填词\\真题\\海洋-大堡礁.md\nTOEFL\\填词\\TPO\\海洋-海洋学.md\nTOEFL\\填词\\真题\\环境-大气压.md\nTOEFL\\填词\\真题\\教育-学术成功技能.md\nTOEFL\\填词\\真题\\考古-陶器研究.md\nTOEFL\\填词\\真题\\历史-工业革命.md\nTOEFL\\填词\\真题\\生物-动物社会等级.md\nTOEFL\\填词\\真题\\生物-物种大灭绝.md\nTOEFL\\填词\\真题\\填词技巧与规律.md\nTOEFL\\词汇\\学科词汇.md\nTOEFL\\邮件写作\\TPO\\询问朋友帮忙动物救助慈善活动.md\nTOEFL\\学术讨论\\真题\\快时尚产品的环保问题.md\nTOEFL\\填词\\TPO\\生物-植物光合作用.md\nTOEFL\\填词\\真题2\\历史-城市化发展.md\nTOEFL\\填词\\真题2\\地质-河流三角洲.md\nTOEFL\\填词\\真题2\\环境-气候与天气.md\nTOEFL\\填词\\真题2\\历史-古罗马阶层.md\nTOEFL\\填词\\真题2\\历史-美国城市化.md\nTOEFL\\填词\\真题2\\历史-自行车史.md\nTOEFL\\填词\\真题2\\生物-陆生哺乳动物.md\nTOEFL\\填词\\真题2\\生物-生物化学.md\nTOEFL\\填词\\真题2\\生物-象龟灭绝.md\nTOEFL\\填词\\真题2\\艺术-巴洛克音乐.md\nTOEFL\\模拟面试\\TOEFL口语要点.md\nTOEFL\\模拟面试\\题目\\通勤时间.md\nTOEFL\\模拟面试\\题目\\户外运动.md\nTOEFL\\模拟面试\\题目\\体育赛事与旅行.md\nTOEFL\\模拟面试\\下班后活动与工作平衡.md\nTOEFL\\模拟面试\\题目\\资源回收利用.md\nTOEFL\\模拟面试\\题目\\公园和休闲场所.md\nTOEFL\\词汇\\冠词和名词单复数.md\nTOEFL\\学术讨论\\真题\\保护环境.md\nTOEFL\\邮件写作\\真题\\找实习.md\nTOEFL\\模拟面试\\题目\\科技话题面试题.md\nTOEFL\\素材卡\\口语素材卡2-和家人公园散步.md\nTOEFL\\素材卡\\口语素材卡3-和同学自助旅行.md\nTOEFL\\素材卡\\口语素材卡4-放学后公园慢跑.md\nTOEFL\\素材卡\\口语素材卡5-十分钟网购生日礼物.md\nTOEFL\\素材卡\\口语素材卡6-朋友回fine的误会.md\nTOEFL\\素材卡\\口语素材卡7-表哥当prompt engineer.md\nTOEFL\\素材卡\\口语素材卡8-用AI查资料多来源核实.md\nTOEFL\\素材卡\\口语素材卡9-打印纸背面写笔记.md\nTOEFL\\素材卡\\口语素材卡10-App查垃圾分类.md\nTOEFL\\素材卡\\口语素材卡11-搬家步行五分钟上学.md\nTOEFL\\素材卡\\口语素材卡12-晨跑备战十公里比赛.md\nTOEFL\\口语复述\\真题\\生活场景-动物园.md\nTOEFL\\口语复述\\真题\\生活场景-工具箱.md\nTOEFL\\口语复述\\真题\\校园场景-水彩画.md\nTOEFL\\口语复述\\真题\\生活场景-做面包.md\nTOEFL\\填词\\TPO2\\地理-板块运动.md\nTOEFL\\填词\\TPO2\\生物-老虎.md\nTOEFL\\填词\\TPO2\\生物-睡觉.md\nTOEFL\\学术讨论\\真题\\线上学习.md\nTOEFL\\邮件写作\\真题\\咖啡馆提建议.md\nTOEFL\\素材卡\\口语素材卡1-初中好友.md\nTOEFL\\素材卡\\口语素材卡13-社团.md\nTOEFL\\素材卡\\口语素材卡14-预算习惯.md\nTOEFL\\学术讨论\\真题\\品牌发展.md\nTOEFL\\邮件写作\\真题\\公寓管道问题.md\nTOEFL\\素材卡\\口语素材卡15-学习外语的好处.md\nTOEFL\\写作练习\\邮件-网课平台问题.md\nTOEFL\\写作练习\\邮件-餐厅issue.md\nTOEFL\\写作练习\\学术讨论-社交媒体个性化.md\nTOEFL\\写作练习\\学术讨论-演讲是否讲故事.md\nTOEFL\\口语复述\\真题\\生活场景-电子产品专卖.md\n(Showing 100 of 136 matching files; 36 more are not listed. Narrow the pattern or path to see the rest.)"
+          },
+          {
+            "id": "call_00_V6HIoR1D4Wcd68sp7AsU8694",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/TPO2/生物-老虎.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 原文\n8\t\n9\tTigers are solitary animals known for their territorial behavior. Each **male** tiger **establishes** control **over** a **large** territory **spanning** several **square** miles **and** patrols **the** area **regularly** to for prey and maintain dominance.\n10\t\n11\t# 错误\n12\t\n13\t## ma_ -> male\n14\t\n15\t错误类型：A 主动回忆失败\n16\t\n17\t## la_ ->large\n18\t\n19\t错误类型：C没想到这个方向\n20\t解决：结合上下文**spanning** several **square** miles\n21\t\n22\t## regu_ -> regularly\n23\t\n24\t错误类型：C 没想到这个方向\n25\t\n26\t# 单词\n27\t\n28\tsolitary\n29\tadj.单独的\n30\t\n31\tterritorial\n32\tadj. 领土的"
+          },
+          {
+            "id": "call_01_FYa2AuB9ZEqm6272kujs0758",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/TPO2/地理-板块运动.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - Gaussian\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 原文\n8\t\n9\tTectonic plates fit together **much** **like** a **jigsaw** puzzle **and** constantly **shift** causing **earthquakes**, the **formation** of **mountains** , and **volcanic** eruptions. **Scientists** analyze plate movement to understand Earth's changing surface.\n10\t\n11\t# 错误\n12\t\n13\t## __ -> much\n14\t\n15\t错误类型：C 没想到这个方向，我填的just\n16\t解决：\"much like\" 是固定搭配，意为\"非常像\"，much 是程度副词修饰 like。just like 语法上不差，但原文是 much like，填空需与原文逐词一致。\n17\t\n18\t## jig_ -> jigsaw\n19\t\n20\t错误类型：D 不认识单词\n21\t解决：jigsaw n. 拼图\n22\t\n23\t## sh__ -> shift\n24\t\n25\t错误类型：C 没想到这个方向，我填的shake\n26\t解决：shift 指\"移动、漂移\"，板块持续移动（tectonic shift / plate movement 为标准搭配）；shake 是\"摇晃、震动\"，指地震时地面的表现，板块本身是位置移动而非原地摇动。\n27\t\n28\t# 单词\n29\t\n30\ttectonic plates \n31\t地壳板块\n32\t\n33\ttectonic\n34\tadj. 地壳构造的\n35\t\n36\tjigsaw puzzle\n37\t拼图游戏\n38\t\n39\tjigsaw\n40\tn. 拼图游戏"
+          },
+          {
+            "id": "call_02_M28nk3aDXsVh8GNXBTEp1684",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/TPO/历史-中世纪.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 题目\n8\t\n9\tMedieval history, extending from the fall of the Roman Empire to the emergence of the Renaissance, is marked by profound sociopolitical and religious changes. During this **period**, feudalism **became** the **prevailing** socioeconomic **paradigm** structuring **society** into **hierarchies**. It also **witnessed** the **consolidation** of **authority** and the **founding** of universities. Analyzing this era unveils the profound influence of Western civilization, and its legacy continues to inform contemporary institutions, cultural identities, and philosophical thought across the Western world.\n10\t\n11\t# 错题\n12\t\n13\t## prev_ -> prevailing\n14\t\n15\t类型：D 不认识这个单词\n16\t处理：prevailing adj.现存的；盛行的 v. 流行\n17\t\n18\t## para_ -> paradigm\n19\t\n20\t类型：D 不认识这个单词\n21\t处理：paradigm n. 典范\n22\t\n23\t## hierar_ -> hierarchies\n24\t\n25\t类型：D 不认识这个单词\n26\t处理：hierarchy n. 等级制度，阶层，统治集团；层级\n27\t\n28\t## wit_ -> witnessed\n29\t\n30\t类型：C 没有想到这个方向\n31\t原因：没有读懂这两句话\n32\t处理：翻译：在这一**时期**，封建主义**成为**主导性的**社会经济范式**，将**社会**构建为**等级**体系。它还**见证**了**权威**的**巩固**与大学的**创立**。\n33\t\n34\t## foud_ -> founding\n35\t\n36\t类型：C 没有想到这个方向\n37\t原因：没有读懂这两句话\n38\t\n39\t# 生词\n40\t\n41\t<mark style=\"background: #D2B3FFA6;\">Renaissance</mark>\n42\tn. 文艺复兴\n43\t\n44\t<mark style=\"background: #FFB86CA6;\">feudalism</mark>\n45\tn. 封建主义\n46\t\n47\t<mark style=\"background: #D2B3FFA6;\">consolidation</mark>\n48\tn. 巩固\n49\t\n50\t<mark style=\"background: #FFB86CA6;\">unveil</mark>\n51\tv. 公开，揭示\n52\t\n53\t<mark style=\"background: #D2B3FFA6;\">legacy</mark>\n54\tn. 遗产"
+          },
+          {
+            "id": "call_03_ZEvF92SB0a0KjezI0mmQ7387",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/真题/历史-工业革命.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 题目\n8\t\n9\tThe Industrial Revolution profoundly transformed North America, spurring urban growth through technology and immigration. Many advancements boosted connectivity, accelerating commerce and communication. Yet, urbanization brought **challenges** like **overcrowding**, poor **infrastructure**, and **social** inequality. **Historians** debate **whether** these **changes** fostered **modern** prosperity **or** deepened **divisions** in society. The era's complex legacy continues to prompt scholarly inquiry, revealing how industrialization shaped North America's development and raised enduring questions about progress, equity, and the long-term impact of technological and economic transformation.\n10\t\n11\t# 错题\n12\t\n13\t## infra_ -> infrastructure\n14\t\n15\t类型：D 不认识单词\n16\t处理： infrastructure n. 基础设施（不可数）\n17\t搭配 poor infrastructure 落后的基础设施、transport infrastructure 交通基础设施。\n18\t\n19\t## Hist_ -> Historians\n20\t\n21\t类型：B 词义知道，语境没想到\n22\t处理：history n. 历史 → historian n. 历史学家\n23\t搭配 Historians debate whether ...，同类主语还有 scholars / researchers debate。\n24\t\n25\t# 生词\n26\t\n27\t<mark style=\"background: #FFB8EBA6;\">infrastructure</mark>\n28\tn. 基础设施\n29\t\n30\t<mark style=\"background: #D2B3FFA6;\">historians</mark>\n31\tn. 历史学家（historian 的复数）\n32\t\n33\t<mark style=\"background: #BBFABBA6;\">urbanization</mark>\n34\tn. 城市化\n35\t\n36\t<mark style=\"background: #FF5582A6;\">overcrowding</mark>\n37\tn. 过度拥挤\n38\t\n39\t<mark style=\"background: #ADCCFFA6;\">inequality</mark>\n40\tn. 不平等，不均等\n41\t\n42\t<mark style=\"background: #FFB86CA6;\">prosperity</mark>\n43\tn. 繁荣，兴旺\n44\t\n45\t<mark style=\"background: #FFB8EBA6;\">enduring</mark>\n46\tadj. 持久的，经久不衰的\n47\t"
+          },
+          {
+            "id": "call_00_cLvQ6YM84NZEg8byuowG1665",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/TPO2/生物-睡觉.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 原文\n8\t\n9\tSleep is crucial for maintaining overall health and well-being. It **repairs** our **bodies** **and** gives a **chance** for **our** brains **to** process **memories**. Research **shows** that **getting** a full **night** of sleep within 24 hours after learning will help us remember new information better. Lack of sleep not only hurts our learning ability but also affects mood and concentration. For example, we might find it harder to focus, make decisions, and respond quickly.\n10\t\n11\t# 错题\n12\t\n13\t## rep_ -> repairs\n14\t\n15\t错误类型：C 没想到这个方向\n16\t\n17\t搭配：repair our bodies"
+          },
+          {
+            "id": "call_01_j1kskUhW5y5FfeEX04KH3970",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/TPO/生物-动物行为.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 题目\n8\t\n9\tMany animals use specific behaviors to communicate with others in their group. For example, bees perform a \"waggle dance\" to **show** the **location** of food **sources** to their hive. Birds often **sing** complex **songs** to attract **mates** or defend their **territory**. Some animals, like dolphins, rely on **vocal** clicks and **whistles** to coordinate group **activities**. These behaviors are essential for survival, as they help animals find food, avoid predators, and reproduce successfully. Understanding these actions provides valuable insights into the social structures of different species.\n10\t\n11\t# 错题\n12\t\n13\t## so_ -> sources\n14\t\n15\t类型：C 没想到这个方向\n16\t原因：food已经表意完整了，没有想到后面还能填什么词\n17\t处理：短语搭配 food sources\n18\t\n19\t## so_ -> songs\n20\t\n21\t类型：C 没想到这个方向\n22\t原因：没有注意到complex的形容词词性，如果注意到的话很容易知道后面需要接上名词，进而推断出来\n23\t处理：仔细阅读上下文\n24\t\n25\t## ma_ -> mates\n26\t\n27\t类型：B 词义知道，语境没想到\n28\t原因：知道是要填伴侣之类意思的词，但是想不起来。查手机只看见了match这个词，但是这里应该注意复数形式\n29\t处理：提高单词熟练度\n30\t\n31\t## vo_ -> vocal\n32\t\n33\t类型：B 词义知道，语境没想到\n34\t原因：我填的voice，应该注意短语搭配vocal clicks\n35\t处理：短语搭配vocal clicks\n36\t\n37\t## wh_ -> whistles\n38\t\n39\t类型：D 不认识单词\n40\t处理：背单词 whistle n. 口哨 v. 吹口哨\n41\t\n42\t# 生词\n43\t\n44\t<mark style=\"background: #FFB8EBA6;\">hive</mark> n. 忙碌的场所，蜂巢 v. 入蜂箱\n45\t\n46\t<mark style=\"background: #FFB8EBA6;\">predator</mark> n. 捕食者"
+          },
+          {
+            "id": "call_02_qkS93Gu8Ie3copVcH1Em3783",
+            "name": "Grep",
+            "input": {
+              "pattern": "^(n\\.|adj\\.|v\\.|adv\\.|prep\\.)",
+              "path": "TOEFL/填词",
+              "output_mode": "content",
+              "-n": true,
+              "head_limit": 120
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "TOEFL\\填词\\TPO\\历史-中世纪.md:42:n. 文艺复兴\nTOEFL\\填词\\TPO\\历史-中世纪.md:45:n. 封建主义\nTOEFL\\填词\\TPO\\历史-中世纪.md:48:n. 巩固\nTOEFL\\填词\\TPO\\历史-中世纪.md:51:v. 公开，揭示\nTOEFL\\填词\\TPO\\历史-中世纪.md:54:n. 遗产\nTOEFL\\填词\\TPO\\历史-古希腊、古罗马.md:14:n. 统治方式；管理方法\nTOEFL\\填词\\TPO\\历史-古希腊、古罗马.md:17:adj. 复杂的\nTOEFL\\填词\\TPO\\历史-古希腊、古罗马.md:20:n. 民主\nTOEFL\\填词\\TPO\\历史-古希腊、古罗马.md:23:n. 罗马人\nTOEFL\\填词\\TPO\\历史-古希腊、古罗马.md:24:adj. 罗马的\nTOEFL\\填词\\TPO2\\历史-工业革命.md:21:adj. 手工的，体力的\nTOEFL\\填词\\TPO2\\地理-板块运动.md:34:adj. 地壳构造的\nTOEFL\\填词\\TPO2\\地理-板块运动.md:40:n. 拼图游戏\nTOEFL\\填词\\TPO2\\历史-骑士精神.md:20:adj. 军事的，战争的\nTOEFL\\填词\\TPO2\\历史-骑士精神.md:26:v. 加强，强化\nTOEFL\\填词\\TPO2\\历史-骑士精神.md:29:n. 行为，品行\nTOEFL\\填词\\TPO2\\历史-骑士精神.md:32:v. 混合，融合\nTOEFL\\填词\\TPO\\地理-降水.md:14:n. 降水；沉淀\nTOEFL\\填词\\TPO\\地理-降水.md:17:v. 补充\nTOEFL\\填词\\TPO\\地理-降水.md:20:n. 植物\nTOEFL\\填词\\真题2\\历史-古罗马阶层.md:22:n. 等级制度，层级体系\nTOEFL\\填词\\真题2\\历史-古罗马阶层.md:25:n. （古罗马）贵族（patrician 的复数）\nTOEFL\\填词\\真题2\\历史-古罗马阶层.md:28:n. 精英，上层集团 adj. 精英的\nTOEFL\\填词\\真题2\\历史-古罗马阶层.md:31:n. （古罗马）平民（plebeian 的复数）\nTOEFL\\填词\\真题\\公共卫生-公共卫生史.md:45:n. 卫生设施；环境卫生\nTOEFL\\填词\\真题\\公共卫生-公共卫生史.md:48:adj. 持续的，进行中的\nTOEFL\\填词\\真题\\历史-工业革命.md:28:n. 基础设施\nTOEFL\\填词\\真题\\历史-工业革命.md:31:n. 历史学家（historian 的复数）\nTOEFL\\填词\\真题\\历史-工业革命.md:34:n. 城市化\nTOEFL\\填词\\真题\\历史-工业革命.md:37:n. 过度拥挤\nTOEFL\\填词\\真题\\历史-工业革命.md:40:n. 不平等，不均等\nTOEFL\\填词\\真题\\历史-工业革命.md:43:n. 繁荣，兴旺\nTOEFL\\填词\\真题\\历史-工业革命.md:46:adj. 持久的，经久不衰的\nTOEFL\\填词\\TPO\\海洋-海洋学.md:32:n. 水流，洋流（current 的复数）\nTOEFL\\填词\\TPO\\海洋-海洋学.md:35:n. 盐度，含盐量\nTOEFL\\填词\\TPO\\海洋-海洋学.md:38:adj. 至关重要的\nTOEFL\\填词\\TPO2\\地理-气候变化.md:31:n. 纬度\nTOEFL\\填词\\TPO2\\地理-气候变化.md:34:n. 海拔，高度\nTOEFL\\填词\\TPO2\\地理-气候变化.md:37:n. 接近，邻近\nTOEFL\\填词\\TPO2\\地理-气候变化.md:40:n. 砍伐森林，滥伐\nTOEFL\\填词\\TPO2\\地理-气候变化.md:43:adj. 大量的，重大的\nTOEFL\\填词\\TPO2\\地理-气候变化.md:46:v. 仔细审查，仔细研究\nTOEFL\\填词\\真题\\地理-GIS技术.md:22:adj. 紧迫的，亟待解决的\nTOEFL\\填词\\真题\\地理-GIS技术.md:25:adj. 空间的\nTOEFL\\填词\\真题\\地理-GIS技术.md:28:n. 分配，配置\nTOEFL\\填词\\真题\\地理-GIS技术.md:31:n. 实施，执行\nTOEFL\\填词\\真题\\地理-GIS技术.md:34:n. 韧性，恢复力\nTOEFL\\填词\\真题\\地质-地质学.md:22:n. 层（layer 的复数）；地层\nTOEFL\\填词\\真题\\地质-地质学.md:25:n. 缓解，减轻\nTOEFL\\填词\\真题\\地质-地质学.md:28:adj. 同位素的\nTOEFL\\填词\\真题\\地质-地质学.md:31:n. 地下水\nTOEFL\\填词\\真题\\地质-地质学.md:34:n. 危险，灾害\nTOEFL\\填词\\真题2\\历史-美国城市化.md:14:n. 移民（immigrant 的复数）\nTOEFL\\填词\\真题2\\历史-美国城市化.md:17:adj. 农村的，乡村的\nTOEFL\\填词\\真题2\\历史-美国城市化.md:20:adj. 充满活力的，动态的\nTOEFL\\填词\\真题2\\历史-美国城市化.md:23:n. 拥堵，拥挤\nTOEFL\\填词\\TPO2\\生物-老虎.md:29:adj.单独的\nTOEFL\\填词\\TPO2\\生物-老虎.md:32:adj. 领土的\nTOEFL\\填词\\TPO\\生物-植物光合作用.md:15:n. 锚\nTOEFL\\填词\\TPO\\生物-植物光合作用.md:16:v. 使扎根\nTOEFL\\填词\\TPO\\生物-植物光合作用.md:19:n. 矿物质\nTOEFL\\填词\\TPO\\生物-植物光合作用.md:22:n. 现场；场地\nTOEFL\\填词\\真题\\地质-环境地质学.md:28:v. 减轻，缓解\nTOEFL\\填词\\真题\\地质-环境地质学.md:31:v. 包含，涵盖\nTOEFL\\填词\\真题\\地质-环境地质学.md:34:n. 危险，危害\nTOEFL\\填词\\真题\\地质-环境地质学.md:37:n. 评估\nTOEFL\\填词\\TPO\\生物-生物多样性.md:26:v. 减轻\nTOEFL\\填词\\TPO\\生物-生物多样性.md:29:n. 保护\nTOEFL\\填词\\TPO\\生物-生物多样性.md:32:n. 弹性；恢复力\nTOEFL\\填词\\真题2\\地质-河流三角洲.md:21:v. 沉积，堆积（deposit 的现在分词）\nTOEFL\\填词\\真题2\\地质-河流三角洲.md:24:adv. 向上游，在上游\nTOEFL\\填词\\TPO\\生物-疾病预防.md:29:adj. 多学科的\nTOEFL\\填词\\TPO\\生物-疾病预防.md:32:v. 延长\nTOEFL\\填词\\TPO\\生物-疾病预防.md:35:n. 专业人士\nTOEFL\\填词\\TPO\\生物-疾病预防.md:38:n. 明显差异\nTOEFL\\填词\\TPO\\生物-疾病预防.md:41:adj. 传染性的\nTOEFL\\填词\\真题2\\环境-气候与天气.md:21:n. 降水（量）\nTOEFL\\填词\\真题\\教育-学术成功技能.md:21:adv. 系统地\nTOEFL\\填词\\真题\\教育-学术成功技能.md:24:adj. 基础的，根本的\nTOEFL\\填词\\真题\\教育-学术成功技能.md:27:adj. 课外的\nTOEFL\\填词\\真题\\教育-学术成功技能.md:30:n. 预测指标，预测因素（predictor 的复数）\nTOEFL\\填词\\TPO\\艺术-抽象派画作.md:16:n. 象征手法；象征主义（19世纪末文学艺术流派）\nTOEFL\\填词\\真题2\\生物-生物化学.md:22:n. 发酵\nTOEFL\\填词\\真题2\\生物-生物化学.md:25:n. 消化\nTOEFL\\填词\\真题2\\生物-生物化学.md:28:n. 生物分子（biomolecule 的复数）\nTOEFL\\填词\\真题2\\生物-生物化学.md:31:n. 药理学\nTOEFL\\填词\\TPO\\艺术-皮影戏.md:14:n. 艺术效果；艺术性；艺术才能\nTOEFL\\填词\\TPO\\艺术-皮影戏.md:16:adj.艺术的\nTOEFL\\填词\\TPO\\艺术-皮影戏.md:19:adj. 有关道德的 \nTOEFL\\填词\\TPO\\艺术-皮影戏.md:20:n. 道德准则\nTOEFL\\填词\\真题\\海洋-大堡礁.md:22:n. （珊瑚等）群体，集群（colony 的复数）\nTOEFL\\填词\\真题\\海洋-大堡礁.md:25:n. 珊瑚虫，水螅体（polyp 的复数）\nTOEFL\\填词\\真题\\海洋-大堡礁.md:28:v. 分泌\nTOEFL\\填词\\真题\\海洋-大堡礁.md:31:n. 碳酸钙\nTOEFL\\填词\\真题\\海洋-大堡礁.md:34:n. 软体动物\nTOEFL\\填词\\真题2\\生物-象龟灭绝.md:28:n. 壳，龟壳（shell 的复数）\nTOEFL\\填词\\真题2\\生物-象龟灭绝.md:31:n. 植被，草木（不可数）\nTOEFL\\填词\\真题2\\生物-象龟灭绝.md:34:v. 散播，分散（disperse 的现在分词）\nTOEFL\\填词\\真题\\环境-大气压.md:54:n. 降水，降水量\nTOEFL\\填词\\真题\\环境-大气压.md:57:n. 波动，变化（variation 的复数）\nTOEFL\\填词\\真题\\环境-大气压.md:60:n. 气象学家（meteorologist 的复数）\nTOEFL\\填词\\真题\\环境-大气压.md:63:n. 预报（forecast 的复数）\nTOEFL\\填词\\真题\\环境-大气压.md:66:adj. 逼近的，即将到来的\nTOEFL\\填词\\真题\\环境-大气压.md:69:n. 湿度\nTOEFL\\填词\\真题2\\生物-陆生哺乳动物.md:33:adv. 巧妙地，有独创性地\nTOEFL\\填词\\真题2\\生物-陆生哺乳动物.md:36:n. 肺（lung 的复数）\nTOEFL\\填词\\真题\\生物-动物社会等级.md:14:n. 等级制度，层级（hierarchy 的复数）\nTOEFL\\填词\\真题\\生物-动物社会等级.md:17:adj. 陆地的，陆生的\nTOEFL\\填词\\真题\\生物-动物社会等级.md:20:n. 支配地位，优势\nTOEFL\\填词\\真题\\生物-动物社会等级.md:23:n. 顺从，屈服\nTOEFL\\填词\\真题\\生物-动物社会等级.md:26:adj. 生殖的，繁殖的\nTOEFL\\填词\\真题\\生物-动物社会等级.md:29:n. 争端，纠纷\nTOEFL\\填词\\真题2\\艺术-巴洛克音乐.md:28:adj. 错综复杂的，精细的\nTOEFL\\填词\\真题2\\艺术-巴洛克音乐.md:31:v. 以……为特征（characterize 的过去式/过去分词）\nTOEFL\\填词\\真题\\生物-物种大灭绝.md:14:n. 多样性\nTOEFL\\填词\\真题\\生物-物种大灭绝.md:17:adj. 灾难性的\nTOEFL\\填词\\真题\\生物-物种大灭绝.md:20:n. 小行星\nTOEFL\\填词\\真题\\生物-物种大灭绝.md:23:n. 韧性，复原力\nTOEFL\\填词\\真题\\生物-物种大灭绝.md:26:n. 消亡，终结\nTOEFL\\填词\\真题\\考古-陶器研究.md:28:n. 手工艺品，文物（artifact 的复数）\n\n[Showing results with pagination = limit: 120]"
+          },
+          {
+            "id": "call_00_8QNrxzlVq2APAWh8xTaK3846",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/TPO2/历史-骑士精神.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - English\n4\tCategory:\n5\t  - 笔记\n6\t---\n7\t# 题目\n8\t\n9\tmartial duty, Christian ethics, and courtly behavior. It promoted bravery in battle, deference to women, and loyalty to lords,  especially during feudal wars and crusades. These **ideals** were **often** celebrated **in** medieval **literature**, where **knights** were **portrayed** as **noble** heroes **defending** honor **and** virtue. **Although** such portrayals were sometimes exaggerated, they helped shape cultural expectations and reinforced the social values of the time, blending real practices with imagined ideals of knightly conduct.\n10\t\n11\t# 错题\n12\t\n13\t## ide_->ideals\n14\t\n15\t## port_->portrayed\n16\t\n17\t# 单词\n18\t\n19\tmartial\n20\tadj. 军事的，战争的\n21\t\n22\tportrayed\n23\tportray 的过去分词；v. 描绘，扮演\n24\t\n25\treinforce\n26\tv. 加强，强化\n27\t\n28\tconduct\n29\tn. 行为，品行\n30\t\n31\tblend\n32\tv. 混合，融合"
+          },
+          {
+            "id": "call_01_iHcb5zFe6gpzUlf3ovCs5593",
+            "name": "Read",
+            "input": {
+              "file_path": "TOEFL/填词/TPO2/历史-工业革命.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\tCategory:\n3\t  - 笔记\n4\ttags:\n5\t  - English\n6\t---\n7\t# 题目\n8\t\n9\tThe Industrial Revolution was a defining era in human history, sparking lasting changes in economies and daily life. It **reshaped** economies **worldwide**, shifting **production** from **manual** labor to mechanized **systems**, which **boosted** efficiency **and** output. **Cities** expanded **rapidly** as **rural** populations moved to industrial centers seeking work. Advancements in transportation and communication accelerated progress, laying the foundation for modern society. These innovations improved access to goods,  increased productivity, and connected people across long distances, driving global development in ways that shaped the future.\n10\t\n11\t# 错题\n12\t\n13\t## man_->manual\n14\t\n15\t错误类型：A 主动回忆失败\n16\t解决：manual adj. 手工的，体力的；搭配 manual labor 手工劳动，与 mechanized（机械化的）相对。\n17\t\n18\t# 单词\n19\t\n20\tmanual\n21\tadj. 手工的，体力的"
+          }
+        ],
+        "asyncStatus": "completed",
+        "agentId": "a8521a98903c57089",
+        "startedAt": 1794223288552,
+        "outputToolId": "call_00_HT5Z8py27NSVX58zpCQt7712",
+        "result": "grep 结果显示绝大多数笔记采用\"单词一行、释义一行（带词性）、条目间空行\"的纯文本格式。再确认一下与目标笔记同批次、同主题（历史）的两篇 TPO2 笔记的确切排版。",
+        "completedAt": 1794223351938
+      }
+    }
+  },
+  "currentNote": "TOEFL/填词/TPO2/历史-工具发展.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 215,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30336,
+    "contextWindow": 200000,
+    "contextTokens": 30551,
+    "percentage": 15
+  }
 }
