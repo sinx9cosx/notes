@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular-Symmetry/0-Symmetry Operations.md",
+                "file": "01-分子点群分类.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0-Symmetry Operations"
+              "title": "01-分子点群分类"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Molecular-Symmetry/0-Symmetry Operations.md",
+                "file": "01-分子点群分类.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,10 +232,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "3881d26404882802",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
-    "Molecular-Symmetry/01-分子点群.md",
     "Molecular-Symmetry/0-Symmetry Operations.md",
+    "01-分子点群分类.md",
+    "Molecular-Symmetry/01-分子点群.md",
     "physchem-2/9-溶液的基本性质/4.4-实际溶液的化学势.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
     "physchem-2/9-溶液的基本性质/4.3-非理想液体混合物的化学势.md",
@@ -266,7 +267,6 @@
     "TOEFL/口语复述/真题/生活场景-做面包.md",
     "TOEFL/口语复述/真题/生活场景-宠物店.md.tmp.29716.6a218646ca93",
     "TOEFL/口语复述/复述话题-制作和流程.md",
-    "TOEFL/素材卡/口语素材卡12-晨跑备战十公里比赛.md",
     "TOEFL/模拟面试/题目",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md.tmp.1352.ab79201e8697",
     "physchem-2/image/10-tx.png",
