@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794297351114-xlbczvhpv",
+  "providerId": "claude",
+  "title": "Compare sigma and inversion in crystallography",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794297351115,
+  "updatedAt": 1794297582855,
+  "lastResponseAt": 1794297582855,
+  "sessionId": "b9661ed0-e961-4257-a8fc-b502fdecd5e6",
+  "providerState": {
+    "providerSessionId": "b9661ed0-e961-4257-a8fc-b502fdecd5e6"
+  },
+  "currentNote": "Molecular-Symmetry/0-对称操作.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2795,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32000,
+    "contextWindow": 200000,
+    "contextTokens": 34795,
+    "percentage": 17
+  }
+}
