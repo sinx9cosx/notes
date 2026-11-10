@@ -4,8 +4,8 @@
   "title": "Compare sigma and inversion in crystallography",
   "titleGenerationStatus": "success",
   "createdAt": 1794297351115,
-  "updatedAt": 1794304607605,
-  "lastResponseAt": 1794304607605,
+  "updatedAt": 1794306082267,
+  "lastResponseAt": 1794306082267,
   "sessionId": "b9661ed0-e961-4257-a8fc-b502fdecd5e6",
   "providerState": {
     "providerSessionId": "b9661ed0-e961-4257-a8fc-b502fdecd5e6",
@@ -176,17 +176,565 @@
         ],
         "isExpanded": false,
         "result": "[Request interrupted by user for tool use]"
+      },
+      "call_00_ivhgUwhu2VJsovVRzLI97703": {
+        "id": "call_00_ivhgUwhu2VJsovVRzLI97703",
+        "description": "合并49与补充06例题",
+        "prompt": "你在用户的知识库（Obsidian vault）中执行笔记修改任务。工作目录：F:\\obsidian_notes\\knowledge。所有文件用绝对路径读写。\n\n# 任务 A：把 49-特征标.md 合并进 03-特征标.md，然后删除 49-特征标.md\n\n1. 通读 F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md 和 F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\49-特征标.md 全文。\n2. 提取 49 中以下 03 没有的内容，并入 03（插入位置以保持\"定义 → 求法 → 特征标表 → 命名/规则 → 例题\"逻辑流畅为准，具体小节位置由你读原文后决定）：\n   - 特征标的矩阵迹定义：χ = 表示矩阵的迹（Γ 的对角元之和），这是比 ĝf=χf 更一般（适用任意维数）的定义\n   - 迹的几何解释：χ =（保持原向的基向量数）−（反向的基向量数），即 +1/−1/0 规则\n   - 换基（相似变换）时迹不变；同类操作特征标相同\n   - C₄ᵥ 完整特征标表（含 2C₄、2σᵥ、2σ_d 类列与二维 E 行 (2,0,−2,0,0)），作为 03 现有 C₂ᵥ 表之后的第二个表例\n   - \"矩阵表示 vs 特征标\"对比表（内容 / 换基 / 用途三行对比）\n   - 草酸根（C₂ₕ）例题：以四条 C–O 键（箭头）为基，χ = (4,0,0,4)，走完求特征标流程\n3. 约束：03 现有的全部内容、frontmatter、标题、小节一律保留不删；49 与 03 重复的内容不粘贴第二遍；被 04/05 引用的 [[03-特征标]] 文件名与笔记名保持不变。\n4. 数学公式用 $...$ 或 $$...$$（Obsidian LaTeX）；表格用 Markdown 表格；沿用 03 现有的 callout、列表风格。\n5. 用 Bash 删除 F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\49-特征标.md（Windows 下可用 rm \"F:/obsidian_notes/knowledge/Molecular-Symmetry/49-特征标.md\"），删除前 grep 复核 \"49-特征标\" 确认全库无其他笔记引用。\n\n# 任务 B：给 06-群论应用三步法.md 补充例题\n\n1. 通读 F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\06-群论应用三步法.md 全文。\n2. 保留现有全部内容，在\"四种应用\"表格之后新增\"## 例题\"节，两个例题，每个都明确走三步法（①选基 ②约化 ③解释），符号与正文（Γ、Γᵢ、aᵢ、h、Nₖ）一致。以下计算已替你算好，直接采用：\n\n例题 1：NH₃ 的 LCAO-MO（C₃ᵥ）\n- 选基：H 的 3 个 1s 轨道（N 的轨道直接用 C₃ᵥ 特征标表归属：2s、2p_z → A₁；(2pₓ,2p_y) → E，不必放入可约表示）\n- H 1s 基的可约表示：Γ_H = (3, 0, 1)，即 E 下 3、2C₃ 下 0、3σᵥ 下 1\n- 约化（h = 6）：a(A₁) = (1/6)[3·1 + 2·0·1 + 3·1·1] = (1/6)(3+0+3) = 1；a(A₂) = (1/6)[3·1 + 2·0·1 + 3·1·(−1)] = (1/6)(3−3) = 0；a(E) = (1/6)[3·2 + 2·0·(−1) + 3·1·0] = (1/6)(6) = 1 → Γ_H = A₁ + E\n- 回代校验：Σaᵢχᵢ(E) = 1·1 + 1·2 = 3 = Γ(E) ✓\n- 解释：N 的 2s、2p_z（A₁）与 H 的 A₁ 型 SALC 组合出 3 个 A₁ 型 MO（低能 1a₁ 由 N 的 2s 主导、2a₁ 近孤对、3a₁ 反键）；N 的 (2pₓ,2p_y)（E）与 H 的 E 型 SALC 组合出简并的 1e（成键）与 2e（反键）。NH₃ 共 8 个价电子，填 1a₁² 2a₁² 1e⁴\n\n例题 2：H₂O 的 MO 相关图（C₂ᵥ）\n- 选基：H 的 2 个 1s 轨道\n- Γ_H = (2, 0, 2, 0)：E 下 2、C₂ 下 0、σᵥ(xz) 下 2、σᵥ'(yz) 下 0\n- 约化（h = 4）：a(A₁) = (1/4)[2·1 + 0·1 + 2·1 + 0·1] = 1；a(A₂) = (1/4)[2·1 + 0·1 + 2·(−1) + 0·(−1)] = 0；a(B₁) = (1/4)[2·1 + 0·(−1) + 2·1 + 0·(−1)] = 1；a(B₂) = (1/4)[2·1 + 0·(−1) + 2·(−1) + 0·1] = 0 → Γ_H = A₁ + B₁\n- 解释（相关图）：O 的轨道归属：2s、2p_z → A₁；2pₓ → B₁；2p_y → B₂（非键孤对）。A₁ 型：1a₁（近 O 2s）、2a₁（成键）、3a₁（反键）；B₁ 型：1b₁（成键）、2b₁（反键）；B₂ 型：1b₂（纯 O 2p_y 孤对）。8 个价电子填 1a₁² 2a₁² 1b₁² 1b₂²。用 mermaid 图（graph TD）或文字箭头画出相关图：左侧 O 原子轨道 → 中间分子轨道（按能量排序）← 右侧 H 的 A₁ + B₁ SALC，连线要体现同对称性匹配。mermaid 若使用务必语法正确（每行独立节点定义，用 --> 画连线）。\n3. 每个例题开头用一句话点明它对应\"四种应用\"中的哪一种（LCAO 分子轨道 / MO 相关图）。\n4. 风格与 06 现有正文一致：中文要点式、简洁，公式用 $...$。\n\n# 质量要求\n- 群论计算逐项代入，用上面给出的数值与结果，不得改动\n- 中文行文，简洁要点式，与两篇现有笔记风格一致\n- 不改动两个文件除上述合并/新增以外的任何现有内容\n- 完成后报告：每个文件的改动清单（新增了哪些小节/表格/例题）、49 删除是否成功、以及全库 grep \"49-特征标\" 的复核结果\n- 不要执行任何 git 操作",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_tes1hrLlz3QQhEBO1K694636",
+            "name": "Skill",
+            "input": {
+              "skill": "obsidian-markdown"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Launching skill: obsidian-markdown"
+          },
+          {
+            "id": "call_00_6OKB4TZsUVripOn0ANgW2309",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 群论\n4\t  - 结构化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 特征标\n10\t\n11\t## 对称与反对称\n12\t\n13\t<mark style=\"background: #ADCCFFA6;\">对称</mark>：函数 $f$ 经对称操作 $g$ 作用后不变，$\\hat{g}f=f$。\n14\t<mark style=\"background: #ADCCFFA6;\">反对称</mark>：作用后变号，$\\hat{g}f=-f$。\n15\t\n16\t$$\n17\t\\hat{g}f=\\chi(g)f,\\qquad\n18\t\\chi(g)=\n19\t\\begin{cases}\n20\t+1, & \\hat{g}f=f\\\\\n21\t-1, & \\hat{g}f=-f\n22\t\\end{cases}\n23\t$$\n24\t\n25\t$f$ ：被操作的对象，如原子轨道、$x$、$y$、$z$ 方向或绕轴转动，无单位\n26\t$g$ ：点群的对称操作\n27\t$\\hat{g}$ ：操作 $g$ 对应的算符\n28\t$\\chi(g)$ ：<mark style=\"background: #ADCCFFA6;\">特征标</mark>，操作 $g$ 对应的数，量纲一\n29\t\n30\t$C_{2v}$ 群中的 $p_y$ 轨道：\n31\t\n32\t$$\n33\t\\begin{aligned}\n34\t\\hat{E}p_y &= p_y\\\\\n35\t\\hat{C}_2p_y &= -p_y\\\\\n36\t\\hat{\\sigma}(xz)p_y &= -p_y\\\\\n37\t\\hat{\\sigma}(yz)p_y &= p_y\n38\t\\end{aligned}\n39\t$$\n40\t\n41\t$\\chi(E)=1$，$\\chi(C_2)=-1$，$\\chi(\\sigma(xz))=-1$，$\\chi(\\sigma(yz))=1$。$p_y$ 对 $E$、$\\sigma(yz)$ 对称，对 $C_2$、$\\sigma(xz)$ 反对称。\n42\t\n43\t## 特征标（一维表示）\n44\t\n45\t<mark style=\"background: #ADCCFFA6;\">表示</mark>：把群中每个操作对应到一个数或矩阵 $\\Gamma(g)$、并保持群乘法关系的映射。\n46\t\n47\t$$\n48\t\\Gamma(g_1g_2)=\\Gamma(g_1)\\Gamma(g_2),\\qquad \\Gamma(E)=I\n49\t$$\n50\t\n51\t$\\Gamma(g)$ ：操作 $g$ 的表示矩阵，一维表示中为一个数，$I$ 为单位矩阵\n52\t\n53\t一维表示（非简并表示）中 $\\Gamma(g)$ 即特征标 $\\chi(g)$。$C_{2v}$ 中非单位操作都满足 $g^2=E$，故\n54\t\n55\t$$\n56\t\\chi(g)^2=\\chi(g^2)=\\chi(E)=1\\quad\\Rightarrow\\quad\\chi(g)=\\pm1\n57\t$$\n58\t\n59\t一组数构成表示需满足两条：数值描述操作对方向性性质的作用；数值的乘法与操作的乘法一致。$p_y$ 的特征标组满足 $C_2\\sigma(xz)=\\sigma(yz)$ 对应的乘法：\n60\t\n61\t$$\n62\t\\chi(C_2)\\chi(\\sigma(xz))=(-1)(-1)=1=\\chi(\\sigma(yz))\n63\t$$\n64\t\n65\t群关系把 $\\sigma(yz)$ 列固定为 $\\chi(C_2)\\chi(\\sigma(xz))$，独立取值的只有 $\\chi(C_2)$ 与 $\\chi(\\sigma(xz))$，$2^2=4$ 组数对应 $C_{2v}$ 的四个一维不可约表示 $A_1$、$A_2$、$B_1$、$B_2$。\n66\t\n67\t<mark style=\"background: #ADCCFFA6;\">不可约表示</mark>：不能分解为更低维表示之和的表示。\n68\t\n69\t## 特征标表\n70\t\n71\t<mark style=\"background: #ADCCFFA6;\">特征标表</mark>：列出点群全部不可约表示在各个操作（共轭类）下的特征标与相应基函数的表。\n72\t\n73\t| $C_{2v}$ | $E$ | $C_2$ | $\\sigma(xz)$ | $\\sigma(yz)$ | 基函数 |\n74\t| --- | --- | --- | --- | --- | --- |\n75\t| $A_1$ | 1 | 1 | 1 | 1 | $z$、$x^2$、$y^2$、$z^2$ |\n76\t| $A_2$ | 1 | 1 | −1 | −1 | $R_z$、$xy$ |\n77\t| $B_1$ | 1 | −1 | 1 | −1 | $x$、$R_y$、$xz$ |\n78\t| $B_2$ | 1 | −1 | −1 | 1 | $y$、$R_x$、$yz$ |\n79\t\n80\t行是一个不可约表示，列是一个共轭类，$E$ 列全为 $1$。$A_1$ 的特征标全为 $+1$，为全对称表示。\n81\t\n82\t符号由 $C_2$ 与 $\\sigma(xz)$ 的特征标定：$\\chi(C_2)=+1$ 记 $A$，$-1$ 记 $B$；$\\chi(\\sigma(xz))=+1$ 记下标 $1$，$-1$ 记下标 $2$。\n83\t\n84\t基函数列给出各方向的归属：$p_z$ 属 $A_1$，$p_x$ 属 $B_1$，$p_y$ 属 $B_2$，$d_{x^2-y^2}$ 属 $A_1$，$d_{xy}$ 属 $A_2$，$d_{xz}$ 属 $B_1$，$d_{yz}$ 属 $B_2$。\n85\t\n86\t转动同样按基函数列取：$R_z$ 属 $A_2$，$R_y$ 属 $B_1$，$R_x$ 属 $B_2$。\n87\t\n88\t## 适用条件\n89\t\n90\t特征标为 $\\pm1$ 要求表示为一维且操作满足 $g^2=E$；简并表示的特征标可取 $2$、$3$ 等。\n91\t\n92\t特征标表只列不可约表示，任意一组数须满足 $\\chi(g_1g_2)=\\chi(g_1)\\chi(g_2)$ 才是表示。\n93\t\n94\t## 例题\n95\t\n96\t求 $C_{2v}$ 群中 $3d_{xy}$ 轨道所属的不可约表示。\n97\t\n98\t$$\n99\t\\begin{aligned}\n100\t\\hat{E}d_{xy} &= d_{xy} &&\\Rightarrow \\chi(E)=1\\\\\n101\t\\hat{C}_2d_{xy} &= d_{xy} &&\\Rightarrow \\chi(C_2)=1\\\\\n102\t\\hat{\\sigma}(xz)d_{xy} &= -d_{xy} &&\\Rightarrow \\chi(\\sigma(xz))=-1\\\\\n103\t\\hat{\\sigma}(yz)d_{xy} &= -d_{xy} &&\\Rightarrow \\chi(\\sigma(yz))=-1\n104\t\\end{aligned}\n105\t$$\n106\t\n107\t特征标组 $1,1,-1,-1$ 与 $A_2$ 行相同，$3d_{xy}$ 属 $A_2$。\n108\t"
+          },
+          {
+            "id": "call_01_6yAuYZmIsfj5KVhJT2nJ8698",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\49-特征标.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 群论\n4\t  - 结构化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 特征标\n10\t\n11\t## 定义\n12\t\n13\t<mark style=\"background: #ADCCFFA6;\">特征标</mark>：表示矩阵主对角元之和，即矩阵的迹。\n14\t\n15\t$$\\chi(R)=\\operatorname{tr}\\Gamma(R)=\\sum_{i}\\Gamma_{ii}(R)$$\n16\t\n17\t$\\chi(R)$ ：操作 $R$ 的特征标，无量纲\n18\t$\\Gamma(R)$ ：操作 $R$ 的表示矩阵，$n\\times n$\n19\t$\\Gamma_{ii}(R)$ ：$\\Gamma(R)$ 的第 $i$ 个对角元\n20\t$n$ ：基向量个数，即表示的维数\n21\t\n22\t基向量列阵按 $\\mathbf{v}'=\\Gamma(R)\\mathbf{v}$ 变换，$\\Gamma_{ii}$ 是旧基 $i$ 在新基 $i$ 中保留的系数；旧基被换到别的位置时该对角元为零。\n23\t\n24\t$$\\chi(R)=(\\text{保持原向的基向量数})-(\\text{反向的基向量数})$$\n25\t\n26\t基向量不变时贡献 $+1$，反向时贡献 $-1$，被移到别的位置时贡献 $0$。\n27\t\n28\t## 由基求特征标\n29\t\n30\t$C_{4v}$（[[01-分子点群分类]]）的 $C_4$ 与 $\\sigma_d$ 把 $x$ 换成 $y$，$x$、$y$ 不能各自作一维基，合为 $(x, y)$ 后表示矩阵为 $2\\times 2$。$C_4$ 使 $x\\to y$、$y\\to -x$，$\\sigma_d$ 互换 $x$ 与 $y$。\n31\t\n32\t$$\\begin{aligned}\n33\tC_4 &: \\quad \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}, & \\chi &= 0+0=0 \\\\\n34\tC_2 &: \\quad \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}, & \\chi &= -1-1=-2 \\\\\n35\t\\sigma_v(xz) &: \\quad \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}, & \\chi &= 1-1=0 \\\\\n36\t\\sigma_d &: \\quad \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}, & \\chi &= 0+0=0\n37\t\\end{aligned}$$\n38\t\n39\t上述 $C_4$ 与 $\\sigma_d$ 的矩阵把两条基换到对方的位置，对角元全为零，特征标为零。\n40\t\n41\t换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同。同类操作互为相似变换，特征标也相同。\n42\t\n43\t## 特征标表\n44\t\n45\t特征标表的行是不可约表示，列是操作的类，格内是该类操作的特征标。\n46\t\n47\t$$\\begin{array}{c|ccccc|l}\n48\tC_{4v} & E & 2C_4 & C_2 & 2\\sigma_v & 2\\sigma_d & \\text{基} \\\\\n49\t\\hline\n50\tA_1 & 1 & 1 & 1 & 1 & 1 & z,\\ x^2+y^2,\\ z^2 \\\\\n51\tA_2 & 1 & 1 & 1 & -1 & -1 & R_z \\\\\n52\tB_1 & 1 & -1 & 1 & 1 & -1 & x^2-y^2 \\\\\n53\tB_2 & 1 & -1 & 1 & -1 & 1 & xy \\\\\n54\tE & 2 & 0 & -2 & 0 & 0 & (x,y),\\ (R_x,R_y),\\ (xz,yz)\n55\t\\end{array}$$\n56\t\n57\t群论定理只用特征标，表中不列矩阵。\n58\t\n59\t同类操作的特征标必相同；特征标相同不必同类，$2\\sigma_v$ 与 $2\\sigma_d$ 在 $E$ 表示中都是 $0$，在 $B_1$ 表示中分别为 $+1$ 与 $-1$。\n60\t\n61\t$\\chi(E)$ 等于表示的维数，也等于简并度。\n62\t\n63\t| 维数 | $\\chi(E)$ | 标号 | 基（例） |\n64\t| --- | --- | --- | --- |\n65\t| 一维 | 1 | $A$、$B$ | $z$、$x^2-y^2$（$C_{4v}$） |\n66\t| 二维 | 2 | $E$ | $(x, y)$、$(xz, yz)$（$C_{4v}$） |\n67\t| 三维 | 3 | $T$ | $(x, y, z)$（$T_d$） |\n68\t\n69\t被操作混合的基在表内并列于括号中，彼此简并：$(x, y)$、$(xz, yz)$。\n70\t\n71\t$C_{2h}$ 中 $x$、$y$ 对 $E$、$\\sigma(xy)$ 的符号为 $+1$，对 $C_2$、$i$ 为 $-1$，同属 $B_u$。表中写作 $x,\\ y$，不加括号，无操作把两者互换，故不简并。\n72\t\n73\t## 与矩阵表示的对比\n74\t\n75\t| 项目 | 表示矩阵 $\\Gamma(R)$ | 特征标 $\\chi(R)$ |\n76\t| --- | --- | --- |\n77\t| 内容 | 全部矩阵元，含基之间的混合 | 主对角元之和 |\n78\t| 换基 | 改变 | 不变 |\n79\t| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n80\t\n81\t## 例题\n82\t\n83\t草酸根离子为 $C_{2h}$：四条 C–O 键上的箭头同向朝外，分子平面为 $\\sigma(xy)$，$C_2$ 轴垂直于该面。求 $E$、$C_2$、$i$、$\\sigma(xy)$ 各操作作用于四条箭头所成矩阵的特征标。\n84\t\n85\t$$\\begin{aligned}\n86\tE &: \\quad \\text{四条箭头原位不动}，\\ \\chi=1+1+1+1=4 \\\\\n87\tC_2 &: \\quad \\text{每条箭头转到另一条 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n88\ti &: \\quad \\text{四条箭头各换到对面的 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n89\t\\sigma(xy) &: \\quad \\text{四条箭头都在镜面内、方向不变}，\\ \\chi=1+1+1+1=4\n90\t\\end{aligned}$$\n91\t\n92\t结果：$\\chi(E)=4$，$\\chi(C_2)=0$，$\\chi(i)=0$，$\\chi(\\sigma_{xy})=4$，该表示为四维。\n93\t"
+          },
+          {
+            "id": "call_02_iXFrjjN1flDwpH6W3Shn9860",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\06-群论应用三步法.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 群论\n4\t  - 结构化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 群论应用三步法\n10\t\n11\t## 定义\n12\t\n13\t<mark style=\"background: #ADCCFFA6;\">群论应用三步法</mark>：把点群用于化学问题的固定流程，依次为选基、约化、解释。\n14\t\n15\t$$\\begin{aligned}\n16\t&\\text{i. 选基：基}\\longrightarrow\\text{点群的可约表示 }\\Gamma\\\\\n17\t&\\text{ii. 约化：}\\Gamma=\\sum_i a_i\\Gamma_i\\\\\n18\t&\\text{iii. 解释：}\\Gamma_i\\longrightarrow\\text{轨道、键}\n19\t\\end{aligned}$$\n20\t\n21\t$\\Gamma$ ：基在点群全部操作下的表示，一般为可约表示，无单位\n22\t$\\Gamma_i$ ：第 $i$ 个不可约表示\n23\t$a_i$ ：$\\Gamma_i$ 在 $\\Gamma$ 中出现的次数，非负整数\n24\t$h$ ：点群的阶，即群中对称操作的总数\n25\t\n26\t三步的顺序不能反：基决定问题问的是哪组键或轨道，后两步按公式走。\n27\t\n28\t## 三步\n29\t\n30\t### 选基\n31\t\n32\t基取矢量组或轨道组，须与所问的化学问题对应。基按点群的操作变换，点群未定则特征标表无从取用，判定见 [[01-分子点群分类]]。\n33\t\n34\t可约表示的维数等于基函数的个数：\n35\t\n36\t$$\\Gamma(E)=\\text{基函数的个数}$$\n37\t\n38\t特征标由每个操作下各基函数的去留给：\n39\t\n40\t$$\\chi(R)=\\sum_{\\text{基函数}}\\begin{cases}+1 & \\text{留在原位，方向不变}\\\\ -1 & \\text{留在原位，方向反转}\\\\ 0 & \\text{离开原位}\\end{cases}$$\n41\t\n42\t### 约化\n43\t\n44\t$$\\begin{aligned}\n45\t\\Gamma&=\\sum_i a_i\\Gamma_i\\\\\n46\ta_i&=\\frac{1}{h}\\sum_{R}N_R\\,\\chi_R\\,\\chi_i\n47\t\\end{aligned}$$\n48\t\n49\t$N_R$ ：第 $R$ 类操作所含的对称操作数\n50\t$\\chi_R$ ：可约表示在第 $R$ 类操作上的特征标\n51\t$\\chi_i$ ：不可约表示 $\\Gamma_i$ 在同一类操作上的特征标\n52\t\n53\t计算所得 $a_i$ 应为非负整数，且 $\\sum_i a_i\\chi_i(E)=\\Gamma(E)$。\n54\t\n55\t### 解释\n56\t\n57\t$a_i\\neq0$ 的每个不可约表示对应一组按该对称性变换的基函数组合；$a_i=0$ 的对称性不出现，相应的组合被对称性排除。\n58\t\n59\t两个基函数能混合的必要条件是属同一不可约表示。\n60\t\n61\t## 四种应用\n62\t\n63\t| 应用 | 基 | 第三步读出的结果 |\n64\t| --- | --- | --- |\n65\t| 杂化轨道 | 指向配体的键矢量 | 参与杂化的原子轨道 |\n66\t| π 键 | 垂直于分子平面的箭头，每对成键原子两个 | 能形成 π 键的轨道组合 |\n67\t| LCAO 分子轨道 | 各原子的价轨道 | 各分子轨道的对称性 |\n68\t| MO 相关图 | 中心原子轨道与配体轨道组合 | 同对称性轨道的连线 |\n69\t\n70\t前三项按三步走完。相关图的构造多出一步：三步只给出两侧轨道各自的对称性，连线另按能量高低排序。\n71\t\n72\t## 适用条件\n73\t\n74\t- 点群已判定，所需特征标表在手。\n75\t- 基须覆盖所研究的全部键或轨道；基中漏掉的对象不出现在任何不可约表示里。\n76\t- 方法只判定对称性允许与否；混合强弱取决于重叠积分与能量差，混合系数与轨道能量不在三步之内。\n77\t\n78\t## 其他常用形式\n79\t\n80\t三步合并写为：基 → 可约表示 → 不可约表示 → 轨道。\n81\t"
+          },
+          {
+            "id": "call_03_ie6P8BbvTDmZqSaapWmB6885",
+            "name": "Grep",
+            "input": {
+              "pattern": "49-特征标",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "output_mode": "content",
+              "-n": true
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": ".obsidian\\workspace.json:240:    \"Molecular-Symmetry/49-特征标.md\",\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:16:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:73:              \"file_path\": \"F:\\\\obsidian_notes\\\\knowledge\\\\Molecular-Symmetry\\\\49-特征标.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:88:            \"result\": \"Molecular-Symmetry\\\\03-特征标.md\\nMolecular-Symmetry\\\\06-群论应用三步法.md\\nMolecular-Symmetry\\\\04-不可约表示.md\\nMolecular-Symmetry\\\\49-特征标.md\\nMolecular-Symmetry\\\\05-简并表示.md\\nMolecular-Symmetry\\\\01-分子点群分类.md\\nMolecular-Symmetry\\\\0-对称操作.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:101:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:107:              \"command\": \"cd \\\"F:/obsidian_notes/knowledge/Molecular-Symmetry\\\" && for f in 01-分子点群分类.md 03-特征标.md 04-不可约表示.md 05-简并表示.md 06-群论应用三步法.md 49-特征标.md; do chars=$(wc -m < \\\"$f\\\"); lines=$(wc -l < \\\"$f\\\"); echo \\\"$f | 行数: $lines | 字符数: $chars\\\"; done\",\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:112:            \"result\": \"01-分子点群分类.md | 行数: 136 | 字符数: 5674\\n03-特征标.md | 行数: 107 | 字符数: 3878\\n04-不可约表示.md | 行数: 140 | 字符数: 5613\\n05-简并表示.md | 行数: 186 | 字符数: 6589\\n06-群论应用三步法.md | 行数: 80 | 字符数: 2944\\n49-特征标.md | 行数: 92 | 字符数: 3942\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:116:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:121:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:148:              \"file_path\": \"F:\\\\obsidian_notes\\\\knowledge\\\\Molecular-Symmetry\\\\49-特征标.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:168:              \"pattern\": \"49-特征标\","
+          },
+          {
+            "id": "call_00_MCQ3H4nOC1o3Y0Khj2Wb5900",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "old_string": "<mark style=\"background: #ADCCFFA6;\">不可约表示</mark>：不能分解为更低维表示之和的表示。\n\n## 特征标表",
+              "new_string": "<mark style=\"background: #ADCCFFA6;\">不可约表示</mark>：不能分解为更低维表示之和的表示。\n\n## 特征标的迹定义\n\n上面给出的是 $\\hat{g}f=\\pm f$ 时特征标为 $\\pm1$ 的情形；表示维数更高时，特征标定义为表示矩阵的迹，这是比 $\\hat{g}f=\\chi f$ 更一般、适用任意维数的定义：\n\n$$\\chi(R)=\\operatorname{tr}\\Gamma(R)=\\sum_{i}\\Gamma_{ii}(R)$$\n\n$\\Gamma(R)$ ：操作 $R$ 的表示矩阵，$n\\times n$\n$\\Gamma_{ii}(R)$ ：$\\Gamma(R)$ 的第 $i$ 个对角元\n$n$ ：基向量个数，即表示的维数\n\n基向量列阵按 $\\mathbf{v}'=\\Gamma(R)\\mathbf{v}$ 变换，$\\Gamma_{ii}$ 是旧基 $i$ 在新基 $i$ 中保留的系数；旧基被换到别的位置时该对角元为零。于是\n\n$$\\chi(R)=(\\text{保持原向的基向量数})-(\\text{反向的基向量数})$$\n\n基向量不变时贡献 $+1$，反向时贡献 $-1$，被移到别的位置时贡献 $0$。一维表示中矩阵退化为一个数，迹定义回到 $\\hat{g}f=\\chi f$ 的 $\\pm1$。\n\n## 特征标表"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_01_EaUOpfKtuybeFyJWXQQz7889",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "old_string": "转动同样按基函数列取：$R_z$ 属 $A_2$，$R_y$ 属 $B_1$，$R_x$ 属 $B_2$。\n\n## 适用条件",
+              "new_string": "转动同样按基函数列取：$R_z$ 属 $A_2$，$R_y$ 属 $B_1$，$R_x$ 属 $B_2$。\n\n含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：\n\n| $C_{4v}$ | $E$ | $2C_4$ | $C_2$ | $2\\sigma_v$ | $2\\sigma_d$ | 基 |\n| --- | --- | --- | --- | --- | --- | --- |\n| $A_1$ | 1 | 1 | 1 | 1 | 1 | $z$、$x^2+y^2$、$z^2$ |\n| $A_2$ | 1 | 1 | 1 | −1 | −1 | $R_z$ |\n| $B_1$ | 1 | −1 | 1 | 1 | −1 | $x^2-y^2$ |\n| $B_2$ | 1 | −1 | 1 | −1 | 1 | $xy$ |\n| $E$ | 2 | 0 | −2 | 0 | 0 | $(x,y)$、$(R_x,R_y)$、$(xz,yz)$ |\n\n二维表示 $E$ 的特征标为 $(2,0,-2,0,0)$：$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$，两条基都离开原位，故 $\\chi(2C_4)=0$；$C_2$ 使两者同时反向，$\\chi(C_2)=-2$。$\\chi(E)=2$ 即表示的维数，也即简并度。\n\n换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同；同类操作互为相似变换，特征标也相同。特征标相同不必同类：$2\\sigma_v$ 与 $2\\sigma_d$ 在 $E$ 表示中都是 $0$，在 $B_1$ 表示中分别为 $+1$ 与 $-1$。\n\n## 与矩阵表示的对比\n\n| 项目 | 表示矩阵 $\\Gamma(R)$ | 特征标 $\\chi(R)$ |\n| --- | --- | --- |\n| 内容 | 全部矩阵元，含基之间的混合 | 主对角元之和 |\n| 换基 | 改变 | 不变 |\n| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n\n## 适用条件"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_02_uQVSiPJtED42Fe6w7KaZ9505",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "old_string": "特征标组 $1,1,-1,-1$ 与 $A_2$ 行相同，$3d_{xy}$ 属 $A_2$。",
+              "new_string": "特征标组 $1,1,-1,-1$ 与 $A_2$ 行相同，$3d_{xy}$ 属 $A_2$。\n\n草酸根离子为 $C_{2h}$：四条 C–O 键上的箭头同向朝外，分子平面为 $\\sigma(xy)$，$C_2$ 轴垂直于该面。以四条箭头为基，求 $E$、$C_2$、$i$、$\\sigma(xy)$ 各操作作用于四条箭头所成矩阵的特征标。\n\n$$\\begin{aligned}\nE &: \\quad \\text{四条箭头原位不动}，\\ \\chi=1+1+1+1=4 \\\\\nC_2 &: \\quad \\text{每条箭头转到另一条 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\ni &: \\quad \\text{四条箭头各换到对面的 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n\\sigma(xy) &: \\quad \\text{四条箭头都在镜面内、方向不变}，\\ \\chi=1+1+1+1=4\n\\end{aligned}$$\n\n结果：$\\chi=(4,0,0,4)$，该表示为四维。"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_03_Asas0xf4DsPGyIfAAhYT0210",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\06-群论应用三步法.md",
+              "old_string": "前三项按三步走完。相关图的构造多出一步：三步只给出两侧轨道各自的对称性，连线另按能量高低排序。\n\n## 适用条件",
+              "new_string": "前三项按三步走完。相关图的构造多出一步：三步只给出两侧轨道各自的对称性，连线另按能量高低排序。\n\n## 例题\n\n### 例题 1：NH₃ 的 LCAO-MO（$C_{3v}$）\n\n本例题对应四种应用中的 <mark style=\"background: #ADCCFFA6;\">LCAO 分子轨道</mark>（基取各原子的价轨道）。\n\n**① 选基**：H 的 3 个 1s 轨道作基。N 的轨道不放入可约表示，直接按 $C_{3v}$ 特征标表归属：2s、2p_z → $A_1$；$(2p_x,2p_y)$ → $E$。\n\n$$\\Gamma_H=(3,0,1)$$\n\n即 $E$ 下 3、$2C_3$ 下 0、$3\\sigma_v$ 下 1。\n\n**② 约化**（$h=6$）：\n\n$$\\begin{aligned}\na(A_1)&=\\frac{1}{6}\\left[3\\cdot1+2\\cdot0\\cdot1+3\\cdot1\\cdot1\\right]=\\frac{1}{6}(3+0+3)=1\\\\\na(A_2)&=\\frac{1}{6}\\left[3\\cdot1+2\\cdot0\\cdot1+3\\cdot1\\cdot(-1)\\right]=\\frac{1}{6}(3-3)=0\\\\\na(E)&=\\frac{1}{6}\\left[3\\cdot2+2\\cdot0\\cdot(-1)+3\\cdot1\\cdot0\\right]=\\frac{1}{6}(6)=1\n\\end{aligned}$$\n\n$$\\Gamma_H=A_1+E$$\n\n回代校验：$\\sum_i a_i\\chi_i(E)=1\\cdot1+1\\cdot2=3=\\Gamma(E)$ ✓\n\n**③ 解释**：\n- N 的 2s、2p_z（$A_1$）与 H 的 $A_1$ 型 SALC 组合出 3 个 $A_1$ 型 MO：低能 $1a_1$ 由 N 的 2s 主导、$2a_1$ 近孤对、$3a_1$ 反键。\n- N 的 $(2p_x,2p_y)$（$E$）与 H 的 $E$ 型 SALC 组合出简并的 $1e$（成键）与 $2e$（反键）。\n- NH₃ 共 8 个价电子，填 $1a_1^2\\,2a_1^2\\,1e^4$。\n\n### 例题 2：H₂O 的 MO 相关图（$C_{2v}$）\n\n本例题对应四种应用中的 <mark style=\"background: #ADCCFFA6;\">MO 相关图</mark>（中心原子轨道与配体轨道组合，三步只给出两侧对称性，连线另按能量排序）。\n\n**① 选基**：H 的 2 个 1s 轨道作基。\n\n$$\\Gamma_H=(2,0,2,0)$$\n\n即 $E$ 下 2、$C_2$ 下 0、$\\sigma_v(xz)$ 下 2、$\\sigma_v'(yz)$ 下 0。\n\n**② 约化**（$h=4$）：\n\n$$\\begin{aligned}\na(A_1)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot1+2\\cdot1+0\\cdot1\\right]=1\\\\\na(A_2)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot1+2\\cdot(-1)+0\\cdot(-1)\\right]=0\\\\\na(B_1)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot(-1)+2\\cdot1+0\\cdot(-1)\\right]=1\\\\\na(B_2)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot(-1)+2\\cdot(-1)+0\\cdot1\\right]=0\n\\end{aligned}$$\n\n$$\\Gamma_H=A_1+B_1$$\n\n**③ 解释**：O 的轨道归属：2s、2p_z → $A_1$；2p_x → $B_1$；2p_y → $B_2$（非键孤对）。$A_1$ 型：$1a_1$（近 O 2s）、$2a_1$（成键）、$3a_1$（反键）；$B_1$ 型：$1b_1$（成键）、$2b_1$（反键）；$B_2$ 型：$1b_2$（纯 O 2p_y 孤对）。8 个价电子填 $1a_1^2\\,2a_1^2\\,1b_1^2\\,1b_2^2$。\n\n相关图（连线只按同对称性匹配，能级高低另由能量决定）：\n\n```mermaid\ngraph TD\n    subgraph OA[\"O 原子轨道\"]\n        O2s[\"2s（A₁）\"]\n        O2pz[\"2p_z（A₁）\"]\n        O2px[\"2p_x（B₁）\"]\n        O2py[\"2p_y（B₂）\"]\n    end\n    subgraph SALC[\"H 的 SALC\"]\n        HA1[\"A₁ 型\"]\n        HB1[\"B₁ 型\"]\n    end\n    subgraph MO[\"分子轨道（能量自高而低）\"]\n        M3a1[\"3a₁（A₁，反键）\"]\n        M2b1[\"2b₁（B₁，反键）\"]\n        M2a1[\"2a₁（A₁，成键）\"]\n        M1b1[\"1b₁（B₁，成键）\"]\n        M1b2[\"1b₂（B₂，非键孤对）\"]\n        M1a1[\"1a₁（A₁，近 O 2s）\"]\n    end\n    O2s --> M1a1\n    O2s --> M2a1\n    O2s --> M3a1\n    O2pz --> M2a1\n    O2pz --> M3a1\n    O2px --> M1b1\n    O2px --> M2b1\n    O2py --> M1b2\n    HA1 --> M2a1\n    HA1 --> M3a1\n    HB1 --> M1b1\n    HB1 --> M2b1\n```\n\n## 适用条件"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\06-群论应用三步法.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_PPV4v8vF47nxxzT9XXe48471",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "pattern": "^#{1,3} "
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "9:# 特征标\n11:## 对称与反对称\n43:## 特征标（一维表示）\n69:## 特征标的迹定义\n85:## 特征标表\n118:## 与矩阵表示的对比\n126:## 适用条件\n132:## 例题"
+          },
+          {
+            "id": "call_01_pXEKG15eLB4LLRV8Ay0M2208",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\06-群论应用三步法.md",
+              "pattern": "^#{1,3} "
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "9:# 群论应用三步法\n11:## 定义\n28:## 三步\n30:### 选基\n42:### 约化\n55:### 解释\n61:## 四种应用\n72:## 例题\n74:### 例题 1：NH₃ 的 LCAO-MO（$C_{3v}$）\n101:### 例题 2：H₂O 的 MO 相关图（$C_{2v}$）\n160:## 适用条件\n166:## 其他常用形式"
+          },
+          {
+            "id": "call_02_Ha3KpEFmkTMbkkE3US1I6745",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "pattern": "迹|C_\\{4v\\}|与矩阵表示的对比|草酸根|3d_\\{xy\\}"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "69:## 特征标的迹定义\n71:上面给出的是 $\\hat{g}f=\\pm f$ 时特征标为 $\\pm1$ 的情形；表示维数更高时，特征标定义为表示矩阵的迹，这是比 $\\hat{g}f=\\chi f$ 更一般、适用任意维数的定义：\n83:基向量不变时贡献 $+1$，反向时贡献 $-1$，被移到别的位置时贡献 $0$。一维表示中矩阵退化为一个数，迹定义回到 $\\hat{g}f=\\chi f$ 的 $\\pm1$。\n104:含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：\n106:| $C_{4v}$ | $E$ | $2C_4$ | $C_2$ | $2\\sigma_v$ | $2\\sigma_d$ | 基 |\n116:换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同；同类操作互为相似变换，特征标也相同。特征标相同不必同类：$2\\sigma_v$ 与 $2\\sigma_d$ 在 $E$ 表示中都是 $0$，在 $B_1$ 表示中分别为 $+1$ 与 $-1$。\n118:## 与矩阵表示的对比\n134:求 $C_{2v}$ 群中 $3d_{xy}$ 轨道所属的不可约表示。\n145:特征标组 $1,1,-1,-1$ 与 $A_2$ 行相同，$3d_{xy}$ 属 $A_2$。\n147:草酸根离子为 $C_{2h}$：四条 C–O 键上的箭头同向朝外，分子平面为 $\\sigma(xy)$，$C_2$ 轴垂直于该面。以四条箭头为基，求 $E$、$C_2$、$i$、$\\sigma(xy)$ 各操作作用于四条箭头所成矩阵的特征标。"
+          },
+          {
+            "id": "call_03_K3hUdDuH8Ppgr06GG10Q6633",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\06-群论应用三步法.md",
+              "pattern": "例题|mermaid|Gamma_H="
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "72:## 例题\n74:### 例题 1：NH₃ 的 LCAO-MO（$C_{3v}$）\n76:本例题对应四种应用中的 <mark style=\"background: #ADCCFFA6;\">LCAO 分子轨道</mark>（基取各原子的价轨道）。\n80:$$\\Gamma_H=(3,0,1)$$\n92:$$\\Gamma_H=A_1+E$$\n101:### 例题 2：H₂O 的 MO 相关图（$C_{2v}$）\n103:本例题对应四种应用中的 <mark style=\"background: #ADCCFFA6;\">MO 相关图</mark>（中心原子轨道与配体轨道组合，三步只给出两侧对称性，连线另按能量排序）。\n107:$$\\Gamma_H=(2,0,2,0)$$\n120:$$\\Gamma_H=A_1+B_1$$\n126:```mermaid"
+          },
+          {
+            "id": "call_00_RQx0YLedz8bXaszphCr90829",
+            "name": "Bash",
+            "input": {
+              "command": "rm \"F:/obsidian_notes/knowledge/Molecular-Symmetry/49-特征标.md\" && ls \"F:/obsidian_notes/knowledge/Molecular-Symmetry/\"",
+              "description": "删除 49-特征标.md 并列出目录确认"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "00-对称操作.md\n01-分子点群分类.md\n03-特征标.md\n04-不可约表示.md\n05-简并表示.md\n06-群论应用三步法.md\n61-群论应用三步法.md"
+          },
+          {
+            "id": "call_00_Gfqxk8rauDRfTtgy10Vu2468",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "glob": "*.md",
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "49-特征标"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No matches found"
+          },
+          {
+            "id": "call_01_kilV9fCBBmm0RQ4XRTHt6728",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "glob": "*.md",
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "03-特征标"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Molecular-Symmetry\\05-简并表示.md:15:单函数为基时矩阵只有一个数，属一维表示，见 [[03-特征标]]。基函数成组时，操作可以把其中一个变成另一个：\nMolecular-Symmetry\\04-不可约表示.md:13:不可约表示的定义与一维特征标见 [[03-特征标]]。特征标表的每一行是一个不可约表示，它是分解任意表示的基元。\nMolecular-Symmetry\\04-不可约表示.md:32:$A_1$ 在全部操作下特征标为 $+1$，称<mark style=\"background: #ADCCFFA6;\">全对称表示</mark>。$C_{3v}$ 中 $z$ 属 $A_1$，$R_z$ 属 $A_2$，$x$、$y$ 属 $E$；$C_{2v}$ 的四行标号与基函数归属见 [[03-特征标]]。"
+          }
+        ],
+        "isExpanded": false,
+        "result": "主人，两项任务全部完成，猫猫汇报结论喵。\n\n## 任务 A：03-特征标.md 合并（49 已删除）\n\nF:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md 的改动清单：\n- 新增小节「特征标的迹定义」（位于\"特征标（一维表示）\"与\"特征标表\"之间）：迹定义 $\\chi=\\operatorname{tr}\\Gamma$ 及其符号表、基向量变换解释、几何解释（保持原向 − 反向，+1/−1/0 规则）\n- 「特征标表」节内、C₂ᵥ 表之后新增 C₄ᵥ 完整特征标表（含 2C₄、2σᵥ、2σ_d 类列与 E 行 (2,0,−2,0,0)），并补充换基迹不变、同类操作特征标相同的性质\n- 新增小节「与矩阵表示的对比」（内容/换基/用途三行 Markdown 对比表），位于\"特征标表\"与\"适用条件\"之间\n- 「例题」节末尾新增草酸根（C₂ₕ）例题：四条箭头为基，走完 χ=(4,0,0,4) 求特征标流程\n- 03 原有全部内容、frontmatter、标题、小节均保留未删，[[03-特征标]] 文件名与笔记名未变\n\nF:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\49-特征标.md 已用 Bash rm 删除成功，目录中已无该文件喵。\n\n## 任务 B：06-群论应用三步法.md 新增例题\n\nF:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\06-群论应用三步法.md 的改动清单：\n- \"四种应用\"表格之后、\"\"适用条件\"之前新增「## 例题」节\n- 例题 1：NH₃ 的 LCAO-MO（C₃ᵥ），开头点明对应\"LCAO 分子轨道\"，走完 ①②③ 三步（Γ_H=(3,0,1)、h=6 约化 a(A₁)=1/a(A₂)=0/a(E)=1、回代校验 3=3 ✓、8 电子填 1a₁² 2a₁² 1e⁴）\n- 例题 2：H₂O 的 MO 相关图（C₂ᵥ），开头点明对应\"MO 相关图\"，三步走完（Γ_H=(2,0,2,0)、h=4 约化 Γ_H=A₁+B₁、轨道归属与电子填充），并附 mermaid graph TD 相关图（三组 subgraph：O 轨道、H 的 SALC、分子轨道按能量自高而低，连线只按同对称性匹配，每行独立节点定义、用 --> 画线）\n- 所有数值与任务给定完全一致，未改动；06 原有内容全部保留\n\n## 复核结果\n- 全库（*.md）grep \"49-特征标\"：0 处匹配，无任何笔记引用（此前仅 .obsidian/workspace.json 与 .claudian 会话记录含该路径，属 Obsidian 内部状态而非笔记引用，未改动）\n- 全库 grep \"03-特征标\"：04-不可约表示.md（2 处）、05-简并表示.md（1 处）的 wikilink 完好未受影响\n- 未执行任何 git 操作喵\n\n另外提醒一句：目录里还有 61-群论应用三步法.md，可能属于另一次合并任务的对象喵。\n\nresult: 49-特征标已合并入 03-特征标并删除（全库无引用），06-群论应用三步法已新增 NH₃、H₂O 两个三步法例题，原有内容均保留喵"
+      },
+      "call_00_xUpg1pnGmYkdyuVpRRjV7630": {
+        "id": "call_00_xUpg1pnGmYkdyuVpRRjV7630",
+        "description": "审查合并与例题正确性",
+        "prompt": "你是代码/文档审查 agent。审查以下两项修改是否符合需求，逐项核验，输出结论清单。\n\n工作目录：F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\n\n# 审查对象与验收标准\n\n## 审查 1：03-特征标.md 的合并质量\n\n背景：49-特征标.md 应已合并进 03-特征标.md，且 49 已删除。49 独有内容必须全部并入 03：\n- 矩阵迹定义 χ=trΓ（含符号表）\n- 迹的几何解释（保持原向 − 反向基向量数，+1/−1/0 规则）\n- 换基（相似变换）迹不变、同类操作特征标相同\n- C₄ᵥ 完整特征标表：需含 E、2C₄、C₂、2σᵥ、2σ_d 五列，E 行 (2,0,−2,0,0)，且 A₁、A₂、B₁、B₂、E 各行数值正确（对照标准 C₄ᵥ 表：A₁ (1,1,1,1,1)、A₂ (1,1,1,−1,−1)、B₁ (1,−1,1,1,−1)、B₂ (1,−1,1,−1,1)、E (2,0,−2,0,0)）\n- \"矩阵表示 vs 特征标\"三行对比表（内容/换基/用途）\n- 草酸根（C₂ₕ）例题：以 4 条 C–O 键箭头为基，χ=(4,0,0,4)，流程完整\n\n核验要点：\n- 03 原有内容（对称与反对称、一维表示 χ=±1、C₂ᵥ 表、命名规则、适用条件、3d_xy 例题）是否全部保留未被删改\n- 上述 49 独有内容是否全部出现、有无遗漏\n- 49 与 03 重复的内容有没有被重复粘贴两遍\n- C₄ᵥ 表中每一行每一个数字是否与标准值一致（错误一个即不合格）\n- 逻辑顺序是否通顺\n- 用 Glob 确认 Molecular-Symmetry 目录下 49-特征标.md 已不存在\n- 用 Grep 全库（F:\\obsidian_notes\\knowledge）搜 \"49-特征标\" 确认无 .md 笔记引用残留\n- 04/05 中的 [[03-特征标]] wikilink 是否完好\n\n## 审查 2：06-群论应用三步法.md 的新增例题\n\n背景：应新增两个走三步法（选基/约化/解释）的例题。核验：\n- NH₃ 例题（C₃ᵥ）：Γ_H=(3,0,1) 正确；约化 h=6，a(A₁)=(1/6)(3+0+3)=1、a(A₂)=(1/6)(3−3)=0、a(E)=(1/6)(6)=1 各项代入与结果正确；回代校验 Σaᵢχᵢ(E)=1+2=3=Γ(E) 出现；解释部分 A₁ 三个 MO + E 两组简并 MO、8 电子填 1a₁² 2a₁² 1e⁴ 正确\n- H₂O 例题（C₂ᵥ）：Γ_H=(2,0,2,0) 正确；约化 h=4，a(A₁)=1、a(A₂)=0、a(B₁)=1、a(B₂)=0 代入与结果正确；O 轨道归属（2s/2p_z→A₁、2pₓ→B₁、2p_y→B₂）正确；8 电子填 1a₁² 2a₁² 1b₁² 1b₂² 正确\n- mermaid 代码块语法：逐行检查节点定义与 --> 连线语法合法（node 名不能含空格或需引号包裹、subgraph 配对闭合）\n- 06 原有正文与\"四种应用\"表格保留未删改\n- 两个例题均点明对应\"四种应用\"中哪种\n\n## 审查 3：核实执行 agent 的一个附带说法\n\n执行 agent 报告称\"目录里还有 61-群论应用三步法.md\"。请用 Glob 列出 Molecular-Symmetry 目录全部文件，确认是否存在该文件；若存在，简要说明其内容性质（不必细读全文，看标题与行数即可）。\n\n# 输出格式\n逐项给出 ✅/❌ 结论清单，每个 ❌ 附具体位置与正确值。最后给一句总体判定（合格 / 不合格+必须修复项）。不修改任何文件。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_p7GauPfYi7nQXStfsIns9769",
+            "name": "Glob",
+            "input": {
+              "pattern": "*",
+              "path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Molecular-Symmetry\\00-对称操作.md\nMolecular-Symmetry\\05-简并表示.md\nMolecular-Symmetry\\61-群论应用三步法.md\nMolecular-Symmetry\\04-不可约表示.md\nMolecular-Symmetry\\01-分子点群分类.md\nMolecular-Symmetry\\03-特征标.md\nMolecular-Symmetry\\06-群论应用三步法.md"
+          },
+          {
+            "id": "call_01_7P6xPMofPhHAdZFgii2b7676",
+            "name": "Bash",
+            "input": {
+              "command": "git -C F:/obsidian_notes/knowledge status --short -- \"Molecular-Symmetry/\" && echo \"---DIFFSTAT---\" && git -C F:/obsidian_notes/knowledge diff --stat -- \"Molecular-Symmetry/\"",
+              "description": "Show git status and diff stat for Molecular-Symmetry directory"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": " M \"Molecular-Symmetry/03-\\347\\211\\271\\345\\276\\201\\346\\240\\207.md\"\n M \"Molecular-Symmetry/06-\\347\\276\\244\\350\\256\\272\\345\\272\\224\\347\\224\\250\\344\\270\\211\\346\\255\\245\\346\\263\\225.md\"\n D \"Molecular-Symmetry/49-\\347\\211\\271\\345\\276\\201\\346\\240\\207.md\"\n---DIFFSTAT---\nwarning: in the working copy of 'knowledge/Molecular-Symmetry/03-特征标.md', LF will be replaced by CRLF the next time Git touches it\n .../03-\\347\\211\\271\\345\\276\\201\\346\\240\\207.md\"    | 49 ++++++++++++\n ...224\\250\\344\\270\\211\\346\\255\\245\\346\\263\\225.md\" | 88 +++++++++++++++++++++\n .../49-\\347\\211\\271\\345\\276\\201\\346\\240\\207.md\"    | 92 ----------------------\n 3 files changed, 137 insertions(+), 92 deletions(-)"
+          },
+          {
+            "id": "call_00_VzksGyRuixJuUJYgm3F23441",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 群论\n4\t  - 结构化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 特征标\n10\t\n11\t## 对称与反对称\n12\t\n13\t<mark style=\"background: #ADCCFFA6;\">对称</mark>：函数 $f$ 经对称操作 $g$ 作用后不变，$\\hat{g}f=f$。\n14\t<mark style=\"background: #ADCCFFA6;\">反对称</mark>：作用后变号，$\\hat{g}f=-f$。\n15\t\n16\t$$\n17\t\\hat{g}f=\\chi(g)f,\\qquad\n18\t\\chi(g)=\n19\t\\begin{cases}\n20\t+1, & \\hat{g}f=f\\\\\n21\t-1, & \\hat{g}f=-f\n22\t\\end{cases}\n23\t$$\n24\t\n25\t$f$ ：被操作的对象，如原子轨道、$x$、$y$、$z$ 方向或绕轴转动，无单位\n26\t$g$ ：点群的对称操作\n27\t$\\hat{g}$ ：操作 $g$ 对应的算符\n28\t$\\chi(g)$ ：<mark style=\"background: #ADCCFFA6;\">特征标</mark>，操作 $g$ 对应的数，量纲一\n29\t\n30\t$C_{2v}$ 群中的 $p_y$ 轨道：\n31\t\n32\t$$\n33\t\\begin{aligned}\n34\t\\hat{E}p_y &= p_y\\\\\n35\t\\hat{C}_2p_y &= -p_y\\\\\n36\t\\hat{\\sigma}(xz)p_y &= -p_y\\\\\n37\t\\hat{\\sigma}(yz)p_y &= p_y\n38\t\\end{aligned}\n39\t$$\n40\t\n41\t$\\chi(E)=1$，$\\chi(C_2)=-1$，$\\chi(\\sigma(xz))=-1$，$\\chi(\\sigma(yz))=1$。$p_y$ 对 $E$、$\\sigma(yz)$ 对称，对 $C_2$、$\\sigma(xz)$ 反对称。\n42\t\n43\t## 特征标（一维表示）\n44\t\n45\t<mark style=\"background: #ADCCFFA6;\">表示</mark>：把群中每个操作对应到一个数或矩阵 $\\Gamma(g)$、并保持群乘法关系的映射。\n46\t\n47\t$$\n48\t\\Gamma(g_1g_2)=\\Gamma(g_1)\\Gamma(g_2),\\qquad \\Gamma(E)=I\n49\t$$\n50\t\n51\t$\\Gamma(g)$ ：操作 $g$ 的表示矩阵，一维表示中为一个数，$I$ 为单位矩阵\n52\t\n53\t一维表示（非简并表示）中 $\\Gamma(g)$ 即特征标 $\\chi(g)$。$C_{2v}$ 中非单位操作都满足 $g^2=E$，故\n54\t\n55\t$$\n56\t\\chi(g)^2=\\chi(g^2)=\\chi(E)=1\\quad\\Rightarrow\\quad\\chi(g)=\\pm1\n57\t$$\n58\t\n59\t一组数构成表示需满足两条：数值描述操作对方向性性质的作用；数值的乘法与操作的乘法一致。$p_y$ 的特征标组满足 $C_2\\sigma(xz)=\\sigma(yz)$ 对应的乘法：\n60\t\n61\t$$\n62\t\\chi(C_2)\\chi(\\sigma(xz))=(-1)(-1)=1=\\chi(\\sigma(yz))\n63\t$$\n64\t\n65\t群关系把 $\\sigma(yz)$ 列固定为 $\\chi(C_2)\\chi(\\sigma(xz))$，独立取值的只有 $\\chi(C_2)$ 与 $\\chi(\\sigma(xz))$，$2^2=4$ 组数对应 $C_{2v}$ 的四个一维不可约表示 $A_1$、$A_2$、$B_1$、$B_2$。\n66\t\n67\t<mark style=\"background: #ADCCFFA6;\">不可约表示</mark>：不能分解为更低维表示之和的表示。\n68\t\n69\t## 特征标的迹定义\n70\t\n71\t上面给出的是 $\\hat{g}f=\\pm f$ 时特征标为 $\\pm1$ 的情形；表示维数更高时，特征标定义为表示矩阵的迹，这是比 $\\hat{g}f=\\chi f$ 更一般、适用任意维数的定义：\n72\t\n73\t$$\\chi(R)=\\operatorname{tr}\\Gamma(R)=\\sum_{i}\\Gamma_{ii}(R)$$\n74\t\n75\t$\\Gamma(R)$ ：操作 $R$ 的表示矩阵，$n\\times n$\n76\t$\\Gamma_{ii}(R)$ ：$\\Gamma(R)$ 的第 $i$ 个对角元\n77\t$n$ ：基向量个数，即表示的维数\n78\t\n79\t基向量列阵按 $\\mathbf{v}'=\\Gamma(R)\\mathbf{v}$ 变换，$\\Gamma_{ii}$ 是旧基 $i$ 在新基 $i$ 中保留的系数；旧基被换到别的位置时该对角元为零。于是\n80\t\n81\t$$\\chi(R)=(\\text{保持原向的基向量数})-(\\text{反向的基向量数})$$\n82\t\n83\t基向量不变时贡献 $+1$，反向时贡献 $-1$，被移到别的位置时贡献 $0$。一维表示中矩阵退化为一个数，迹定义回到 $\\hat{g}f=\\chi f$ 的 $\\pm1$。\n84\t\n85\t## 特征标表\n86\t\n87\t<mark style=\"background: #ADCCFFA6;\">特征标表</mark>：列出点群全部不可约表示在各个操作（共轭类）下的特征标与相应基函数的表。\n88\t\n89\t| $C_{2v}$ | $E$ | $C_2$ | $\\sigma(xz)$ | $\\sigma(yz)$ | 基函数 |\n90\t| --- | --- | --- | --- | --- | --- |\n91\t| $A_1$ | 1 | 1 | 1 | 1 | $z$、$x^2$、$y^2$、$z^2$ |\n92\t| $A_2$ | 1 | 1 | −1 | −1 | $R_z$、$xy$ |\n93\t| $B_1$ | 1 | −1 | 1 | −1 | $x$、$R_y$、$xz$ |\n94\t| $B_2$ | 1 | −1 | −1 | 1 | $y$、$R_x$、$yz$ |\n95\t\n96\t行是一个不可约表示，列是一个共轭类，$E$ 列全为 $1$。$A_1$ 的特征标全为 $+1$，为全对称表示。\n97\t\n98\t符号由 $C_2$ 与 $\\sigma(xz)$ 的特征标定：$\\chi(C_2)=+1$ 记 $A$，$-1$ 记 $B$；$\\chi(\\sigma(xz))=+1$ 记下标 $1$，$-1$ 记下标 $2$。\n99\t\n100\t基函数列给出各方向的归属：$p_z$ 属 $A_1$，$p_x$ 属 $B_1$，$p_y$ 属 $B_2$，$d_{x^2-y^2}$ 属 $A_1$，$d_{xy}$ 属 $A_2$，$d_{xz}$ 属 $B_1$，$d_{yz}$ 属 $B_2$。\n101\t\n102\t转动同样按基函数列取：$R_z$ 属 $A_2$，$R_y$ 属 $B_1$，$R_x$ 属 $B_2$。\n103\t\n104\t含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：\n105\t\n106\t| $C_{4v}$ | $E$ | $2C_4$ | $C_2$ | $2\\sigma_v$ | $2\\sigma_d$ | 基 |\n107\t| --- | --- | --- | --- | --- | --- | --- |\n108\t| $A_1$ | 1 | 1 | 1 | 1 | 1 | $z$、$x^2+y^2$、$z^2$ |\n109\t| $A_2$ | 1 | 1 | 1 | −1 | −1 | $R_z$ |\n110\t| $B_1$ | 1 | −1 | 1 | 1 | −1 | $x^2-y^2$ |\n111\t| $B_2$ | 1 | −1 | 1 | −1 | 1 | $xy$ |\n112\t| $E$ | 2 | 0 | −2 | 0 | 0 | $(x,y)$、$(R_x,R_y)$、$(xz,yz)$ |\n113\t\n114\t二维表示 $E$ 的特征标为 $(2,0,-2,0,0)$：$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$，两条基都离开原位，故 $\\chi(2C_4)=0$；$C_2$ 使两者同时反向，$\\chi(C_2)=-2$。$\\chi(E)=2$ 即表示的维数，也即简并度。\n115\t\n116\t换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同；同类操作互为相似变换，特征标也相同。特征标相同不必同类：$2\\sigma_v$ 与 $2\\sigma_d$ 在 $E$ 表示中都是 $0$，在 $B_1$ 表示中分别为 $+1$ 与 $-1$。\n117\t\n118\t## 与矩阵表示的对比\n119\t\n120\t| 项目 | 表示矩阵 $\\Gamma(R)$ | 特征标 $\\chi(R)$ |\n121\t| --- | --- | --- |\n122\t| 内容 | 全部矩阵元，含基之间的混合 | 主对角元之和 |\n123\t| 换基 | 改变 | 不变 |\n124\t| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n125\t\n126\t## 适用条件\n127\t\n128\t特征标为 $\\pm1$ 要求表示为一维且操作满足 $g^2=E$；简并表示的特征标可取 $2$、$3$ 等。\n129\t\n130\t特征标表只列不可约表示，任意一组数须满足 $\\chi(g_1g_2)=\\chi(g_1)\\chi(g_2)$ 才是表示。\n131\t\n132\t## 例题\n133\t\n134\t求 $C_{2v}$ 群中 $3d_{xy}$ 轨道所属的不可约表示。\n135\t\n136\t$$\n137\t\\begin{aligned}\n138\t\\hat{E}d_{xy} &= d_{xy} &&\\Rightarrow \\chi(E)=1\\\\\n139\t\\hat{C}_2d_{xy} &= d_{xy} &&\\Rightarrow \\chi(C_2)=1\\\\\n140\t\\hat{\\sigma}(xz)d_{xy} &= -d_{xy} &&\\Rightarrow \\chi(\\sigma(xz))=-1\\\\\n141\t\\hat{\\sigma}(yz)d_{xy} &= -d_{xy} &&\\Rightarrow \\chi(\\sigma(yz))=-1\n142\t\\end{aligned}\n143\t$$\n144\t\n145\t特征标组 $1,1,-1,-1$ 与 $A_2$ 行相同，$3d_{xy}$ 属 $A_2$。\n146\t\n147\t草酸根离子为 $C_{2h}$：四条 C–O 键上的箭头同向朝外，分子平面为 $\\sigma(xy)$，$C_2$ 轴垂直于该面。以四条箭头为基，求 $E$、$C_2$、$i$、$\\sigma(xy)$ 各操作作用于四条箭头所成矩阵的特征标。\n148\t\n149\t$$\\begin{aligned}\n150\tE &: \\quad \\text{四条箭头原位不动}，\\ \\chi=1+1+1+1=4 \\\\\n151\tC_2 &: \\quad \\text{每条箭头转到另一条 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n152\ti &: \\quad \\text{四条箭头各换到对面的 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n153\t\\sigma(xy) &: \\quad \\text{四条箭头都在镜面内、方向不变}，\\ \\chi=1+1+1+1=4\n154\t\\end{aligned}$$\n155\t\n156\t结果：$\\chi=(4,0,0,4)$，该表示为四维。\n157\t"
+          },
+          {
+            "id": "call_01_AoGVM2tHCd9nlX0ecxUE0617",
+            "name": "Bash",
+            "input": {
+              "command": "git -C F:/obsidian_notes/knowledge show \"HEAD:Molecular-Symmetry/49-特征标.md\" > /tmp/49_orig.md 2>/dev/null && wc -l /tmp/49_orig.md || git -C F:/obsidian_notes/knowledge show \"HEAD:Molecular-Symmetry/49-特征标.md\"",
+              "description": "Extract deleted 49-特征标.md original content from git HEAD"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "Exit code 128\nfatal: path 'knowledge/Molecular-Symmetry/49-特征标.md' exists, but not 'Molecular-Symmetry/49-特征标.md'\nhint: Did you mean 'HEAD:knowledge/Molecular-Symmetry/49-特征标.md' aka 'HEAD:./Molecular-Symmetry/49-特征标.md'?"
+          },
+          {
+            "id": "call_00_CJIik8np2fQ7lIgQ29QE5830",
+            "name": "Bash",
+            "input": {
+              "command": "git -C F:/obsidian_notes/knowledge show \"HEAD:knowledge/Molecular-Symmetry/49-特征标.md\"",
+              "description": "Show original 49-特征标.md content from git HEAD"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "---\ntags:\n  - 群论\n  - 结构化学\nCategory:\n  - 笔记\n---\n\n# 特征标\n\n## 定义\n\n<mark style=\"background: #ADCCFFA6;\">特征标</mark>：表示矩阵主对角元之和，即矩阵的迹。\n\n$$\\chi(R)=\\operatorname{tr}\\Gamma(R)=\\sum_{i}\\Gamma_{ii}(R)$$\n\n$\\chi(R)$ ：操作 $R$ 的特征标，无量纲\n$\\Gamma(R)$ ：操作 $R$ 的表示矩阵，$n\\times n$\n$\\Gamma_{ii}(R)$ ：$\\Gamma(R)$ 的第 $i$ 个对角元\n$n$ ：基向量个数，即表示的维数\n\n基向量列阵按 $\\mathbf{v}'=\\Gamma(R)\\mathbf{v}$ 变换，$\\Gamma_{ii}$ 是旧基 $i$ 在新基 $i$ 中保留的系数；旧基被换到别的位置时该对角元为零。\n\n$$\\chi(R)=(\\text{保持原向的基向量数})-(\\text{反向的基向量数})$$\n\n基向量不变时贡献 $+1$，反向时贡献 $-1$，被移到别的位置时贡献 $0$。\n\n## 由基求特征标\n\n$C_{4v}$（[[01-分子点群分类]]）的 $C_4$ 与 $\\sigma_d$ 把 $x$ 换成 $y$，$x$、$y$ 不能各自作一维基，合为 $(x, y)$ 后表示矩阵为 $2\\times 2$。$C_4$ 使 $x\\to y$、$y\\to -x$，$\\sigma_d$ 互换 $x$ 与 $y$。\n\n$$\\begin{aligned}\nC_4 &: \\quad \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}, & \\chi &= 0+0=0 \\\\\nC_2 &: \\quad \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}, & \\chi &= -1-1=-2 \\\\\n\\sigma_v(xz) &: \\quad \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}, & \\chi &= 1-1=0 \\\\\n\\sigma_d &: \\quad \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}, & \\chi &= 0+0=0\n\\end{aligned}$$\n\n上述 $C_4$ 与 $\\sigma_d$ 的矩阵把两条基换到对方的位置，对角元全为零，特征标为零。\n\n换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同。同类操作互为相似变换，特征标也相同。\n\n## 特征标表\n\n特征标表的行是不可约表示，列是操作的类，格内是该类操作的特征标。\n\n$$\\begin{array}{c|ccccc|l}\nC_{4v} & E & 2C_4 & C_2 & 2\\sigma_v & 2\\sigma_d & \\text{基} \\\\\n\\hline\nA_1 & 1 & 1 & 1 & 1 & 1 & z,\\ x^2+y^2,\\ z^2 \\\\\nA_2 & 1 & 1 & 1 & -1 & -1 & R_z \\\\\nB_1 & 1 & -1 & 1 & 1 & -1 & x^2-y^2 \\\\\nB_2 & 1 & -1 & 1 & -1 & 1 & xy \\\\\nE & 2 & 0 & -2 & 0 & 0 & (x,y),\\ (R_x,R_y),\\ (xz,yz)\n\\end{array}$$\n\n群论定理只用特征标，表中不列矩阵。\n\n同类操作的特征标必相同；特征标相同不必同类，$2\\sigma_v$ 与 $2\\sigma_d$ 在 $E$ 表示中都是 $0$，在 $B_1$ 表示中分别为 $+1$ 与 $-1$。\n\n$\\chi(E)$ 等于表示的维数，也等于简并度。\n\n| 维数 | $\\chi(E)$ | 标号 | 基（例） |\n| --- | --- | --- | --- |\n| 一维 | 1 | $A$、$B$ | $z$、$x^2-y^2$（$C_{4v}$） |\n| 二维 | 2 | $E$ | $(x, y)$、$(xz, yz)$（$C_{4v}$） |\n| 三维 | 3 | $T$ | $(x, y, z)$（$T_d$） |\n\n被操作混合的基在表内并列于括号中，彼此简并：$(x, y)$、$(xz, yz)$。\n\n$C_{2h}$ 中 $x$、$y$ 对 $E$、$\\sigma(xy)$ 的符号为 $+1$，对 $C_2$、$i$ 为 $-1$，同属 $B_u$。表中写作 $x,\\ y$，不加括号，无操作把两者互换，故不简并。\n\n## 与矩阵表示的对比\n\n| 项目 | 表示矩阵 $\\Gamma(R)$ | 特征标 $\\chi(R)$ |\n| --- | --- | --- |\n| 内容 | 全部矩阵元，含基之间的混合 | 主对角元之和 |\n| 换基 | 改变 | 不变 |\n| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n\n## 例题\n\n草酸根离子为 $C_{2h}$：四条 C–O 键上的箭头同向朝外，分子平面为 $\\sigma(xy)$，$C_2$ 轴垂直于该面。求 $E$、$C_2$、$i$、$\\sigma(xy)$ 各操作作用于四条箭头所成矩阵的特征标。\n\n$$\\begin{aligned}\nE &: \\quad \\text{四条箭头原位不动}，\\ \\chi=1+1+1+1=4 \\\\\nC_2 &: \\quad \\text{每条箭头转到另一条 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\ni &: \\quad \\text{四条箭头各换到对面的 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n\\sigma(xy) &: \\quad \\text{四条箭头都在镜面内、方向不变}，\\ \\chi=1+1+1+1=4\n\\end{aligned}$$\n\n结果：$\\chi(E)=4$，$\\chi(C_2)=0$，$\\chi(i)=0$，$\\chi(\\sigma_{xy})=4$，该表示为四维。"
+          },
+          {
+            "id": "call_01_u8yJBaqezdOYTuR8Gh691424",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\06-群论应用三步法.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 群论\n4\t  - 结构化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 群论应用三步法\n10\t\n11\t## 定义\n12\t\n13\t<mark style=\"background: #ADCCFFA6;\">群论应用三步法</mark>：把点群用于化学问题的固定流程，依次为选基、约化、解释。\n14\t\n15\t$$\\begin{aligned}\n16\t&\\text{i. 选基：基}\\longrightarrow\\text{点群的可约表示 }\\Gamma\\\\\n17\t&\\text{ii. 约化：}\\Gamma=\\sum_i a_i\\Gamma_i\\\\\n18\t&\\text{iii. 解释：}\\Gamma_i\\longrightarrow\\text{轨道、键}\n19\t\\end{aligned}$$\n20\t\n21\t$\\Gamma$ ：基在点群全部操作下的表示，一般为可约表示，无单位\n22\t$\\Gamma_i$ ：第 $i$ 个不可约表示\n23\t$a_i$ ：$\\Gamma_i$ 在 $\\Gamma$ 中出现的次数，非负整数\n24\t$h$ ：点群的阶，即群中对称操作的总数\n25\t\n26\t三步的顺序不能反：基决定问题问的是哪组键或轨道，后两步按公式走。\n27\t\n28\t## 三步\n29\t\n30\t### 选基\n31\t\n32\t基取矢量组或轨道组，须与所问的化学问题对应。基按点群的操作变换，点群未定则特征标表无从取用，判定见 [[01-分子点群分类]]。\n33\t\n34\t可约表示的维数等于基函数的个数：\n35\t\n36\t$$\\Gamma(E)=\\text{基函数的个数}$$\n37\t\n38\t特征标由每个操作下各基函数的去留给：\n39\t\n40\t$$\\chi(R)=\\sum_{\\text{基函数}}\\begin{cases}+1 & \\text{留在原位，方向不变}\\\\ -1 & \\text{留在原位，方向反转}\\\\ 0 & \\text{离开原位}\\end{cases}$$\n41\t\n42\t### 约化\n43\t\n44\t$$\\begin{aligned}\n45\t\\Gamma&=\\sum_i a_i\\Gamma_i\\\\\n46\ta_i&=\\frac{1}{h}\\sum_{R}N_R\\,\\chi_R\\,\\chi_i\n47\t\\end{aligned}$$\n48\t\n49\t$N_R$ ：第 $R$ 类操作所含的对称操作数\n50\t$\\chi_R$ ：可约表示在第 $R$ 类操作上的特征标\n51\t$\\chi_i$ ：不可约表示 $\\Gamma_i$ 在同一类操作上的特征标\n52\t\n53\t计算所得 $a_i$ 应为非负整数，且 $\\sum_i a_i\\chi_i(E)=\\Gamma(E)$。\n54\t\n55\t### 解释\n56\t\n57\t$a_i\\neq0$ 的每个不可约表示对应一组按该对称性变换的基函数组合；$a_i=0$ 的对称性不出现，相应的组合被对称性排除。\n58\t\n59\t两个基函数能混合的必要条件是属同一不可约表示。\n60\t\n61\t## 四种应用\n62\t\n63\t| 应用 | 基 | 第三步读出的结果 |\n64\t| --- | --- | --- |\n65\t| 杂化轨道 | 指向配体的键矢量 | 参与杂化的原子轨道 |\n66\t| π 键 | 垂直于分子平面的箭头，每对成键原子两个 | 能形成 π 键的轨道组合 |\n67\t| LCAO 分子轨道 | 各原子的价轨道 | 各分子轨道的对称性 |\n68\t| MO 相关图 | 中心原子轨道与配体轨道组合 | 同对称性轨道的连线 |\n69\t\n70\t前三项按三步走完。相关图的构造多出一步：三步只给出两侧轨道各自的对称性，连线另按能量高低排序。\n71\t\n72\t## 例题\n73\t\n74\t### 例题 1：NH₃ 的 LCAO-MO（$C_{3v}$）\n75\t\n76\t本例题对应四种应用中的 <mark style=\"background: #ADCCFFA6;\">LCAO 分子轨道</mark>（基取各原子的价轨道）。\n77\t\n78\t**① 选基**：H 的 3 个 1s 轨道作基。N 的轨道不放入可约表示，直接按 $C_{3v}$ 特征标表归属：2s、2p_z → $A_1$；$(2p_x,2p_y)$ → $E$。\n79\t\n80\t$$\\Gamma_H=(3,0,1)$$\n81\t\n82\t即 $E$ 下 3、$2C_3$ 下 0、$3\\sigma_v$ 下 1。\n83\t\n84\t**② 约化**（$h=6$）：\n85\t\n86\t$$\\begin{aligned}\n87\ta(A_1)&=\\frac{1}{6}\\left[3\\cdot1+2\\cdot0\\cdot1+3\\cdot1\\cdot1\\right]=\\frac{1}{6}(3+0+3)=1\\\\\n88\ta(A_2)&=\\frac{1}{6}\\left[3\\cdot1+2\\cdot0\\cdot1+3\\cdot1\\cdot(-1)\\right]=\\frac{1}{6}(3-3)=0\\\\\n89\ta(E)&=\\frac{1}{6}\\left[3\\cdot2+2\\cdot0\\cdot(-1)+3\\cdot1\\cdot0\\right]=\\frac{1}{6}(6)=1\n90\t\\end{aligned}$$\n91\t\n92\t$$\\Gamma_H=A_1+E$$\n93\t\n94\t回代校验：$\\sum_i a_i\\chi_i(E)=1\\cdot1+1\\cdot2=3=\\Gamma(E)$ ✓\n95\t\n96\t**③ 解释**：\n97\t- N 的 2s、2p_z（$A_1$）与 H 的 $A_1$ 型 SALC 组合出 3 个 $A_1$ 型 MO：低能 $1a_1$ 由 N 的 2s 主导、$2a_1$ 近孤对、$3a_1$ 反键。\n98\t- N 的 $(2p_x,2p_y)$（$E$）与 H 的 $E$ 型 SALC 组合出简并的 $1e$（成键）与 $2e$（反键）。\n99\t- NH₃ 共 8 个价电子，填 $1a_1^2\\,2a_1^2\\,1e^4$。\n100\t\n101\t### 例题 2：H₂O 的 MO 相关图（$C_{2v}$）\n102\t\n103\t本例题对应四种应用中的 <mark style=\"background: #ADCCFFA6;\">MO 相关图</mark>（中心原子轨道与配体轨道组合，三步只给出两侧对称性，连线另按能量排序）。\n104\t\n105\t**① 选基**：H 的 2 个 1s 轨道作基。\n106\t\n107\t$$\\Gamma_H=(2,0,2,0)$$\n108\t\n109\t即 $E$ 下 2、$C_2$ 下 0、$\\sigma_v(xz)$ 下 2、$\\sigma_v'(yz)$ 下 0。\n110\t\n111\t**② 约化**（$h=4$）：\n112\t\n113\t$$\\begin{aligned}\n114\ta(A_1)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot1+2\\cdot1+0\\cdot1\\right]=1\\\\\n115\ta(A_2)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot1+2\\cdot(-1)+0\\cdot(-1)\\right]=0\\\\\n116\ta(B_1)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot(-1)+2\\cdot1+0\\cdot(-1)\\right]=1\\\\\n117\ta(B_2)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot(-1)+2\\cdot(-1)+0\\cdot1\\right]=0\n118\t\\end{aligned}$$\n119\t\n120\t$$\\Gamma_H=A_1+B_1$$\n121\t\n122\t**③ 解释**：O 的轨道归属：2s、2p_z → $A_1$；2p_x → $B_1$；2p_y → $B_2$（非键孤对）。$A_1$ 型：$1a_1$（近 O 2s）、$2a_1$（成键）、$3a_1$（反键）；$B_1$ 型：$1b_1$（成键）、$2b_1$（反键）；$B_2$ 型：$1b_2$（纯 O 2p_y 孤对）。8 个价电子填 $1a_1^2\\,2a_1^2\\,1b_1^2\\,1b_2^2$。\n123\t\n124\t相关图（连线只按同对称性匹配，能级高低另由能量决定）：\n125\t\n126\t```mermaid\n127\tgraph TD\n128\t    subgraph OA[\"O 原子轨道\"]\n129\t        O2s[\"2s（A₁）\"]\n130\t        O2pz[\"2p_z（A₁）\"]\n131\t        O2px[\"2p_x（B₁）\"]\n132\t        O2py[\"2p_y（B₂）\"]\n133\t    end\n134\t    subgraph SALC[\"H 的 SALC\"]\n135\t        HA1[\"A₁ 型\"]\n136\t        HB1[\"B₁ 型\"]\n137\t    end\n138\t    subgraph MO[\"分子轨道（能量自高而低）\"]\n139\t        M3a1[\"3a₁（A₁，反键）\"]\n140\t        M2b1[\"2b₁（B₁，反键）\"]\n141\t        M2a1[\"2a₁（A₁，成键）\"]\n142\t        M1b1[\"1b₁（B₁，成键）\"]\n143\t        M1b2[\"1b₂（B₂，非键孤对）\"]\n144\t        M1a1[\"1a₁（A₁，近 O 2s）\"]\n145\t    end\n146\t    O2s --> M1a1\n147\t    O2s --> M2a1\n148\t    O2s --> M3a1\n149\t    O2pz --> M2a1\n150\t    O2pz --> M3a1\n151\t    O2px --> M1b1\n152\t    O2px --> M2b1\n153\t    O2py --> M1b2\n154\t    HA1 --> M2a1\n155\t    HA1 --> M3a1\n156\t    HB1 --> M1b1\n157\t    HB1 --> M2b1\n158\t```\n159\t\n160\t## 适用条件\n161\t\n162\t- 点群已判定，所需特征标表在手。\n163\t- 基须覆盖所研究的全部键或轨道；基中漏掉的对象不出现在任何不可约表示里。\n164\t- 方法只判定对称性允许与否；混合强弱取决于重叠积分与能量差，混合系数与轨道能量不在三步之内。\n165\t\n166\t## 其他常用形式\n167\t\n168\t三步合并写为：基 → 可约表示 → 不可约表示 → 轨道。\n169\t"
+          },
+          {
+            "id": "call_00_9u7Azo1giOxT1Z9zuYvm1957",
+            "name": "Bash",
+            "input": {
+              "command": "git -C F:/obsidian_notes/knowledge diff -- \"Molecular-Symmetry/03-特征标.md\" | head -200",
+              "description": "Show full diff of 03-特征标.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "warning: in the working copy of 'knowledge/Molecular-Symmetry/03-特征标.md', LF will be replaced by CRLF the next time Git touches it\ndiff --git \"a/knowledge/Molecular-Symmetry/03-\\347\\211\\271\\345\\276\\201\\346\\240\\207.md\" \"b/knowledge/Molecular-Symmetry/03-\\347\\211\\271\\345\\276\\201\\346\\240\\207.md\"\nindex 852b4d86..a66dbf96 100644\n--- \"a/knowledge/Molecular-Symmetry/03-\\347\\211\\271\\345\\276\\201\\346\\240\\207.md\"\n+++ \"b/knowledge/Molecular-Symmetry/03-\\347\\211\\271\\345\\276\\201\\346\\240\\207.md\"\n@@ -66,6 +66,22 @@ $$\n \n <mark style=\"background: #ADCCFFA6;\">不可约表示</mark>：不能分解为更低维表示之和的表示。\n \n+## 特征标的迹定义\n+\n+上面给出的是 $\\hat{g}f=\\pm f$ 时特征标为 $\\pm1$ 的情形；表示维数更高时，特征标定义为表示矩阵的迹，这是比 $\\hat{g}f=\\chi f$ 更一般、适用任意维数的定义：\n+\n+$$\\chi(R)=\\operatorname{tr}\\Gamma(R)=\\sum_{i}\\Gamma_{ii}(R)$$\n+\n+$\\Gamma(R)$ ：操作 $R$ 的表示矩阵，$n\\times n$\n+$\\Gamma_{ii}(R)$ ：$\\Gamma(R)$ 的第 $i$ 个对角元\n+$n$ ：基向量个数，即表示的维数\n+\n+基向量列阵按 $\\mathbf{v}'=\\Gamma(R)\\mathbf{v}$ 变换，$\\Gamma_{ii}$ 是旧基 $i$ 在新基 $i$ 中保留的系数；旧基被换到别的位置时该对角元为零。于是\n+\n+$$\\chi(R)=(\\text{保持原向的基向量数})-(\\text{反向的基向量数})$$\n+\n+基向量不变时贡献 $+1$，反向时贡献 $-1$，被移到别的位置时贡献 $0$。一维表示中矩阵退化为一个数，迹定义回到 $\\hat{g}f=\\chi f$ 的 $\\pm1$。\n+\n ## 特征标表\n \n <mark style=\"background: #ADCCFFA6;\">特征标表</mark>：列出点群全部不可约表示在各个操作（共轭类）下的特征标与相应基函数的表。\n@@ -85,6 +101,28 @@ $$\n \n 转动同样按基函数列取：$R_z$ 属 $A_2$，$R_y$ 属 $B_1$，$R_x$ 属 $B_2$。\n \n+含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：\n+\n+| $C_{4v}$ | $E$ | $2C_4$ | $C_2$ | $2\\sigma_v$ | $2\\sigma_d$ | 基 |\n+| --- | --- | --- | --- | --- | --- | --- |\n+| $A_1$ | 1 | 1 | 1 | 1 | 1 | $z$、$x^2+y^2$、$z^2$ |\n+| $A_2$ | 1 | 1 | 1 | −1 | −1 | $R_z$ |\n+| $B_1$ | 1 | −1 | 1 | 1 | −1 | $x^2-y^2$ |\n+| $B_2$ | 1 | −1 | 1 | −1 | 1 | $xy$ |\n+| $E$ | 2 | 0 | −2 | 0 | 0 | $(x,y)$、$(R_x,R_y)$、$(xz,yz)$ |\n+\n+二维表示 $E$ 的特征标为 $(2,0,-2,0,0)$：$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$，两条基都离开原位，故 $\\chi(2C_4)=0$；$C_2$ 使两者同时反向，$\\chi(C_2)=-2$。$\\chi(E)=2$ 即表示的维数，也即简并度。\n+\n+换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同；同类操作互为相似变换，特征标也相同。特征标相同不必同类：$2\\sigma_v$ 与 $2\\sigma_d$ 在 $E$ 表示中都是 $0$，在 $B_1$ 表示中分别为 $+1$ 与 $-1$。\n+\n+## 与矩阵表示的对比\n+\n+| 项目 | 表示矩阵 $\\Gamma(R)$ | 特征标 $\\chi(R)$ |\n+| --- | --- | --- |\n+| 内容 | 全部矩阵元，含基之间的混合 | 主对角元之和 |\n+| 换基 | 改变 | 不变 |\n+| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n+\n ## 适用条件\n \n 特征标为 $\\pm1$ 要求表示为一维且操作满足 $g^2=E$；简并表示的特征标可取 $2$、$3$ 等。\n@@ -105,3 +143,14 @@ $$\n $$\n \n 特征标组 $1,1,-1,-1$ 与 $A_2$ 行相同，$3d_{xy}$ 属 $A_2$。\n+\n+草酸根离子为 $C_{2h}$：四条 C–O 键上的箭头同向朝外，分子平面为 $\\sigma(xy)$，$C_2$ 轴垂直于该面。以四条箭头为基，求 $E$、$C_2$、$i$、$\\sigma(xy)$ 各操作作用于四条箭头所成矩阵的特征标。\n+\n+$$\\begin{aligned}\n+E &: \\quad \\text{四条箭头原位不动}，\\ \\chi=1+1+1+1=4 \\\\\n+C_2 &: \\quad \\text{每条箭头转到另一条 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n+i &: \\quad \\text{四条箭头各换到对面的 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n+\\sigma(xy) &: \\quad \\text{四条箭头都在镜面内、方向不变}，\\ \\chi=1+1+1+1=4\n+\\end{aligned}$$\n+\n+结果：$\\chi=(4,0,0,4)$，该表示为四维。"
+          },
+          {
+            "id": "call_01_iGEisUiwSXcZLvwOwOMg4905",
+            "name": "Bash",
+            "input": {
+              "command": "git -C F:/obsidian_notes/knowledge diff -- \"Molecular-Symmetry/06-群论应用三步法.md\" | head -60",
+              "description": "Show diff of 06-群论应用三步法.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "diff --git \"a/knowledge/Molecular-Symmetry/06-\\347\\276\\244\\350\\256\\272\\345\\272\\224\\347\\224\\250\\344\\270\\211\\346\\255\\245\\346\\263\\225.md\" \"b/knowledge/Molecular-Symmetry/06-\\347\\276\\244\\350\\256\\272\\345\\272\\224\\347\\224\\250\\344\\270\\211\\346\\255\\245\\346\\263\\225.md\"\nindex 5a50f72d..419091e4 100644\n--- \"a/knowledge/Molecular-Symmetry/06-\\347\\276\\244\\350\\256\\272\\345\\272\\224\\347\\224\\250\\344\\270\\211\\346\\255\\245\\346\\263\\225.md\"\n+++ \"b/knowledge/Molecular-Symmetry/06-\\347\\276\\244\\350\\256\\272\\345\\272\\224\\347\\224\\250\\344\\270\\211\\346\\255\\245\\346\\263\\225.md\"\n@@ -69,6 +69,94 @@ $a_i\\neq0$ 的每个不可约表示对应一组按该对称性变换的基函数\n \n 前三项按三步走完。相关图的构造多出一步：三步只给出两侧轨道各自的对称性，连线另按能量高低排序。\n \n+## 例题\n+\n+### 例题 1：NH₃ 的 LCAO-MO（$C_{3v}$）\n+\n+本例题对应四种应用中的 <mark style=\"background: #ADCCFFA6;\">LCAO 分子轨道</mark>（基取各原子的价轨道）。\n+\n+**① 选基**：H 的 3 个 1s 轨道作基。N 的轨道不放入可约表示，直接按 $C_{3v}$ 特征标表归属：2s、2p_z → $A_1$；$(2p_x,2p_y)$ → $E$。\n+\n+$$\\Gamma_H=(3,0,1)$$\n+\n+即 $E$ 下 3、$2C_3$ 下 0、$3\\sigma_v$ 下 1。\n+\n+**② 约化**（$h=6$）：\n+\n+$$\\begin{aligned}\n+a(A_1)&=\\frac{1}{6}\\left[3\\cdot1+2\\cdot0\\cdot1+3\\cdot1\\cdot1\\right]=\\frac{1}{6}(3+0+3)=1\\\\\n+a(A_2)&=\\frac{1}{6}\\left[3\\cdot1+2\\cdot0\\cdot1+3\\cdot1\\cdot(-1)\\right]=\\frac{1}{6}(3-3)=0\\\\\n+a(E)&=\\frac{1}{6}\\left[3\\cdot2+2\\cdot0\\cdot(-1)+3\\cdot1\\cdot0\\right]=\\frac{1}{6}(6)=1\n+\\end{aligned}$$\n+\n+$$\\Gamma_H=A_1+E$$\n+\n+回代校验：$\\sum_i a_i\\chi_i(E)=1\\cdot1+1\\cdot2=3=\\Gamma(E)$ ✓\n+\n+**③ 解释**：\n+- N 的 2s、2p_z（$A_1$）与 H 的 $A_1$ 型 SALC 组合出 3 个 $A_1$ 型 MO：低能 $1a_1$ 由 N 的 2s 主导、$2a_1$ 近孤对、$3a_1$ 反键。\n+- N 的 $(2p_x,2p_y)$（$E$）与 H 的 $E$ 型 SALC 组合出简并的 $1e$（成键）与 $2e$（反键）。\n+- NH₃ 共 8 个价电子，填 $1a_1^2\\,2a_1^2\\,1e^4$。\n+\n+### 例题 2：H₂O 的 MO 相关图（$C_{2v}$）\n+\n+本例题对应四种应用中的 <mark style=\"background: #ADCCFFA6;\">MO 相关图</mark>（中心原子轨道与配体轨道组合，三步只给出两侧对称性，连线另按能量排序）。\n+\n+**① 选基**：H 的 2 个 1s 轨道作基。\n+\n+$$\\Gamma_H=(2,0,2,0)$$\n+\n+即 $E$ 下 2、$C_2$ 下 0、$\\sigma_v(xz)$ 下 2、$\\sigma_v'(yz)$ 下 0。\n+\n+**② 约化**（$h=4$）：\n+\n+$$\\begin{aligned}\n+a(A_1)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot1+2\\cdot1+0\\cdot1\\right]=1\\\\\n+a(A_2)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot1+2\\cdot(-1)+0\\cdot(-1)\\right]=0\\\\\n+a(B_1)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot(-1)+2\\cdot1+0\\cdot(-1)\\right]=1\\\\\n+a(B_2)&=\\frac{1}{4}\\left[2\\cdot1+0\\cdot(-1)+2\\cdot(-1)+0\\cdot1\\right]=0\n+\\end{aligned}$$\n+\n+$$\\Gamma_H=A_1+B_1$$\n+\n+**③ 解释**：O 的轨道归属：2s、2p_z → $A_1$；2p_x → $B_1$；2p_y → $B_2$（非键孤对）。$A_1$ 型：$1a_1$（近 O 2s）、$2a_1$（成键）、$3a_1$（反键）；$B_1$ 型：$1b_1$（成键）、$2b_1$（反键）；$B_2$ 型：$1b_2$（纯 O 2p_y 孤对）。8 个价电子填 $1a_1^2\\,2a_1^2\\,1b_1^2\\,1b_2^2$。\n+"
+          },
+          {
+            "id": "call_02_cTVnwo7PA8kMQ2yrejzB2369",
+            "name": "Bash",
+            "input": {
+              "command": "wc -l \"F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\" && head -30 \"F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\"",
+              "description": "Show line count and head of 61-群论应用三步法.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "80 F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\n---\ntags:\n  - 群论\n  - 结构化学\nCategory:\n  - 笔记\n---\n\n# 群论应用三步法\n\n## 定义\n\n<mark style=\"background: #ADCCFFA6;\">群论应用三步法</mark>：把点群用于化学问题的固定流程，依次为选基、约化、解释。\n\n$$\\begin{aligned}\n&\\text{i. 选基：基}\\longrightarrow\\text{点群的可约表示 }\\Gamma\\\\\n&\\text{ii. 约化：}\\Gamma=\\sum_i a_i\\Gamma_i\\\\\n&\\text{iii. 解释：}\\Gamma_i\\longrightarrow\\text{轨道、键}\n\\end{aligned}$$\n\n$\\Gamma$ ：基在点群全部操作下的表示，一般为可约表示，无单位\n$\\Gamma_i$ ：第 $i$ 个不可约表示\n$a_i$ ：$\\Gamma_i$ 在 $\\Gamma$ 中出现的次数，非负整数\n$h$ ：点群的阶，即群中对称操作的总数\n\n三步的顺序不能反：基决定问题问的是哪组键或轨道，后两步按公式走。\n\n## 三步\n\n### 选基"
+          },
+          {
+            "id": "call_03_400wHZFabES2JAF8NqxC2690",
+            "name": "Grep",
+            "input": {
+              "pattern": "49-特征标",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "output_mode": "content",
+              "-n": true
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": ".obsidian\\workspace.json:240:    \"Molecular-Symmetry/49-特征标.md\",\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:16:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:73:              \"file_path\": \"F:\\\\obsidian_notes\\\\knowledge\\\\Molecular-Symmetry\\\\49-特征标.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:88:            \"result\": \"Molecular-Symmetry\\\\03-特征标.md\\nMolecular-Symmetry\\\\06-群论应用三步法.md\\nMolecular-Symmetry\\\\04-不可约表示.md\\nMolecular-Symmetry\\\\49-特征标.md\\nMolecular-Symmetry\\\\05-简并表示.md\\nMolecular-Symmetry\\\\01-分子点群分类.md\\nMolecular-Symmetry\\\\0-对称操作.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:101:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:107:              \"command\": \"cd \\\"F:/obsidian_notes/knowledge/Molecular-Symmetry\\\" && for f in 01-分子点群分类.md 03-特征标.md 04-不可约表示.md 05-简并表示.md 06-群论应用三步法.md 49-特征标.md; do chars=$(wc -m < \\\"$f\\\"); lines=$(wc -l < \\\"$f\\\"); echo \\\"$f | 行数: $lines | 字符数: $chars\\\"; done\",\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:112:            \"result\": \"01-分子点群分类.md | 行数: 136 | 字符数: 5674\\n03-特征标.md | 行数: 107 | 字符数: 3878\\n04-不可约表示.md | 行数: 140 | 字符数: 5613\\n05-简并表示.md | 行数: 186 | 字符数: 6589\\n06-群论应用三步法.md | 行数: 80 | 字符数: 2944\\n49-特征标.md | 行数: 92 | 字符数: 3942\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:116:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:121:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:148:              \"file_path\": \"F:\\\\obsidian_notes\\\\knowledge\\\\Molecular-Symmetry\\\\49-特征标.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:168:              \"pattern\": \"49-特征标\","
+          },
+          {
+            "id": "call_04_ukOEi9tF1RUoGPIPvY2k7034",
+            "name": "Grep",
+            "input": {
+              "pattern": "\\[\\[03-特征标",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "output_mode": "content",
+              "-n": true
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Molecular-Symmetry\\05-简并表示.md:15:单函数为基时矩阵只有一个数，属一维表示，见 [[03-特征标]]。基函数成组时，操作可以把其中一个变成另一个：\nMolecular-Symmetry\\04-不可约表示.md:13:不可约表示的定义与一维特征标见 [[03-特征标]]。特征标表的每一行是一个不可约表示，它是分解任意表示的基元。\nMolecular-Symmetry\\04-不可约表示.md:32:$A_1$ 在全部操作下特征标为 $+1$，称<mark style=\"background: #ADCCFFA6;\">全对称表示</mark>。$C_{3v}$ 中 $z$ 属 $A_1$，$R_z$ 属 $A_2$，$x$、$y$ 属 $E$；$C_{2v}$ 的四行标号与基函数归属见 [[03-特征标]]。\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:47:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:57:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:101:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:116:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:121:[Omitted long matching line]"
+          },
+          {
+            "id": "call_00_piN6qgzuXmCg3MrkWJHS3272",
+            "name": "Bash",
+            "input": {
+              "command": "git -C F:/obsidian_notes/knowledge show \"HEAD:knowledge/Molecular-Symmetry/06-群论应用三步法.md\" > /tmp/06_old.md && diff /tmp/06_old.md \"F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\" && echo \"IDENTICAL\" || echo \"DIFFERENT\"",
+              "description": "Compare 61 with pre-edit version of 06"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "IDENTICAL"
+          }
+        ],
+        "isExpanded": false,
+        "result": "全部核验完成。61 与 06 改动前的旧版逐字一致，是旧版副本。以下为最终结论清单。\n\n---\n\n## 审查 3（先说结论）：61-群论应用三步法.md\n\n- ✅ 执行 agent 说法属实：Glob 确认 `F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\61-群论应用三步法.md` 存在，共 80 行，标题 `# 群论应用三步法`。\n- ✅ 性质：与 06 改动前的 git HEAD 版本**逐字一致**（diff 结果 IDENTICAL），即 06 的旧版副本，不含两个新例题。目录中确有多余重复文件，但与本任务无关。\n\n## 审查 1：03-特征标.md 合并质量\n\n硬性核验项：\n\n- ✅ 49-特征标.md 已删除（git status 为 D，Glob 目录中不存在）。\n- ✅ 全库搜 \"49-特征标\"：无任何 .md 笔记引用残留。仅命中 `.obsidian\\workspace.json:240`（Obsidian 工作区缓存，会自动刷新）与 `.claudian\\sessions\\...meta.json`（会话日志），均非笔记引用。\n- ✅ 04/05 wikilink 完好：`04-不可约表示.md:13`、`:32` 与 `05-简并表示.md:15` 均有 `[[03-特征标]]`，且 03 文件存在。\n- ✅ 03 原有内容全部保留：git diff 显示只有新增（+49 行），零删除行。对称与反对称、一维表示 χ=±1、C₂ᵥ 表、命名规则、适用条件、3d_xy 例题均原样在。\n- ✅ 迹定义 χ=trΓ=ΣΓii 及符号表（Γ(R)、Γii(R)、n）：第 69–77 行。\n- ✅ 迹的几何解释与 +1/−1/0 规则：第 79–83 行。\n- ✅ 换基迹不变、同类操作特征标相同：第 116 行。\n- ✅ C₄ᵥ 完整特征标表（第 106–112 行）：五列齐全（E、2C₄、C₂、2σᵥ、2σ_d），**逐格核验** A₁ (1,1,1,1,1)、A₂ (1,1,1,−1,−1)、B₁ (1,−1,1,1,−1)、B₂ (1,−1,1,−1,1)、E (2,0,−2,0,0)——全部与标准一致，无一处错误。\n- ✅ \"矩阵表示 vs 特征标\"三行对比表：第 118–124 行，与 49 原文逐字一致。\n- ✅ 草酸根（C₂ₕ）例题：第 147–156 行，χ=(4,0,0,4)，四操作逐一说明，流程完整。\n- ✅ 无重复粘贴：迹定义、对比表、草酸根例题在 03 中各只出现一次。\n- ✅ 逻辑顺序通顺：对称与反对称 → 一维表示 → 迹定义（以\"更一般\"承接）→ 特征标表（C₂ᵥ→C₄ᵥ）→ 对比 → 适用条件 → 例题。\n\n遗漏项（49 独有但未并入 03，共 5 处）：\n\n- ❌ 49\"由基求特征标\"节的四个 2×2 矩阵展开（C₄=(0 −1; 1 0)、C₂=(−1 0; 0 −1)、σᵥ(xz)=(1 0; 0 −1)、σ_d=(0 1; 1 0) 及逐项迹计算）被压缩成文字描述（03 第 114 行），矩阵与 σᵥ、σ_d 的迹计算丢失。\n- ❌ 维数–标号对照表（一维 A/B、二维 E、三维 T，含 T_d 的 (x,y,z) 例）。\n- ❌ 规则句\"被操作混合的基在表内并列于括号中，彼此简并\"（含义部分被 03 的 E 行基列与\"χ(E)=2 即简并度\"覆盖，但规则句本身未并入）。\n- ❌ C₂ₕ 中 x、y 同属 B_u 但不简并（不加括号）的说明。\n- ❌ \"群论定理只用特征标，表中不列矩阵\"。\n\n以上 5 处均为解释性细节，不涉及任何数值错误，不影响 C₄ᵥ 表与草酸根例题的正确性，属合并时的压缩遗漏。\n\n## 审查 2：06-群论应用三步法.md 新增例题\n\n- ✅ 06 原有正文与\"四种应用\"表格零删改（diff 仅 +88 行新增；\"适用条件\"\"其他常用形式\"两节仍在）。\n- ✅ NH₃（C₃ᵥ）：Γ_H=(3,0,1) 正确；h=6；a(A₁)=(1/6)(3+0+3)=1、a(A₂)=(1/6)(3−3)=0、a(E)=(1/6)(6)=1 代入项与结果全对（E 行 χ 取 2/−1/0 正确）；回代校验 Σaᵢχᵢ(E)=1·1+1·2=3=Γ(E) ✓ 出现（第 94 行）；解释部分 3 个 A₁ MO + E 两组简并 MO、8 电子填 1a₁² 2a₁² 1e⁴ 正确；点明对应\"LCAO 分子轨道\"（第 76 行）。\n- ✅ H₂O（C₂ᵥ）：Γ_H=(2,0,2,0) 正确；h=4；a(A₁)=1、a(A₂)=0、a(B₁)=1、a(B₂)=0 代入项与结果全对（B₁/B₂ 的 C₂、σ 列特征标代入无误）；O 轨道归属 2s/2p_z→A₁、2pₓ→B₁、2p_y→B₂ 正确；8 电子填 1a₁² 2a₁² 1b₁² 1b₂² 正确；点明对应\"MO 相关图\"（第 103 行）。\n- ✅ mermaid 语法逐行检查：所有含中文/下标/空格的节点名均用双引号包裹；14 条 `-->` 连线两侧节点全部已定义；3 个 subgraph 均有 end 配对闭合；graph TD 声明正确。连线化学归属也正确（O2s→1a₁/2a₁/3a₁、O2pz→2a₁/3a₁、O2px→1b₁/2b₁、O2py→1b₂、HA1→2a₁/3a₁、HB1→1b₁/2b₁）。\n\n## 总体判定\n\n不合格 + 必须修复项：06 的两个例题与 mermaid 全部合格、61 的说法属实；03 的六项硬性核验（C₄ᵥ 表逐格数值、迹定义、几何解释、迹不变、对比表、草酸根例题）全部合格，但\"49 独有内容必须全部并入\"未满足——需将上述 5 处遗漏（四个 2×2 矩阵展开、维数–标号表、括号简并规则句、C₂ₕ B_u 不简并例、\"群论定理只用特征标\"句）补入 03 后即合格。若判分口径仅以验收清单六项为准，则审查 1 可视作合格，仅作备注。\n\nresult: 审查完成：06 两个例题与 mermaid 全部合格，61 副本说法属实，03 六项核心核验全过但遗漏 49 中 5 处细节（四个 2×2 矩阵展开、维数标号表、括号简并规则句、C₂ₕ B_u 例、\"只用特征标\"句），总体判不合格需补这 5 项。"
+      },
+      "call_00_B1stmVLUvxImP3omi0A11971": {
+        "id": "call_00_B1stmVLUvxImP3omi0A11971",
+        "description": "补03遗漏的49细节",
+        "prompt": "修复任务：往 F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md 补入 5 处细节（这些内容来自已删除的 49-特征标.md，合并时被压缩遗漏，现须完整补回）。\n\n先通读 03-特征标.md 全文（当前约 156 行，注意其中已有 C₂ᵥ 表、新增的 C₄ᵥ 表、迹定义、对比表、草酸根例题等），然后按下述内容与位置补入。除这 5 处补充外，03 任何现有内容（包括上一轮合并新增的内容）一律不得删改。\n\n# 补充内容（表述可润色但数值与结论必须严格如下）\n\n1. **由基求特征标的完整矩阵展开**（插在 C₄ᵥ 特征标表之前，作为\"表从哪来\"的推导；若该处已有被压缩的文字描述，在其基础上扩写完整，不得丢失原有文字要点）：\n   以 C₄ᵥ 中的基 (x,y) 为例，逐操作写出 2×2 矩阵并取迹：\n   - C₄：(x,y) → (−y,x)，矩阵 $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$，迹 = 0\n   - C₂：(x,y) → (−x,−y)，矩阵 $\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}$，迹 = −2\n   - σᵥ(xz)：x→x、y→−y，矩阵 $\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}$，迹 = 0\n   - σ_d：x↔y 互换，矩阵 $\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$，迹 = 0\n   - E：单位矩阵，迹 = 2\n   汇总即得 E 行 χ(E) = (2, 0, −2, 0, 0)，与表中 E 行一致。\n\n2. **维数–标号对照表**（插在 C₄ᵥ 表之后、换基迹不变那条之前，Markdown 表格）：\n   | 维数 | Mulliken 标号 | 基函数例 |\n   |---|---|---|\n   | 1 | A 或 B | s、p_z（或沿主轴的矢量） |\n   | 2 | E | (x,y)、d_xy 等 |\n   | 3 | T | (x,y,z)（如 T_d 中属 T₂） |\n   并补一句：χ(E) 的数值 = 表示的维数 = 该组基的简并度。\n\n3. **括号与逗号的规则句**（紧接维数表之后）：\n   \"表中同一行括号内并列的基（如 (x,y)）被群的某些操作互相混合，彼此简并；用逗号并列的基（如 x, y）则各自独立、不简并。\"\n\n4. **C₂ₕ 的 x、y 不简并实例**（接上条，作为反例说明）：\n   C₂ₕ 特征标表中 x 与 y 同属 B_u 表示，但两者用逗号并列（不加括号），故不简并——同一不可约表示不等于一定简并。\n\n5. **\"只用特征标\"句**（插在\"与矩阵表示的对比\"节内、对比表之后）：\n   \"群论应用中的定理只用到特征标（迹），特征标表因此不列出完整矩阵。\"\n\n# 质量要求\n- 数学矩阵用 Obsidian LaTeX：$...$ 或 $$...$$（矩阵用 \\begin{pmatrix}...\\end{pmatrix}）\n- 中文要点式，与 03 现有风格一致\n- 完成后报告：5 处的插入位置（小节名与行号）、03 原有内容零删改确认\n- 不要执行任何 git 操作",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_zLQDhyc0wx6ht3J6LMeV3483",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 群论\n4\t  - 结构化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 特征标\n10\t\n11\t## 对称与反对称\n12\t\n13\t<mark style=\"background: #ADCCFFA6;\">对称</mark>：函数 $f$ 经对称操作 $g$ 作用后不变，$\\hat{g}f=f$。\n14\t<mark style=\"background: #ADCCFFA6;\">反对称</mark>：作用后变号，$\\hat{g}f=-f$。\n15\t\n16\t$$\n17\t\\hat{g}f=\\chi(g)f,\\qquad\n18\t\\chi(g)=\n19\t\\begin{cases}\n20\t+1, & \\hat{g}f=f\\\\\n21\t-1, & \\hat{g}f=-f\n22\t\\end{cases}\n23\t$$\n24\t\n25\t$f$ ：被操作的对象，如原子轨道、$x$、$y$、$z$ 方向或绕轴转动，无单位\n26\t$g$ ：点群的对称操作\n27\t$\\hat{g}$ ：操作 $g$ 对应的算符\n28\t$\\chi(g)$ ：<mark style=\"background: #ADCCFFA6;\">特征标</mark>，操作 $g$ 对应的数，量纲一\n29\t\n30\t$C_{2v}$ 群中的 $p_y$ 轨道：\n31\t\n32\t$$\n33\t\\begin{aligned}\n34\t\\hat{E}p_y &= p_y\\\\\n35\t\\hat{C}_2p_y &= -p_y\\\\\n36\t\\hat{\\sigma}(xz)p_y &= -p_y\\\\\n37\t\\hat{\\sigma}(yz)p_y &= p_y\n38\t\\end{aligned}\n39\t$$\n40\t\n41\t$\\chi(E)=1$，$\\chi(C_2)=-1$，$\\chi(\\sigma(xz))=-1$，$\\chi(\\sigma(yz))=1$。$p_y$ 对 $E$、$\\sigma(yz)$ 对称，对 $C_2$、$\\sigma(xz)$ 反对称。\n42\t\n43\t## 特征标（一维表示）\n44\t\n45\t<mark style=\"background: #ADCCFFA6;\">表示</mark>：把群中每个操作对应到一个数或矩阵 $\\Gamma(g)$、并保持群乘法关系的映射。\n46\t\n47\t$$\n48\t\\Gamma(g_1g_2)=\\Gamma(g_1)\\Gamma(g_2),\\qquad \\Gamma(E)=I\n49\t$$\n50\t\n51\t$\\Gamma(g)$ ：操作 $g$ 的表示矩阵，一维表示中为一个数，$I$ 为单位矩阵\n52\t\n53\t一维表示（非简并表示）中 $\\Gamma(g)$ 即特征标 $\\chi(g)$。$C_{2v}$ 中非单位操作都满足 $g^2=E$，故\n54\t\n55\t$$\n56\t\\chi(g)^2=\\chi(g^2)=\\chi(E)=1\\quad\\Rightarrow\\quad\\chi(g)=\\pm1\n57\t$$\n58\t\n59\t一组数构成表示需满足两条：数值描述操作对方向性性质的作用；数值的乘法与操作的乘法一致。$p_y$ 的特征标组满足 $C_2\\sigma(xz)=\\sigma(yz)$ 对应的乘法：\n60\t\n61\t$$\n62\t\\chi(C_2)\\chi(\\sigma(xz))=(-1)(-1)=1=\\chi(\\sigma(yz))\n63\t$$\n64\t\n65\t群关系把 $\\sigma(yz)$ 列固定为 $\\chi(C_2)\\chi(\\sigma(xz))$，独立取值的只有 $\\chi(C_2)$ 与 $\\chi(\\sigma(xz))$，$2^2=4$ 组数对应 $C_{2v}$ 的四个一维不可约表示 $A_1$、$A_2$、$B_1$、$B_2$。\n66\t\n67\t<mark style=\"background: #ADCCFFA6;\">不可约表示</mark>：不能分解为更低维表示之和的表示。\n68\t\n69\t## 特征标的迹定义\n70\t\n71\t上面给出的是 $\\hat{g}f=\\pm f$ 时特征标为 $\\pm1$ 的情形；表示维数更高时，特征标定义为表示矩阵的迹，这是比 $\\hat{g}f=\\chi f$ 更一般、适用任意维数的定义：\n72\t\n73\t$$\\chi(R)=\\operatorname{tr}\\Gamma(R)=\\sum_{i}\\Gamma_{ii}(R)$$\n74\t\n75\t$\\Gamma(R)$ ：操作 $R$ 的表示矩阵，$n\\times n$\n76\t$\\Gamma_{ii}(R)$ ：$\\Gamma(R)$ 的第 $i$ 个对角元\n77\t$n$ ：基向量个数，即表示的维数\n78\t\n79\t基向量列阵按 $\\mathbf{v}'=\\Gamma(R)\\mathbf{v}$ 变换，$\\Gamma_{ii}$ 是旧基 $i$ 在新基 $i$ 中保留的系数；旧基被换到别的位置时该对角元为零。于是\n80\t\n81\t$$\\chi(R)=(\\text{保持原向的基向量数})-(\\text{反向的基向量数})$$\n82\t\n83\t基向量不变时贡献 $+1$，反向时贡献 $-1$，被移到别的位置时贡献 $0$。一维表示中矩阵退化为一个数，迹定义回到 $\\hat{g}f=\\chi f$ 的 $\\pm1$。\n84\t\n85\t## 特征标表\n86\t\n87\t<mark style=\"background: #ADCCFFA6;\">特征标表</mark>：列出点群全部不可约表示在各个操作（共轭类）下的特征标与相应基函数的表。\n88\t\n89\t| $C_{2v}$ | $E$ | $C_2$ | $\\sigma(xz)$ | $\\sigma(yz)$ | 基函数 |\n90\t| --- | --- | --- | --- | --- | --- |\n91\t| $A_1$ | 1 | 1 | 1 | 1 | $z$、$x^2$、$y^2$、$z^2$ |\n92\t| $A_2$ | 1 | 1 | −1 | −1 | $R_z$、$xy$ |\n93\t| $B_1$ | 1 | −1 | 1 | −1 | $x$、$R_y$、$xz$ |\n94\t| $B_2$ | 1 | −1 | −1 | 1 | $y$、$R_x$、$yz$ |\n95\t\n96\t行是一个不可约表示，列是一个共轭类，$E$ 列全为 $1$。$A_1$ 的特征标全为 $+1$，为全对称表示。\n97\t\n98\t符号由 $C_2$ 与 $\\sigma(xz)$ 的特征标定：$\\chi(C_2)=+1$ 记 $A$，$-1$ 记 $B$；$\\chi(\\sigma(xz))=+1$ 记下标 $1$，$-1$ 记下标 $2$。\n99\t\n100\t基函数列给出各方向的归属：$p_z$ 属 $A_1$，$p_x$ 属 $B_1$，$p_y$ 属 $B_2$，$d_{x^2-y^2}$ 属 $A_1$，$d_{xy}$ 属 $A_2$，$d_{xz}$ 属 $B_1$，$d_{yz}$ 属 $B_2$。\n101\t\n102\t转动同样按基函数列取：$R_z$ 属 $A_2$，$R_y$ 属 $B_1$，$R_x$ 属 $B_2$。\n103\t\n104\t含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：\n105\t\n106\t| $C_{4v}$ | $E$ | $2C_4$ | $C_2$ | $2\\sigma_v$ | $2\\sigma_d$ | 基 |\n107\t| --- | --- | --- | --- | --- | --- | --- |\n108\t| $A_1$ | 1 | 1 | 1 | 1 | 1 | $z$、$x^2+y^2$、$z^2$ |\n109\t| $A_2$ | 1 | 1 | 1 | −1 | −1 | $R_z$ |\n110\t| $B_1$ | 1 | −1 | 1 | 1 | −1 | $x^2-y^2$ |\n111\t| $B_2$ | 1 | −1 | 1 | −1 | 1 | $xy$ |\n112\t| $E$ | 2 | 0 | −2 | 0 | 0 | $(x,y)$、$(R_x,R_y)$、$(xz,yz)$ |\n113\t\n114\t二维表示 $E$ 的特征标为 $(2,0,-2,0,0)$：$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$，两条基都离开原位，故 $\\chi(2C_4)=0$；$C_2$ 使两者同时反向，$\\chi(C_2)=-2$。$\\chi(E)=2$ 即表示的维数，也即简并度。\n115\t\n116\t换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同；同类操作互为相似变换，特征标也相同。特征标相同不必同类：$2\\sigma_v$ 与 $2\\sigma_d$ 在 $E$ 表示中都是 $0$，在 $B_1$ 表示中分别为 $+1$ 与 $-1$。\n117\t\n118\t## 与矩阵表示的对比\n119\t\n120\t| 项目 | 表示矩阵 $\\Gamma(R)$ | 特征标 $\\chi(R)$ |\n121\t| --- | --- | --- |\n122\t| 内容 | 全部矩阵元，含基之间的混合 | 主对角元之和 |\n123\t| 换基 | 改变 | 不变 |\n124\t| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n125\t\n126\t## 适用条件\n127\t\n128\t特征标为 $\\pm1$ 要求表示为一维且操作满足 $g^2=E$；简并表示的特征标可取 $2$、$3$ 等。\n129\t\n130\t特征标表只列不可约表示，任意一组数须满足 $\\chi(g_1g_2)=\\chi(g_1)\\chi(g_2)$ 才是表示。\n131\t\n132\t## 例题\n133\t\n134\t求 $C_{2v}$ 群中 $3d_{xy}$ 轨道所属的不可约表示。\n135\t\n136\t$$\n137\t\\begin{aligned}\n138\t\\hat{E}d_{xy} &= d_{xy} &&\\Rightarrow \\chi(E)=1\\\\\n139\t\\hat{C}_2d_{xy} &= d_{xy} &&\\Rightarrow \\chi(C_2)=1\\\\\n140\t\\hat{\\sigma}(xz)d_{xy} &= -d_{xy} &&\\Rightarrow \\chi(\\sigma(xz))=-1\\\\\n141\t\\hat{\\sigma}(yz)d_{xy} &= -d_{xy} &&\\Rightarrow \\chi(\\sigma(yz))=-1\n142\t\\end{aligned}\n143\t$$\n144\t\n145\t特征标组 $1,1,-1,-1$ 与 $A_2$ 行相同，$3d_{xy}$ 属 $A_2$。\n146\t\n147\t草酸根离子为 $C_{2h}$：四条 C–O 键上的箭头同向朝外，分子平面为 $\\sigma(xy)$，$C_2$ 轴垂直于该面。以四条箭头为基，求 $E$、$C_2$、$i$、$\\sigma(xy)$ 各操作作用于四条箭头所成矩阵的特征标。\n148\t\n149\t$$\\begin{aligned}\n150\tE &: \\quad \\text{四条箭头原位不动}，\\ \\chi=1+1+1+1=4 \\\\\n151\tC_2 &: \\quad \\text{每条箭头转到另一条 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n152\ti &: \\quad \\text{四条箭头各换到对面的 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n153\t\\sigma(xy) &: \\quad \\text{四条箭头都在镜面内、方向不变}，\\ \\chi=1+1+1+1=4\n154\t\\end{aligned}$$\n155\t\n156\t结果：$\\chi=(4,0,0,4)$，该表示为四维。\n157\t"
+          },
+          {
+            "id": "call_00_wma2UaQsU2KuOrmj7XJK3216",
+            "name": "Skill",
+            "input": {
+              "skill": "obsidian-markdown"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Launching skill: obsidian-markdown"
+          },
+          {
+            "id": "call_00_e6t2nwtW4NgdHVfpHsXq5999",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "old_string": "含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：",
+              "new_string": "含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：\n\n表中的数由基的变换矩阵逐项取迹而来（\"表从哪来\"的推导）。以二维表示 $E$ 的基 $(x,y)$ 为例，逐操作写出 $2\\times2$ 矩阵并取迹：\n\n- $C_4$：$(x,y)\\to(-y,x)$，矩阵 $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$，迹 $=0$\n- $C_2$：$(x,y)\\to(-x,-y)$，矩阵 $\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}$，迹 $=-2$\n- $\\sigma_v(xz)$：$x\\to x$、$y\\to-y$，矩阵 $\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}$，迹 $=0$\n- $\\sigma_d$：$x\\leftrightarrow y$ 互换，矩阵 $\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$，迹 $=0$\n- $E$：单位矩阵，迹 $=2$\n\n汇总即得 $E$ 行的特征标 $\\chi=(2,0,-2,0,0)$，与表中 $E$ 行一致。"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_01_BVb4g1G4co0mal7hnoay2731",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "old_string": "换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同；同类操作互为相似变换，特征标也相同。",
+              "new_string": "维数–标号对照表：\n\n| 维数 | Mulliken 标号 | 基函数例 |\n| --- | --- | --- |\n| 1 | $A$ 或 $B$ | $s$、$p_z$（或沿主轴的矢量） |\n| 2 | $E$ | $(x,y)$、$d_{xy}$ 等 |\n| 3 | $T$ | $(x,y,z)$（如 $T_d$ 中属 $T_2$） |\n\n$\\chi(E)$ 的数值 = 表示的维数 = 该组基的简并度。\n\n表中同一行括号内并列的基（如 $(x,y)$）被群的某些操作互相混合，彼此简并；用逗号并列的基（如 $x$、$y$）则各自独立、不简并。\n\n$C_{2h}$ 特征标表中 $x$ 与 $y$ 同属 $B_u$ 表示，但两者用逗号并列（不加括号），故不简并——同一不可约表示不等于一定简并。\n\n换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同；同类操作互为相似变换，特征标也相同。"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_02_2XCNEMIuMbd7XvNBU3Mc9096",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "old_string": "| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n\n## 适用条件",
+              "new_string": "| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n\n群论应用中的定理只用到特征标（迹），特征标表因此不列出完整矩阵。\n\n## 适用条件"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_ktl0x0XZtsEnF7KSIls49030",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags:\n3\t  - 群论\n4\t  - 结构化学\n5\tCategory:\n6\t  - 笔记\n7\t---\n8\t\n9\t# 特征标\n10\t\n11\t## 对称与反对称\n12\t\n13\t<mark style=\"background: #ADCCFFA6;\">对称</mark>：函数 $f$ 经对称操作 $g$ 作用后不变，$\\hat{g}f=f$。\n14\t<mark style=\"background: #ADCCFFA6;\">反对称</mark>：作用后变号，$\\hat{g}f=-f$。\n15\t\n16\t$$\n17\t\\hat{g}f=\\chi(g)f,\\qquad\n18\t\\chi(g)=\n19\t\\begin{cases}\n20\t+1, & \\hat{g}f=f\\\\\n21\t-1, & \\hat{g}f=-f\n22\t\\end{cases}\n23\t$$\n24\t\n25\t$f$ ：被操作的对象，如原子轨道、$x$、$y$、$z$ 方向或绕轴转动，无单位\n26\t$g$ ：点群的对称操作\n27\t$\\hat{g}$ ：操作 $g$ 对应的算符\n28\t$\\chi(g)$ ：<mark style=\"background: #ADCCFFA6;\">特征标</mark>，操作 $g$ 对应的数，量纲一\n29\t\n30\t$C_{2v}$ 群中的 $p_y$ 轨道：\n31\t\n32\t$$\n33\t\\begin{aligned}\n34\t\\hat{E}p_y &= p_y\\\\\n35\t\\hat{C}_2p_y &= -p_y\\\\\n36\t\\hat{\\sigma}(xz)p_y &= -p_y\\\\\n37\t\\hat{\\sigma}(yz)p_y &= p_y\n38\t\\end{aligned}\n39\t$$\n40\t\n41\t$\\chi(E)=1$，$\\chi(C_2)=-1$，$\\chi(\\sigma(xz))=-1$，$\\chi(\\sigma(yz))=1$。$p_y$ 对 $E$、$\\sigma(yz)$ 对称，对 $C_2$、$\\sigma(xz)$ 反对称。\n42\t\n43\t## 特征标（一维表示）\n44\t\n45\t<mark style=\"background: #ADCCFFA6;\">表示</mark>：把群中每个操作对应到一个数或矩阵 $\\Gamma(g)$、并保持群乘法关系的映射。\n46\t\n47\t$$\n48\t\\Gamma(g_1g_2)=\\Gamma(g_1)\\Gamma(g_2),\\qquad \\Gamma(E)=I\n49\t$$\n50\t\n51\t$\\Gamma(g)$ ：操作 $g$ 的表示矩阵，一维表示中为一个数，$I$ 为单位矩阵\n52\t\n53\t一维表示（非简并表示）中 $\\Gamma(g)$ 即特征标 $\\chi(g)$。$C_{2v}$ 中非单位操作都满足 $g^2=E$，故\n54\t\n55\t$$\n56\t\\chi(g)^2=\\chi(g^2)=\\chi(E)=1\\quad\\Rightarrow\\quad\\chi(g)=\\pm1\n57\t$$\n58\t\n59\t一组数构成表示需满足两条：数值描述操作对方向性性质的作用；数值的乘法与操作的乘法一致。$p_y$ 的特征标组满足 $C_2\\sigma(xz)=\\sigma(yz)$ 对应的乘法：\n60\t\n61\t$$\n62\t\\chi(C_2)\\chi(\\sigma(xz))=(-1)(-1)=1=\\chi(\\sigma(yz))\n63\t$$\n64\t\n65\t群关系把 $\\sigma(yz)$ 列固定为 $\\chi(C_2)\\chi(\\sigma(xz))$，独立取值的只有 $\\chi(C_2)$ 与 $\\chi(\\sigma(xz))$，$2^2=4$ 组数对应 $C_{2v}$ 的四个一维不可约表示 $A_1$、$A_2$、$B_1$、$B_2$。\n66\t\n67\t<mark style=\"background: #ADCCFFA6;\">不可约表示</mark>：不能分解为更低维表示之和的表示。\n68\t\n69\t## 特征标的迹定义\n70\t\n71\t上面给出的是 $\\hat{g}f=\\pm f$ 时特征标为 $\\pm1$ 的情形；表示维数更高时，特征标定义为表示矩阵的迹，这是比 $\\hat{g}f=\\chi f$ 更一般、适用任意维数的定义：\n72\t\n73\t$$\\chi(R)=\\operatorname{tr}\\Gamma(R)=\\sum_{i}\\Gamma_{ii}(R)$$\n74\t\n75\t$\\Gamma(R)$ ：操作 $R$ 的表示矩阵，$n\\times n$\n76\t$\\Gamma_{ii}(R)$ ：$\\Gamma(R)$ 的第 $i$ 个对角元\n77\t$n$ ：基向量个数，即表示的维数\n78\t\n79\t基向量列阵按 $\\mathbf{v}'=\\Gamma(R)\\mathbf{v}$ 变换，$\\Gamma_{ii}$ 是旧基 $i$ 在新基 $i$ 中保留的系数；旧基被换到别的位置时该对角元为零。于是\n80\t\n81\t$$\\chi(R)=(\\text{保持原向的基向量数})-(\\text{反向的基向量数})$$\n82\t\n83\t基向量不变时贡献 $+1$，反向时贡献 $-1$，被移到别的位置时贡献 $0$。一维表示中矩阵退化为一个数，迹定义回到 $\\hat{g}f=\\chi f$ 的 $\\pm1$。\n84\t\n85\t## 特征标表\n86\t\n87\t<mark style=\"background: #ADCCFFA6;\">特征标表</mark>：列出点群全部不可约表示在各个操作（共轭类）下的特征标与相应基函数的表。\n88\t\n89\t| $C_{2v}$ | $E$ | $C_2$ | $\\sigma(xz)$ | $\\sigma(yz)$ | 基函数 |\n90\t| --- | --- | --- | --- | --- | --- |\n91\t| $A_1$ | 1 | 1 | 1 | 1 | $z$、$x^2$、$y^2$、$z^2$ |\n92\t| $A_2$ | 1 | 1 | −1 | −1 | $R_z$、$xy$ |\n93\t| $B_1$ | 1 | −1 | 1 | −1 | $x$、$R_y$、$xz$ |\n94\t| $B_2$ | 1 | −1 | −1 | 1 | $y$、$R_x$、$yz$ |\n95\t\n96\t行是一个不可约表示，列是一个共轭类，$E$ 列全为 $1$。$A_1$ 的特征标全为 $+1$，为全对称表示。\n97\t\n98\t符号由 $C_2$ 与 $\\sigma(xz)$ 的特征标定：$\\chi(C_2)=+1$ 记 $A$，$-1$ 记 $B$；$\\chi(\\sigma(xz))=+1$ 记下标 $1$，$-1$ 记下标 $2$。\n99\t\n100\t基函数列给出各方向的归属：$p_z$ 属 $A_1$，$p_x$ 属 $B_1$，$p_y$ 属 $B_2$，$d_{x^2-y^2}$ 属 $A_1$，$d_{xy}$ 属 $A_2$，$d_{xz}$ 属 $B_1$，$d_{yz}$ 属 $B_2$。\n101\t\n102\t转动同样按基函数列取：$R_z$ 属 $A_2$，$R_y$ 属 $B_1$，$R_x$ 属 $B_2$。\n103\t\n104\t含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：\n105\t\n106\t表中的数由基的变换矩阵逐项取迹而来（\"表从哪来\"的推导）。以二维表示 $E$ 的基 $(x,y)$ 为例，逐操作写出 $2\\times2$ 矩阵并取迹：\n107\t\n108\t- $C_4$：$(x,y)\\to(-y,x)$，矩阵 $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$，迹 $=0$\n109\t- $C_2$：$(x,y)\\to(-x,-y)$，矩阵 $\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}$，迹 $=-2$\n110\t- $\\sigma_v(xz)$：$x\\to x$、$y\\to-y$，矩阵 $\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}$，迹 $=0$\n111\t- $\\sigma_d$：$x\\leftrightarrow y$ 互换，矩阵 $\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$，迹 $=0$\n112\t- $E$：单位矩阵，迹 $=2$\n113\t\n114\t汇总即得 $E$ 行的特征标 $\\chi=(2,0,-2,0,0)$，与表中 $E$ 行一致。\n115\t\n116\t| $C_{4v}$ | $E$ | $2C_4$ | $C_2$ | $2\\sigma_v$ | $2\\sigma_d$ | 基 |\n117\t| --- | --- | --- | --- | --- | --- | --- |\n118\t| $A_1$ | 1 | 1 | 1 | 1 | 1 | $z$、$x^2+y^2$、$z^2$ |\n119\t| $A_2$ | 1 | 1 | 1 | −1 | −1 | $R_z$ |\n120\t| $B_1$ | 1 | −1 | 1 | 1 | −1 | $x^2-y^2$ |\n121\t| $B_2$ | 1 | −1 | 1 | −1 | 1 | $xy$ |\n122\t| $E$ | 2 | 0 | −2 | 0 | 0 | $(x,y)$、$(R_x,R_y)$、$(xz,yz)$ |\n123\t\n124\t二维表示 $E$ 的特征标为 $(2,0,-2,0,0)$：$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$，两条基都离开原位，故 $\\chi(2C_4)=0$；$C_2$ 使两者同时反向，$\\chi(C_2)=-2$。$\\chi(E)=2$ 即表示的维数，也即简并度。\n125\t\n126\t维数–标号对照表：\n127\t\n128\t| 维数 | Mulliken 标号 | 基函数例 |\n129\t| --- | --- | --- |\n130\t| 1 | $A$ 或 $B$ | $s$、$p_z$（或沿主轴的矢量） |\n131\t| 2 | $E$ | $(x,y)$、$d_{xy}$ 等 |\n132\t| 3 | $T$ | $(x,y,z)$（如 $T_d$ 中属 $T_2$） |\n133\t\n134\t$\\chi(E)$ 的数值 = 表示的维数 = 该组基的简并度。\n135\t\n136\t表中同一行括号内并列的基（如 $(x,y)$）被群的某些操作互相混合，彼此简并；用逗号并列的基（如 $x$、$y$）则各自独立、不简并。\n137\t\n138\t$C_{2h}$ 特征标表中 $x$ 与 $y$ 同属 $B_u$ 表示，但两者用逗号并列（不加括号），故不简并——同一不可约表示不等于一定简并。\n139\t\n140\t换基时 $\\Gamma'(R)=S^{-1}\\Gamma(R)S$，迹不变，故同一表示在不同等价基下特征标相同；同类操作互为相似变换，特征标也相同。特征标相同不必同类：$2\\sigma_v$ 与 $2\\sigma_d$ 在 $E$ 表示中都是 $0$，在 $B_1$ 表示中分别为 $+1$ 与 $-1$。\n141\t\n142\t## 与矩阵表示的对比\n143\t\n144\t| 项目 | 表示矩阵 $\\Gamma(R)$ | 特征标 $\\chi(R)$ |\n145\t| --- | --- | --- |\n146\t| 内容 | 全部矩阵元，含基之间的混合 | 主对角元之和 |\n147\t| 换基 | 改变 | 不变 |\n148\t| 用途 | 写出具体变换、求轨道系数 | 查表、判简并、作约化 |\n149\t\n150\t群论应用中的定理只用到特征标（迹），特征标表因此不列出完整矩阵。\n151\t\n152\t## 适用条件\n153\t\n154\t特征标为 $\\pm1$ 要求表示为一维且操作满足 $g^2=E$；简并表示的特征标可取 $2$、$3$ 等。\n155\t\n156\t特征标表只列不可约表示，任意一组数须满足 $\\chi(g_1g_2)=\\chi(g_1)\\chi(g_2)$ 才是表示。\n157\t\n158\t## 例题\n159\t\n160\t求 $C_{2v}$ 群中 $3d_{xy}$ 轨道所属的不可约表示。\n161\t\n162\t$$\n163\t\\begin{aligned}\n164\t\\hat{E}d_{xy} &= d_{xy} &&\\Rightarrow \\chi(E)=1\\\\\n165\t\\hat{C}_2d_{xy} &= d_{xy} &&\\Rightarrow \\chi(C_2)=1\\\\\n166\t\\hat{\\sigma}(xz)d_{xy} &= -d_{xy} &&\\Rightarrow \\chi(\\sigma(xz))=-1\\\\\n167\t\\hat{\\sigma}(yz)d_{xy} &= -d_{xy} &&\\Rightarrow \\chi(\\sigma(yz))=-1\n168\t\\end{aligned}\n169\t$$\n170\t\n171\t特征标组 $1,1,-1,-1$ 与 $A_2$ 行相同，$3d_{xy}$ 属 $A_2$。\n172\t\n173\t草酸根离子为 $C_{2h}$：四条 C–O 键上的箭头同向朝外，分子平面为 $\\sigma(xy)$，$C_2$ 轴垂直于该面。以四条箭头为基，求 $E$、$C_2$、$i$、$\\sigma(xy)$ 各操作作用于四条箭头所成矩阵的特征标。\n174\t\n175\t$$\\begin{aligned}\n176\tE &: \\quad \\text{四条箭头原位不动}，\\ \\chi=1+1+1+1=4 \\\\\n177\tC_2 &: \\quad \\text{每条箭头转到另一条 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n178\ti &: \\quad \\text{四条箭头各换到对面的 C–O 键}，\\ \\chi=0+0+0+0=0 \\\\\n179\t\\sigma(xy) &: \\quad \\text{四条箭头都在镜面内、方向不变}，\\ \\chi=1+1+1+1=4\n180\t\\end{aligned}$$\n181\t\n182\t结果：$\\chi=(4,0,0,4)$，该表示为四维。\n183\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "校验完成：文件由 157 行变为 183 行，新增 26 行均为插入；逐行比对，原 157 行（含上一轮合并的 C₄ᵥ 表、迹定义、对比表、草酸根例题等）内容与原文完全一致，零删改喵。未执行任何 git 操作喵。\n\n5 处补充的插入位置如下喵：\n\n1. **由基求特征标的完整矩阵展开**（第 106–114 行）——\"特征标表\"节内，C₄ᵥ 引入句（第 104 行）之后、C₄ᵥ 表（第 116–122 行）之前。逐操作列出 C₄、C₂、σᵥ(xz)、σ_d、E 的 2×2 矩阵与迹，汇总得 (2,0,−2,0,0)，与表中 E 行一致；原压缩描述（第 124 行）原样保留，要点无丢失喵。\n2. **维数–标号对照表**（第 126–132 行）——C₄ᵥ 表之后、换基迹不变句（第 140 行）之前；并补句\"χ(E) 的数值 = 表示的维数 = 该组基的简并度\"（第 134 行）喵。\n3. **括号与逗号的规则句**（第 136 行）——紧接维数表之后喵。\n4. **C₂ₕ 的 x、y 不简并实例**（第 138 行）——接上条作为反例喵。\n5. **\"只用特征标\"句**（第 150 行）——\"与矩阵表示的对比\"节内、对比表（第 144–148 行）之后、\"适用条件\"节之前喵。\n\n矩阵全部用 Obsidian LaTeX（$\\begin{pmatrix}...\\end{pmatrix}$），风格与原文要点式一致喵。\n\nresult: 03-特征标.md 已补入 5 处细节（矩阵展开推导、维数对照表、括号/逗号规则、C₂ₕ 反例、只用特征标句），原有内容零删改，未动 git。"
+      },
+      "call_00_8oJ1VaZllxO1uARM4MhE1756": {
+        "id": "call_00_8oJ1VaZllxO1uARM4MhE1756",
+        "description": "修正03第124行方向矛盾",
+        "prompt": "微修任务：F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md 中有一处 C₄ 旋转方向的文字描述与新补的矩阵展开矛盾。\n\n第 124 行附近的句子为：\"$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$\"（大意，以实际文件内容为准），它与第 108 行的 (x,y)→(−y,x) 及矩阵 $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$ 方向相反。\n\n请：1) 用 Grep 或 Read 找到 03-特征标.md 中描述 C₄ 把 x/y 互换方向的那一句（关键词：C_4 或 C₄ 与 \"换成\"）；2) 把该句改为与 (x,y)→(−y,x) 一致的方向，即\"$C_4$ 把 $x$ 换成 $-y$、$y$ 换成 $x$\"；3) 除此之外不改任何内容；4) 完成后报告改动前后该句的原文与改文。不要执行 git 操作。",
+        "status": "running",
+        "toolCalls": [
+          {
+            "id": "call_00_qBPyx1sXCfKy7j8tv7kT5772",
+            "name": "Grep",
+            "input": {
+              "pattern": "C_?4?.*换成",
+              "path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "output_mode": "content",
+              "-n": true
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "124:二维表示 $E$ 的特征标为 $(2,0,-2,0,0)$：$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$，两条基都离开原位，故 $\\chi(2C_4)=0$；$C_2$ 使两者同时反向，$\\chi(C_2)=-2$。$\\chi(E)=2$ 即表示的维数，也即简并度。"
+          },
+          {
+            "id": "call_01_OGN7AswrAl1ymuSZfv9F8083",
+            "name": "Read",
+            "input": {
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "offset": 100,
+              "limit": 30
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "100\t基函数列给出各方向的归属：$p_z$ 属 $A_1$，$p_x$ 属 $B_1$，$p_y$ 属 $B_2$，$d_{x^2-y^2}$ 属 $A_1$，$d_{xy}$ 属 $A_2$，$d_{xz}$ 属 $B_1$，$d_{yz}$ 属 $B_2$。\n101\t\n102\t转动同样按基函数列取：$R_z$ 属 $A_2$，$R_y$ 属 $B_1$，$R_x$ 属 $B_2$。\n103\t\n104\t含简并表示的群以 $C_{4v}$（[[01-分子点群分类]]）为例，五类操作 $E$、$2C_4$、$C_2$、$2\\sigma_v$、$2\\sigma_d$ 各占一列：\n105\t\n106\t表中的数由基的变换矩阵逐项取迹而来（\"表从哪来\"的推导）。以二维表示 $E$ 的基 $(x,y)$ 为例，逐操作写出 $2\\times2$ 矩阵并取迹：\n107\t\n108\t- $C_4$：$(x,y)\\to(-y,x)$，矩阵 $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$，迹 $=0$\n109\t- $C_2$：$(x,y)\\to(-x,-y)$，矩阵 $\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}$，迹 $=-2$\n110\t- $\\sigma_v(xz)$：$x\\to x$、$y\\to-y$，矩阵 $\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}$，迹 $=0$\n111\t- $\\sigma_d$：$x\\leftrightarrow y$ 互换，矩阵 $\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$，迹 $=0$\n112\t- $E$：单位矩阵，迹 $=2$\n113\t\n114\t汇总即得 $E$ 行的特征标 $\\chi=(2,0,-2,0,0)$，与表中 $E$ 行一致。\n115\t\n116\t| $C_{4v}$ | $E$ | $2C_4$ | $C_2$ | $2\\sigma_v$ | $2\\sigma_d$ | 基 |\n117\t| --- | --- | --- | --- | --- | --- | --- |\n118\t| $A_1$ | 1 | 1 | 1 | 1 | 1 | $z$、$x^2+y^2$、$z^2$ |\n119\t| $A_2$ | 1 | 1 | 1 | −1 | −1 | $R_z$ |\n120\t| $B_1$ | 1 | −1 | 1 | 1 | −1 | $x^2-y^2$ |\n121\t| $B_2$ | 1 | −1 | 1 | −1 | 1 | $xy$ |\n122\t| $E$ | 2 | 0 | −2 | 0 | 0 | $(x,y)$、$(R_x,R_y)$、$(xz,yz)$ |\n123\t\n124\t二维表示 $E$ 的特征标为 $(2,0,-2,0,0)$：$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$，两条基都离开原位，故 $\\chi(2C_4)=0$；$C_2$ 使两者同时反向，$\\chi(C_2)=-2$。$\\chi(E)=2$ 即表示的维数，也即简并度。\n125\t\n126\t维数–标号对照表：\n127\t\n128\t| 维数 | Mulliken 标号 | 基函数例 |\n129\t| --- | --- | --- |"
+          },
+          {
+            "id": "call_00_EQeO6pXRhH9LDXbeVE0j3818",
+            "name": "Edit",
+            "input": {
+              "replace_all": false,
+              "file_path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "old_string": "$C_4$ 把 $x$ 换成 $y$、$y$ 换成 $-x$",
+              "new_string": "$C_4$ 把 $x$ 换成 $-y$、$y$ 换成 $x$"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "The file F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md has been updated successfully. (file state is current in your context — no need to Read it back)"
+          },
+          {
+            "id": "call_00_aJbSF8yDM2Z0u09MDZee5846",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\03-特征标.md",
+              "pattern": "换成"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "124:二维表示 $E$ 的特征标为 $(2,0,-2,0,0)$：$C_4$ 把 $x$ 换成 $-y$、$y$ 换成 $x$，两条基都离开原位，故 $\\chi(2C_4)=0$；$C_2$ 使两者同时反向，$\\chi(C_2)=-2$。$\\chi(E)=2$ 即表示的维数，也即简并度。"
+          }
+        ],
+        "isExpanded": false
+      },
+      "call_00_7d2XW62vt1YBRx68ZYQu9321": {
+        "id": "call_00_7d2XW62vt1YBRx68ZYQu9321",
+        "description": "删除61旧版副本笔记",
+        "prompt": "删除任务：删除 F:\\obsidian_notes\\knowledge\\Molecular-Symmetry\\61-群论应用三步法.md（已确认是 06-群论应用三步法.md 的旧版逐字副本，无保留价值）。\n\n步骤：\n1. 用 Grep 在 F:\\obsidian_notes\\knowledge 全库搜 \"61-群论应用三步法\"，确认除该文件自身外没有任何 .md 笔记引用它（.obsidian 缓存、.claudian 会话日志中的命中不算笔记引用，忽略）\n2. 用 Bash 删除该文件：rm \"F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\"\n3. 用 Glob 确认 Molecular-Symmetry 目录最终文件清单\n4. 报告：入链核查结果、删除是否成功、目录最终清单\n不要执行任何 git 操作。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_95Hb7vTJmyDiJVX96nwy1461",
+            "name": "Grep",
+            "input": {
+              "pattern": "61-群论应用三步法",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "glob": "*.md",
+              "output_mode": "content",
+              "-n": true
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No matches found"
+          },
+          {
+            "id": "call_00_AqVoWt4HoAUHwaDob8nG8702",
+            "name": "Grep",
+            "input": {
+              "-n": true,
+              "output_mode": "content",
+              "path": "F:\\obsidian_notes\\knowledge",
+              "pattern": "61-群论应用三步法"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": ".obsidian\\workspace.json:241:    \"Molecular-Symmetry/61-群论应用三步法.md\",\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:352:            \"result\": \"00-对称操作.md\\n01-分子点群分类.md\\n03-特征标.md\\n04-不可约表示.md\\n05-简并表示.md\\n06-群论应用三步法.md\\n61-群论应用三步法.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:384:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:389:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:401:            \"result\": \"Molecular-Symmetry\\\\00-对称操作.md\\nMolecular-Symmetry\\\\05-简并表示.md\\nMolecular-Symmetry\\\\61-群论应用三步法.md\\nMolecular-Symmetry\\\\04-不可约表示.md\\nMolecular-Symmetry\\\\01-分子点群分类.md\\nMolecular-Symmetry\\\\03-特征标.md\\nMolecular-Symmetry\\\\06-群论应用三步法.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:482:              \"command\": \"wc -l \\\"F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\\\" && head -30 \\\"F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\\\"\",\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:483:              \"description\": \"Show line count and head of 61-群论应用三步法.md\"\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:487:[Omitted long matching line]\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:519:              \"command\": \"git -C F:/obsidian_notes/knowledge show \\\"HEAD:knowledge/Molecular-Symmetry/06-群论应用三步法.md\\\" > /tmp/06_old.md && diff /tmp/06_old.md \\\"F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\\\" && echo \\\"IDENTICAL\\\" || echo \\\"DIFFERENT\\\"\",\n.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json:528:[Omitted long matching line]"
+          },
+          {
+            "id": "call_00_wpNrewuAoFMoSouvydKz3228",
+            "name": "Bash",
+            "input": {
+              "command": "rm \"F:/obsidian_notes/knowledge/Molecular-Symmetry/61-群论应用三步法.md\" && echo \"DELETED\"",
+              "description": "Delete the duplicate note file 61-群论应用三步法.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "DELETED"
+          },
+          {
+            "id": "call_00_IcJ8bRRtK4a27o4aActX5491",
+            "name": "Glob",
+            "input": {
+              "path": "F:\\obsidian_notes\\knowledge\\Molecular-Symmetry",
+              "pattern": "*"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "Molecular-Symmetry\\00-对称操作.md\nMolecular-Symmetry\\05-简并表示.md\nMolecular-Symmetry\\04-不可约表示.md\nMolecular-Symmetry\\01-分子点群分类.md\nMolecular-Symmetry\\06-群论应用三步法.md\nMolecular-Symmetry\\03-特征标.md"
+          }
+        ],
+        "isExpanded": false,
+        "result": "任务完成，汇报如下喵。\n\n**入链核查**：全库 Grep \"61-群论应用三步法\"（限定 *.md）零命中；不带过滤的全库搜索仅命中 `.obsidian\\workspace.json` 与 `.claudian\\sessions\\conv-1794297351114-xlbczvhpv.meta.json`，属缓存与会话日志，按规则忽略。即没有任何笔记引用该文件，可安全删除喵。\n\n**删除结果**：`rm` 执行成功，文件已删除喵。\n\n**目录最终清单**（Molecular-Symmetry 共 6 个文件，`61-` 已不在，`06-群论应用三步法.md` 保留）：\n- 00-对称操作.md\n- 01-分子点群分类.md\n- 03-特征标.md\n- 04-不可约表示.md\n- 05-简并表示.md\n- 06-群论应用三步法.md\n\n未执行任何 git 操作喵。\n\nresult: 已删除 F:\\obsidian_notes\\knowledge\\Molecula-Symmetry\\61-群论应用三步法.md（无笔记入链，目录余 6 文件，06-版本保留）"
       }
     }
   },
   "currentNote": "Molecular-Symmetry/00-对称操作.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 1600,
+    "inputTokens": 37,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 48896,
+    "cacheReadInputTokens": 70272,
     "contextWindow": 200000,
-    "contextTokens": 50496,
-    "percentage": 25
+    "contextTokens": 70309,
+    "percentage": 35
   }
 }
