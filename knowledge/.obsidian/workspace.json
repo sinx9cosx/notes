@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBRs筛选暗态"
+              "title": "10.1-理想液态混合物的气液平衡相图"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,12 +232,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "3881d26404882802",
   "lastOpenFiles": [
-    "sci_research/TBR和TBRs分子对称性.md",
-    "sci_research/TBRs筛选暗态.md",
+    "physchem-2/10-溶液与多相混合物/10.3-恒温降压过程.md",
+    "physchem-2/10-溶液与多相混合物/10.2-物系点、相点与杠杆规则.md",
+    "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
     "physchem-2/10-溶液与多相混合物/10.1-气液平衡相图与相律.md",
-    "physchem-2/10-溶液与多相混合物/10.2-理想液态混合物的气液平衡相图.md",
+    "sci_research/TBRs筛选暗态.md",
+    "sci_research/TBR和TBRs分子对称性.md",
     "physchem-2/8-纯物质体相性质/8.2-相律.md",
     "Molecular-Symmetry/01-分子点群分类.md",
     "Molecular-Symmetry/0-Symmetry Operations.md",
@@ -263,9 +265,7 @@
     "未命名 1.canvas",
     "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
     "TOEFL/写作练习/邮件-宿舍流感处理.md",
-    "TOEFL/写作练习/学术讨论-社交媒体个性化.md",
     "TOEFL/句子填充错题.md.tmp.25360.692606199bc0",
-    "TOEFL/口语复述/真题/生活场景-做沙拉.md",
     "TOEFL/口语复述/真题/生活场景-宠物店.md.tmp.29716.6a218646ca93",
     "TOEFL/模拟面试/题目",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md.tmp.1352.ab79201e8697",
