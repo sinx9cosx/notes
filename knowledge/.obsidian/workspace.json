@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
+                "file": "Molecular-Symmetry/0-对称操作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.1-理想液态混合物的气液平衡相图"
+              "title": "0-对称操作"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
+                "file": "Molecular-Symmetry/0-对称操作.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,19 +232,28 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
-    "61-群论应用三步法.md",
-    "03-特征标.md",
+    "05-简并表示.md~RF1f833bea.TMP",
+    "05-简并表示.md~RF1f833bbb.TMP",
+    "05-简并表示.md~RF1f833b8c.TMP",
+    "Molecular-Symmetry/05-简并表示.md",
+    "Molecular-Symmetry/49-特征标.md",
+    "Molecular-Symmetry/06-群论应用三步法.md",
+    "05-简并表示.md~RF1f830420.TMP",
+    "05-简并表示.md~RF1f8303c3.TMP",
+    "05-简并表示.md~RF1f83026b.TMP",
+    "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
+    "Molecular-Symmetry/04-不可约表示.md",
+    "Molecular-Symmetry/03-特征标.md",
     "physchem-2/10-溶液与多相混合物/10.3-恒温降压过程.md",
     "physchem-2/10-溶液与多相混合物/10.2-物系点、相点与杠杆规则.md",
-    "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
     "physchem-2/10-溶液与多相混合物/10.1-气液平衡相图与相律.md",
     "sci_research/TBRs筛选暗态.md",
     "sci_research/TBR和TBRs分子对称性.md",
     "physchem-2/8-纯物质体相性质/8.2-相律.md",
     "Molecular-Symmetry/01-分子点群分类.md",
-    "Molecular-Symmetry/0-Symmetry Operations.md",
+    "Molecular-Symmetry/0-对称操作.md",
     "Molecular-Symmetry/01-分子点群.md",
     "physchem-2/9-溶液的基本性质/4.4-实际溶液的化学势.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
@@ -260,10 +269,6 @@
     "sci_research/image/0249535f-37c5-481e-9cbb-41db6cdeefbe.png",
     "sci_research/report/3-DHR和TBR计算光谱.md",
     "sci_research/report/5-TBR实验发光机理解释草稿.md",
-    "sci_research/report/课设汇报-1.md",
-    "TOEFL/句子填充错题.md",
-    "sci_research/TBRs/TBRs计算结果.md",
-    "TOEFL/写作练习/学术讨论-软技能是否应该开课.md",
     "未命名 1.canvas",
     "TOEFL/句子填充错题.md.tmp.25360.692606199bc0",
     "TOEFL/口语复述/真题/生活场景-宠物店.md.tmp.29716.6a218646ca93",
@@ -273,14 +278,9 @@
     "physchem-2/image/10-px.png",
     "physchem-2/image/10-process.png",
     "physchem-2/image/10-lever.png",
-    "physchem-2/10-溶液与多相混合物",
-    "physchem-2/10-",
-    "physchem-2/新建文件夹",
     "physchem-2/image/9-osmosis.png",
     "physchem-2/image/9-freezing-point-depression.png",
     "physchem-2/image/9-boiling-point-elevation.png",
-    "Molecular-Symmetry/Symmetry Operations.md.tmp.17792.957205620b78",
-    "Molecular-Symmetry/Symmetry Operations.md.tmp.17792.ddd031fe0318",
     "sci_research/image/激发态动力学.png",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/填词/填词错误类型.canvas",

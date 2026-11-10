@@ -6,8 +6,9 @@
         "conversationId": "conv-1793453455510-bgvtpsfxb"
       },
       {
+        "draftModel": "opus",
         "tabId": "tab-1781139472480-slhhuo6",
-        "conversationId": "conv-1794223257061-sqqttvdhr"
+        "conversationId": null
       },
       {
         "draftModel": "opus",
