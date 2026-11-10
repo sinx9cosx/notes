@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794322772001-1g6crx26j",
+  "providerId": "claude",
+  "title": "澄清同一个点是否指主对称轴中心点",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794322772002,
+  "updatedAt": 1794322845219,
+  "lastResponseAt": 1794322845219,
+  "sessionId": "7b53902f-04f4-4013-9a38-d17a153d4d25",
+  "providerState": {
+    "providerSessionId": "7b53902f-04f4-4013-9a38-d17a153d4d25"
+  },
+  "currentNote": "Molecular-Symmetry/01-分子点群分类.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 29951,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 29951,
+    "percentage": 15
+  }
+}
