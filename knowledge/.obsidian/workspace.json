@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular-Symmetry/01-分子点群.md",
+                "file": "Molecular-Symmetry/0-Symmetry Operations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-分子点群"
+              "title": "0-Symmetry Operations"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Molecular-Symmetry/01-分子点群.md",
+                "file": "Molecular-Symmetry/0-Symmetry Operations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -234,8 +234,8 @@
   },
   "active": "3881d26404882802",
   "lastOpenFiles": [
-    "Molecular-Symmetry/0-Symmetry Operations.md",
     "Molecular-Symmetry/01-分子点群.md",
+    "Molecular-Symmetry/0-Symmetry Operations.md",
     "physchem-2/9-溶液的基本性质/4.4-实际溶液的化学势.md",
     "physchem-2/9-溶液的基本性质/4.5-活度与混合广度性质.md",
     "physchem-2/9-溶液的基本性质/4.3-非理想液体混合物的化学势.md",
