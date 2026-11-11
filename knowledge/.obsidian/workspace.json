@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular-Symmetry/05-简并表示.md",
+                "file": "Molecular-Symmetry/03-特征标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-简并表示"
+              "title": "03-特征标"
             }
           },
           {
@@ -247,8 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6e3d5123f8cd0aae",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "Molecular-Symmetry/06-群论应用三步法.md.tmp.37360.ad3129e7ae4f",
+    "Molecular-Symmetry/04-可约和不可约表示.md.tmp.37360.1b0766bc66e6",
+    "Molecular-Symmetry/04-可约和不可约表示.md.tmp.37360.4f9c09d1a7f6",
     "Molecular-Symmetry/批注-Molecular symmetry and group theory.md",
     "Molecular-Symmetry/06-群论应用三步法.md",
     "Molecular-Symmetry/02-群的四条公理.md",
@@ -282,14 +285,11 @@
     "sci_research/TBR和TBRs分子对称性.md",
     "physchem-2/8-纯物质体相性质/8.2-相律.md",
     "Molecular-Symmetry/01-分子点群.md",
-    "physchem-2/9-溶液的基本性质/4.4-实际溶液的化学势.md",
     "学习工作流.canvas",
     "TOEFL/填词/TPO2/历史-工具发展.md.tmp.29028.5a2dd3666b18",
     "sci_research/image/dark-state.png",
     "sci_research/image/0249535f-37c5-481e-9cbb-41db6cdeefbe.png",
     "未命名 1.canvas",
-    "TOEFL/句子填充错题.md.tmp.25360.692606199bc0",
-    "TOEFL/口语复述/真题/生活场景-宠物店.md.tmp.29716.6a218646ca93",
     "physchem-2/image/10-tx.png",
     "physchem-2/image/10-px.png",
     "physchem-2/image/10-process.png",
