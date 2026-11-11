@@ -4,8 +4,8 @@
   "title": "解释句子的含义",
   "titleGenerationStatus": "success",
   "createdAt": 1794381215608,
-  "updatedAt": 1794383218633,
-  "lastResponseAt": 1794383218633,
+  "updatedAt": 1794383485214,
+  "lastResponseAt": 1794383485214,
   "sessionId": "c6c4b028-d150-4fa3-9d35-092d852083aa",
   "providerState": {
     "providerSessionId": "c6c4b028-d150-4fa3-9d35-092d852083aa",
@@ -237,11 +237,11 @@
   "currentNote": "Molecular-Symmetry/03-特征标.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 86,
+    "inputTokens": 167,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 46464,
+    "cacheReadInputTokens": 48384,
     "contextWindow": 200000,
-    "contextTokens": 46550,
-    "percentage": 23
+    "contextTokens": 48551,
+    "percentage": 24
   }
 }
