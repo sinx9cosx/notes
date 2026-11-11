@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794381215608-q8mraac1o",
+  "providerId": "claude",
+  "title": "解释句子的含义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794381215608,
+  "updatedAt": 1794381341322,
+  "lastResponseAt": 1794381341322,
+  "sessionId": "c6c4b028-d150-4fa3-9d35-092d852083aa",
+  "providerState": {
+    "providerSessionId": "c6c4b028-d150-4fa3-9d35-092d852083aa"
+  },
+  "currentNote": "Molecular-Symmetry/03-特征标.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 3416,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30336,
+    "contextWindow": 200000,
+    "contextTokens": 33752,
+    "percentage": 17
+  }
+}
