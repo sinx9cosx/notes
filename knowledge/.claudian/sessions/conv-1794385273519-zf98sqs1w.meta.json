@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794385273519-zf98sqs1w",
+  "providerId": "claude",
+  "title": "解释不可约表示的定义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794385273519,
+  "updatedAt": 1794385296885,
+  "lastResponseAt": 1794385296885,
+  "sessionId": "97a636db-b3e1-4e45-b168-b9648e659027",
+  "providerState": {
+    "providerSessionId": "97a636db-b3e1-4e45-b168-b9648e659027"
+  },
+  "currentNote": "Molecular-Symmetry/04-不可约表示.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2369,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 29952,
+    "contextWindow": 200000,
+    "contextTokens": 32321,
+    "percentage": 16
+  }
+}

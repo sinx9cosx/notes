@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular-Symmetry/03-特征标.md",
+                "file": "Molecular-Symmetry/04-不可约表示.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-特征标"
+              "title": "04-不可约表示"
             }
           },
           {
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Molecular-Symmetry/03-特征标.md",
+                "file": "Molecular-Symmetry/04-不可约表示.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -247,11 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
+    "Molecular-Symmetry/03-特征标.md",
     "Molecular-Symmetry/04-不可约表示.md",
     "TOEFL/填词/TPO2/历史-工具发展.md",
-    "Molecular-Symmetry/03-特征标.md",
     "Molecular-Symmetry/05-简并表示.md",
     "TOEFL/模拟面试/题目/公园和休闲场所.md",
     "Molecular-Symmetry/03-特征标.md.tmp.11980.2bac1f1a2e4b",
