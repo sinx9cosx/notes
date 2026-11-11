@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular-Symmetry/06-群论应用三步法.md",
+                "file": "Molecular-Symmetry/05-简并表示.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-群论应用三步法"
+              "title": "05-简并表示"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Molecular-Symmetry/06-群论应用三步法.md",
+                "file": "Molecular-Symmetry/05-简并表示.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,11 +233,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "6e3d5123f8cd0aae",
   "lastOpenFiles": [
+    "Molecular-Symmetry/04-可约和不可约表示.md",
+    "Molecular-Symmetry/06-群论应用三步法.md",
     "Molecular-Symmetry/02-群的四条公理.md",
     "Molecular-Symmetry/05-简并表示.md",
-    "Molecular-Symmetry/04-可约和不可约表示.md",
     "Molecular-Symmetry/03-特征标.md",
     "TOEFL/填词/TPO2/历史-工具发展.md",
     "TOEFL/模拟面试/题目/公园和休闲场所.md",
@@ -255,7 +256,6 @@
     "Molecular-Symmetry/00-对称操作.md",
     "Molecular-Symmetry/49-特征标.md",
     "Molecular-Symmetry/61-群论应用三步法.md",
-    "Molecular-Symmetry/06-群论应用三步法.md",
     "05-简并表示.md~RF1f833bea.TMP",
     "05-简并表示.md~RF1f833bbb.TMP",
     "05-简并表示.md~RF1f833b8c.TMP",
