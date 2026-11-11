@@ -29,3 +29,86 @@ Category:
 把 Hole 列和 Electron 列分别加总即可喵。
 
 ![[dark-state.png]]
+
+# TBRs-S4
+
+## s4 opt+freq
+
+oldchk：TBRs-s0opt.chk
+
+输入文件：TBRs-s1opt.gjf
+
+关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) scrf# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+
+结果：normal termination
+
+Excited State   1:      Singlet-A      2.1061 eV  588.69 nm  f=0.3857
+     136 ->137        -0.68842
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1611.73360097
+ 
+Dip.S.=7.4754
+
+## s4 td
+
+oldchk: TBRs-s1opt.chk
+
+输入文件：TBRs-s1td.gjf
+
+关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+
+结果：normal termination
+Excited State   1:      Singlet-A      2.1511 eV  576.37 nm  f=0.2706 
+     136 ->137         0.68505
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -1611.73194666
+
+## s4 NTO
+
+oldchk:TBRs-s1td.chk
+
+输入文件：TBRs-s1-NTO.gjf
+
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
+
+结果：normal termination
+0.98739
+
+## s4 nacme
+
+oldchk:TBRs-s1opt.chk
+
+输入文件：TBR-s1nacme.gjf
+
+关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
+
+结果：normal termination
+
+## evc数据
+
+Ead= -1611.73360097 -(-1611.82271929)=0.08911832 au
+
+EDMA=$\sqrt{4.7465}\times 2.5417=5.54$ debye
+
+EDME=$\sqrt{ 7.4754}\times 2.5417=$ 6.95debye
+
+## evc
+
+**kic：**
+evc.cart.dat:
+
+evc.dint.dat:
+
+
+**kr：**
+evc.cart.dat:
+Total reorganization energy      (cm-1):         2626.961112       2546.877394
+
+evc.dint.dat:
+Total reorganization energy      (cm-1):         2622.274554       2555.670285
+
+## 速率
+
+kic=3.64427732E+09 /s
+
+kr=6.59924393E+07 /s
