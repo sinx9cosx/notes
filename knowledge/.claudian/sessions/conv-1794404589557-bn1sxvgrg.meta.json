@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794404589557-bn1sxvgrg",
+  "providerId": "claude",
+  "title": "Trim group theory note for chemistry use",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794404589557,
+  "updatedAt": 1794404625609,
+  "lastResponseAt": 1794404625609,
+  "sessionId": "49e449a0-6502-488e-befa-cbce54f495d9",
+  "providerState": {
+    "providerSessionId": "49e449a0-6502-488e-befa-cbce54f495d9"
+  },
+  "currentNote": "Molecular-Symmetry/02-群的四条公理.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 3106,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30208,
+    "contextWindow": 200000,
+    "contextTokens": 33314,
+    "percentage": 17
+  }
+}
