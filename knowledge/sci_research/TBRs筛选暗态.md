@@ -36,9 +36,9 @@ Category:
 
 oldchk：TBRs-s0opt.chk
 
-输入文件：TBRs-s1opt.gjf
+输入文件：TBRs-s4opt.gjf
 
-关键词：`# opt freq td(nstate=20) cam-B3LYP/6-31g(d,p) scrf# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+关键词：`# opt freq td(nstate=20,root=4) cam-B3LYP/6-31g(d,p) scrf# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：normal termination
 
@@ -82,15 +82,15 @@ oldchk:TBRs-s1opt.chk
 
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
-结果：normal termination
+结果：
 
 ## evc数据
 
-Ead= -1611.73360097 -(-1611.82271929)=0.08911832 au
+Ead=
 
-EDMA=$\sqrt{4.7465}\times 2.5417=5.54$ debye
+EDMA=$\sqrt{4.7465}\times 2.5417=$ debye
 
-EDME=$\sqrt{ 7.4754}\times 2.5417=$ 6.95debye
+EDME=$\sqrt{ 7.4754}\times 2.5417=$  debye
 
 ## evc
 
@@ -102,13 +102,10 @@ evc.dint.dat:
 
 **kr：**
 evc.cart.dat:
-Total reorganization energy      (cm-1):         2626.961112       2546.877394
+
 
 evc.dint.dat:
-Total reorganization energy      (cm-1):         2622.274554       2555.670285
+
 
 ## 速率
 
-kic=3.64427732E+09 /s
-
-kr=6.59924393E+07 /s
