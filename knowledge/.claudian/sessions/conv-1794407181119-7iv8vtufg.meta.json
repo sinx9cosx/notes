@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794407181119-7iv8vtufg",
+  "providerId": "claude",
+  "title": "Explain meaning of a quoted sentence",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794407181119,
+  "updatedAt": 1794407380542,
+  "lastResponseAt": 1794407380542,
+  "sessionId": "8721989a-67c7-4e29-836b-a8b0c732fa58",
+  "providerState": {
+    "providerSessionId": "8721989a-67c7-4e29-836b-a8b0c732fa58"
+  },
+  "currentNote": "Molecular-Symmetry/04-可约和不可约表示.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 34,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35584,
+    "contextWindow": 200000,
+    "contextTokens": 35618,
+    "percentage": 18
+  }
+}
