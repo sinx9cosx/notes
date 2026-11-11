@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794388409429-h396b1fdc",
+  "providerId": "claude",
+  "title": "Explain unclear content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794388409430,
+  "updatedAt": 1794388434643,
+  "lastResponseAt": 1794388434643,
+  "sessionId": "f64f5818-5573-479b-9e98-2fa844d7559a",
+  "providerState": {
+    "providerSessionId": "f64f5818-5573-479b-9e98-2fa844d7559a"
+  },
+  "currentNote": "Molecular-Symmetry/06-群论应用三步法.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2587,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30080,
+    "contextWindow": 200000,
+    "contextTokens": 32667,
+    "percentage": 16
+  }
+}

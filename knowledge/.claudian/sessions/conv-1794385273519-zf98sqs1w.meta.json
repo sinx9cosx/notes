@@ -4,13 +4,13 @@
   "title": "解释不可约表示的定义",
   "titleGenerationStatus": "success",
   "createdAt": 1794385273519,
-  "updatedAt": 1794386505728,
+  "updatedAt": 1794388400453,
   "lastResponseAt": 1794386505728,
   "sessionId": "97a636db-b3e1-4e45-b168-b9648e659027",
   "providerState": {
     "providerSessionId": "97a636db-b3e1-4e45-b168-b9648e659027"
   },
-  "currentNote": "Molecular-Symmetry/04-不可约表示.md",
+  "currentNote": "Molecular-Symmetry/04-可约和不可约表示.md",
   "usage": {
     "model": "opus",
     "inputTokens": 178,
