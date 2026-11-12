@@ -51,14 +51,12 @@ oldchk：TBRs-s0opt.chk
 
 关键词：`# opt td(nstate=20,root=4) cam-B3LYP/6-31g(d,p) scrf# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
-结果：normal termination
-
-Excited State   1:      Singlet-A      2.1061 eV  588.69 nm  f=0.3857
-     136 ->137        -0.68842
+结果：
+ Excited State   4:      Singlet-A      2.8628 eV  433.09 nm  f=0.1666
+     136 ->137        -0.11125
+     136 ->138         0.66845
  This state for optimization and/or second-order correction.
- Total Energy, E(TD-HF/TD-DFT) =  -1611.73360097
- 
-Dip.S.=7.4754
+ Total Energy, E(TD-HF/TD-DFT) =  -1611.70347282
 
 ## s2 freq
 
