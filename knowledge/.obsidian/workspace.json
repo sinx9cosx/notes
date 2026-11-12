@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "Molecular-Symmetry/05-群论应用三步法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBRs筛选暗态"
+              "title": "05-群论应用三步法"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "Molecular-Symmetry/05-群论应用三步法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -235,14 +235,15 @@
   },
   "active": "f1c6b3923824d1e5",
   "lastOpenFiles": [
-    "sci_research/TBRs/TBRs-二氯甲烷.md",
+    "Molecular-Symmetry/批注-Molecular symmetry and group theory.md",
+    "Molecular-Symmetry/05-群论应用三步法.md",
     "sci_research/TBRs筛选暗态.md",
+    "sci_research/TBRs/TBRs-二氯甲烷.md",
+    "sci_research/TBRs/TBRs计算结果.md",
     "sci_research/TBR和TBRs分子对称性.md",
     "sci_research/发光机制研究大纲/理论学习清单.md",
     "sci_research/发光机制研究大纲/振动分析研究大纲.md",
-    "Molecular-Symmetry/批注-Molecular symmetry and group theory.md",
     "Molecular-Symmetry/04-可约和不可约表示.md",
-    "Molecular-Symmetry/05-群论应用三步法.md",
     "Molecular-Symmetry/02-群的四条公理.md",
     "Molecular-Symmetry/02-群的四条公理.md.tmp.15352.d5c9e42375c1",
     "TOEFL/模拟面试/题目/体育赛事与旅行.md",
@@ -264,7 +265,6 @@
     "Molecular-Symmetry/06-群论应用三步法.md.tmp.37360.ad3129e7ae4f",
     "Molecular-Symmetry/04-可约和不可约表示.md.tmp.37360.1b0766bc66e6",
     "Molecular-Symmetry/04-可约和不可约表示.md.tmp.37360.4f9c09d1a7f6",
-    "Molecular-Symmetry/05-简并表示.md",
     "Molecular-Symmetry/03-特征标.md.tmp.11980.2bac1f1a2e4b",
     "sci_research/聚集诱导发光文献阅读/HPS的AIE机理解释.canvas",
     "05-简并表示.md~RF1f833bea.TMP",
