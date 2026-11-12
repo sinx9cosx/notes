@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBRs筛选暗态"
+              "title": "07-红外和拉曼活性的判据"
             }
           }
         ],
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "直和",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,17 +233,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "26b9f7764f3750de",
+  "active": "f1c6b3923824d1e5",
   "lastOpenFiles": [
-    "Molecular-Symmetry/06-振动分析.md~RF46ec075.TMP",
-    "Molecular-Symmetry/07-红外和拉曼的判据.md~RF46de24a.TMP",
-    "Molecular-Symmetry/07-红外和拉曼的判据.md",
     "Molecular-Symmetry/06-振动分析.md",
     "Molecular-Symmetry/04-可约和不可约表示.md",
+    "sci_research/TBRs筛选暗态.md",
+    "Molecular-Symmetry/06-振动分析.md~RF46ec075.TMP",
+    "Molecular-Symmetry/07-红外和拉曼的判据.md~RF46de24a.TMP",
+    "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
     "Molecular-Symmetry/03-特征标.md",
     "Molecular-Symmetry/05-群论应用三步法.md",
     "Molecular-Symmetry/批注-Molecular symmetry and group theory.md",
-    "sci_research/TBRs筛选暗态.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
     "sci_research/TBRs/TBRs计算结果.md",
     "sci_research/TBR和TBRs分子对称性.md",
@@ -271,7 +271,6 @@
     "05-简并表示.md~RF1f833bea.TMP",
     "05-简并表示.md~RF1f833bbb.TMP",
     "05-简并表示.md~RF1f833b8c.TMP",
-    "05-简并表示.md~RF1f830420.TMP",
     "学习工作流.canvas",
     "sci_research/image/dark-state.png",
     "sci_research/image/0249535f-37c5-481e-9cbb-41db6cdeefbe.png",

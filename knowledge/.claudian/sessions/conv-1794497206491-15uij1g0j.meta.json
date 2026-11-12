@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794497206491-15uij1g0j",
+  "providerId": "claude",
+  "title": "Explain chi(R) notation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794497206492,
+  "updatedAt": 1794497470701,
+  "lastResponseAt": 1794497227693,
+  "sessionId": "9b134e6e-58a2-4a1c-b2ea-4ceb5b0943a9",
+  "providerState": {
+    "providerSessionId": "9b134e6e-58a2-4a1c-b2ea-4ceb5b0943a9"
+  },
+  "currentNote": "Molecular-Symmetry/06-振动分析.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 4133,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30208,
+    "contextWindow": 200000,
+    "contextTokens": 34341,
+    "percentage": 17
+  }
+}
