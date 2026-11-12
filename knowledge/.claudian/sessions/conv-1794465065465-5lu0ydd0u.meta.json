@@ -4,8 +4,8 @@
   "title": "列出D4h群的不可约表示及下标含义",
   "titleGenerationStatus": "success",
   "createdAt": 1794465065466,
-  "updatedAt": 1794468269067,
-  "lastResponseAt": 1794468269067,
+  "updatedAt": 1794496609597,
+  "lastResponseAt": 1794496609597,
   "sessionId": "bd70e26f-8d22-4c90-9dbc-16eb68004fd3",
   "providerState": {
     "providerSessionId": "bd70e26f-8d22-4c90-9dbc-16eb68004fd3",
@@ -290,11 +290,11 @@
   "currentNote": "Molecular-Symmetry/04-可约和不可约表示.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 78,
+    "inputTokens": 1314,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 44416,
+    "cacheReadInputTokens": 46464,
     "contextWindow": 200000,
-    "contextTokens": 44494,
-    "percentage": 22
+    "contextTokens": 47778,
+    "percentage": 24
   }
 }
