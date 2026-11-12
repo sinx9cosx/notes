@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794464555915-l6a4c67fq",
+  "providerId": "claude",
+  "title": "解释点群特征标与简并的固定性",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794464555915,
+  "updatedAt": 1794464616021,
+  "lastResponseAt": 1794464616021,
+  "sessionId": "098e4115-9546-432d-ad48-0b3eff4d2145",
+  "providerState": {
+    "providerSessionId": "098e4115-9546-432d-ad48-0b3eff4d2145"
+  },
+  "currentNote": "Molecular-Symmetry/03-特征标.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 3308,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30336,
+    "contextWindow": 200000,
+    "contextTokens": 33644,
+    "percentage": 17
+  }
+}
