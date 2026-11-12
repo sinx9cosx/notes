@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
+                "file": "Molecular-Symmetry/04b-直积.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-红外和拉曼活性的判据"
+              "title": "04b-直积"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
+                "file": "Molecular-Symmetry/04b-直积.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -233,14 +233,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f1c6b3923824d1e5",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
+    "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
+    "Molecular-Symmetry/06-振动分析.md",
     "Molecular-Symmetry/04b-直积.md",
     "quantum chemistry/简正坐标.md",
-    "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.ce6d56827715",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.18190044b135",
-    "Molecular-Symmetry/06-振动分析.md",
     "Molecular-Symmetry/04-可约和不可约表示.md",
     "sci_research/TBRs筛选暗态.md",
     "Molecular-Symmetry/06-振动分析.md~RF46ec075.TMP",
