@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794498563594-i89phypjv",
+  "providerId": "claude",
+  "title": "从笔记讲解直积概念",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794498563595,
+  "updatedAt": 1794498632212,
+  "lastResponseAt": 1794498632212,
+  "sessionId": "bceb9d1e-8c51-4ab6-8bc3-f14095bfca0c",
+  "providerState": {
+    "providerSessionId": "bceb9d1e-8c51-4ab6-8bc3-f14095bfca0c"
+  },
+  "currentNote": "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 373,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43136,
+    "contextWindow": 200000,
+    "contextTokens": 43509,
+    "percentage": 22
+  }
+}
