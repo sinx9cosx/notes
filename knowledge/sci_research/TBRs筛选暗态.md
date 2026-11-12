@@ -9,6 +9,8 @@ Category:
 
 ## multiwfn
 
+用的是s0td上计算出来的TBR-s9和TBRs做粗略筛选
+
 1. 把 `TBRs-s0td-full.fchk` 和 `TBRs-s0td-full.log` 放在同一个文件夹里。
 2. 启动 Multiwfn，点击主菜单 `18 Electron excitation analysis`。
 3. 在子菜单中选 `1`，然后输入 log 文件的路径。
@@ -32,13 +34,13 @@ Category:
 
 # TBRs-S4
 
-## s4 opt+freq
+## s4 opt
 
 oldchk：TBRs-s0opt.chk
 
-输入文件：TBRs-s4opt.gjf
+输入文件：TBRs-s4opt1.gjf
 
-关键词：`# opt freq td(nstate=20,root=4) cam-B3LYP/6-31g(d,p) scrf# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
+关键词：`# opt td(nstate=20,root=4) cam-B3LYP/6-31g(d,p) scrf# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：normal termination
 
