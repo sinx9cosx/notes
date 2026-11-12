@@ -62,7 +62,7 @@ oldchk：TBRs-s0opt.chk
 
 oldchk:TBRs-s4opt1.chk
 
-输入文件：TBR-s2freq.gjf
+输入文件：TBR-s4freq.gjf
 
 关键词：`# freq td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
