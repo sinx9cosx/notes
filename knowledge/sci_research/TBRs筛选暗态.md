@@ -9,7 +9,7 @@ Category:
 
 ## multiwfn
 
-用的是s0td上计算出来的TBR-s9和TBRs做粗略筛选
+用s0td上计算出来的TBR-s9和TBRs做初步筛选
 
 1. 把 `TBRs-s0td-full.fchk` 和 `TBRs-s0td-full.log` 放在同一个文件夹里。
 2. 启动 Multiwfn，点击主菜单 `18 Electron excitation analysis`。
@@ -31,6 +31,15 @@ Category:
 把 Hole 列和 Electron 列分别加总即可喵。
 
 ![[dark-state.png]]
+
+ Excited State   4:      Singlet-A      3.5944 eV  344.94 nm  f=0.0073 
+    <mark style="background: #FFB8EBA6;"> 133 ->137</mark>        -0.32958
+     134 ->137         0.19952
+     135 ->138         0.20189
+     135 ->139        -0.20209
+     <mark style="background: #FFB8EBA6;">136 ->138 </mark>        0.45398
+     136 ->139        -0.12687
+
 
 # TBRs-S4
 
