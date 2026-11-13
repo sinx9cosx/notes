@@ -67,21 +67,11 @@ oldchk:TBRs-s4opt1.chk
 关键词：`# freq td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：无虚频
- Excited State   9:      Singlet-A      4.0067 eV  309.44 nm  f=0.3337  
-     130 ->137        -0.11128
-     131 ->137         0.15497
-     132 ->137        -0.14411
-     132 ->139         0.10617
-     133 ->140         0.10171
-     135 ->138         0.32043
-     135 ->139         0.10312
-     135 ->140        -0.15305
-     136 ->139         0.24888
-     136 ->140         0.32593
-     136 ->142         0.14455
+ Excited State   2:      Singlet-A      2.8628 eV  433.09 nm  f=0.1666
+     136 ->137        -0.11125
+     136 ->138         0.66845
  This state for optimization and/or second-order correction.
- Total Energy, E(TD-HF/TD-DFT) =  -1611.67229671
-Dip.S.=3.3997
+ Total Energy, E(TD-HF/TD-DFT) =  -1611.70347276
 
 ## s4 td
 
@@ -96,6 +86,8 @@ Excited State   1:      Singlet-A      2.1511 eV  576.37 nm  f=0.2706
      136 ->137         0.68505
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1611.73194666
+
+Dip.S.=2.3751
 
 ## s4 NTO
 
