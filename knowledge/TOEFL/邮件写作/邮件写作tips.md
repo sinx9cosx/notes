@@ -24,21 +24,23 @@ Tom
 ## 题目类型
 
 二、提问类型常见就这几类：
-1. 确认安排型 【场景】：确认见面、链接、地点、截止时间。 
+1. 确认安排型 【场景】：确认见面、链接、地点、截止时间。
 	【模板句】 开头：I am reaching out to confirm [安排]. 
 	中间：Would you mind checking whether [细节]? If anything changes, just let me know. 
 	结尾：Thanks for your help. I will adjust my plan. 
+	
 2. 补充材料型 【场景】：补交附件、证明、更新信息。 
 	【模板句】 开头：I am sending over [材料] as requested. 
 	中间：Attached please find [附件]. If you need more details, I can provide them. 
 	结尾：Thank you for your patience. I appreciate it. 
 	[[找实习]]
 	
-3. 同步进度型 【场景】：汇报项目、作业、小组任务进展。 
+3. 同步进度型 【场景】：汇报项目、作业、小组任务进展。邀请参加项目。 
 	【模板句】 开头：Here is a quick update on [任务]. 
 	中间：I have completed [内容]. Next, I will focus on [下一步]. 
 	结尾：Please let me know if you have any advice. Thanks for your guidance. 
 	[[询问朋友帮忙动物救助慈善活动]]
+	[[邮件-邀请参加项目]]
 	
 4. 跟进回复型 【场景】：之前邮件没回、活动未确认、同学未答复。
 	【模板句】 开头：I am checking in on my earlier note about [事情]. 
