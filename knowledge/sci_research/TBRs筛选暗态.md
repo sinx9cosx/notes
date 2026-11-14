@@ -73,6 +73,8 @@ oldchk:TBRs-s4opt1.chk
  This state for optimization and/or second-order correction.
  Total Energy, E(TD-HF/TD-DFT) =  -1611.70347276
 
+Dip.S.=2.3751
+
 ## s2 td
 
 oldchk: TBRs-s4freq.chk
@@ -82,25 +84,26 @@ oldchk: TBRs-s4freq.chk
 关键词：`# td(nstate=20,root=2) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check`
 
 结果：normal termination
-Excited State   1:      Singlet-A      2.1511 eV  576.37 nm  f=0.2706 
-     136 ->137         0.68505
+Excited State   2:      Singlet-A      2.8879 eV  429.32 nm  f=0.1174
+     136 ->137        -0.13766
+     136 ->138         0.66511
  This state for optimization and/or second-order correction.
- Total Energy, E(TD-HF/TD-DFT) =  -1611.73194666
+ Total Energy, E(TD-HF/TD-DFT) =  -1611.70254986
 
-Dip.S.=2.3751
+Dip.S.=1.6588
 
-## s4 NTO
+## s2 NTO
 
-oldchk:TBRs-s1td.chk
+oldchk:TBRs-s2td.chk
 
-输入文件：TBRs-s1-NTO.gjf
+输入文件：TBRs-s2-NTO.gjf
 
-关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=1) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
+关键词：`# CAM-B3LYP/6-31g(d,p) geom=allcheck guess=(read,only) density=(check,transition=2) pop=(minimal,nto,savento) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj`
 
-结果：normal termination
-0.98739
+结果：
 
-## s4 nacme
+
+## s2 nacme
 
 oldchk:TBRs-s4freq.chk
 
@@ -108,7 +111,7 @@ oldchk:TBRs-s4freq.chk
 
 关键词：`# td(nstate=20) cam-B3LYP/6-31g(d,p) scrf=(IEFPCM,Solvent=Dichloromethane) em=gd3bj guess=read  geom=check prop=(fitcharge,field) iop(6/22=-4, 6/29=1, 6/30=0, 6/17=2)`
 
-结果：
+结果：normal termination
 
 ## evc数据
 
