@@ -103,6 +103,11 @@ oldchk:TBRs-s2td.chk
 结果：normal termination
 136-137 0.97381
 
+  <table><tr>
+  <td align="center"><img src="97.png" width="380"><br>DHR-S9-97空穴</td>
+  <td align="center"><img src="98.png" width="380"><br>DHR-S9-98电子</td>
+  </tr></table>
+
 ## s2 nacme
 
 oldchk:TBRs-s4freq.chk
