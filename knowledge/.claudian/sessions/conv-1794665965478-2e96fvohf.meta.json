@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794665965478-2e96fvohf",
+  "providerId": "claude",
+  "title": "Explain vapor-liquid line formula validity",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794665965479,
+  "updatedAt": 1794666107057,
+  "lastResponseAt": 1794666107057,
+  "sessionId": "a5e4517a-02f1-408d-bcbf-702ad9b380ca",
+  "providerState": {
+    "providerSessionId": "a5e4517a-02f1-408d-bcbf-702ad9b380ca"
+  },
+  "currentNote": "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 150,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32384,
+    "contextWindow": 200000,
+    "contextTokens": 32534,
+    "percentage": 16
+  }
+}

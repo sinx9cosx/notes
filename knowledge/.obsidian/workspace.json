@@ -11,10 +11,14 @@
             "id": "cd3e4d2af672fb21",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "10.1-理想液态混合物的气液平衡相图"
             }
           }
         ]
@@ -154,6 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,6 +220,8 @@
   },
   "active": "cd3e4d2af672fb21",
   "lastOpenFiles": [
+    "physchem-2/10-溶液与多相混合物/10.2-物系点、相点与杠杆规则.md",
+    "physchem-2/10-溶液与多相混合物/10.1-理想液态混合物的气液平衡相图.md",
     "molecular-simulation/分子模拟课后作业4.md",
     "molecular-simulation/分子模拟课后作业7.md",
     "sci_research/TBRs筛选暗态.md",
@@ -250,7 +257,6 @@
     "TOEFL/模拟面试/题目/音乐爱好.md",
     "TOEFL/模拟面试/题目/科技话题面试题.md",
     "TOEFL/口语复述/真题/生活场景-垃圾分类.md",
-    "TOEFL/口语复述/TPO/生活场景-超市.md",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.ce6d56827715",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.18190044b135",
     "Molecular-Symmetry/06-振动分析.md~RF46ec075.TMP",
