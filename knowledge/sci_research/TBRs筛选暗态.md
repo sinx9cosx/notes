@@ -104,8 +104,8 @@ oldchk:TBRs-s2td.chk
 136-137 0.97381
 
   <table><tr>
-  <td align="center"><img src="97.png" width="380"><br>DHR-S9-97空穴</td>
-  <td align="center"><img src="98.png" width="380"><br>DHR-S9-98电子</td>
+  <td align="center"><img src="TBRs-S2-136.png" width="380"><br>TBRs-S9-136空穴</td>
+  <td align="center"><img src="TBRs-S2-137.png" width="380"><br>TBRs-S9-137电子</td>
   </tr></table>
 
 ## s2 nacme
