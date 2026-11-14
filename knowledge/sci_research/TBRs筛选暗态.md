@@ -115,11 +115,11 @@ oldchk:TBRs-s4freq.chk
 
 ## evc数据
 
-Ead=
+Ead=-1611.82271929-(-1611.70347276)=0.11924653 a.u.
 
-EDMA=$\sqrt{4.7465}\times 2.5417=$ debye
+EDMA=$\sqrt{0.0830}\times 2.5417=0.73$ debye
 
-EDME=$\sqrt{ 7.4754}\times 2.5417=$  debye
+EDME=$\sqrt{ 2.3751}\times 2.5417=3.92$  debye
 
 ## evc
 

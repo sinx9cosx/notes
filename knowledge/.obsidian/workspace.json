@@ -35,7 +35,8 @@
               "title": "TBRs筛选暗态"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+                "file": "sci_research/TBRs筛选暗态.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,12 +233,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f412c87b1ce6d497",
+  "active": "05d8b4ecc132b1fe",
   "lastOpenFiles": [
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
+    "sci_research/TBRs筛选暗态.md",
+    "sci_research/TBRs/TBRs-二氯甲烷.md",
+    "sci_research/TBRs/TBRs计算结果.md",
     "TOEFL/模拟面试/题目/公园和休闲场所.md",
     "TOEFL/口语复述/真题/生活场景-船舶展览.md",
     "TOEFL/模拟面试/题目/个人计划习惯.md",
-    "sci_research/TBRs筛选暗态.md",
     "TOEFL/句子填充错题.md",
     "TOEFL/模拟面试/题目/个人成长.md",
     "TOEFL/口语复述/真题/校园场景-制作鸟屋.md",
@@ -257,13 +261,10 @@
     "Molecular-Symmetry/04-可约和不可约表示.md",
     "Molecular-Symmetry/04b-直积.md",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
-    "Molecular-Symmetry/06-振动分析.md",
-    "quantum chemistry/简正坐标.md",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.ce6d56827715",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.18190044b135",
     "Molecular-Symmetry/06-振动分析.md~RF46ec075.TMP",
     "Molecular-Symmetry/07-红外和拉曼的判据.md~RF46de24a.TMP",
-    "Molecular-Symmetry/03-特征标.md",
     "Molecular-Symmetry/02-群的四条公理.md.tmp.15352.d5c9e42375c1",
     "Molecular-Symmetry/06-群论应用三步法.md.tmp.37360.ad3129e7ae4f",
     "Molecular-Symmetry/04-可约和不可约表示.md.tmp.37360.1b0766bc66e6",
