@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "molecular-simulation/分子模拟课后作业4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBRs筛选暗态"
+              "title": "分子模拟课后作业4"
+            }
+          },
+          {
+            "id": "24088abfafa34a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "molecular-simulation/分子模拟课后作业7.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "分子模拟课后作业7"
             }
           },
           {
@@ -35,7 +49,8 @@
               "title": "TBRs筛选暗态"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "molecular-simulation/分子模拟课后作业7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,14 +247,22 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f412c87b1ce6d497",
+  "active": "24088abfafa34a9d",
   "lastOpenFiles": [
-    "sci_research/TBRs/TBRs-二氯甲烷.md",
     "sci_research/TBRs筛选暗态.md",
-    "sci_research/image/TBRs/TBRs-S2-137.png",
-    "sci_research/image/TBRs/TBRs-S2-136.png",
-    "sci_research/image/TBRs/S2-137.png",
-    "sci_research/image/TBRs/S2-136.png",
+    "molecular-simulation/分子模拟课后作业7.md",
+    "molecular-simulation/image/hw7-5.png",
+    "molecular-simulation/image/hw7-4.png",
+    "molecular-simulation/image/hw7-3.png",
+    "molecular-simulation/image/hw7-2.png",
+    "molecular-simulation/image/hw7-1.png",
+    "molecular-simulation/image/不同速率常数组合下各物种的稳态占比.png",
+    "molecular-simulation/image/k3对反应的影响.png",
+    "molecular-simulation/image/k1对反应的影响.png",
+    "molecular-simulation/image/5.png",
+    "molecular-simulation/image/4.png",
+    "molecular-simulation/分子模拟课后作业4.md",
+    "sci_research/TBRs/TBRs-二氯甲烷.md",
     "sci_research/image/TBRs",
     "sci_research/TBR和TBRs分子对称性.md",
     "sci_research/TBRs/TBRs计算结果.md",
@@ -262,8 +285,6 @@
     "TOEFL/模拟面试/题目/科技话题面试题.md",
     "TOEFL/口语复述/真题/生活场景-垃圾分类.md",
     "TOEFL/口语复述/TPO/生活场景-超市.md",
-    "TOEFL/口语复述/TPO/生活场景-博物馆.md",
-    "TOEFL/口语复述/TPO/生活场景-参观艺术馆.md",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.ce6d56827715",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.18190044b135",
     "Molecular-Symmetry/06-振动分析.md~RF46ec075.TMP",
@@ -275,13 +296,7 @@
     "Molecular-Symmetry/03-特征标.md.tmp.11980.2bac1f1a2e4b",
     "sci_research/聚集诱导发光文献阅读/HPS的AIE机理解释.canvas",
     "学习工作流.canvas",
-    "sci_research/image/dark-state.png",
-    "sci_research/image/0249535f-37c5-481e-9cbb-41db6cdeefbe.png",
     "未命名 1.canvas",
-    "physchem-2/image/10-tx.png",
-    "physchem-2/image/10-px.png",
-    "physchem-2/image/10-process.png",
-    "physchem-2/image/10-lever.png",
     "instrument/MOMAP/MOMAP光谱+速率.canvas",
     "TOEFL/填词/填词错误类型.canvas",
     "instrument/linux/vim示意图.canvas",
