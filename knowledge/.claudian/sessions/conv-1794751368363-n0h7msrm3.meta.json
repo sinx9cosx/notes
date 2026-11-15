@@ -4,8 +4,8 @@
   "title": "解释线性代数中的张成概念",
   "titleGenerationStatus": "success",
   "createdAt": 1794751368364,
-  "updatedAt": 1794755314939,
-  "lastResponseAt": 1794755314939,
+  "updatedAt": 1794756302058,
+  "lastResponseAt": 1794756302058,
   "sessionId": "07c3f9c7-94d4-46d7-9a3c-5d7b64b77bdc",
   "providerState": {
     "providerSessionId": "07c3f9c7-94d4-46d7-9a3c-5d7b64b77bdc"
@@ -13,11 +13,11 @@
   "currentNote": "Molecular-Symmetry/04b-直积.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 182,
+    "inputTokens": 109,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 49664,
+    "cacheReadInputTokens": 52992,
     "contextWindow": 200000,
-    "contextTokens": 49846,
-    "percentage": 25
+    "contextTokens": 53101,
+    "percentage": 27
   }
 }
