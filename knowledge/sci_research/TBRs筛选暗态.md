@@ -142,3 +142,5 @@ Total reorganization energy      (cm-1):         3147.965273       3046.792470
 
 ## 速率
 
+kr-s2=
+kic-s2=1.42888428E+09 /s
