@@ -9,5 +9,6 @@
     "canvas-colors",
     "canvas-force",
     "page-break"
-  ]
+  ],
+  "showRibbon": true
 }
