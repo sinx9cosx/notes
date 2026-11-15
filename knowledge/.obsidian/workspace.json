@@ -35,8 +35,7 @@
               "title": "04-可约和不可约表示"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Molecular-Symmetry/04-可约和不可约表示.md",
+                "file": "Molecular-Symmetry/04b-直积.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -216,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -234,11 +233,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "677216a87d593e0b",
+  "active": "4cc459232662c58e",
   "lastOpenFiles": [
+    "Molecular-Symmetry/04-可约和不可约表示.md",
     "Molecular-Symmetry/04b-直积.md",
     "Molecular-Symmetry/03-特征标.md",
-    "Molecular-Symmetry/04-可约和不可约表示.md",
     "sci_research/TBRs筛选暗态.md",
     "sci_research/TBR和TBRs分子对称性.md",
     "sci_research/TBRs/TBRs计算结果.md",
