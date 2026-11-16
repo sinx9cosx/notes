@@ -105,8 +105,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,10 +247,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "86fc9922a84d6ae8",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
+    "molecular-vibration",
     "quantum chemistry/定态微扰理论.md",
-    "quantum chemistry/简正坐标.md",
+    "molecular-vibration/简正坐标.md",
     "sci_research/TBRs筛选暗态.md",
     "sci_research/TBR和TBRs分子对称性.md",
     "TOEFL/口语复述/真题/生活场景-咖啡馆.md",
@@ -275,7 +275,6 @@
     "TOEFL/模拟面试/题目/科技-新能源模拟面试.md",
     "TOEFL/模拟面试/题目/生活-节日庆祝.md",
     "TOEFL/模拟面试/题目/生活-体育赛事与旅行.md",
-    "TOEFL/模拟面试/题目/科技-科技话题面试题.md",
     "TOEFL/句子填充错题.md.tmp.11404.cd285c4f8224",
     "TOEFL/句子填充错题.md.tmp.11404.f5c417c84d75",
     "molecular-simulation/image/hw7-5.png",
