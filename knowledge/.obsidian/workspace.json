@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/模拟面试/题目/校园-学习习惯.md",
+                "file": "sci_research/TBRs筛选暗态.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "校园-学习习惯"
+              "title": "TBRs筛选暗态"
             }
           },
           {
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/模拟面试/题目/校园-学习习惯.md",
+                "file": "sci_research/TBRs筛选暗态.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -249,6 +249,20 @@
   },
   "active": "86fc9922a84d6ae8",
   "lastOpenFiles": [
+    "sci_research/TBR和TBRs分子对称性.md",
+    "TOEFL/口语复述/真题/生活场景-咖啡馆.md",
+    "TOEFL/口语复述/真题/制作流程-木工.md",
+    "TOEFL/口语复述/真题/制作流程-水彩画.md",
+    "TOEFL/口语复述/真题/制作流程-制作鸟屋.md",
+    "TOEFL/口语复述/真题/制作流程-做面包.md",
+    "TOEFL/口语复述/真题/制作流程-做沙拉.md",
+    "TOEFL/口语复述/真题/制作流程-垃圾分类.md",
+    "TOEFL/口语复述/真题/生活场景-船舶展览.md",
+    "TOEFL/口语复述/真题/生活场景-宠物店.md",
+    "TOEFL/口语复述/TPO/校园场景-图书馆.md",
+    "TOEFL/口语复述/TPO/校园场景-实验室.md",
+    "TOEFL/口语复述/TPO/校园场景-参观学校.md",
+    "TOEFL/口语复述/TPO/生活场景-厨房陈设.md",
     "TOEFL/模拟面试/题目/校园-学习习惯.md",
     "TOEFL/模拟面试/题目/工作-下班后活动与工作平衡.md",
     "TOEFL/模拟面试/题目/生活-公园和休闲场所.md",
@@ -261,22 +275,8 @@
     "TOEFL/模拟面试/题目/生活-资源回收利用.md",
     "TOEFL/模拟面试/口语话题分类.md",
     "TOEFL/模拟面试/两周口语练习计划.md",
-    "TOEFL/模拟面试/题目/工作-远程工作-回答版.md",
-    "TOEFL/模拟面试/题目/工作-远程工作.md",
-    "TOEFL/模拟面试/题目/个人-音乐爱好.md",
-    "TOEFL/模拟面试/题目/工作-通勤时间.md",
-    "TOEFL/模拟面试/TOEFL话题分类-个人生活.md",
-    "TOEFL/模拟面试/题目/个人-户外运动.md",
-    "TOEFL/模拟面试/题目/个人-个人计划习惯.md",
-    "TOEFL/模拟面试/题目/个人-个人成长.md",
-    "TOEFL/句子填充错题.md",
-    "TOEFL/学术讨论/真题/保护环境.md",
     "TOEFL/句子填充错题.md.tmp.11404.cd285c4f8224",
     "TOEFL/句子填充错题.md.tmp.11404.f5c417c84d75",
-    "Molecular-Symmetry/04-可约和不可约表示.md",
-    "sci_research/TBRs/TBRs计算结果.md",
-    "sci_research/TBRs/TBRs-二氯甲烷.md",
-    "Molecular-Symmetry/04b-直积.md",
     "molecular-simulation/image/hw7-5.png",
     "molecular-simulation/image/hw7-4.png",
     "molecular-simulation/image/hw7-3.png",
