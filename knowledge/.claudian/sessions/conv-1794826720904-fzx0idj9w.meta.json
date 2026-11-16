@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794826720904-fzx0idj9w",
+  "providerId": "claude",
+  "title": "撰写后两道错题讲解",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794826720905,
+  "updatedAt": 1794826815421,
+  "lastResponseAt": 1794826815421,
+  "sessionId": "dcec36d2-75a9-44a9-9ff4-b229ef70953d",
+  "providerState": {
+    "providerSessionId": "dcec36d2-75a9-44a9-9ff4-b229ef70953d"
+  },
+  "currentNote": "TOEFL/句子填充错题.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 474,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30336,
+    "contextWindow": 200000,
+    "contextTokens": 30810,
+    "percentage": 15
+  }
+}
