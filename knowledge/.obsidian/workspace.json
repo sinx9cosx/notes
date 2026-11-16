@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecular-vibration/01-简正模式.md",
+                "file": "physchem-2/10-溶液与多相混合物/二组分相图补充(无化学反应).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-简正模式"
+              "title": "二组分相图补充(无化学反应)"
             }
           },
           {
@@ -229,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -249,8 +249,9 @@
   },
   "active": "86fc9922a84d6ae8",
   "lastOpenFiles": [
-    "molecular-vibration/02-简正坐标.md",
     "molecular-vibration/01-简正模式.md",
+    "molecular-vibration/03-简正振动数.md",
+    "molecular-vibration/02-简正坐标.md",
     "quantum chemistry/Frank-Condon因子.md",
     "quantum chemistry/变分法.md",
     "molecular-vibration",
@@ -275,7 +276,6 @@
     "TOEFL/模拟面试/题目/生活-公园和休闲场所.md",
     "TOEFL/模拟面试/题目/校园-音乐教育.md",
     "TOEFL/模拟面试/题目/科技-新能源与节约资源.md",
-    "TOEFL/模拟面试/题目/科技-新能源模拟面试.md",
     "TOEFL/句子填充错题.md.tmp.11404.cd285c4f8224",
     "TOEFL/句子填充错题.md.tmp.11404.f5c417c84d75",
     "molecular-simulation/image/hw7-5.png",
