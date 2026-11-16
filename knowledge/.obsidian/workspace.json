@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantum chemistry/变分法.md",
+                "file": "molecular-vibration/01-简正模式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "变分法"
+              "title": "01-简正模式"
             }
           },
           {
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quantum chemistry/变分法.md",
+                "file": "molecular-vibration/01-简正模式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -247,11 +247,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "b90c67a51319155a",
+  "active": "86fc9922a84d6ae8",
   "lastOpenFiles": [
+    "quantum chemistry/Frank-Condon因子.md",
+    "molecular-vibration/01-简正模式.md",
+    "molecular-vibration/02-简正坐标.md",
+    "quantum chemistry/变分法.md",
     "molecular-vibration",
     "quantum chemistry/定态微扰理论.md",
-    "molecular-vibration/简正坐标.md",
     "sci_research/TBRs筛选暗态.md",
     "sci_research/TBR和TBRs分子对称性.md",
     "TOEFL/口语复述/真题/生活场景-咖啡馆.md",
@@ -273,8 +276,6 @@
     "TOEFL/模拟面试/题目/校园-音乐教育.md",
     "TOEFL/模拟面试/题目/科技-新能源与节约资源.md",
     "TOEFL/模拟面试/题目/科技-新能源模拟面试.md",
-    "TOEFL/模拟面试/题目/生活-节日庆祝.md",
-    "TOEFL/模拟面试/题目/生活-体育赛事与旅行.md",
     "TOEFL/句子填充错题.md.tmp.11404.cd285c4f8224",
     "TOEFL/句子填充错题.md.tmp.11404.f5c417c84d75",
     "molecular-simulation/image/hw7-5.png",
@@ -294,7 +295,6 @@
     "Molecular-Symmetry/07-红外和拉曼的判据.md~RF46de24a.TMP",
     "Molecular-Symmetry/02-群的四条公理.md.tmp.15352.d5c9e42375c1",
     "Molecular-Symmetry/06-群论应用三步法.md.tmp.37360.ad3129e7ae4f",
-    "Molecular-Symmetry/04-可约和不可约表示.md.tmp.37360.1b0766bc66e6",
     "sci_research/聚集诱导发光文献阅读/HPS的AIE机理解释.canvas",
     "学习工作流.canvas",
     "未命名 1.canvas",
