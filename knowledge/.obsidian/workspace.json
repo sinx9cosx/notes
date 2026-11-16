@@ -13,26 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/模拟面试/题目/科技-新能源模拟面试.md",
+                "file": "Molecular-Symmetry/06-振动分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "科技-新能源模拟面试"
+              "title": "06-振动分析"
             }
           },
           {
             "id": "86fc9922a84d6ae8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physchem-2/10-溶液与多相混合物/二组分相图补充(无化学反应).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "二组分相图补充(无化学反应)"
+              "title": "新标签页"
             }
           },
           {
@@ -49,8 +45,7 @@
               "title": "保护环境"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "久期方程",
+                "query": "tag:分子对称性",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -125,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TOEFL/填词/TPO2/生物-睡觉.md",
+                "file": "Molecular-Symmetry/06-振动分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sci_research/TBRs筛选暗态.md",
+                "file": "Molecular-Symmetry/06-振动分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -187,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecular-vibration/01-简正模式.md",
+                "file": "Molecular-Symmetry/06-振动分析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -247,54 +242,54 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "86fc9922a84d6ae8",
+  "active": "decc574e9748e903",
   "lastOpenFiles": [
-    "molecular-vibration/01-简正模式.md",
     "molecular-vibration/03-简正振动数.md",
     "molecular-vibration/02-简正坐标.md",
+    "molecular-vibration/01-简正模式.md",
+    "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
+    "Molecular-Symmetry/06-振动分析.md",
+    "Molecular-Symmetry/05-群论应用三步法.md",
+    "Molecular-Symmetry/04b-直积.md",
+    "Molecular-Symmetry/02-群的四条公理.md",
+    "Molecular-Symmetry/00-对称操作.md",
+    "TOEFL/模拟面试/题目/科技-新能源模拟面试.md",
+    "physchem-2/10-溶液与多相混合物/二组分相图(无化学反应)中的自由度.md",
+    "physchem-2/image/attachment/Gaussian计算实验报告.md",
+    "physchem-2/image/attachment/实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md",
+    "physchem-2/image/attachment/锥形交叉示意图.png",
+    "physchem-2/image/attachment/谐振子相干态演化.gif",
+    "physchem-2/image/attachment/谐振子本征态.png",
+    "physchem-2/image/attachment/谐振子压缩态演化.gif",
+    "physchem-2/image/attachment/经典一维无限深势阱.gif",
+    "physchem-2/image/attachment/范德华力.png",
+    "physchem-2/image/attachment/经典谐振子.gif",
+    "physchem-2/image/attachment/相律推导2.png",
+    "physchem-2/image/attachment/线型分子势能面.jpg",
+    "physchem-2/image/attachment/相律推导.png",
+    "physchem-2/image/attachment",
+    "physchem-2/attachment/实验报告-苯醌及其衍生物的氧化还原电势-Gaussian计算.md",
+    "physchem-2/attachment/Gaussian计算实验报告.md",
+    "physchem-2/attachment",
+    "physchem-2/attachment.zip",
+    "physchem-2/10-溶液与多相混合物/attachment.zip",
+    "physchem-2/10-溶液与多相混合物/二组分相图补充(无化学反应).md",
+    "TOEFL/模拟面试/题目/个人-音乐爱好.md",
+    "TOEFL/词汇/常犯语法错误.md",
+    "TOEFL/词汇/冠词和名词单复数.md",
+    "TOEFL/词汇/通用词汇.md",
+    "TOEFL/词汇/学科词汇.md",
+    "TOEFL/词汇/AWL学术词汇表.md",
+    "TOEFL/词汇/TOEFL话题-科技.md",
+    "TOEFL/词汇/TOEFL话题-各种场所.md",
     "quantum chemistry/Frank-Condon因子.md",
     "quantum chemistry/变分法.md",
     "molecular-vibration",
-    "quantum chemistry/定态微扰理论.md",
-    "sci_research/TBRs筛选暗态.md",
-    "sci_research/TBR和TBRs分子对称性.md",
-    "TOEFL/口语复述/真题/生活场景-咖啡馆.md",
-    "TOEFL/口语复述/真题/制作流程-木工.md",
-    "TOEFL/口语复述/真题/制作流程-水彩画.md",
-    "TOEFL/口语复述/真题/制作流程-制作鸟屋.md",
-    "TOEFL/口语复述/真题/制作流程-做面包.md",
-    "TOEFL/口语复述/真题/制作流程-做沙拉.md",
-    "TOEFL/口语复述/真题/制作流程-垃圾分类.md",
-    "TOEFL/口语复述/真题/生活场景-船舶展览.md",
-    "TOEFL/口语复述/真题/生活场景-宠物店.md",
-    "TOEFL/口语复述/TPO/校园场景-图书馆.md",
-    "TOEFL/口语复述/TPO/校园场景-实验室.md",
-    "TOEFL/口语复述/TPO/校园场景-参观学校.md",
-    "TOEFL/口语复述/TPO/生活场景-厨房陈设.md",
-    "TOEFL/模拟面试/题目/校园-学习习惯.md",
-    "TOEFL/模拟面试/题目/工作-下班后活动与工作平衡.md",
-    "TOEFL/模拟面试/题目/生活-公园和休闲场所.md",
-    "TOEFL/模拟面试/题目/校园-音乐教育.md",
-    "TOEFL/模拟面试/题目/科技-新能源与节约资源.md",
     "TOEFL/句子填充错题.md.tmp.11404.cd285c4f8224",
     "TOEFL/句子填充错题.md.tmp.11404.f5c417c84d75",
-    "molecular-simulation/image/hw7-5.png",
-    "molecular-simulation/image/hw7-4.png",
-    "molecular-simulation/image/hw7-3.png",
-    "molecular-simulation/image/hw7-2.png",
-    "molecular-simulation/image/hw7-1.png",
-    "molecular-simulation/image/不同速率常数组合下各物种的稳态占比.png",
-    "molecular-simulation/image/k3对反应的影响.png",
-    "molecular-simulation/image/k1对反应的影响.png",
-    "molecular-simulation/image/5.png",
-    "molecular-simulation/image/4.png",
     "sci_research/image/TBRs",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.ce6d56827715",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.18190044b135",
-    "Molecular-Symmetry/06-振动分析.md~RF46ec075.TMP",
-    "Molecular-Symmetry/07-红外和拉曼的判据.md~RF46de24a.TMP",
-    "Molecular-Symmetry/02-群的四条公理.md.tmp.15352.d5c9e42375c1",
-    "Molecular-Symmetry/06-群论应用三步法.md.tmp.37360.ad3129e7ae4f",
     "sci_research/聚集诱导发光文献阅读/HPS的AIE机理解释.canvas",
     "学习工作流.canvas",
     "未命名 1.canvas",
