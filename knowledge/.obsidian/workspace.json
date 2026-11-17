@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecular-vibration/01-简正模式.md",
+                "file": "molecular-vibration/03-简正振动数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-简正模式"
+              "title": "03-简正振动数"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:分子对称性",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecular-vibration/01-简正模式.md",
+                "file": "molecular-vibration/03-简正振动数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -247,12 +247,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "d73c741b7fdeae6e",
+  "active": "f3117353df875246",
   "lastOpenFiles": [
-    "molecular-vibration/02-简正坐标.md",
-    "molecular-vibration/01-简正模式.md",
-    "molecular-vibration/03-简正振动数.md",
+    "Molecular-Symmetry/批注-Molecular symmetry and group theory.md",
+    "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
     "Molecular-Symmetry/06-振动分析.md",
+    "Molecular-Symmetry/04b-直积.md",
+    "molecular-vibration/03-简正振动数.md",
+    "molecular-vibration/01-简正模式.md",
+    "molecular-vibration/02-简正坐标.md",
     "TOEFL/模拟面试/题目/个人-个人计划习惯.md",
     "TOEFL/模拟面试/题目/个人-个人成长.md",
     "TOEFL/素材卡/口语素材卡18-个人成长.md",
@@ -275,8 +278,6 @@
     "TOEFL/写作练习/学术讨论-社交媒体个性化.md",
     "TOEFL/模拟面试/两周口语练习计划.md",
     "TOEFL/模拟面试/TOEFL口语要点.md",
-    "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
-    "Molecular-Symmetry/05-群论应用三步法.md",
     "physchem-2/image/attachment/锥形交叉示意图.png",
     "physchem-2/image/attachment/谐振子相干态演化.gif",
     "physchem-2/image/attachment/谐振子本征态.png",
