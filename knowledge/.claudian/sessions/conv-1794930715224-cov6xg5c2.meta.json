@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794930715224-cov6xg5c2",
+  "providerId": "claude",
+  "title": "解释T和V标识符的含义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794930715224,
+  "updatedAt": 1794930808192,
+  "lastResponseAt": 1794930808192,
+  "sessionId": "3f2518a4-4d22-4409-b17b-499ea7e2c622",
+  "providerState": {
+    "providerSessionId": "3f2518a4-4d22-4409-b17b-499ea7e2c622"
+  },
+  "currentNote": "molecular-vibration/01-简正模式.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 78,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30336,
+    "contextWindow": 200000,
+    "contextTokens": 30414,
+    "percentage": 15
+  }
+}
