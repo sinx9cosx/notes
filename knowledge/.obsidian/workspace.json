@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular-Symmetry/06-振动分析.md",
+                "file": "TOEFL/口语复述/真题/生活场景-工具箱.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-振动分析"
+              "title": "生活场景-工具箱"
+            }
+          },
+          {
+            "id": "c6b53e1446c34fe5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/口语复述/真题/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           },
           {
@@ -45,7 +59,8 @@
               "title": "保护环境"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Molecular-Symmetry/06-振动分析.md",
+                "file": "TOEFL/口语复述/真题/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -242,13 +257,21 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "decc574e9748e903",
+  "active": "c6b53e1446c34fe5",
   "lastOpenFiles": [
+    "TOEFL/口语复述/真题/生活场景-工具箱.md",
+    "TOEFL/口语复述/真题/未命名.md",
+    "TOEFL/写作练习/邮件-感谢工作前辈.md",
+    "TOEFL/写作练习/邮件-宿舍流感处理.md",
+    "TOEFL/写作练习/学术讨论-社交媒体个性化.md",
+    "TOEFL/模拟面试/两周口语练习计划.md",
+    "TOEFL/模拟面试/TOEFL口语要点.md",
+    "TOEFL/口语复述/真题/制作流程-木工.md",
+    "Molecular-Symmetry/06-振动分析.md",
     "molecular-vibration/03-简正振动数.md",
     "molecular-vibration/02-简正坐标.md",
     "molecular-vibration/01-简正模式.md",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
-    "Molecular-Symmetry/06-振动分析.md",
     "Molecular-Symmetry/05-群论应用三步法.md",
     "Molecular-Symmetry/04b-直积.md",
     "Molecular-Symmetry/02-群的四条公理.md",
@@ -276,14 +299,6 @@
     "physchem-2/10-溶液与多相混合物/二组分相图补充(无化学反应).md",
     "TOEFL/模拟面试/题目/个人-音乐爱好.md",
     "TOEFL/词汇/常犯语法错误.md",
-    "TOEFL/词汇/冠词和名词单复数.md",
-    "TOEFL/词汇/通用词汇.md",
-    "TOEFL/词汇/学科词汇.md",
-    "TOEFL/词汇/AWL学术词汇表.md",
-    "TOEFL/词汇/TOEFL话题-科技.md",
-    "TOEFL/词汇/TOEFL话题-各种场所.md",
-    "quantum chemistry/Frank-Condon因子.md",
-    "quantum chemistry/变分法.md",
     "molecular-vibration",
     "TOEFL/句子填充错题.md.tmp.11404.cd285c4f8224",
     "TOEFL/句子填充错题.md.tmp.11404.f5c417c84d75",
