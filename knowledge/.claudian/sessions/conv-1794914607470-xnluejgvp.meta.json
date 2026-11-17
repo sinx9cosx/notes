@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794914607470-xnluejgvp",
+  "providerId": "claude",
+  "title": "补充文本缺失的含义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794914607470,
+  "updatedAt": 1794914648226,
+  "lastResponseAt": 1794914648226,
+  "sessionId": "0571bd04-a567-427b-b717-6a6e439e2143",
+  "providerState": {
+    "providerSessionId": "0571bd04-a567-427b-b717-6a6e439e2143"
+  },
+  "currentNote": "TOEFL/口语复述/真题/生活场景-咖啡馆.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 445,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30976,
+    "contextWindow": 200000,
+    "contextTokens": 31421,
+    "percentage": 16
+  }
+}
