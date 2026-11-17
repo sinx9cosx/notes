@@ -35,8 +35,7 @@
               "title": "口语素材卡18-个人成长"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/素材卡/口语素材卡18-个人成长.md",
+                "file": "TOEFL/模拟面试/题目/个人-个人成长.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,8 +232,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "86fc9922a84d6ae8",
+  "active": "20bf68bc3c418211",
   "lastOpenFiles": [
+    "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.a1ea34325c58",
+    "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.199af3c386f3",
+    "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.e7980c1a524c",
+    "TOEFL/模拟面试/题目/个人-个人计划习惯.md",
     "TOEFL/模拟面试/题目/个人-个人成长.md",
     "TOEFL/素材卡/口语素材卡18-个人成长.md",
     "TOEFL/素材卡/口语素材卡6-朋友回fine的误会.md",
@@ -259,8 +262,6 @@
     "molecular-vibration/01-简正模式.md",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
     "Molecular-Symmetry/05-群论应用三步法.md",
-    "Molecular-Symmetry/04b-直积.md",
-    "Molecular-Symmetry/02-群的四条公理.md",
     "physchem-2/image/attachment/锥形交叉示意图.png",
     "physchem-2/image/attachment/谐振子相干态演化.gif",
     "physchem-2/image/attachment/谐振子本征态.png",
@@ -279,8 +280,6 @@
     "TOEFL/句子填充错题.md.tmp.11404.cd285c4f8224",
     "TOEFL/句子填充错题.md.tmp.11404.f5c417c84d75",
     "sci_research/image/TBRs",
-    "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.ce6d56827715",
-    "Molecular-Symmetry/07-红外和拉曼活性的判据.md.tmp.28244.18190044b135",
     "sci_research/聚集诱导发光文献阅读/HPS的AIE机理解释.canvas",
     "学习工作流.canvas",
     "未命名 1.canvas",
