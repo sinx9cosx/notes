@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecular-vibration/03-简正振动数.md",
+                "file": "molecular-vibration/02-简正坐标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-简正振动数"
+              "title": "02-简正坐标"
             }
           }
         ],
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecular-vibration/03-简正振动数.md",
+                "file": "molecular-vibration/02-简正坐标.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -249,8 +249,8 @@
   },
   "active": "d73c741b7fdeae6e",
   "lastOpenFiles": [
-    "molecular-vibration/01-简正模式.md",
     "molecular-vibration/03-简正振动数.md",
+    "molecular-vibration/01-简正模式.md",
     "Molecular-Symmetry/06-振动分析.md",
     "TOEFL/模拟面试/题目/个人-个人计划习惯.md",
     "molecular-vibration/02-简正坐标.md",
