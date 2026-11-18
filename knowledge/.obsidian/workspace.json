@@ -271,12 +271,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -290,7 +289,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f642e62a29fb39ad",
+  "active": "26b9f7764f3750de",
   "lastOpenFiles": [
     "Molecular-Symmetry/08-红外和拉曼活性的判据.md",
     "Molecular-Symmetry/07-消失积分判据.md",
