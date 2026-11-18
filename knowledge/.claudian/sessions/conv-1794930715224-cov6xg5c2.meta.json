@@ -4,8 +4,8 @@
   "title": "解释T和V标识符的含义",
   "titleGenerationStatus": "success",
   "createdAt": 1794930715224,
-  "updatedAt": 1794999726711,
-  "lastResponseAt": 1794934895654,
+  "updatedAt": 1795010399299,
+  "lastResponseAt": 1795010399299,
   "sessionId": "3f2518a4-4d22-4409-b17b-499ea7e2c622",
   "providerState": {
     "providerSessionId": "3f2518a4-4d22-4409-b17b-499ea7e2c622"
@@ -13,11 +13,12 @@
   "currentNote": "molecular-vibration/01-简正模式.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 53,
+    "inputTokens": 358,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 59136,
-    "contextWindow": 200000,
-    "contextTokens": 59189,
-    "percentage": 30
+    "cacheReadInputTokens": 60288,
+    "contextWindow": 1000000,
+    "contextTokens": 60646,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
   }
 }
