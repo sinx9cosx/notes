@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physchem-1/量子力学.md",
+                "file": "molecular-vibration/01-简正模式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "量子力学"
+              "title": "01-简正模式"
             }
           },
           {
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physchem-1/量子力学.md",
+                "file": "molecular-vibration/01-简正模式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -289,12 +289,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4cc459232662c58e",
+  "active": "f642e62a29fb39ad",
   "lastOpenFiles": [
+    "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
     "molecular-vibration/01-简正模式.md",
     "Molecular-Symmetry/06-振动分析.md",
     "molecular-vibration/02-简正坐标.md",
     "molecular-vibration/03-简正振动数.md",
+    "physchem-1/量子力学.md",
     "TOEFL/写作练习/邮件-租演出服.md",
     "TOEFL/写作练习/学术讨论-线上线下课程.md",
     "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
@@ -307,7 +309,6 @@
     "TOEFL/模拟面试/题目/个人-个人计划习惯.md",
     "TOEFL/模拟面试/题目/个人-个人成长.md",
     "Molecular-Symmetry/批注-Molecular symmetry and group theory.md",
-    "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
     "Molecular-Symmetry/04b-直积.md",
     "TOEFL/素材卡/口语素材卡18-个人成长.md",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.a1ea34325c58",
@@ -319,7 +320,6 @@
     "TOEFL/素材卡/口语素材卡13-社团.md",
     "TOEFL/口语复述/真题/生活场景-家务工具.md",
     "TOEFL/口语复述/真题/校园场景-校园招聘会.md",
-    "TOEFL/口语复述/真题/生活场景-咖啡馆.md",
     "physchem-2/image/attachment/锥形交叉示意图.png",
     "physchem-2/image/attachment/谐振子相干态演化.gif",
     "physchem-2/image/attachment/谐振子本征态.png",
