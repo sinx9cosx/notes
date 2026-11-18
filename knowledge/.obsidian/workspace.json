@@ -27,12 +27,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/填词/TPO2/环境-城市热岛效应.md",
+                "file": "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "环境-城市热岛效应"
+              "title": "学术讨论-演讲是否讲故事"
+            }
+          },
+          {
+            "id": "5662794bd358815d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/写作练习/邮件-租演出服.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "邮件-租演出服"
+            }
+          },
+          {
+            "id": "f642e62a29fb39ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEFL/写作练习/邮件-租演出服.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "邮件-租演出服"
             }
           },
           {
@@ -64,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEFL/填词/TPO2/环境-城市热岛效应.md",
+                "file": "TOEFL/写作练习/邮件-租演出服.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -261,10 +289,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6f7ca114e3bb5c72",
+  "active": "f642e62a29fb39ad",
   "lastOpenFiles": [
-    "TOEFL/填词/TPO2/地理-气候变化.md",
+    "TOEFL/写作练习/学术讨论-线上线下课程.md",
+    "TOEFL/写作练习/邮件-租演出服.md",
+    "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
     "TOEFL/填词/TPO2/环境-城市热岛效应.md",
+    "TOEFL/填词/TPO2/地理-气候变化.md",
     "TOEFL/句子填充错题.md",
     "TOEFL/模拟面试/题目/个人-音乐爱好.md",
     "TOEFL/模拟面试/题目/校园-音乐教育.md",
@@ -289,9 +320,6 @@
     "TOEFL/口语复述/真题/生活场景-家务工具.md",
     "TOEFL/口语复述/真题/校园场景-校园招聘会.md",
     "TOEFL/口语复述/真题/生活场景-咖啡馆.md",
-    "TOEFL/口语复述/真题/生活场景-电子产品专卖.md",
-    "TOEFL/口语复述/真题/制作流程-木工.md",
-    "TOEFL/口语复述/真题/生活场景-动物园.md",
     "physchem-2/image/attachment/锥形交叉示意图.png",
     "physchem-2/image/attachment/谐振子相干态演化.gif",
     "physchem-2/image/attachment/谐振子本征态.png",
