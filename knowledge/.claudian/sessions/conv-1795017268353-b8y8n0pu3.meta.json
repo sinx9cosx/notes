@@ -4,8 +4,8 @@
   "title": "解释所问内容的含义",
   "titleGenerationStatus": "success",
   "createdAt": 1795017268353,
-  "updatedAt": 1795017898234,
-  "lastResponseAt": 1795017898234,
+  "updatedAt": 1795018306290,
+  "lastResponseAt": 1795018306290,
   "sessionId": "2fa8f77c-b4f2-451f-950a-49a63eb08bb0",
   "providerState": {
     "providerSessionId": "2fa8f77c-b4f2-451f-950a-49a63eb08bb0"
@@ -13,11 +13,11 @@
   "currentNote": "Molecular-Symmetry/07-消失积分判据.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 1362,
+    "inputTokens": 1144,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 32512,
+    "cacheReadInputTokens": 33792,
     "contextWindow": 200000,
-    "contextTokens": 33874,
+    "contextTokens": 34936,
     "percentage": 17
   }
 }
