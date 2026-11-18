@@ -49,8 +49,7 @@
               "title": "01-简正模式"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecular-vibration/03-简正振动数.md",
+                "file": "TOEFL/模拟面试/题目/个人-个人计划习惯.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -247,13 +246,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f3117353df875246",
+  "active": "86fc9922a84d6ae8",
   "lastOpenFiles": [
+    "molecular-vibration/03-简正振动数.md",
     "Molecular-Symmetry/批注-Molecular symmetry and group theory.md",
     "Molecular-Symmetry/07-红外和拉曼活性的判据.md",
     "Molecular-Symmetry/06-振动分析.md",
     "Molecular-Symmetry/04b-直积.md",
-    "molecular-vibration/03-简正振动数.md",
     "molecular-vibration/01-简正模式.md",
     "molecular-vibration/02-简正坐标.md",
     "TOEFL/模拟面试/题目/个人-个人计划习惯.md",
