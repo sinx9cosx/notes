@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular-Symmetry/07-消失积分判据.md",
+                "file": "Molecular-Symmetry/03-特征标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-消失积分判据"
+              "title": "03-特征标"
             }
           },
           {
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Molecular-Symmetry/07-消失积分判据.md",
+                "file": "Molecular-Symmetry/03-特征标.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Molecular-Symmetry/07-消失积分判据.md",
+                "file": "Molecular-Symmetry/03-特征标.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -291,8 +291,9 @@
   },
   "active": "f642e62a29fb39ad",
   "lastOpenFiles": [
-    "Molecular-Symmetry/04b-直积.md",
+    "Molecular-Symmetry/04-可约和不可约表示.md",
     "Molecular-Symmetry/07-消失积分判据.md",
+    "Molecular-Symmetry/04b-直积.md",
     "Molecular-Symmetry/08-红外和拉曼活性的判据.md",
     "Molecular-Symmetry/06-振动分析.md",
     "Molecular-Symmetry/05-群论应用三步法.md",
