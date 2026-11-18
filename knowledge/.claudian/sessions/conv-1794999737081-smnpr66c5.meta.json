@@ -1,0 +1,23 @@
+{
+  "id": "conv-1794999737081-smnpr66c5",
+  "providerId": "claude",
+  "title": "Write final explanation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1794999737081,
+  "updatedAt": 1794999777679,
+  "lastResponseAt": 1794999777679,
+  "sessionId": "33c798a1-7e9c-4ef7-ada2-aa7d9f2b0012",
+  "providerState": {
+    "providerSessionId": "33c798a1-7e9c-4ef7-ada2-aa7d9f2b0012"
+  },
+  "currentNote": "TOEFL/句子填充错题.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1980,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30848,
+    "contextWindow": 200000,
+    "contextTokens": 32828,
+    "percentage": 16
+  }
+}
