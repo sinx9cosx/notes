@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecular-vibration/01-简正模式.md",
+                "file": "sci_research/发光机制研究大纲/振动分析研究大纲.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-简正模式"
+              "title": "振动分析研究大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecular-electronic-transitions/06-跃迁矩积分选择定则.md",
+                "file": "sci_research/发光机制研究大纲/振动分析研究大纲.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,13 +233,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f3117353df875246",
+  "active": "d73c741b7fdeae6e",
   "lastOpenFiles": [
+    "sci_research/发光机制研究大纲/理论学习清单.md",
+    "sci_research/发光机制研究大纲/对称性研究大纲.md",
+    "sci_research/发光机制研究大纲/暗态的研究大纲.md",
+    "molecular-vibration/01-简正模式.md",
+    "molecular-electronic-transitions/06-跃迁矩积分选择定则.md",
     "molecular-electronic-transitions/02-电磁波照射下的跃迁概率公式.md",
     "molecular-electronic-transitions/02-振动耦合强度借用.md",
     "molecular-electronic-transitions/05-Fermi黄金规则.md",
-    "molecular-electronic-transitions/06-跃迁矩积分选择定则.md",
-    "molecular-vibration/01-简正模式.md",
     "molecular-electronic-transitions/04-偶极强度与吸收系数的关系.md",
     "molecular-electronic-transitions/03-激发态的平均寿命.md",
     "molecular-electronic-transitions/01-自旋轨道耦合.md",
@@ -259,9 +263,6 @@
     "physchem-1/量子力学.md",
     "TOEFL/写作练习/邮件-租演出服.md",
     "TOEFL/写作练习/学术讨论-线上线下课程.md",
-    "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
-    "TOEFL/填词/TPO2/环境-城市热岛效应.md",
-    "TOEFL/填词/TPO2/地理-气候变化.md",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.a1ea34325c58",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.199af3c386f3",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.e7980c1a524c",
