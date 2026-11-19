@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecular-electronic-transitions/01-自旋轨道耦合.md",
+                "file": "molecular-electronic-transitions/电磁波照射下的跃迁概率公式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-自旋轨道耦合"
+              "title": "电磁波照射下的跃迁概率公式"
             }
           },
           {
@@ -289,10 +289,13 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f3117353df875246",
+  "active": "b90c67a51319155a",
   "lastOpenFiles": [
-    "Molecular-Symmetry/未命名.md",
+    "quantum chemistry/光谱分类总览.md",
+    "quantum chemistry/光化学基元反应.md",
+    "molecular-electronic-transitions/电磁波照射下的跃迁概率公式.md",
     "molecular-electronic-transitions/01-自旋轨道耦合.md",
+    "Molecular-Symmetry/未命名.md",
     "molecular-electronic-transitions",
     "Molecular-Symmetry/03-特征标.md",
     "Molecular-Symmetry/04-可约和不可约表示.md",
@@ -316,9 +319,6 @@
     "TOEFL/模拟面试/题目/校园-音乐教育.md",
     "TOEFL/模拟面试/题目/个人-户外运动.md",
     "TOEFL/模拟面试/题目/个人-个人计划习惯.md",
-    "TOEFL/模拟面试/题目/个人-个人成长.md",
-    "Molecular-Symmetry/批注-Molecular symmetry and group theory.md",
-    "TOEFL/素材卡/口语素材卡18-个人成长.md",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.a1ea34325c58",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.199af3c386f3",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.e7980c1a524c",
