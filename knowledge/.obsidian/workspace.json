@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86fc9922a84d6ae8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/填词/TPO2/地理-气候变化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "地理-气候变化"
-            }
-          },
-          {
-            "id": "6f7ca114e3bb5c72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/写作练习/学术讨论-演讲是否讲故事.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "学术讨论-演讲是否讲故事"
-            }
-          },
-          {
-            "id": "5662794bd358815d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/写作练习/邮件-租演出服.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "邮件-租演出服"
-            }
-          },
-          {
-            "id": "f642e62a29fb39ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Molecular-Symmetry/03-特征标.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03-特征标"
-            }
-          },
-          {
             "id": "f3117353df875246",
             "type": "leaf",
             "state": {
@@ -91,8 +35,7 @@
               "title": "01-简正模式"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -291,12 +234,13 @@
   },
   "active": "f3117353df875246",
   "lastOpenFiles": [
-    "molecular-electronic-transitions/04-偶极强度与吸收系数的关系.md",
+    "molecular-electronic-transitions/02-电磁波照射下的跃迁概率公式.md",
+    "molecular-electronic-transitions/02-振动耦合强度借用.md",
     "molecular-electronic-transitions/05-Fermi黄金规则.md",
     "molecular-electronic-transitions/06-跃迁矩积分选择定则.md",
+    "molecular-vibration/01-简正模式.md",
+    "molecular-electronic-transitions/04-偶极强度与吸收系数的关系.md",
     "molecular-electronic-transitions/03-激发态的平均寿命.md",
-    "molecular-electronic-transitions/02-振动耦合强度借用.md",
-    "molecular-electronic-transitions/02-电磁波照射下的跃迁概率公式.md",
     "molecular-electronic-transitions/01-自旋轨道耦合.md",
     "quantum chemistry/光谱分类总览.md",
     "quantum chemistry/光化学基元反应.md",
@@ -310,7 +254,6 @@
     "Molecular-Symmetry/06-振动分析.md",
     "Molecular-Symmetry/05-群论应用三步法.md",
     "97-消失积分判据.md~RF232f1c5f.TMP",
-    "molecular-vibration/01-简正模式.md",
     "molecular-vibration/02-简正坐标.md",
     "molecular-vibration/03-简正振动数.md",
     "physchem-1/量子力学.md",
