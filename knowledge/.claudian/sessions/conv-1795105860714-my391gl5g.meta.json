@@ -1,0 +1,23 @@
+{
+  "id": "conv-1795105860714-my391gl5g",
+  "providerId": "claude",
+  "title": "解释未理解的内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1795105860715,
+  "updatedAt": 1795105893454,
+  "lastResponseAt": 1795105893454,
+  "sessionId": "5f71c1a5-dc53-4ac6-9ee1-c6f657e8c8e9",
+  "providerState": {
+    "providerSessionId": "5f71c1a5-dc53-4ac6-9ee1-c6f657e8c8e9"
+  },
+  "currentNote": "molecular-electronic-transitions/06-跃迁矩积分选择定则.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2040,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30976,
+    "contextWindow": 200000,
+    "contextTokens": 33016,
+    "percentage": 17
+  }
+}
