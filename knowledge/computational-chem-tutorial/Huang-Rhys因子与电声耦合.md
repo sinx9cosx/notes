@@ -190,7 +190,7 @@ Huang-Rhys 因子与 Duschinsky 旋转是描述电声耦合的两个独立但互
 
 ## 8. 相关笔记链接
 
-- [[Fermi黄金规则]]
+- [[05-Fermi黄金规则]]
 - [[MOMAP 3  Duschinsky旋转矩阵和振动分析]]
 - [[MOMAP 荧光光谱与速率：完整流程与结果解读]]
 - [[MOMAP 4 荧光光谱计算]]
