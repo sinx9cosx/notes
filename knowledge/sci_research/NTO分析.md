@@ -70,8 +70,21 @@ $$
 135-136 0.58923
 
 五元环
+ Orb#    Type       Ene(a.u.)     Occ    Composition    Population
+  135 Alpha&Beta       0.5892    2.000     18.034 %       0.360679
+  136 Alpha&Beta       0.5892    0.000      7.908 %       0.000000
+ Population of this fragment in these orbitals:    0.360679
 
+七元环
+ Orb#    Type       Ene(a.u.)     Occ    Composition    Population
+  135 Alpha&Beta       0.5892    2.000     15.541 %       0.310816
+  136 Alpha&Beta       0.5892    0.000     24.183 %       0.000000
+ Population of this fragment in these orbitals:    0.310816
 
+| TBR-S9 | 五元环      | 七元环      |
+| ------ | -------- | -------- |
+| 空穴轨道   | 18.034 % | 15.541 % |
+| 电子轨道   | 7.908 %  | 24.183 % |
 
 ## TBRs-S2
 
@@ -89,6 +102,10 @@ $$
   137 Alpha&Beta       0.9738    0.000     37.006 %       0.000000
  Population of this fragment in these orbitals:    0.680015
 
+| TBRs-S2 | 五元环      | 七元环      |
+| ------- | -------- | -------- |
+| 空穴轨道    | 24.983 % | 34.001 % |
+| 电子轨道    | 8.662 %  | 37.006 % |
 
 ## TBRs-S9
 
@@ -110,3 +127,10 @@ $$
   137 Alpha&Beta       0.4727    0.000     19.956 %       0.000000
   138 Alpha&Beta       0.3466    0.000     22.766 %       0.000000
  Population of this fragment in these orbitals:    0.878254
+
+| TBRs-S2 | 五元环      | 七元环      |
+| ------- | -------- | -------- |
+| 空穴轨道136 | 31.697 % | 28.719 % |
+| 电子轨道137 | 10.084 % | 19.956 % |
+| 空穴轨道135 | 15.096 % | 15.194 % |
+| 电子轨道138 | 14.557 % | 22.766 % |
