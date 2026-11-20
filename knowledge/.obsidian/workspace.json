@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "a49a5c4f1178d08a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sci_research/NTO分析.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NTO分析"
+            }
+          },
+          {
             "id": "a410cc4c3e0e72b4",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "Multiwfn手册第一章"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/TBR和TBRs分子对称性.md",
+                "file": "sci_research/NTO分析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,12 +248,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f3117353df875246",
+  "active": "a49a5c4f1178d08a",
   "lastOpenFiles": [
-    "instrument/Multiwfn/Multiwfn手册第一章.md",
-    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/TBR和TBRs分子对称性.md",
+    "sci_research/NTO分析.md",
+    "sci_research/TBRs暗态筛选.md",
+    "instrument/Multiwfn/Multiwfn手册第一章.md",
     "sci_research/发光机制研究大纲/振动分析研究大纲.md",
+    "Molecular-Symmetry/06-振动分析.md",
+    "molecular-vibration/03-简正振动数.md",
+    "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
     "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
@@ -246,7 +265,6 @@
     "sci_research/TBR/TBR-二氯甲烷.md",
     "sci_research/发光机制研究大纲/理论学习清单.md",
     "sci_research/发光机制研究大纲/对称性研究大纲.md",
-    "sci_research/TBRs筛选暗态.md",
     "sci_research/发光机制研究大纲/暗态的研究大纲.md",
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
@@ -262,9 +280,6 @@
     "TOEFL/模拟面试/题目/个人-户外运动.md",
     "molecular-vibration/01-简正模式.md",
     "molecular-electronic-transitions/02-电磁波照射下的跃迁概率公式.md",
-    "molecular-electronic-transitions/02-振动耦合强度借用.md",
-    "molecular-electronic-transitions/05-Fermi黄金规则.md",
-    "molecular-electronic-transitions/04-偶极强度与吸收系数的关系.md",
     "molecular-electronic-transitions",
     "97-消失积分判据.md~RF232f1c5f.TMP",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.a1ea34325c58",
