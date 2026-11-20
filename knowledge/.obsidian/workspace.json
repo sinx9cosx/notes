@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/TBR和TBRs分子对称性.md",
+                "file": "sci_research/NTO分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBR和TBRs分子对称性"
+              "title": "NTO分析"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/NTO分析.md",
+                "file": "sci_research/TBR/TBR-二氯甲烷.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NTO分析"
+              "title": "TBR-二氯甲烷"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Multiwfn手册第一章"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0496c47be577e363",
@@ -248,21 +248,22 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a49a5c4f1178d08a",
+  "active": "f3117353df875246",
   "lastOpenFiles": [
-    "sci_research/TBR和TBRs分子对称性.md",
-    "sci_research/NTO分析.md",
+    "sci_research/TBRs/TBRs-二氯甲烷.md",
     "sci_research/TBRs暗态筛选.md",
+    "sci_research/NTO分析.md",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
+    "sci_research/TBR/TBR-二氯甲烷.md",
+    "sci_research/TBR/TBR-s9光谱.md",
+    "sci_research/TBR和TBRs分子对称性.md",
     "sci_research/发光机制研究大纲/振动分析研究大纲.md",
     "Molecular-Symmetry/06-振动分析.md",
     "molecular-vibration/03-简正振动数.md",
     "instrument/MOMAP/MOMAP 荧光光谱与速率：完整流程与结果解读.md",
-    "sci_research/TBR/TBR-s9光谱.md",
     "sci_research/TBR/TBR-s9.md",
     "sci_research/TBR/Emission Spectra of TBR.md",
     "sci_research/TBR/s0与激发态s1的对比.md",
-    "sci_research/TBR/TBR-二氯甲烷.md",
     "sci_research/发光机制研究大纲/理论学习清单.md",
     "sci_research/发光机制研究大纲/对称性研究大纲.md",
     "sci_research/发光机制研究大纲/暗态的研究大纲.md",
@@ -279,7 +280,6 @@
     "TOEFL/模拟面试/题目/个人-个人成长.md",
     "TOEFL/模拟面试/题目/个人-户外运动.md",
     "molecular-vibration/01-简正模式.md",
-    "molecular-electronic-transitions/02-电磁波照射下的跃迁概率公式.md",
     "molecular-electronic-transitions",
     "97-消失积分判据.md~RF232f1c5f.TMP",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.a1ea34325c58",
