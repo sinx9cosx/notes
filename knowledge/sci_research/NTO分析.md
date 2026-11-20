@@ -1,6 +1,8 @@
 ---
 tags:
-  - English
+  - 计算化学
+  - research
+  - 后处理
 Category:
   - 笔记
 ---
@@ -14,6 +16,9 @@ Category:
 输入待计算的激发态
 3 Show atom or fragment contribution to hole and electron and plot the contributions as heat map->
 精度：2
+-1 Load fragment definition
+定义片段
+2 Export the data as he_atm.txt in current folder
 
 
 ## TBR-S9
@@ -24,6 +29,8 @@ Category:
 $$
 Overlap=\sqrt{Hole×Electron  }​
 $$
+如果一个片段对空穴和电子的贡献都很大，那么它们的重叠值会很高，说明该片段内发生的激发具有很强的**局域特征（LE）**。
+反之，如果空穴和电子分布在不同片段，那么每个片段自身的重叠值会很低，这是**电荷转移（CT）**的典型信号。
 
 |     | 空穴密度   | 电子密度   | 重叠贡献   |
 | --- | ------ | ------ | ------ |
@@ -34,3 +41,15 @@ $$
 
 五元环：13,28,10,6,37
 七元环：10,6,3,26,22,7,20
+
+|     | 空穴密度   | 电子密度   | 重叠贡献   |
+| --- | ------ | ------ | ------ |
+| 五元环 | 20.175 | 6.796  | 11.709 |
+| 七元环 | 24.870 | 11.395 | 16.835 |
+
+## TBRs-S2
+
+|     | 空穴密度 | 电子密度 | 重叠贡献 |
+| --- | ---- | ---- | ---- |
+| 五元环 |      |      |      |
+| 七元环 |      |      |      |
