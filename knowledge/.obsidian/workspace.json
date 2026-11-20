@@ -22,49 +22,21 @@
             }
           },
           {
-            "id": "d73c741b7fdeae6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEFL/模拟面试/题目/个人-户外运动.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "个人-户外运动"
-            }
-          },
-          {
             "id": "a59b48cc2a7a10a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEFL/模拟面试/题目/个人-个人成长.md",
+                "file": "TOEFL/模拟面试/题目/个人-购物习惯.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "个人-个人成长"
-            }
-          },
-          {
-            "id": "c48156562f7554d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "听力错题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "听力错题"
+              "title": "个人-购物习惯"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "听力错题.md",
+                "file": "TOEFL/模拟面试/题目/个人-购物习惯.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -261,11 +233,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c48156562f7554d7",
+  "active": "a59b48cc2a7a10a4",
   "lastOpenFiles": [
     "听力错题.md",
-    "TOEFL/模拟面试/题目/个人-个人成长.md",
     "TOEFL/模拟面试/题目/个人-购物习惯.md",
+    "听力错题.md.tmp.24548.fc0e5d6a6ffb",
+    "听力错题.md.tmp.24548.482430df777c",
+    "听力错题.md.tmp.24548.fb456f6bf7e9",
+    "听力错题.md.tmp.24548.477ab7919593",
+    "TOEFL/模拟面试/题目/个人-个人成长.md",
     "TOEFL/模拟面试/题目/个人-户外运动.md",
     "sci_research/发光机制研究大纲/对称性研究大纲.md",
     "sci_research/发光机制研究大纲/暗态的研究大纲.md",
@@ -289,7 +265,6 @@
     "Molecular-Symmetry/07-消失积分判据.md",
     "Molecular-Symmetry/04b-直积.md",
     "Molecular-Symmetry/08-红外和拉曼活性的判据.md",
-    "Molecular-Symmetry/06-振动分析.md",
     "97-消失积分判据.md~RF232f1c5f.TMP",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.a1ea34325c58",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.199af3c386f3",
@@ -305,10 +280,6 @@
     "physchem-2/image/attachment/线型分子势能面.jpg",
     "physchem-2/image/attachment/相律推导.png",
     "physchem-2/image/attachment",
-    "physchem-2/attachment",
-    "physchem-2/attachment.zip",
-    "physchem-2/10-溶液与多相混合物/attachment.zip",
-    "molecular-vibration",
     "sci_research/聚集诱导发光文献阅读/HPS的AIE机理解释.canvas",
     "学习工作流.canvas",
     "未命名 1.canvas",
