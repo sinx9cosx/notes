@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/发光机制研究大纲/对称性研究大纲.md",
+                "file": "sci_research/TBR/TBR-二氯甲烷.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "对称性研究大纲"
+              "title": "TBR-二氯甲烷"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instrument/Multiwfn/Multiwfn手册第一章.md",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiwfn手册第一章"
+              "title": "TBR和TBRs分子对称性"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/发光机制研究大纲/对称性研究大纲.md",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,14 +233,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "f3117353df875246",
+  "active": "a410cc4c3e0e72b4",
   "lastOpenFiles": [
-    "sci_research/发光机制研究大纲/暗态的研究大纲.md",
+    "sci_research/TBR/TBR-二氯甲烷.md",
+    "sci_research/TBR和TBRs分子对称性.md",
+    "sci_research/TBRs筛选暗态.md",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
+    "sci_research/发光机制研究大纲/对称性研究大纲.md",
+    "sci_research/发光机制研究大纲/暗态的研究大纲.md",
     "instrument/Multiwfn/Multiwfn手册5.2-5.5.md",
     "instrument/Multiwfn/Multiwfn手册2.1-2.5.md",
     "instrument/Multiwfn/Multiwfn命令行操作完整教程.md",
-    "sci_research/TBRs筛选暗态.md",
     "molecular-electronic-transitions/06-跃迁矩积分选择定则.md",
     "TOEFL/模拟面试/题目/个人-购物习惯.md",
     "听力错题.md",
@@ -249,7 +253,6 @@
     "听力错题.md.tmp.24548.477ab7919593",
     "TOEFL/模拟面试/题目/个人-个人成长.md",
     "TOEFL/模拟面试/题目/个人-户外运动.md",
-    "sci_research/发光机制研究大纲/对称性研究大纲.md",
     "sci_research/发光机制研究大纲/振动分析研究大纲.md",
     "sci_research/发光机制研究大纲/理论学习清单.md",
     "molecular-vibration/01-简正模式.md",
@@ -263,8 +266,6 @@
     "quantum chemistry/光化学基元反应.md",
     "Molecular-Symmetry/未命名.md",
     "molecular-electronic-transitions",
-    "Molecular-Symmetry/03-特征标.md",
-    "Molecular-Symmetry/04-可约和不可约表示.md",
     "97-消失积分判据.md~RF232f1c5f.TMP",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.a1ea34325c58",
     "TOEFL/素材卡/口语素材卡18-个人成长.md.tmp.35628.199af3c386f3",
