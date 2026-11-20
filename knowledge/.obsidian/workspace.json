@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sci_research/NTO分析.md",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NTO分析"
+              "title": "TBR和TBRs分子对称性"
             }
           },
           {
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sci_research/NTO分析.md",
+                "file": "sci_research/TBR和TBRs分子对称性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -249,9 +249,9 @@
   },
   "active": "f3117353df875246",
   "lastOpenFiles": [
+    "sci_research/NTO分析.md",
     "sci_research/TBRs/TBRs-二氯甲烷.md",
     "sci_research/TBRs暗态筛选.md",
-    "sci_research/NTO分析.md",
     "instrument/Multiwfn/Multiwfn手册第一章.md",
     "sci_research/TBR/TBR-二氯甲烷.md",
     "sci_research/TBR/TBR-s9光谱.md",
