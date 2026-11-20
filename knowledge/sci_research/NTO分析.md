@@ -60,17 +60,53 @@ $$
 
 ## NTO轨道组成分析
 
+8 Orbital composition analysis
+8 Calculate atom and fragment contributions by Hirshfeld method
+ 1 Use build-in sphericalized atomic densities in free-states (recommended)
+ 
+
 ## TBR-S9
 
 135-136 0.58923
+
+五元环
+
 
 
 ## TBRs-S2
 
 136-137 0.97381
 
+五元环
+ Orb#    Type       Ene(a.u.)     Occ    Composition    Population
+  136 Alpha&Beta       0.9738    2.000     24.983 %       0.499654
+  137 Alpha&Beta       0.9738    0.000      8.662 %       0.000000
+ Population of this fragment in these orbitals:    0.499654
+
+七元环
+ Orb#    Type       Ene(a.u.)     Occ    Composition    Population
+  136 Alpha&Beta       0.9738    2.000     34.001 %       0.680015
+  137 Alpha&Beta       0.9738    0.000     37.006 %       0.000000
+ Population of this fragment in these orbitals:    0.680015
+
 
 ## TBRs-S9
 
 136-137 0.47269
 135-138 0.34663
+
+五元环
+ Orb#    Type       Ene(a.u.)     Occ    Composition    Population
+  135 Alpha&Beta       0.3466    2.000     15.096 %       0.301930
+  136 Alpha&Beta       0.4727    2.000     31.697 %       0.633940
+  137 Alpha&Beta       0.4727    0.000     10.084 %       0.000000
+  138 Alpha&Beta       0.3466    0.000     14.557 %       0.000000
+ Population of this fragment in these orbitals:    0.935870
+
+七元环
+ Orb#    Type       Ene(a.u.)     Occ    Composition    Population
+  135 Alpha&Beta       0.3466    2.000     15.194 %       0.303879
+  136 Alpha&Beta       0.4727    2.000     28.719 %       0.574374
+  137 Alpha&Beta       0.4727    0.000     19.956 %       0.000000
+  138 Alpha&Beta       0.3466    0.000     22.766 %       0.000000
+ Population of this fragment in these orbitals:    0.878254
